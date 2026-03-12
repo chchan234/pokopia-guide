@@ -5,7 +5,7 @@ import { habitats } from '@/lib/data';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '서식지 가이드 | 포코피아 가이드',
+  title: '서식지 가이드 | pokowiki',
   description: '포코피아 서식지 212개를 이미지와 연결 포켓몬 기준으로 정리한 페이지입니다.',
 };
 

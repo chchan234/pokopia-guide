@@ -3,7 +3,7 @@ import PokemonFilter from '@/components/pokemon-filter';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '포켓몬 도감 | 포코피아 가이드',
+  title: '포켓몬 도감 | pokowiki',
   description: '포코피아 포켓몬 306종을 공식 한국어명과 서식지 데이터 기준으로 정리한 도감입니다.',
 };
 

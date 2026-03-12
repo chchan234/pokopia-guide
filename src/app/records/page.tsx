@@ -5,7 +5,7 @@ import { humanRecords } from '@/lib/data';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '기록 가이드 | 포코피아 가이드',
+  title: '기록 가이드 | pokowiki',
   description: '포코피아 인간의 기록 126개 위치와 직접 보상, 패션 해금 정보를 정리한 페이지입니다.',
 };
 

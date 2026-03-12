@@ -6,7 +6,7 @@ import { getFashionCollectionId } from '@/lib/collection';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '의상 가이드 | 포코피아 가이드',
+  title: '의상 가이드 | pokowiki',
   description: '포코피아 의상, 헤어, 코디 세트의 이미지와 해금 기록을 연결한 가이드입니다.',
 };
 

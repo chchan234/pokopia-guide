@@ -25,7 +25,7 @@ export default function RootLayout({
             <Header />
             <main className="max-w-6xl mx-auto px-5 py-6 md:px-6">{children}</main>
             <footer className="border-t border-border mt-16 py-8 text-center text-xs text-muted-foreground">
-              <p>포코피아 가이드 · 팬 제작 비공식 데이터 정리</p>
+              <p>pokowiki · 팬 제작 비공식 데이터 정리</p>
               <p className="mt-1">문의사항: coldcow11@gmail.com</p>
               <p className="mt-1 opacity-70">
                 Pokemon and Pokopia are trademarks of Nintendo / The Pokemon Company.

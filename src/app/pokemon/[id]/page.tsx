@@ -26,11 +26,11 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const { id } = await params;
   const entry = getPokemonBySlug(id);
   if (!entry) {
-    return { title: '포켓몬을 찾을 수 없음 | 포코피아 가이드' };
+    return { title: '포켓몬을 찾을 수 없음 | pokowiki' };
   }
 
   return {
-    title: `${entry.name} #${entry.number} | 포코피아 가이드`,
+    title: `${entry.name} #${entry.number} | pokowiki`,
     description: `${entry.name}의 주 서식지, 좋아하는 환경, 특기, 가르쳐주는 기술을 정리했습니다.`,
   };
 }

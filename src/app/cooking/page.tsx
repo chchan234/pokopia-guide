@@ -2,7 +2,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '요리 가이드 준비 중 | 포코피아 가이드',
+  title: '요리 가이드 준비 중 | pokowiki',
 };
 
 export default function CookingPage() {

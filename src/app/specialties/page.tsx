@@ -3,7 +3,7 @@ import { pokemon, specialties } from '@/lib/data';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '특기 가이드 | 포코피아 가이드',
+  title: '특기 가이드 | pokowiki',
   description: `포코피아 포켓몬 특기 ${specialties.length}개를 보유 포켓몬 기준으로 묶어 정리한 페이지입니다.`,
 };
 

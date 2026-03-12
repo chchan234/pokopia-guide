@@ -4,7 +4,7 @@ import { fashionCategories, habitats, humanRecords, pokemon } from '@/lib/data';
 import { getFashionCollectionId } from '@/lib/collection';
 
 export const metadata: Metadata = {
-  title: '내 수집 | 포코피아 가이드',
+  title: '내 수집 | pokowiki',
   description: '포켓몬, 서식지, 인간의 기록, 의상 보유 상태를 브라우저에 저장하고 보유/미보유로 나눠 보는 페이지입니다.',
 };
 

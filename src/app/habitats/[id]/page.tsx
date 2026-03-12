@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   const { id } = await params;
   const habitat = getHabitatById(id);
   if (!habitat) {
-    return { title: '서식지를 찾을 수 없음 | 포코피아 가이드' };
+    return { title: '서식지를 찾을 수 없음 | pokowiki' };
   }
 
   return {
