@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <head>
+      <body className="font-sans antialiased">
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-5GE2PLN0JN" strategy="afterInteractive" />
         <Script id="gtag-init" strategy="afterInteractive">
           {`window.dataLayer = window.dataLayer || [];
@@ -28,8 +28,6 @@ export default function RootLayout({
           gtag('js', new Date());
           gtag('config', 'G-5GE2PLN0JN');`}
         </Script>
-      </head>
-      <body className="font-sans antialiased">
         <CollectionProvider>
           <div className="min-h-screen bg-[radial-gradient(circle_at_top,#fffdf8_0%,#fff9f0_48%,#f9f0e1_100%)]">
             <Header />
