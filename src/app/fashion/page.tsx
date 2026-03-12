@@ -6,8 +6,8 @@ import { getFashionCollectionId } from '@/lib/collection';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '의상 가이드 | pokowiki',
-  description: '포코피아 의상, 헤어, 코디 세트의 이미지와 해금 기록을 연결한 가이드입니다.',
+  title: '의상 | pokowiki',
+  description: '포코피아 의상, 헤어, 코디 세트의 이미지와 해금 기록을 연결했습니다.',
 };
 
 export default function FashionPage() {
@@ -23,7 +23,7 @@ export default function FashionPage() {
   return (
     <div className="space-y-10">
       <div>
-        <h1 className="text-2xl font-extrabold text-foreground">의상 가이드</h1>
+        <h1 className="text-2xl font-extrabold text-foreground">의상</h1>
         <p className="mt-1 text-sm text-muted-foreground">
           총 {totalItems}개 아이템 · 인간의 기록 해금 {unlockedByRecords}개 · 이미지가 없는 항목은 자리만 유지
         </p>

@@ -5,7 +5,7 @@ import { habitats } from '@/lib/data';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: '서식지 가이드 | pokowiki',
+  title: '서식지 | pokowiki',
   description: '포코피아 서식지 212개를 이미지와 연결 포켓몬 기준으로 정리한 페이지입니다.',
 };
 
@@ -13,7 +13,7 @@ export default function HabitatsPage() {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-2xl font-extrabold text-foreground">서식지 가이드</h1>
+        <h1 className="text-2xl font-extrabold text-foreground">서식지</h1>
         <p className="mt-1 text-sm text-muted-foreground">
           총 {habitats.length}개 서식지 · 이미지와 포켓몬 매칭을 원본 데이터 기준으로 정리
         </p>

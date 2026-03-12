@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   }
 
   return {
-    title: `${record.name} | 포코피아 기록 가이드`,
+    title: `${record.name} | pokowiki`,
     description: `${record.name}의 위치와 보상 정보를 정리했습니다.`,
   };
 }

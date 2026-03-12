@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   }
 
   return {
-    title: `${habitat.name} | 포코피아 서식지 가이드`,
+    title: `${habitat.name} | pokowiki`,
     description: `${habitat.name}에 연결된 포켓몬과 지역 분포를 정리했습니다.`,
   };
 }
