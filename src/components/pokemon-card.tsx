@@ -10,6 +10,11 @@ import TypeBadge from './type-badge';
 export default function PokemonCard({ pokemon: entry }: { pokemon: Pokemon }) {
   const areaTheme = areaThemes[entry.primaryMap];
   const visibleSpecialties = entry.specialties.slice(0, 2);
+  const primaryHabitatPrefix = entry.primaryHabitatNumber
+    ? `No.${entry.primaryHabitatNumber} `
+    : entry.primaryHabitatIsEvent
+      ? '이벤트 서식지 '
+      : '';
 
   return (
     <article className="pk-card h-full rounded-2xl border border-border bg-card p-4">
@@ -66,7 +71,9 @@ export default function PokemonCard({ pokemon: entry }: { pokemon: Pokemon }) {
           <p className="text-[11px] font-semibold" style={{ color: areaTheme?.color ?? '#8B6B4A' }}>
             {entry.primaryMap}
           </p>
-          <p className="truncate text-[11px] text-muted-foreground">{entry.primaryHabitat ?? '주 서식지 미상'}</p>
+          <p className="truncate text-[11px] text-muted-foreground">
+            {entry.primaryHabitat ? `${primaryHabitatPrefix}${entry.primaryHabitat}` : '주 서식지 미상'}
+          </p>
         </div>
       </Link>
     </article>
