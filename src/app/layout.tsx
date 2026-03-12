@@ -28,7 +28,7 @@ export default function RootLayout({
               <p>pokowiki · 팬 제작 비공식 데이터 정리</p>
               <p className="mt-1">문의사항: coldcow11@gmail.com</p>
               <p className="mt-1 opacity-70">
-                Pokemon and Pokopia are trademarks of Nintendo / The Pokemon Company.
+                This is an unofficial fan site. Pokemon and Pokopia are trademarks of Nintendo / The Pokemon Company. This site is not affiliated with or endorsed by Nintendo / The Pokemon Company.
               </p>
             </footer>
           </div>
