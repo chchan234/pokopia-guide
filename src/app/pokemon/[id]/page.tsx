@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 
   return {
     title: `${entry.name} #${entry.number} | pokowiki`,
-    description: `${entry.name}의 주 서식지, 좋아하는 환경, 특기, 가르쳐주는 기술을 정리했습니다.`,
+    description: `${entry.name}의 주 서식지, 좋아하는 환경, 특기, 특기를 정리했습니다.`,
   };
 }
 
@@ -143,17 +143,6 @@ export default async function PokemonDetailPage({ params }: { params: Promise<{ 
           </InfoRow>
         )}
         {entry.favoriteEnvironment && <InfoRow label="좋아하는 환경">{entry.favoriteEnvironment}</InfoRow>}
-        {entry.taughtSkills.length > 0 && (
-          <InfoRow label="가르쳐주는 기술">
-            <div className="flex flex-wrap gap-1.5">
-              {entry.taughtSkills.map((skill) => (
-                <span key={skill.nameJp} className="rounded-full bg-pk-brown-light px-2.5 py-1 text-xs font-semibold text-pk-brown-dark">
-                  {skill.nameKo}
-                </span>
-              ))}
-            </div>
-          </InfoRow>
-        )}
       </section>
 
       {(entry.favoriteItems.length > 0 || entry.favoriteItemsNote || entry.favoriteItemVariants.length > 0 || entry.extraMaterials.length > 0) && (
