@@ -5,6 +5,7 @@ import { areaThemes, habitatRarityTheme } from '@/lib/constants';
 import { getPokemonBySlug, pokemon } from '@/lib/data';
 import CollectionToggleButton from '@/components/collection-toggle-button';
 import TypeBadge from '@/components/type-badge';
+import ZoomableImage from '@/components/zoomable-image';
 import type { Metadata } from 'next';
 
 const allPokemon = pokemon;
@@ -204,7 +205,14 @@ export default async function PokemonDetailPage({ params }: { params: Promise<{ 
                   <div className="flex gap-4 p-5">
                     <div className="flex h-[92px] w-[92px] flex-shrink-0 items-center justify-center rounded-2xl bg-muted/40">
                       {habitat.imagePath ? (
-                        <Image src={habitat.imagePath} alt={habitat.name} width={80} height={80} className="object-contain" />
+                        <ZoomableImage
+                          src={habitat.imagePath}
+                          alt={habitat.name}
+                          width={80}
+                          height={80}
+                          className="object-contain"
+                          buttonClassName="inline-flex cursor-zoom-in items-center justify-center"
+                        />
                       ) : (
                         <span className="text-[11px] text-muted-foreground">이미지 없음</span>
                       )}

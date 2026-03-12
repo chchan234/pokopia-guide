@@ -56,12 +56,15 @@ export default async function RecordDetailPage({ params }: { params: Promise<{ i
             <h1 className="text-3xl font-extrabold text-pk-brown-dark md:text-4xl">{record.name}</h1>
             <p className="mt-2 text-sm text-muted-foreground">{record.locationDetail}</p>
           </div>
-          <CollectionToggleButton category="records" itemId={record.id} />
-          {record.directReward && (
-            <div className="inline-flex rounded-2xl bg-white/80 px-4 py-3 text-sm font-semibold text-foreground">
-              {record.directRewardType}: {record.directReward}
-            </div>
-          )}
+          <div className="flex flex-wrap items-start gap-3">
+            <CollectionToggleButton category="records" itemId={record.id} />
+            {record.directReward && (
+              <div className="max-w-full rounded-2xl bg-white/80 px-4 py-3 text-sm text-foreground">
+                <p className="text-[11px] font-semibold text-pk-green-dark">{record.directRewardType}</p>
+                <p className="mt-1 break-words font-bold">{record.directReward}</p>
+              </div>
+            )}
+          </div>
         </div>
       </section>
 
@@ -97,7 +100,7 @@ export default async function RecordDetailPage({ params }: { params: Promise<{ i
                   )}
                 </div>
                 <p className="mt-3 text-[11px] font-semibold text-pk-green-dark">{reward.category}</p>
-                <h3 className="mt-1 text-sm font-bold text-foreground">{reward.name}</h3>
+                <h3 className="mt-1 break-words text-sm font-bold text-foreground">{reward.name}</h3>
               </article>
             ))}
           </div>

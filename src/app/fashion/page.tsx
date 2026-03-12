@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import CollectionToggleButton from '@/components/collection-toggle-button';
 import { fashionCategoryOrder } from '@/lib/constants';
 import { fashionCategories } from '@/lib/data';
@@ -71,11 +72,28 @@ export default function FashionPage() {
                     <div className="mt-3 space-y-2">
                       <p className="text-[11px] font-semibold text-pk-green-dark">해금 기록</p>
                       <div className="flex flex-wrap gap-1.5">
-                        {item.unlockRecordNames.map((recordName) => (
-                          <span key={`${item.name}-${recordName}`} className="rounded-full bg-pk-green-light px-2 py-0.5 text-[11px] font-medium text-pk-green-dark">
-                            {recordName}
-                          </span>
-                        ))}
+                        {item.unlockRecordNames.map((recordName, index) => {
+                          const recordId = item.unlockRecordIds[index];
+                          const key = `${item.name}-${recordName}`;
+
+                          if (!recordId) {
+                            return (
+                              <span key={key} className="rounded-full bg-pk-green-light px-2 py-0.5 text-[11px] font-medium text-pk-green-dark">
+                                {recordName}
+                              </span>
+                            );
+                          }
+
+                          return (
+                            <Link
+                              key={key}
+                              href={`/records/${recordId}`}
+                              className="rounded-full bg-pk-green-light px-2 py-0.5 text-[11px] font-medium text-pk-green-dark hover:bg-pk-green hover:text-white"
+                            >
+                              {recordName}
+                            </Link>
+                          );
+                        })}
                       </div>
                     </div>
                   ) : (

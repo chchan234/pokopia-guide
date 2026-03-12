@@ -73,8 +73,8 @@ export default function RecordsPage() {
             <div className="divide-y divide-border">
               {records.map((record) => (
                 <article key={record.id} className="px-6 py-4">
-                  <div className="flex flex-wrap items-start justify-between gap-3">
-                    <div>
+                  <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+                    <div className="min-w-0">
                       <div className="flex flex-wrap items-center gap-2">
                         <span className="mono text-xs text-muted-foreground">#{String(record.id).padStart(3, '0')}</span>
                         <span className="rounded-full bg-pk-brown-light px-2 py-0.5 text-[11px] font-semibold text-pk-brown-dark">
@@ -86,12 +86,12 @@ export default function RecordsPage() {
                       </Link>
                       <p className="mt-1 text-sm text-muted-foreground">{record.locationDetail}</p>
                     </div>
-                    <div className="flex flex-col items-end gap-2">
+                    <div className="flex flex-col gap-2 sm:items-end">
                       <CollectionToggleButton category="records" itemId={record.id} compact />
                       {record.directReward && (
-                        <div className="rounded-2xl bg-pk-green-light px-3 py-2 text-right">
+                        <div className="max-w-full rounded-2xl bg-pk-green-light px-3 py-2 sm:text-right">
                           <div className="text-[11px] font-semibold text-pk-green-dark">{record.directRewardType}</div>
-                          <div className="text-sm font-bold text-foreground">{record.directReward}</div>
+                          <div className="break-words text-sm font-bold text-foreground">{record.directReward}</div>
                         </div>
                       )}
                     </div>

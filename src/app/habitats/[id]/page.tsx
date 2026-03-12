@@ -5,6 +5,7 @@ import { getHabitatById, habitats, pokemon } from '@/lib/data';
 import { areaThemes } from '@/lib/constants';
 import CollectionToggleButton from '@/components/collection-toggle-button';
 import TypeBadge from '@/components/type-badge';
+import ZoomableImage from '@/components/zoomable-image';
 import type { Metadata } from 'next';
 
 export function generateStaticParams() {
@@ -48,7 +49,15 @@ export default async function HabitatDetailPage({ params }: { params: Promise<{ 
         <div className="grid gap-6 p-8 md:grid-cols-[220px_minmax(0,1fr)] md:p-10">
           <div className="flex items-center justify-center rounded-[1.75rem] bg-white/70 p-6">
             {habitat.imagePath ? (
-              <Image src={habitat.imagePath} alt={habitat.name} width={180} height={180} className="object-contain" priority />
+              <ZoomableImage
+                src={habitat.imagePath}
+                alt={habitat.name}
+                width={180}
+                height={180}
+                className="object-contain"
+                buttonClassName="inline-flex cursor-zoom-in items-center justify-center"
+                priority
+              />
             ) : (
               <div className="flex h-[180px] w-[180px] items-center justify-center rounded-full bg-muted text-sm text-muted-foreground">
                 이미지 없음

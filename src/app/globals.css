@@ -102,10 +102,13 @@
 
   html {
     @apply font-sans;
+    font-size: 15px;
+    -webkit-text-size-adjust: 100%;
   }
 
   body {
     @apply bg-background text-foreground;
+    line-height: 1.5;
   }
 
   a {
@@ -157,4 +160,10 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #c5bcae;
+}
+
+@media (min-width: 640px) {
+  html {
+    font-size: 16px;
+  }
 }
