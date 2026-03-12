@@ -4,7 +4,7 @@ import Header from '@/components/header';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: '포코피아 가이드 | Pokopia Guide',
+  title: 'pokowiki',
   description:
     '포켓몬 포코피아 포켓몬 도감, 서식지, 인간의 기록, 의상·헤어 입수처를 원본 데이터 기준으로 정리한 한국어 가이드.',
   icons: {
