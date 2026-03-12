@@ -28,7 +28,7 @@ export default function CollectionPage() {
       }))}
       habitats={habitats.map((entry) => ({
         id: entry.id,
-        label: entry.name,
+        label: `${entry.number ? `No.${entry.number} ` : entry.isEvent ? '이벤트 서식지 ' : ''}${entry.name}`,
         description: `${entry.mapNames.join(' · ') || '미상'} · 연결 포켓몬 ${entry.pokemonCount}마리`,
         href: `/habitats/${entry.id}`,
       }))}

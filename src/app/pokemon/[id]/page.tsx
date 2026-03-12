@@ -125,6 +125,7 @@ export default async function PokemonDetailPage({ params }: { params: Promise<{ 
         <InfoRow label="주 서식지">
           {entry.primaryHabitatId ? (
             <Link href={`/habitats/${entry.primaryHabitatId}`} className="font-semibold text-pk-green-dark hover:text-pk-green">
+              {entry.primaryHabitatNumber ? `No.${entry.primaryHabitatNumber} ` : entry.primaryHabitatIsEvent ? '이벤트 서식지 ' : ''}
               {entry.primaryHabitat}
             </Link>
           ) : (
@@ -210,7 +211,10 @@ export default async function PokemonDetailPage({ params }: { params: Promise<{ 
                     </div>
                     <div className="min-w-0 flex-1">
                       <div className="flex flex-wrap items-center gap-2">
-                        <h3 className="font-bold text-foreground">{habitat.name}</h3>
+                        <h3 className="font-bold text-foreground">
+                          {habitat.number ? `No.${habitat.number} ` : habitat.isEvent ? '이벤트 서식지 ' : ''}
+                          {habitat.name}
+                        </h3>
                         <span className="rounded-full px-2.5 py-0.5 text-[11px] font-bold" style={{ backgroundColor: rarityTheme.bg, color: rarityTheme.color }}>
                           {habitat.rarityLabel} {habitat.rarityStars}
                         </span>

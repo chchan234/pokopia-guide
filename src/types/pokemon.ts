@@ -6,6 +6,9 @@ export interface NamedLabel {
 
 export interface PokemonHabitat {
   id: string | null;
+  number: string | null;
+  ingameHabitatNo: number | null;
+  isEvent: boolean;
   name: string;
   nameJp: string;
   imagePath: string | null;
@@ -46,6 +49,9 @@ export interface Pokemon {
   slotVariantNames: string[];
   primaryHabitat: string | null;
   primaryHabitatId: string | null;
+  primaryHabitatNo: number | null;
+  primaryHabitatNumber: string | null;
+  primaryHabitatIsEvent: boolean;
   habitatNames: string[];
   primaryMap: string;
   primaryMapKey: string;
@@ -59,6 +65,10 @@ export interface Pokemon {
 export interface Habitat {
   id: string;
   name: string;
+  nameJp: string | null;
+  number: string | null;
+  ingameHabitatNo: number | null;
+  isEvent: boolean;
   imagePath: string | null;
   requirementsJp: string[];
   requirementsKo: string[];

@@ -19,8 +19,8 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   }
 
   return {
-    title: `${habitat.name} | pokowiki`,
-    description: `${habitat.name}에 연결된 포켓몬과 지역 분포를 정리했습니다.`,
+    title: `${habitat.number ? `No.${habitat.number} ` : habitat.isEvent ? '이벤트 서식지 ' : ''}${habitat.name} | pokowiki`,
+    description: `${habitat.number ? `No.${habitat.number} ` : habitat.isEvent ? '이벤트 서식지 ' : ''}${habitat.name}에 연결된 포켓몬과 지역 분포를 정리했습니다.`,
   };
 }
 
@@ -58,6 +58,14 @@ export default async function HabitatDetailPage({ params }: { params: Promise<{ 
 
           <div className="space-y-5">
             <div className="flex flex-wrap items-center gap-2">
+              {habitat.number && (
+                <span className="mono rounded-full bg-white/80 px-3 py-1 text-xs font-bold text-muted-foreground">
+                  No.{habitat.number}
+                </span>
+              )}
+              {!habitat.number && habitat.isEvent && (
+                <span className="rounded-full bg-white/80 px-3 py-1 text-xs font-bold text-muted-foreground">이벤트 서식지</span>
+              )}
               <span className="rounded-full bg-white/80 px-3 py-1 text-xs font-semibold text-pk-brown-dark">
                 포켓몬 {habitat.pokemonCount}
               </span>

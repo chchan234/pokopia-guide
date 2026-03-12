@@ -9,6 +9,11 @@ const OUTPUT_FILE = path.join(APP_ROOT, 'src', 'data', 'site-data.json');
 const INGAME_REFERENCE_FILE = 'pokopia_ingame_pokedex_reference.json';
 const HABITAT_MATERIAL_MAP_FILE = 'pokopia_habitat_material_manual_map_ko.csv';
 const HABITAT_MATERIAL_EDITORIAL_MAP_FILE = 'pokopia_habitat_material_editorial_map_ko.json';
+const HABITAT_NUMBER_REFERENCE_FILE = 'pokopia_ingame_habitat_number_reference_game8.csv';
+const EVENT_HABITAT_NAME_JP_SET = new Set(['黄色のじゅうたん', 'タンポポとお昼ご飯', '遠足のおとも']);
+const HABITAT_NAME_KO_TO_JP_ALIASES = {
+  '작은 도서관': 'プチ図書館',
+};
 
 const TYPE_LABELS = {
   'あく': '악',
@@ -182,6 +187,28 @@ async function readMaterialKoMap(fileName) {
   );
 }
 
+async function readHabitatNoMap(fileName) {
+  const content = await fs.readFile(path.join(SOURCE_DATA_DIR, fileName), 'utf8');
+  const lines = content
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean);
+
+  return new Map(
+    lines
+      .slice(1)
+      .map((line) => {
+        const [habitatNoRaw, habitatNameJp] = line.split(',', 3);
+        const habitatNo = Number(habitatNoRaw);
+        if (!Number.isFinite(habitatNo) || !habitatNameJp) {
+          return null;
+        }
+        return [habitatNameJp, habitatNo];
+      })
+      .filter(Boolean)
+  );
+}
+
 function buildIngameReferenceMap(referenceRows) {
   return new Map(referenceRows.map((row) => [row.source_name_jp, row]));
 }
@@ -268,7 +295,33 @@ function buildHabitatRequirementMap(pokemonSource, materialKoMap, editorialMater
   return habitatRequirementMap;
 }
 
-function buildHabitatIndex(pokemonSource, habitatImages, ingameReferenceByJp, habitatRequirementMap) {
+function buildHabitatNameJpByKoMap(pokemonSource) {
+  const habitatNameJpByKo = new Map();
+
+  for (const row of pokemonSource) {
+    for (const habitat of row.habitats_ko ?? []) {
+      if (!habitat.name_ko || !habitat.name_jp || habitatNameJpByKo.has(habitat.name_ko)) {
+        continue;
+      }
+      habitatNameJpByKo.set(habitat.name_ko, habitat.name_jp);
+    }
+
+    if (row.primary_habitat_ko && row.primary_habitat_jp && !habitatNameJpByKo.has(row.primary_habitat_ko)) {
+      habitatNameJpByKo.set(row.primary_habitat_ko, row.primary_habitat_jp);
+    }
+  }
+
+  Object.entries(HABITAT_NAME_KO_TO_JP_ALIASES).forEach(([nameKo, nameJp]) => {
+    if (!habitatNameJpByKo.has(nameKo)) {
+      habitatNameJpByKo.set(nameKo, nameJp);
+    }
+  });
+
+  return habitatNameJpByKo;
+}
+
+function buildHabitatIndex(pokemonSource, habitatImages, ingameReferenceByJp, habitatRequirementMap, habitatNoByJp) {
+  const habitatNameJpByKo = buildHabitatNameJpByKoMap(pokemonSource);
   const habitatNames = unique([
     ...Array.from(habitatImages.keys()),
     ...pokemonSource.flatMap((row) => row.habitat_names_ko ?? []),
@@ -277,13 +330,30 @@ function buildHabitatIndex(pokemonSource, habitatImages, ingameReferenceByJp, ha
 
   const habitatIdByName = new Map();
   const habitatsByName = new Map();
+  const habitatMetaByName = new Map();
 
   habitatNames.forEach((name, index) => {
+    const nameJp = habitatNameJpByKo.get(name) ?? null;
+    const isEvent = Boolean(nameJp && EVENT_HABITAT_NAME_JP_SET.has(nameJp));
+    const ingameHabitatNo = !isEvent && nameJp ? habitatNoByJp.get(nameJp) ?? null : null;
     const id = `habitat-${String(index + 1).padStart(3, '0')}`;
+    const number = Number.isFinite(ingameHabitatNo) ? String(ingameHabitatNo).padStart(3, '0') : null;
+
     habitatIdByName.set(name, id);
+    habitatMetaByName.set(name, {
+      id,
+      nameJp,
+      ingameHabitatNo,
+      number,
+      isEvent,
+    });
     habitatsByName.set(name, {
       id,
       name,
+      nameJp,
+      ingameHabitatNo,
+      number,
+      isEvent,
       imagePath: habitatImages.get(name) ?? null,
       requirementsJp: habitatRequirementMap.get(name)?.requirementsJp ?? [],
       requirementsKo: habitatRequirementMap.get(name)?.requirementsKo ?? [],
@@ -335,6 +405,10 @@ function buildHabitatIndex(pokemonSource, habitatImages, ingameReferenceByJp, ha
     .map((habitat) => ({
       id: habitat.id,
       name: habitat.name,
+      nameJp: habitat.nameJp,
+      ingameHabitatNo: habitat.ingameHabitatNo,
+      number: habitat.number,
+      isEvent: habitat.isEvent,
       imagePath: habitat.imagePath,
       requirementsJp: habitat.requirementsJp,
       requirementsKo: habitat.requirementsKo,
@@ -350,12 +424,16 @@ function buildHabitatIndex(pokemonSource, habitatImages, ingameReferenceByJp, ha
         })),
       mapNames: Array.from(habitat.mapNames).sort(compareKo),
     }))
-    .sort((a, b) => b.pokemonCount - a.pokemonCount || compareKo(a.name, b.name));
+    .sort((a, b) => {
+      const aNo = a.ingameHabitatNo ?? Number.POSITIVE_INFINITY;
+      const bNo = b.ingameHabitatNo ?? Number.POSITIVE_INFINITY;
+      return aNo - bNo || b.pokemonCount - a.pokemonCount || compareKo(a.name, b.name);
+    });
 
-  return { habitats, habitatIdByName };
+  return { habitats, habitatIdByName, habitatMetaByName };
 }
 
-function buildPokemon(pokemonSource, pokemonImages, habitatIdByName, ingameReferenceByJp, materialKoMap, editorialMaterialKoMap) {
+function buildPokemon(pokemonSource, pokemonImages, habitatMetaByName, ingameReferenceByJp, materialKoMap, editorialMaterialKoMap) {
   const duplicateCounts = new Map();
   for (const row of pokemonSource) {
     const reference = ingameReferenceByJp.get(row.name_jp);
@@ -383,19 +461,26 @@ function buildPokemon(pokemonSource, pokemonImages, habitatIdByName, ingameRefer
         nameKo: SKILL_LABELS[nameJp] ?? nameJp,
         translationStatus: SKILL_LABELS[nameJp] ? 'editorial' : 'raw',
       }));
-      const habitats = (row.habitats_ko ?? []).map((habitat) => ({
-        id: habitatIdByName.get(habitat.name_ko) ?? null,
-        name: habitat.name_ko,
-        nameJp: habitat.name_jp,
-        imagePath: habitatIdByName.get(habitat.name_ko) ? null : null,
-        rarityStars: habitat.rarity_stars,
-        rarityLabel: HABITAT_RARITY_LABELS[habitat.rarity_label_jp] ?? habitat.rarity_label_jp,
-        rarityLevel: habitat.rarity_stars.length,
-        time: (habitat.time_jp ?? []).map((value) => TIME_LABELS[value] ?? value),
-        weather: (habitat.weather_jp ?? []).map((value) => WEATHER_LABELS[value] ?? value),
-        requirementsJp: habitat.requirements_jp ?? [],
-        requirementsKo: (habitat.requirements_jp ?? []).map((requirement) => translateRequirement(requirement, materialKoMap, editorialMaterialKoMap)),
-      }));
+      const habitats = (row.habitats_ko ?? []).map((habitat) => {
+        const habitatMeta = habitatMetaByName.get(habitat.name_ko);
+
+        return {
+          id: habitatMeta?.id ?? null,
+          number: habitatMeta?.number ?? null,
+          ingameHabitatNo: habitatMeta?.ingameHabitatNo ?? null,
+          isEvent: habitatMeta?.isEvent ?? false,
+          name: habitat.name_ko,
+          nameJp: habitat.name_jp,
+          imagePath: null,
+          rarityStars: habitat.rarity_stars,
+          rarityLabel: HABITAT_RARITY_LABELS[habitat.rarity_label_jp] ?? habitat.rarity_label_jp,
+          rarityLevel: habitat.rarity_stars.length,
+          time: (habitat.time_jp ?? []).map((value) => TIME_LABELS[value] ?? value),
+          weather: (habitat.weather_jp ?? []).map((value) => WEATHER_LABELS[value] ?? value),
+          requirementsJp: habitat.requirements_jp ?? [],
+          requirementsKo: (habitat.requirements_jp ?? []).map((requirement) => translateRequirement(requirement, materialKoMap, editorialMaterialKoMap)),
+        };
+      });
 
       const variantLabel =
         reference?.display_variant_label_ko || (row.variant_label_ko_guide ? row.variant_label_ko_guide : null);
@@ -434,7 +519,10 @@ function buildPokemon(pokemonSource, pokemonImages, habitatIdByName, ingameRefer
         extraMaterials: reference?.extra_materials_ko ?? [],
         slotVariantNames: reference?.slot_variant_names_ko ?? [],
         primaryHabitat: row.primary_habitat_ko || null,
-        primaryHabitatId: row.primary_habitat_ko ? habitatIdByName.get(row.primary_habitat_ko) ?? null : null,
+        primaryHabitatId: row.primary_habitat_ko ? habitatMetaByName.get(row.primary_habitat_ko)?.id ?? null : null,
+        primaryHabitatNo: row.primary_habitat_ko ? habitatMetaByName.get(row.primary_habitat_ko)?.ingameHabitatNo ?? null : null,
+        primaryHabitatNumber: row.primary_habitat_ko ? habitatMetaByName.get(row.primary_habitat_ko)?.number ?? null : null,
+        primaryHabitatIsEvent: row.primary_habitat_ko ? habitatMetaByName.get(row.primary_habitat_ko)?.isEvent ?? false : false,
         habitatNames: row.habitat_names_ko ?? [],
         primaryMap: mapInfo.name,
         primaryMapKey: mapInfo.key,
@@ -605,7 +693,16 @@ function buildMaps(pokemon, records, habitats) {
 }
 
 async function main() {
-  const [pokemonSource, ingameReferenceRows, recordSource, fashionRewardSource, imageMatches, materialKoMap, editorialMaterialKoMap] = await Promise.all([
+  const [
+    pokemonSource,
+    ingameReferenceRows,
+    recordSource,
+    fashionRewardSource,
+    imageMatches,
+    materialKoMap,
+    editorialMaterialKoMap,
+    habitatNoByJp,
+  ] = await Promise.all([
     readJson('pokopia_pokemon_master_ko_guide.json'),
     readJson(INGAME_REFERENCE_FILE),
     readJson('pokopia_human_records_master_ko_editorial.json'),
@@ -613,13 +710,27 @@ async function main() {
     readJson('pokopia_image_match_master.json'),
     readMaterialKoMap(HABITAT_MATERIAL_MAP_FILE),
     readJson(HABITAT_MATERIAL_EDITORIAL_MAP_FILE),
+    readHabitatNoMap(HABITAT_NUMBER_REFERENCE_FILE),
   ]);
 
   const ingameReferenceByJp = buildIngameReferenceMap(ingameReferenceRows);
   const { pokemonImages, habitatImages, fashionImages } = buildImageMaps(imageMatches);
   const habitatRequirementMap = buildHabitatRequirementMap(pokemonSource, materialKoMap, editorialMaterialKoMap);
-  const { habitats, habitatIdByName } = buildHabitatIndex(pokemonSource, habitatImages, ingameReferenceByJp, habitatRequirementMap);
-  const pokemon = buildPokemon(pokemonSource, pokemonImages, habitatIdByName, ingameReferenceByJp, materialKoMap, editorialMaterialKoMap).map((entry) => ({
+  const { habitats, habitatMetaByName } = buildHabitatIndex(
+    pokemonSource,
+    habitatImages,
+    ingameReferenceByJp,
+    habitatRequirementMap,
+    habitatNoByJp
+  );
+  const pokemon = buildPokemon(
+    pokemonSource,
+    pokemonImages,
+    habitatMetaByName,
+    ingameReferenceByJp,
+    materialKoMap,
+    editorialMaterialKoMap
+  ).map((entry) => ({
     ...entry,
     habitats: entry.habitats.map((habitat) => ({
       ...habitat,

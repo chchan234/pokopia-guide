@@ -33,6 +33,8 @@ export default function HabitatsPage() {
               <div className="min-w-0 flex-1">
                 <div className="flex items-start justify-between gap-3">
                   <div className="min-w-0 flex-1">
+                    {habitat.number && <p className="mono text-[11px] text-muted-foreground">No.{habitat.number}</p>}
+                    {!habitat.number && habitat.isEvent && <p className="text-[11px] font-semibold text-muted-foreground">이벤트 서식지</p>}
                     <Link href={`/habitats/${habitat.id}`} className="text-base font-bold text-foreground hover:text-pk-green-dark">
                       {habitat.name}
                     </Link>
