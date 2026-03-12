@@ -1,0 +1,3302 @@
+{
+  "sourceUrls": [
+    "https://gamewith.jp/pocoapokemon/545849",
+    "https://gamewith.jp/pocoapokemon/545874",
+    "https://gamewith.jp/pocoapokemon/547269",
+    "https://gamewith.jp/pocoapokemon/547433",
+    "https://gamewith.jp/pocoapokemon/548099",
+    "https://gamewith.jp/pocoapokemon/547532",
+    "https://gamewith.jp/pocoapokemon/545339",
+    "https://gamewith.jp/pocoapokemon/547378",
+    "https://gamewith.jp/pocoapokemon/547445",
+    "https://game8.jp/pocoapokemon/767411"
+  ],
+  "summary": {
+    "recipeCount": 195,
+    "shopRecipeCount": 90,
+    "otherRecipeCount": 105,
+    "buildingCount": 6,
+    "dollCount": 7,
+    "cdCount": 43,
+    "berryCount": 6,
+    "emoteCount": 9,
+    "bestshotCount": 5,
+    "ancientItemCount": 105,
+    "notesKo": [
+      "개별 CD 커버, 개별 인형 이미지, 개별 건물 키트 이미지는 안정 소스가 없어 텍스트 중심으로 정리했다",
+      "정식 한국어 표기가 확인되지 않은 아이템명은 일본어 원문을 유지했다"
+    ]
+  },
+  "recipes": {
+    "shop": [
+      {
+        "id": "entry-6733bd69d9",
+        "nameJp": "クラフトだいのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル2)",
+        "sourceKo": "메마른 황야 마을 (Lv2)",
+        "price": 50,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-bc981a0554",
+        "nameJp": "アーチタイルのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル3)",
+        "sourceKo": "메마른 황야 마을 (Lv3)",
+        "price": 100,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-939ab7e253",
+        "nameJp": "つみあげわらのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル3)",
+        "sourceKo": "메마른 황야 마을 (Lv3)",
+        "price": 50,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-a47a9ed0be",
+        "nameJp": "木のけんざいレシピセット",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル3)",
+        "sourceKo": "메마른 황야 마을 (Lv3)",
+        "price": 300,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-d81d28e9fd",
+        "nameJp": "こうやのいえづくりレシピセット",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル3)",
+        "sourceKo": "메마른 황야 마을 (Lv3)",
+        "price": 300,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-25039c124e",
+        "nameJp": "きのみいりバスケットのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル4)",
+        "sourceKo": "메마른 황야 마을 (Lv4)",
+        "price": 300,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-2d1670b20c",
+        "nameJp": "みんなのボックスのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル4)",
+        "sourceKo": "메마른 황야 마을 (Lv4)",
+        "price": 100,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-696574bd6c",
+        "nameJp": "木のはしごのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル4)",
+        "sourceKo": "메마른 황야 마을 (Lv4)",
+        "price": 200,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-162fe59d5d",
+        "nameJp": "いえのしきりのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル4)",
+        "sourceKo": "메마른 황야 마을 (Lv4)",
+        "price": 100,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-2070bbccc0",
+        "nameJp": "やねがわらのレシピセット",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル5)",
+        "sourceKo": "메마른 황야 마을 (Lv5)",
+        "price": 300,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-97762df794",
+        "nameJp": "カベかけかがみのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル6)",
+        "sourceKo": "메마른 황야 마을 (Lv6)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-a0fe43be2d",
+        "nameJp": "ゆかつきスイッチのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル6)",
+        "sourceKo": "메마른 황야 마을 (Lv6)",
+        "price": 1000,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-6291c889ff",
+        "nameJp": "ガーデンライトのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル6)",
+        "sourceKo": "메마른 황야 마을 (Lv6)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-d2c2b5091c",
+        "nameJp": "ななめの木のゆかのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル6)",
+        "sourceKo": "메마른 황야 마을 (Lv6)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-77ad6f0d90",
+        "nameJp": "木のふちのレシピセット",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル6)",
+        "sourceKo": "메마른 황야 마을 (Lv6)",
+        "price": 300,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-5395410ab4",
+        "nameJp": "ガーデンチェアのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル7)",
+        "sourceKo": "메마른 황야 마을 (Lv7)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-c44641f26f",
+        "nameJp": "ガーデンベンチのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル7)",
+        "sourceKo": "메마른 황야 마을 (Lv7)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-44fd6411f5",
+        "nameJp": "ペンキぬりのカベのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル7)",
+        "sourceKo": "메마른 황야 마을 (Lv7)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-ed13689e8d",
+        "nameJp": "メタモンラグのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル7)",
+        "sourceKo": "메마른 황야 마을 (Lv7)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-264d0dbf24",
+        "nameJp": "インダストリアルなチェアのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ゴツゴツやまの街(レベル6)",
+        "sourceKo": "울퉁불퉁 산마을 (Lv6)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-fd5b20c51a",
+        "nameJp": "センサーのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ゴツゴツやまの街(レベル6)",
+        "sourceKo": "울퉁불퉁 산마을 (Lv6)",
+        "price": 1000,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-ad5800f741",
+        "nameJp": "ランタンのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ゴツゴツやまの街(レベル6)",
+        "sourceKo": "울퉁불퉁 산마을 (Lv6)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-e6fc8c4ab9",
+        "nameJp": "おしゃれゆかいしのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ゴツゴツやまの街(レベル6)",
+        "sourceKo": "울퉁불퉁 산마을 (Lv6)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-8eb477adc6",
+        "nameJp": "ふみいしのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ゴツゴツやまの街(レベル2)",
+        "sourceKo": "울퉁불퉁 산마을 (Lv2)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-46f84e2ba6",
+        "nameJp": "だいりせきのゆか・ダークのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ゴツゴツやまの街(レベル4)",
+        "sourceKo": "울퉁불퉁 산마을 (Lv4)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-4a1578ffdb",
+        "nameJp": "てつのタイルのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ゴツゴツやまの街(レベル4)",
+        "sourceKo": "울퉁불퉁 산마을 (Lv4)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-190a30e741",
+        "nameJp": "ガーデンテーブルのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル8)",
+        "sourceKo": "메마른 황야 마을 (Lv8)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-5b1186f914",
+        "nameJp": "ガーデンフラワーのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル8)",
+        "sourceKo": "메마른 황야 마을 (Lv8)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-a654f3c207",
+        "nameJp": "シンプルなゆかのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル8)",
+        "sourceKo": "메마른 황야 마을 (Lv8)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-a7532751cf",
+        "nameJp": "モザイクタイルのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル2)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv2)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "cd",
+        "nameJp": "CDプレーヤーのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル3)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv3)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-0fbfcfb745",
+        "nameJp": "コンクリートのふたのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル4)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv4)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-169f0a82db",
+        "nameJp": "ポップなイスのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル6)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv6)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-d77fd70eab",
+        "nameJp": "ポップなベッドのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル6)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv6)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-059bd80d6d",
+        "nameJp": "ミニはつでんマシンのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル6)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv6)",
+        "price": 1000,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-97528bda71",
+        "nameJp": "ろっかくけいのゆかのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル6)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv6)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-0681a59a9a",
+        "nameJp": "コンクリのふちのレシピセット",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル6)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv6)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-c62bdcc871",
+        "nameJp": "ナチュラルなソファのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ドンヨリうみべの街(レベル3)",
+        "sourceKo": "우중충한 해변 마을 (Lv3)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-d5ebfbb51f",
+        "nameJp": "みなとのポールのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ドンヨリうみべの街(レベル3)",
+        "sourceKo": "우중충한 해변 마을 (Lv3)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-2206b3585e",
+        "nameJp": "うみべのいえづくりレシピセット",
+        "sourceType": "shop",
+        "sourceJp": "ドンヨリうみべの街(レベル3)",
+        "sourceKo": "우중충한 해변 마을 (Lv3)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-9f5ba81e1f",
+        "nameJp": "ナチュラルなランプのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ドンヨリうみべの街(レベル4)",
+        "sourceKo": "우중충한 해변 마을 (Lv4)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-aa73b59f38",
+        "nameJp": "ふねのさくのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ドンヨリうみべの街(レベル4)",
+        "sourceKo": "우중충한 해변 마을 (Lv4)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-c62bdcc871",
+        "nameJp": "ナチュラルなソファのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ドンヨリうみべの街(レベル4)",
+        "sourceKo": "우중충한 해변 마을 (Lv4)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-1c9c4f6fc1",
+        "nameJp": "かなあみのゆかのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ドンヨリうみべの街(レベル4)",
+        "sourceKo": "우중충한 해변 마을 (Lv4)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-dd447a7fc8",
+        "nameJp": "レンガのカベのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ドンヨリうみべの街(レベル4)",
+        "sourceKo": "우중충한 해변 마을 (Lv4)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-6d5e218d46",
+        "nameJp": "モダンなドアのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ドンヨリうみべの街(レベル5)",
+        "sourceKo": "우중충한 해변 마을 (Lv5)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-096f266a2c",
+        "nameJp": "あげさげまどのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ドンヨリうみべの街(レベル5)",
+        "sourceKo": "우중충한 해변 마을 (Lv5)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-147c5b3e02",
+        "nameJp": "しっくいカベのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ドンヨリうみべの街(レベル5)",
+        "sourceKo": "우중충한 해변 마을 (Lv5)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-89aa5461fe",
+        "nameJp": "やねのレシピセット",
+        "sourceType": "shop",
+        "sourceJp": "ドンヨリうみべの街(レベル5)",
+        "sourceKo": "우중충한 해변 마을 (Lv5)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-49d12500aa",
+        "nameJp": "ポケセンたてなおしキット",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル3)",
+        "sourceKo": "메마른 황야 마을 (Lv3)",
+        "price": 1000,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-1f813cb403",
+        "nameJp": "ゲームボーイのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル5)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv5)",
+        "price": 1000,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-7c4c989695",
+        "nameJp": "クラッカーのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル5)",
+        "sourceKo": "메마른 황야 마을 (Lv5)",
+        "price": 1000,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-ef820cc02f",
+        "nameJp": "れいぞうこのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ゴツゴツやまの街(レベル5)",
+        "sourceKo": "울퉁불퉁 산마을 (Lv5)",
+        "price": 1000,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-88ebc504ce",
+        "nameJp": "せんたくきのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ドンヨリうみべの街(レベル5)",
+        "sourceKo": "우중충한 해변 마을 (Lv5)",
+        "price": 1000,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-c6b7e3ebab",
+        "nameJp": "てつのベッドのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ゴツゴツやまの街(レベル3)",
+        "sourceKo": "울퉁불퉁 산마을 (Lv3)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "cd",
+        "nameJp": "CDラックのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル2)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv2)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-828b209de3",
+        "nameJp": "おかたづけをしようを作るヒント",
+        "sourceType": "shop",
+        "sourceJp": "ドンヨリうみべの街(レベル2)",
+        "sourceKo": "우중충한 해변 마을 (Lv2)",
+        "price": 50,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-82fc4a8a79",
+        "nameJp": "パーティーのカベかざりのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ゴツゴツやまの街(レベル3)",
+        "sourceKo": "울퉁불퉁 산마을 (Lv3)",
+        "price": 200,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-c6372a600a",
+        "nameJp": "おさらのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ドンヨリうみべの街(レベル2)",
+        "sourceKo": "우중충한 해변 마을 (Lv2)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-375b1ac394",
+        "nameJp": "メタルなようこうろのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル4)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv4)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-e1acb2617a",
+        "nameJp": "レジのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "(レベル)",
+        "sourceKo": "(Lv)",
+        "price": 100,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-9723533797",
+        "nameJp": "コンクリートのかいだんのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル2)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv2)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-abfe63c5da",
+        "nameJp": "レンガのかいだんのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ドンヨリうみべの街(レベル2)",
+        "sourceKo": "우중충한 해변 마을 (Lv2)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-daece69a68",
+        "nameJp": "シンプルなドアのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル5)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv5)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-c328ef41a0",
+        "nameJp": "フタつきまどのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル5)",
+        "sourceKo": "메마른 황야 마을 (Lv5)",
+        "price": 100,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-f3625809e3",
+        "nameJp": "ガラスまどのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル5)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv5)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-a3a7bfde86",
+        "nameJp": "フレームガラスのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル4)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv4)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-7d14be33f1",
+        "nameJp": "デコボコいたのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル4)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv4)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-6a66cf17aa",
+        "nameJp": "でっぱりカベのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ゴツゴツやまの街(レベル4)",
+        "sourceKo": "울퉁불퉁 산마을 (Lv4)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-635f3821bd",
+        "nameJp": "メタルなさくのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル2)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv2)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-bb56b89a29",
+        "nameJp": "いしのさくのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ゴツゴツやまの街(レベル4)",
+        "sourceKo": "울퉁불퉁 산마을 (Lv4)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-0d42f41d93",
+        "nameJp": "アスファルトのみちのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル2)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv2)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-9edbe03b2d",
+        "nameJp": "やまのいえづくりレシピセット",
+        "sourceType": "shop",
+        "sourceJp": "ゴツゴツやまの街(レベル3)",
+        "sourceKo": "울퉁불퉁 산마을 (Lv3)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-13f845dcfa",
+        "nameJp": "うきしまのいえづくりレシピセット",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル3)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv3)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-8f85a51195",
+        "nameJp": "ポップなテーブルのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル7)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv7)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-0188f8c448",
+        "nameJp": "ポップなソファのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル7)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv7)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-0db26ae009",
+        "nameJp": "ざらざらカベのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "キラキラうきしまの街(レベル7)",
+        "sourceKo": "반짝반짝 부유섬 마을 (Lv7)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-55de1d8508",
+        "nameJp": "ステージだいのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ゴツゴツやまの街(レベル5)",
+        "sourceKo": "울퉁불퉁 산마을 (Lv5)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-b03d662d7d",
+        "nameJp": "てつのかいだんのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ゴツゴツやまの街(レベル5)",
+        "sourceKo": "울퉁불퉁 산마을 (Lv5)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-7d6ac94109",
+        "nameJp": "てつのハシゴのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ゴツゴツやまの街(レベル5)",
+        "sourceKo": "울퉁불퉁 산마을 (Lv5)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-7970a91d81",
+        "nameJp": "てつのドアのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ゴツゴツやまの街(レベル5)",
+        "sourceKo": "울퉁불퉁 산마을 (Lv5)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-fdf67431f7",
+        "nameJp": "いしやねのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "ゴツゴツやまの街(レベル5)",
+        "sourceKo": "울퉁불퉁 산마을 (Lv5)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-532506857d",
+        "nameJp": "きのみなイスのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル9)",
+        "sourceKo": "메마른 황야 마을 (Lv9)",
+        "price": 1000,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-85413ad048",
+        "nameJp": "きのみなテーブルランプのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル9)",
+        "sourceKo": "메마른 황야 마을 (Lv9)",
+        "price": 1000,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-4351bb4bcf",
+        "nameJp": "モダンなカベのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル9)",
+        "sourceKo": "메마른 황야 마을 (Lv9)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-c750261fa6",
+        "nameJp": "きのみなテーブルのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル10)",
+        "sourceKo": "메마른 황야 마을 (Lv10)",
+        "price": 1000,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-11911bb83a",
+        "nameJp": "きのみなベッドのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル10)",
+        "sourceKo": "메마른 황야 마을 (Lv10)",
+        "price": 1000,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-75c6489c1a",
+        "nameJp": "きのみなカベかざりのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル10)",
+        "sourceKo": "메마른 황야 마을 (Lv10)",
+        "price": 1000,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-8398bcb21e",
+        "nameJp": "きのみなつりさげランプのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル10)",
+        "sourceKo": "메마른 황야 마을 (Lv10)",
+        "price": 1000,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-a6f9a61791",
+        "nameJp": "みずたまもようのレシピ",
+        "sourceType": "shop",
+        "sourceJp": "パサパサこうやの街(レベル10)",
+        "sourceKo": "메마른 황야 마을 (Lv10)",
+        "price": 500,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      }
+    ],
+    "other": [
+      {
+        "id": "entry-bdb92cde97",
+        "nameJp": "たきび",
+        "sourceType": "other",
+        "sourceJp": "ストーリーでクラフト台解放時に入手",
+        "sourceKo": "스토리에서 제작대 해금 시 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-efb9000511",
+        "nameJp": "まるたのテーブル",
+        "sourceType": "other",
+        "sourceJp": "ストーリーでクラフト台解放時に入手",
+        "sourceKo": "스토리에서 제작대 해금 시 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-5e71112c39",
+        "nameJp": "まるたのイス",
+        "sourceType": "other",
+        "sourceJp": "ストーリーでクラフト台解放時に入手",
+        "sourceKo": "스토리에서 제작대 해금 시 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-df249f86ab",
+        "nameJp": "木のさく",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「木のけんざいレシピセット」を購入(パサパサこうやLv3)",
+        "sourceKo": "ショップ で「木のけんざいレシピセット」を購入 (パサパサこうやLv3)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-46ea1e2942",
+        "nameJp": "ほしくさのベッド",
+        "sourceType": "other",
+        "sourceJp": "ストーリーで フシギダネ のおねがい「ベッドを使ってもらおう」で入手",
+        "sourceKo": "스토리 진행으로 フシギダネ のおねがい「ベッドを使ってもらおう」에서 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-9409d6a36e",
+        "nameJp": "サンドバッグ",
+        "sourceType": "other",
+        "sourceJp": "ショップ でレシピを購入(日替わり)",
+        "sourceKo": "ショップ でレシピを購入 (일일 교체)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-5761f319ea",
+        "nameJp": "木のかいだん",
+        "sourceType": "other",
+        "sourceJp": "ストーリーで ヤドン と会話したときにもらう",
+        "sourceKo": "스토리 진행으로 ヤドン と会話したときにもらう",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-dcfb1d62b8",
+        "nameJp": "かざぐるま",
+        "sourceType": "other",
+        "sourceJp": "かみのゴミ を入手する",
+        "sourceKo": "かみのゴミ を入手する",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-039247c5fb",
+        "nameJp": "しゅうのうボックス",
+        "sourceType": "other",
+        "sourceJp": "ポケモン図鑑7匹登録時の報酬",
+        "sourceKo": "포켓몬 도감 7마리 등록 보상",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-a024e1328d",
+        "nameJp": "おおきなかがみ",
+        "sourceType": "other",
+        "sourceJp": "ショップ で400コインで購入(日替わり)",
+        "sourceKo": "ショップ で400コインで購入 (일일 교체)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-11b3ebc2dc",
+        "nameJp": "さんばし",
+        "sourceType": "other",
+        "sourceJp": "パサパサこうやの街 で入手",
+        "sourceKo": "메마른 황야 마을 에서 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-ff8ca4e258",
+        "nameJp": "ボロい木ばこ",
+        "sourceType": "other",
+        "sourceJp": "水の中のキラキラから入手",
+        "sourceKo": "물속 반짝임에서 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-7dd65d2af2",
+        "nameJp": "おおきな木のドア",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「こうやのいえづくりレシピセット」を購入(パサパサこうやLv3)",
+        "sourceKo": "ショップ で「こうやのいえづくりレシピセット」を購入 (パサパサこうやLv3)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-893117e93a",
+        "nameJp": "メタモンのはた",
+        "sourceType": "other",
+        "sourceJp": "ストーリーではたを自宅に設置後に解放",
+        "sourceKo": "스토리 진행으로 はたを自宅に設置後に해금",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-9d341b3c38",
+        "nameJp": "バスケット",
+        "sourceType": "other",
+        "sourceJp": "つたひも 入手時に解放",
+        "sourceKo": "つたひも 入手時に해금",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-a2eaf54799",
+        "nameJp": "てつのかいだん",
+        "sourceType": "other",
+        "sourceJp": "ごつごつやまの街環境レベル5で ショップ 解放",
+        "sourceKo": "울퉁불퉁 산마을 환경 레벨 5에서 ショップ 해금",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-8296b88669",
+        "nameJp": "木のみち",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「木のけんざいレシピセット」を購入(パサパサこうやLv3)",
+        "sourceKo": "ショップ で「木のけんざいレシピセット」を購入 (パサパサこうやLv3)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-fd61f07327",
+        "nameJp": "ようこうろ",
+        "sourceType": "other",
+        "sourceJp": "ようこうろ で てつののべぼう を作成",
+        "sourceKo": "ようこうろ で てつののべぼう を作成",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-b06560ffc4",
+        "nameJp": "にぐるま",
+        "sourceType": "other",
+        "sourceJp": "ポケモン図鑑70匹登録時の報酬",
+        "sourceKo": "포켓몬 도감 70마리 등록 보상",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-655cd00bdc",
+        "nameJp": "メニューボード",
+        "sourceType": "other",
+        "sourceJp": "ポケモン図鑑130匹登録時の報酬",
+        "sourceKo": "포켓몬 도감 130마리 등록 보상",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-59eae1feb4",
+        "nameJp": "キノコのランプ",
+        "sourceType": "other",
+        "sourceJp": "ひかるキノコ を入手",
+        "sourceKo": "ひかるキノコ を入手",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-c362cc7ce0",
+        "nameJp": "ておしぐるま",
+        "sourceType": "other",
+        "sourceJp": "ポケモン図鑑200匹登録時の報酬",
+        "sourceKo": "포켓몬 도감 200마리 등록 보상",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-b7789bb5a7",
+        "nameJp": "やまほりどうぐ",
+        "sourceType": "other",
+        "sourceJp": "ポケモン図鑑220匹登録時の報酬",
+        "sourceKo": "포켓몬 도감 220마리 등록 보상",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-23b15ee4f4",
+        "nameJp": "イカしたエレキベース",
+        "sourceType": "other",
+        "sourceJp": "ふしぎなげん 入手時にひらめく",
+        "sourceKo": "ふしぎなげん 획득 시 영감",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-37c1963da7",
+        "nameJp": "コンクリートミキサー",
+        "sourceType": "other",
+        "sourceJp": "ローブシン に話しかけて入手",
+        "sourceKo": "ローブシン に話しかけて入手",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-c5903bbf3e",
+        "nameJp": "どかん",
+        "sourceType": "other",
+        "sourceJp": "コンクリート を入手するとひらめく",
+        "sourceKo": "コンクリート を入手するとひらめく",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-040e007f82",
+        "nameJp": "ほんだな",
+        "sourceType": "other",
+        "sourceJp": "ショップ でレシピを購入(日替わり)",
+        "sourceKo": "ショップ でレシピを購入 (일일 교체)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-d91331d041",
+        "nameJp": "ごうかなはしら・した",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「ごうかなはしらレシピセット」を購入(日替わり)",
+        "sourceKo": "ショップ で「ごうかなはしらレシピセット」を購入 (일일 교체)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-c46d5b9d9f",
+        "nameJp": "ごうかなはしら・まんなか",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「ごうかなはしらレシピセット」を購入(日替わり)",
+        "sourceKo": "ショップ で「ごうかなはしらレシピセット」を購入 (일일 교체)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-258bbdc521",
+        "nameJp": "ごうかなはしら・うえ",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「ごうかなはしらレシピセット」を購入(日替わり)",
+        "sourceKo": "ショップ で「ごうかなはしらレシピセット」を購入 (일일 교체)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-8139085955",
+        "nameJp": "だいりせき",
+        "sourceType": "other",
+        "sourceJp": "せっかいせきを入手",
+        "sourceKo": "せっかいせきを入手",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-113f6ca819",
+        "nameJp": "タイルカーペット",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「うきしまのいえづくりレシピセット」を購入",
+        "sourceKo": "ショップ で「うきしまのいえづくりレシピセット」を購入",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-b109bbfcde",
+        "nameJp": "オフィスのデスク",
+        "sourceType": "other",
+        "sourceJp": "キラキラうきしまの街 で入手",
+        "sourceKo": "반짝반짝 부유섬 마을 에서 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-c5d7b9b579",
+        "nameJp": "イワイノヨロイ",
+        "sourceType": "other",
+        "sourceJp": "ヨロイのはへん 入手時にひらめく",
+        "sourceKo": "ヨロイのはへん 획득 시 영감",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-07c62b8502",
+        "nameJp": "ノロイノヨロイ",
+        "sourceType": "other",
+        "sourceJp": "ヨロイのはへん 入手時にひらめく",
+        "sourceKo": "ヨロイのはへん 획득 시 영감",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-0f1deb8782",
+        "nameJp": "みずおけ",
+        "sourceType": "other",
+        "sourceJp": "パサパサこうやの街 で入手",
+        "sourceKo": "메마른 황야 마을 에서 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-641efaa3e5",
+        "nameJp": "ふみいし",
+        "sourceType": "other",
+        "sourceJp": "ゴツゴツやまの街 環境レベル2で ショップ 解放",
+        "sourceKo": "울퉁불퉁 산마을 환경 레벨 2で ショップ 해금",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-495163ca0c",
+        "nameJp": "木のゆか",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「こうやのいえづくり」を購入(パサパサこうやLv3)",
+        "sourceKo": "ショップ で「こうやのいえづくり」を購入 (パサパサこうやLv3)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-5a40f9db17",
+        "nameJp": "かがりび",
+        "sourceType": "other",
+        "sourceJp": "ショップ で購入(日替わり)",
+        "sourceKo": "ショップ で購入 (일일 교체)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-8b28cc497f",
+        "nameJp": "うみなりのスズ",
+        "sourceType": "other",
+        "sourceJp": "ファイヤー 、 サンダー 、 フリーザー を友達にすると解放",
+        "sourceKo": "ファイヤー 、 サンダー 、 フリーザー を友達にすると해금",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-ad157c9e30",
+        "nameJp": "とうめいなスズ",
+        "sourceType": "other",
+        "sourceJp": "ライコウ 、 エンテイ 、 スイクン を友達にすると解放",
+        "sourceKo": "ライコウ 、 エンテイ 、 スイクン を友達にすると해금",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-0ab9b8e242",
+        "nameJp": "リース",
+        "sourceType": "other",
+        "sourceJp": "ポケモン図鑑65匹登録時の報酬",
+        "sourceKo": "포켓몬 도감 65마리 등록 보상",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-741bea88d9",
+        "nameJp": "うちあげづつ",
+        "sourceType": "other",
+        "sourceJp": "ゴツゴツやまの街 のストーリークリア後",
+        "sourceKo": "울퉁불퉁 산마을 스토리 클리어 후",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-9801971d26",
+        "nameJp": "はなびだま",
+        "sourceType": "other",
+        "sourceJp": "ゴツゴツやまの街 のストーリークリア後",
+        "sourceKo": "울퉁불퉁 산마을 스토리 클리어 후",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-69ad487aa5",
+        "nameJp": "オフィスのキャビネット",
+        "sourceType": "other",
+        "sourceJp": "キラキラうきしまの街 で入手",
+        "sourceKo": "반짝반짝 부유섬 마을 에서 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-04ba542cc0",
+        "nameJp": "木のついたて",
+        "sourceType": "other",
+        "sourceJp": "ポケモン図鑑75匹登録時の報酬",
+        "sourceKo": "포켓몬 도감 75마리 등록 보상",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-37fb3b4ee5",
+        "nameJp": "木のさくのトビラ",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「木のけんざいレシピセット」を購入(パサパサこうやLv3)",
+        "sourceKo": "ショップ で「木のけんざいレシピセット」を購入 (パサパサこうやLv3)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-e13fce3e0f",
+        "nameJp": "木のカベ",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「こうやのいえづくりレシピセット」を購入(パサパサこうやLv3)",
+        "sourceKo": "ショップ で「こうやのいえづくりレシピセット」を購入 (パサパサこうやLv3)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-31b6ab6cd4",
+        "nameJp": "いしのゆか",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「やまのいえづくりレシピセット」を購入",
+        "sourceKo": "ショップ で「やまのいえづくりレシピセット」を購入",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-5f69248cee",
+        "nameJp": "いしづみのカベ",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「やまのいえづくりレシピセット」を購入",
+        "sourceKo": "ショップ で「やまのいえづくりレシピセット」を購入",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-8cd79a2868",
+        "nameJp": "メタルなさくのトビラ",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「やまのいえづくりレシピセット」を購入",
+        "sourceKo": "ショップ で「やまのいえづくりレシピセット」を購入",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-573164dd51",
+        "nameJp": "ななめのやねがわら",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「やねがわらレシピセット」を購入",
+        "sourceKo": "ショップ で「やねがわらレシピセット」を購入",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-3e904199a4",
+        "nameJp": "でっぱりのやねがわら",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「やねがわらレシピセット」を購入",
+        "sourceKo": "ショップ で「やねがわらレシピセット」を購入",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-455ce02b7e",
+        "nameJp": "ひっこみのやねがわら",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「やねがわらレシピセット」を購入",
+        "sourceKo": "ショップ で「やねがわらレシピセット」を購入",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-73a9877c4c",
+        "nameJp": "たいらなやねがわら",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「やねがわらレシピセット」を購入",
+        "sourceKo": "ショップ で「やねがわらレシピセット」を購入",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-bc7f4b96f0",
+        "nameJp": "やねがわらのかざり",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「やねがわらレシピセット」を購入",
+        "sourceKo": "ショップ で「やねがわらレシピセット」を購入",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-1f43c80456",
+        "nameJp": "ミラーボール",
+        "sourceType": "other",
+        "sourceJp": "ショップ で購入(日替わり)",
+        "sourceKo": "ショップ で購入 (일일 교체)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-3b6b7e804d",
+        "nameJp": "おうぎやね",
+        "sourceType": "other",
+        "sourceJp": "ショップ で購入(日替わり)",
+        "sourceKo": "ショップ で購入 (일일 교체)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-dea82ef97a",
+        "nameJp": "いしのだんろ",
+        "sourceType": "other",
+        "sourceJp": "ポケモン図鑑120匹登録時の報酬",
+        "sourceKo": "포켓몬 도감 120마리 등록 보상",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-c49f22e3af",
+        "nameJp": "さんばしのいた",
+        "sourceType": "other",
+        "sourceJp": "パサパサこうやの街 で入手",
+        "sourceKo": "메마른 황야 마을 에서 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-3b2e7b1eca",
+        "nameJp": "イカしたエレキギター",
+        "sourceType": "other",
+        "sourceJp": "ふしぎなげん 入手時にひらめく",
+        "sourceKo": "ふしぎなげん 획득 시 영감",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-5be1631638",
+        "nameJp": "ビッグしゅうのうボックス",
+        "sourceType": "other",
+        "sourceJp": "ポケモン図鑑30匹登録時の報酬",
+        "sourceKo": "포켓몬 도감 30마리 등록 보상",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-f73838d264",
+        "nameJp": "ナチュラルなテーブル",
+        "sourceType": "other",
+        "sourceJp": "ドンヨリうみべの街 で入手",
+        "sourceKo": "우중충한 해변 마을 에서 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-4fea86930e",
+        "nameJp": "がくぶち",
+        "sourceType": "other",
+        "sourceJp": "ちいさなおとしもの 初回鑑定時",
+        "sourceKo": "ちいさなおとしもの 첫 감정 시",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-b7a701d2f1",
+        "nameJp": "ツルツルのひよけ",
+        "sourceType": "other",
+        "sourceJp": "いとくず を初めて入手したとき",
+        "sourceKo": "いとくず を初めて入手したとき",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-10cacf7261",
+        "nameJp": "ナチュラルなだい",
+        "sourceType": "other",
+        "sourceJp": "ショップ で購入(日替わり)",
+        "sourceKo": "ショップ で購入 (일일 교체)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-69395ab753",
+        "nameJp": "スポットライト",
+        "sourceType": "other",
+        "sourceJp": "ドンヨリうみべの街 で拾う",
+        "sourceKo": "우중충한 해변 마을 에서 줍기",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-bd343a2933",
+        "nameJp": "めざましどけい",
+        "sourceType": "other",
+        "sourceJp": "ドンヨリうみべの街 で拾う",
+        "sourceKo": "우중충한 해변 마을 에서 줍기",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-e27782bef8",
+        "nameJp": "パーティープレート",
+        "sourceType": "other",
+        "sourceJp": "ゴツゴツやまの街 のストーリー中に入手",
+        "sourceKo": "울퉁불퉁 산마을 스토리 중 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-91a26083ab",
+        "nameJp": "いちりんざし",
+        "sourceType": "other",
+        "sourceJp": "ぐにゃぐにゃねんど を入手した際に入手",
+        "sourceKo": "ぐにゃぐにゃねんど を入手した際に入手",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-fa5f3f1ce9",
+        "nameJp": "シャワー",
+        "sourceType": "other",
+        "sourceJp": "ドンヨリうみべの街 のストーリー中に入手",
+        "sourceKo": "우중충한 해변 마을 스토리 중 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-69e05332e6",
+        "nameJp": "すいしょうだま",
+        "sourceType": "other",
+        "sourceJp": "ニョロボン のおねがいごとを2回クリアで入手",
+        "sourceKo": "ニョロボン のおねがいごとを2回クリア에서 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-e6df9bca2d",
+        "nameJp": "ゆぐち",
+        "sourceType": "other",
+        "sourceJp": "ポケモン図鑑90匹登録時の報酬",
+        "sourceKo": "포켓몬 도감 90마리 등록 보상",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-63919afb24",
+        "nameJp": "ラッキーのうえ木",
+        "sourceType": "other",
+        "sourceJp": "ショップ で購入(日替わり)",
+        "sourceKo": "ショップ で購入 (일일 교체)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-816f13f324",
+        "nameJp": "そうさばん",
+        "sourceType": "other",
+        "sourceJp": "水のキラキラからランダムで入手",
+        "sourceKo": "물 반짝임에서 랜덤 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-c248163c29",
+        "nameJp": "アンティークドレッサー",
+        "sourceType": "other",
+        "sourceJp": "まっさらな街 環境レベル7で ショップ 解放",
+        "sourceKo": "빈 마을 환경 레벨 7で ショップ 해금",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-2a9d8bd323",
+        "nameJp": "パンチングマシーン",
+        "sourceType": "other",
+        "sourceJp": "ショップ で購入(日替わり)",
+        "sourceKo": "ショップ で購入 (일일 교체)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-27232fdccb",
+        "nameJp": "まないた",
+        "sourceType": "other",
+        "sourceJp": "ゴツゴツやまの街 のストーリー中に入手",
+        "sourceKo": "울퉁불퉁 산마을 스토리 중 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-7d02e4fbfd",
+        "nameJp": "パンがま",
+        "sourceType": "other",
+        "sourceJp": "ゴツゴツやまの街 のストーリーで入手",
+        "sourceKo": "울퉁불퉁 산마을 の스토리 진행으로 入手",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-e75d764b52",
+        "nameJp": "コンロ",
+        "sourceType": "other",
+        "sourceJp": "水面のキラキラから入手",
+        "sourceKo": "수면 반짝임에서 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-fcbe8bafc8",
+        "nameJp": "フードカウンター",
+        "sourceType": "other",
+        "sourceJp": "水面のキラキラから入手",
+        "sourceKo": "수면 반짝임에서 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-da98f6d34e",
+        "nameJp": "タブレット",
+        "sourceType": "other",
+        "sourceJp": "水面のキラキラから入手",
+        "sourceKo": "수면 반짝임에서 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-a1ae7dacb4",
+        "nameJp": "えんぴついれ",
+        "sourceType": "other",
+        "sourceJp": "ポケモン図鑑150匹登録時の報酬",
+        "sourceKo": "포켓몬 도감 150마리 등록 보상",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-58e2dd434a",
+        "nameJp": "ろんぶん",
+        "sourceType": "other",
+        "sourceJp": "水面のキラキラから入手",
+        "sourceKo": "수면 반짝임에서 획득",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-c452697078",
+        "nameJp": "おそうじセット",
+        "sourceType": "other",
+        "sourceJp": "ショップ で購入(日替わり)",
+        "sourceKo": "ショップ で購入 (일일 교체)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-5e22334df5",
+        "nameJp": "ポールさんかくコーン",
+        "sourceType": "other",
+        "sourceJp": "ショップ で購入(日替わり)",
+        "sourceKo": "ショップ で購入 (일일 교체)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-1e27adcdd1",
+        "nameJp": "ポケセンのカウンター",
+        "sourceType": "other",
+        "sourceJp": "ショップ で購入(日替わり)",
+        "sourceKo": "ショップ で購入 (일일 교체)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-3e17d7a8e2",
+        "nameJp": "おしゃれなてつのカベ",
+        "sourceType": "other",
+        "sourceJp": "ショップ で購入(日替わり)",
+        "sourceKo": "ショップ で購入 (일일 교체)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-70dfbac1c8",
+        "nameJp": "モダンなカーペット",
+        "sourceType": "other",
+        "sourceJp": "ショップ で購入(日替わり)",
+        "sourceKo": "ショップ で購入 (일일 교체)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-e567eb07b8",
+        "nameJp": "木のふち・まっすぐ",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「木のふちのレシピセット」を購入",
+        "sourceKo": "ショップ で「木のふちのレシピセット」を購入",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-9d467b69d9",
+        "nameJp": "木のふち・ミニ",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「木のふちのレシピセット」を購入",
+        "sourceKo": "ショップ で「木のふちのレシピセット」を購入",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-bbd2fbfafe",
+        "nameJp": "木のふち・かど",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「木のふちのレシピセット」を購入",
+        "sourceKo": "ショップ で「木のふちのレシピセット」を購入",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-942c1ac9ae",
+        "nameJp": "スプリンクラー",
+        "sourceType": "other",
+        "sourceJp": "ショップ で購入(日替わり)",
+        "sourceKo": "ショップ で購入 (일일 교체)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-a58b24053e",
+        "nameJp": "うちっぱなしのカベ",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「うきしまのいえづくりレシピセット」を購入( キラキラうきしまの街 Lv3)",
+        "sourceKo": "ショップ で「うきしまのいえづくりレシピセット」を購入 ( 반짝반짝 부유섬 마을 Lv3)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-07c4794498",
+        "nameJp": "じどうドア",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「うきしまのいえづくりレシピセット」を購入( キラキラうきしまの街 Lv3)",
+        "sourceKo": "ショップ で「うきしまのいえづくりレシピセット」を購入 ( 반짝반짝 부유섬 마을 Lv3)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-6d106b2fd6",
+        "nameJp": "コイキングのやねがわら",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「やねがわらレシピセット」を購入( パサパサこうやの街 Lv5)",
+        "sourceKo": "ショップ で「やねがわらレシピセット」を購入 ( 메마른 황야 마을 Lv5)",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-c572f19c3f",
+        "nameJp": "コンクリのふち・まっすぐ",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「コンクリのふちのレシピセット」を購入",
+        "sourceKo": "ショップ で「コンクリのふちのレシピセット」を購入",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-37d51ad7db",
+        "nameJp": "コンクリのふち・ミニ",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「コンクリのふちのレシピセット」を購入",
+        "sourceKo": "ショップ で「コンクリのふちのレシピセット」を購入",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-7e775e24e8",
+        "nameJp": "コンクリのふち・かど",
+        "sourceType": "other",
+        "sourceJp": "ショップ で「コンクリのふちのレシピセット」を購入",
+        "sourceKo": "ショップ で「コンクリのふちのレシピセット」を購入",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-fa055460b3",
+        "nameJp": "アンティークソファ",
+        "sourceType": "other",
+        "sourceJp": "まっさらな街 環境レベル6で ショップ 解放",
+        "sourceKo": "빈 마을 환경 레벨 6で ショップ 해금",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-85e879e73b",
+        "nameJp": "アンティークチェスト",
+        "sourceType": "other",
+        "sourceJp": "まっさらな街 環境レベル6で ショップ 解放",
+        "sourceKo": "빈 마을 환경 레벨 6で ショップ 해금",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-f4ff0a2226",
+        "nameJp": "てつのドア",
+        "sourceType": "other",
+        "sourceJp": "ごつごつやまの街環境レベル5で ショップ 解放",
+        "sourceKo": "울퉁불퉁 산마을 환경 레벨 5에서 ショップ 해금",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-e768965058",
+        "nameJp": "ひびわれすないわ",
+        "sourceType": "other",
+        "sourceJp": "まっさらな街 環境レベル8で ショップ 解放",
+        "sourceKo": "빈 마을 환경 레벨 8で ショップ 해금",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-ed03e30075",
+        "nameJp": "アンティークシャンデリア",
+        "sourceType": "other",
+        "sourceJp": "まっさらな街 環境レベル7で ショップ 解放",
+        "sourceKo": "빈 마을 환경 레벨 7で ショップ 해금",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      },
+      {
+        "id": "entry-9e9eb22843",
+        "nameJp": "木のカベ・ライト",
+        "sourceType": "other",
+        "sourceJp": "まっさらな街 環境レベル7で ショップ 解放",
+        "sourceKo": "빈 마을 환경 레벨 7で ショップ 해금",
+        "price": null,
+        "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
+      }
+    ]
+  },
+  "buildings": [
+    {
+      "id": "entry-351a4f4fd2",
+      "nameJp": "ともしびのさいだんキット",
+      "nameKo": null,
+      "typeJp": "建物",
+      "typeKo": "建物",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "15匹",
+      "buildTime": "24時間",
+      "useJp": "ファイヤー の生息地を作れる",
+      "useKo": "파이어 の生息地を作れる",
+      "recipeJp": "まっさらな街の北部で拾う",
+      "recipeKo": "빈 마을の북부에서 줍기",
+      "requiredSpecialtiesJp": [
+        "もやす",
+        "そらをとぶ",
+        "けんちく"
+      ],
+      "requiredSpecialtiesKo": [
+        "점화",
+        "공중날기",
+        "건축"
+      ],
+      "requiredMaterialsJp": [
+        "どうののべぼう",
+        "×50",
+        "きんののべぼう",
+        "×50",
+        "マグマいわ",
+        "×50",
+        "ポケメタル",
+        "×10"
+      ],
+      "requiredMaterialsKo": [
+        "どうののべぼう",
+        "×50",
+        "きんののべぼう",
+        "×50",
+        "マグマいわ",
+        "×50",
+        "ポケメタル",
+        "×10"
+      ]
+    },
+    {
+      "id": "entry-3dacdc6154",
+      "nameJp": "はっぱのおへやキット",
+      "nameKo": null,
+      "typeJp": "家",
+      "typeKo": "家",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "2匹",
+      "buildTime": "15分",
+      "useJp": "メタモン やポケモンのすみかになる",
+      "useKo": "메타몽 やポケモンのすみかになる",
+      "recipeJp": "ショップで購入(パサパサ荒野の環境レベル2)",
+      "recipeKo": "상점 구매 (パサパサ荒野の환경 레벨 2)",
+      "requiredSpecialtiesJp": [
+        "けんちく"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축"
+      ],
+      "requiredMaterialsJp": [
+        "じょうぶなえだ",
+        "×3",
+        "はっぱ",
+        "×3"
+      ],
+      "requiredMaterialsKo": [
+        "じょうぶなえだ",
+        "×3",
+        "はっぱ",
+        "×3"
+      ]
+    },
+    {
+      "id": "entry-fb8e9b2038",
+      "nameJp": "はっぱのりっぱなキット",
+      "nameKo": null,
+      "typeJp": "キット",
+      "typeKo": "キット",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "descriptionJp": "みんなで暮らせる特大の家が目標だ。ポケモンたちと一緒に「けんちく」しよう。",
+      "descriptionKo": "みんなで暮らせる特大の家が目標だ。ポケモンたちと一緒に「건축」しよう。",
+      "useJp": null,
+      "useKo": null,
+      "recipeJp": null,
+      "recipeKo": null,
+      "requiredSpecialtiesJp": [],
+      "requiredSpecialtiesKo": [],
+      "requiredMaterialsJp": [],
+      "requiredMaterialsKo": [],
+      "capacity": null,
+      "buildTime": null
+    },
+    {
+      "id": "entry-97160a25d0",
+      "nameJp": "風力はつでんキット",
+      "nameKo": null,
+      "typeJp": "キット",
+      "typeKo": "キット",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "descriptionJp": "風の力でいつでも「はつでん」できる。ポケモンたちと一緒に「けんちく」しよう。",
+      "descriptionKo": "風の力でいつでも「발전」できる。ポケモンたちと一緒に「건축」しよう。",
+      "useJp": null,
+      "useKo": null,
+      "recipeJp": null,
+      "recipeKo": null,
+      "requiredSpecialtiesJp": [],
+      "requiredSpecialtiesKo": [],
+      "requiredMaterialsJp": [],
+      "requiredMaterialsKo": [],
+      "capacity": null,
+      "buildTime": null
+    },
+    {
+      "id": "entry-a4a53948b1",
+      "nameJp": "ふたごのひむろキット",
+      "nameKo": null,
+      "typeJp": "建物",
+      "typeKo": "建物",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "15匹",
+      "buildTime": "24時間",
+      "useJp": "フリーザー の生息地を作れる",
+      "useKo": "프리져 の生息地を作れる",
+      "recipeJp": "まっさらな街の東部で拾う",
+      "recipeKo": "빈 마을の동부에서 줍기",
+      "requiredSpecialtiesJp": [
+        "うるおす",
+        "けんちく",
+        "そらをとぶ"
+      ],
+      "requiredSpecialtiesKo": [
+        "급수",
+        "건축",
+        "공중날기"
+      ],
+      "requiredMaterialsJp": [
+        "いし",
+        "×50",
+        "こおり",
+        "×50",
+        "クリスタルのカケラ",
+        "×10",
+        "ポケメタル",
+        "×10"
+      ],
+      "requiredMaterialsKo": [
+        "いし",
+        "×50",
+        "こおり",
+        "×50",
+        "クリスタルのカケラ",
+        "×10",
+        "ポケメタル",
+        "×10"
+      ]
+    },
+    {
+      "id": "entry-51fdf07043",
+      "nameJp": "むじんはつでんしょキット",
+      "nameKo": null,
+      "typeJp": "建物",
+      "typeKo": "建物",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "15匹",
+      "buildTime": "24時間",
+      "useJp": "サンダー の生息地を作れる",
+      "useKo": "썬더 の生息地を作れる",
+      "recipeJp": "まっさらな街の南部で拾う",
+      "recipeKo": "빈 마을の남부에서 줍기",
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "はつでん",
+        "つぶす",
+        "そらをとぶ"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "발전",
+        "분쇄",
+        "공중날기"
+      ],
+      "requiredMaterialsJp": [
+        "どうののべぼう",
+        "×50",
+        "てつののべぼう",
+        "×50",
+        "シーグラスのかけら",
+        "×50",
+        "レンガ",
+        "×50",
+        "ポケメタル",
+        "×10"
+      ],
+      "requiredMaterialsKo": [
+        "どうののべぼう",
+        "×50",
+        "てつののべぼう",
+        "×50",
+        "シーグラスのかけら",
+        "×50",
+        "レンガ",
+        "×50",
+        "ポケメタル",
+        "×10"
+      ]
+    }
+  ],
+  "dolls": [
+    {
+      "id": "entry-0fa91ae101",
+      "nameJp": "イーブイにんぎょう",
+      "nameKo": "이브이 인형",
+      "mapJp": "パサパサこうやの街",
+      "mapKo": "메마른 황야 마을",
+      "dreamIslandJp": "こうやのゆめしま",
+      "dreamIslandKo": "황야 꿈섬",
+      "noteJp": "ドンヨリうみべの街のダウジングでも入手可能",
+      "noteKo": "우중충한 해변 마을 다우징으로도 획득 가능",
+      "imagePath": null,
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547269"
+    },
+    {
+      "id": "entry-4c628f5868",
+      "nameJp": "ピカチュウにんぎょう",
+      "nameKo": "피카츄 인형",
+      "mapJp": "ドンヨリうみべの街",
+      "mapKo": "우중충한 해변 마을",
+      "dreamIslandJp": "うなばらのゆめしま",
+      "dreamIslandKo": "바다 꿈섬",
+      "noteJp": "ドンヨリうみべの街のダウジングでも入手可能",
+      "noteKo": "우중충한 해변 마을 다우징으로도 획득 가능",
+      "imagePath": null,
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547269"
+    },
+    {
+      "id": "entry-5ccac80d54",
+      "nameJp": "カイリューにんぎょう",
+      "nameKo": "망나뇽 인형",
+      "mapJp": "キラキラうきしまの街",
+      "mapKo": "반짝반짝 부유섬 마을",
+      "dreamIslandJp": "そらのゆめしま",
+      "dreamIslandKo": "하늘 꿈섬",
+      "noteJp": "ダウジングで入手",
+      "noteKo": "ダウジング에서 획득",
+      "imagePath": null,
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547269"
+    },
+    {
+      "id": "entry-27ebafab3c",
+      "nameJp": "ピッピにんぎょう",
+      "nameKo": "삐삐 인형",
+      "mapJp": "ゴツゴツやまの街",
+      "mapKo": "울퉁불퉁 산마을",
+      "dreamIslandJp": "いわやまのゆめしま",
+      "dreamIslandKo": "바위산 꿈섬",
+      "noteJp": "ゴツゴツやまの街のダウジングで入手",
+      "noteKo": "울퉁불퉁 산마을のダウジング에서 획득",
+      "imagePath": null,
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547269"
+    },
+    {
+      "id": "entry-e2efd9ade3",
+      "nameJp": "ウインディにんぎょう",
+      "nameKo": "윈디 인형",
+      "mapJp": "ゴツゴツやまの街",
+      "mapKo": "울퉁불퉁 산마을",
+      "dreamIslandJp": "かざんのゆめしま",
+      "dreamIslandKo": "화산 꿈섬",
+      "noteJp": "ゴツゴツやまの街のダウジングで入手",
+      "noteKo": "울퉁불퉁 산마을のダウジング에서 획득",
+      "imagePath": null,
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547269"
+    },
+    {
+      "id": "entry-4dc8692835",
+      "nameJp": "みがわりにんぎょう",
+      "nameKo": "대타 인형",
+      "mapJp": "どこでも",
+      "mapKo": "어디서든",
+      "dreamIslandJp": "ランダム",
+      "dreamIslandKo": "랜덤",
+      "noteJp": "",
+      "noteKo": "",
+      "imagePath": null,
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547269"
+    },
+    {
+      "id": "entry-11ef43f5a2",
+      "nameJp": "メタモンにんぎょう",
+      "nameKo": "메타몽 인형",
+      "mapJp": "どこでも",
+      "mapKo": "어디서든",
+      "dreamIslandJp": "ランダム",
+      "dreamIslandKo": "랜덤",
+      "noteJp": "",
+      "noteKo": "",
+      "imagePath": null,
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547269"
+    }
+  ],
+  "cds": [
+    {
+      "id": "entry-6e4dd7e728",
+      "nameJp": "～オープニング～",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-c80fef66b8",
+      "nameJp": "マサラタウンのテーマ",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-fe2743cd54",
+      "nameJp": "オーキド研究所",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-08907f1477",
+      "nameJp": "トキワへの道",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-9c820e7484",
+      "nameJp": "ニビシティのテーマ",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-919cdd2faa",
+      "nameJp": "ポケモンセンター",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-12e622285f",
+      "nameJp": "おつきみ山のどうくつ",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-4bc0462475",
+      "nameJp": "ハナダへの道",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-d0ce85bb19",
+      "nameJp": "セキチクシティのテーマ",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-3ba38c33af",
+      "nameJp": "ポケモンジム",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-a4c962ae32",
+      "nameJp": "マサキのもとへ",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-d118c0d7f7",
+      "nameJp": "クチバシティのテーマ",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-9dcf5a4521",
+      "nameJp": "サントアンヌ号",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-1f025a7519",
+      "nameJp": "ロケット団アジト",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-5ff28200ec",
+      "nameJp": "シルフカンパニー",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "vs",
+      "nameJp": "戦い(VSジムリーダー)",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-80fa75596f",
+      "nameJp": "つながりのどうくつ",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-4787a9d9c9",
+      "nameJp": "エンジュシティ",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-671308c311",
+      "nameJp": "スズのとう",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-90c123f949",
+      "nameJp": "ヒワマキシティ",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-64cdc08ce4",
+      "nameJp": "ルネシティ",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "209",
+      "nameJp": "209ばんどうろ(昼)",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-98c29c0a79",
+      "nameJp": "テンガンさん",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-ad2d980920",
+      "nameJp": "ゲームコーナー",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-78f240e760",
+      "nameJp": "ホドモエシティ",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "10",
+      "nameJp": "10番道路",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-f8b57db461",
+      "nameJp": "グッズでドレスアップ！",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-29fa5cf325",
+      "nameJp": "エイセツシティ",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-c3333995cd",
+      "nameJp": "ブティック",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-3f303192c8",
+      "nameJp": "スーパートレーニング！",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-c077f36588",
+      "nameJp": "コンテストライブ！",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-7eba2df685",
+      "nameJp": "ハウオリシティ(昼)",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-b28ac6901c",
+      "nameJp": "エーテルパラダイス",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-af8943e0d9",
+      "nameJp": "ウルトラビルディング",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-baaffc6c34",
+      "nameJp": "ワイルドエリア・北",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-d1b362f4d6",
+      "nameJp": "シュートシティ",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-3932ddfd09",
+      "nameJp": "ローズタワー",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "1",
+      "nameJp": "戦闘！ジムリーダー・1",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-3eaa5071df",
+      "nameJp": "コトブキムラ",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-4c36b574e5",
+      "nameJp": "南エリア",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-aad4f70177",
+      "nameJp": "アカデミー",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "entry-3ec9675a99",
+      "nameJp": "エリアゼロ",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    },
+    {
+      "id": "2",
+      "nameJp": "戦闘！ジムリーダー・2",
+      "nameKo": null,
+      "obtainJp": "光る地面を掘ってランダム入手",
+      "obtainKo": "빛나는 땅을 파서 랜덤 획득",
+      "useKo": "아게↑로토무 또는 CD 플레이어에 넣어 마을 BGM으로 재생",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547433"
+    }
+  ],
+  "berries": [
+    {
+      "id": "ヒメリのみ",
+      "nameJp": "ヒメリのみ",
+      "nameKo": null,
+      "imagePath": null,
+      "obtainJp": "자연 생성 + 나무 재배",
+      "obtainKo": "기본 자연 생성 열매이며 직접 키우는 루트의 기준 열매",
+      "notesKo": [
+        "히메리열매 + 다른 1종은 자연 생성",
+        "열매는 1시간에 1개씩 자라며 한 나무에 최대 3개까지 열린다"
+      ],
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/548099"
+    },
+    {
+      "id": "entry-42dc8f9f68",
+      "nameJp": "ラムのみ",
+      "nameKo": null,
+      "imagePath": "/images/item_berry/001_item_001.png",
+      "obtainJp": "ゴツゴツやまのコレクレーの館の先",
+      "obtainKo": "コレクレーの館 가장 오른쪽 문 너머 용암지대의 몬스터볼",
+      "notesKo": [
+        "자연 생성 1종은 유저마다 다르다",
+        "거래 특기가 있으면 교환으로 다른 열매를 보충할 수 있다"
+      ],
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/548099"
+    },
+    {
+      "id": "entry-0b279afbfe",
+      "nameJp": "モモンのみ",
+      "nameKo": null,
+      "imagePath": "/images/item_berry/002_item_002.png",
+      "obtainJp": "ゴツゴツやまの溶岩湖の脇道",
+      "obtainKo": "화산 입구를 지나 용암호수 옆길의 몬스터볼",
+      "notesKo": [
+        "자연 생성 1종은 유저마다 다르다",
+        "거래 특기가 있으면 교환으로 다른 열매를 보충할 수 있다"
+      ],
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/548099"
+    },
+    {
+      "id": "entry-03beaed4ba",
+      "nameJp": "ナナシのみ",
+      "nameKo": null,
+      "imagePath": "/images/item_berry/003_item_003.png",
+      "obtainJp": "ドンヨリうみべの滝",
+      "obtainKo": "우중충한 해변 폭포 쪽 몬스터볼",
+      "notesKo": [
+        "자연 생성 1종은 유저마다 다르다",
+        "거래 특기가 있으면 교환으로 다른 열매를 보충할 수 있다"
+      ],
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/548099"
+    },
+    {
+      "id": "entry-93d1268986",
+      "nameJp": "カゴのみ",
+      "nameKo": null,
+      "imagePath": "/images/item_berry/004_item_004.png",
+      "obtainJp": "ドンヨリうみべのドーブル近く",
+      "obtainKo": "도중 중앙 아래쪽 도브 근처",
+      "notesKo": [
+        "자연 생성 1종은 유저마다 다르다",
+        "거래 특기가 있으면 교환으로 다른 열매를 보충할 수 있다"
+      ],
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/548099"
+    },
+    {
+      "id": "entry-840f8afc33",
+      "nameJp": "チーゴのみ",
+      "nameKo": null,
+      "imagePath": "/images/item_berry/005_item_005.png",
+      "obtainJp": "キラキラうきしまの左上の島",
+      "obtainKo": "좌상단 섬의 덩굴 구멍 안쪽 몬스터볼",
+      "notesKo": [
+        "자연 생성 1종은 유저마다 다르다",
+        "거래 특기가 있으면 교환으로 다른 열매를 보충할 수 있다"
+      ],
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/548099"
+    }
+  ],
+  "emotes": [
+    {
+      "id": "entry-e7c3341c78",
+      "nameJp": "ヤッター！",
+      "nameKo": "해냈다!",
+      "imagePath": "/images/emote_emote/001_item_001.png",
+      "obtainJp": "最初から所持",
+      "obtainKo": "最初から所持",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
+    },
+    {
+      "id": "entry-ad1b435025",
+      "nameJp": "メソメソ…",
+      "nameKo": "훌쩍훌쩍...",
+      "imagePath": "/images/emote_emote/002_item_002.png",
+      "obtainJp": "最初から所持",
+      "obtainKo": "最初から所持",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
+    },
+    {
+      "id": "entry-0dd507f7e4",
+      "nameJp": "エー！？",
+      "nameKo": "에에!?",
+      "imagePath": "/images/emote_emote/003_item_003.png",
+      "obtainJp": "最初から所持",
+      "obtainKo": "最初から所持",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
+    },
+    {
+      "id": "entry-770d8829bd",
+      "nameJp": "こっちこっち！",
+      "nameKo": "여기 여기!",
+      "imagePath": "/images/emote_emote/004_item_004.png",
+      "obtainJp": "最初から所持",
+      "obtainKo": "最初から所持",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
+    },
+    {
+      "id": "entry-fd034f815f",
+      "nameJp": "よろしく！",
+      "nameKo": "잘 부탁해!",
+      "imagePath": "/images/emote_emote/005_item_005.png",
+      "obtainJp": "最初から所持",
+      "obtainKo": "最初から所持",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
+    },
+    {
+      "id": "entry-65b11804d7",
+      "nameJp": "ウトウト…",
+      "nameKo": "꾸벅꾸벅...",
+      "imagePath": "/images/emote_emote/006_item_006.png",
+      "obtainJp": "最初から所持",
+      "obtainKo": "最初から所持",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
+    },
+    {
+      "id": "entry-1e9c8851dd",
+      "nameJp": "ここ！",
+      "nameKo": "여기!",
+      "imagePath": "/images/emote_emote/007_item_007.png",
+      "obtainJp": "パサパサこうやの街東側の高台付近",
+      "obtainKo": "메마른 황야 마을東側の高台付近",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
+    },
+    {
+      "id": "entry-460bbd6ff0",
+      "nameJp": "やあ！",
+      "nameKo": "안녕!",
+      "imagePath": "/images/emote_emote/008_item_008.png",
+      "obtainJp": "パサパサこうやの街ポケモンセンターから北側のベンチ隣",
+      "obtainKo": "메마른 황야 마을ポケモンセンターから北側のベンチ隣",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
+    },
+    {
+      "id": "entry-428ea96665",
+      "nameJp": "にこにこ",
+      "nameKo": "방긋방긋",
+      "imagePath": "/images/emote_emote/009_item_009.png",
+      "obtainJp": "ゴツゴツ山の街東側にあるゲート付近",
+      "obtainKo": "ゴツゴツ山の街東側にあるゲート付近",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
+    }
+  ],
+  "bestshots": [
+    {
+      "id": "entry-d945440925",
+      "nameJp": "たき火でぽかぽか",
+      "nameKo": "모닥불로 포근포근",
+      "imagePath": "/images/bestshot_bestshot/001_item_001.png",
+      "conditionJp": "たき火の周りで寝ているポケモンの写真を撮る",
+      "conditionKo": "모닥불 주변에서 자고 있는 포켓몬을 촬영",
+      "rewardJp": "フォトフレーム「ほのおのうず」を入手",
+      "rewardKo": "フォトフレーム「ほのおのうず」を入手",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545339"
+    },
+    {
+      "id": "entry-9ba3133bb6",
+      "nameJp": "かぜおこしで回せ",
+      "nameKo": "바람일으키기로 돌려라",
+      "imagePath": "/images/bestshot_bestshot/002_item_002.png",
+      "conditionJp": "かざぐるまの近くにいるポッポの写真を撮る",
+      "conditionKo": "바람개비 근처에 있는 구구를 촬영",
+      "rewardJp": "なし",
+      "rewardKo": "なし",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545339"
+    },
+    {
+      "id": "entry-2a3d6cc79e",
+      "nameJp": "うなるマッハのこぶし",
+      "nameKo": "울리는 마하 펀치",
+      "imagePath": "/images/bestshot_bestshot/003_item_003.png",
+      "conditionJp": "サンドバッグで練習しているエビワラーの写真を撮る",
+      "conditionKo": "샌드백으로 연습하는 홍수몬을 촬영",
+      "rewardJp": "フォトフレーム「しょうげきは」を入手",
+      "rewardKo": "フォトフレーム「しょうげきは」を入手",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545339"
+    },
+    {
+      "id": "entry-aac7ab7c8d",
+      "nameJp": "大きなねどこで仲良くグッスリ",
+      "nameKo": "큰 잠자리에서 사이좋게 쿨쿨",
+      "imagePath": "/images/bestshot_bestshot/004_item_004.png",
+      "conditionJp": "木のベッドで寝ている2匹のポケモンを撮る",
+      "conditionKo": "나무 침대에서 함께 자는 포켓몬 2마리를 촬영",
+      "rewardJp": "なし",
+      "rewardKo": "なし",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545339"
+    },
+    {
+      "id": "entry-5c65c9af62",
+      "nameJp": "水浴びサイコー！",
+      "nameKo": "물놀이 최고!",
+      "imagePath": "/images/bestshot_bestshot/005_item_005.png",
+      "conditionJp": "シャワーを浴びているポケモンを撮る",
+      "conditionKo": "샤워 중인 포켓몬을 촬영",
+      "rewardJp": "フォトフレーム「バブル」を入手",
+      "rewardKo": "フォトフレーム「バブル」を入手",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545339"
+    }
+  ],
+  "specialCollections": [
+    {
+      "id": "mural",
+      "nameJp": "なぞのへきが",
+      "nameKo": "수수께끼 벽화",
+      "imagePath": "/images/collection_murals/001_item_001.png",
+      "summaryKo": "메마른 황야 포켓몬센터 뒤쪽 숨은 방에서 확인할 수 있는 벽화. 석판을 모두 맞추면 뮤가 출현한다.",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547378"
+    },
+    {
+      "id": "slate",
+      "nameJp": "なぞのせきばん",
+      "nameKo": "수수께끼 석판",
+      "imagePath": "/images/collection_slates/001_item_001.png",
+      "summaryKo": "빛나는 땅을 파서 모으는 수집품. 벽화 슬롯 27칸에 맞는 언노운 형태를 끼워 넣는다.",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547445"
+    }
+  ],
+  "ancientItemGroups": [
+    {
+      "id": "large-lost",
+      "nameJp": "おおきなおとしもの",
+      "nameKo": "큰 떨어진 물건",
+      "count": 37,
+      "items": [
+        {
+          "number": 1,
+          "nameJp": "かくばりたな",
+          "nameKo": null
+        },
+        {
+          "number": 2,
+          "nameJp": "なぞのだいざ",
+          "nameKo": null
+        },
+        {
+          "number": 3,
+          "nameJp": "クレベーステーブル",
+          "nameKo": null
+        },
+        {
+          "number": 4,
+          "nameJp": "ピカチュウソファ",
+          "nameKo": null
+        },
+        {
+          "number": 5,
+          "nameJp": "いねむりベッド",
+          "nameKo": null
+        },
+        {
+          "number": 6,
+          "nameJp": "ぐにゃぐにゃかがみ",
+          "nameKo": null
+        },
+        {
+          "number": 7,
+          "nameJp": "ツボかびん",
+          "nameKo": null
+        },
+        {
+          "number": 8,
+          "nameJp": "ムンナちょきんばこ",
+          "nameKo": null
+        },
+        {
+          "number": 9,
+          "nameJp": "ぴょんぴょんバスタブ",
+          "nameKo": null
+        },
+        {
+          "number": 10,
+          "nameJp": "アーケードゲームマシン",
+          "nameKo": null
+        },
+        {
+          "number": 11,
+          "nameJp": "あやしいディフューザー",
+          "nameKo": null
+        },
+        {
+          "number": 12,
+          "nameJp": "きんのいれば",
+          "nameKo": null
+        },
+        {
+          "number": 13,
+          "nameJp": "むしよけスプレー",
+          "nameKo": null
+        },
+        {
+          "number": 14,
+          "nameJp": "でかいきんのたま",
+          "nameKo": null
+        },
+        {
+          "number": 15,
+          "nameJp": "びっくりばこ",
+          "nameKo": null
+        },
+        {
+          "number": 16,
+          "nameJp": "おきあがりソーナンス",
+          "nameKo": null
+        },
+        {
+          "number": 17,
+          "nameJp": "なぞのせきぞう",
+          "nameKo": null
+        },
+        {
+          "number": 18,
+          "nameJp": "ほのおのブビィぞう",
+          "nameKo": null
+        },
+        {
+          "number": 19,
+          "nameJp": "ジムマークぞう",
+          "nameKo": null
+        },
+        {
+          "number": 20,
+          "nameJp": "うちゅうふく",
+          "nameKo": null
+        },
+        {
+          "number": 21,
+          "nameJp": "スペースシャトルのもけい",
+          "nameKo": null
+        },
+        {
+          "number": 22,
+          "nameJp": "うちゅうせん",
+          "nameKo": null
+        },
+        {
+          "number": 23,
+          "nameJp": "モクローどけい",
+          "nameKo": null
+        },
+        {
+          "number": 24,
+          "nameJp": "てるてるポワルン",
+          "nameKo": null
+        },
+        {
+          "number": 25,
+          "nameJp": "あやしいキャンドル",
+          "nameKo": null
+        },
+        {
+          "number": 26,
+          "nameJp": "ガーデンオーナメント",
+          "nameKo": null
+        },
+        {
+          "number": 27,
+          "nameJp": "じてんしゃ",
+          "nameKo": null
+        },
+        {
+          "number": 28,
+          "nameJp": "タッツーふんすい",
+          "nameKo": null
+        },
+        {
+          "number": 29,
+          "nameJp": "つりざお",
+          "nameKo": null
+        },
+        {
+          "number": 30,
+          "nameJp": "ライチュウかんばん",
+          "nameKo": null
+        },
+        {
+          "number": 31,
+          "nameJp": "かおだしパネル",
+          "nameKo": null
+        },
+        {
+          "number": 32,
+          "nameJp": "ながれぼしランプ",
+          "nameKo": null
+        },
+        {
+          "number": 33,
+          "nameJp": "タネボーランプ",
+          "nameKo": null
+        },
+        {
+          "number": 34,
+          "nameJp": "ヤドンのラグ",
+          "nameKo": null
+        },
+        {
+          "number": 35,
+          "nameJp": "リザードンのラグ",
+          "nameKo": null
+        },
+        {
+          "number": 36,
+          "nameJp": "タウンマップ",
+          "nameKo": null
+        },
+        {
+          "number": 37,
+          "nameJp": "ロケットだんのかべかけ",
+          "nameKo": null
+        }
+      ]
+    },
+    {
+      "id": "small-lost",
+      "nameJp": "ちいさなおとしもの",
+      "nameKo": "작은 떨어진 물건",
+      "count": 46,
+      "items": [
+        {
+          "number": 1,
+          "nameJp": "きんのたま",
+          "nameKo": null
+        },
+        {
+          "number": 2,
+          "nameJp": "ぎんのおうかん",
+          "nameKo": null
+        },
+        {
+          "number": 3,
+          "nameJp": "きんのおうかん",
+          "nameKo": null
+        },
+        {
+          "number": 4,
+          "nameJp": "きちょうなホネ",
+          "nameKo": null
+        },
+        {
+          "number": 5,
+          "nameJp": "ハートのウロコ",
+          "nameKo": null
+        },
+        {
+          "number": 6,
+          "nameJp": "きせきのタネ",
+          "nameKo": null
+        },
+        {
+          "number": 7,
+          "nameJp": "かたいいし",
+          "nameKo": null
+        },
+        {
+          "number": 8,
+          "nameJp": "しんぴのしずく",
+          "nameKo": null
+        },
+        {
+          "number": 9,
+          "nameJp": "メタルコート",
+          "nameKo": null
+        },
+        {
+          "number": 10,
+          "nameJp": "まがったスプーン",
+          "nameKo": null
+        },
+        {
+          "number": 11,
+          "nameJp": "ぎんのこな",
+          "nameKo": null
+        },
+        {
+          "number": 12,
+          "nameJp": "くろいメガネ",
+          "nameKo": null
+        },
+        {
+          "number": 13,
+          "nameJp": "くろおび",
+          "nameKo": null
+        },
+        {
+          "number": 14,
+          "nameJp": "シルクのスカーフ",
+          "nameKo": null
+        },
+        {
+          "number": 15,
+          "nameJp": "するどいくちばし",
+          "nameKo": null
+        },
+        {
+          "number": 16,
+          "nameJp": "どくバリ",
+          "nameKo": null
+        },
+        {
+          "number": 17,
+          "nameJp": "とけないこおり",
+          "nameKo": null
+        },
+        {
+          "number": 18,
+          "nameJp": "のろいのおふだ",
+          "nameKo": null
+        },
+        {
+          "number": 19,
+          "nameJp": "もくたん",
+          "nameKo": null
+        },
+        {
+          "number": 20,
+          "nameJp": "やわらかいすな",
+          "nameKo": null
+        },
+        {
+          "number": 21,
+          "nameJp": "ようせいのハネ",
+          "nameKo": null
+        },
+        {
+          "number": 22,
+          "nameJp": "りゅうのキバ",
+          "nameKo": null
+        },
+        {
+          "number": 23,
+          "nameJp": "たべのこし",
+          "nameKo": null
+        },
+        {
+          "number": 24,
+          "nameJp": "くろいヘドロ",
+          "nameKo": null
+        },
+        {
+          "number": 25,
+          "nameJp": "しあわせタマゴ",
+          "nameKo": null
+        },
+        {
+          "number": 26,
+          "nameJp": "あかいいと",
+          "nameKo": null
+        },
+        {
+          "number": 27,
+          "nameJp": "いのちのたま",
+          "nameKo": null
+        },
+        {
+          "number": 28,
+          "nameJp": "くろいてっきゅう",
+          "nameKo": null
+        },
+        {
+          "number": 29,
+          "nameJp": "メタルパウダー",
+          "nameKo": null
+        },
+        {
+          "number": 30,
+          "nameJp": "おおきなねっこ",
+          "nameKo": null
+        },
+        {
+          "number": 31,
+          "nameJp": "ビビリだま",
+          "nameKo": null
+        },
+        {
+          "number": 32,
+          "nameJp": "じゃくてんほけん",
+          "nameKo": null
+        },
+        {
+          "number": 33,
+          "nameJp": "グランドコート",
+          "nameKo": null
+        },
+        {
+          "number": 34,
+          "nameJp": "こうかくレンズ",
+          "nameKo": null
+        },
+        {
+          "number": 35,
+          "nameJp": "のどスプレー",
+          "nameKo": null
+        },
+        {
+          "number": 36,
+          "nameJp": "ひかりのねんど",
+          "nameKo": null
+        },
+        {
+          "number": 37,
+          "nameJp": "いかさまダイス",
+          "nameKo": null
+        },
+        {
+          "number": 38,
+          "nameJp": "くっつきバリ",
+          "nameKo": null
+        },
+        {
+          "number": 39,
+          "nameJp": "せんせいのツメ",
+          "nameKo": null
+        },
+        {
+          "number": 40,
+          "nameJp": "こうこうのしっぽ",
+          "nameKo": null
+        },
+        {
+          "number": 41,
+          "nameJp": "かえんだま",
+          "nameKo": null
+        },
+        {
+          "number": 42,
+          "nameJp": "とくせいガード",
+          "nameKo": null
+        },
+        {
+          "number": 43,
+          "nameJp": "ルームサービス",
+          "nameKo": null
+        },
+        {
+          "number": 44,
+          "nameJp": "ねらいのまと",
+          "nameKo": null
+        },
+        {
+          "number": 45,
+          "nameJp": "クリアチャーム",
+          "nameKo": null
+        },
+        {
+          "number": 46,
+          "nameJp": "フォーカスレンズ",
+          "nameKo": null
+        }
+      ]
+    },
+    {
+      "id": "fossils",
+      "nameJp": "かせき",
+      "nameKo": "화석",
+      "count": 22,
+      "items": [
+        {
+          "nameJp": "ズガイのカセキ",
+          "nameKo": null,
+          "mapJp": "キラキラうきしまの街",
+          "mapKo": "반짝반짝 부유섬 마을"
+        },
+        {
+          "nameJp": "たてのカセキ",
+          "nameKo": null,
+          "mapJp": "パサパサこうやの街",
+          "mapKo": "메마른 황야 마을"
+        },
+        {
+          "nameJp": "アゴのカセキ",
+          "nameKo": null,
+          "mapJp": "ゴツゴツやまの街",
+          "mapKo": "울퉁불퉁 산마을"
+        },
+        {
+          "nameJp": "ヒレのカセキ",
+          "nameKo": null,
+          "mapJp": "ドンヨリうみべの街",
+          "mapKo": "우중충한 해변 마을"
+        },
+        {
+          "nameJp": "ツバサのカセキ・あたま",
+          "nameKo": null,
+          "mapJp": "ゴツゴツやまの街",
+          "mapKo": "울퉁불퉁 산마을"
+        },
+        {
+          "nameJp": "ツバサのカセキ・うよく",
+          "nameKo": null,
+          "mapJp": "ゴツゴツやまの街",
+          "mapKo": "울퉁불퉁 산마을"
+        },
+        {
+          "nameJp": "ツバサのカセキ・さよく",
+          "nameKo": null,
+          "mapJp": "ゴツゴツやまの街",
+          "mapKo": "울퉁불퉁 산마을"
+        },
+        {
+          "nameJp": "ツバサのカセキ・どう",
+          "nameKo": null,
+          "mapJp": "ゴツゴツやまの街",
+          "mapKo": "울퉁불퉁 산마을"
+        },
+        {
+          "nameJp": "ツバサのカセキ・しっぽ",
+          "nameKo": null,
+          "mapJp": "ゴツゴツやまの街",
+          "mapKo": "울퉁불퉁 산마을"
+        },
+        {
+          "nameJp": "ずつきのカセキ・あたま",
+          "nameKo": null,
+          "mapJp": "キラキラうきしまの街",
+          "mapKo": "반짝반짝 부유섬 마을"
+        },
+        {
+          "nameJp": "ずつきのカセキ・どう",
+          "nameKo": null,
+          "mapJp": "キラキラうきしまの街",
+          "mapKo": "반짝반짝 부유섬 마을"
+        },
+        {
+          "nameJp": "ずつきのカセキ・しっぽ",
+          "nameKo": null,
+          "mapJp": "キラキラうきしまの街",
+          "mapKo": "반짝반짝 부유섬 마을"
+        },
+        {
+          "nameJp": "シールドのカセキ・あたま",
+          "nameKo": null,
+          "mapJp": "パサパサこうやの街",
+          "mapKo": "메마른 황야 마을"
+        },
+        {
+          "nameJp": "シールドのカセキ・どう",
+          "nameKo": null,
+          "mapJp": "パサパサこうやの街",
+          "mapKo": "메마른 황야 마을"
+        },
+        {
+          "nameJp": "シールドのカセキ・しっぽ",
+          "nameKo": null,
+          "mapJp": "パサパサこうやの街",
+          "mapKo": "메마른 황야 마을"
+        },
+        {
+          "nameJp": "ぼうくんのカセキ・あたま",
+          "nameKo": null,
+          "mapJp": "ゴツゴツやまの街",
+          "mapKo": "울퉁불퉁 산마을"
+        },
+        {
+          "nameJp": "ぼうくんのカセキ・どう",
+          "nameKo": null,
+          "mapJp": "ゴツゴツやまの街",
+          "mapKo": "울퉁불퉁 산마을"
+        },
+        {
+          "nameJp": "ぼうくんのカセキ・あし",
+          "nameKo": null,
+          "mapJp": "ゴツゴツやまの街",
+          "mapKo": "울퉁불퉁 산마을"
+        },
+        {
+          "nameJp": "ぼうくんのカセキ・しっぽ",
+          "nameKo": null,
+          "mapJp": "ゴツゴツやまの街",
+          "mapKo": "울퉁불퉁 산마을"
+        },
+        {
+          "nameJp": "ツンドラのカセキ・あたま",
+          "nameKo": null,
+          "mapJp": "ドンヨリうみべの街",
+          "mapKo": "우중충한 해변 마을"
+        },
+        {
+          "nameJp": "ツンドラのカセキ・どう",
+          "nameKo": null,
+          "mapJp": "ドンヨリうみべの街",
+          "mapKo": "우중충한 해변 마을"
+        },
+        {
+          "nameJp": "ツンドラのカセキ・しっぽ",
+          "nameKo": null,
+          "mapJp": "ドンヨリうみべの街",
+          "mapKo": "우중충한 해변 마을"
+        }
+      ]
+    }
+  ]
+}

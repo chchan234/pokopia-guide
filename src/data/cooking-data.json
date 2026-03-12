@@ -1,0 +1,773 @@
+{
+  "sourceUrls": [
+    "https://gamewith.jp/pocoapokemon/545733"
+  ],
+  "summary": {
+    "dishCount": 24,
+    "toolCount": 4,
+    "categoryCount": 4,
+    "notesKo": [
+      "요리 해금은 울퉁불퉁 산 스토리 진행 이후",
+      "근처 포켓몬이 도와주면 레시피 결과가 달라질 수 있다",
+      "정식 한국어 표기가 확인되지 않은 요리명은 일본어 원문을 병기했다"
+    ]
+  },
+  "toolCards": [
+    {
+      "toolJp": "まないた",
+      "toolKo": "도마",
+      "mainIngredientJp": "はっぱ",
+      "mainIngredientKo": "잎사귀",
+      "dishTypeJp": "サラダ",
+      "dishTypeKo": "샐러드"
+    },
+    {
+      "toolJp": "フライパン",
+      "toolKo": "프라이팬",
+      "mainIngredientJp": "マメ",
+      "mainIngredientKo": "콩",
+      "dishTypeJp": "ハンバーグ",
+      "dishTypeKo": "햄버그"
+    },
+    {
+      "toolJp": "なべ",
+      "toolKo": "냄비",
+      "mainIngredientJp": "おいしいみず",
+      "mainIngredientKo": "맛있는 물",
+      "dishTypeJp": "スープ",
+      "dishTypeKo": "수프"
+    },
+    {
+      "toolJp": "パンがま",
+      "toolKo": "빵가마",
+      "mainIngredientJp": "コムギ",
+      "mainIngredientKo": "밀",
+      "dishTypeJp": "パン",
+      "dishTypeKo": "빵"
+    }
+  ],
+  "categoryEffects": [
+    {
+      "categoryJp": "サラダ",
+      "categoryKo": "샐러드",
+      "skillJp": "このは",
+      "skillKo": "나뭇잎",
+      "effectKo": "범위가 십자형으로 넓어지고 바위/벽에 이끼와 덩굴을 만들 수 있다"
+    },
+    {
+      "categoryJp": "ハンバーグ",
+      "categoryKo": "햄버그",
+      "skillJp": "いわくだき",
+      "skillKo": "바위깨기",
+      "effectKo": "단단한 소재 파괴 효율이 크게 오른다"
+    },
+    {
+      "categoryJp": "スープ",
+      "categoryKo": "수프",
+      "skillJp": "みずでっぽう",
+      "skillKo": "물대포",
+      "effectKo": "원거리 물 활용 성능이 올라가 탐색이 편해진다"
+    },
+    {
+      "categoryJp": "パン",
+      "categoryKo": "빵",
+      "skillJp": "いあいぎり",
+      "skillKo": "풀베기",
+      "effectKo": "금속 장벽까지 자를 수 있고 차지 범위가 넓어진다"
+    }
+  ],
+  "recommended": [
+    {
+      "nameJp": "ジャガイモハンバーグ",
+      "reasonKo": "바위깨기 강화폭이 커서 채굴, 정지 작업, 포케메탈 파밍에 가장 쓰기 좋다"
+    },
+    {
+      "nameJp": "アツアツスープパン",
+      "reasonKo": "공물로 바치면 서식지 포켓몬 출현률을 크게 올려 희귀 포켓몬 탐색에 유리하다"
+    }
+  ],
+  "dishes": [
+    {
+      "id": "entry-d5bb4f628d",
+      "nameJp": "アツアツスープパン",
+      "nameKo": null,
+      "categoryJp": "パン",
+      "categoryKo": "빵",
+      "tasteJp": "からい",
+      "tasteKo": "매콤함",
+      "materialsJp": [
+        "コムギ",
+        "スープ(なんでも)",
+        "なんでも"
+      ],
+      "materialsKo": [
+        "コムギ",
+        "スープ(なんでも)",
+        "なんでも"
+      ],
+      "helperSpecialtyJp": "もやす",
+      "helperSpecialtyKo": "점화",
+      "toolJp": "パンがま",
+      "toolKo": "빵가마",
+      "boostedSkillJp": "いあいぎり",
+      "boostedSkillKo": "풀베기",
+      "boostSummaryJp": "「いあいぎり」がパワーアップ",
+      "offeringEffectJp": "すると生息地にポケモンがかなり現れやすくなる",
+      "offeringEffectKo": "공물로 바치면 서식지에 포켓몬이 훨씬 잘 나타난다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-c274bce394",
+      "nameJp": "いろどりハンバーグ",
+      "nameKo": null,
+      "categoryJp": "ハンバーグ",
+      "categoryKo": "햄버그",
+      "tasteJp": "普通",
+      "tasteKo": "보통",
+      "materialsJp": [
+        "マメ",
+        "ジャガイモ",
+        "サラダ(なんでも)",
+        "なんでも"
+      ],
+      "materialsKo": [
+        "マメ",
+        "ジャガイモ",
+        "サラダ(なんでも)",
+        "なんでも"
+      ],
+      "helperSpecialtyJp": null,
+      "helperSpecialtyKo": null,
+      "toolJp": "フライパン",
+      "toolKo": "프라이팬",
+      "boostedSkillJp": "いわくだき",
+      "boostedSkillKo": "바위깨기",
+      "boostSummaryJp": "「いわくだき」がとてもパワーアップ",
+      "offeringEffectJp": "するとポケモンとかなり仲良くなれる",
+      "offeringEffectKo": "공물로 바치면 포켓몬과 훨씬 빨리 친해진다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-949de80c02",
+      "nameJp": "おとなのハンバーグ",
+      "nameKo": null,
+      "categoryJp": "ハンバーグ",
+      "categoryKo": "햄버그",
+      "tasteJp": "にがい",
+      "tasteKo": "쌉쌀함",
+      "materialsJp": [
+        "マメ",
+        "チーゴのみ",
+        "ラムのみ",
+        "なんでも"
+      ],
+      "materialsKo": [
+        "マメ",
+        "チーゴのみ",
+        "ラムのみ",
+        "なんでも"
+      ],
+      "helperSpecialtyJp": null,
+      "helperSpecialtyKo": null,
+      "toolJp": "フライパン",
+      "toolKo": "프라이팬",
+      "boostedSkillJp": "いわくだき",
+      "boostedSkillKo": "바위깨기",
+      "boostSummaryJp": "「いわくだき」がパワーアップ",
+      "offeringEffectJp": "するとめずらしいものがかなり見つかりやすくなる",
+      "offeringEffectKo": "공물로 바치면 희귀한 것을 훨씬 쉽게 찾는다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-6081b64408",
+      "nameJp": "かいそうサラダ",
+      "nameKo": null,
+      "categoryJp": "サラダ",
+      "categoryKo": "샐러드",
+      "tasteJp": "にがい",
+      "tasteKo": "쌉쌀함",
+      "materialsJp": [
+        "はっぱ",
+        "かいそう"
+      ],
+      "materialsKo": [
+        "はっぱ",
+        "かいそう"
+      ],
+      "helperSpecialtyJp": null,
+      "helperSpecialtyKo": null,
+      "toolJp": "まないた",
+      "toolKo": "도마",
+      "boostedSkillJp": "このは",
+      "boostedSkillKo": "나뭇잎",
+      "boostSummaryJp": "「このは」がパワーアップ",
+      "offeringEffectJp": "するとめずらしいものがまあまあ見つかりやすくなる",
+      "offeringEffectKo": "공물로 바치면 희귀한 것을 비교적 쉽게 찾는다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-bb78e3fb0e",
+      "nameJp": "かいそうスープ",
+      "nameKo": null,
+      "categoryJp": "スープ",
+      "categoryKo": "수프",
+      "tasteJp": "にがい",
+      "tasteKo": "쌉쌀함",
+      "materialsJp": [
+        "おいしいみず",
+        "かいそう",
+        "なんでも"
+      ],
+      "materialsKo": [
+        "おいしいみず",
+        "かいそう",
+        "なんでも"
+      ],
+      "helperSpecialtyJp": null,
+      "helperSpecialtyKo": null,
+      "toolJp": "なべ",
+      "toolKo": "냄비",
+      "boostedSkillJp": "みずでっぽう",
+      "boostedSkillKo": "물대포",
+      "boostSummaryJp": "「みずでっぽう」がパワーアップ",
+      "offeringEffectJp": "するとめずらしいものがまあまあ見つかりやすくなる",
+      "offeringEffectKo": "공물로 바치면 희귀한 것을 비교적 쉽게 찾는다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-1146c00cbb",
+      "nameJp": "きのこハンバーグ",
+      "nameKo": null,
+      "categoryJp": "ハンバーグ",
+      "categoryKo": "햄버그",
+      "tasteJp": "しぶい",
+      "tasteKo": "떫은맛",
+      "materialsJp": [
+        "マメ",
+        "たべごろキノコ",
+        "なんでも×2"
+      ],
+      "materialsKo": [
+        "マメ",
+        "たべごろキノコ",
+        "なんでも×2"
+      ],
+      "helperSpecialtyJp": null,
+      "helperSpecialtyKo": null,
+      "toolJp": "フライパン",
+      "toolKo": "프라이팬",
+      "boostedSkillJp": "いわくだき",
+      "boostedSkillKo": "바위깨기",
+      "boostSummaryJp": "「いわくだき」がパワーアップ",
+      "offeringEffectJp": "すると ホウオウ / ルギア をまあまあ見かけやすくなる",
+      "offeringEffectKo": "공물로 바치면 호우오우 / 루기아를 비교적 자주 본다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-54cd12249b",
+      "nameJp": "キノコスープ",
+      "nameKo": null,
+      "categoryJp": "スープ",
+      "categoryKo": "수프",
+      "tasteJp": "しぶい",
+      "tasteKo": "떫은맛",
+      "materialsJp": [
+        "おいしいみず",
+        "たべごろキノコ",
+        "なんでも"
+      ],
+      "materialsKo": [
+        "おいしいみず",
+        "たべごろキノコ",
+        "なんでも"
+      ],
+      "helperSpecialtyJp": null,
+      "helperSpecialtyKo": null,
+      "toolJp": "なべ",
+      "toolKo": "냄비",
+      "boostedSkillJp": "みずでっぽう",
+      "boostedSkillKo": "물대포",
+      "boostSummaryJp": "「みずでっぽう」がパワーアップ",
+      "offeringEffectJp": "すると ホウオウ / ルギア をまあまあ見かけやすくなる",
+      "offeringEffectKo": "공물로 바치면 호우오우 / 루기아를 비교적 자주 본다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-8fb3d28ed2",
+      "nameJp": "キャロットパン",
+      "nameKo": null,
+      "categoryJp": "パン",
+      "categoryKo": "빵",
+      "tasteJp": "からい",
+      "tasteKo": "매콤함",
+      "materialsJp": [
+        "コムギ",
+        "たべごろニンジン",
+        "なんでも"
+      ],
+      "materialsKo": [
+        "コムギ",
+        "たべごろニンジン",
+        "なんでも"
+      ],
+      "helperSpecialtyJp": null,
+      "helperSpecialtyKo": null,
+      "toolJp": "パンがま",
+      "toolKo": "빵가마",
+      "boostedSkillJp": "いあいぎり",
+      "boostedSkillKo": "풀베기",
+      "boostSummaryJp": "「いあいぎり」がパワーアップ",
+      "offeringEffectJp": "すると生息地にポケモンがまあまあ現れやすくなる",
+      "offeringEffectKo": "공물로 바치면 서식지에 포켓몬이 비교적 잘 나타난다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-7f3ff60c6c",
+      "nameJp": "クルトンサラダ",
+      "nameKo": null,
+      "categoryJp": "サラダ",
+      "categoryKo": "샐러드",
+      "tasteJp": "からい",
+      "tasteKo": "매콤함",
+      "materialsJp": [
+        "はっぱ",
+        "パン(なんでも)"
+      ],
+      "materialsKo": [
+        "はっぱ",
+        "パン(なんでも)"
+      ],
+      "helperSpecialtyJp": null,
+      "helperSpecialtyKo": null,
+      "toolJp": "まないた",
+      "toolKo": "도마",
+      "boostedSkillJp": "このは",
+      "boostedSkillKo": "나뭇잎",
+      "boostSummaryJp": "「このは」がパワーアップ",
+      "offeringEffectJp": "すると生息地にポケモンがかなり現れやすくなる",
+      "offeringEffectKo": "공물로 바치면 서식지에 포켓몬이 훨씬 잘 나타난다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-74b3b59a3d",
+      "nameJp": "ジャガイモハンバーグ",
+      "nameKo": null,
+      "categoryJp": "ハンバーグ",
+      "categoryKo": "햄버그",
+      "tasteJp": "あまい",
+      "tasteKo": "달콤함",
+      "materialsJp": [
+        "マメ",
+        "ジャガイモ",
+        "なんでも×2"
+      ],
+      "materialsKo": [
+        "マメ",
+        "ジャガイモ",
+        "なんでも×2"
+      ],
+      "helperSpecialtyJp": null,
+      "helperSpecialtyKo": null,
+      "toolJp": "フライパン",
+      "toolKo": "프라이팬",
+      "boostedSkillJp": "いわくだき",
+      "boostedSkillKo": "바위깨기",
+      "boostSummaryJp": "「いわくだき」がとてもパワーアップ",
+      "offeringEffectJp": "すると いにしえのもの がまあまあ現れやすくなる",
+      "offeringEffectKo": "공물로 바치면 고대의 물건이 비교적 잘 나온다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-6e6cd47c8b",
+      "nameJp": "ジューシースープ",
+      "nameKo": null,
+      "categoryJp": "スープ",
+      "categoryKo": "수프",
+      "tasteJp": "すっぱい",
+      "tasteKo": "새콤함",
+      "materialsJp": [
+        "おいしいみず",
+        "ナナシのみ",
+        "ハンバーグ(なんでも)"
+      ],
+      "materialsKo": [
+        "おいしいみず",
+        "ナナシのみ",
+        "ハンバーグ(なんでも)"
+      ],
+      "helperSpecialtyJp": null,
+      "helperSpecialtyKo": null,
+      "toolJp": "なべ",
+      "toolKo": "냄비",
+      "boostedSkillJp": "みずでっぽう",
+      "boostedSkillKo": "물대포",
+      "boostSummaryJp": "「みずでっぽう」がパワーアップ",
+      "offeringEffectJp": "するとショップにいいものがかなり並びやすくなる",
+      "offeringEffectKo": "공물로 바치면 상점에 좋은 물건이 훨씬 잘 뜬다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-479b370c41",
+      "nameJp": "すりつぶしサラダ",
+      "nameKo": null,
+      "categoryJp": "サラダ",
+      "categoryKo": "샐러드",
+      "tasteJp": "しぶい",
+      "tasteKo": "떫은맛",
+      "materialsJp": [
+        "はっぱ",
+        "カゴのみ"
+      ],
+      "materialsKo": [
+        "はっぱ",
+        "カゴのみ"
+      ],
+      "helperSpecialtyJp": "つぶす",
+      "helperSpecialtyKo": "분쇄",
+      "toolJp": "まないた",
+      "toolKo": "도마",
+      "boostedSkillJp": "このは",
+      "boostedSkillKo": "나뭇잎",
+      "boostSummaryJp": "「このは」がパワーアップ",
+      "offeringEffectJp": "すると ホウオウ / ルギア をかなり見かけやすくなる",
+      "offeringEffectKo": "공물로 바치면 호우오우 / 루기아를 훨씬 자주 본다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-24934ddd90",
+      "nameJp": "せんぎりサラダ",
+      "nameKo": null,
+      "categoryJp": "サラダ",
+      "categoryKo": "샐러드",
+      "tasteJp": "すっぱい",
+      "tasteKo": "새콤함",
+      "materialsJp": [
+        "はっぱ",
+        "はっぱなど(他の料理にならないならなんでも)"
+      ],
+      "materialsKo": [
+        "はっぱ",
+        "はっぱなど(他の料理にならないならなんでも)"
+      ],
+      "helperSpecialtyJp": "きをきる",
+      "helperSpecialtyKo": "절삭",
+      "toolJp": "まないた",
+      "toolKo": "도마",
+      "boostedSkillJp": "このは",
+      "boostedSkillKo": "나뭇잎",
+      "boostSummaryJp": "「このは」がパワーアップ",
+      "offeringEffectJp": "するとショップにいいものがまあまあ並びやすくなる",
+      "offeringEffectKo": "공물로 바치면 상점에 좋은 물건이 비교적 잘 뜬다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-804e29ea5c",
+      "nameJp": "トマトハンバーグ",
+      "nameKo": null,
+      "categoryJp": "ハンバーグ",
+      "categoryKo": "햄버그",
+      "tasteJp": "すっぱい",
+      "tasteKo": "새콤함",
+      "materialsJp": [
+        "マメ",
+        "トマト",
+        "なんでも×2"
+      ],
+      "materialsKo": [
+        "マメ",
+        "トマト",
+        "なんでも×2"
+      ],
+      "helperSpecialtyJp": null,
+      "helperSpecialtyKo": null,
+      "toolJp": "フライパン",
+      "toolKo": "프라이팬",
+      "boostedSkillJp": "いわくだき",
+      "boostedSkillKo": "바위깨기",
+      "boostSummaryJp": "「いわくだき」がパワーアップ",
+      "offeringEffectJp": "するとショップにいいものがまあまあ並びやすくなる",
+      "offeringEffectKo": "공물로 바치면 상점에 좋은 물건이 비교적 잘 뜬다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-1b29dea9da",
+      "nameJp": "ヒメリサラダ",
+      "nameKo": null,
+      "categoryJp": "サラダ",
+      "categoryKo": "샐러드",
+      "tasteJp": "あまい",
+      "tasteKo": "달콤함",
+      "materialsJp": [
+        "はっぱ",
+        "ヒメリのみ"
+      ],
+      "materialsKo": [
+        "はっぱ",
+        "ヒメリのみ"
+      ],
+      "helperSpecialtyJp": null,
+      "helperSpecialtyKo": null,
+      "toolJp": "まないた",
+      "toolKo": "도마",
+      "boostedSkillJp": "このは",
+      "boostedSkillKo": "나뭇잎",
+      "boostSummaryJp": "「このは」がパワーアップ",
+      "offeringEffectJp": "すると いにしえのもの がまあまあ現れやすくなる",
+      "offeringEffectKo": "공물로 바치면 고대의 물건이 비교적 잘 나온다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-bf7aa0d046",
+      "nameJp": "ヒメリパン",
+      "nameKo": null,
+      "categoryJp": "パン",
+      "categoryKo": "빵",
+      "tasteJp": "すっぱい",
+      "tasteKo": "새콤함",
+      "materialsJp": [
+        "コムギ",
+        "ヒメリのみ",
+        "なんでも"
+      ],
+      "materialsKo": [
+        "コムギ",
+        "ヒメリのみ",
+        "なんでも"
+      ],
+      "helperSpecialtyJp": null,
+      "helperSpecialtyKo": null,
+      "toolJp": "パンがま",
+      "toolKo": "빵가마",
+      "boostedSkillJp": "いあいぎり",
+      "boostedSkillKo": "풀베기",
+      "boostSummaryJp": "「いあいぎり」がパワーアップ",
+      "offeringEffectJp": "するとショップにいいものがまあまあ並びやすくなる",
+      "offeringEffectKo": "공물로 바치면 상점에 좋은 물건이 비교적 잘 뜬다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-4f71558074",
+      "nameJp": "ビリビリスープ",
+      "nameKo": null,
+      "categoryJp": "スープ",
+      "categoryKo": "수프",
+      "tasteJp": "からい",
+      "tasteKo": "매콤함",
+      "materialsJp": [
+        "おいしいみず",
+        "なんでも×2"
+      ],
+      "materialsKo": [
+        "おいしいみず",
+        "なんでも×2"
+      ],
+      "helperSpecialtyJp": "はつでん",
+      "helperSpecialtyKo": "발전",
+      "toolJp": "なべ",
+      "toolKo": "냄비",
+      "boostedSkillJp": "みずでっぽう",
+      "boostedSkillKo": "물대포",
+      "boostSummaryJp": "「みずでっぽう」がパワーアップ",
+      "offeringEffectJp": "すると生息地にポケモンがまあまあ現れやすくなる",
+      "offeringEffectKo": "공물로 바치면 서식지에 포켓몬이 비교적 잘 나타난다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-585eb0526a",
+      "nameJp": "ふわふわパン",
+      "nameKo": null,
+      "categoryJp": "パン",
+      "categoryKo": "빵",
+      "tasteJp": "あまい",
+      "tasteKo": "달콤함",
+      "materialsJp": [
+        "コムギ",
+        "モモンのみ",
+        "なんでも"
+      ],
+      "materialsKo": [
+        "コムギ",
+        "モモンのみ",
+        "なんでも"
+      ],
+      "helperSpecialtyJp": "うるおす",
+      "helperSpecialtyKo": "급수",
+      "toolJp": "パンがま",
+      "toolKo": "빵가마",
+      "boostedSkillJp": "いあいぎり",
+      "boostedSkillKo": "풀베기",
+      "boostSummaryJp": "「いあいぎり」がパワーアップ",
+      "offeringEffectJp": "すると いにしえのもの がかなり現れやすくなる",
+      "offeringEffectKo": "공물로 바치면 고대의 물건이 훨씬 잘 나온다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-f12fa2345b",
+      "nameJp": "プレーンサラダ",
+      "nameKo": null,
+      "categoryJp": "サラダ",
+      "categoryKo": "샐러드",
+      "tasteJp": "普通",
+      "tasteKo": "보통",
+      "materialsJp": [
+        "はっぱ",
+        "はっぱなど(他の料理にならないならなんでも)"
+      ],
+      "materialsKo": [
+        "はっぱ",
+        "はっぱなど(他の料理にならないならなんでも)"
+      ],
+      "helperSpecialtyJp": null,
+      "helperSpecialtyKo": null,
+      "toolJp": "まないた",
+      "toolKo": "도마",
+      "boostedSkillJp": "このは",
+      "boostedSkillKo": "나뭇잎",
+      "boostSummaryJp": "「このは」がパワーアップ",
+      "offeringEffectJp": "するとポケモンとまあまあ仲良くなれる",
+      "offeringEffectKo": "공물로 바치면 포켓몬과 비교적 빨리 친해진다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-a49456a8d9",
+      "nameJp": "プレーンパン",
+      "nameKo": null,
+      "categoryJp": "パン",
+      "categoryKo": "빵",
+      "tasteJp": "普通",
+      "tasteKo": "보통",
+      "materialsJp": [
+        "コムギ",
+        "はっぱなど(他の料理にならないならなんでも)×2"
+      ],
+      "materialsKo": [
+        "コムギ",
+        "はっぱなど(他の料理にならないならなんでも)×2"
+      ],
+      "helperSpecialtyJp": null,
+      "helperSpecialtyKo": null,
+      "toolJp": "パンがま",
+      "toolKo": "빵가마",
+      "boostedSkillJp": "いあいぎり",
+      "boostedSkillKo": "풀베기",
+      "boostSummaryJp": "「いあいぎり」がパワーアップ",
+      "offeringEffectJp": "するとポケモンとまあまあ仲良くなれる",
+      "offeringEffectKo": "공물로 바치면 포켓몬과 비교적 빨리 친해진다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-4a14de428c",
+      "nameJp": "プレーンハンバーグ",
+      "nameKo": null,
+      "categoryJp": "ハンバーグ",
+      "categoryKo": "햄버그",
+      "tasteJp": "普通",
+      "tasteKo": "보통",
+      "materialsJp": [
+        "マメ",
+        "はっぱなど(他の料理にならないならなんでも)×3"
+      ],
+      "materialsKo": [
+        "マメ",
+        "はっぱなど(他の料理にならないならなんでも)×3"
+      ],
+      "helperSpecialtyJp": null,
+      "helperSpecialtyKo": null,
+      "toolJp": "フライパン",
+      "toolKo": "프라이팬",
+      "boostedSkillJp": "いわくだき",
+      "boostedSkillKo": "바위깨기",
+      "boostSummaryJp": "「いわくだき」がパワーアップ",
+      "offeringEffectJp": "するとポケモンとまあまあ仲良くなれる",
+      "offeringEffectKo": "공물로 바치면 포켓몬과 비교적 빨리 친해진다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-3805de962c",
+      "nameJp": "プレーンスープ",
+      "nameKo": null,
+      "categoryJp": "スープ",
+      "categoryKo": "수프",
+      "tasteJp": "普通",
+      "tasteKo": "보통",
+      "materialsJp": [
+        "おいしいみず",
+        "はっぱなど(他の料理にならないならなんでも)",
+        "なんでも"
+      ],
+      "materialsKo": [
+        "おいしいみず",
+        "はっぱなど(他の料理にならないならなんでも)",
+        "なんでも"
+      ],
+      "helperSpecialtyJp": null,
+      "helperSpecialtyKo": null,
+      "toolJp": "なべ",
+      "toolKo": "냄비",
+      "boostedSkillJp": "みずでっぽう",
+      "boostedSkillKo": "물대포",
+      "boostSummaryJp": "「みずでっぽう」がパワーアップ",
+      "offeringEffectJp": "するとポケモンとまあまあ仲良くなれる",
+      "offeringEffectKo": "공물로 바치면 포켓몬과 비교적 빨리 친해진다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-022b540ce8",
+      "nameJp": "やくぜんスープ",
+      "nameKo": null,
+      "categoryJp": "スープ",
+      "categoryKo": "수프",
+      "tasteJp": "からい",
+      "tasteKo": "매콤함",
+      "materialsJp": [
+        "おいしいみず",
+        "マメ",
+        "はっぱ"
+      ],
+      "materialsKo": [
+        "おいしいみず",
+        "マメ",
+        "はっぱ"
+      ],
+      "helperSpecialtyJp": null,
+      "helperSpecialtyKo": null,
+      "toolJp": "なべ",
+      "toolKo": "냄비",
+      "boostedSkillJp": "みずでっぽう",
+      "boostedSkillKo": "물대포",
+      "boostSummaryJp": "「みずでっぽう」がパワーアップ",
+      "offeringEffectJp": "すると生息地にポケモンがかなり現れやすくなる",
+      "offeringEffectKo": "공물로 바치면 서식지에 포켓몬이 훨씬 잘 나타난다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    },
+    {
+      "id": "entry-bb3c08bb5a",
+      "nameJp": "リメイクパン",
+      "nameKo": null,
+      "categoryJp": "パン",
+      "categoryKo": "빵",
+      "tasteJp": "にがい",
+      "tasteKo": "쌉쌀함",
+      "materialsJp": [
+        "コムギ",
+        "パン(なんでも)",
+        "なんでも"
+      ],
+      "materialsKo": [
+        "コムギ",
+        "パン(なんでも)",
+        "なんでも"
+      ],
+      "helperSpecialtyJp": "リサイクル",
+      "helperSpecialtyKo": "리사이클",
+      "toolJp": "パンがま",
+      "toolKo": "빵가마",
+      "boostedSkillJp": "いあいぎり",
+      "boostedSkillKo": "풀베기",
+      "boostSummaryJp": "「いあいぎり」がパワーアップ",
+      "offeringEffectJp": "するとめずらしいものがまあまあ見つかりやすくなる",
+      "offeringEffectKo": "공물로 바치면 희귀한 것을 비교적 쉽게 찾는다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+    }
+  ]
+}
