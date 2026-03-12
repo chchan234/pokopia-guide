@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { CollectionProvider } from '@/components/collection-provider';
 import Header from '@/components/header';
 import './globals.css';
@@ -19,6 +20,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
+      <head>
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-5GE2PLN0JN" strategy="afterInteractive" />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-5GE2PLN0JN');`}
+        </Script>
+      </head>
       <body className="font-sans antialiased">
         <CollectionProvider>
           <div className="min-h-screen bg-[radial-gradient(circle_at_top,#fffdf8_0%,#fff9f0_48%,#f9f0e1_100%)]">
