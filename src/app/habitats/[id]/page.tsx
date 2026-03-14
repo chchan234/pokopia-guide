@@ -121,7 +121,6 @@ export default async function HabitatDetailPage({
         <section className="rounded-3xl border border-border bg-card p-6">
           <div>
             <h2 className="text-lg font-bold text-foreground">서식지 재료</h2>
-            <p className="mt-1 text-xs text-muted-foreground">현재 확보된 한국어 재료명을 우선 표기합니다.</p>
           </div>
           <div className="mt-4 flex flex-wrap gap-2">
             {habitat.requirementsKo.map((requirement) => (
@@ -134,7 +133,6 @@ export default async function HabitatDetailPage({
       <section className="space-y-4">
         <div>
           <h2 className="text-lg font-bold text-foreground">주 서식지 포켓몬</h2>
-          <p className="text-xs text-muted-foreground">이 서식지가 포켓몬의 대표 서식지로 표기된 엔트리입니다.</p>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {primaryPokemon.map((entry) => (
@@ -162,7 +160,6 @@ export default async function HabitatDetailPage({
         <section className="space-y-4">
           <div>
             <h2 className="text-lg font-bold text-foreground">보조 출현 포켓몬</h2>
-            <p className="text-xs text-muted-foreground">대표 서식지는 아니지만 이 서식지에도 연결된 포켓몬입니다.</p>
           </div>
           <div className="flex flex-wrap gap-2">
             {secondaryPokemon.map((entry) => (

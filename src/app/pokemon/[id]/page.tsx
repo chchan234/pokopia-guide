@@ -205,7 +205,6 @@ export default async function PokemonDetailPage({
       <section className="space-y-4">
         <div>
           <h2 className="text-lg font-bold text-foreground">출현 서식지</h2>
-          <p className="text-xs text-muted-foreground">희귀도, 시간대, 날씨는 원본 일본어 공략 자료를 기준으로 번역했습니다.</p>
         </div>
         {entry.habitats.length > 0 ? (
           <div className="grid gap-4 md:grid-cols-2">

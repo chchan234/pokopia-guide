@@ -73,8 +73,8 @@ export default function HabitatsPageClient({ habitats }: HabitatsPageClientProps
 
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
         {filteredHabitats.map((habitat) => (
-          <section key={habitat.id} id={habitat.id} className="scroll-mt-20 overflow-hidden rounded-3xl border border-border bg-card">
-            <div className="flex gap-4 p-5">
+          <section key={habitat.id} id={habitat.id} className="flex scroll-mt-20 flex-col overflow-hidden rounded-3xl border border-border bg-card">
+            <div className="flex flex-1 gap-4 p-5">
               <div className="flex h-[96px] w-[96px] flex-shrink-0 items-center justify-center rounded-2xl bg-pk-green-light/40">
                 {habitat.imagePath ? (
                   <ZoomableImage

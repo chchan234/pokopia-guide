@@ -19,7 +19,7 @@ export default function MaterialTag({ material, imageSrc, className }: MaterialT
           aria-hidden
           width={16}
           height={16}
-          className="h-4 w-4 object-contain"
+          className="h-4 w-4 object-contain mix-blend-multiply dark:mix-blend-normal dark:brightness-90"
         />
       )}
       {material}

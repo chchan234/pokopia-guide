@@ -97,7 +97,6 @@ export default async function RecordDetailPage({
         <section className="space-y-4">
           <div>
             <h2 className="text-lg font-bold text-foreground">연결된 의상·헤어 보상</h2>
-            <p className="text-xs text-muted-foreground">이미지가 있는 보상은 바로 확인할 수 있게 붙였습니다.</p>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {record.fashionRewards.map((reward) => (
