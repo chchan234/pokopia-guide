@@ -9,6 +9,7 @@ import ZoomableImage from '@/components/zoomable-image';
 import MaterialTag from '@/components/material-tag';
 import HabitatPokemonCard from '@/components/habitat-pokemon-card';
 import type { Metadata } from 'next';
+import BackLink from '@/components/back-link';
 import { withFromParam } from '@/lib/url-state';
 
 export function generateStaticParams() {
@@ -30,17 +31,12 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 
 export default async function HabitatDetailPage({
   params,
-  searchParams,
 }: {
   params: Promise<{ id: string }>;
-  searchParams: Promise<{ from?: string }>;
 }) {
   const { id } = await params;
-  const { from } = await searchParams;
   const habitat = getHabitatById(id);
   if (!habitat) notFound();
-
-  const previousLocation = typeof from === 'string' && from.startsWith('/') && !from.startsWith('//') ? from : null;
 
   const linkedPokemon = habitat.pokemonEntries
     .map((item) => pokemon.find((entry) => entry.slug === item.slug))
@@ -55,9 +51,7 @@ export default async function HabitatDetailPage({
   return (
     <div className="space-y-8">
       <div className="flex items-center justify-between text-xs font-medium text-muted-foreground">
-        <Link href={previousLocation ?? '/habitats'} className="hover:text-pk-green">
-          서식지 목록으로 돌아가기
-        </Link>
+        <BackLink fallback="/habitats" label="서식지 목록으로 돌아가기" />
       </div>
 
       <section className="overflow-hidden rounded-[2rem] border border-border" style={{ backgroundColor: theme?.bg ?? 'var(--card)' }}>

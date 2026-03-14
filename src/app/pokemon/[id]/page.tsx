@@ -8,7 +8,7 @@ import TypeBadge from '@/components/type-badge';
 import ZoomableImage from '@/components/zoomable-image';
 import MaterialTag from '@/components/material-tag';
 import type { Metadata } from 'next';
-import { withFromParam } from '@/lib/url-state';
+import BackLink, { FromLink } from '@/components/back-link';
 
 const allPokemon = pokemon;
 
@@ -40,17 +40,12 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 
 export default async function PokemonDetailPage({
   params,
-  searchParams,
 }: {
   params: Promise<{ id: string }>;
-  searchParams: Promise<{ from?: string }>;
 }) {
   const { id } = await params;
-  const { from } = await searchParams;
   const entry = getPokemonBySlug(id);
   if (!entry) notFound();
-
-  const previousLocation = typeof from === 'string' && from.startsWith('/') && !from.startsWith('//') ? from : null;
 
   const theme = areaThemes[entry.primaryMap] ?? areaThemes[entry.primaryMapRecordLabel];
   const currentIndex = allPokemon.findIndex((pokemonEntry) => pokemonEntry.slug === entry.slug);
@@ -63,12 +58,10 @@ export default async function PokemonDetailPage({
   return (
     <div className="space-y-8">
       <div className="flex items-center justify-between text-xs font-medium text-muted-foreground">
-        <Link href={previousLocation ?? '/pokemon'} className="hover:text-pk-green">
-          도감으로 돌아가기
-        </Link>
+        <BackLink fallback="/pokemon" label="도감으로 돌아가기" />
         <div className="flex items-center gap-3">
-          {previousPokemon && <Link href={withFromParam(`/pokemon/${previousPokemon.slug}`, previousLocation)}>{previousPokemon.name}</Link>}
-          {nextPokemon && <Link href={withFromParam(`/pokemon/${nextPokemon.slug}`, previousLocation)}>{nextPokemon.name}</Link>}
+          {previousPokemon && <FromLink href={`/pokemon/${previousPokemon.slug}`}>{previousPokemon.name}</FromLink>}
+          {nextPokemon && <FromLink href={`/pokemon/${nextPokemon.slug}`}>{nextPokemon.name}</FromLink>}
         </div>
       </div>
 
@@ -283,13 +276,13 @@ export default async function PokemonDetailPage({
           <h2 className="mb-3 text-lg font-bold text-foreground">같은 주 서식지 포켓몬</h2>
           <div className="flex flex-wrap gap-2">
             {relatedPokemon.map((pokemonEntry) => (
-              <Link
+              <FromLink
                 key={pokemonEntry.slug}
-                href={withFromParam(`/pokemon/${pokemonEntry.slug}`, previousLocation)}
+                href={`/pokemon/${pokemonEntry.slug}`}
                 className="rounded-full border border-border bg-card px-3 py-1.5 text-xs font-semibold text-foreground hover:border-pk-green hover:text-pk-green-dark"
               >
                 #{pokemonEntry.number} {pokemonEntry.name}
-              </Link>
+              </FromLink>
             ))}
           </div>
         </section>
