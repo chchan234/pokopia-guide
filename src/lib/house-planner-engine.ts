@@ -1,5 +1,5 @@
-export const MAX_EXACT_ENV_SIZE = 36;
-export const EXACT_TIMEOUT_MS = 2000;
+export const MAX_EXACT_ENV_SIZE = 48;
+export const EXACT_TIMEOUT_MS = 3000;
 
 export interface PlannerPokemon {
   slug: string;
@@ -243,7 +243,7 @@ function buildCandidates(entries: PlannerPokemon[]) {
     }
   }
 
-  return { workingEntries, teams };
+  return { workingEntries, teams, itemLists, pairOverlap };
 }
 
 function exactSolve(workingEntries: PlannerPokemon[], teams: TeamCandidate[], timeoutMs: number) {
@@ -327,6 +327,85 @@ function greedySolve(teams: TeamCandidate[]) {
   return selected;
 }
 
+// 로컬 서치: 그리디 결과에서 집 간 포켓몬 교환으로 개선
+function localSearchOptimize(
+  initialSelected: TeamCandidate[],
+  allTeams: TeamCandidate[],
+  workingEntries: PlannerPokemon[],
+  maxIterations: number = 200
+): TeamCandidate[] {
+  let bestSelected = [...initialSelected];
+  let bestTeamCount = bestSelected.length;
+  let bestTotalScore = bestSelected.reduce((sum, t) => sum + t.score, 0);
+
+  // 사용된 팀 인덱스를 빠르게 조회
+  const teamByMask = new Map<string, TeamCandidate>();
+  for (const team of allTeams) {
+    teamByMask.set(team.mask.toString(), team);
+  }
+
+  for (let iter = 0; iter < maxIterations; iter++) {
+    let improved = false;
+
+    // 전략 1: 선택 안 된 팀 중 하나를 넣고, 충돌하는 기존 팀을 빼서 개선되는지 확인
+    let currentUsedMask = BIGINT_ZERO;
+    for (const team of bestSelected) {
+      currentUsedMask |= team.mask;
+    }
+
+    for (const candidate of allTeams) {
+      if (bestSelected.some(t => t.id === candidate.id)) continue;
+
+      // 이 후보와 충돌하는 기존 팀 찾기
+      const conflicting = bestSelected.filter(t => (t.mask & candidate.mask) !== BIGINT_ZERO);
+      if (conflicting.length === 0) {
+        // 충돌 없으면 그냥 추가
+        bestSelected.push(candidate);
+        bestTeamCount = bestSelected.length;
+        bestTotalScore += candidate.score;
+        improved = true;
+        break;
+      }
+
+      if (conflicting.length === 1) {
+        const removed = conflicting[0];
+        // 교체 시 집 수는 유지, 점수가 올라가면 교체
+        if (candidate.score > removed.score) {
+          bestSelected = bestSelected.filter(t => t.id !== removed.id);
+          bestSelected.push(candidate);
+          bestTotalScore = bestTotalScore - removed.score + candidate.score;
+          improved = true;
+          break;
+        }
+      }
+    }
+
+    // 전략 2: 남는 포켓몬들로 추가 집을 만들 수 있는지
+    if (!improved) {
+      let usedMask = BIGINT_ZERO;
+      for (const team of bestSelected) {
+        usedMask |= team.mask;
+      }
+
+      // 남는 포켓몬만으로 만들 수 있는 팀 찾기
+      const availableTeams = allTeams
+        .filter(t => (t.mask & usedMask) === BIGINT_ZERO)
+        .sort(compareTeamScore);
+
+      if (availableTeams.length > 0) {
+        bestSelected.push(availableTeams[0]);
+        bestTeamCount = bestSelected.length;
+        bestTotalScore += availableTeams[0].score;
+        improved = true;
+      }
+    }
+
+    if (!improved) break;
+  }
+
+  return bestSelected.sort(compareTeamScore);
+}
+
 function mapSelectedTeams(environment: string, selectedTeams: TeamCandidate[], workingEntries: PlannerPokemon[]) {
   return selectedTeams
     .map((team, index) => ({
@@ -380,16 +459,18 @@ function buildEnvironmentPlan(
       selectedTeams = solved.teamIds.map((id) => teams[id]);
     } catch (error) {
       if (error instanceof Error && error.message === EXACT_TIMEOUT_ERROR) {
-        selectedTeams = greedySolve(teams);
+        const greedy = greedySolve(teams);
+        selectedTeams = localSearchOptimize(greedy, teams, workingEntries);
         calculationState = 'approx';
-        note = `정확 계산 시간이 길어져 근사 계산으로 전환했습니다.`;
+        note = `정확 계산 시간이 길어져 근사 계산(그리디 + 로컬 서치)으로 전환했습니다.`;
       } else {
         throw error;
       }
     }
   } else {
-    selectedTeams = greedySolve(teams);
-    note = `이 환경은 보유 포켓몬이 ${maxExactEnvSize}마리를 넘어 근사 계산으로 처리했습니다.`;
+    const greedy = greedySolve(teams);
+    selectedTeams = localSearchOptimize(greedy, teams, workingEntries);
+    note = `이 환경은 보유 포켓몬이 ${maxExactEnvSize}마리를 넘어 근사 계산(그리디 + 로컬 서치)으로 처리했습니다.`;
   }
 
   let usedMask = BIGINT_ZERO;
