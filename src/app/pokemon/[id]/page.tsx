@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { areaThemes, habitatRarityTheme } from '@/lib/constants';
-import { getPokemonBySlug, pokemon } from '@/lib/data';
+import { getItemImage, getPokemonBySlug, pokemon } from '@/lib/data';
 import CollectionToggleButton from '@/components/collection-toggle-button';
 import TypeBadge from '@/components/type-badge';
 import ZoomableImage from '@/components/zoomable-image';
@@ -211,8 +211,8 @@ export default async function PokemonDetailPage({
           <div className="grid gap-4 md:grid-cols-2">
             {entry.habitats.map((habitat) => {
               const rarityTheme = habitatRarityTheme[habitat.rarityLabel] ?? { color: '#8B6B4A', bg: '#F3EFE8' };
-              return (
-                <article key={`${entry.id}-${habitat.name}`} className="overflow-hidden rounded-3xl border border-border bg-card">
+              const habitatContent = (
+                <>
                   <div className="flex gap-4 p-5">
                     <div className="flex h-[92px] w-[92px] flex-shrink-0 items-center justify-center rounded-2xl bg-muted/40">
                       {habitat.imagePath ? (
@@ -253,11 +253,21 @@ export default async function PokemonDetailPage({
                       <p className="text-[11px] font-semibold text-pk-brown-dark">필요 재료</p>
                       <div className="mt-2 flex flex-wrap gap-2">
                         {habitat.requirementsKo.map((requirement) => (
-                          <MaterialTag key={requirement} material={requirement} />
+                          <MaterialTag key={requirement} material={requirement} imageSrc={getItemImage(requirement)} />
                         ))}
                       </div>
                     </div>
                   )}
+                </>
+              );
+
+              return habitat.id ? (
+                <Link key={`${entry.id}-${habitat.name}`} href={`/habitats/${habitat.id}`} className="overflow-hidden rounded-3xl border border-border bg-card transition-colors hover:border-pk-green">
+                  {habitatContent}
+                </Link>
+              ) : (
+                <article key={`${entry.id}-${habitat.name}`} className="overflow-hidden rounded-3xl border border-border bg-card">
+                  {habitatContent}
                 </article>
               );
             })}

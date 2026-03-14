@@ -45,6 +45,21 @@ export function getRecordById(id: number): HumanRecord | undefined {
   return humanRecords.find((entry) => entry.id === id);
 }
 
+// 아이템 한국어 이름 → imagePath 룩업 (서식지 재료 등에서 사용)
+const _itemImageMap = new Map<string, string>();
+for (const item of itemsData.allItems) {
+  if (item.imagePath) {
+    if (item.nameKo) _itemImageMap.set(item.nameKo, item.imagePath);
+    _itemImageMap.set(item.nameJp, item.imagePath);
+  }
+}
+
+export function getItemImage(name: string): string | null {
+  // "건초테이블 ×1" → "건초테이블"
+  const clean = name.replace(/\s*[×x]\s*\d+$/i, '').trim();
+  return _itemImageMap.get(clean) ?? null;
+}
+
 export function getPokemonByHabitat(name: string): Pokemon[] {
   return pokemon.filter((entry) => entry.habitatNames.includes(name));
 }

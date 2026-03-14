@@ -3,17 +3,18 @@ import { getMaterialImage } from '@/lib/material-images';
 
 interface MaterialTagProps {
   material: string;
+  imageSrc?: string | null;
   className?: string;
 }
 
-export default function MaterialTag({ material, className }: MaterialTagProps) {
-  const imageSrc = getMaterialImage(material);
+export default function MaterialTag({ material, imageSrc, className }: MaterialTagProps) {
+  const resolvedImage = imageSrc ?? getMaterialImage(material);
 
   return (
     <span className={`inline-flex items-center gap-1.5 rounded-full border border-border bg-card px-2.5 py-1 text-xs text-foreground ${className ?? ''}`}>
-      {imageSrc && (
+      {resolvedImage && (
         <Image
-          src={imageSrc}
+          src={resolvedImage}
           alt=""
           aria-hidden
           width={16}

@@ -19,7 +19,7 @@ export const navigationGroups: NavigationGroup[] = [
     href: '/pokemon',
     description: '도감 · 서식지 · 특기',
     children: [
-      { href: '/pokemon', label: '도감', description: '포켓몬 목록과 필터' },
+      { href: '/pokemon', label: '포켓몬', description: '포켓몬 목록과 필터' },
       { href: '/habitats', label: '서식지', description: '출현 서식지와 재료' },
       { href: '/specialties', label: '특기', description: '특기별 포켓몬 묶음' },
     ],

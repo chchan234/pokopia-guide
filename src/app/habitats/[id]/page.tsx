@@ -1,12 +1,13 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { getHabitatById, habitats, pokemon } from '@/lib/data';
+import { getHabitatById, getItemImage, habitats, pokemon } from '@/lib/data';
 import { areaThemes } from '@/lib/constants';
 import CollectionToggleButton from '@/components/collection-toggle-button';
 import TypeBadge from '@/components/type-badge';
 import ZoomableImage from '@/components/zoomable-image';
 import MaterialTag from '@/components/material-tag';
+import HabitatPokemonCard from '@/components/habitat-pokemon-card';
 import type { Metadata } from 'next';
 import { withFromParam } from '@/lib/url-state';
 
@@ -124,7 +125,7 @@ export default async function HabitatDetailPage({
           </div>
           <div className="mt-4 flex flex-wrap gap-2">
             {habitat.requirementsKo.map((requirement) => (
-              <MaterialTag key={`${habitat.id}-${requirement}`} material={requirement} />
+              <MaterialTag key={`${habitat.id}-${requirement}`} material={requirement} imageSrc={getItemImage(requirement)} />
             ))}
           </div>
         </section>
@@ -137,20 +138,22 @@ export default async function HabitatDetailPage({
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {primaryPokemon.map((entry) => (
-            <Link key={entry.slug} href={withFromParam(`/pokemon/${entry.slug}`, currentPath)} className="rounded-3xl border border-border bg-card p-4 hover:border-pk-green">
-              <div className="flex items-start justify-between gap-3">
-                <div>
-                  <p className="mono text-[11px] text-muted-foreground">#{entry.number}</p>
-                  <h3 className="mt-1 text-sm font-bold text-foreground">{entry.name}</h3>
+            <HabitatPokemonCard key={entry.slug} slug={entry.slug}>
+              <Link href={withFromParam(`/pokemon/${entry.slug}`, currentPath)} className="block rounded-3xl border border-border bg-card p-4 hover:border-pk-green">
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <p className="mono text-[11px] text-muted-foreground">#{entry.number}</p>
+                    <h3 className="mt-1 text-sm font-bold text-foreground">{entry.name}</h3>
+                  </div>
+                  {entry.imagePath ? <Image src={entry.imagePath} alt={entry.name} width={56} height={56} className="object-contain" /> : null}
                 </div>
-                {entry.imagePath ? <Image src={entry.imagePath} alt={entry.name} width={56} height={56} className="object-contain" /> : null}
-              </div>
-              <div className="mt-3 flex flex-wrap gap-1.5">
-                {entry.types.map((type) => (
-                  <TypeBadge key={`${entry.slug}-${type.nameJp}`} type={type.nameKo} />
-                ))}
-              </div>
-            </Link>
+                <div className="mt-3 flex flex-wrap gap-1.5">
+                  {entry.types.map((type) => (
+                    <TypeBadge key={`${entry.slug}-${type.nameJp}`} type={type.nameKo} />
+                  ))}
+                </div>
+              </Link>
+            </HabitatPokemonCard>
           ))}
         </div>
       </section>
@@ -163,13 +166,14 @@ export default async function HabitatDetailPage({
           </div>
           <div className="flex flex-wrap gap-2">
             {secondaryPokemon.map((entry) => (
-              <Link
-                key={entry.slug}
-                href={withFromParam(`/pokemon/${entry.slug}`, currentPath)}
-                className="rounded-full border border-border bg-card px-3 py-1.5 text-xs font-semibold text-foreground hover:border-pk-green hover:text-pk-green-dark"
-              >
-                #{entry.number} {entry.name}
-              </Link>
+              <HabitatPokemonCard key={entry.slug} slug={entry.slug}>
+                <Link
+                  href={withFromParam(`/pokemon/${entry.slug}`, currentPath)}
+                  className="block rounded-full border border-border bg-card px-3 py-1.5 text-xs font-semibold text-foreground hover:border-pk-green hover:text-pk-green-dark"
+                >
+                  #{entry.number} {entry.name}
+                </Link>
+              </HabitatPokemonCard>
             ))}
           </div>
         </section>
