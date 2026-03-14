@@ -255,9 +255,31 @@ export interface CookingDataSummary {
   notesKo: string[];
 }
 
+export interface OfferingGrade {
+  labelKo: string;
+  labelJp: string;
+  descriptionKo: string;
+}
+
+export interface TasteEffect {
+  tasteKo: string;
+  tasteJp: string;
+  effectKo: string;
+  topDishKo: string;
+}
+
+export interface OfferingSystem {
+  descriptionKo: string;
+  unlockKo: string;
+  durationKo: string;
+  grades: OfferingGrade[];
+  tasteEffects: TasteEffect[];
+}
+
 export interface CookingData {
   sourceUrls: string[];
   summary: CookingDataSummary;
+  offeringSystem: OfferingSystem;
   toolCards: CookingToolCard[];
   categoryEffects: CookingCategoryEffect[];
   recommended: CookingRecommendation[];
