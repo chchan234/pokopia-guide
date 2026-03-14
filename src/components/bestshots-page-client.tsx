@@ -6,12 +6,8 @@ import { useSearchParams } from 'next/navigation';
 import { useSyncQueryParams } from '@/hooks/use-sync-query-params';
 import { useCollection } from '@/components/collection-provider';
 import OwnedToggle from '@/components/owned-toggle';
-import { matchesOwnershipFilter, type OwnershipFilter } from '@/lib/collection';
+import { isOwnershipFilter, matchesOwnershipFilter, type OwnershipFilter } from '@/lib/collection';
 import type { BestshotEntry } from '@/types/pokemon';
-
-function isOwnershipFilter(value: string | null): value is OwnershipFilter {
-  return value !== null && ['all', 'owned', 'missing'].includes(value);
-}
 
 interface BestshotsPageClientProps {
   bestshots: BestshotEntry[];

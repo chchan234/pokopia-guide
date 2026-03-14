@@ -6,6 +6,7 @@ import { useSearchParams } from 'next/navigation';
 import { useSyncQueryParams } from '@/hooks/use-sync-query-params';
 import ZoomableImage from '@/components/zoomable-image';
 import MaterialTag from '@/components/material-tag';
+import { displayName, matchesQuery } from '@/lib/utils';
 import type { AllItemEntry, AncientItemGroup, BuildingEntry, ItemsData } from '@/types/pokemon';
 
 interface ItemsPageClientProps {
@@ -29,24 +30,12 @@ const tabLabels: Record<ItemsTab, string> = {
   ancients: '고대의 물건',
 };
 
-function displayName(nameKo: string | null | undefined, nameJp: string) {
-  return nameKo || nameJp;
-}
-
 function isItemsTab(value: string | null): value is ItemsTab {
   return value !== null && ['allitems', 'craftable', 'buildings', 'recipes', 'dolls', 'cds', 'berries', 'emotes', 'collections', 'ancients'].includes(value);
 }
 
 function isRecipeSourceFilter(value: string): value is RecipeSourceFilter {
   return ['all', 'shop', 'other'].includes(value);
-}
-
-function matchesQuery(query: string, values: Array<string | null | undefined>) {
-  if (!query) {
-    return true;
-  }
-
-  return values.some((value) => value?.toLowerCase().includes(query));
 }
 
 function VisualCard({

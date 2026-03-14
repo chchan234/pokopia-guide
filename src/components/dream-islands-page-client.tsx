@@ -5,14 +5,11 @@ import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useSyncQueryParams } from '@/hooks/use-sync-query-params';
 import ZoomableImage from '@/components/zoomable-image';
+import { displayName } from '@/lib/utils';
 import type { DreamData } from '@/types/pokemon';
 
 interface DreamIslandsPageClientProps {
   data: DreamData;
-}
-
-function displayName(nameKo: string | null | undefined, nameJp: string) {
-  return nameKo || nameJp;
 }
 
 export default function DreamIslandsPageClient({ data }: DreamIslandsPageClientProps) {
