@@ -205,7 +205,7 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
             value={search}
             onChange={(event) => setSearch(event.target.value)}
             placeholder="환경명, 포켓몬 이름, 번호로 검색"
-            className="h-11 w-full rounded-2xl border border-border bg-background px-4 text-base text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20 lg:max-w-md"
+            className="h-11 w-full rounded-2xl border border-border bg-background px-4 text-[16px] text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20 lg:max-w-md"
           />
           <p className="text-xs text-muted-foreground">
             <span className="mono font-semibold text-foreground">{filteredPlans.length}</span>

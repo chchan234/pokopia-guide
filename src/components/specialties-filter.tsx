@@ -78,7 +78,7 @@ export default function SpecialtiesFilter({ groups }: { groups: SpecialtyGroupWi
         placeholder="포켓몬 이름, 영문명, 일본어명, 번호로 검색"
         value={search}
         onChange={(event) => setSearch(event.target.value)}
-        className="h-11 w-full rounded-2xl border border-border bg-card px-4 text-base text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20"
+        className="h-11 w-full rounded-2xl border border-border bg-card px-4 text-[16px] text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20"
       />
 
       <div className="flex flex-wrap gap-2">

@@ -67,13 +67,26 @@ export default function HomeSearchClient({ entries }: HomeSearchClientProps) {
         <p className="text-sm text-muted-foreground">포켓몬, 서식지, 기록, 의상, 꿈섬, 요리, 아이템을 한 번에 찾습니다.</p>
       </div>
 
-      <input
-        type="text"
-        value={query}
-        onChange={(event) => setQuery(event.target.value)}
-        placeholder="포켓몬, 서식지, 기록, 의상, 아이템 검색"
-        className="h-12 w-full rounded-2xl border border-border bg-background px-4 text-base text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20"
-      />
+      <div className="relative">
+        <input
+          type="text"
+          value={query}
+          onChange={(event) => setQuery(event.target.value)}
+          placeholder="포켓몬, 서식지, 기록, 의상, 아이템 검색"
+          className="h-12 w-full rounded-2xl border border-border bg-background px-4 pr-10 text-[16px] text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20"
+        />
+        {query && (
+          <button
+            type="button"
+            onClick={() => setQuery('')}
+            className="absolute right-3 top-1/2 flex h-6 w-6 -translate-y-1/2 items-center justify-center rounded-full bg-muted text-muted-foreground hover:bg-border"
+          >
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M6 6L18 18M18 6L6 18" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
+            </svg>
+          </button>
+        )}
+      </div>
 
       {query.trim() ? (
         groupedResults.length > 0 ? (
