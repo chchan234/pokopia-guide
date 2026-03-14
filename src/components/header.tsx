@@ -39,7 +39,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-border bg-pk-cream/90 backdrop-blur-md">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-4 px-5 md:px-6">
         <Link href="/" className="flex items-center gap-2" onClick={() => setMobileOpen(false)}>
-          <Image src="/favicon.svg" alt="" aria-hidden width={22} height={22} className="h-[22px] w-[22px]" />
+          <Image src="/logo.svg" alt="" aria-hidden width={22} height={22} className="h-[22px] w-[22px]" />
           <span className="text-[15px] font-extrabold tracking-tight text-pk-brown-dark">pokowiki</span>
         </Link>
 
