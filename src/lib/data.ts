@@ -94,22 +94,20 @@ const _supplementaryImages: Record<string, string> = {
   '채소밭': `${_GW}/item_15.png`,
   '그루터기': `${_GW}/item_97.png`,
   '나무열매 나무': `${_GW}/item_15.png`,
-  // (아무거나)/(큰 것) 제네릭 카테고리 — 대표 아이템 이미지 사용
-  '의자': `${_GW}/item_101.png`,     // 건초 걸상
+  // (아무거나)/(긴 것)/(큰 것) 제네릭 카테고리 — 실제 해당 형태 아이템 이미지 사용
+  '의자': `${_GW}/item_101.png`,     // 건초 걸상 (아무거나)
+  '의자(긴 것)': `${_GW}/item_432.png`, // 내추럴 소파
   '침대': `${_GW}/item_11.png`,      // 건초 침대
   '테이블': `${_GW}/item_49.png`,    // 건초테이블
+  '테이블(큰 것)': `${_GW}/item_8.png`, // 통나무 테이블
   '인형': `${_GW}/item_54.png`,      // 이브이 인형
   '옷장': `${_GW}/item_472.png`,     // 앤티크 옷장
   '받침대': `${_GW}/item_139.png`,   // 스테이지 받침대
+  '거울(큰 것)': `${_GW}/item_26.png`, // 큰 거울
   '나무 길': `${_GW}/item_64.png`,
-  '접시에 올린 음식': `${_GW}/item_325.png`, // 접시 레시피 이미지
-  '신문': `${_GW}/item_156.png`,     // 잡화 대표
-  '떨어진 물건': `${_GW}/item_97.png`, // 큰돌 대표
-  // 환경 조건 태그 — 대표 아이템 이미지 사용
-  '물': `${_GW}/item_309.png`,        // 물통
-  '바닷물': `${_GW}/item_27.png`,     // 쏘드라 분수
-  '폭포': `${_GW}/item_27.png`,       // 분수 대표
-  '높은곳': `${_GW}/item_97.png`,     // 큰돌 대표
+  '접시에 올린 음식': `${_GW}/item_325.png`, // 접시
+  '간판': `${_GW}/item_38.png`,
+  '쓰레기통': `${_GW}/item_117.png`,
 };
 for (const [name, url] of Object.entries(_supplementaryImages)) {
   if (!_itemImageMap.has(name)) _itemImageMap.set(name, url);
