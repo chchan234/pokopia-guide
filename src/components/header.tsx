@@ -66,7 +66,7 @@ export default function Header() {
                   </svg>
                 </Link>
 
-                <div className="invisible absolute right-0 top-full z-50 mt-2 w-56 rounded-2xl border border-border bg-card p-2 opacity-0 shadow-[0_18px_48px_-20px_rgba(61,50,38,0.4)] transition-all group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+                <div className="invisible absolute right-0 top-full z-50 mt-2 w-56 rounded-2xl border border-border bg-card p-2 opacity-0 shadow-[0_18px_48px_-20px_rgba(61,50,38,0.4)] transition-all group-hover:visible group-hover:opacity-100">
                   <div className="space-y-1">
                     {group.children.map((item) => {
                       const isChildActive = pathname === item.href || pathname.startsWith(`${item.href}/`);
