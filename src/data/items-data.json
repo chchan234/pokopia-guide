@@ -21,7 +21,7 @@
     "recipeCount": 195,
     "shopRecipeCount": 90,
     "otherRecipeCount": 105,
-    "buildingCount": 10,
+    "buildingCount": 25,
     "dollCount": 7,
     "cdCount": 43,
     "berryCount": 6,
@@ -8059,42 +8059,72 @@
       "nameJp": "はっぱのりっぱなキット",
       "nameKo": "잎사귀 큰집 키트",
       "typeJp": "キット",
-      "typeKo": "키트",
+      "typeKo": "집",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_318.png",
       "descriptionJp": "みんなで暮らせる特大の家が目標だ。ポケモンたちと一緒に「けんちく」しよう。",
       "descriptionKo": "모두 함께 살 수 있는 특대형 집이 목표다. 포켓몬과 함께 건축하자.",
       "useJp": null,
-      "useKo": null,
+      "useKo": "메타몽과 포켓몬의 거처가 된다",
       "recipeJp": null,
       "recipeKo": null,
-      "requiredSpecialtiesJp": [],
-      "requiredSpecialtiesKo": [],
-      "requiredMaterialsJp": [],
-      "requiredMaterialsKo": [],
-      "capacity": null,
-      "buildTime": null
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "さいばい",
+        "きをきる",
+        "そらをとぶ"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "재배",
+        "절삭",
+        "공중날기"
+      ],
+      "requiredMaterialsJp": [
+        "ざいもく ×25",
+        "はっぱ ×25",
+        "いし ×25",
+        "つたひも ×25"
+      ],
+      "requiredMaterialsKo": [
+        "목재 ×25",
+        "잎사귀 ×25",
+        "돌 ×25",
+        "덩굴 끈 ×25"
+      ],
+      "capacity": "8匹",
+      "buildTime": "翌日"
     },
     {
       "id": "entry-97160a25d0",
       "nameJp": "風力はつでんキット",
       "nameKo": "풍력발전 키트",
       "typeJp": "キット",
-      "typeKo": "키트",
+      "typeKo": "설비",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_113.png",
       "descriptionJp": "風の力でいつでも「はつでん」できる。ポケモンたちと一緒に「けんちく」しよう。",
       "descriptionKo": "바람의 힘으로 언제든 발전할 수 있다. 포켓몬과 함께 건축하자.",
       "useJp": null,
-      "useKo": null,
+      "useKo": "설치하면 발전한다",
       "recipeJp": null,
       "recipeKo": null,
-      "requiredSpecialtiesJp": [],
-      "requiredSpecialtiesKo": [],
-      "requiredMaterialsJp": [],
-      "requiredMaterialsKo": [],
-      "capacity": null,
-      "buildTime": null
+      "requiredSpecialtiesJp": [
+        "けんちく"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축"
+      ],
+      "requiredMaterialsJp": [
+        "ざいもく ×5",
+        "いとくず ×5"
+      ],
+      "requiredMaterialsKo": [
+        "목재 ×5",
+        "실 부스러기 ×5"
+      ],
+      "capacity": "2匹",
+      "buildTime": "15分"
     },
     {
       "id": "entry-a4a53948b1",
@@ -8209,12 +8239,22 @@
       "useKo": "서식지 바람의 꽃밭",
       "recipeJp": null,
       "recipeKo": null,
-      "requiredSpecialtiesJp": [],
-      "requiredSpecialtiesKo": [],
-      "requiredMaterialsJp": [],
-      "requiredMaterialsKo": [],
-      "capacity": null,
-      "buildTime": null
+      "requiredSpecialtiesJp": [
+        "けんちく"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축"
+      ],
+      "requiredMaterialsJp": [
+        "ざいもく ×5",
+        "いとくず ×5"
+      ],
+      "requiredMaterialsKo": [
+        "목재 ×5",
+        "실 부스러기 ×5"
+      ],
+      "capacity": "2匹",
+      "buildTime": "15分"
     },
     {
       "id": "entry-ecdb170741",
@@ -8230,12 +8270,22 @@
       "useKo": "서식지 수력 발전소",
       "recipeJp": null,
       "recipeKo": null,
-      "requiredSpecialtiesJp": [],
-      "requiredSpecialtiesKo": [],
-      "requiredMaterialsJp": [],
-      "requiredMaterialsKo": [],
-      "capacity": null,
-      "buildTime": null
+      "requiredSpecialtiesJp": [
+        "けんちく"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축"
+      ],
+      "requiredMaterialsJp": [
+        "ざいもく ×15",
+        "いし ×5"
+      ],
+      "requiredMaterialsKo": [
+        "목재 ×15",
+        "돌 ×5"
+      ],
+      "capacity": "2匹",
+      "buildTime": "15分"
     },
     {
       "id": "entry-92afcf4392",
@@ -8251,12 +8301,539 @@
       "useKo": "서식지 화력 발전소 공사현장 발전소",
       "recipeJp": null,
       "recipeKo": null,
-      "requiredSpecialtiesJp": [],
-      "requiredSpecialtiesKo": [],
-      "requiredMaterialsJp": [],
-      "requiredMaterialsKo": [],
-      "capacity": null,
-      "buildTime": null
+      "requiredSpecialtiesJp": [
+        "けんちく"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축"
+      ],
+      "requiredMaterialsJp": [
+        "てつ ×15",
+        "シーグラスのかけら ×5"
+      ],
+      "requiredMaterialsKo": [
+        "철 ×15",
+        "씨글라스 조각 ×5"
+      ],
+      "capacity": "2匹",
+      "buildTime": "15分"
+    },
+    {
+      "id": "entry-1tiqk6lx2t",
+      "nameJp": "いしのおへやキット",
+      "nameKo": "돌 방 키트",
+      "typeJp": "家キット",
+      "typeKo": "집",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "2匹",
+      "buildTime": "15分",
+      "useJp": null,
+      "useKo": "메타몽과 포켓몬의 거처가 된다",
+      "recipeJp": null,
+      "recipeKo": null,
+      "requiredSpecialtiesJp": [
+        "けんちく"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축"
+      ],
+      "requiredMaterialsJp": [
+        "いし ×5",
+        "かざんばい ×10"
+      ],
+      "requiredMaterialsKo": [
+        "돌 ×5",
+        "화산재 ×10"
+      ]
+    },
+    {
+      "id": "entry-eeb3k1nxcm",
+      "nameJp": "いしのこやキット",
+      "nameKo": "돌 오두막 키트",
+      "typeJp": "家キット",
+      "typeKo": "집",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "4匹",
+      "buildTime": "1時間",
+      "useJp": null,
+      "useKo": "메타몽과 포켓몬의 거처가 된다",
+      "recipeJp": null,
+      "recipeKo": null,
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "つぶす"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "분쇄"
+      ],
+      "requiredMaterialsJp": [
+        "いし ×10",
+        "かざんばい ×20",
+        "どうののべぼう ×10"
+      ],
+      "requiredMaterialsKo": [
+        "돌 ×10",
+        "화산재 ×20",
+        "구리 주괴 ×10"
+      ]
+    },
+    {
+      "id": "entry-4n76nqmczy",
+      "nameJp": "いしのいえキット",
+      "nameKo": "돌 집 키트",
+      "typeJp": "家キット",
+      "typeKo": "집",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "6匹",
+      "buildTime": "2時間",
+      "useJp": null,
+      "useKo": "메타몽과 포켓몬의 거처가 된다",
+      "recipeJp": null,
+      "recipeKo": null,
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "もやす",
+        "つぶす"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "점화",
+        "분쇄"
+      ],
+      "requiredMaterialsJp": [
+        "いし ×25",
+        "レンガ ×25",
+        "てつののべぼう ×25"
+      ],
+      "requiredMaterialsKo": [
+        "돌 ×25",
+        "벽돌 ×25",
+        "철 주괴 ×25"
+      ]
+    },
+    {
+      "id": "entry-41ybm66k7x",
+      "nameJp": "いしのりっぱなキット",
+      "nameKo": "돌 큰집 키트",
+      "typeJp": "家キット",
+      "typeKo": "집",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "8匹",
+      "buildTime": "翌日",
+      "useJp": null,
+      "useKo": "메타몽과 포켓몬의 거처가 된다",
+      "recipeJp": null,
+      "recipeKo": null,
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "もりあげる",
+        "もやす",
+        "つぶす"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "분위기 메이킹",
+        "점화",
+        "분쇄"
+      ],
+      "requiredMaterialsJp": [
+        "いし ×25",
+        "レンガ ×25",
+        "てつののべぼう ×25",
+        "コンクリート ×25"
+      ],
+      "requiredMaterialsKo": [
+        "돌 ×25",
+        "벽돌 ×25",
+        "철 주괴 ×25",
+        "콘크리트 ×25"
+      ]
+    },
+    {
+      "id": "entry-q0e723fqk3",
+      "nameJp": "はっぱのこやキット",
+      "nameKo": "잎사귀 오두막 키트",
+      "typeJp": "家キット",
+      "typeKo": "집",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "4匹",
+      "buildTime": "1時間",
+      "useJp": null,
+      "useKo": "메타몽과 포켓몬의 거처가 된다",
+      "recipeJp": null,
+      "recipeKo": null,
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "きをきる"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "절삭"
+      ],
+      "requiredMaterialsJp": [
+        "ざいもく ×15",
+        "はっぱ ×15"
+      ],
+      "requiredMaterialsKo": [
+        "목재 ×15",
+        "잎사귀 ×15"
+      ]
+    },
+    {
+      "id": "entry-9rvkiw56nb",
+      "nameJp": "はっぱのいえキット",
+      "nameKo": "잎사귀 집 키트",
+      "typeJp": "家キット",
+      "typeKo": "집",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "4匹",
+      "buildTime": "2時間",
+      "useJp": null,
+      "useKo": "메타몽과 포켓몬의 거처가 된다",
+      "recipeJp": null,
+      "recipeKo": null,
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "きをきる",
+        "そらをとぶ"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "절삭",
+        "공중날기"
+      ],
+      "requiredMaterialsJp": [
+        "ざいもく ×20",
+        "はっぱ ×20",
+        "いし ×20"
+      ],
+      "requiredMaterialsKo": [
+        "목재 ×20",
+        "잎사귀 ×20",
+        "돌 ×20"
+      ]
+    },
+    {
+      "id": "entry-pgnkk1o4zh",
+      "nameJp": "すなのおへやキット",
+      "nameKo": "모래 방 키트",
+      "typeJp": "家キット",
+      "typeKo": "집",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "2匹",
+      "buildTime": "15分",
+      "useJp": null,
+      "useKo": "메타몽과 포켓몬의 거처가 된다",
+      "recipeJp": null,
+      "recipeKo": null,
+      "requiredSpecialtiesJp": [
+        "けんちく"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축"
+      ],
+      "requiredMaterialsJp": [
+        "かいがら ×5",
+        "いし ×5",
+        "うみべのすな ×5"
+      ],
+      "requiredMaterialsKo": [
+        "조개껍데기 ×5",
+        "돌 ×5",
+        "해변 모래 ×5"
+      ]
+    },
+    {
+      "id": "entry-1myzeag6ik",
+      "nameJp": "すなのこやキット",
+      "nameKo": "모래 오두막 키트",
+      "typeJp": "家キット",
+      "typeKo": "집",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "4匹",
+      "buildTime": "1時間",
+      "useJp": null,
+      "useKo": "메타몽과 포켓몬의 거처가 된다",
+      "recipeJp": null,
+      "recipeKo": null,
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "うるおす"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "급수"
+      ],
+      "requiredMaterialsJp": [
+        "かいがら ×10",
+        "いし ×10",
+        "うみべのすな ×10"
+      ],
+      "requiredMaterialsKo": [
+        "조개껍데기 ×10",
+        "돌 ×10",
+        "해변 모래 ×10"
+      ]
+    },
+    {
+      "id": "entry-huncq7lek6",
+      "nameJp": "すなのいえキット",
+      "nameKo": "모래 집 키트",
+      "typeJp": "家キット",
+      "typeKo": "집",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "6匹",
+      "buildTime": "2時間",
+      "useJp": null,
+      "useKo": "메타몽과 포켓몬의 거처가 된다",
+      "recipeJp": null,
+      "recipeKo": null,
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "うるおす",
+        "はつでん"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "급수",
+        "발전"
+      ],
+      "requiredMaterialsJp": [
+        "いし ×20",
+        "レンガ ×20",
+        "うみべのすな ×20",
+        "かいがら ×20"
+      ],
+      "requiredMaterialsKo": [
+        "돌 ×20",
+        "벽돌 ×20",
+        "해변 모래 ×20",
+        "조개껍데기 ×20"
+      ]
+    },
+    {
+      "id": "entry-o9hlkni00t",
+      "nameJp": "すなのりっぱなキット",
+      "nameKo": "모래 큰집 키트",
+      "typeJp": "家キット",
+      "typeKo": "집",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "8匹",
+      "buildTime": "翌日",
+      "useJp": null,
+      "useKo": "메타몽과 포켓몬의 거처가 된다",
+      "recipeJp": null,
+      "recipeKo": null,
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "うるおす",
+        "はつでん",
+        "リサイクル"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "급수",
+        "발전",
+        "리사이클"
+      ],
+      "requiredMaterialsJp": [
+        "いし ×25",
+        "レンガ ×25",
+        "うみべのすな ×25",
+        "かいがら ×25"
+      ],
+      "requiredMaterialsKo": [
+        "돌 ×25",
+        "벽돌 ×25",
+        "해변 모래 ×25",
+        "조개껍데기 ×25"
+      ]
+    },
+    {
+      "id": "entry-es7u3qur37",
+      "nameJp": "とかいのおへやキット",
+      "nameKo": "도시 방 키트",
+      "typeJp": "家キット",
+      "typeKo": "집",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "2匹",
+      "buildTime": "15分",
+      "useJp": null,
+      "useKo": "메타몽과 포켓몬의 거처가 된다",
+      "recipeJp": null,
+      "recipeKo": null,
+      "requiredSpecialtiesJp": [
+        "けんちく"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축"
+      ],
+      "requiredMaterialsJp": [
+        "ポケメタル ×5",
+        "ざいもく ×5",
+        "いし ×5"
+      ],
+      "requiredMaterialsKo": [
+        "포케메탈 ×5",
+        "목재 ×5",
+        "돌 ×5"
+      ]
+    },
+    {
+      "id": "entry-45ozzc25th",
+      "nameJp": "とかいのこやキット",
+      "nameKo": "도시 오두막 키트",
+      "typeJp": "家キット",
+      "typeKo": "집",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "4匹",
+      "buildTime": "1時間",
+      "useJp": null,
+      "useKo": "메타몽과 포켓몬의 거처가 된다",
+      "recipeJp": null,
+      "recipeKo": null,
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "しわける"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "분류"
+      ],
+      "requiredMaterialsJp": [
+        "ポケメタル ×10",
+        "ざいもく ×10",
+        "いし ×10",
+        "ガラス ×10"
+      ],
+      "requiredMaterialsKo": [
+        "포케메탈 ×10",
+        "목재 ×10",
+        "돌 ×10",
+        "유리 ×10"
+      ]
+    },
+    {
+      "id": "entry-aabkyhfrnk",
+      "nameJp": "とかいのいえキット",
+      "nameKo": "도시 집 키트",
+      "typeJp": "家キット",
+      "typeKo": "집",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "6匹",
+      "buildTime": "2時間",
+      "useJp": null,
+      "useKo": "메타몽과 포켓몬의 거처가 된다",
+      "recipeJp": null,
+      "recipeKo": null,
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "しわける",
+        "そらをとぶ"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "분류",
+        "공중날기"
+      ],
+      "requiredMaterialsJp": [
+        "ポケメタル ×20",
+        "ガラス ×20",
+        "レンガ ×20",
+        "コンクリート ×20"
+      ],
+      "requiredMaterialsKo": [
+        "포케메탈 ×20",
+        "유리 ×20",
+        "벽돌 ×20",
+        "콘크리트 ×20"
+      ]
+    },
+    {
+      "id": "entry-4y68qfx31u",
+      "nameJp": "とかいのりっぱなキット",
+      "nameKo": "도시 큰집 키트",
+      "typeJp": "家キット",
+      "typeKo": "집",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "8匹",
+      "buildTime": "翌日",
+      "useJp": null,
+      "useKo": "메타몽과 포켓몬의 거처가 된다",
+      "recipeJp": null,
+      "recipeKo": null,
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "しわける",
+        "そらをとぶ",
+        "テレポート"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "분류",
+        "공중날기",
+        "순간이동"
+      ],
+      "requiredMaterialsJp": [
+        "ポケメタル ×25",
+        "ガラス ×25",
+        "コンクリート ×25",
+        "てつののべぼう ×25"
+      ],
+      "requiredMaterialsKo": [
+        "포케메탈 ×25",
+        "유리 ×25",
+        "콘크리트 ×25",
+        "철 주괴 ×25"
+      ]
+    },
+    {
+      "id": "entry-6ga4zlkrlq",
+      "nameJp": "いやしのこうえんキット",
+      "nameKo": "치유의 공원 키트",
+      "typeJp": "施設",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": null,
+      "capacity": "7匹",
+      "buildTime": "翌日",
+      "useJp": null,
+      "useKo": "럭키 휴게소를 만들 수 있다",
+      "recipeJp": null,
+      "recipeKo": null,
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "しわける"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "분류"
+      ],
+      "requiredMaterialsJp": [
+        "はっぱ ×20",
+        "ちいさなまるた ×20",
+        "ざいもく ×20"
+      ],
+      "requiredMaterialsKo": [
+        "잎사귀 ×20",
+        "작은 통나무 ×20",
+        "목재 ×20"
+      ]
     }
   ],
   "dolls": [
