@@ -11,7 +11,7 @@ export default function MaterialTag({ material, imageSrc, className }: MaterialT
   const resolvedImage = imageSrc ?? getMaterialImage(material);
 
   return (
-    <span className={`inline-flex items-center gap-1.5 rounded-full border border-border bg-[#e8eaf0] px-2.5 py-1 text-xs text-foreground dark:bg-card ${className ?? ''}`}>
+    <span className={`inline-flex items-center gap-1.5 rounded-full border border-border bg-[#e8eaf0] px-2.5 py-1 text-xs text-foreground ${className ?? ''}`}>
       {resolvedImage && (
         <Image
           src={resolvedImage}
