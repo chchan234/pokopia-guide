@@ -25,7 +25,7 @@ const categoryColors: Record<string, string> = {
   cooking: 'bg-pk-gold/15 text-pk-gold',
   habitat: 'bg-pk-green-light text-pk-green-dark',
   building: 'bg-pk-sky-light text-pk-sky',
-  craft: 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400',
+  craft: 'bg-purple-100 text-purple-700',
 };
 
 export default function MaterialsPageClient({ materials }: MaterialsPageClientProps) {

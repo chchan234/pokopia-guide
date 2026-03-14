@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import Script from 'next/script';
 import { CollectionProvider } from '@/components/collection-provider';
-import { ThemeProvider } from '@/components/theme-provider';
 import Header from '@/components/header';
 import './globals.css';
 
@@ -23,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko" suppressHydrationWarning>
+    <html lang="ko">
       <body className="font-sans antialiased">
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-5GE2PLN0JN" strategy="afterInteractive" />
         <Script id="gtag-init" strategy="afterInteractive">
@@ -32,8 +31,7 @@ export default function RootLayout({
           gtag('js', new Date());
           gtag('config', 'G-5GE2PLN0JN');`}
         </Script>
-        <ThemeProvider>
-          <CollectionProvider>
+        <CollectionProvider>
             <div className="min-h-screen" style={{ background: 'var(--pk-gradient)' }}>
               <Header />
               <main className="max-w-6xl mx-auto px-5 py-6 md:px-6">{children}</main>
@@ -46,7 +44,6 @@ export default function RootLayout({
               </footer>
             </div>
           </CollectionProvider>
-        </ThemeProvider>
       </body>
     </html>
   );

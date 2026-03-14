@@ -5,7 +5,6 @@ import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { navigationGroups } from '@/lib/navigation';
-import ThemeToggle from '@/components/theme-toggle';
 
 function matchesGroup(pathname: string, href: string, childHrefs: string[]) {
   if (pathname === href || pathname.startsWith(`${href}/`)) {
@@ -87,7 +86,6 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <ThemeToggle />
           <button
             type="button"
             aria-label={mobileOpen ? '메뉴 닫기' : '메뉴 열기'}
