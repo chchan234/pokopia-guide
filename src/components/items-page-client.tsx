@@ -150,20 +150,6 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
     [data.recipes.other, data.recipes.shop]
   );
 
-  const tabCounts = useMemo(
-    () => ({
-      allitems: data.allItems.length,
-      recipes: recipeEntries.length,
-      dolls: data.dolls.length,
-      cds: data.cds.length,
-      berries: data.berries.length,
-      emotes: data.emotes.length,
-      collections: data.specialCollections.length,
-      ancients: data.ancientItemGroups.reduce((sum, group) => sum + group.items.length, 0),
-    }),
-    [data.allItems.length, data.ancientItemGroups, data.berries.length, data.cds.length, data.dolls.length, data.emotes.length, data.specialCollections.length, recipeEntries.length]
-  );
-
   const filteredAllItems = useMemo(() => {
     const query = search.trim().toLowerCase();
 
@@ -236,52 +222,27 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
         <h1 className="text-2xl font-extrabold text-foreground">아이템</h1>
       </div>
 
-      <section className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-        {[
-          { label: '전체 아이템', value: data.summary.itemCount },
-          { label: '레시피', value: data.summary.recipeCount },
-          { label: '인형', value: data.summary.dollCount },
-          { label: 'CD', value: data.summary.cdCount },
-          { label: '열매', value: data.summary.berryCount },
-          { label: '감정표현', value: data.summary.emoteCount },
-          { label: '수집 이미지', value: data.summary.berryCount + data.specialCollections.length },
-          { label: '고대 물건', value: data.summary.ancientItemCount },
-        ].map((item) => (
-          <div key={item.label} className="rounded-3xl border border-border bg-card p-5">
-            <div className="text-xs font-semibold text-muted-foreground">{item.label}</div>
-            <div className="mono mt-2 text-3xl font-bold text-pk-green-dark">{item.value}</div>
-          </div>
-        ))}
-      </section>
-
       <section className="rounded-3xl border border-border bg-card p-5">
-        <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
-          <input
-            type="text"
-            value={search}
-            onChange={(event) => setSearch(event.target.value)}
-            placeholder={`${tabLabels[activeTab]} 이름, 입수처, 설명으로 검색`}
-            className="h-11 w-full rounded-2xl border border-border bg-background px-4 text-sm text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20 lg:max-w-md"
-          />
-          <div className="overflow-x-auto">
-            <div className="flex min-w-max gap-2">
-              {(Object.keys(tabLabels) as ItemsTab[]).map((tab) => {
-                const active = activeTab === tab;
-                return (
-                  <button
-                    key={tab}
-                    type="button"
-                    onClick={() => setActiveTab(tab)}
-                    className={`rounded-full px-3 py-2 text-xs font-semibold transition-colors ${
-                      active ? 'bg-pk-green text-white' : 'border border-border bg-background text-foreground hover:border-pk-green'
-                    }`}
-                  >
-                    {tabLabels[tab]} {tabCounts[tab]}
-                  </button>
-                );
-              })}
-            </div>
-          </div>
+        <input
+          type="text"
+          value={search}
+          onChange={(event) => setSearch(event.target.value)}
+          placeholder={`${tabLabels[activeTab]} 이름, 입수처, 설명으로 검색`}
+          className="h-11 w-full rounded-2xl border border-border bg-background px-4 text-sm text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20"
+        />
+
+        <div className="mt-3">
+          <select
+            value={activeTab}
+            onChange={(event) => setActiveTab(event.target.value as ItemsTab)}
+            className="h-9 rounded-xl border border-border bg-background px-3 text-sm font-semibold text-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20"
+          >
+            {(Object.keys(tabLabels) as ItemsTab[]).map((tab) => (
+              <option key={tab} value={tab}>
+                {tabLabels[tab]}
+              </option>
+            ))}
+          </select>
         </div>
 
         {activeTab === 'allitems' && (

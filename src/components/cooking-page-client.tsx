@@ -100,20 +100,6 @@ export default function CookingPageClient({ data }: CookingPageClientProps) {
         <h1 className="text-2xl font-extrabold text-foreground">요리</h1>
       </div>
 
-      <section className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-        {[
-          { label: '요리', value: data.summary.dishCount },
-          { label: '도구', value: data.summary.toolCount },
-          { label: '종류', value: data.summary.categoryCount },
-          { label: '현재 표시', value: filteredDishes.length },
-        ].map((item) => (
-          <div key={item.label} className="rounded-3xl border border-border bg-card p-5">
-            <div className="text-xs font-semibold text-muted-foreground">{item.label}</div>
-            <div className="mono mt-2 text-3xl font-bold text-pk-green-dark">{item.value}</div>
-          </div>
-        ))}
-      </section>
-
       <section className="grid gap-3 xl:grid-cols-2">
         <div className="rounded-3xl border border-border bg-card p-5">
           <h2 className="text-lg font-bold text-foreground">도구별 기본 구조</h2>
