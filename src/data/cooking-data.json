@@ -8,8 +8,7 @@
     "categoryCount": 4,
     "notesKo": [
       "요리 해금은 울퉁불퉁 산 스토리 진행 이후",
-      "근처 포켓몬이 도와주면 레시피 결과가 달라질 수 있다",
-      "요리명과 재료명은 확보한 한국어 표기를 기준으로 정리했다"
+      "근처에 특정 특기(점화·분쇄·절삭·발전·급수·리사이클)를 가진 포켓몬이 있으면 요리를 도와 특별한 레시피가 완성된다"
     ]
   },
   "toolCards": [
@@ -33,7 +32,7 @@
       "toolJp": "なべ",
       "toolKo": "냄비",
       "mainIngredientJp": "おいしいみず",
-      "mainIngredientKo": "맛있는 물",
+      "mainIngredientKo": "맛있는물",
       "dishTypeJp": "スープ",
       "dishTypeKo": "수프"
     },
@@ -76,6 +75,24 @@
       "effectKo": "금속 장벽까지 자를 수 있고 차지 범위가 넓어진다"
     }
   ],
+  "offeringSystem": {
+    "descriptionKo": "이끼 잠만보에게 음식을 바치면 하루 동안 특수 효과를 받을 수 있다. 요리를 바치면 생재료보다 훨씬 강한 효과를 얻는다.",
+    "unlockKo": "우중충한 해변 마을 '마을을 밝게 하자!' 클리어 후 해금",
+    "durationKo": "다음 날 오전 5시까지 지속, 하루에 한 번만 변경 가능",
+    "grades": [
+      { "labelKo": "꽤", "labelJp": "かなり", "descriptionKo": "고급 요리를 바칠 때 (최고 등급)" },
+      { "labelKo": "그런대로", "labelJp": "まあまあ", "descriptionKo": "일반 요리를 바칠 때" },
+      { "labelKo": "조금", "labelJp": "ちょっと", "descriptionKo": "생재료를 바칠 때 (최저 등급)" }
+    ],
+    "tasteEffects": [
+      { "tasteKo": "매콤함", "tasteJp": "からい", "effectKo": "서식지에 포켓몬이 잘 나타난다", "topDishKo": "뜨끈뜨끈 수프빵" },
+      { "tasteKo": "달콤함", "tasteJp": "あまい", "effectKo": "고대 유물이 발견되기 쉬워진다", "topDishKo": "감자 햄버그" },
+      { "tasteKo": "쌉쌀함", "tasteJp": "にがい", "effectKo": "희귀한 것이 발견되기 쉬워진다", "topDishKo": "어른의 햄버그" },
+      { "tasteKo": "새콤함", "tasteJp": "すっぱい", "effectKo": "상점에 좋은 물건이 나오기 쉬워진다", "topDishKo": "쥬시 수프" },
+      { "tasteKo": "떫은맛", "tasteJp": "しぶい", "effectKo": "칠색조·루기아 출현 UP, 무지개/은빛 깃털 발견 UP", "topDishKo": "버섯 햄버그" },
+      { "tasteKo": "보통", "tasteJp": "ふつう", "effectKo": "포켓몬과 친해지기 쉬워진다", "topDishKo": "알록달록 햄버그" }
+    ]
+  },
   "recommended": [
     {
       "nameJp": "ジャガイモハンバーグ",
@@ -268,7 +285,7 @@
       "boostedSkillKo": "바위깨기",
       "boostSummaryJp": "「いわくだき」がパワーアップ",
       "offeringEffectJp": "すると ホウオウ / ルギア をまあまあ見かけやすくなる",
-      "offeringEffectKo": "공물로 바치면 호우오우 / 루기아를 비교적 자주 본다",
+      "offeringEffectKo": "공물로 바치면 칠색조 / 루기아를 비교적 자주 본다",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
     },
     {
@@ -298,7 +315,7 @@
       "boostedSkillKo": "물대포",
       "boostSummaryJp": "「みずでっぽう」がパワーアップ",
       "offeringEffectJp": "すると ホウオウ / ルギア をまあまあ見かけやすくなる",
-      "offeringEffectKo": "공물로 바치면 호우오우 / 루기아를 비교적 자주 본다",
+      "offeringEffectKo": "공물로 바치면 칠색조 / 루기아를 비교적 자주 본다",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
     },
     {
@@ -444,7 +461,7 @@
       "boostedSkillKo": "나뭇잎",
       "boostSummaryJp": "「このは」がパワーアップ",
       "offeringEffectJp": "すると ホウオウ / ルギア をかなり見かけやすくなる",
-      "offeringEffectKo": "공물로 바치면 호우오우 / 루기아를 훨씬 자주 본다",
+      "offeringEffectKo": "공물로 바치면 칠색조 / 루기아를 훨씬 자주 본다",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
     },
     {
@@ -508,7 +525,7 @@
     {
       "id": "entry-1b29dea9da",
       "nameJp": "ヒメリサラダ",
-      "nameKo": "히메리 샐러드",
+      "nameKo": "과사 샐러드",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_700.png",
       "categoryJp": "サラダ",
       "categoryKo": "샐러드",
@@ -536,7 +553,7 @@
     {
       "id": "entry-bf7aa0d046",
       "nameJp": "ヒメリパン",
-      "nameKo": "히메리 빵",
+      "nameKo": "과사 빵",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_710.png",
       "categoryJp": "パン",
       "categoryKo": "빵",

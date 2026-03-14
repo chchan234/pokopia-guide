@@ -44,6 +44,7 @@ export const navigationGroups: NavigationGroup[] = [
       { href: '/records', label: '기록', description: '인간의 기록과 보상' },
       { href: '/fashion', label: '의상', description: '의상·헤어·코디 세트' },
       { href: '/dream-islands', label: '꿈섬', description: '인형과 꿈섬 연결' },
+      { href: '/bestshots', label: '베스트샷', description: '사진 수집 조건과 보상' },
     ],
   },
   {
