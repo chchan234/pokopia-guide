@@ -5,7 +5,7 @@ import CollectionToggleButton from '@/components/collection-toggle-button';
 import { getRecordById, humanRecords } from '@/lib/data';
 import { areaThemes } from '@/lib/constants';
 import type { Metadata } from 'next';
-import { withFromParam } from '@/lib/url-state';
+import BackLink, { FromLink } from '@/components/back-link';
 
 export function generateStaticParams() {
   return humanRecords.map((record) => ({ id: String(record.id) }));
@@ -26,17 +26,12 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 
 export default async function RecordDetailPage({
   params,
-  searchParams,
 }: {
   params: Promise<{ id: string }>;
-  searchParams: Promise<{ from?: string }>;
 }) {
   const { id } = await params;
-  const { from } = await searchParams;
   const record = getRecordById(Number(id));
   if (!record) notFound();
-
-  const previousLocation = typeof from === 'string' && from.startsWith('/') && !from.startsWith('//') ? from : null;
 
   const currentIndex = humanRecords.findIndex((entry) => entry.id === record.id);
   const previousRecord = currentIndex > 0 ? humanRecords[currentIndex - 1] : null;
@@ -46,12 +41,10 @@ export default async function RecordDetailPage({
   return (
     <div className="space-y-8">
       <div className="flex items-center justify-between text-xs font-medium text-muted-foreground">
-        <Link href={previousLocation ?? '/records'} className="hover:text-pk-green">
-          기록 목록으로 돌아가기
-        </Link>
+        <BackLink fallback="/records" label="기록 목록으로 돌아가기" />
         <div className="flex items-center gap-3">
-          {previousRecord && <Link href={withFromParam(`/records/${previousRecord.id}`, previousLocation)}>{previousRecord.name}</Link>}
-          {nextRecord && <Link href={withFromParam(`/records/${nextRecord.id}`, previousLocation)}>{nextRecord.name}</Link>}
+          {previousRecord && <FromLink href={`/records/${previousRecord.id}`}>{previousRecord.name}</FromLink>}
+          {nextRecord && <FromLink href={`/records/${nextRecord.id}`}>{nextRecord.name}</FromLink>}
         </div>
       </div>
 
