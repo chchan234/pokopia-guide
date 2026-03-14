@@ -1078,5 +1078,335 @@
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_499.png"
       }
     ]
+  },
+  "쓰레기": {
+    "nameJp": "ゴミ",
+    "items": [
+      {
+        "nameJp": "ゴミぶくろ",
+        "nameKo": "쓰레기봉투",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_116.png"
+      },
+      {
+        "nameJp": "ゴミばこ",
+        "nameKo": "쓰레기통",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_117.png"
+      },
+      {
+        "nameJp": "ちいさいゴミばこ",
+        "nameKo": "작은 쓰레기통",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_677.png"
+      },
+      {
+        "nameJp": "あきカンいれ",
+        "nameKo": "빈캔 수거함",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_723.png"
+      },
+      {
+        "nameJp": "ドラムかん",
+        "nameKo": "드럼통",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_465.png"
+      }
+    ]
+  },
+  "유리로 만든 것": {
+    "nameJp": "ガラス入り",
+    "items": [
+      {
+        "nameJp": "CDプレーヤー",
+        "nameKo": "CD 플레이어",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_135.png"
+      },
+      {
+        "nameJp": "おおきなかがみ",
+        "nameKo": "큰 거울",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_26.png"
+      },
+      {
+        "nameJp": "カベかけかがみ",
+        "nameKo": "벽걸이 거울",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_324.png"
+      },
+      {
+        "nameJp": "ガラスまど",
+        "nameKo": "유리창",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_287.png"
+      },
+      {
+        "nameJp": "ガーデンライト",
+        "nameKo": "가든 라이트",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_329.png"
+      },
+      {
+        "nameJp": "キュートランプ",
+        "nameKo": "큐트 램프",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_410.png"
+      },
+      {
+        "nameJp": "キュートなドレッサー",
+        "nameKo": "큐트한 화장대",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_495.png"
+      },
+      {
+        "nameJp": "ゴージャスなドレッサー",
+        "nameKo": "고저스 화장대",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_852.png"
+      },
+      {
+        "nameJp": "アンティークドレッサー",
+        "nameKo": "앤티크 화장대",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_474.png"
+      },
+      {
+        "nameJp": "アンティークどけい",
+        "nameKo": "앤티크 시계",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_754.png"
+      },
+      {
+        "nameJp": "アンティークシャンデリア",
+        "nameKo": "앤티크 샹들리에",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_781.png"
+      },
+      {
+        "nameJp": "コンピューター",
+        "nameKo": "컴퓨터",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_531.png"
+      },
+      {
+        "nameJp": "ゲーミングパソコン",
+        "nameKo": "게이밍 컴퓨터",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_670.png"
+      },
+      {
+        "nameJp": "ノートパソコン",
+        "nameKo": "노트북",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_525.png"
+      },
+      {
+        "nameJp": "タブレット",
+        "nameKo": "태블릿",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_507.png"
+      },
+      {
+        "nameJp": "すいしょうだま",
+        "nameKo": "수정 구슬",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_457.png"
+      },
+      {
+        "nameJp": "そうさばん",
+        "nameKo": "조작판",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_464.png"
+      },
+      {
+        "nameJp": "ランタン",
+        "nameKo": "랜턴",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_134.png"
+      },
+      {
+        "nameJp": "モンスターボールライト",
+        "nameKo": "몬스터볼 라이트",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_479.png"
+      },
+      {
+        "nameJp": "フレームガラス",
+        "nameKo": "프레임 유리",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_720.png"
+      },
+      {
+        "nameJp": "ゲーミングれいぞうこ",
+        "nameKo": "게이밍 냉장고",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_671.png"
+      }
+    ]
+  },
+  "놀이 공간": {
+    "nameJp": "あそびば",
+    "items": [
+      {
+        "nameJp": "すべりだい",
+        "nameKo": "미끄럼틀",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_524.png"
+      },
+      {
+        "nameJp": "タイヤ",
+        "nameKo": "타이어",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_663.png"
+      },
+      {
+        "nameJp": "とびこえタイヤ",
+        "nameKo": "점핑 타이어",
+        "imagePath": "https://img.game8.jp/12383890/4bd5dd962faf6468d28fd42a6ab5a97d.webp/original"
+      },
+      {
+        "nameJp": "つみき",
+        "nameKo": "블록 쌓기",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_22.png"
+      },
+      {
+        "nameJp": "びっくりばこ",
+        "nameKo": "깜짝 상자",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_175.png"
+      },
+      {
+        "nameJp": "すなば",
+        "nameKo": "모래놀이터",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_441.png"
+      },
+      {
+        "nameJp": "つりざお",
+        "nameKo": "낚싯대",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_47.png"
+      }
+    ]
+  },
+  "돌아가는 것": {
+    "nameJp": "まわる",
+    "items": [
+      {
+        "nameJp": "かざぐるま",
+        "nameKo": "바람개비",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_19.png"
+      },
+      {
+        "nameJp": "せんぷうき",
+        "nameKo": "선풍기",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_597.png"
+      },
+      {
+        "nameJp": "アンティークどけい",
+        "nameKo": "앤티크 시계",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_754.png"
+      }
+    ]
+  },
+  "문자가 있는 것": {
+    "nameJp": "文字がある",
+    "items": [
+      {
+        "nameJp": "かんばん",
+        "nameKo": "간판",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_38.png"
+      },
+      {
+        "nameJp": "やじるしかんばん",
+        "nameKo": "화살표 간판",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_43.png"
+      },
+      {
+        "nameJp": "ろんぶん",
+        "nameKo": "논문",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_529.png"
+      },
+      {
+        "nameJp": "ざっしだな",
+        "nameKo": "잡지 꽂이",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_265.png"
+      },
+      {
+        "nameJp": "CDラック",
+        "nameKo": "CD 랙",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_437.png"
+      },
+      {
+        "nameJp": "ほんだな",
+        "nameKo": "책장",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_266.png"
+      }
+    ]
+  },
+  "상징": {
+    "nameJp": "シンボル",
+    "items": [
+      {
+        "nameJp": "ライチュウかんばん",
+        "nameKo": "라이츄 간판",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_158.png"
+      },
+      {
+        "nameJp": "ロケットだんのかべかけ",
+        "nameKo": "로켓단 벽걸이",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_536.png"
+      },
+      {
+        "nameJp": "モンスターボールライト",
+        "nameKo": "몬스터볼 라이트",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_479.png"
+      },
+      {
+        "nameJp": "リース",
+        "nameKo": "리스",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/noimage.png"
+      },
+      {
+        "nameJp": "モンスターボールテーブル",
+        "nameKo": "몬스터볼 테이블",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_478.png"
+      },
+      {
+        "nameJp": "モンスターボールベッド",
+        "nameKo": "몬스터볼 침대",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_477.png"
+      },
+      {
+        "nameJp": "モンスターボールチェスト",
+        "nameKo": "몬스터볼 서랍장",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_746.png"
+      },
+      {
+        "nameJp": "モンスターボールソファ",
+        "nameKo": "몬스터볼 소파",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_476.png"
+      }
+    ]
+  },
+  "음식 같은 것": {
+    "nameJp": "食べものそっくり",
+    "items": [
+      {
+        "nameJp": "かきごおり",
+        "nameKo": "빙수",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_152.png"
+      },
+      {
+        "nameJp": "リボンケーキ",
+        "nameKo": "리본 케이크",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_153.png"
+      },
+      {
+        "nameJp": "きのみいりバスケット",
+        "nameKo": "나무열매 바구니",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_326.png"
+      },
+      {
+        "nameJp": "きのみなイス",
+        "nameKo": "나무열매 의자",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_467.png"
+      },
+      {
+        "nameJp": "きのみなベッド",
+        "nameKo": "나무열매 침대",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_294.png"
+      },
+      {
+        "nameJp": "きのみなテーブル",
+        "nameKo": "나무열매 테이블",
+        "imagePath": "https://img.game8.jp/12388007/646fa4201b5c1da23da9f92e6b6b8e0c.webp/original"
+      },
+      {
+        "nameJp": "きのみなテーブルランプ",
+        "nameKo": "나무열매 테이블 램프",
+        "imagePath": "https://img.game8.jp/12388047/5693da8b623e0b1ba799ecb13659dcfa.webp/original"
+      },
+      {
+        "nameJp": "きのみなケース",
+        "nameKo": "나무열매 케이스",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_690.png"
+      },
+      {
+        "nameJp": "アフタヌーンティーセット",
+        "nameKo": "애프터눈 티 세트",
+        "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_149.png"
+      }
+    ]
   }
 }
