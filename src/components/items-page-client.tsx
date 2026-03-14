@@ -5,18 +5,19 @@ import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useSyncQueryParams } from '@/hooks/use-sync-query-params';
 import ZoomableImage from '@/components/zoomable-image';
-import type { AllItemEntry, AncientItemGroup, ItemsData } from '@/types/pokemon';
+import type { AllItemEntry, AncientItemGroup, BuildingEntry, ItemsData } from '@/types/pokemon';
 
 interface ItemsPageClientProps {
   data: ItemsData;
 }
 
-type ItemsTab = 'allitems' | 'recipes' | 'dolls' | 'cds' | 'berries' | 'emotes' | 'collections' | 'ancients';
+type ItemsTab = 'allitems' | 'buildings' | 'recipes' | 'dolls' | 'cds' | 'berries' | 'emotes' | 'collections' | 'ancients';
 
 type RecipeSourceFilter = 'all' | 'shop' | 'other';
 
 const tabLabels: Record<ItemsTab, string> = {
   allitems: '전체 아이템',
+  buildings: '건축 키트',
   recipes: '레시피',
   dolls: '인형',
   cds: 'CD',
@@ -31,7 +32,7 @@ function displayName(nameKo: string | null | undefined, nameJp: string) {
 }
 
 function isItemsTab(value: string | null): value is ItemsTab {
-  return value !== null && ['allitems', 'recipes', 'dolls', 'cds', 'berries', 'emotes', 'collections', 'ancients'].includes(value);
+  return value !== null && ['allitems', 'buildings', 'recipes', 'dolls', 'cds', 'berries', 'emotes', 'collections', 'ancients'].includes(value);
 }
 
 function isRecipeSourceFilter(value: string): value is RecipeSourceFilter {
@@ -158,6 +159,17 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
     );
   }, [data.allItems, search]);
 
+  const filteredBuildings = useMemo(() => {
+    const query = search.trim().toLowerCase();
+
+    return data.buildings.filter((entry: BuildingEntry) =>
+      matchesQuery(query, [
+        entry.nameKo, entry.nameJp, entry.typeKo, entry.useKo, entry.useJp,
+        ...entry.requiredMaterialsKo, ...entry.requiredSpecialtiesKo,
+      ])
+    );
+  }, [data.buildings, search]);
+
   const filteredRecipes = useMemo(() => {
     const query = search.trim().toLowerCase();
 
@@ -265,6 +277,54 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                   <p>사용처: {entry.useKo}</p>
                   {entry.usageTargetsKo.length > 0 && <p>연결 대상: {entry.usageTargetsKo.join(', ')}</p>}
                 </div>
+              </article>
+            ))}
+          </div>
+        )}
+
+        {activeTab === 'buildings' && (
+          <div className="mt-4 grid gap-3 xl:grid-cols-2">
+            {filteredBuildings.map((entry) => (
+              <article key={entry.id} className="rounded-3xl border border-border bg-background p-5" style={{ contentVisibility: 'auto' }}>
+                <CardPreview src={entry.imagePath} alt={displayName(entry.nameKo, entry.nameJp)} />
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="rounded-full bg-pk-green-light px-2.5 py-1 text-[11px] font-semibold text-pk-green-dark">{entry.typeKo}</span>
+                  {entry.capacity && (
+                    <span className="rounded-full bg-muted px-2.5 py-1 text-[11px] font-semibold text-muted-foreground">{entry.capacity}</span>
+                  )}
+                  {entry.buildTime && (
+                    <span className="rounded-full bg-muted px-2.5 py-1 text-[11px] font-semibold text-muted-foreground">{entry.buildTime}</span>
+                  )}
+                </div>
+                <h3 className="mt-3 text-base font-bold text-foreground">{displayName(entry.nameKo, entry.nameJp)}</h3>
+                <dl className="mt-3 space-y-2 text-sm">
+                  {entry.requiredMaterialsKo.length > 0 && (
+                    <div>
+                      <dt className="font-semibold text-foreground">필요 재료</dt>
+                      <dd className="mt-1 flex flex-wrap gap-1.5">
+                        {entry.requiredMaterialsKo.map((mat, i) => (
+                          <span key={`${entry.id}-mat-${i}`} className="rounded-full border border-border bg-card px-2.5 py-1 text-xs text-foreground">{mat}</span>
+                        ))}
+                      </dd>
+                    </div>
+                  )}
+                  {entry.requiredSpecialtiesKo.length > 0 && (
+                    <div>
+                      <dt className="font-semibold text-foreground">필요 특기</dt>
+                      <dd className="mt-1 flex flex-wrap gap-1.5">
+                        {entry.requiredSpecialtiesKo.map((spec) => (
+                          <span key={`${entry.id}-spec-${spec}`} className="rounded-full bg-pk-brown-light px-2.5 py-1 text-xs font-semibold text-pk-brown-dark">{spec}</span>
+                        ))}
+                      </dd>
+                    </div>
+                  )}
+                  {entry.useKo && (
+                    <div>
+                      <dt className="font-semibold text-foreground">용도</dt>
+                      <dd className="mt-1 text-muted-foreground">{entry.useKo}</dd>
+                    </div>
+                  )}
+                </dl>
               </article>
             ))}
           </div>
@@ -425,6 +485,7 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
         )}
 
         {activeTab === 'allitems' && filteredAllItems.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 아이템이 없습니다.</div>}
+        {activeTab === 'buildings' && filteredBuildings.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 건축 키트가 없습니다.</div>}
         {activeTab === 'recipes' && filteredRecipes.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 레시피가 없습니다.</div>}
         {activeTab === 'dolls' && filteredDolls.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 인형이 없습니다.</div>}
         {activeTab === 'cds' && filteredCds.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 CD가 없습니다.</div>}
