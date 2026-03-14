@@ -44,50 +44,34 @@ function DishPreview({ src, alt }: { src: string | null; alt: string }) {
 export default function CookingPageClient({ data }: CookingPageClientProps) {
   const searchParams = useSearchParams();
   const querySearch = searchParams.get('q') ?? '';
-  const queryCategory = searchParams.get('category') ?? 'all';
   const queryTool = searchParams.get('tool') ?? 'all';
   const [search, setSearch] = useState(querySearch);
-  const [categoryFilter, setCategoryFilter] = useState(queryCategory);
   const [toolFilter, setToolFilter] = useState(queryTool);
 
   useEffect(() => {
     setSearch(querySearch);
-  }, [querySearch]);
-
-  useEffect(() => {
-    setCategoryFilter(queryCategory);
-  }, [queryCategory]);
-
-  useEffect(() => {
     setToolFilter(queryTool);
-  }, [queryTool]);
+  }, [querySearch, queryTool]);
 
   const syncedParams = useMemo(
     () => ({
       q: search,
-      category: categoryFilter === 'all' ? undefined : categoryFilter,
       tool: toolFilter === 'all' ? undefined : toolFilter,
     }),
-    [categoryFilter, search, toolFilter]
+    [search, toolFilter]
   );
 
   useSyncQueryParams(syncedParams);
 
-  const categories = useMemo(
-    () => ['all', ...new Set(data.dishes.map((dish) => dish.categoryKo ?? dish.categoryJp))],
-    [data.dishes]
-  );
   const tools = useMemo(() => ['all', ...new Set(data.dishes.map((dish) => dish.toolKo ?? dish.toolJp))], [data.dishes]);
 
   const filteredDishes = useMemo(() => {
     const query = search.trim().toLowerCase();
 
     return data.dishes.filter((dish) => {
-      const categoryLabel = dish.categoryKo ?? dish.categoryJp;
       const toolLabel = dish.toolKo ?? dish.toolJp;
 
       return (
-        (categoryFilter === 'all' || categoryLabel === categoryFilter) &&
         (toolFilter === 'all' || toolLabel === toolFilter) &&
         matchesQuery(query, [
           dish.nameKo,
@@ -108,7 +92,7 @@ export default function CookingPageClient({ data }: CookingPageClientProps) {
         ])
       );
     });
-  }, [categoryFilter, data.dishes, search, toolFilter]);
+  }, [data.dishes, search, toolFilter]);
 
   return (
     <div className="space-y-8">
@@ -167,18 +151,6 @@ export default function CookingPageClient({ data }: CookingPageClientProps) {
       </section>
 
       <section className="rounded-3xl border border-border bg-card p-5">
-        <h2 className="text-lg font-bold text-foreground">추천 요리</h2>
-        <div className="mt-4 grid gap-3 md:grid-cols-2">
-          {data.recommended.map((entry) => (
-            <article key={entry.nameJp} className="rounded-2xl border border-border bg-background p-4">
-              <div className="text-base font-bold text-foreground">{displayName(entry.nameKo, entry.nameJp)}</div>
-              <p className="mt-2 text-sm text-muted-foreground">{entry.reasonKo}</p>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section className="rounded-3xl border border-border bg-card p-5">
         <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
           <input
             type="text"
@@ -187,23 +159,6 @@ export default function CookingPageClient({ data }: CookingPageClientProps) {
             placeholder="요리명, 재료, 특기, 효과로 검색"
             className="h-11 w-full rounded-2xl border border-border bg-background px-4 text-sm text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20 lg:max-w-md"
           />
-          <div className="flex flex-wrap gap-2">
-            {categories.map((category) => {
-              const active = categoryFilter === category;
-              return (
-                <button
-                  key={category}
-                  type="button"
-                  onClick={() => setCategoryFilter(category)}
-                  className={`rounded-full px-3 py-2 text-xs font-semibold transition-colors ${
-                    active ? 'bg-pk-green text-white' : 'border border-border bg-background text-foreground hover:border-pk-green'
-                  }`}
-                >
-                  {category === 'all' ? '전체 종류' : category}
-                </button>
-              );
-            })}
-          </div>
         </div>
 
         <div className="mt-3 flex flex-wrap gap-2">
