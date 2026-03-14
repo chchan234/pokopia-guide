@@ -61,7 +61,7 @@ export default function HomeSearchClient({ entries }: HomeSearchClientProps) {
   const totalVisibleResults = groupedResults.reduce((sum, group) => sum + group.items.length, 0);
 
   return (
-    <section className="space-y-4 rounded-[32px] border border-border bg-card p-5 md:p-6">
+    <section className="space-y-4 overflow-hidden rounded-[32px] border border-border bg-card p-5 md:p-6">
       <div className="space-y-2">
         <h1 className="text-2xl font-extrabold text-foreground">통합 검색</h1>
         <p className="text-sm text-muted-foreground">포켓몬, 서식지, 기록, 의상, 꿈섬, 요리, 아이템을 한 번에 찾습니다.</p>
@@ -95,7 +95,7 @@ export default function HomeSearchClient({ entries }: HomeSearchClientProps) {
                       <CardLink
                         key={entry.id}
                         href={entry.href}
-                        className="flex items-center gap-3 rounded-2xl border border-border bg-background px-3 py-3 hover:border-pk-green"
+                        className="flex items-center gap-3 overflow-hidden rounded-2xl border border-border bg-background px-3 py-3 hover:border-pk-green"
                       >
                         <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-muted/40">
                           {entry.imagePath ? (
