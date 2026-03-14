@@ -7,7 +7,6 @@ import CollectionToggleButton from '@/components/collection-toggle-button';
 import TypeBadge from '@/components/type-badge';
 import ZoomableImage from '@/components/zoomable-image';
 import MaterialTag from '@/components/material-tag';
-import FavoriteItemsSection from '@/components/favorite-items-section';
 import type { Metadata } from 'next';
 import BackLink, { FromLink } from '@/components/back-link';
 
@@ -152,13 +151,49 @@ export default async function PokemonDetailPage({
         {entry.favoriteEnvironment && <InfoRow label="좋아하는 환경">{entry.favoriteEnvironment}</InfoRow>}
       </section>
 
-      <FavoriteItemsSection
-        favoriteItems={entry.favoriteItems}
-        favoriteItemsNote={entry.favoriteItemsNote}
-        favoriteItemVariants={entry.favoriteItemVariants}
-        extraMaterials={entry.extraMaterials}
-        slug={entry.slug}
-      />
+      {(entry.favoriteItems.length > 0 || entry.favoriteItemsNote || entry.favoriteItemVariants.length > 0 || entry.extraMaterials.length > 0) && (
+        <section className="rounded-3xl border border-border bg-card p-6">
+          <h2 className="text-lg font-bold text-foreground">좋아하는 것</h2>
+          {entry.favoriteItems.length > 0 && (
+            <div className="mt-4 flex flex-wrap gap-2">
+              {entry.favoriteItems.map((item) => (
+                <span key={item} className="rounded-full bg-pk-green-light px-3 py-1 text-xs font-semibold text-pk-green-dark">
+                  {item}
+                </span>
+              ))}
+            </div>
+          )}
+          {entry.favoriteItemsNote && <p className="mt-4 text-sm text-muted-foreground">{entry.favoriteItemsNote}</p>}
+          {entry.favoriteItemVariants.length > 0 && (
+            <div className="mt-4 space-y-3">
+              {entry.favoriteItemVariants.map((variantItems, index) => (
+                <div key={`${entry.slug}-fav-${index}`} className="rounded-2xl border border-border bg-muted/20 p-4">
+                  <p className="text-xs font-semibold text-muted-foreground">형태 {index + 1}</p>
+                  <div className="mt-2 flex flex-wrap gap-2">
+                    {variantItems.map((item) => (
+                      <span key={`${entry.slug}-${index}-${item}`} className="rounded-full bg-card px-3 py-1 text-xs font-semibold text-foreground">
+                        {item}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+          {entry.extraMaterials.length > 0 && (
+            <div className="mt-4">
+              <p className="text-xs font-semibold text-muted-foreground">어지르기 추가 재료</p>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {entry.extraMaterials.map((item) => (
+                  <span key={`${entry.slug}-extra-${item}`} className="rounded-full bg-pk-brown-light px-3 py-1 text-xs font-semibold text-pk-brown-dark">
+                    {item}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+        </section>
+      )}
 
       <section className="space-y-4">
         <div>
