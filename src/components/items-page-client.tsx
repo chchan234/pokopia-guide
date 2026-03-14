@@ -11,12 +11,13 @@ interface ItemsPageClientProps {
   data: ItemsData;
 }
 
-type ItemsTab = 'allitems' | 'buildings' | 'recipes' | 'dolls' | 'cds' | 'berries' | 'emotes' | 'collections' | 'ancients';
+type ItemsTab = 'allitems' | 'craftable' | 'buildings' | 'recipes' | 'dolls' | 'cds' | 'berries' | 'emotes' | 'collections' | 'ancients';
 
 type RecipeSourceFilter = 'all' | 'shop' | 'other';
 
 const tabLabels: Record<ItemsTab, string> = {
   allitems: '전체 아이템',
+  craftable: '제작 아이템',
   buildings: '건축 키트',
   recipes: '레시피',
   dolls: '인형',
@@ -32,7 +33,7 @@ function displayName(nameKo: string | null | undefined, nameJp: string) {
 }
 
 function isItemsTab(value: string | null): value is ItemsTab {
-  return value !== null && ['allitems', 'buildings', 'recipes', 'dolls', 'cds', 'berries', 'emotes', 'collections', 'ancients'].includes(value);
+  return value !== null && ['allitems', 'craftable', 'buildings', 'recipes', 'dolls', 'cds', 'berries', 'emotes', 'collections', 'ancients'].includes(value);
 }
 
 function isRecipeSourceFilter(value: string): value is RecipeSourceFilter {
@@ -155,8 +156,18 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
     const query = search.trim().toLowerCase();
 
     return data.allItems.filter((entry: AllItemEntry) =>
-      matchesQuery(query, [entry.nameKo, entry.nameJp, entry.categoryKo, entry.categoryJp, entry.useKo, entry.useJp, ...entry.usageTargetsKo, ...entry.usageTargetsJp])
+      matchesQuery(query, [entry.nameKo, entry.nameJp, entry.categoryKo, entry.categoryJp, entry.useKo, entry.useJp, ...entry.usageTargetsKo, ...entry.usageTargetsJp, ...entry.craftMaterialsKo])
     );
+  }, [data.allItems, search]);
+
+  const filteredCraftable = useMemo(() => {
+    const query = search.trim().toLowerCase();
+
+    return data.allItems
+      .filter((entry: AllItemEntry) => entry.craftMaterialsKo.length > 0)
+      .filter((entry: AllItemEntry) =>
+        matchesQuery(query, [entry.nameKo, entry.nameJp, entry.categoryKo, entry.categoryJp, ...entry.craftMaterialsKo])
+      );
   }, [data.allItems, search]);
 
   const filteredBuildings = useMemo(() => {
@@ -276,6 +287,43 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                 <div className="mt-3 space-y-2 text-sm text-muted-foreground">
                   <p>사용처: {entry.useKo}</p>
                   {entry.usageTargetsKo.length > 0 && <p>연결 대상: {entry.usageTargetsKo.join(', ')}</p>}
+                  {entry.craftMaterialsKo.length > 0 && (
+                    <div>
+                      <p className="font-semibold text-foreground">제작 재료</p>
+                      <div className="mt-1 flex flex-wrap gap-1.5">
+                        {entry.craftMaterialsKo.map((mat, i) => (
+                          <span key={`${entry.id}-craft-${i}`} className="rounded-full border border-border bg-card px-2.5 py-1 text-xs text-foreground">{mat}</span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </article>
+            ))}
+          </div>
+        )}
+
+        {activeTab === 'craftable' && (
+          <div className="mt-4 grid gap-3 xl:grid-cols-2">
+            {filteredCraftable.map((entry) => (
+              <article key={entry.id} className="rounded-3xl border border-border bg-background p-5" style={{ contentVisibility: 'auto' }}>
+                <CardPreview src={entry.imagePath} alt={displayName(entry.nameKo, entry.nameJp)} />
+                <div className="flex flex-wrap items-center gap-2">
+                  {entry.categoryKo && (
+                    <span className="rounded-full bg-pk-green-light px-2.5 py-1 text-[11px] font-semibold text-pk-green-dark">{entry.categoryKo}</span>
+                  )}
+                </div>
+                <h3 className="mt-3 text-base font-bold text-foreground">{displayName(entry.nameKo, entry.nameJp)}</h3>
+                <div className="mt-3 space-y-2 text-sm">
+                  <div>
+                    <p className="font-semibold text-foreground">제작 재료</p>
+                    <div className="mt-1 flex flex-wrap gap-1.5">
+                      {entry.craftMaterialsKo.map((mat, i) => (
+                        <span key={`${entry.id}-craft-${i}`} className="rounded-full border border-border bg-card px-2.5 py-1 text-xs text-foreground">{mat}</span>
+                      ))}
+                    </div>
+                  </div>
+                  <p className="text-muted-foreground">사용처: {entry.useKo}</p>
                 </div>
               </article>
             ))}
@@ -485,6 +533,7 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
         )}
 
         {activeTab === 'allitems' && filteredAllItems.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 아이템이 없습니다.</div>}
+        {activeTab === 'craftable' && filteredCraftable.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 제작 아이템이 없습니다.</div>}
         {activeTab === 'buildings' && filteredBuildings.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 건축 키트가 없습니다.</div>}
         {activeTab === 'recipes' && filteredRecipes.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 레시피가 없습니다.</div>}
         {activeTab === 'dolls' && filteredDolls.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 인형이 없습니다.</div>}

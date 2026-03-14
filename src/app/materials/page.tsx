@@ -75,6 +75,24 @@ function buildMaterialMap(): MaterialUsage[] {
     }
   }
 
+  // 제작 아이템 재료
+  for (const item of itemsGuideData.allItems) {
+    if (!item.craftMaterialsKo || item.craftMaterialsKo.length === 0) continue;
+    const itemName = item.nameKo || item.nameJp;
+    const entry: MaterialUsageEntry = {
+      category: 'craft',
+      categoryLabel: '제작',
+      name: itemName,
+      detail: item.categoryKo || item.categoryJp,
+      href: `/items?q=${encodeURIComponent(itemName)}`,
+      imagePath: item.imagePath,
+    };
+    for (const mat of item.craftMaterialsKo) {
+      const cleanMat = mat.replace(/\s*x\s*\d+$/i, '').trim();
+      add(cleanMat, entry);
+    }
+  }
+
   return Array.from(map.values())
     .map(({ displayName, usages }) => ({ material: displayName, usages }))
     .sort((a, b) => a.material.localeCompare(b.material, 'ko'));

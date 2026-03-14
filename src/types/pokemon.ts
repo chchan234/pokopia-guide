@@ -287,6 +287,8 @@ export interface AllItemEntry {
   useKo: string;
   usageTargetsJp: string[];
   usageTargetsKo: string[];
+  craftMaterialsJp: string[];
+  craftMaterialsKo: string[];
   sourceUrl: string;
 }
 
@@ -430,7 +432,7 @@ export interface ItemsData {
 }
 
 export interface MaterialUsageEntry {
-  category: 'cooking' | 'habitat' | 'building';
+  category: 'cooking' | 'habitat' | 'building' | 'craft';
   categoryLabel: string;
   name: string;
   detail: string;

@@ -11,19 +11,21 @@ interface MaterialsPageClientProps {
   materials: MaterialUsage[];
 }
 
-type CategoryFilter = 'all' | 'cooking' | 'habitat' | 'building';
+type CategoryFilter = 'all' | 'cooking' | 'habitat' | 'building' | 'craft';
 
 const categoryLabels: Record<CategoryFilter, string> = {
   all: '전체',
   cooking: '요리',
   habitat: '서식지',
   building: '건축',
+  craft: '제작',
 };
 
 const categoryColors: Record<string, string> = {
   cooking: 'bg-pk-gold/15 text-pk-gold',
   habitat: 'bg-pk-green-light text-pk-green-dark',
   building: 'bg-pk-sky-light text-pk-sky',
+  craft: 'bg-purple-100 text-purple-700 dark:bg-purple-900/30 dark:text-purple-400',
 };
 
 export default function MaterialsPageClient({ materials }: MaterialsPageClientProps) {
