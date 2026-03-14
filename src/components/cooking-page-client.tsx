@@ -100,42 +100,6 @@ export default function CookingPageClient({ data }: CookingPageClientProps) {
         <h1 className="text-2xl font-extrabold text-foreground">요리</h1>
       </div>
 
-      <section className="grid gap-3 xl:grid-cols-2">
-        <div className="rounded-3xl border border-border bg-card p-5">
-          <h2 className="text-lg font-bold text-foreground">도구별 기본 구조</h2>
-          <div className="mt-4 grid gap-3 sm:grid-cols-2">
-            {data.toolCards.map((tool) => (
-              <article key={tool.toolJp} className="rounded-2xl border border-border bg-background p-4">
-                <div className="text-sm font-bold text-foreground">{displayName(tool.toolKo, tool.toolJp)}</div>
-                <p className="mt-1 text-sm text-muted-foreground">
-                  기본 재료: {displayName(tool.mainIngredientKo, tool.mainIngredientJp)}
-                </p>
-                <p className="mt-1 text-sm text-muted-foreground">만드는 종류: {displayName(tool.dishTypeKo, tool.dishTypeJp)}</p>
-              </article>
-            ))}
-          </div>
-        </div>
-
-        <div className="rounded-3xl border border-border bg-card p-5">
-          <h2 className="text-lg font-bold text-foreground">종류별 대표 강화</h2>
-          <div className="mt-4 space-y-3">
-            {data.categoryEffects.map((entry) => (
-              <article key={entry.categoryJp} className="rounded-2xl border border-border bg-background p-4">
-                <div className="flex flex-wrap items-center gap-2">
-                  <span className="rounded-full bg-pk-green-light px-2.5 py-1 text-[11px] font-semibold text-pk-green-dark">
-                    {displayName(entry.categoryKo, entry.categoryJp)}
-                  </span>
-                  <span className="text-sm font-semibold text-foreground">
-                    {displayName(entry.skillKo, entry.skillJp)}
-                  </span>
-                </div>
-                <p className="mt-2 text-sm text-muted-foreground">{entry.effectKo}</p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <section className="rounded-3xl border border-border bg-card p-5">
         <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
           <input
@@ -219,6 +183,42 @@ export default function CookingPageClient({ data }: CookingPageClientProps) {
         </div>
 
         {filteredDishes.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 요리가 없습니다.</div>}
+      </section>
+
+      <section className="grid gap-3 xl:grid-cols-2">
+        <div className="rounded-3xl border border-border bg-card p-5">
+          <h2 className="text-lg font-bold text-foreground">도구별 기본 구조</h2>
+          <div className="mt-4 grid gap-3 sm:grid-cols-2">
+            {data.toolCards.map((tool) => (
+              <article key={tool.toolJp} className="rounded-2xl border border-border bg-background p-4">
+                <div className="text-sm font-bold text-foreground">{displayName(tool.toolKo, tool.toolJp)}</div>
+                <p className="mt-1 text-sm text-muted-foreground">
+                  기본 재료: {displayName(tool.mainIngredientKo, tool.mainIngredientJp)}
+                </p>
+                <p className="mt-1 text-sm text-muted-foreground">만드는 종류: {displayName(tool.dishTypeKo, tool.dishTypeJp)}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+
+        <div className="rounded-3xl border border-border bg-card p-5">
+          <h2 className="text-lg font-bold text-foreground">종류별 대표 강화</h2>
+          <div className="mt-4 space-y-3">
+            {data.categoryEffects.map((entry) => (
+              <article key={entry.categoryJp} className="rounded-2xl border border-border bg-background p-4">
+                <div className="flex flex-wrap items-center gap-2">
+                  <span className="rounded-full bg-pk-green-light px-2.5 py-1 text-[11px] font-semibold text-pk-green-dark">
+                    {displayName(entry.categoryKo, entry.categoryJp)}
+                  </span>
+                  <span className="text-sm font-semibold text-foreground">
+                    {displayName(entry.skillKo, entry.skillJp)}
+                  </span>
+                </div>
+                <p className="mt-2 text-sm text-muted-foreground">{entry.effectKo}</p>
+              </article>
+            ))}
+          </div>
+        </div>
       </section>
     </div>
   );

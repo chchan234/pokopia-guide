@@ -114,25 +114,10 @@ export default function Header() {
       {mobileOpen && (
         <nav id="mobile-nav" className="border-t border-border bg-pk-cream px-5 py-3 md:hidden">
           <div className="mx-auto max-w-6xl space-y-3">
-            {navigationGroups.map((group) => {
-              const isActive = matchesGroup(
-                pathname,
-                group.href,
-                group.children.map((item) => item.href)
-              );
-
-              return (
+            {navigationGroups.map((group) => (
                 <section key={`mobile-${group.key}`} className="rounded-2xl border border-border bg-card p-3">
-                  <Link
-                    href={group.href}
-                    onClick={() => setMobileOpen(false)}
-                    className={`block rounded-xl px-3 py-2 text-sm font-bold transition-colors ${
-                      isActive ? 'bg-pk-green text-white' : 'text-pk-brown-dark hover:bg-pk-green-light'
-                    }`}
-                  >
-                    {group.label}
-                  </Link>
-                  <div className="mt-2 grid grid-cols-2 gap-2">
+                  <div className="px-3 py-1 text-xs font-bold text-muted-foreground">{group.label}</div>
+                  <div className="mt-1 grid grid-cols-2 gap-2">
                     {group.children.map((item) => {
                       const isChildActive = pathname === item.href || pathname.startsWith(`${item.href}/`);
                       return (
@@ -152,8 +137,7 @@ export default function Header() {
                     })}
                   </div>
                 </section>
-              );
-            })}
+            ))}
           </div>
         </nav>
       )}
