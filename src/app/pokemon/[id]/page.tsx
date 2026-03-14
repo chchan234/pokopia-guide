@@ -71,9 +71,9 @@ export default async function PokemonDetailPage({
         </div>
       </div>
 
-      <section className="overflow-hidden rounded-[2rem] border border-border" style={{ backgroundColor: theme?.bg ?? '#fff' }}>
+      <section className="overflow-hidden rounded-[2rem] border border-border" style={{ backgroundColor: theme?.bg ?? 'var(--card)' }}>
         <div className="grid gap-6 p-8 md:grid-cols-[220px_minmax(0,1fr)] md:p-10">
-          <div className="flex items-center justify-center rounded-[1.75rem] bg-white/70 p-6">
+          <div className="flex items-center justify-center rounded-[1.75rem] bg-card/70 p-6">
             {entry.imagePath ? (
               <Image src={entry.imagePath} alt={entry.name} width={180} height={180} className="object-contain" priority />
             ) : (
@@ -85,8 +85,8 @@ export default async function PokemonDetailPage({
 
           <div className="space-y-5">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="mono rounded-full bg-white/80 px-3 py-1 text-xs font-bold text-muted-foreground">#{entry.number}</span>
-              <span className="rounded-full bg-white/80 px-3 py-1 text-xs font-semibold text-pk-brown-dark">{entry.primaryMap}</span>
+              <span className="mono rounded-full bg-card/80 px-3 py-1 text-xs font-bold text-muted-foreground">#{entry.number}</span>
+              <span className="rounded-full bg-card/80 px-3 py-1 text-xs font-semibold text-pk-brown-dark">{entry.primaryMap}</span>
               {entry.isEvent && <span className="rounded-full bg-pk-pink/15 px-3 py-1 text-xs font-bold text-pk-brown-dark">이벤트</span>}
               {entry.isEditorialVariant && (
                 <span className="rounded-full bg-pk-gold/15 px-3 py-1 text-xs font-bold text-pk-brown-dark">편집 변형명</span>
@@ -177,7 +177,7 @@ export default async function PokemonDetailPage({
                   <p className="text-xs font-semibold text-muted-foreground">형태 {index + 1}</p>
                   <div className="mt-2 flex flex-wrap gap-2">
                     {variantItems.map((item) => (
-                      <span key={`${entry.slug}-${index}-${item}`} className="rounded-full bg-white px-3 py-1 text-xs font-semibold text-foreground">
+                      <span key={`${entry.slug}-${index}-${item}`} className="rounded-full bg-card px-3 py-1 text-xs font-semibold text-foreground">
                         {item}
                       </span>
                     ))}
@@ -252,7 +252,7 @@ export default async function PokemonDetailPage({
                       <p className="text-[11px] font-semibold text-pk-brown-dark">필요 재료</p>
                       <div className="mt-2 flex flex-wrap gap-2">
                         {habitat.requirementsKo.map((requirement) => (
-                          <span key={requirement} className="rounded-full bg-white px-2.5 py-1 text-[11px] text-foreground">
+                          <span key={requirement} className="rounded-full bg-card px-2.5 py-1 text-[11px] text-foreground">
                             {requirement}
                           </span>
                         ))}

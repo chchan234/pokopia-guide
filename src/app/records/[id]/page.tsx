@@ -55,12 +55,12 @@ export default async function RecordDetailPage({
         </div>
       </div>
 
-      <section className="overflow-hidden rounded-[2rem] border border-border" style={{ backgroundColor: theme?.bg ?? '#fff' }}>
+      <section className="overflow-hidden rounded-[2rem] border border-border" style={{ backgroundColor: theme?.bg ?? 'var(--card)' }}>
         <div className="space-y-5 p-8 md:p-10">
           <div className="flex flex-wrap items-center gap-2">
-            <span className="mono rounded-full bg-white/80 px-3 py-1 text-xs font-bold text-muted-foreground">#{String(record.id).padStart(3, '0')}</span>
-            <span className="rounded-full bg-white/80 px-3 py-1 text-xs font-semibold text-pk-brown-dark">{record.type} {record.orderInType}</span>
-            <span className="rounded-full bg-white/80 px-3 py-1 text-xs font-semibold text-pk-brown-dark">{record.map}</span>
+            <span className="mono rounded-full bg-card/80 px-3 py-1 text-xs font-bold text-muted-foreground">#{String(record.id).padStart(3, '0')}</span>
+            <span className="rounded-full bg-card/80 px-3 py-1 text-xs font-semibold text-pk-brown-dark">{record.type} {record.orderInType}</span>
+            <span className="rounded-full bg-card/80 px-3 py-1 text-xs font-semibold text-pk-brown-dark">{record.map}</span>
           </div>
           <div>
             <h1 className="text-3xl font-extrabold text-pk-brown-dark md:text-4xl">{record.name}</h1>
@@ -69,7 +69,7 @@ export default async function RecordDetailPage({
           <div className="flex flex-wrap items-start gap-3">
             <CollectionToggleButton category="records" itemId={record.id} />
             {record.directReward && (
-              <div className="max-w-full rounded-2xl bg-white/80 px-4 py-3 text-sm text-foreground">
+              <div className="max-w-full rounded-2xl bg-card/80 px-4 py-3 text-sm text-foreground">
                 <p className="text-[11px] font-semibold text-pk-green-dark">{record.directRewardType}</p>
                 <p className="mt-1 break-words font-bold">{record.directReward}</p>
               </div>

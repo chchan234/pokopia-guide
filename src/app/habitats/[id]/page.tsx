@@ -58,9 +58,9 @@ export default async function HabitatDetailPage({
         </Link>
       </div>
 
-      <section className="overflow-hidden rounded-[2rem] border border-border" style={{ backgroundColor: theme?.bg ?? '#fff' }}>
+      <section className="overflow-hidden rounded-[2rem] border border-border" style={{ backgroundColor: theme?.bg ?? 'var(--card)' }}>
         <div className="grid gap-6 p-8 md:grid-cols-[220px_minmax(0,1fr)] md:p-10">
-          <div className="flex items-center justify-center rounded-[1.75rem] bg-white/70 p-6">
+          <div className="flex items-center justify-center rounded-[1.75rem] bg-card/70 p-6">
             {habitat.imagePath ? (
               <ZoomableImage
                 src={habitat.imagePath}
@@ -81,14 +81,14 @@ export default async function HabitatDetailPage({
           <div className="space-y-5">
             <div className="flex flex-wrap items-center gap-2">
               {habitat.number && (
-                <span className="mono rounded-full bg-white/80 px-3 py-1 text-xs font-bold text-muted-foreground">
+                <span className="mono rounded-full bg-card/80 px-3 py-1 text-xs font-bold text-muted-foreground">
                   No.{habitat.number}
                 </span>
               )}
               {!habitat.number && habitat.isEvent && (
-                <span className="rounded-full bg-white/80 px-3 py-1 text-xs font-bold text-muted-foreground">이벤트 서식지</span>
+                <span className="rounded-full bg-card/80 px-3 py-1 text-xs font-bold text-muted-foreground">이벤트 서식지</span>
               )}
-              <span className="rounded-full bg-white/80 px-3 py-1 text-xs font-semibold text-pk-brown-dark">
+              <span className="rounded-full bg-card/80 px-3 py-1 text-xs font-semibold text-pk-brown-dark">
                 포켓몬 {habitat.pokemonCount}
               </span>
             </div>
@@ -98,15 +98,15 @@ export default async function HabitatDetailPage({
             </div>
             <CollectionToggleButton category="habitats" itemId={habitat.id} />
             <div className="grid gap-3 sm:grid-cols-3">
-              <div className="rounded-2xl bg-white/75 px-4 py-3">
+              <div className="rounded-2xl bg-card/75 px-4 py-3">
                 <div className="mono text-lg font-bold text-foreground">{habitat.pokemonCount}</div>
                 <div className="mt-1 text-xs text-muted-foreground">연결 포켓몬</div>
               </div>
-              <div className="rounded-2xl bg-white/75 px-4 py-3">
+              <div className="rounded-2xl bg-card/75 px-4 py-3">
                 <div className="mono text-lg font-bold text-foreground">{habitat.primaryPokemonCount}</div>
                 <div className="mt-1 text-xs text-muted-foreground">주 서식지 포켓몬</div>
               </div>
-              <div className="rounded-2xl bg-white/75 px-4 py-3">
+              <div className="rounded-2xl bg-card/75 px-4 py-3">
                 <div className="mono text-lg font-bold text-foreground">{habitat.mapNames.length}</div>
                 <div className="mt-1 text-xs text-muted-foreground">연결 지역</div>
               </div>

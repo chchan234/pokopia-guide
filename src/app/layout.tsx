@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import Script from 'next/script';
 import { CollectionProvider } from '@/components/collection-provider';
+import { ThemeProvider } from '@/components/theme-provider';
 import Header from '@/components/header';
 import './globals.css';
 
@@ -22,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ko">
+    <html lang="ko" suppressHydrationWarning>
       <body className="font-sans antialiased">
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-5GE2PLN0JN" strategy="afterInteractive" />
         <Script id="gtag-init" strategy="afterInteractive">
@@ -31,19 +32,21 @@ export default function RootLayout({
           gtag('js', new Date());
           gtag('config', 'G-5GE2PLN0JN');`}
         </Script>
-        <CollectionProvider>
-          <div className="min-h-screen bg-[radial-gradient(circle_at_top,#fffdf8_0%,#fff9f0_48%,#f9f0e1_100%)]">
-            <Header />
-            <main className="max-w-6xl mx-auto px-5 py-6 md:px-6">{children}</main>
-            <footer className="border-t border-border mt-16 py-8 text-center text-xs text-muted-foreground">
-              <p>pokowiki · 팬 제작 비공식 데이터 정리</p>
-              <p className="mt-1">문의사항: coldcow11@gmail.com</p>
-              <p className="mt-1 opacity-70">
-                This is an unofficial fan site. Pokemon and Pokopia are trademarks of Nintendo / The Pokemon Company. This site is not affiliated with or endorsed by Nintendo / The Pokemon Company.
-              </p>
-            </footer>
-          </div>
-        </CollectionProvider>
+        <ThemeProvider>
+          <CollectionProvider>
+            <div className="min-h-screen" style={{ background: 'var(--pk-gradient)' }}>
+              <Header />
+              <main className="max-w-6xl mx-auto px-5 py-6 md:px-6">{children}</main>
+              <footer className="border-t border-border mt-16 py-8 text-center text-xs text-muted-foreground">
+                <p>pokowiki · 팬 제작 비공식 데이터 정리</p>
+                <p className="mt-1">문의사항: coldcow11@gmail.com</p>
+                <p className="mt-1 opacity-70">
+                  This is an unofficial fan site. Pokemon and Pokopia are trademarks of Nintendo / The Pokemon Company. This site is not affiliated with or endorsed by Nintendo / The Pokemon Company.
+                </p>
+              </footer>
+            </div>
+          </CollectionProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
