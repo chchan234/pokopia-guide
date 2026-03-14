@@ -17,10 +17,12 @@ interface CollectionContextValue {
   habitatOwnedSet: Set<string>;
   recordOwnedSet: Set<number>;
   fashionOwnedSet: Set<string>;
+  bestshotOwnedSet: Set<string>;
   togglePokemon: (slug: string) => void;
   toggleHabitat: (id: string) => void;
   toggleRecord: (id: number) => void;
   toggleFashion: (id: string) => void;
+  toggleBestshot: (id: string) => void;
 }
 
 const CollectionContext = createContext<CollectionContextValue | null>(null);
@@ -53,6 +55,7 @@ function parseStoredState(raw: string | null): CollectionState {
         : [],
       records: Array.isArray(parsed.records) ? parsed.records.filter((entry): entry is number => typeof entry === 'number') : [],
       fashion: Array.isArray(parsed.fashion) ? parsed.fashion.filter((entry): entry is string => typeof entry === 'string') : [],
+      bestshots: Array.isArray(parsed.bestshots) ? parsed.bestshots.filter((entry): entry is string => typeof entry === 'string') : [],
     };
   } catch {
     return defaultCollectionState;
@@ -166,6 +169,13 @@ export function CollectionProvider({ children }: { children: ReactNode }) {
     }));
   }, []);
 
+  const toggleBestshot = useCallback((id: string) => {
+    updateStoredState((current) => ({
+      ...current,
+      bestshots: toggleStringValue(current.bestshots, id),
+    }));
+  }, []);
+
   const value = useMemo<CollectionContextValue>(
     () => ({
       hydrated,
@@ -174,12 +184,14 @@ export function CollectionProvider({ children }: { children: ReactNode }) {
       habitatOwnedSet: new Set(state.habitats),
       recordOwnedSet: new Set(state.records),
       fashionOwnedSet: new Set(state.fashion),
+      bestshotOwnedSet: new Set(state.bestshots),
       togglePokemon,
       toggleHabitat,
       toggleRecord,
       toggleFashion,
+      toggleBestshot,
     }),
-    [hydrated, state, toggleFashion, toggleHabitat, togglePokemon, toggleRecord]
+    [hydrated, state, toggleBestshot, toggleFashion, toggleHabitat, togglePokemon, toggleRecord]
   );
 
   return <CollectionContext.Provider value={value}>{children}</CollectionContext.Provider>;

@@ -34,6 +34,12 @@ interface FashionCollectionEntry extends BaseCollectionEntry {
   id: string;
 }
 
+interface BestshotCollectionEntry extends BaseCollectionEntry {
+  id: string;
+  number: number;
+  reward: string;
+}
+
 interface CategoryMeta {
   key: CollectionTab;
   label: string;
@@ -46,6 +52,7 @@ interface CollectionPageClientProps {
   habitats: HabitatCollectionEntry[];
   records: RecordCollectionEntry[];
   fashion: FashionCollectionEntry[];
+  bestshots: BestshotCollectionEntry[];
 }
 
 const tabLabels: Record<CollectionTab, string> = {
@@ -53,17 +60,18 @@ const tabLabels: Record<CollectionTab, string> = {
   habitats: '서식지',
   records: '기록',
   fashion: '의상',
+  bestshots: '베스트샷',
 };
 
 function isCollectionTab(value: string | null): value is CollectionTab {
-  return value !== null && ['pokemon', 'habitats', 'records', 'fashion'].includes(value);
+  return value !== null && ['pokemon', 'habitats', 'records', 'fashion', 'bestshots'].includes(value);
 }
 
 function isOwnershipFilter(value: string | null): value is OwnershipFilter {
   return value !== null && ['all', 'owned', 'missing'].includes(value);
 }
 
-export default function CollectionPageClient({ pokemon, habitats, records, fashion }: CollectionPageClientProps) {
+export default function CollectionPageClient({ pokemon, habitats, records, fashion, bestshots }: CollectionPageClientProps) {
   const searchParams = useSearchParams();
   const querySearch = searchParams.get('q') ?? '';
   const queryTab = searchParams.get('tab');
@@ -71,7 +79,7 @@ export default function CollectionPageClient({ pokemon, habitats, records, fashi
   const [activeTab, setActiveTab] = useState<CollectionTab>(isCollectionTab(queryTab) ? queryTab : 'pokemon');
   const [ownershipFilter, setOwnershipFilter] = useState<OwnershipFilter>(isOwnershipFilter(queryOwned) ? queryOwned : 'all');
   const [search, setSearch] = useState(querySearch);
-  const { hydrated, pokemonOwnedSet, habitatOwnedSet, recordOwnedSet, fashionOwnedSet, togglePokemon, toggleHabitat, toggleRecord, toggleFashion } =
+  const { hydrated, pokemonOwnedSet, habitatOwnedSet, recordOwnedSet, fashionOwnedSet, bestshotOwnedSet, togglePokemon, toggleHabitat, toggleRecord, toggleFashion, toggleBestshot } =
     useCollection();
 
   useEffect(() => {
@@ -118,8 +126,9 @@ export default function CollectionPageClient({ pokemon, habitats, records, fashi
       },
       { key: 'records', label: tabLabels.records, total: records.length, owned: records.filter((entry) => recordOwnedSet.has(entry.id)).length },
       { key: 'fashion', label: tabLabels.fashion, total: fashion.length, owned: fashion.filter((entry) => fashionOwnedSet.has(entry.id)).length },
+      { key: 'bestshots', label: tabLabels.bestshots, total: bestshots.length, owned: bestshots.filter((entry) => bestshotOwnedSet.has(entry.id)).length },
     ],
-    [fashion, fashionOwnedSet, habitatOwnedSet, habitats, pokemon, pokemonOwnedSet, recordOwnedSet, records]
+    [bestshots, bestshotOwnedSet, fashion, fashionOwnedSet, habitatOwnedSet, habitats, pokemon, pokemonOwnedSet, recordOwnedSet, records]
   );
 
   const activeCategory = categories.find((entry) => entry.key === activeTab) ?? categories[0];
@@ -163,15 +172,30 @@ export default function CollectionPageClient({ pokemon, habitats, records, fashi
       });
     }
 
-    return fashion.filter((entry) => {
-      const owned = fashionOwnedSet.has(entry.id);
+    if (activeTab === 'fashion') {
+      return fashion.filter((entry) => {
+        const owned = fashionOwnedSet.has(entry.id);
+        return (
+          matchesOwnershipFilter(owned, ownershipFilter) &&
+          (query.length === 0 || entry.label.toLowerCase().includes(query) || entry.description.toLowerCase().includes(query))
+        );
+      });
+    }
+
+    return bestshots.filter((entry) => {
+      const owned = bestshotOwnedSet.has(entry.id);
       return (
         matchesOwnershipFilter(owned, ownershipFilter) &&
-        (query.length === 0 || entry.label.toLowerCase().includes(query) || entry.description.toLowerCase().includes(query))
+        (query.length === 0 ||
+          entry.label.toLowerCase().includes(query) ||
+          entry.description.toLowerCase().includes(query) ||
+          String(entry.number).includes(query))
       );
     });
   }, [
     activeTab,
+    bestshots,
+    bestshotOwnedSet,
     fashion,
     fashionOwnedSet,
     habitatOwnedSet,
@@ -197,7 +221,11 @@ export default function CollectionPageClient({ pokemon, habitats, records, fashi
       return recordOwnedSet.has(id as number);
     }
 
-    return fashionOwnedSet.has(id as string);
+    if (tab === 'fashion') {
+      return fashionOwnedSet.has(id as string);
+    }
+
+    return bestshotOwnedSet.has(id as string);
   }
 
   function toggleOwned(tab: CollectionTab, id: string | number) {
@@ -216,7 +244,12 @@ export default function CollectionPageClient({ pokemon, habitats, records, fashi
       return;
     }
 
-    toggleFashion(id as string);
+    if (tab === 'fashion') {
+      toggleFashion(id as string);
+      return;
+    }
+
+    toggleBestshot(id as string);
   }
 
   return (
@@ -224,12 +257,12 @@ export default function CollectionPageClient({ pokemon, habitats, records, fashi
       <div>
         <h1 className="text-2xl font-extrabold text-foreground">내 수집</h1>
         <p className="mt-1 text-sm text-muted-foreground">
-          포켓몬, 서식지, 기록, 의상을 브라우저에 저장하고 보유/미보유 상태로 나눠 볼 수 있습니다.
+          포켓몬, 서식지, 기록, 의상, 베스트샷을 브라우저에 저장하고 보유/미보유 상태로 나눠 볼 수 있습니다.
         </p>
         {!hydrated && <p className="mt-2 text-xs text-muted-foreground">브라우저 저장된 체크 상태를 불러오는 중입니다.</p>}
       </div>
 
-      <section className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+      <section className="grid gap-3 sm:grid-cols-2 xl:grid-cols-5">
         {categories.map((category) => {
           const missing = category.total - category.owned;
           const isActive = category.key === activeTab;
@@ -295,6 +328,8 @@ export default function CollectionPageClient({ pokemon, habitats, records, fashi
             const owned = isOwned(activeTab, item.id);
             const key = `${activeTab}-${String(item.id)}`;
             const pokemonNumber = activeTab === 'pokemon' ? (item as PokemonCollectionEntry).number : null;
+            const bestshotNumber = activeTab === 'bestshots' ? (item as BestshotCollectionEntry).number : null;
+            const bestshotReward = activeTab === 'bestshots' ? (item as BestshotCollectionEntry).reward : null;
 
             return (
               <article
@@ -308,6 +343,7 @@ export default function CollectionPageClient({ pokemon, habitats, records, fashi
                       <span className="mono text-[11px] text-muted-foreground">#{String(item.id).padStart(3, '0')}</span>
                     )}
                     {pokemonNumber && <span className="mono text-[11px] text-muted-foreground">#{pokemonNumber}</span>}
+                    {bestshotNumber && <span className="mono text-[11px] text-muted-foreground">#{String(bestshotNumber).padStart(2, '0')}</span>}
                     <span
                       className={`rounded-full px-2 py-0.5 text-[11px] font-semibold ${
                         owned ? 'bg-pk-green-light text-pk-green-dark' : 'bg-muted/50 text-muted-foreground'
@@ -326,6 +362,9 @@ export default function CollectionPageClient({ pokemon, habitats, records, fashi
                   )}
 
                   <p className="mt-1 text-sm text-muted-foreground">{item.description}</p>
+                  {bestshotReward && bestshotReward !== '없음' && (
+                    <p className="mt-1 text-xs font-medium text-pk-green-dark">{bestshotReward}</p>
+                  )}
                 </div>
 
                 <OwnedToggle owned={owned} onToggle={() => toggleOwned(activeTab, item.id)} />

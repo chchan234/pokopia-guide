@@ -384,6 +384,7 @@ export interface EmoteEntry {
 
 export interface BestshotEntry {
   id: string;
+  number: number;
   nameJp: string;
   nameKo: string | null;
   imagePath: string | null;

@@ -1,4 +1,4 @@
-export type CollectionCategoryKey = 'pokemon' | 'habitats' | 'records' | 'fashion';
+export type CollectionCategoryKey = 'pokemon' | 'habitats' | 'records' | 'fashion' | 'bestshots';
 
 export type OwnershipFilter = 'all' | 'owned' | 'missing';
 
@@ -7,6 +7,7 @@ export interface CollectionState {
   habitats: string[];
   records: number[];
   fashion: string[];
+  bestshots: string[];
 }
 
 export const collectionStorageKey = 'pokopia-guide:collection:v1';
@@ -16,6 +17,7 @@ export const defaultCollectionState: CollectionState = {
   habitats: [],
   records: [],
   fashion: [],
+  bestshots: [],
 };
 
 export function getFashionCollectionId(categoryKey: string, itemName: string) {

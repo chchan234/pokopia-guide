@@ -1,12 +1,12 @@
 import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import CollectionPageClient from '@/components/collection-page-client';
-import { fashionCategories, habitats, humanRecords, pokemon } from '@/lib/data';
+import { fashionCategories, habitats, humanRecords, itemsGuideData, pokemon } from '@/lib/data';
 import { getFashionCollectionId } from '@/lib/collection';
 
 export const metadata: Metadata = {
   title: '내 수집 | pokowiki',
-  description: '포켓몬, 서식지, 인간의 기록, 의상 보유 상태를 브라우저에 저장하고 보유/미보유로 나눠 보는 페이지입니다.',
+  description: '포켓몬, 서식지, 인간의 기록, 의상, 베스트샷 보유 상태를 브라우저에 저장하고 보유/미보유로 나눠 보는 페이지입니다.',
 };
 
 export default function CollectionPage() {
@@ -41,6 +41,13 @@ export default function CollectionPage() {
           href: `/records/${entry.id}`,
         }))}
         fashion={fashionItems}
+        bestshots={itemsGuideData.bestshots.map((entry) => ({
+          id: entry.id,
+          label: entry.nameKo || entry.nameJp,
+          number: entry.number,
+          description: entry.conditionKo,
+          reward: entry.rewardKo,
+        }))}
       />
     </Suspense>
   );
