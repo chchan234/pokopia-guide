@@ -1,15 +1,10 @@
 'use client';
 
 import { useTheme } from 'next-themes';
-import { useEffect, useState } from 'react';
 
 export default function ThemeToggle() {
   const { resolvedTheme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => setMounted(true), []);
-
-  if (!mounted) {
+  if (!resolvedTheme) {
     return (
       <button type="button" className="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-border bg-card text-foreground" aria-label="테마 전환">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">

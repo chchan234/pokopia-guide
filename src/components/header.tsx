@@ -19,11 +19,6 @@ export default function Header() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  // pathname 변경 시 모바일 메뉴 자동 닫기
-  useEffect(() => {
-    setMobileOpen(false);
-  }, [pathname]);
-
   // 모바일 메뉴 열릴 때 body 스크롤 차단
   useEffect(() => {
     if (mobileOpen) {
