@@ -3,7 +3,6 @@ import siteData from '@/data/site-data.json';
 import cookingDataJson from '@/data/cooking-data.json';
 import dreamDataJson from '@/data/dream-data.json';
 import itemsDataJson from '@/data/items-data.json';
-import { guideDocs } from '@/lib/guides';
 import type {
   CookingData,
   DreamData,
@@ -346,22 +345,5 @@ export const globalSearchEntries: GlobalSearchEntry[] = [
     href: `/items?tab=recipes&q=${encodeURIComponent(entry.nameKo || entry.nameJp)}`,
     imagePath: entry.imagePath,
     searchText: buildSearchText([entry.nameKo, entry.nameJp, entry.sourceKo, entry.sourceJp]),
-  })),
-  ...guideDocs.map((entry) => ({
-    id: `guide-${entry.slug}`,
-    categoryKey: 'guides',
-    categoryLabel: '공략',
-    title: entry.title,
-    subtitle: entry.shortDescription,
-    href: `/guides/${entry.slug}`,
-    imagePath: null,
-    searchText: buildSearchText([
-      entry.title,
-      entry.shortDescription,
-      entry.heroSummary,
-      ...entry.keyPoints,
-      ...entry.searchTerms,
-      ...entry.sections.flatMap((section) => [section.title, section.summary ?? '', ...section.bullets]),
-    ]),
   })),
 ];

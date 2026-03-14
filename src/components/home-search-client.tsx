@@ -10,7 +10,7 @@ interface HomeSearchClientProps {
   entries: GlobalSearchEntry[];
 }
 
-const categoryOrder = ['pokemon', 'habitats', 'records', 'fashion', 'dream', 'cooking', 'items', 'specialties', 'guides'];
+const categoryOrder = ['pokemon', 'habitats', 'records', 'fashion', 'dream', 'cooking', 'items', 'specialties'];
 const detailCategories = new Set(['pokemon', 'habitats', 'records']);
 
 function scoreEntry(entry: GlobalSearchEntry, query: string) {
@@ -64,7 +64,7 @@ export default function HomeSearchClient({ entries }: HomeSearchClientProps) {
     <section className="space-y-4 overflow-hidden rounded-[32px] border border-border bg-card p-5 md:p-6">
       <div className="space-y-2">
         <h1 className="text-2xl font-extrabold text-foreground">통합 검색</h1>
-        <p className="text-sm text-muted-foreground">포켓몬, 서식지, 기록, 의상, 꿈섬, 요리, 아이템, 공략을 한 번에 찾습니다.</p>
+        <p className="text-sm text-muted-foreground">포켓몬, 서식지, 기록, 의상, 꿈섬, 요리, 아이템을 한 번에 찾습니다.</p>
       </div>
 
       <div className="relative">
@@ -72,7 +72,7 @@ export default function HomeSearchClient({ entries }: HomeSearchClientProps) {
           type="text"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="포켓몬, 서식지, 기록, 의상, 아이템, 공략 검색"
+          placeholder="포켓몬, 서식지, 기록, 의상, 아이템 검색"
           className="h-12 w-full rounded-2xl border border-border bg-background px-4 pr-10 text-[16px] text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20"
         />
         {query && (
@@ -133,7 +133,7 @@ export default function HomeSearchClient({ entries }: HomeSearchClientProps) {
         )
       ) : (
         <div className="rounded-2xl bg-background px-4 py-4 text-sm text-muted-foreground">
-          검색어를 입력하면 관련 포켓몬, 서식지, 기록, 의상, 요리, 아이템, 공략 결과를 함께 보여줍니다.
+          검색어를 입력하면 관련 포켓몬, 서식지, 기록, 의상, 요리, 아이템 결과를 함께 보여줍니다.
         </div>
       )}
     </section>

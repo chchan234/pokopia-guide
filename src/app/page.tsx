@@ -1,9 +1,16 @@
 import Link from 'next/link';
 import HomeSearchClient from '@/components/home-search-client';
 import { globalSearchEntries } from '@/lib/data';
-import { homeQuickLinks } from '@/lib/navigation';
+import { navigationGroups } from '@/lib/navigation';
 
 export default function HomePage() {
+  const quickLinks = navigationGroups.flatMap((group) =>
+    group.children.map((item) => ({
+      ...item,
+      groupLabel: group.label,
+    })),
+  );
+
   return (
     <div className="space-y-8">
       <HomeSearchClient entries={globalSearchEntries} />
@@ -14,7 +21,7 @@ export default function HomePage() {
         </div>
 
         <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-          {homeQuickLinks.map((item) => (
+          {quickLinks.map((item) => (
             <Link
               key={item.href}
               href={item.href}
