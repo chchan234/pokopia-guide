@@ -1,6 +1,5 @@
 'use client';
 
-import Image from 'next/image';
 import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useSyncQueryParams } from '@/hooks/use-sync-query-params';
@@ -87,14 +86,10 @@ export default function CookingPageClient({ data }: CookingPageClientProps) {
     });
   }, [data.dishes, search, toolFilter]);
 
-  // 추천 요리에 이미지 매칭
-  const recommendedWithImage = useMemo(
-    () =>
-      data.recommended.map((rec) => {
-        const dish = data.dishes.find((d) => d.nameJp === rec.nameJp);
-        return { ...rec, imagePath: dish?.imagePath ?? null, tasteKo: dish?.tasteKo ?? null };
-      }),
-    [data.recommended, data.dishes]
+  // 도우미 특기가 필요한 요리 목록
+  const helperDishes = useMemo(
+    () => data.dishes.filter((dish) => dish.helperSpecialtyJp),
+    [data.dishes]
   );
 
   return (
@@ -150,30 +145,6 @@ export default function CookingPageClient({ data }: CookingPageClientProps) {
         </div>
       </section>
 
-      {/* 추천 요리 */}
-      {recommendedWithImage.length > 0 && (
-        <section className="grid gap-3 sm:grid-cols-2">
-          {recommendedWithImage.map((rec) => (
-            <article key={rec.nameJp} className="flex items-center gap-4 rounded-3xl border border-border bg-card p-5">
-              {rec.imagePath && (
-                <Image src={rec.imagePath} alt={rec.nameKo || rec.nameJp} width={72} height={72} className="h-[72px] w-[72px] flex-shrink-0 rounded-2xl border border-border bg-background object-contain p-1.5" />
-              )}
-              <div className="min-w-0 flex-1">
-                <div className="flex flex-wrap items-center gap-2">
-                  <h3 className="font-bold text-foreground">{rec.nameKo}</h3>
-                  {rec.tasteKo && (
-                    <span className={`rounded-full px-2 py-0.5 text-[11px] font-semibold ${tasteColors[rec.tasteKo] ?? ''}`}>
-                      {rec.tasteKo}
-                    </span>
-                  )}
-                </div>
-                <p className="mt-1 text-sm text-muted-foreground">{rec.reasonKo}</p>
-              </div>
-            </article>
-          ))}
-        </section>
-      )}
-
       {/* 도구별 구조 + 종류별 강화 */}
       <section className="grid gap-3 xl:grid-cols-2">
         <div className="rounded-3xl border border-border bg-card p-5">
@@ -214,12 +185,12 @@ export default function CookingPageClient({ data }: CookingPageClientProps) {
               <tbody>
                 {data.categoryEffects.map((entry) => (
                   <tr key={entry.categoryJp} className="border-b border-border last:border-0">
-                    <td className="px-3 py-3">
+                    <td className="whitespace-nowrap px-3 py-3">
                       <span className="rounded-full bg-pk-green-light px-2.5 py-1 text-xs font-semibold text-pk-green-dark">
                         {displayName(entry.categoryKo, entry.categoryJp)}
                       </span>
                     </td>
-                    <td className="px-3 py-3 font-medium text-foreground">{displayName(entry.skillKo, entry.skillJp)}</td>
+                    <td className="whitespace-nowrap px-3 py-3 font-medium text-foreground">{displayName(entry.skillKo, entry.skillJp)}</td>
                     <td className="px-3 py-3 text-muted-foreground">{entry.effectKo}</td>
                   </tr>
                 ))}
@@ -228,6 +199,42 @@ export default function CookingPageClient({ data }: CookingPageClientProps) {
           </div>
         </div>
       </section>
+
+      {/* 도우미 요리 시스템 */}
+      {helperDishes.length > 0 && (
+        <section className="rounded-3xl border border-border bg-card p-5">
+          <h2 className="text-lg font-bold text-foreground">도우미 요리</h2>
+          <p className="mt-2 text-sm text-muted-foreground">
+            근처에 특정 특기를 가진 포켓몬이 있으면 요리를 도와 특별한 레시피가 완성된다.
+          </p>
+          <div className="mt-4 overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="border-b border-border text-left">
+                  <th className="px-3 py-2.5 font-semibold text-foreground">필요 특기</th>
+                  <th className="px-3 py-2.5 font-semibold text-foreground">완성 요리</th>
+                  <th className="px-3 py-2.5 font-semibold text-foreground">도구</th>
+                  <th className="hidden px-3 py-2.5 font-semibold text-foreground sm:table-cell">재료</th>
+                </tr>
+              </thead>
+              <tbody>
+                {helperDishes.map((dish) => (
+                  <tr key={dish.id} className="border-b border-border last:border-0">
+                    <td className="whitespace-nowrap px-3 py-3">
+                      <span className="rounded-full bg-purple-100 px-2.5 py-1 text-xs font-semibold text-purple-700">
+                        {displayName(dish.helperSpecialtyKo, dish.helperSpecialtyJp!)}
+                      </span>
+                    </td>
+                    <td className="whitespace-nowrap px-3 py-3 font-medium text-foreground">{displayName(dish.nameKo, dish.nameJp)}</td>
+                    <td className="whitespace-nowrap px-3 py-3 text-muted-foreground">{displayName(dish.toolKo, dish.toolJp)}</td>
+                    <td className="hidden px-3 py-3 text-muted-foreground sm:table-cell">{dish.materialsKo.join(' + ')}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
 
       {/* 요리 목록 */}
       <section className="rounded-3xl border border-border bg-card p-5">
