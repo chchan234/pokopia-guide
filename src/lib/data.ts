@@ -21,7 +21,6 @@ const data = siteData as SiteData;
 const dreamData = dreamDataJson as DreamData;
 const cookingData = cookingDataJson as CookingData;
 const itemsData = itemsDataJson as ItemsData;
-const pokemonFavoriteTagsBySlug = (itemsData as unknown as Record<string, unknown>).pokemonFavoriteTagsBySlug as Record<string, Array<{ nameKo: string; nameJp: string }>> | undefined;
 
 export const stats = data.stats;
 export const maps = data.maps as MapSummary[];
@@ -169,8 +168,6 @@ export const globalSearchEntries: GlobalSearchEntry[] = [
       entry.primaryHabitat,
       entry.favoriteEnvironment,
       ...entry.favoriteItems,
-      ...(pokemonFavoriteTagsBySlug?.[entry.slug]?.map((tag) => tag.nameKo) ?? []),
-      ...(pokemonFavoriteTagsBySlug?.[entry.slug]?.map((tag) => tag.nameJp) ?? []),
       ...entry.specialties.map((specialty) => specialty.nameKo),
       ...entry.specialties.map((specialty) => specialty.nameJp),
     ]),
@@ -323,8 +320,6 @@ export const globalSearchEntries: GlobalSearchEntry[] = [
       entry.categoryJp,
       entry.useKo,
       entry.useJp,
-      ...((entry as unknown as Record<string, unknown>).favoriteTagsKo as string[] ?? []),
-      ...((entry as unknown as Record<string, unknown>).favoriteTagsJp as string[] ?? []),
       ...entry.usageTargetsKo,
       ...entry.usageTargetsJp,
     ]),

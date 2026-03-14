@@ -161,6 +161,14 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
         return true;
       }
 
+      if (
+        plan.houses.some((house) =>
+          [...house.exactFour, ...house.exactThree].some((entry) => entry.toLowerCase().includes(query))
+        )
+      ) {
+        return true;
+      }
+
       return plan.leftovers.some((entry) => entry.pokemon.name.toLowerCase().includes(query) || entry.pokemon.number.includes(query));
     });
   }, [plans, search]);
@@ -205,6 +213,7 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
             value={search}
             onChange={(event) => setSearch(event.target.value)}
             placeholder="환경명, 포켓몬 이름, 번호로 검색"
+            aria-label="집 추천 검색"
             className="h-11 w-full rounded-2xl border border-border bg-background px-4 text-[16px] text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20 lg:max-w-md"
           />
           <p className="text-xs text-muted-foreground">
@@ -220,8 +229,8 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
           <li>1. 같은 집 4마리는 좋아하는 환경이 반드시 같습니다.</li>
           <li>2. 체크한 포켓몬은 한 번만 배치됩니다.</li>
           <li>3. 환경별로 집 수를 먼저 최대화합니다.</li>
-          <li>4. 동수일 때 4마리 공통 좋아하는 것, 3마리 공통 좋아하는 것이 많은 조합을 우선합니다.</li>
-          <li>5. 환경별 최대 {MAX_EXACT_ENV_SIZE}마리까지 정확 계산하며, 그 이상 또는 시간 초과 시 근사 계산으로 전환됩니다.</li>
+          <li>4. 동수일 때 4마리 공통 좋아하는 것이 많은 조합을 우선합니다.</li>
+          <li>5. 환경별 최대 {MAX_EXACT_ENV_SIZE}마리까지 정확 계산하며, 그 이상 시 근사 계산(그리디 + 로컬 서치)으로 전환됩니다.</li>
         </ul>
       </section>
 

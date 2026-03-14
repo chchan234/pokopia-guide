@@ -20,7 +20,6 @@ export default function HousePlannerPage() {
           sourceNationalDexNo: entry.sourceNationalDexNo,
           favoriteEnvironment: entry.favoriteEnvironment,
           favoriteItems: entry.favoriteItems,
-          favoriteTags: entry.favoriteItems,
           primaryMap: entry.primaryMap,
         }))}
       />
