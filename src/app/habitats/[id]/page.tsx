@@ -6,6 +6,7 @@ import { areaThemes } from '@/lib/constants';
 import CollectionToggleButton from '@/components/collection-toggle-button';
 import TypeBadge from '@/components/type-badge';
 import ZoomableImage from '@/components/zoomable-image';
+import MaterialTag from '@/components/material-tag';
 import type { Metadata } from 'next';
 import { withFromParam } from '@/lib/url-state';
 
@@ -123,9 +124,7 @@ export default async function HabitatDetailPage({
           </div>
           <div className="mt-4 flex flex-wrap gap-2">
             {habitat.requirementsKo.map((requirement) => (
-              <span key={`${habitat.id}-${requirement}`} className="rounded-full bg-pk-brown-light px-3 py-1 text-xs font-semibold text-pk-brown-dark">
-                {requirement}
-              </span>
+              <MaterialTag key={`${habitat.id}-${requirement}`} material={requirement} />
             ))}
           </div>
         </section>

@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useSyncQueryParams } from '@/hooks/use-sync-query-params';
 import ZoomableImage from '@/components/zoomable-image';
+import MaterialTag from '@/components/material-tag';
 import type { AllItemEntry, AncientItemGroup, BuildingEntry, ItemsData } from '@/types/pokemon';
 
 interface ItemsPageClientProps {
@@ -292,7 +293,7 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                       <p className="font-semibold text-foreground">제작 재료</p>
                       <div className="mt-1 flex flex-wrap gap-1.5">
                         {entry.craftMaterialsKo.map((mat, i) => (
-                          <span key={`${entry.id}-craft-${i}`} className="rounded-full border border-border bg-card px-2.5 py-1 text-xs text-foreground">{mat}</span>
+                          <MaterialTag key={`${entry.id}-craft-${i}`} material={mat} />
                         ))}
                       </div>
                     </div>
@@ -319,7 +320,7 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                     <p className="font-semibold text-foreground">제작 재료</p>
                     <div className="mt-1 flex flex-wrap gap-1.5">
                       {entry.craftMaterialsKo.map((mat, i) => (
-                        <span key={`${entry.id}-craft-${i}`} className="rounded-full border border-border bg-card px-2.5 py-1 text-xs text-foreground">{mat}</span>
+                        <MaterialTag key={`${entry.id}-craft-${i}`} material={mat} />
                       ))}
                     </div>
                   </div>
@@ -351,7 +352,7 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                       <dt className="font-semibold text-foreground">필요 재료</dt>
                       <dd className="mt-1 flex flex-wrap gap-1.5">
                         {entry.requiredMaterialsKo.map((mat, i) => (
-                          <span key={`${entry.id}-mat-${i}`} className="rounded-full border border-border bg-card px-2.5 py-1 text-xs text-foreground">{mat}</span>
+                          <MaterialTag key={`${entry.id}-mat-${i}`} material={mat} />
                         ))}
                       </dd>
                     </div>

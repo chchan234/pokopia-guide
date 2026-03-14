@@ -6,6 +6,7 @@ import { getPokemonBySlug, pokemon } from '@/lib/data';
 import CollectionToggleButton from '@/components/collection-toggle-button';
 import TypeBadge from '@/components/type-badge';
 import ZoomableImage from '@/components/zoomable-image';
+import MaterialTag from '@/components/material-tag';
 import type { Metadata } from 'next';
 import { withFromParam } from '@/lib/url-state';
 
@@ -252,9 +253,7 @@ export default async function PokemonDetailPage({
                       <p className="text-[11px] font-semibold text-pk-brown-dark">필요 재료</p>
                       <div className="mt-2 flex flex-wrap gap-2">
                         {habitat.requirementsKo.map((requirement) => (
-                          <span key={requirement} className="rounded-full bg-card px-2.5 py-1 text-[11px] text-foreground">
-                            {requirement}
-                          </span>
+                          <MaterialTag key={requirement} material={requirement} />
                         ))}
                       </div>
                     </div>

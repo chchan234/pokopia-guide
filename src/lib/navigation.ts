@@ -26,7 +26,7 @@ export const navigationGroups: NavigationGroup[] = [
   },
   {
     key: 'craft',
-    label: '제작',
+    label: '아이템',
     href: '/items',
     description: '아이템 · 요리',
     children: [
