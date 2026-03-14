@@ -23,7 +23,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
+      <head>
+        <meta name="google-adsense-account" content="ca-pub-4481144756114483" />
+      </head>
       <body className="font-sans antialiased">
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4481144756114483"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         <Script src="https://www.googletagmanager.com/gtag/js?id=G-5GE2PLN0JN" strategy="afterInteractive" />
         <Script id="gtag-init" strategy="afterInteractive">
           {`window.dataLayer = window.dataLayer || [];
