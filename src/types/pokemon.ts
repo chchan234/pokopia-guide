@@ -429,6 +429,20 @@ export interface ItemsData {
   ancientItemGroups: AncientItemGroup[];
 }
 
+export interface MaterialUsageEntry {
+  category: 'cooking' | 'habitat' | 'building';
+  categoryLabel: string;
+  name: string;
+  detail: string;
+  href: string | null;
+  imagePath: string | null;
+}
+
+export interface MaterialUsage {
+  material: string;
+  usages: MaterialUsageEntry[];
+}
+
 export interface GlobalSearchEntry {
   id: string;
   categoryKey: string;

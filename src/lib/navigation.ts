@@ -32,6 +32,7 @@ export const navigationGroups: NavigationGroup[] = [
     children: [
       { href: '/items', label: '아이템', description: '재료와 제작 관련 데이터' },
       { href: '/cooking', label: '요리', description: '요리와 공물 효과' },
+      { href: '/materials', label: '재료 검색', description: '재료로 사용처 역검색' },
     ],
   },
   {
