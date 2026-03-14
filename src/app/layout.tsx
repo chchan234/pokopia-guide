@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: 'pokowiki',
   description:
     '포켓몬 포코피아 도감, 서식지, 인간의 기록, 의상·헤어, 꿈섬, 요리, 아이템을 정리한 한국어 위키.',
+  viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
 };
 
 export default function RootLayout({
