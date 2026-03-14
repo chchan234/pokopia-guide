@@ -73,8 +73,8 @@ export default function HabitatsPageClient({ habitats }: HabitatsPageClientProps
 
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
         {filteredHabitats.map((habitat) => (
-          <section key={habitat.id} id={habitat.id} className="scroll-mt-20 overflow-hidden rounded-3xl border border-border bg-card">
-            <div className="flex gap-4 p-5">
+          <section key={habitat.id} id={habitat.id} className="flex scroll-mt-20 flex-col overflow-hidden rounded-3xl border border-border bg-card">
+            <div className="flex flex-1 gap-4 p-5">
               <div className="flex h-[96px] w-[96px] flex-shrink-0 items-center justify-center rounded-2xl bg-pk-green-light/40">
                 {habitat.imagePath ? (
                   <ZoomableImage
@@ -107,20 +107,20 @@ export default function HabitatsPageClient({ habitats }: HabitatsPageClientProps
                 <p className="mt-1 text-sm text-muted-foreground sm:text-xs">주 서식지 포켓몬 {habitat.primaryPokemonCount}마리</p>
                 <PreserveSearchLink
                   href={`/habitats/${habitat.id}`}
-                  className="mt-2 inline-flex rounded-full border border-border bg-white px-3 py-1 text-sm font-semibold text-foreground hover:border-pk-green hover:text-pk-green-dark sm:text-[11px]"
+                  className="mt-2 inline-flex rounded-full border border-border bg-card px-3 py-1 text-sm font-semibold text-foreground hover:border-pk-green hover:text-pk-green-dark sm:text-[11px]"
                 >
                   자세히 보기
                 </PreserveSearchLink>
               </div>
             </div>
-            <div className="border-t border-border bg-[#fffdf8] px-5 py-4">
+            <div className="border-t border-border bg-secondary px-5 py-4">
               <p className="text-xs font-semibold text-muted-foreground sm:text-[11px]">연결 포켓몬</p>
               <div className="mt-2 flex flex-wrap gap-2">
                 {habitat.pokemonEntries.slice(0, 8).map((entry) => (
                   <PreserveSearchLink
                     key={`${habitat.id}-${entry.slug}`}
                     href={`/pokemon/${entry.slug}`}
-                    className="rounded-full border border-border bg-white px-3 py-1 text-xs font-medium text-foreground hover:border-pk-green hover:text-pk-green-dark sm:text-[11px]"
+                    className="rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-foreground hover:border-pk-green hover:text-pk-green-dark sm:text-[11px]"
                   >
                     #{entry.number} {entry.name}
                   </PreserveSearchLink>

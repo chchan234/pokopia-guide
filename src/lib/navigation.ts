@@ -19,19 +19,20 @@ export const navigationGroups: NavigationGroup[] = [
     href: '/pokemon',
     description: '도감 · 서식지 · 특기',
     children: [
-      { href: '/pokemon', label: '도감', description: '포켓몬 목록과 필터' },
+      { href: '/pokemon', label: '포켓몬', description: '포켓몬 목록과 필터' },
       { href: '/habitats', label: '서식지', description: '출현 서식지와 재료' },
       { href: '/specialties', label: '특기', description: '특기별 포켓몬 묶음' },
     ],
   },
   {
     key: 'craft',
-    label: '제작',
+    label: '아이템',
     href: '/items',
     description: '아이템 · 요리',
     children: [
       { href: '/items', label: '아이템', description: '재료와 제작 관련 데이터' },
       { href: '/cooking', label: '요리', description: '요리와 공물 효과' },
+      { href: '/materials', label: '재료 검색', description: '재료로 사용처 역검색' },
     ],
   },
   {
@@ -78,4 +79,3 @@ export const homeNavigationSections: Array<{
     groupKeys: ['my-data'],
   },
 ];
-

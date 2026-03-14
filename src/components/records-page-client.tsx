@@ -129,7 +129,7 @@ export default function RecordsPageClient({ records }: RecordsPageClientProps) {
                   <p className="mt-1 text-xs text-muted-foreground">추천 동선: {mapRoutes[map]}</p>
                   {mapNotes[map] && <p className="mt-2 text-xs text-pk-brown-dark">주의: {mapNotes[map]}</p>}
                 </div>
-                <span className="mono rounded-full bg-white px-3 py-1 text-sm font-bold text-pk-green-dark">{groupedRecords.length}</span>
+                <span className="mono rounded-full bg-card px-3 py-1 text-sm font-bold text-pk-green-dark">{groupedRecords.length}</span>
               </div>
             </div>
             <div className="divide-y divide-border">
@@ -161,7 +161,7 @@ export default function RecordsPageClient({ records }: RecordsPageClientProps) {
                   {record.fashionRewards.length > 0 && (
                     <div className="mt-3 flex flex-wrap gap-1.5">
                       {record.fashionRewards.map((reward) => (
-                        <span key={`${record.id}-${reward.category}-${reward.name}`} className="rounded-full border border-border bg-white px-2.5 py-1 text-[11px] text-foreground">
+                        <span key={`${record.id}-${reward.category}-${reward.name}`} className="rounded-full border border-border bg-card px-2.5 py-1 text-[11px] text-foreground">
                           {reward.category}: {reward.name}
                         </span>
                       ))}

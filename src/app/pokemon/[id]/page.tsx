@@ -2,10 +2,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { areaThemes, habitatRarityTheme } from '@/lib/constants';
-import { getPokemonBySlug, pokemon } from '@/lib/data';
+import { getItemImage, getPokemonBySlug, pokemon } from '@/lib/data';
 import CollectionToggleButton from '@/components/collection-toggle-button';
 import TypeBadge from '@/components/type-badge';
 import ZoomableImage from '@/components/zoomable-image';
+import MaterialTag from '@/components/material-tag';
 import type { Metadata } from 'next';
 import { withFromParam } from '@/lib/url-state';
 
@@ -71,9 +72,9 @@ export default async function PokemonDetailPage({
         </div>
       </div>
 
-      <section className="overflow-hidden rounded-[2rem] border border-border" style={{ backgroundColor: theme?.bg ?? '#fff' }}>
+      <section className="overflow-hidden rounded-[2rem] border border-border" style={{ backgroundColor: theme?.bg ?? 'var(--card)' }}>
         <div className="grid gap-6 p-8 md:grid-cols-[220px_minmax(0,1fr)] md:p-10">
-          <div className="flex items-center justify-center rounded-[1.75rem] bg-white/70 p-6">
+          <div className="flex items-center justify-center rounded-[1.75rem] bg-card/70 p-6">
             {entry.imagePath ? (
               <Image src={entry.imagePath} alt={entry.name} width={180} height={180} className="object-contain" priority />
             ) : (
@@ -85,8 +86,8 @@ export default async function PokemonDetailPage({
 
           <div className="space-y-5">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="mono rounded-full bg-white/80 px-3 py-1 text-xs font-bold text-muted-foreground">#{entry.number}</span>
-              <span className="rounded-full bg-white/80 px-3 py-1 text-xs font-semibold text-pk-brown-dark">{entry.primaryMap}</span>
+              <span className="mono rounded-full bg-card/80 px-3 py-1 text-xs font-bold text-muted-foreground">#{entry.number}</span>
+              <span className="rounded-full bg-card/80 px-3 py-1 text-xs font-semibold text-pk-brown-dark">{entry.primaryMap}</span>
               {entry.isEvent && <span className="rounded-full bg-pk-pink/15 px-3 py-1 text-xs font-bold text-pk-brown-dark">이벤트</span>}
               {entry.isEditorialVariant && (
                 <span className="rounded-full bg-pk-gold/15 px-3 py-1 text-xs font-bold text-pk-brown-dark">편집 변형명</span>
@@ -177,7 +178,7 @@ export default async function PokemonDetailPage({
                   <p className="text-xs font-semibold text-muted-foreground">형태 {index + 1}</p>
                   <div className="mt-2 flex flex-wrap gap-2">
                     {variantItems.map((item) => (
-                      <span key={`${entry.slug}-${index}-${item}`} className="rounded-full bg-white px-3 py-1 text-xs font-semibold text-foreground">
+                      <span key={`${entry.slug}-${index}-${item}`} className="rounded-full bg-card px-3 py-1 text-xs font-semibold text-foreground">
                         {item}
                       </span>
                     ))}
@@ -204,14 +205,13 @@ export default async function PokemonDetailPage({
       <section className="space-y-4">
         <div>
           <h2 className="text-lg font-bold text-foreground">출현 서식지</h2>
-          <p className="text-xs text-muted-foreground">희귀도, 시간대, 날씨는 원본 일본어 공략 자료를 기준으로 번역했습니다.</p>
         </div>
         {entry.habitats.length > 0 ? (
           <div className="grid gap-4 md:grid-cols-2">
             {entry.habitats.map((habitat) => {
               const rarityTheme = habitatRarityTheme[habitat.rarityLabel] ?? { color: '#8B6B4A', bg: '#F3EFE8' };
-              return (
-                <article key={`${entry.id}-${habitat.name}`} className="overflow-hidden rounded-3xl border border-border bg-card">
+              const habitatContent = (
+                <>
                   <div className="flex gap-4 p-5">
                     <div className="flex h-[92px] w-[92px] flex-shrink-0 items-center justify-center rounded-2xl bg-muted/40">
                       {habitat.imagePath ? (
@@ -252,13 +252,21 @@ export default async function PokemonDetailPage({
                       <p className="text-[11px] font-semibold text-pk-brown-dark">필요 재료</p>
                       <div className="mt-2 flex flex-wrap gap-2">
                         {habitat.requirementsKo.map((requirement) => (
-                          <span key={requirement} className="rounded-full bg-white px-2.5 py-1 text-[11px] text-foreground">
-                            {requirement}
-                          </span>
+                          <MaterialTag key={requirement} material={requirement} imageSrc={getItemImage(requirement)} />
                         ))}
                       </div>
                     </div>
                   )}
+                </>
+              );
+
+              return habitat.id ? (
+                <Link key={`${entry.id}-${habitat.name}`} href={`/habitats/${habitat.id}`} className="overflow-hidden rounded-3xl border border-border bg-card transition-colors hover:border-pk-green">
+                  {habitatContent}
+                </Link>
+              ) : (
+                <article key={`${entry.id}-${habitat.name}`} className="overflow-hidden rounded-3xl border border-border bg-card">
+                  {habitatContent}
                 </article>
               );
             })}

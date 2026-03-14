@@ -48,10 +48,12 @@ export default function CookingPageClient({ data }: CookingPageClientProps) {
   const [search, setSearch] = useState(querySearch);
   const [toolFilter, setToolFilter] = useState(queryTool);
 
+  /* eslint-disable react-hooks/set-state-in-effect */
   useEffect(() => {
     setSearch(querySearch);
     setToolFilter(queryTool);
   }, [querySearch, queryTool]);
+  /* eslint-enable react-hooks/set-state-in-effect */
 
   const syncedParams = useMemo(
     () => ({

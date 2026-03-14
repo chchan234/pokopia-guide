@@ -78,7 +78,7 @@ export default function PokemonFilter({
   const [favoriteMatchMode, setFavoriteMatchMode] = useState<FavoriteMatchMode>(queryFavoriteMatchMode);
   const [includeUnknownFavorites, setIncludeUnknownFavorites] = useState(queryIncludeUnknownFavorites);
 
-  // URL 쿼리 파라미터가 바뀔 때 로컬 상태를 한번에 동기화
+  /* eslint-disable react-hooks/set-state-in-effect */
   useEffect(() => {
     setSearch(querySearch);
     setSelectedType(queryType);
@@ -100,6 +100,7 @@ export default function PokemonFilter({
     queryFavoriteMatchMode,
     queryIncludeUnknownFavorites,
   ]);
+  /* eslint-enable react-hooks/set-state-in-effect */
 
   const syncedParams = useMemo(
     () => ({

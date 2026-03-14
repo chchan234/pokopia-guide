@@ -18,11 +18,6 @@ export default function Header() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  // pathname 변경 시 모바일 메뉴 자동 닫기
-  useEffect(() => {
-    setMobileOpen(false);
-  }, [pathname]);
-
   // 모바일 메뉴 열릴 때 body 스크롤 차단
   useEffect(() => {
     if (mobileOpen) {
@@ -36,7 +31,7 @@ export default function Header() {
   }, [mobileOpen]);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-pk-cream/90 backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur-md">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-4 px-5 md:px-6">
         <Link href="/" className="flex items-center gap-2" onClick={() => setMobileOpen(false)}>
           <Image src="/logo.svg" alt="" aria-hidden width={22} height={22} className="h-[22px] w-[22px]" />
@@ -66,7 +61,7 @@ export default function Header() {
                   </svg>
                 </Link>
 
-                <div className="invisible absolute right-0 top-full z-50 mt-2 w-56 rounded-2xl border border-border bg-card p-2 opacity-0 shadow-[0_18px_48px_-20px_rgba(61,50,38,0.4)] transition-all group-hover:visible group-hover:opacity-100">
+                <div className="invisible absolute right-0 top-full z-50 mt-2 w-56 rounded-2xl border border-border bg-card p-2 opacity-0 shadow-lg transition-all group-hover:visible group-hover:opacity-100">
                   <div className="space-y-1">
                     {group.children.map((item) => {
                       const isChildActive = pathname === item.href || pathname.startsWith(`${item.href}/`);
@@ -90,14 +85,15 @@ export default function Header() {
           })}
         </nav>
 
-        <button
-          type="button"
-          aria-label={mobileOpen ? '메뉴 닫기' : '메뉴 열기'}
-          aria-controls="mobile-nav"
-          aria-expanded={mobileOpen}
-          onClick={() => setMobileOpen((current) => !current)}
-          className="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-border bg-card text-pk-brown-dark md:hidden"
-        >
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            aria-label={mobileOpen ? '메뉴 닫기' : '메뉴 열기'}
+            aria-controls="mobile-nav"
+            aria-expanded={mobileOpen}
+            onClick={() => setMobileOpen((current) => !current)}
+            className="inline-flex h-9 w-9 items-center justify-center rounded-xl border border-border bg-card text-foreground md:hidden"
+          >
           <span className="sr-only">{mobileOpen ? '메뉴 닫기' : '메뉴 열기'}</span>
           {mobileOpen ? (
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
@@ -108,7 +104,8 @@ export default function Header() {
               <path d="M4 7H20M4 12H20M4 17H20" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
             </svg>
           )}
-        </button>
+          </button>
+        </div>
       </div>
 
       {mobileOpen && (

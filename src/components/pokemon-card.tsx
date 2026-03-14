@@ -68,7 +68,7 @@ export default function PokemonCard({ pokemon: entry }: { pokemon: Pokemon }) {
         )}
 
         <div className="space-y-1.5 border-t border-border pt-3">
-          <p className="text-[11px] font-semibold" style={{ color: areaTheme?.color ?? '#8B6B4A' }}>
+          <p className="text-[11px] font-semibold" style={{ color: areaTheme?.color ?? 'var(--pk-brown)' }}>
             {entry.primaryMap}
           </p>
           <p className="truncate text-[11px] text-muted-foreground">

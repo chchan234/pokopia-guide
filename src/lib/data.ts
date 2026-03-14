@@ -45,6 +45,85 @@ export function getRecordById(id: number): HumanRecord | undefined {
   return humanRecords.find((entry) => entry.id === id);
 }
 
+// 아이템 한국어 이름 → imagePath 룩업 (서식지 재료 등에서 사용)
+const _itemImageMap = new Map<string, string>();
+for (const item of itemsData.allItems) {
+  if (item.imagePath) {
+    if (item.nameKo) _itemImageMap.set(item.nameKo, item.imagePath);
+    _itemImageMap.set(item.nameJp, item.imagePath);
+  }
+}
+
+// allItems에 없는 서식지 재료 이미지 보충
+const _GW = 'https://img.gamewith.jp/article_tools/pocoapokemon/gacha';
+const _supplementaryImages: Record<string, string> = {
+  '가로등': `${_GW}/item_36.png`,
+  '개구리밥': `${_GW}/item_125.png`,
+  '꽃무늬 배낭': `${_GW}/item_636.png`,
+  '꽃무늬 식기 세트': `${_GW}/item_629.png`,
+  '꽃무늬 쿠션': `${_GW}/item_631.png`,
+  '노란 풀': `${_GW}/item_110.png`,
+  '도시락': `${_GW}/item_634.png`,
+  '들판의 꽃': `${_GW}/item_15.png`,
+  '바위 지대의 꽃': `${_GW}/item_123.png`,
+  '분홍 풀': `${_GW}/item_403.png`,
+  '빨간 풀': `${_GW}/item_121.png`,
+  '세모난 나무': `${_GW}/item_122.png`,
+  '이끼': `${_GW}/item_126.png`,
+  '이끼 바위': `${_GW}/item_127.png`,
+  '저주받은 갑옷': `${_GW}/item_300.png`,
+  '초록 풀': `${_GW}/item_6.png`,
+  '축복받은 갑옷': `${_GW}/item_299.png`,
+  '큰 야자나무': `${_GW}/item_112.png`,
+  '큰돌': `${_GW}/item_97.png`,
+  '통통코 물통': `${_GW}/item_633.png`,
+  '평온한 꽃': `${_GW}/item_628.png`,
+  '프라이팬': `${_GW}/item_156.png`,
+  '해변의 꽃': `${_GW}/item_111.png`,
+  '화장대': `${_GW}/item_495.png`,
+  '부유섬의 꽃': `${_GW}/item_396.png`,
+  // 제네릭 카테고리 — 대표 아이템 이미지 사용
+  '풀': `${_GW}/item_6.png`,
+  '수풀': `${_GW}/item_6.png`,
+  '큰나무': `${_GW}/item_112.png`,
+  '조명': `${_GW}/item_36.png`,
+  '장난감': `${_GW}/item_19.png`,
+  '칸막이': `${_GW}/item_84.png`,
+  '파티션': `${_GW}/item_84.png`,
+  '화분나무': `${_GW}/item_112.png`,
+  '채소밭': `${_GW}/item_15.png`,
+  '그루터기': `${_GW}/item_97.png`,
+  '나무열매 나무': `${_GW}/item_15.png`,
+  // (아무거나)/(긴 것)/(큰 것) 제네릭 카테고리 — 실제 해당 형태 아이템 이미지 사용
+  '의자': `${_GW}/item_101.png`,     // 건초 걸상 (아무거나)
+  '의자(긴 것)': `${_GW}/item_432.png`, // 내추럴 소파
+  '침대': `${_GW}/item_11.png`,      // 건초 침대
+  '테이블': `${_GW}/item_49.png`,    // 건초테이블
+  '테이블(큰 것)': `${_GW}/item_8.png`, // 통나무 테이블
+  '인형': `${_GW}/item_54.png`,      // 이브이 인형
+  '옷장': `${_GW}/item_472.png`,     // 앤티크 옷장
+  '받침대': `${_GW}/item_139.png`,   // 스테이지 받침대
+  '거울(큰 것)': `${_GW}/item_26.png`, // 큰 거울
+  '나무 길': `${_GW}/item_64.png`,
+  '접시에 올린 음식': `${_GW}/item_325.png`, // 접시
+  '간판': `${_GW}/item_38.png`,
+  '쓰레기통': `${_GW}/item_117.png`,
+};
+for (const [name, url] of Object.entries(_supplementaryImages)) {
+  if (!_itemImageMap.has(name)) _itemImageMap.set(name, url);
+}
+
+export function getItemImage(name: string): string | null {
+  // "건초테이블 ×1" → "건초테이블"
+  const clean = name.replace(/\s*[×x]\s*\d+$/i, '').trim();
+  // 정확한 매칭
+  if (_itemImageMap.has(clean)) return _itemImageMap.get(clean)!;
+  // "(아무거나)" 제거 후 재시도: "의자(아무거나)" → "의자"
+  const withoutAny = clean.replace(/\(아무거나\)$/, '').replace(/\(큰 것\)$/, '').replace(/\(긴 것\)$/, '').trim();
+  if (withoutAny !== clean && _itemImageMap.has(withoutAny)) return _itemImageMap.get(withoutAny)!;
+  return null;
+}
+
 export function getPokemonByHabitat(name: string): Pokemon[] {
   return pokemon.filter((entry) => entry.habitatNames.includes(name));
 }

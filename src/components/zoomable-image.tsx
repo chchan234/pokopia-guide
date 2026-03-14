@@ -59,14 +59,14 @@ export default function ZoomableImage({
           >
             <div className="flex min-h-full items-start justify-center sm:items-center">
               <div
-                className="my-3 w-full max-w-3xl overflow-hidden rounded-2xl border border-border bg-white shadow-2xl"
+                className="my-3 w-full max-w-3xl overflow-hidden rounded-2xl border border-border bg-card shadow-2xl"
                 onClick={(event) => event.stopPropagation()}
               >
-                <div className="sticky top-0 z-10 flex items-center justify-end border-b border-border bg-white/95 px-3 py-3 backdrop-blur">
+                <div className="sticky top-0 z-10 flex items-center justify-end border-b border-border bg-card/95 px-3 py-3 backdrop-blur">
                   <button
                     type="button"
                     onClick={() => setOpen(false)}
-                    className="rounded-full bg-black px-3 py-1.5 text-sm font-semibold text-white hover:bg-black/80"
+                    className="rounded-full bg-foreground px-3 py-1.5 text-sm font-semibold text-background hover:opacity-80"
                   >
                     닫기
                   </button>
