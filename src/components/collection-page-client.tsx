@@ -5,7 +5,7 @@ import { useSearchParams } from 'next/navigation';
 import OwnedToggle from '@/components/owned-toggle';
 import PreserveSearchLink from '@/components/preserve-search-link';
 import { useCollection } from '@/components/collection-provider';
-import { matchesOwnershipFilter, type CollectionCategoryKey, type OwnershipFilter } from '@/lib/collection';
+import { isOwnershipFilter, matchesOwnershipFilter, type CollectionCategoryKey, type OwnershipFilter } from '@/lib/collection';
 import { useSyncQueryParams } from '@/hooks/use-sync-query-params';
 
 type CollectionTab = CollectionCategoryKey;
@@ -65,10 +65,6 @@ const tabLabels: Record<CollectionTab, string> = {
 
 function isCollectionTab(value: string | null): value is CollectionTab {
   return value !== null && ['pokemon', 'habitats', 'records', 'fashion', 'bestshots'].includes(value);
-}
-
-function isOwnershipFilter(value: string | null): value is OwnershipFilter {
-  return value !== null && ['all', 'owned', 'missing'].includes(value);
 }
 
 export default function CollectionPageClient({ pokemon, habitats, records, fashion, bestshots }: CollectionPageClientProps) {

@@ -24,6 +24,10 @@ export function getFashionCollectionId(categoryKey: string, itemName: string) {
   return `${categoryKey}::${itemName}`;
 }
 
+export function isOwnershipFilter(value: string | null): value is OwnershipFilter {
+  return value !== null && ['all', 'owned', 'missing'].includes(value);
+}
+
 export function matchesOwnershipFilter(isOwned: boolean, filter: OwnershipFilter) {
   if (filter === 'owned') {
     return isOwned;
