@@ -285,7 +285,7 @@ export default function PokemonFilter({
         placeholder="이름, 영문명, 일본어명, 번호로 검색"
         value={search}
         onChange={(event) => setSearch(event.target.value)}
-        className="h-11 w-full rounded-2xl border border-border bg-card px-4 text-sm text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20"
+        className="h-11 w-full rounded-2xl border border-border bg-card px-4 text-base text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20"
       />
 
       <div className="flex flex-wrap gap-2">
@@ -398,7 +398,7 @@ export default function PokemonFilter({
               value={favoriteSearch}
               onChange={(event) => setFavoriteSearch(event.target.value)}
               placeholder="좋아하는 것 검색"
-              className="h-10 w-full rounded-2xl border border-border bg-background px-3 text-sm text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20"
+              className="h-10 w-full rounded-2xl border border-border bg-background px-3 text-base text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20"
             />
 
             <div className="flex flex-wrap gap-2">

@@ -72,7 +72,7 @@ export default function HomeSearchClient({ entries }: HomeSearchClientProps) {
         value={query}
         onChange={(event) => setQuery(event.target.value)}
         placeholder="포켓몬, 서식지, 기록, 의상, 아이템 검색"
-        className="h-12 w-full rounded-2xl border border-border bg-background px-4 text-sm text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20"
+        className="h-12 w-full rounded-2xl border border-border bg-background px-4 text-base text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20"
       />
 
       {query.trim() ? (

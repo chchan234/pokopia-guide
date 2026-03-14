@@ -228,7 +228,7 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
           value={search}
           onChange={(event) => setSearch(event.target.value)}
           placeholder={`${tabLabels[activeTab]} 이름, 입수처, 설명으로 검색`}
-          className="h-11 w-full rounded-2xl border border-border bg-background px-4 text-sm text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20"
+          className="h-11 w-full rounded-2xl border border-border bg-background px-4 text-base text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20"
         />
 
         <div className="mt-3">

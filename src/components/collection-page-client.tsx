@@ -261,7 +261,7 @@ export default function CollectionPageClient({ pokemon, habitats, records, fashi
             placeholder={`${activeCategory.label} 이름으로 검색`}
             value={search}
             onChange={(event) => setSearch(event.target.value)}
-            className="h-11 w-full rounded-2xl border border-border bg-background px-4 text-sm text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20 lg:max-w-md"
+            className="h-11 w-full rounded-2xl border border-border bg-background px-4 text-base text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20 lg:max-w-md"
           />
           <div className="flex flex-wrap gap-2">
             {[
