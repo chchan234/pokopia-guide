@@ -1,7 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { useSearchParams } from 'next/navigation';
+import { useSyncQueryParams } from '@/hooks/use-sync-query-params';
 
 interface SpecialtyPokemon {
   slug: string;
@@ -28,7 +30,17 @@ interface FilteredSpecialtyGroup {
 }
 
 export default function SpecialtiesFilter({ groups }: { groups: SpecialtyGroupWithPokemon[] }) {
-  const [search, setSearch] = useState('');
+  const searchParams = useSearchParams();
+  const querySearch = searchParams.get('q') ?? '';
+  const [search, setSearch] = useState(querySearch);
+
+  useEffect(() => {
+    setSearch(querySearch);
+  }, [querySearch]);
+
+  const syncedParams = useMemo(() => ({ q: search }), [search]);
+
+  useSyncQueryParams(syncedParams);
 
   const filteredGroups = useMemo((): FilteredSpecialtyGroup[] => {
     const query = search.trim().toLowerCase();

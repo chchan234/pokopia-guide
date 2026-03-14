@@ -1,10 +1,10 @@
 'use client';
 
-import Link from 'next/link';
 import Image from 'next/image';
 import type { Pokemon } from '@/types/pokemon';
 import { areaThemes } from '@/lib/constants';
 import CollectionToggleButton from './collection-toggle-button';
+import PreserveSearchLink from './preserve-search-link';
 import TypeBadge from './type-badge';
 
 export default function PokemonCard({ pokemon: entry }: { pokemon: Pokemon }) {
@@ -29,7 +29,7 @@ export default function PokemonCard({ pokemon: entry }: { pokemon: Pokemon }) {
         <CollectionToggleButton category="pokemon" itemId={entry.slug} compact />
       </div>
 
-      <Link href={`/pokemon/${entry.slug}`} className="block">
+      <PreserveSearchLink href={`/pokemon/${entry.slug}`} className="block">
         <div className="mb-3 flex items-start justify-between gap-3">
           <div>
             <p className="mono text-[11px] text-muted-foreground">#{entry.number}</p>
@@ -75,7 +75,7 @@ export default function PokemonCard({ pokemon: entry }: { pokemon: Pokemon }) {
             {entry.primaryHabitat ? `${primaryHabitatPrefix}${entry.primaryHabitat}` : '주 서식지 미상'}
           </p>
         </div>
-      </Link>
+      </PreserveSearchLink>
     </article>
   );
 }

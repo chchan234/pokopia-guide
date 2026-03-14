@@ -140,6 +140,13 @@ const FASHION_CATEGORY_LABELS = {
   shoes: '신발',
 };
 
+const FASHION_NAME_JP_ALIASES = {
+  'ポケセンなボトムス': 'ポケセンのボトムス',
+  'りかけいのおとこのコーデ': 'りかけいのおとこコーデ',
+  'はかせのコーデ': 'はかせコーデ',
+  'ロケットだんのコーデ': 'ロケットだんコーデ',
+};
+
 function compareKo(a, b) {
   return a.localeCompare(b, 'ko');
 }
@@ -151,6 +158,27 @@ function toPublicImagePath(relPath) {
 
 function unique(values) {
   return Array.from(new Set(values.filter(Boolean)));
+}
+
+function buildFashionNameKoMap(fashionRewardSource) {
+  const mapping = new Map();
+
+  for (const reward of fashionRewardSource) {
+    if (reward.reward_item_name_jp && reward.reward_item_name_ko_editorial) {
+      mapping.set(reward.reward_item_name_jp, reward.reward_item_name_ko_editorial);
+    }
+  }
+
+  return mapping;
+}
+
+function resolveFashionKoName(nameJp, nameKo, fashionNameKoByJp) {
+  if (nameKo) {
+    return nameKo;
+  }
+
+  const alias = FASHION_NAME_JP_ALIASES[nameJp] ?? nameJp;
+  return fashionNameKoByJp.get(nameJp) ?? fashionNameKoByJp.get(alias) ?? nameJp;
 }
 
 function buildPokemonSlug(number, dexGroup, occurrence, total) {
@@ -221,7 +249,7 @@ function getRecordMapKey(name) {
   return RECORD_MAP_KEYS[name] ?? 'unknown';
 }
 
-function buildImageMaps(imageMatches) {
+function buildImageMaps(imageMatches, fashionNameKoByJp) {
   const pokemonImages = new Map();
   const habitatImages = new Map();
   const fashionImages = {
@@ -248,7 +276,8 @@ function buildImageMaps(imageMatches) {
     }
 
     if (match.entity_type === 'fashion' && fashionImages[match.entity_subtype]) {
-      fashionImages[match.entity_subtype].set(match.entity_name_ko, imagePath);
+      const resolvedName = resolveFashionKoName(match.entity_name_jp, match.entity_name_ko, fashionNameKoByJp);
+      fashionImages[match.entity_subtype].set(resolvedName, imagePath);
     }
   }
 
@@ -602,7 +631,7 @@ function buildRecords(recordSource, fashionRewardSource, fashionImages) {
   }));
 }
 
-function buildFashionCategories(imageMatches, fashionRewardSource, fashionImages) {
+function buildFashionCategories(imageMatches, fashionRewardSource, fashionImages, fashionNameKoByJp) {
   const byCategory = Object.fromEntries(
     Object.entries(FASHION_CATEGORY_LABELS).map(([key, label]) => [key, { key, label, items: new Map() }])
   );
@@ -611,8 +640,9 @@ function buildFashionCategories(imageMatches, fashionRewardSource, fashionImages
     if (match.entity_type !== 'fashion') continue;
     const category = byCategory[match.entity_subtype];
     if (!category) continue;
-    category.items.set(match.entity_name_ko, {
-      name: match.entity_name_ko,
+    const resolvedName = resolveFashionKoName(match.entity_name_jp, match.entity_name_ko, fashionNameKoByJp);
+    category.items.set(resolvedName, {
+      name: resolvedName,
       imagePath: toPublicImagePath(match.planned_local_relpath),
       unlockRecordIds: [],
       unlockRecordNames: [],
@@ -714,7 +744,8 @@ async function main() {
   ]);
 
   const ingameReferenceByJp = buildIngameReferenceMap(ingameReferenceRows);
-  const { pokemonImages, habitatImages, fashionImages } = buildImageMaps(imageMatches);
+  const fashionNameKoByJp = buildFashionNameKoMap(fashionRewardSource);
+  const { pokemonImages, habitatImages, fashionImages } = buildImageMaps(imageMatches, fashionNameKoByJp);
   const habitatRequirementMap = buildHabitatRequirementMap(pokemonSource, materialKoMap, editorialMaterialKoMap);
   const { habitats, habitatMetaByName } = buildHabitatIndex(
     pokemonSource,
@@ -739,7 +770,7 @@ async function main() {
   }));
   const specialties = buildSpecialties(pokemon);
   const records = buildRecords(recordSource, fashionRewardSource, fashionImages);
-  const fashionCategories = buildFashionCategories(imageMatches, fashionRewardSource, fashionImages);
+  const fashionCategories = buildFashionCategories(imageMatches, fashionRewardSource, fashionImages, fashionNameKoByJp);
   const maps = buildMaps(pokemon, records, habitats);
 
   const stats = {

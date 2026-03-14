@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import HousePlannerClient from '@/components/house-planner-client';
 import { pokemon } from '@/lib/data';
@@ -9,17 +10,19 @@ export const metadata: Metadata = {
 
 export default function HousePlannerPage() {
   return (
-    <HousePlannerClient
-      pokemon={pokemon.map((entry) => ({
-        slug: entry.slug,
-        number: entry.number,
-        name: entry.name,
-        officialName: entry.officialName,
-        sourceNationalDexNo: entry.sourceNationalDexNo,
-        favoriteEnvironment: entry.favoriteEnvironment,
-        favoriteItems: entry.favoriteItems,
-        primaryMap: entry.primaryMap,
-      }))}
-    />
+    <Suspense fallback={<div className="rounded-3xl border border-border bg-card p-6 text-sm text-muted-foreground">집 추천 데이터를 불러오는 중입니다.</div>}>
+      <HousePlannerClient
+        pokemon={pokemon.map((entry) => ({
+          slug: entry.slug,
+          number: entry.number,
+          name: entry.name,
+          officialName: entry.officialName,
+          sourceNationalDexNo: entry.sourceNationalDexNo,
+          favoriteEnvironment: entry.favoriteEnvironment,
+          favoriteItems: entry.favoriteItems,
+          primaryMap: entry.primaryMap,
+        }))}
+      />
+    </Suspense>
   );
 }

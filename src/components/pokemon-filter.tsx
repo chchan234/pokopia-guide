@@ -1,6 +1,9 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { useSearchParams } from 'next/navigation';
+import { useSyncQueryParams } from '@/hooks/use-sync-query-params';
+import { getQueryArray } from '@/lib/url-state';
 import type { Pokemon } from '@/types/pokemon';
 import PokemonCard from './pokemon-card';
 
@@ -53,17 +56,77 @@ export default function PokemonFilter({
   specialties: string[];
   mapNames: string[];
 }) {
-  const [search, setSearch] = useState('');
-  const [selectedType, setSelectedType] = useState('');
-  const [selectedMap, setSelectedMap] = useState('');
-  const [selectedSpecialty, setSelectedSpecialty] = useState('');
-  const [selectedEnvironment, setSelectedEnvironment] = useState('');
-  const [specialFilter, setSpecialFilter] = useState('');
+  const searchParams = useSearchParams();
+  const querySearch = searchParams.get('q') ?? '';
+  const queryType = searchParams.get('type') ?? '';
+  const queryMap = searchParams.get('map') ?? '';
+  const querySpecialty = searchParams.get('specialty') ?? '';
+  const queryEnvironment = searchParams.get('environment') ?? '';
+  const querySpecialFilter = searchParams.get('special') ?? '';
+  const queryFavoriteKeys = useMemo(() => getQueryArray(searchParams, 'favorite'), [searchParams]);
+  const queryFavoriteMatchMode = searchParams.get('favoriteMode') === 'any' ? 'any' : 'all';
+  const queryIncludeUnknownFavorites = searchParams.get('includeUnknown') === '1';
+  const [search, setSearch] = useState(querySearch);
+  const [selectedType, setSelectedType] = useState(queryType);
+  const [selectedMap, setSelectedMap] = useState(queryMap);
+  const [selectedSpecialty, setSelectedSpecialty] = useState(querySpecialty);
+  const [selectedEnvironment, setSelectedEnvironment] = useState(queryEnvironment);
+  const [specialFilter, setSpecialFilter] = useState(querySpecialFilter);
   const [showFavoriteFilter, setShowFavoriteFilter] = useState(false);
   const [favoriteSearch, setFavoriteSearch] = useState('');
-  const [selectedFavoriteKeys, setSelectedFavoriteKeys] = useState<string[]>([]);
-  const [favoriteMatchMode, setFavoriteMatchMode] = useState<FavoriteMatchMode>('all');
-  const [includeUnknownFavorites, setIncludeUnknownFavorites] = useState(false);
+  const [selectedFavoriteKeys, setSelectedFavoriteKeys] = useState<string[]>(queryFavoriteKeys);
+  const [favoriteMatchMode, setFavoriteMatchMode] = useState<FavoriteMatchMode>(queryFavoriteMatchMode);
+  const [includeUnknownFavorites, setIncludeUnknownFavorites] = useState(queryIncludeUnknownFavorites);
+
+  // URL 쿼리 파라미터가 바뀔 때 로컬 상태를 한번에 동기화
+  useEffect(() => {
+    setSearch(querySearch);
+    setSelectedType(queryType);
+    setSelectedMap(queryMap);
+    setSelectedSpecialty(querySpecialty);
+    setSelectedEnvironment(queryEnvironment);
+    setSpecialFilter(querySpecialFilter);
+    setSelectedFavoriteKeys(queryFavoriteKeys);
+    setFavoriteMatchMode(queryFavoriteMatchMode);
+    setIncludeUnknownFavorites(queryIncludeUnknownFavorites);
+  }, [
+    querySearch,
+    queryType,
+    queryMap,
+    querySpecialty,
+    queryEnvironment,
+    querySpecialFilter,
+    queryFavoriteKeys,
+    queryFavoriteMatchMode,
+    queryIncludeUnknownFavorites,
+  ]);
+
+  const syncedParams = useMemo(
+    () => ({
+      q: search,
+      type: selectedType,
+      map: selectedMap,
+      specialty: selectedSpecialty,
+      environment: selectedEnvironment,
+      special: specialFilter,
+      favorite: selectedFavoriteKeys,
+      favoriteMode: selectedFavoriteKeys.length > 0 && favoriteMatchMode !== 'all' ? favoriteMatchMode : undefined,
+      includeUnknown: selectedFavoriteKeys.length > 0 && includeUnknownFavorites ? '1' : undefined,
+    }),
+    [
+      favoriteMatchMode,
+      includeUnknownFavorites,
+      search,
+      selectedEnvironment,
+      selectedFavoriteKeys,
+      selectedMap,
+      selectedSpecialty,
+      selectedType,
+      specialFilter,
+    ]
+  );
+
+  useSyncQueryParams(syncedParams);
 
   const favoriteEnvironments = useMemo(
     () =>

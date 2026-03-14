@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import SpecialtiesFilter from '@/components/specialties-filter';
 import { pokemon, specialties } from '@/lib/data';
 import type { Metadata } from 'next';
@@ -32,7 +33,9 @@ export default function SpecialtiesPage() {
           총 {specialties.length}개 특기 · 인게임 표기와 원문 자료를 함께 반영한 묶음
         </p>
       </div>
-      <SpecialtiesFilter groups={specialtyGroups} />
+      <Suspense fallback={<div className="rounded-3xl border border-border bg-card p-6 text-sm text-muted-foreground">특기 목록을 불러오는 중입니다.</div>}>
+        <SpecialtiesFilter groups={specialtyGroups} />
+      </Suspense>
     </div>
   );
 }

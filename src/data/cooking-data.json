@@ -9,7 +9,7 @@
     "notesKo": [
       "요리 해금은 울퉁불퉁 산 스토리 진행 이후",
       "근처 포켓몬이 도와주면 레시피 결과가 달라질 수 있다",
-      "정식 한국어 표기가 확인되지 않은 요리명은 일본어 원문을 병기했다"
+      "요리명과 재료명은 확보한 한국어 표기를 기준으로 정리했다"
     ]
   },
   "toolCards": [
@@ -79,10 +79,12 @@
   "recommended": [
     {
       "nameJp": "ジャガイモハンバーグ",
+      "nameKo": "감자 햄버그",
       "reasonKo": "바위깨기 강화폭이 커서 채굴, 정지 작업, 포케메탈 파밍에 가장 쓰기 좋다"
     },
     {
       "nameJp": "アツアツスープパン",
+      "nameKo": "뜨끈뜨끈 수프빵",
       "reasonKo": "공물로 바치면 서식지 포켓몬 출현률을 크게 올려 희귀 포켓몬 탐색에 유리하다"
     }
   ],
@@ -90,7 +92,8 @@
     {
       "id": "entry-d5bb4f628d",
       "nameJp": "アツアツスープパン",
-      "nameKo": null,
+      "nameKo": "뜨끈뜨끈 수프빵",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_681.png",
       "categoryJp": "パン",
       "categoryKo": "빵",
       "tasteJp": "からい",
@@ -101,9 +104,9 @@
         "なんでも"
       ],
       "materialsKo": [
-        "コムギ",
-        "スープ(なんでも)",
-        "なんでも"
+        "밀",
+        "수프(아무거나)",
+        "아무거나"
       ],
       "helperSpecialtyJp": "もやす",
       "helperSpecialtyKo": "점화",
@@ -119,7 +122,8 @@
     {
       "id": "entry-c274bce394",
       "nameJp": "いろどりハンバーグ",
-      "nameKo": null,
+      "nameKo": "알록달록 햄버그",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_714.png",
       "categoryJp": "ハンバーグ",
       "categoryKo": "햄버그",
       "tasteJp": "普通",
@@ -131,10 +135,10 @@
         "なんでも"
       ],
       "materialsKo": [
-        "マメ",
-        "ジャガイモ",
-        "サラダ(なんでも)",
-        "なんでも"
+        "콩",
+        "감자",
+        "샐러드(아무거나)",
+        "아무거나"
       ],
       "helperSpecialtyJp": null,
       "helperSpecialtyKo": null,
@@ -150,7 +154,8 @@
     {
       "id": "entry-949de80c02",
       "nameJp": "おとなのハンバーグ",
-      "nameKo": null,
+      "nameKo": "어른의 햄버그",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_713.png",
       "categoryJp": "ハンバーグ",
       "categoryKo": "햄버그",
       "tasteJp": "にがい",
@@ -162,10 +167,10 @@
         "なんでも"
       ],
       "materialsKo": [
-        "マメ",
-        "チーゴのみ",
-        "ラムのみ",
-        "なんでも"
+        "콩",
+        "복분열매",
+        "리샘열매",
+        "아무거나"
       ],
       "helperSpecialtyJp": null,
       "helperSpecialtyKo": null,
@@ -181,7 +186,8 @@
     {
       "id": "entry-6081b64408",
       "nameJp": "かいそうサラダ",
-      "nameKo": null,
+      "nameKo": "해초 샐러드",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_703.png",
       "categoryJp": "サラダ",
       "categoryKo": "샐러드",
       "tasteJp": "にがい",
@@ -191,8 +197,8 @@
         "かいそう"
       ],
       "materialsKo": [
-        "はっぱ",
-        "かいそう"
+        "잎사귀",
+        "해초"
       ],
       "helperSpecialtyJp": null,
       "helperSpecialtyKo": null,
@@ -208,7 +214,8 @@
     {
       "id": "entry-bb78e3fb0e",
       "nameJp": "かいそうスープ",
-      "nameKo": null,
+      "nameKo": "해초 수프",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_706.png",
       "categoryJp": "スープ",
       "categoryKo": "수프",
       "tasteJp": "にがい",
@@ -219,9 +226,9 @@
         "なんでも"
       ],
       "materialsKo": [
-        "おいしいみず",
-        "かいそう",
-        "なんでも"
+        "맛있는물",
+        "해초",
+        "아무거나"
       ],
       "helperSpecialtyJp": null,
       "helperSpecialtyKo": null,
@@ -237,7 +244,8 @@
     {
       "id": "entry-1146c00cbb",
       "nameJp": "きのこハンバーグ",
-      "nameKo": null,
+      "nameKo": "버섯 햄버그",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_697.png",
       "categoryJp": "ハンバーグ",
       "categoryKo": "햄버그",
       "tasteJp": "しぶい",
@@ -248,9 +256,9 @@
         "なんでも×2"
       ],
       "materialsKo": [
-        "マメ",
-        "たべごろキノコ",
-        "なんでも×2"
+        "콩",
+        "먹음직한 버섯",
+        "아무거나×2"
       ],
       "helperSpecialtyJp": null,
       "helperSpecialtyKo": null,
@@ -266,7 +274,8 @@
     {
       "id": "entry-54cd12249b",
       "nameJp": "キノコスープ",
-      "nameKo": null,
+      "nameKo": "버섯 수프",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_704.png",
       "categoryJp": "スープ",
       "categoryKo": "수프",
       "tasteJp": "しぶい",
@@ -277,9 +286,9 @@
         "なんでも"
       ],
       "materialsKo": [
-        "おいしいみず",
-        "たべごろキノコ",
-        "なんでも"
+        "맛있는물",
+        "먹음직한 버섯",
+        "아무거나"
       ],
       "helperSpecialtyJp": null,
       "helperSpecialtyKo": null,
@@ -295,7 +304,8 @@
     {
       "id": "entry-8fb3d28ed2",
       "nameJp": "キャロットパン",
-      "nameKo": null,
+      "nameKo": "캐럿 빵",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_696.png",
       "categoryJp": "パン",
       "categoryKo": "빵",
       "tasteJp": "からい",
@@ -306,9 +316,9 @@
         "なんでも"
       ],
       "materialsKo": [
-        "コムギ",
-        "たべごろニンジン",
-        "なんでも"
+        "밀",
+        "먹음직한 당근",
+        "아무거나"
       ],
       "helperSpecialtyJp": null,
       "helperSpecialtyKo": null,
@@ -324,7 +334,8 @@
     {
       "id": "entry-7f3ff60c6c",
       "nameJp": "クルトンサラダ",
-      "nameKo": null,
+      "nameKo": "크루통 샐러드",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_701.png",
       "categoryJp": "サラダ",
       "categoryKo": "샐러드",
       "tasteJp": "からい",
@@ -334,8 +345,8 @@
         "パン(なんでも)"
       ],
       "materialsKo": [
-        "はっぱ",
-        "パン(なんでも)"
+        "잎사귀",
+        "빵(아무거나)"
       ],
       "helperSpecialtyJp": null,
       "helperSpecialtyKo": null,
@@ -351,7 +362,8 @@
     {
       "id": "entry-74b3b59a3d",
       "nameJp": "ジャガイモハンバーグ",
-      "nameKo": null,
+      "nameKo": "감자 햄버그",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_699.png",
       "categoryJp": "ハンバーグ",
       "categoryKo": "햄버그",
       "tasteJp": "あまい",
@@ -362,9 +374,9 @@
         "なんでも×2"
       ],
       "materialsKo": [
-        "マメ",
-        "ジャガイモ",
-        "なんでも×2"
+        "콩",
+        "감자",
+        "아무거나×2"
       ],
       "helperSpecialtyJp": null,
       "helperSpecialtyKo": null,
@@ -380,7 +392,8 @@
     {
       "id": "entry-6e6cd47c8b",
       "nameJp": "ジューシースープ",
-      "nameKo": null,
+      "nameKo": "쥬시 수프",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_709.png",
       "categoryJp": "スープ",
       "categoryKo": "수프",
       "tasteJp": "すっぱい",
@@ -391,9 +404,9 @@
         "ハンバーグ(なんでも)"
       ],
       "materialsKo": [
-        "おいしいみず",
-        "ナナシのみ",
-        "ハンバーグ(なんでも)"
+        "맛있는물",
+        "배리열매",
+        "햄버그(아무거나)"
       ],
       "helperSpecialtyJp": null,
       "helperSpecialtyKo": null,
@@ -409,7 +422,8 @@
     {
       "id": "entry-479b370c41",
       "nameJp": "すりつぶしサラダ",
-      "nameKo": null,
+      "nameKo": "으깬 샐러드",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_702.png",
       "categoryJp": "サラダ",
       "categoryKo": "샐러드",
       "tasteJp": "しぶい",
@@ -419,8 +433,8 @@
         "カゴのみ"
       ],
       "materialsKo": [
-        "はっぱ",
-        "カゴのみ"
+        "잎사귀",
+        "유루열매"
       ],
       "helperSpecialtyJp": "つぶす",
       "helperSpecialtyKo": "분쇄",
@@ -436,7 +450,8 @@
     {
       "id": "entry-24934ddd90",
       "nameJp": "せんぎりサラダ",
-      "nameKo": null,
+      "nameKo": "채썬 샐러드",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_695.png",
       "categoryJp": "サラダ",
       "categoryKo": "샐러드",
       "tasteJp": "すっぱい",
@@ -446,8 +461,8 @@
         "はっぱなど(他の料理にならないならなんでも)"
       ],
       "materialsKo": [
-        "はっぱ",
-        "はっぱなど(他の料理にならないならなんでも)"
+        "잎사귀",
+        "잎사귀 등(다른 요리가 되지 않으면 아무거나)"
       ],
       "helperSpecialtyJp": "きをきる",
       "helperSpecialtyKo": "절삭",
@@ -463,7 +478,8 @@
     {
       "id": "entry-804e29ea5c",
       "nameJp": "トマトハンバーグ",
-      "nameKo": null,
+      "nameKo": "토마토 햄버그",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_698.png",
       "categoryJp": "ハンバーグ",
       "categoryKo": "햄버그",
       "tasteJp": "すっぱい",
@@ -474,9 +490,9 @@
         "なんでも×2"
       ],
       "materialsKo": [
-        "マメ",
-        "トマト",
-        "なんでも×2"
+        "콩",
+        "토마토",
+        "아무거나×2"
       ],
       "helperSpecialtyJp": null,
       "helperSpecialtyKo": null,
@@ -492,7 +508,8 @@
     {
       "id": "entry-1b29dea9da",
       "nameJp": "ヒメリサラダ",
-      "nameKo": null,
+      "nameKo": "히메리 샐러드",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_700.png",
       "categoryJp": "サラダ",
       "categoryKo": "샐러드",
       "tasteJp": "あまい",
@@ -502,8 +519,8 @@
         "ヒメリのみ"
       ],
       "materialsKo": [
-        "はっぱ",
-        "ヒメリのみ"
+        "잎사귀",
+        "과사열매"
       ],
       "helperSpecialtyJp": null,
       "helperSpecialtyKo": null,
@@ -519,7 +536,8 @@
     {
       "id": "entry-bf7aa0d046",
       "nameJp": "ヒメリパン",
-      "nameKo": null,
+      "nameKo": "히메리 빵",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_710.png",
       "categoryJp": "パン",
       "categoryKo": "빵",
       "tasteJp": "すっぱい",
@@ -530,9 +548,9 @@
         "なんでも"
       ],
       "materialsKo": [
-        "コムギ",
-        "ヒメリのみ",
-        "なんでも"
+        "밀",
+        "과사열매",
+        "아무거나"
       ],
       "helperSpecialtyJp": null,
       "helperSpecialtyKo": null,
@@ -548,7 +566,8 @@
     {
       "id": "entry-4f71558074",
       "nameJp": "ビリビリスープ",
-      "nameKo": null,
+      "nameKo": "찌릿찌릿 수프",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_705.png",
       "categoryJp": "スープ",
       "categoryKo": "수프",
       "tasteJp": "からい",
@@ -558,8 +577,8 @@
         "なんでも×2"
       ],
       "materialsKo": [
-        "おいしいみず",
-        "なんでも×2"
+        "맛있는물",
+        "아무거나×2"
       ],
       "helperSpecialtyJp": "はつでん",
       "helperSpecialtyKo": "발전",
@@ -575,7 +594,8 @@
     {
       "id": "entry-585eb0526a",
       "nameJp": "ふわふわパン",
-      "nameKo": null,
+      "nameKo": "폭신폭신 빵",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_712.png",
       "categoryJp": "パン",
       "categoryKo": "빵",
       "tasteJp": "あまい",
@@ -586,9 +606,9 @@
         "なんでも"
       ],
       "materialsKo": [
-        "コムギ",
-        "モモンのみ",
-        "なんでも"
+        "밀",
+        "복슝열매",
+        "아무거나"
       ],
       "helperSpecialtyJp": "うるおす",
       "helperSpecialtyKo": "급수",
@@ -604,7 +624,8 @@
     {
       "id": "entry-f12fa2345b",
       "nameJp": "プレーンサラダ",
-      "nameKo": null,
+      "nameKo": "플레인 샐러드",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_692.png",
       "categoryJp": "サラダ",
       "categoryKo": "샐러드",
       "tasteJp": "普通",
@@ -614,8 +635,8 @@
         "はっぱなど(他の料理にならないならなんでも)"
       ],
       "materialsKo": [
-        "はっぱ",
-        "はっぱなど(他の料理にならないならなんでも)"
+        "잎사귀",
+        "잎사귀 등(다른 요리가 되지 않으면 아무거나)"
       ],
       "helperSpecialtyJp": null,
       "helperSpecialtyKo": null,
@@ -631,7 +652,8 @@
     {
       "id": "entry-a49456a8d9",
       "nameJp": "プレーンパン",
-      "nameKo": null,
+      "nameKo": "플레인 빵",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_693.png",
       "categoryJp": "パン",
       "categoryKo": "빵",
       "tasteJp": "普通",
@@ -641,8 +663,8 @@
         "はっぱなど(他の料理にならないならなんでも)×2"
       ],
       "materialsKo": [
-        "コムギ",
-        "はっぱなど(他の料理にならないならなんでも)×2"
+        "밀",
+        "잎사귀 등(다른 요리가 되지 않으면 아무거나)×2"
       ],
       "helperSpecialtyJp": null,
       "helperSpecialtyKo": null,
@@ -658,7 +680,8 @@
     {
       "id": "entry-4a14de428c",
       "nameJp": "プレーンハンバーグ",
-      "nameKo": null,
+      "nameKo": "플레인 햄버그",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_694.png",
       "categoryJp": "ハンバーグ",
       "categoryKo": "햄버그",
       "tasteJp": "普通",
@@ -668,8 +691,8 @@
         "はっぱなど(他の料理にならないならなんでも)×3"
       ],
       "materialsKo": [
-        "マメ",
-        "はっぱなど(他の料理にならないならなんでも)×3"
+        "콩",
+        "잎사귀 등(다른 요리가 되지 않으면 아무거나)×3"
       ],
       "helperSpecialtyJp": null,
       "helperSpecialtyKo": null,
@@ -685,7 +708,8 @@
     {
       "id": "entry-3805de962c",
       "nameJp": "プレーンスープ",
-      "nameKo": null,
+      "nameKo": "플레인 수프",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_707.png",
       "categoryJp": "スープ",
       "categoryKo": "수프",
       "tasteJp": "普通",
@@ -696,9 +720,9 @@
         "なんでも"
       ],
       "materialsKo": [
-        "おいしいみず",
-        "はっぱなど(他の料理にならないならなんでも)",
-        "なんでも"
+        "맛있는물",
+        "잎사귀 등(다른 요리가 되지 않으면 아무거나)",
+        "아무거나"
       ],
       "helperSpecialtyJp": null,
       "helperSpecialtyKo": null,
@@ -714,7 +738,8 @@
     {
       "id": "entry-022b540ce8",
       "nameJp": "やくぜんスープ",
-      "nameKo": null,
+      "nameKo": "약선 수프",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_708.png",
       "categoryJp": "スープ",
       "categoryKo": "수프",
       "tasteJp": "からい",
@@ -725,9 +750,9 @@
         "はっぱ"
       ],
       "materialsKo": [
-        "おいしいみず",
-        "マメ",
-        "はっぱ"
+        "맛있는물",
+        "콩",
+        "잎사귀"
       ],
       "helperSpecialtyJp": null,
       "helperSpecialtyKo": null,
@@ -743,7 +768,8 @@
     {
       "id": "entry-bb3c08bb5a",
       "nameJp": "リメイクパン",
-      "nameKo": null,
+      "nameKo": "리메이크 빵",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_711.png",
       "categoryJp": "パン",
       "categoryKo": "빵",
       "tasteJp": "にがい",
@@ -754,9 +780,9 @@
         "なんでも"
       ],
       "materialsKo": [
-        "コムギ",
-        "パン(なんでも)",
-        "なんでも"
+        "밀",
+        "빵(아무거나)",
+        "아무거나"
       ],
       "helperSpecialtyJp": "リサイクル",
       "helperSpecialtyKo": "리사이클",

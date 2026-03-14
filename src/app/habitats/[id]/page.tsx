@@ -7,6 +7,7 @@ import CollectionToggleButton from '@/components/collection-toggle-button';
 import TypeBadge from '@/components/type-badge';
 import ZoomableImage from '@/components/zoomable-image';
 import type { Metadata } from 'next';
+import { withFromParam } from '@/lib/url-state';
 
 export function generateStaticParams() {
   return habitats.map((habitat) => ({ id: habitat.id }));
@@ -25,10 +26,19 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   };
 }
 
-export default async function HabitatDetailPage({ params }: { params: Promise<{ id: string }> }) {
+export default async function HabitatDetailPage({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ id: string }>;
+  searchParams: Promise<{ from?: string }>;
+}) {
   const { id } = await params;
+  const { from } = await searchParams;
   const habitat = getHabitatById(id);
   if (!habitat) notFound();
+
+  const previousLocation = typeof from === 'string' && from.startsWith('/') && !from.startsWith('//') ? from : null;
 
   const linkedPokemon = habitat.pokemonEntries
     .map((item) => pokemon.find((entry) => entry.slug === item.slug))
@@ -37,10 +47,13 @@ export default async function HabitatDetailPage({ params }: { params: Promise<{ 
   const secondaryPokemon = linkedPokemon.filter((entry) => entry.primaryHabitatId !== habitat.id);
   const theme = areaThemes[habitat.mapNames[0]];
 
+  // 현재 서식지 페이지 경로를 포켓몬 링크에 from으로 전달
+  const currentPath = `/habitats/${id}`;
+
   return (
     <div className="space-y-8">
       <div className="flex items-center justify-between text-xs font-medium text-muted-foreground">
-        <Link href="/habitats" className="hover:text-pk-green">
+        <Link href={previousLocation ?? '/habitats'} className="hover:text-pk-green">
           서식지 목록으로 돌아가기
         </Link>
       </div>
@@ -125,7 +138,7 @@ export default async function HabitatDetailPage({ params }: { params: Promise<{ 
         </div>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {primaryPokemon.map((entry) => (
-            <Link key={entry.slug} href={`/pokemon/${entry.slug}`} className="rounded-3xl border border-border bg-card p-4 hover:border-pk-green">
+            <Link key={entry.slug} href={withFromParam(`/pokemon/${entry.slug}`, currentPath)} className="rounded-3xl border border-border bg-card p-4 hover:border-pk-green">
               <div className="flex items-start justify-between gap-3">
                 <div>
                   <p className="mono text-[11px] text-muted-foreground">#{entry.number}</p>
@@ -153,7 +166,7 @@ export default async function HabitatDetailPage({ params }: { params: Promise<{ 
             {secondaryPokemon.map((entry) => (
               <Link
                 key={entry.slug}
-                href={`/pokemon/${entry.slug}`}
+                href={withFromParam(`/pokemon/${entry.slug}`, currentPath)}
                 className="rounded-full border border-border bg-card px-3 py-1.5 text-xs font-semibold text-foreground hover:border-pk-green hover:text-pk-green-dark"
               >
                 #{entry.number} {entry.name}

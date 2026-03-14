@@ -7,7 +7,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'pokowiki',
   description:
-    '포켓몬 포코피아 포켓몬 도감, 서식지, 인간의 기록, 의상·헤어 입수처를 원본 데이터 기준으로 정리한 한국어 위키.',
+    '포켓몬 포코피아 도감, 서식지, 인간의 기록, 의상·헤어, 꿈섬, 요리, 아이템을 정리한 한국어 위키.',
 };
 
 export default function RootLayout({

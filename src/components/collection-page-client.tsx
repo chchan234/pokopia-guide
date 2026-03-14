@@ -1,10 +1,12 @@
 'use client';
 
-import Link from 'next/link';
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { useSearchParams } from 'next/navigation';
 import OwnedToggle from '@/components/owned-toggle';
+import PreserveSearchLink from '@/components/preserve-search-link';
 import { useCollection } from '@/components/collection-provider';
 import { matchesOwnershipFilter, type CollectionCategoryKey, type OwnershipFilter } from '@/lib/collection';
+import { useSyncQueryParams } from '@/hooks/use-sync-query-params';
 
 type CollectionTab = CollectionCategoryKey;
 
@@ -53,12 +55,57 @@ const tabLabels: Record<CollectionTab, string> = {
   fashion: '의상',
 };
 
+function isCollectionTab(value: string | null): value is CollectionTab {
+  return value !== null && ['pokemon', 'habitats', 'records', 'fashion'].includes(value);
+}
+
+function isOwnershipFilter(value: string | null): value is OwnershipFilter {
+  return value !== null && ['all', 'owned', 'missing'].includes(value);
+}
+
 export default function CollectionPageClient({ pokemon, habitats, records, fashion }: CollectionPageClientProps) {
-  const [activeTab, setActiveTab] = useState<CollectionTab>('pokemon');
-  const [ownershipFilter, setOwnershipFilter] = useState<OwnershipFilter>('all');
-  const [search, setSearch] = useState('');
+  const searchParams = useSearchParams();
+  const querySearch = searchParams.get('q') ?? '';
+  const queryTab = searchParams.get('tab');
+  const queryOwned = searchParams.get('owned');
+  const [activeTab, setActiveTab] = useState<CollectionTab>(isCollectionTab(queryTab) ? queryTab : 'pokemon');
+  const [ownershipFilter, setOwnershipFilter] = useState<OwnershipFilter>(isOwnershipFilter(queryOwned) ? queryOwned : 'all');
+  const [search, setSearch] = useState(querySearch);
   const { hydrated, pokemonOwnedSet, habitatOwnedSet, recordOwnedSet, fashionOwnedSet, togglePokemon, toggleHabitat, toggleRecord, toggleFashion } =
     useCollection();
+
+  useEffect(() => {
+    setSearch(querySearch);
+  }, [querySearch]);
+
+  useEffect(() => {
+    if (!isCollectionTab(queryTab)) {
+      setActiveTab('pokemon');
+      return;
+    }
+
+    setActiveTab(queryTab);
+  }, [queryTab]);
+
+  useEffect(() => {
+    if (isOwnershipFilter(queryOwned)) {
+      setOwnershipFilter(queryOwned);
+      return;
+    }
+
+    setOwnershipFilter('all');
+  }, [queryOwned]);
+
+  const syncedParams = useMemo(
+    () => ({
+      q: search,
+      tab: activeTab === 'pokemon' ? undefined : activeTab,
+      owned: ownershipFilter === 'all' ? undefined : ownershipFilter,
+    }),
+    [activeTab, ownershipFilter, search]
+  );
+
+  useSyncQueryParams(syncedParams);
 
   const categories = useMemo(
     (): CategoryMeta[] => [
@@ -271,9 +318,9 @@ export default function CollectionPageClient({ pokemon, habitats, records, fashi
                   </div>
 
                   {item.href ? (
-                    <Link href={item.href} className="mt-2 block text-base font-bold text-foreground hover:text-pk-green-dark">
+                    <PreserveSearchLink href={item.href} className="mt-2 block text-base font-bold text-foreground hover:text-pk-green-dark">
                       {item.label}
-                    </Link>
+                    </PreserveSearchLink>
                   ) : (
                     <h2 className="mt-2 text-base font-bold text-foreground">{item.label}</h2>
                   )}

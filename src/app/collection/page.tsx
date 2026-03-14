@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import CollectionPageClient from '@/components/collection-page-client';
 import { fashionCategories, habitats, humanRecords, pokemon } from '@/lib/data';
@@ -18,27 +19,29 @@ export default function CollectionPage() {
   );
 
   return (
-    <CollectionPageClient
-      pokemon={pokemon.map((entry) => ({
-        id: entry.slug,
-        label: entry.name,
-        number: entry.number,
-        description: `${entry.primaryMap} · ${entry.primaryHabitat ?? '주 서식지 미상'}`,
-        href: `/pokemon/${entry.slug}`,
-      }))}
-      habitats={habitats.map((entry) => ({
-        id: entry.id,
-        label: `${entry.number ? `No.${entry.number} ` : entry.isEvent ? '이벤트 서식지 ' : ''}${entry.name}`,
-        description: `${entry.mapNames.join(' · ') || '미상'} · 연결 포켓몬 ${entry.pokemonCount}마리`,
-        href: `/habitats/${entry.id}`,
-      }))}
-      records={humanRecords.map((entry) => ({
-        id: entry.id,
-        label: entry.name,
-        description: `${entry.map} · ${entry.directReward ?? entry.locationDetail}`,
-        href: `/records/${entry.id}`,
-      }))}
-      fashion={fashionItems}
-    />
+    <Suspense fallback={<div className="rounded-3xl border border-border bg-card p-6 text-sm text-muted-foreground">내 수집 데이터를 불러오는 중입니다.</div>}>
+      <CollectionPageClient
+        pokemon={pokemon.map((entry) => ({
+          id: entry.slug,
+          label: entry.name,
+          number: entry.number,
+          description: `${entry.primaryMap} · ${entry.primaryHabitat ?? '주 서식지 미상'}`,
+          href: `/pokemon/${entry.slug}`,
+        }))}
+        habitats={habitats.map((entry) => ({
+          id: entry.id,
+          label: `${entry.number ? `No.${entry.number} ` : entry.isEvent ? '이벤트 서식지 ' : ''}${entry.name}`,
+          description: `${entry.mapNames.join(' · ') || '미상'} · 연결 포켓몬 ${entry.pokemonCount}마리`,
+          href: `/habitats/${entry.id}`,
+        }))}
+        records={humanRecords.map((entry) => ({
+          id: entry.id,
+          label: entry.name,
+          description: `${entry.map} · ${entry.directReward ?? entry.locationDetail}`,
+          href: `/records/${entry.id}`,
+        }))}
+        fashion={fashionItems}
+      />
+    </Suspense>
   );
 }

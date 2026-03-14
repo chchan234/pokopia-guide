@@ -6,10 +6,26 @@ const normalizedBasePath =
     ? `/${rawBasePath.replace(/^\/+|\/+$/g, '')}`
     : '';
 
+const sharedConfig: NextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'img.gamewith.jp',
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.game8.jp',
+      },
+    ],
+  },
+};
+
 const nextConfig: NextConfig = normalizedBasePath
   ? {
+      ...sharedConfig,
       basePath: normalizedBasePath,
     }
-  : {};
+  : sharedConfig;
 
 export default nextConfig;

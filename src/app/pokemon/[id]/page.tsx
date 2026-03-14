@@ -7,6 +7,7 @@ import CollectionToggleButton from '@/components/collection-toggle-button';
 import TypeBadge from '@/components/type-badge';
 import ZoomableImage from '@/components/zoomable-image';
 import type { Metadata } from 'next';
+import { withFromParam } from '@/lib/url-state';
 
 const allPokemon = pokemon;
 
@@ -36,10 +37,19 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   };
 }
 
-export default async function PokemonDetailPage({ params }: { params: Promise<{ id: string }> }) {
+export default async function PokemonDetailPage({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ id: string }>;
+  searchParams: Promise<{ from?: string }>;
+}) {
   const { id } = await params;
+  const { from } = await searchParams;
   const entry = getPokemonBySlug(id);
   if (!entry) notFound();
+
+  const previousLocation = typeof from === 'string' && from.startsWith('/') && !from.startsWith('//') ? from : null;
 
   const theme = areaThemes[entry.primaryMap] ?? areaThemes[entry.primaryMapRecordLabel];
   const currentIndex = allPokemon.findIndex((pokemonEntry) => pokemonEntry.slug === entry.slug);
@@ -52,12 +62,12 @@ export default async function PokemonDetailPage({ params }: { params: Promise<{ 
   return (
     <div className="space-y-8">
       <div className="flex items-center justify-between text-xs font-medium text-muted-foreground">
-        <Link href="/pokemon" className="hover:text-pk-green">
+        <Link href={previousLocation ?? '/pokemon'} className="hover:text-pk-green">
           도감으로 돌아가기
         </Link>
         <div className="flex items-center gap-3">
-          {previousPokemon && <Link href={`/pokemon/${previousPokemon.slug}`}>{previousPokemon.name}</Link>}
-          {nextPokemon && <Link href={`/pokemon/${nextPokemon.slug}`}>{nextPokemon.name}</Link>}
+          {previousPokemon && <Link href={withFromParam(`/pokemon/${previousPokemon.slug}`, previousLocation)}>{previousPokemon.name}</Link>}
+          {nextPokemon && <Link href={withFromParam(`/pokemon/${nextPokemon.slug}`, previousLocation)}>{nextPokemon.name}</Link>}
         </div>
       </div>
 
@@ -267,7 +277,7 @@ export default async function PokemonDetailPage({ params }: { params: Promise<{ 
             {relatedPokemon.map((pokemonEntry) => (
               <Link
                 key={pokemonEntry.slug}
-                href={`/pokemon/${pokemonEntry.slug}`}
+                href={withFromParam(`/pokemon/${pokemonEntry.slug}`, previousLocation)}
                 className="rounded-full border border-border bg-card px-3 py-1.5 text-xs font-semibold text-foreground hover:border-pk-green hover:text-pk-green-dark"
               >
                 #{pokemonEntry.number} {pokemonEntry.name}

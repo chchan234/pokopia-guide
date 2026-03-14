@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-03-12T03:07:44.007Z",
+  "generatedAt": "2026-03-13T04:04:38.151Z",
   "sourceRoot": "/Users/ichan-u/pokopia-guide",
   "stats": {
     "pokemonCount": 306,
     "eventPokemonCount": 3,
     "habitatCount": 212,
     "recordCount": 126,
-    "fashionItemCount": 185,
+    "fashionItemCount": 183,
     "specialtyCount": 32,
     "imageCount": 722
   },
@@ -27306,7 +27306,7 @@
           ],
           "requirementsKo": [
             "테이블 ×1",
-            "게이밍 헤드셋 ×1",
+            "게이밍 침대 ×1",
             "게이밍 컴퓨터 ×1",
             "게이밍 체어 ×1",
             "게이밍 냉장고 ×1"
@@ -39407,7 +39407,7 @@
       ],
       "requirementsKo": [
         "테이블 ×1",
-        "게이밍 헤드셋 ×1",
+        "게이밍 침대 ×1",
         "게이밍 컴퓨터 ×1",
         "게이밍 체어 ×1",
         "게이밍 냉장고 ×1"
@@ -41958,7 +41958,7 @@
           "category": "코디 세트",
           "categoryKey": "coords",
           "name": "이과 남자 코디",
-          "imagePath": null
+          "imagePath": "/images/fashion_coords/004_item_004.png"
         },
         {
           "category": "하의",
@@ -42078,7 +42078,7 @@
           "category": "코디 세트",
           "categoryKey": "coords",
           "name": "로켓단 코디",
-          "imagePath": null
+          "imagePath": "/images/fashion_coords/017_item_017.png"
         },
         {
           "category": "하의",
@@ -42178,7 +42178,7 @@
           "category": "하의",
           "categoryKey": "bottoms",
           "name": "포켓몬센터 하의",
-          "imagePath": null
+          "imagePath": "/images/fashion_bottoms/020_item_020.png"
         }
       ],
       "sourceGame8Url": "https://game8.jp/pocoapokemon/767434"
@@ -42465,7 +42465,7 @@
           "category": "코디 세트",
           "categoryKey": "coords",
           "name": "박사 코디",
-          "imagePath": null
+          "imagePath": "/images/fashion_coords/015_item_015.png"
         },
         {
           "category": "하의",
@@ -44314,13 +44314,6 @@
       "label": "하의",
       "items": [
         {
-          "name": "",
-          "imagePath": "/images/fashion_bottoms/020_item_020.png",
-          "unlockRecordIds": [],
-          "unlockRecordNames": [],
-          "maps": []
-        },
-        {
           "name": "가라테왕 하의",
           "imagePath": "/images/fashion_bottoms/033_item_033.png",
           "unlockRecordIds": [
@@ -44681,7 +44674,7 @@
         },
         {
           "name": "포켓몬센터 하의",
-          "imagePath": null,
+          "imagePath": "/images/fashion_bottoms/020_item_020.png",
           "unlockRecordIds": [
             47
           ],
@@ -44698,13 +44691,6 @@
       "key": "coords",
       "label": "코디 세트",
       "items": [
-        {
-          "name": "",
-          "imagePath": "/images/fashion_coords/017_item_017.png",
-          "unlockRecordIds": [],
-          "unlockRecordNames": [],
-          "maps": []
-        },
         {
           "name": "가라테왕 코디",
           "imagePath": "/images/fashion_coords/019_item_019.png",
@@ -44785,7 +44771,7 @@
         },
         {
           "name": "로켓단 코디",
-          "imagePath": null,
+          "imagePath": "/images/fashion_coords/017_item_017.png",
           "unlockRecordIds": [
             45
           ],
@@ -44798,7 +44784,7 @@
         },
         {
           "name": "박사 코디",
-          "imagePath": null,
+          "imagePath": "/images/fashion_coords/015_item_015.png",
           "unlockRecordIds": [
             57
           ],
@@ -44902,7 +44888,7 @@
         },
         {
           "name": "이과 남자 코디",
-          "imagePath": null,
+          "imagePath": "/images/fashion_coords/004_item_004.png",
           "unlockRecordIds": [
             41
           ],

@@ -2,7 +2,9 @@
 
 import Link from 'next/link';
 import { useEffect, useMemo, useRef, useState } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { useCollection } from '@/components/collection-provider';
+import { useSyncQueryParams } from '@/hooks/use-sync-query-params';
 import {
   buildHousePlans,
   MAX_EXACT_ENV_SIZE,
@@ -32,6 +34,14 @@ interface PlannerWorkerResponse {
   result: PlanSnapshot;
 }
 
+function createPlannerWorker() {
+  try {
+    return new Worker(new URL('../workers/house-planner.worker.ts', import.meta.url), { type: 'module' });
+  } catch {
+    return null;
+  }
+}
+
 const EMPTY_PLAN_SNAPSHOT: PlanSnapshot = {
   plans: [],
   missingDataPokemon: [],
@@ -41,10 +51,21 @@ const EMPTY_PLAN_SNAPSHOT: PlanSnapshot = {
 };
 
 export default function HousePlannerClient({ pokemon }: HousePlannerClientProps) {
+  const searchParams = useSearchParams();
+  const querySearch = searchParams.get('q') ?? '';
   const { hydrated, pokemonOwnedSet } = useCollection();
+  const [search, setSearch] = useState(querySearch);
   const [snapshot, setSnapshot] = useState<PlanSnapshot>(EMPTY_PLAN_SNAPSHOT);
   const workerRef = useRef<Worker | null>(null);
   const latestRequestIdRef = useRef(0);
+
+  useEffect(() => {
+    setSearch(querySearch);
+  }, [querySearch]);
+
+  const syncedParams = useMemo(() => ({ q: search }), [search]);
+
+  useSyncQueryParams(syncedParams);
 
   const ownedPokemon = useMemo(
     () => pokemon.filter((entry) => pokemonOwnedSet.has(entry.slug)),
@@ -71,10 +92,21 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
     }
 
     if (!workerRef.current) {
-      workerRef.current = new Worker(new URL('../workers/house-planner.worker.ts', import.meta.url));
+      workerRef.current = createPlannerWorker();
     }
 
     const worker = workerRef.current;
+
+    if (!worker) {
+      queueMicrotask(() => {
+        if (latestRequestIdRef.current !== currentRequestId) {
+          return;
+        }
+
+        setSnapshot(buildHousePlans(ownedPokemon));
+      });
+      return;
+    }
 
     const handleMessage = (event: MessageEvent<PlannerWorkerResponse>) => {
       if (event.data.requestId !== currentRequestId) {
@@ -114,6 +146,34 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
 
   const { plans, missingDataPokemon, totalHouseCount, totalLeftoverCount, totalEligibleCount } = snapshot;
 
+  const filteredPlans = useMemo(() => {
+    const query = search.trim().toLowerCase();
+    if (!query) {
+      return plans;
+    }
+
+    return plans.filter((plan) => {
+      if (plan.environment.toLowerCase().includes(query)) {
+        return true;
+      }
+
+      if (plan.houses.some((house) => house.members.some((member) => member.name.toLowerCase().includes(query) || member.number.includes(query)))) {
+        return true;
+      }
+
+      return plan.leftovers.some((entry) => entry.pokemon.name.toLowerCase().includes(query) || entry.pokemon.number.includes(query));
+    });
+  }, [plans, search]);
+
+  const filteredMissingDataPokemon = useMemo(() => {
+    const query = search.trim().toLowerCase();
+    if (!query) {
+      return missingDataPokemon;
+    }
+
+    return missingDataPokemon.filter((entry) => entry.name.toLowerCase().includes(query) || entry.number.includes(query));
+  }, [missingDataPokemon, search]);
+
   return (
     <div className="space-y-8">
       <div>
@@ -139,6 +199,22 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
       </section>
 
       <section className="rounded-3xl border border-border bg-card p-5">
+        <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+          <input
+            type="text"
+            value={search}
+            onChange={(event) => setSearch(event.target.value)}
+            placeholder="환경명, 포켓몬 이름, 번호로 검색"
+            className="h-11 w-full rounded-2xl border border-border bg-background px-4 text-sm text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20 lg:max-w-md"
+          />
+          <p className="text-xs text-muted-foreground">
+            <span className="mono font-semibold text-foreground">{filteredPlans.length}</span>
+            {search.trim() ? ` / ${plans.length}` : ''}개 환경
+          </p>
+        </div>
+      </section>
+
+      <section className="rounded-3xl border border-border bg-card p-5">
         <h2 className="text-base font-bold text-foreground">배치 기준</h2>
         <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
           <li>1. 같은 집 4마리는 좋아하는 환경이 반드시 같습니다.</li>
@@ -149,9 +225,9 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
         </ul>
       </section>
 
-      {plans.length > 0 ? (
+      {filteredPlans.length > 0 ? (
         <section className="space-y-8">
-          {plans.map((plan) => (
+          {filteredPlans.map((plan) => (
             <section key={plan.environment} className="space-y-4">
               <div className="flex flex-wrap items-end justify-between gap-4">
                 <div>
@@ -260,6 +336,11 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
             </section>
           ))}
         </section>
+      ) : search.trim() ? (
+        <section className="rounded-3xl border border-border bg-card p-8 text-center">
+          <h2 className="text-base font-bold text-foreground">검색 결과가 없습니다.</h2>
+          <p className="mt-2 text-sm text-muted-foreground">환경명이나 포켓몬 이름, 번호를 다시 확인해 주세요.</p>
+        </section>
       ) : (
         <section className="rounded-3xl border border-border bg-card p-8 text-center">
           <h2 className="text-base font-bold text-foreground">아직 배치할 포켓몬이 없습니다.</h2>
@@ -272,12 +353,12 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
         </section>
       )}
 
-      {missingDataPokemon.length > 0 && (
+      {filteredMissingDataPokemon.length > 0 && (
         <section className="rounded-3xl border border-border bg-card p-5">
           <h2 className="text-base font-bold text-foreground">배치 제외 포켓몬</h2>
           <p className="mt-1 text-sm text-muted-foreground">좋아하는 환경 또는 좋아하는 것 데이터가 비어 있어 현재 배치 계산에서 제외된 포켓몬입니다.</p>
           <div className="mt-4 flex flex-wrap gap-2">
-            {missingDataPokemon.map((entry) => (
+            {filteredMissingDataPokemon.map((entry) => (
               <Link
                 key={entry.slug}
                 href={`/pokemon/${entry.slug}`}

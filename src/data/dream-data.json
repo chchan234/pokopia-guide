@@ -26,7 +26,7 @@
       "requiredDollJp": "イーブイにんぎょう",
       "requiredDollKo": "이브이 인형",
       "requiredDollNoteJp": "( パサパサこうやの街 で入手 ▶行き方動画 ) ( ドンヨリうみべの街のダウジングでも入手可能 )",
-      "requiredDollNoteKo": "( 메마른 황야 마을 에서 획득 ) ( 우중충한 해변 마을 다우징으로도 획득 가능)",
+      "requiredDollNoteKo": "(메마른 황야 마을에서 획득) (우중충한 해변 마을 다우징으로도 획득 가능)",
       "legendaryJp": "スイクン",
       "legendaryKo": "스이쿤",
       "findingsJp": [
@@ -37,11 +37,11 @@
         "ニンゲンのきろく"
       ],
       "findingsKo": [
-        "ヒメリのみ",
-        "つたひも",
-        "ひかるキノコ",
-        "各種CD",
-        "ニンゲンのきろく"
+        "과사열매",
+        "덩굴끈",
+        "빛나는 버섯",
+        "각종 CD",
+        "인간의 기록"
       ],
       "notesKo": [
         "CD는 종류가 랜덤으로 나온다",
@@ -54,9 +54,9 @@
       "nameKo": "바위산 꿈섬",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547183",
       "requiredDollJp": "ピッピにんぎょう",
-      "requiredDollKo": "삐삐 인형",
+      "requiredDollKo": "삐삐인형",
       "requiredDollNoteJp": "( ゴツゴツやまの街のダウジングで入手 )",
-      "requiredDollNoteKo": "( 울퉁불퉁 산마을のダウジング에서 획득)",
+      "requiredDollNoteKo": "(울퉁불퉁 산마을 다우징으로 획득)",
       "legendaryJp": null,
       "legendaryKo": null,
       "findingsJp": [
@@ -67,11 +67,11 @@
         "ニンゲンのきろく"
       ],
       "findingsKo": [
-        "たべごろキノコ",
-        "どう",
-        "せっかいせき",
-        "各種CD",
-        "ニンゲンのきろく"
+        "먹음직한 버섯",
+        "구리",
+        "석회석",
+        "각종 CD",
+        "인간의 기록"
       ],
       "notesKo": [
         "CD는 종류가 랜덤으로 나온다",
@@ -86,7 +86,7 @@
       "requiredDollJp": "ウインディにんぎょう",
       "requiredDollKo": "윈디 인형",
       "requiredDollNoteJp": "( ゴツゴツやまの街のダウジングで入手 )",
-      "requiredDollNoteKo": "( 울퉁불퉁 산마을のダウジング에서 획득)",
+      "requiredDollNoteKo": "(울퉁불퉁 산마을 다우징으로 획득)",
       "legendaryJp": "エンテイ",
       "legendaryKo": "앤테이",
       "findingsJp": [
@@ -97,11 +97,11 @@
         "ニンゲンのきろく"
       ],
       "findingsKo": [
-        "てつ",
-        "きん",
-        "ヒカリいし",
-        "各種CD",
-        "ニンゲンのきろく"
+        "철",
+        "금",
+        "빛의돌",
+        "각종 CD",
+        "인간의 기록"
       ],
       "notesKo": [
         "CD는 종류가 랜덤으로 나온다",
@@ -116,7 +116,7 @@
       "requiredDollJp": "ピカチュウにんぎょう",
       "requiredDollKo": "피카츄 인형",
       "requiredDollNoteJp": "( ドンヨリうみべの街 で入手 ▶行き方動画 ) ( ドンヨリうみべの街のダウジングでも入手可能 )",
-      "requiredDollNoteKo": "( 우중충한 해변 마을 에서 획득 ) ( 우중충한 해변 마을 다우징으로도 획득 가능)",
+      "requiredDollNoteKo": "(우중충한 해변 마을에서 획득) (우중충한 해변 마을 다우징으로도 획득 가능)",
       "legendaryJp": "ライコウ",
       "legendaryKo": "라이코",
       "findingsJp": [
@@ -127,11 +127,11 @@
         "ニンゲンのきろく"
       ],
       "findingsKo": [
-        "いとくず",
-        "シーグラスのかけら",
-        "かいがら",
-        "各種CD",
-        "ニンゲンのきろく"
+        "실오라기",
+        "씨글라스 조각",
+        "조개껍질",
+        "각종 CD",
+        "인간의 기록"
       ],
       "notesKo": [
         "CD는 종류가 랜덤으로 나온다",
@@ -146,7 +146,7 @@
       "requiredDollJp": "カイリューにんぎょう",
       "requiredDollKo": "망나뇽 인형",
       "requiredDollNoteJp": "( キラキラうきしまの街 で入手 ▶行き方動画 )",
-      "requiredDollNoteKo": "( 반짝반짝 부유섬 마을 에서 획득 )",
+      "requiredDollNoteKo": "(반짝반짝 부유섬 마을에서 획득)",
       "legendaryJp": "ミュウツー",
       "legendaryKo": "뮤츠",
       "findingsJp": [
@@ -157,11 +157,11 @@
         "ニンゲンのきろく"
       ],
       "findingsKo": [
-        "ポケメタル",
-        "クリスタルのカケラ",
-        "かみのゴミ",
-        "各種CD",
-        "ニンゲンのきろく"
+        "포케메탈",
+        "크리스털 조각",
+        "종이 쓰레기",
+        "각종 CD",
+        "인간의 기록"
       ],
       "notesKo": [
         "CD는 종류가 랜덤으로 나온다",
@@ -180,6 +180,7 @@
       "dreamIslandKo": "황야 꿈섬",
       "noteJp": "ドンヨリうみべの街のダウジングでも入手可能",
       "noteKo": "우중충한 해변 마을 다우징으로도 획득 가능",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_54.png",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547269"
     },
     {
@@ -192,6 +193,7 @@
       "dreamIslandKo": "바다 꿈섬",
       "noteJp": "ドンヨリうみべの街のダウジングでも入手可能",
       "noteKo": "우중충한 해변 마을 다우징으로도 획득 가능",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_206.png",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547269"
     },
     {
@@ -203,19 +205,21 @@
       "dreamIslandJp": "そらのゆめしま",
       "dreamIslandKo": "하늘 꿈섬",
       "noteJp": "ダウジングで入手",
-      "noteKo": "ダウジング에서 획득",
+      "noteKo": "다우징으로 획득",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_367.png",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547269"
     },
     {
       "id": "entry-27ebafab3c",
       "nameJp": "ピッピにんぎょう",
-      "nameKo": "삐삐 인형",
+      "nameKo": "삐삐인형",
       "mapJp": "ゴツゴツやまの街",
       "mapKo": "울퉁불퉁 산마을",
       "dreamIslandJp": "いわやまのゆめしま",
       "dreamIslandKo": "바위산 꿈섬",
       "noteJp": "ゴツゴツやまの街のダウジングで入手",
-      "noteKo": "울퉁불퉁 산마을のダウジング에서 획득",
+      "noteKo": "울퉁불퉁 산마을 다우징으로 획득",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_162.png",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547269"
     },
     {
@@ -227,7 +231,8 @@
       "dreamIslandJp": "かざんのゆめしま",
       "dreamIslandKo": "화산 꿈섬",
       "noteJp": "ゴツゴツやまの街のダウジングで入手",
-      "noteKo": "울퉁불퉁 산마을のダウジング에서 획득",
+      "noteKo": "울퉁불퉁 산마을 다우징으로 획득",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_216.png",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547269"
     },
     {
@@ -240,6 +245,7 @@
       "dreamIslandKo": "랜덤",
       "noteJp": "",
       "noteKo": "",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_164.png",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547269"
     },
     {
@@ -252,6 +258,7 @@
       "dreamIslandKo": "랜덤",
       "noteJp": "",
       "noteKo": "",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_163.png",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547269"
     }
   ],

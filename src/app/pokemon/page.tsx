@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import { allMapNames, allSpecialties, allTypes, pokemon } from '@/lib/data';
 import PokemonFilter from '@/components/pokemon-filter';
 import type { Metadata } from 'next';
@@ -17,7 +18,9 @@ export default function PokemonListPage() {
         </p>
       </div>
 
-      <PokemonFilter pokemon={pokemon} types={allTypes} specialties={allSpecialties} mapNames={allMapNames} />
+      <Suspense fallback={<div className="rounded-3xl border border-border bg-card p-6 text-sm text-muted-foreground">포켓몬 목록을 불러오는 중입니다.</div>}>
+        <PokemonFilter pokemon={pokemon} types={allTypes} specialties={allSpecialties} mapNames={allMapNames} />
+      </Suspense>
     </div>
   );
 }
