@@ -28,7 +28,7 @@ export const areaThemes: Record<string, { color: string; bg: string; en: string 
   '울퉁불퉁 산마을': { color: '#C66E4A', bg: '#FCEDE6', en: 'Rocky Mountain Town' },
   '반짝반짝 부유섬': { color: '#8C63C7', bg: '#F2EBF8', en: 'Sparkling Sky Island' },
   '반짝반짝 부유섬 마을': { color: '#8C63C7', bg: '#F2EBF8', en: 'Sparkling Sky Island Town' },
-  '빈 마을': { color: '#6EBD44', bg: '#E9F5E0', en: 'Blank Town' },
+  '백지마을': { color: '#6EBD44', bg: '#E9F5E0', en: 'Blank Town' },
   '꿈섬': { color: '#D27299', bg: '#FBEAF1', en: 'Dream Island' },
   '미상': { color: '#8E857A', bg: '#F3EFE8', en: 'Unknown' },
 };
@@ -39,7 +39,7 @@ export const habitatRarityTheme: Record<string, { color: string; bg: string }> =
   '매우 희귀': { color: '#C66E4A', bg: '#FCEDE6' },
 };
 
-export const mapOrder = ['메마른 황야', '우중충한 해변', '울퉁불퉁 산', '반짝반짝 부유섬', '빈 마을', '꿈섬', '미상'];
+export const mapOrder = ['메마른 황야', '우중충한 해변', '울퉁불퉁 산', '반짝반짝 부유섬', '백지마을', '꿈섬', '미상'];
 
 export const recordMapOrder = ['메마른 황야 마을', '우중충한 해변 마을', '울퉁불퉁 산마을', '반짝반짝 부유섬 마을', '꿈섬'];
 
