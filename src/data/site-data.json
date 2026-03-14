@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T04:04:38.151Z",
+  "generatedAt": "2026-03-14T08:25:18.582Z",
   "sourceRoot": "/Users/ichan-u/pokopia-guide",
   "stats": {
     "pokemonCount": 306,
@@ -45,8 +45,8 @@
     },
     {
       "key": "blank-town",
-      "name": "백지마을",
-      "recordName": "백지마을",
+      "name": "빈 마을",
+      "recordName": "빈 마을",
       "pokemonCount": 29,
       "recordCount": 0,
       "habitatCount": 25
@@ -3305,7 +3305,7 @@
         "전기로 움직이는 것",
         "메탈릭",
         "반짝이는 것",
-        "모여 있는 것",
+        "모여있는 것",
         "다 같이 사용하는 것",
         "쓴맛"
       ],
@@ -3438,7 +3438,7 @@
         "전기로 움직이는 것",
         "메탈릭",
         "럭셔리",
-        "모여 있는 것",
+        "모여있는 것",
         "딱딱한 것",
         "쓴맛"
       ],
@@ -4314,9 +4314,9 @@
       "habitatNames": [
         "쓰레기 집하장"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-122",
@@ -4409,9 +4409,9 @@
         "좋은 옛 앤티크",
         "쓰레기 집하장"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-158",
@@ -4526,7 +4526,7 @@
       "favoriteItems": [
         "자연이 느껴지는 것",
         "물이 느껴지는 것",
-        "모여 있는 것",
+        "모여있는 것",
         "만발한 꽃",
         "홀쭉한 것",
         "신맛"
@@ -4543,9 +4543,9 @@
       "habitatNames": [
         "몬스터볼 천지"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-066",
@@ -4839,9 +4839,9 @@
       "habitatNames": [
         "나무그늘 풀숲"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-027",
@@ -5242,7 +5242,7 @@
         "천으로 만든 것",
         "흔들리는 것",
         "보고 즐길 수 있는 것",
-        "떫은 맛"
+        "떫은맛"
       ],
       "favoriteItemsNote": null,
       "favoriteItemVariants": [],
@@ -5398,7 +5398,7 @@
         "문자가 있는 것",
         "넣을 수 있는 것",
         "보고 즐길 수 있는 것",
-        "떫은 맛"
+        "떫은맛"
       ],
       "favoriteItemsNote": null,
       "favoriteItemVariants": [],
@@ -5633,9 +5633,9 @@
       "habitatNames": [
         "촉촉한 꽃밭"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-170",
@@ -6092,7 +6092,7 @@
         "럭셔리",
         "반짝이는 것",
         "뾰족한 것",
-        "떫은 맛"
+        "떫은맛"
       ],
       "favoriteItemsNote": null,
       "favoriteItemVariants": [],
@@ -8402,9 +8402,9 @@
       "habitatNames": [
         "촉촉한 풀숲"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-176",
@@ -8644,9 +8644,9 @@
       "primaryHabitatNumber": "020",
       "primaryHabitatIsEvent": false,
       "habitatNames": [],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [],
       "taughtSkills": [],
       "sourceGame8Url": "https://game8.jp/pocoapokemon/767865",
@@ -11745,9 +11745,9 @@
         "봉제인형과 함께 잠들기",
         "나무그늘에서 쿨쿨 잠만보"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-094",
@@ -11929,9 +11929,9 @@
       "primaryHabitatNumber": "047",
       "primaryHabitatIsEvent": false,
       "habitatNames": [],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [],
       "taughtSkills": [],
       "sourceGame8Url": "https://game8.jp/pocoapokemon/767860",
@@ -15525,9 +15525,9 @@
       "habitatNames": [
         "나무그늘 꽃밭"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-021",
@@ -16081,7 +16081,7 @@
           "바다가 느껴지는 것",
           "다 같이 사용하는 것",
           "홀쭉한 것",
-          "모여 있는 것",
+          "모여있는 것",
           "신맛"
         ],
         [
@@ -17312,9 +17312,9 @@
       "habitatNames": [
         "바위그늘 풀숲"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-079",
@@ -17677,9 +17677,9 @@
       "habitatNames": [
         "초록 풀숲"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-169",
@@ -17970,9 +17970,9 @@
       "habitatNames": [
         "예쁜 꽃밭"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-131",
@@ -18463,7 +18463,7 @@
       ],
       "favoriteEnvironment": "어두움",
       "favoriteItems": [
-        "빈짝이는 것",
+        "반짝이는 것",
         "바람이 느껴지는 것",
         "다 같이 사용하는 것",
         "럭셔리",
@@ -19460,9 +19460,9 @@
       "habitatNames": [
         "계산대에서 결제"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-005",
@@ -20007,7 +20007,7 @@
         "트레이닝에 쓰는 것",
         "천으로 만든 것",
         "건설",
-        "모여 있는 것",
+        "모여있는 것",
         "보고 즐길 수 있는 것",
         "매운맛"
       ],
@@ -20549,9 +20549,9 @@
       "habitatNames": [
         "프레시 채소밭"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-201",
@@ -21233,9 +21233,9 @@
       "habitatNames": [
         "나무그늘 풀숲"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-027",
@@ -23495,7 +23495,7 @@
         "물이 느껴지는 것",
         "놀이 공간",
         "소리가 나는 것",
-        "모여 있는 것",
+        "모여있는 것",
         "다 같이 사용하는 것",
         "신맛"
       ],
@@ -29317,7 +29317,7 @@
         "전기로 움직이는 것",
         "바람이 느껴지는 것",
         "바다가 느껴지는 것",
-        "모여 있는 것",
+        "모여있는 것",
         "어려워 보이는 것",
         "매운맛"
       ],
@@ -29418,7 +29418,7 @@
         "전기로 움직이는 것",
         "바람이 느껴지는 것",
         "바다가 느껴지는 것",
-        "모여 있는 것",
+        "모여있는 것",
         "홀쭉한 것",
         "떫은맛"
       ],
@@ -29646,7 +29646,7 @@
         "깜찍한 것",
         "메탈릭",
         "건설",
-        "다 같이 사용하는",
+        "다 같이 사용하는 것",
         "트레이닝에 쓰는 것",
         "신맛"
       ],
@@ -29663,9 +29663,9 @@
         "큰 짐을 싣고",
         "맨홀 점검 중"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-184",
@@ -30762,9 +30762,9 @@
       "habitatNames": [
         "예쁜 꽃밭"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-131",
@@ -30852,9 +30852,9 @@
       "habitatNames": [
         "톡톡 튀는 블루"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-190",
@@ -30946,9 +30946,9 @@
       "habitatNames": [
         "짜릿한 포테이토"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-164",
@@ -31040,9 +31040,9 @@
       "habitatNames": [
         "타오를 만큼 매콤한"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-185",
@@ -31134,9 +31134,9 @@
       "habitatNames": [
         "우아한 오후"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-138",
@@ -31228,9 +31228,9 @@
       "habitatNames": [
         "블랙한 풍미"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-102",
@@ -31322,9 +31322,9 @@
       "habitatNames": [
         "초록 샌드위치"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-168",
@@ -31416,9 +31416,9 @@
       "habitatNames": [
         "시원한 빙수"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-117",
@@ -31510,9 +31510,9 @@
       "habitatNames": [
         "러블리 케이크"
       ],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [
         {
           "id": "habitat-054",
@@ -31900,9 +31900,9 @@
       "primaryHabitatNumber": null,
       "primaryHabitatIsEvent": false,
       "habitatNames": [],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [],
       "taughtSkills": [],
       "sourceGame8Url": "https://game8.jp/pocoapokemon/768022",
@@ -31962,9 +31962,9 @@
       "primaryHabitatNumber": null,
       "primaryHabitatIsEvent": false,
       "habitatNames": [],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [],
       "taughtSkills": [],
       "sourceGame8Url": "https://game8.jp/pocoapokemon/768021",
@@ -32024,9 +32024,9 @@
       "primaryHabitatNumber": null,
       "primaryHabitatIsEvent": false,
       "habitatNames": [],
-      "primaryMap": "백지마을",
+      "primaryMap": "빈 마을",
       "primaryMapKey": "blank-town",
-      "primaryMapRecordLabel": "백지마을",
+      "primaryMapRecordLabel": "빈 마을",
       "habitats": [],
       "taughtSkills": [],
       "sourceGame8Url": "https://game8.jp/pocoapokemon/768020",
@@ -32675,7 +32675,7 @@
       ],
       "mapNames": [
         "메마른 황야",
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -32736,7 +32736,7 @@
       ],
       "mapNames": [
         "메마른 황야",
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -32778,7 +32778,7 @@
         }
       ],
       "mapNames": [
-        "백지마을",
+        "빈 마을",
         "울퉁불퉁 산"
       ]
     },
@@ -32834,7 +32834,7 @@
       ],
       "mapNames": [
         "메마른 황야",
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -33021,7 +33021,7 @@
       ],
       "mapNames": [
         "메마른 황야",
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -33064,7 +33064,7 @@
       ],
       "mapNames": [
         "메마른 황야",
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -33100,7 +33100,7 @@
         }
       ],
       "mapNames": [
-        "백지마을",
+        "빈 마을",
         "우중충한 해변"
       ]
     },
@@ -33290,7 +33290,7 @@
       ],
       "mapNames": [
         "메마른 황야",
-        "백지마을",
+        "빈 마을",
         "울퉁불퉁 산"
       ]
     },
@@ -33454,7 +33454,7 @@
       ],
       "mapNames": [
         "메마른 황야",
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -33732,7 +33732,7 @@
       ],
       "mapNames": [
         "반짝반짝 부유섬",
-        "백지마을",
+        "빈 마을",
         "울퉁불퉁 산"
       ]
     },
@@ -33829,7 +33829,7 @@
       "mapNames": [
         "메마른 황야",
         "반짝반짝 부유섬",
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -34418,7 +34418,7 @@
         }
       ],
       "mapNames": [
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -34452,7 +34452,7 @@
         }
       ],
       "mapNames": [
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -34486,7 +34486,7 @@
         }
       ],
       "mapNames": [
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -35033,7 +35033,7 @@
         }
       ],
       "mapNames": [
-        "백지마을",
+        "빈 마을",
         "우중충한 해변"
       ]
     },
@@ -36086,7 +36086,7 @@
         }
       ],
       "mapNames": [
-        "백지마을",
+        "빈 마을",
         "우중충한 해변"
       ]
     },
@@ -38537,7 +38537,7 @@
       ],
       "mapNames": [
         "반짝반짝 부유섬",
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -40103,7 +40103,7 @@
         }
       ],
       "mapNames": [
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -40135,7 +40135,7 @@
         }
       ],
       "mapNames": [
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -40167,7 +40167,7 @@
         }
       ],
       "mapNames": [
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -40199,7 +40199,7 @@
         }
       ],
       "mapNames": [
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -40231,7 +40231,7 @@
         }
       ],
       "mapNames": [
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -40263,7 +40263,7 @@
         }
       ],
       "mapNames": [
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -40295,7 +40295,7 @@
         }
       ],
       "mapNames": [
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -40327,7 +40327,7 @@
         }
       ],
       "mapNames": [
-        "백지마을"
+        "빈 마을"
       ]
     },
     {
@@ -41169,7 +41169,7 @@
       "name": "통행금지 안내",
       "map": "메마른 황야 마을",
       "mapKey": "wasteland",
-      "locationDetail": "맵 서쪽에 있는 백지마을 입구 부근",
+      "locationDetail": "맵 서쪽에 있는 빈 마을 입구 부근",
       "hasDirectReward": false,
       "directReward": null,
       "directRewardType": null,
