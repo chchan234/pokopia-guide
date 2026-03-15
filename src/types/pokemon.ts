@@ -298,20 +298,28 @@ export interface RecipeEntry {
   sourceUrl: string;
 }
 
+export interface FavoriteTag {
+  id: string;
+  nameJp: string;
+  nameKo: string;
+  translationStatus: string;
+  pokemonCount: number;
+  itemCount: number;
+}
+
 export interface AllItemEntry {
   id: string;
   nameJp: string;
-  nameKo: string | null;
+  nameKo: string;
   imagePath: string | null;
   categoryJp: string;
-  categoryKo: string | null;
-  useJp: string;
-  useKo: string;
-  usageTargetsJp: string[];
-  usageTargetsKo: string[];
-  craftMaterialsJp: string[];
-  craftMaterialsKo: string[];
-  sourceUrl: string;
+  categoryKo: string;
+  descriptionJp: string | null;
+  craftMaterialsJp: { nameJp: string; count: number }[];
+  habitatsJp: { nameJp: string; count: number }[];
+  sourceUrl: string | null;
+  gamewithId: string;
+  gamewithArticleId: string | null;
 }
 
 export interface BuildingEntry {
@@ -384,7 +392,7 @@ export interface EmoteEntry {
 
 export interface BestshotEntry {
   id: string;
-  number: number;
+  number?: number;
   nameJp: string;
   nameKo: string | null;
   imagePath: string | null;
@@ -423,6 +431,7 @@ export interface AncientItemGroup {
 
 export interface ItemsDataSummary {
   itemCount: number;
+  favoriteTagCount: number;
   recipeCount: number;
   shopRecipeCount: number;
   otherRecipeCount: number;
@@ -439,6 +448,8 @@ export interface ItemsDataSummary {
 export interface ItemsData {
   sourceUrls: string[];
   summary: ItemsDataSummary;
+  favoriteTags: FavoriteTag[];
+  pokemonFavoriteTagsBySlug: Record<string, FavoriteTag[]>;
   allItems: AllItemEntry[];
   recipes: {
     shop: RecipeEntry[];

@@ -310,7 +310,7 @@ export const globalSearchEntries: GlobalSearchEntry[] = [
     categoryKey: 'items',
     categoryLabel: '아이템',
     title: entry.nameKo || entry.nameJp,
-    subtitle: [entry.categoryKo || entry.categoryJp, entry.useKo].filter(Boolean).join(' · '),
+    subtitle: [entry.categoryKo, entry.descriptionJp].filter(Boolean).join(' · '),
     href: `/items?tab=allitems&q=${encodeURIComponent(entry.nameKo || entry.nameJp)}`,
     imagePath: entry.imagePath,
     searchText: buildSearchText([
@@ -318,10 +318,7 @@ export const globalSearchEntries: GlobalSearchEntry[] = [
       entry.nameJp,
       entry.categoryKo,
       entry.categoryJp,
-      entry.useKo,
-      entry.useJp,
-      ...entry.usageTargetsKo,
-      ...entry.usageTargetsJp,
+      entry.descriptionJp,
     ]),
   })),
   ...itemsData.recipes.shop.map((entry) => ({

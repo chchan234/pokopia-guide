@@ -146,7 +146,14 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
     const query = search.trim().toLowerCase();
 
     return data.allItems.filter((entry: AllItemEntry) =>
-      matchesQuery(query, [entry.nameKo, entry.nameJp, entry.categoryKo, entry.categoryJp, entry.useKo, entry.useJp, ...entry.usageTargetsKo, ...entry.usageTargetsJp, ...entry.craftMaterialsKo])
+      matchesQuery(query, [
+        entry.nameKo,
+        entry.nameJp,
+        entry.categoryKo,
+        entry.categoryJp,
+        entry.descriptionJp,
+        ...entry.craftMaterialsJp.map((m) => m.nameJp),
+      ])
     );
   }, [data.allItems, search]);
 
@@ -154,9 +161,9 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
     const query = search.trim().toLowerCase();
 
     return data.allItems
-      .filter((entry: AllItemEntry) => entry.craftMaterialsKo.length > 0)
+      .filter((entry: AllItemEntry) => entry.craftMaterialsJp.length > 0)
       .filter((entry: AllItemEntry) =>
-        matchesQuery(query, [entry.nameKo, entry.nameJp, entry.categoryKo, entry.categoryJp, ...entry.craftMaterialsKo])
+        matchesQuery(query, [entry.nameKo, entry.nameJp, entry.categoryKo, entry.categoryJp, ...entry.craftMaterialsJp.map((m) => m.nameJp)])
       );
   }, [data.allItems, search]);
 
@@ -267,22 +274,23 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                   {entry.categoryKo && (
                     <span className="rounded-full bg-pk-green-light px-2.5 py-1 text-[11px] font-semibold text-pk-green-dark">{entry.categoryKo}</span>
                   )}
-                  {entry.usageTargetsKo.length > 0 && (
+                  {entry.craftMaterialsJp.length > 0 && (
                     <span className="rounded-full bg-muted px-2.5 py-1 text-[11px] font-semibold text-muted-foreground">
-                      연결 {entry.usageTargetsKo.length}
+                      제작 가능
                     </span>
                   )}
                 </div>
                 <h3 className="mt-3 text-base font-bold text-foreground">{displayName(entry.nameKo, entry.nameJp)}</h3>
                 <div className="mt-3 space-y-2 text-sm text-muted-foreground">
-                  <p>사용처: {entry.useKo}</p>
-                  {entry.usageTargetsKo.length > 0 && <p>연결 대상: {entry.usageTargetsKo.join(', ')}</p>}
-                  {entry.craftMaterialsKo.length > 0 && (
+                  {entry.descriptionJp && <p>{entry.descriptionJp}</p>}
+                  {entry.craftMaterialsJp.length > 0 && (
                     <div>
                       <p className="font-semibold text-foreground">제작 재료</p>
                       <div className="mt-1 flex flex-wrap gap-1.5">
-                        {entry.craftMaterialsKo.map((mat, i) => (
-                          <MaterialTag key={`${entry.id}-craft-${i}`} material={mat} />
+                        {entry.craftMaterialsJp.map((mat, i) => (
+                          <span key={`${entry.id}-craft-${i}`} className="rounded-full border border-border bg-card px-2.5 py-1 text-xs text-foreground">
+                            {mat.nameJp} ×{mat.count}
+                          </span>
                         ))}
                       </div>
                     </div>
@@ -308,12 +316,14 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                   <div>
                     <p className="font-semibold text-foreground">제작 재료</p>
                     <div className="mt-1 flex flex-wrap gap-1.5">
-                      {entry.craftMaterialsKo.map((mat, i) => (
-                        <MaterialTag key={`${entry.id}-craft-${i}`} material={mat} />
+                      {entry.craftMaterialsJp.map((mat, i) => (
+                        <span key={`${entry.id}-craft-${i}`} className="rounded-full border border-border bg-card px-2.5 py-1 text-xs text-foreground">
+                          {mat.nameJp} ×{mat.count}
+                        </span>
                       ))}
                     </div>
                   </div>
-                  <p className="text-muted-foreground">사용처: {entry.useKo}</p>
+                  {entry.descriptionJp && <p className="text-muted-foreground">{entry.descriptionJp}</p>}
                 </div>
               </article>
             ))}
