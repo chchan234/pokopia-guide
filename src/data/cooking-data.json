@@ -8,7 +8,8 @@
     "categoryCount": 4,
     "notesKo": [
       "요리 해금은 울퉁불퉁 산 스토리 진행 이후",
-      "근처에 특정 특기(점화·분쇄·절삭·발전·급수·리사이클)를 가진 포켓몬이 있으면 요리를 도와 특별한 레시피가 완성된다"
+      "근처 포켓몬이 도와주면 레시피 결과가 달라질 수 있다",
+      "요리명과 재료명은 확보한 한국어 표기를 기준으로 정리했다"
     ]
   },
   "toolCards": [
@@ -32,7 +33,7 @@
       "toolJp": "なべ",
       "toolKo": "냄비",
       "mainIngredientJp": "おいしいみず",
-      "mainIngredientKo": "맛있는물",
+      "mainIngredientKo": "맛있는 물",
       "dishTypeJp": "スープ",
       "dishTypeKo": "수프"
     },
@@ -75,29 +76,11 @@
       "effectKo": "금속 장벽까지 자를 수 있고 차지 범위가 넓어진다"
     }
   ],
-  "offeringSystem": {
-    "descriptionKo": "이끼 잠만보에게 음식을 바치면 하루 동안 특수 효과를 받을 수 있다. 요리를 바치면 생재료보다 훨씬 강한 효과를 얻는다.",
-    "unlockKo": "우중충한 해변 마을 '마을을 밝게 하자!' 클리어 후 해금",
-    "durationKo": "다음 날 오전 5시까지 지속, 하루에 한 번만 변경 가능",
-    "grades": [
-      { "labelKo": "꽤", "labelJp": "かなり", "descriptionKo": "고급 요리를 바칠 때 (최고 등급)" },
-      { "labelKo": "그런대로", "labelJp": "まあまあ", "descriptionKo": "일반 요리를 바칠 때" },
-      { "labelKo": "조금", "labelJp": "ちょっと", "descriptionKo": "생재료를 바칠 때 (최저 등급)" }
-    ],
-    "tasteEffects": [
-      { "tasteKo": "매콤함", "tasteJp": "からい", "effectKo": "서식지에 포켓몬이 잘 나타난다", "topDishKo": "뜨끈뜨끈 수프빵" },
-      { "tasteKo": "달콤함", "tasteJp": "あまい", "effectKo": "고대 유물이 발견되기 쉬워진다", "topDishKo": "감자 햄버그" },
-      { "tasteKo": "쌉쌀함", "tasteJp": "にがい", "effectKo": "희귀한 것이 발견되기 쉬워진다", "topDishKo": "어른의 햄버그" },
-      { "tasteKo": "새콤함", "tasteJp": "すっぱい", "effectKo": "상점에 좋은 물건이 나오기 쉬워진다", "topDishKo": "쥬시 수프" },
-      { "tasteKo": "떫은맛", "tasteJp": "しぶい", "effectKo": "칠색조·루기아 출현 UP, 무지개/은빛 깃털 발견 UP", "topDishKo": "버섯 햄버그" },
-      { "tasteKo": "보통", "tasteJp": "ふつう", "effectKo": "포켓몬과 친해지기 쉬워진다", "topDishKo": "알록달록 햄버그" }
-    ]
-  },
   "recommended": [
     {
       "nameJp": "ジャガイモハンバーグ",
       "nameKo": "감자 햄버그",
-      "reasonKo": "바위깨기 강화폭이 커서 채굴, 정지 작업, 포케메탈 파밍에 가장 쓰기 좋다"
+      "reasonKo": "바위깨기 강화폭이 커서 채굴, 정지 작업, 포켓메탈 파밍에 가장 쓰기 좋다"
     },
     {
       "nameJp": "アツアツスープパン",
@@ -134,7 +117,8 @@
       "boostSummaryJp": "「いあいぎり」がパワーアップ",
       "offeringEffectJp": "すると生息地にポケモンがかなり現れやすくなる",
       "offeringEffectKo": "공물로 바치면 서식지에 포켓몬이 훨씬 잘 나타난다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「いあいぎり」がパワーアップ。生息地にポケモンがかなり現れやすくなる"
     },
     {
       "id": "entry-c274bce394",
@@ -166,7 +150,8 @@
       "boostSummaryJp": "「いわくだき」がとてもパワーアップ",
       "offeringEffectJp": "するとポケモンとかなり仲良くなれる",
       "offeringEffectKo": "공물로 바치면 포켓몬과 훨씬 빨리 친해진다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「いわくだき」がとてもパワーアップ。ポケモンとかなり仲良くなれる"
     },
     {
       "id": "entry-949de80c02",
@@ -198,7 +183,8 @@
       "boostSummaryJp": "「いわくだき」がパワーアップ",
       "offeringEffectJp": "するとめずらしいものがかなり見つかりやすくなる",
       "offeringEffectKo": "공물로 바치면 희귀한 것을 훨씬 쉽게 찾는다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「いわくだき」がパワーアップ。めずらしいものがかなり見つかりやすくなる"
     },
     {
       "id": "entry-6081b64408",
@@ -226,7 +212,8 @@
       "boostSummaryJp": "「このは」がパワーアップ",
       "offeringEffectJp": "するとめずらしいものがまあまあ見つかりやすくなる",
       "offeringEffectKo": "공물로 바치면 희귀한 것을 비교적 쉽게 찾는다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「このは」がパワーアップ。めずらしいものがまあまあ見つかりやすくなる"
     },
     {
       "id": "entry-bb78e3fb0e",
@@ -256,7 +243,8 @@
       "boostSummaryJp": "「みずでっぽう」がパワーアップ",
       "offeringEffectJp": "するとめずらしいものがまあまあ見つかりやすくなる",
       "offeringEffectKo": "공물로 바치면 희귀한 것을 비교적 쉽게 찾는다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「みずでっぽう」がパワーアップ。めずらしいものがまあまあ見つかりやすくなる"
     },
     {
       "id": "entry-1146c00cbb",
@@ -274,7 +262,7 @@
       ],
       "materialsKo": [
         "콩",
-        "먹음직한 버섯",
+        "먹기 좋은 버섯",
         "아무거나×2"
       ],
       "helperSpecialtyJp": null,
@@ -285,8 +273,9 @@
       "boostedSkillKo": "바위깨기",
       "boostSummaryJp": "「いわくだき」がパワーアップ",
       "offeringEffectJp": "すると ホウオウ / ルギア をまあまあ見かけやすくなる",
-      "offeringEffectKo": "공물로 바치면 칠색조 / 루기아를 비교적 자주 본다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "offeringEffectKo": "공물로 바치면 호우오우 / 루기아를 비교적 자주 본다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「いわくだき」がパワーアップ。ホウオウ/ルギアをまあまあ見かけやすくなる"
     },
     {
       "id": "entry-54cd12249b",
@@ -304,7 +293,7 @@
       ],
       "materialsKo": [
         "맛있는물",
-        "먹음직한 버섯",
+        "먹기 좋은 버섯",
         "아무거나"
       ],
       "helperSpecialtyJp": null,
@@ -315,8 +304,9 @@
       "boostedSkillKo": "물대포",
       "boostSummaryJp": "「みずでっぽう」がパワーアップ",
       "offeringEffectJp": "すると ホウオウ / ルギア をまあまあ見かけやすくなる",
-      "offeringEffectKo": "공물로 바치면 칠색조 / 루기아를 비교적 자주 본다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "offeringEffectKo": "공물로 바치면 호우오우 / 루기아를 비교적 자주 본다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「みずでっぽう」がパワーアップ。ホウオウ/ルギアをまあまあ見かけやすくなる"
     },
     {
       "id": "entry-8fb3d28ed2",
@@ -334,7 +324,7 @@
       ],
       "materialsKo": [
         "밀",
-        "먹음직한 당근",
+        "먹기 좋은 당근",
         "아무거나"
       ],
       "helperSpecialtyJp": null,
@@ -346,7 +336,8 @@
       "boostSummaryJp": "「いあいぎり」がパワーアップ",
       "offeringEffectJp": "すると生息地にポケモンがまあまあ現れやすくなる",
       "offeringEffectKo": "공물로 바치면 서식지에 포켓몬이 비교적 잘 나타난다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「いあいぎり」がパワーアップ。生息地にポケモンがまあまあ現れやすくなる"
     },
     {
       "id": "entry-7f3ff60c6c",
@@ -374,7 +365,8 @@
       "boostSummaryJp": "「このは」がパワーアップ",
       "offeringEffectJp": "すると生息地にポケモンがかなり現れやすくなる",
       "offeringEffectKo": "공물로 바치면 서식지에 포켓몬이 훨씬 잘 나타난다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「このは」がパワーアップ。生息地にポケモンがかなり現れやすくなる"
     },
     {
       "id": "entry-74b3b59a3d",
@@ -404,7 +396,8 @@
       "boostSummaryJp": "「いわくだき」がとてもパワーアップ",
       "offeringEffectJp": "すると いにしえのもの がまあまあ現れやすくなる",
       "offeringEffectKo": "공물로 바치면 고대의 물건이 비교적 잘 나온다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「いわくだき」がとてもパワーアップ。いにしえのものがまあまあ現れやすくなる"
     },
     {
       "id": "entry-6e6cd47c8b",
@@ -434,7 +427,8 @@
       "boostSummaryJp": "「みずでっぽう」がパワーアップ",
       "offeringEffectJp": "するとショップにいいものがかなり並びやすくなる",
       "offeringEffectKo": "공물로 바치면 상점에 좋은 물건이 훨씬 잘 뜬다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「みずでっぽう」がパワーアップ。ショップにいいものがかなり並びやすくなる"
     },
     {
       "id": "entry-479b370c41",
@@ -461,8 +455,10 @@
       "boostedSkillKo": "나뭇잎",
       "boostSummaryJp": "「このは」がパワーアップ",
       "offeringEffectJp": "すると ホウオウ / ルギア をかなり見かけやすくなる",
-      "offeringEffectKo": "공물로 바치면 칠색조 / 루기아를 훨씬 자주 본다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "offeringEffectKo": "공물로 바치면 호우오우 / 루기아를 훨씬 자주 본다",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「このは」がパワーアップ。ホウオウ/ルギアをかなり見かけやすくなる",
+      "specialRequirementJp": "つぶすが得意なポケモン必要"
     },
     {
       "id": "entry-24934ddd90",
@@ -490,7 +486,9 @@
       "boostSummaryJp": "「このは」がパワーアップ",
       "offeringEffectJp": "するとショップにいいものがまあまあ並びやすくなる",
       "offeringEffectKo": "공물로 바치면 상점에 좋은 물건이 비교적 잘 뜬다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「このは」がパワーアップ。ショップにいいものがまあまあ並びやすくなる",
+      "specialRequirementJp": "きをきるが得意なポケモン必要"
     },
     {
       "id": "entry-804e29ea5c",
@@ -520,12 +518,13 @@
       "boostSummaryJp": "「いわくだき」がパワーアップ",
       "offeringEffectJp": "するとショップにいいものがまあまあ並びやすくなる",
       "offeringEffectKo": "공물로 바치면 상점에 좋은 물건이 비교적 잘 뜬다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「いわくだき」がパワーアップ。ショップにいいものがまあまあ並びやすくなる"
     },
     {
       "id": "entry-1b29dea9da",
       "nameJp": "ヒメリサラダ",
-      "nameKo": "과사 샐러드",
+      "nameKo": "히메리 샐러드",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_700.png",
       "categoryJp": "サラダ",
       "categoryKo": "샐러드",
@@ -548,12 +547,13 @@
       "boostSummaryJp": "「このは」がパワーアップ",
       "offeringEffectJp": "すると いにしえのもの がまあまあ現れやすくなる",
       "offeringEffectKo": "공물로 바치면 고대의 물건이 비교적 잘 나온다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「このは」がパワーアップ。いにしえのものがまあまあ現れやすくなる"
     },
     {
       "id": "entry-bf7aa0d046",
       "nameJp": "ヒメリパン",
-      "nameKo": "과사 빵",
+      "nameKo": "히메리 빵",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_710.png",
       "categoryJp": "パン",
       "categoryKo": "빵",
@@ -578,7 +578,8 @@
       "boostSummaryJp": "「いあいぎり」がパワーアップ",
       "offeringEffectJp": "するとショップにいいものがまあまあ並びやすくなる",
       "offeringEffectKo": "공물로 바치면 상점에 좋은 물건이 비교적 잘 뜬다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「いあいぎり」がパワーアップ。ショップにいいものがまあまあ並びやすくなる"
     },
     {
       "id": "entry-4f71558074",
@@ -606,7 +607,9 @@
       "boostSummaryJp": "「みずでっぽう」がパワーアップ",
       "offeringEffectJp": "すると生息地にポケモンがまあまあ現れやすくなる",
       "offeringEffectKo": "공물로 바치면 서식지에 포켓몬이 비교적 잘 나타난다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「みずでっぽう」がパワーアップ。生息地にポケモンがまあまあ現れやすくなる",
+      "specialRequirementJp": "はつでんが得意なポケモン必要"
     },
     {
       "id": "entry-585eb0526a",
@@ -636,7 +639,9 @@
       "boostSummaryJp": "「いあいぎり」がパワーアップ",
       "offeringEffectJp": "すると いにしえのもの がかなり現れやすくなる",
       "offeringEffectKo": "공물로 바치면 고대의 물건이 훨씬 잘 나온다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「いあいぎり」がパワーアップ。いにしえのものがかなり現れやすくなる",
+      "specialRequirementJp": "うるおすが得意なポケモン必要"
     },
     {
       "id": "entry-f12fa2345b",
@@ -664,7 +669,8 @@
       "boostSummaryJp": "「このは」がパワーアップ",
       "offeringEffectJp": "するとポケモンとまあまあ仲良くなれる",
       "offeringEffectKo": "공물로 바치면 포켓몬과 비교적 빨리 친해진다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「このは」がパワーアップ。ポケモンとまあまあ仲良くなれる"
     },
     {
       "id": "entry-a49456a8d9",
@@ -692,7 +698,8 @@
       "boostSummaryJp": "「いあいぎり」がパワーアップ",
       "offeringEffectJp": "するとポケモンとまあまあ仲良くなれる",
       "offeringEffectKo": "공물로 바치면 포켓몬과 비교적 빨리 친해진다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「いあいぎり」がパワーアップ。ポケモンとまあまあ仲良くなれる"
     },
     {
       "id": "entry-4a14de428c",
@@ -720,7 +727,8 @@
       "boostSummaryJp": "「いわくだき」がパワーアップ",
       "offeringEffectJp": "するとポケモンとまあまあ仲良くなれる",
       "offeringEffectKo": "공물로 바치면 포켓몬과 비교적 빨리 친해진다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「いわくだき」がパワーアップ。ポケモンとまあまあ仲良くなれる"
     },
     {
       "id": "entry-3805de962c",
@@ -750,7 +758,8 @@
       "boostSummaryJp": "「みずでっぽう」がパワーアップ",
       "offeringEffectJp": "するとポケモンとまあまあ仲良くなれる",
       "offeringEffectKo": "공물로 바치면 포켓몬과 비교적 빨리 친해진다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「みずでっぽう」がパワーアップ。ポケモンとまあまあ仲良くなれる"
     },
     {
       "id": "entry-022b540ce8",
@@ -780,7 +789,8 @@
       "boostSummaryJp": "「みずでっぽう」がパワーアップ",
       "offeringEffectJp": "すると生息地にポケモンがかなり現れやすくなる",
       "offeringEffectKo": "공물로 바치면 서식지에 포켓몬이 훨씬 잘 나타난다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「みずでっぽう」がパワーアップ。生息地にポケモンがかなり現れやすくなる"
     },
     {
       "id": "entry-bb3c08bb5a",
@@ -810,7 +820,69 @@
       "boostSummaryJp": "「いあいぎり」がパワーアップ",
       "offeringEffectJp": "するとめずらしいものがまあまあ見つかりやすくなる",
       "offeringEffectKo": "공물로 바치면 희귀한 것을 비교적 쉽게 찾는다",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545733",
+      "effectDetailJp": "「いあいぎり」がパワーアップ。めずらしいものがまあまあ見つかりやすくなる",
+      "specialRequirementJp": "リサイクルが得意なポケモン必要"
     }
-  ]
+  ],
+  "offeringSystem": {
+    "descriptionKo": "이끼 잠만보에게 음식을 바치면 하루 동안 특수 효과를 받을 수 있다. 요리를 바치면 생재료보다 훨씬 강한 효과를 얻는다.",
+    "unlockKo": "우중충한 해변 마을 '마을을 밝게 하자!' 클리어 후 해금",
+    "durationKo": "다음 날 오전 5시까지 지속, 하루에 한 번만 변경 가능",
+    "grades": [
+      {
+        "labelKo": "꽤",
+        "labelJp": "かなり",
+        "descriptionKo": "고급 요리를 바칠 때 (최고 등급)"
+      },
+      {
+        "labelKo": "그런대로",
+        "labelJp": "まあまあ",
+        "descriptionKo": "일반 요리를 바칠 때"
+      },
+      {
+        "labelKo": "조금",
+        "labelJp": "ちょっと",
+        "descriptionKo": "생재료를 바칠 때 (최저 등급)"
+      }
+    ],
+    "tasteEffects": [
+      {
+        "tasteKo": "매콤함",
+        "tasteJp": "からい",
+        "effectKo": "서식지에 포켓몬이 잘 나타난다",
+        "topDishKo": "뜨끈뜨끈 수프빵"
+      },
+      {
+        "tasteKo": "달콤함",
+        "tasteJp": "あまい",
+        "effectKo": "고대 유물이 발견되기 쉬워진다",
+        "topDishKo": "감자 햄버그"
+      },
+      {
+        "tasteKo": "쌉쌀함",
+        "tasteJp": "にがい",
+        "effectKo": "희귀한 것이 발견되기 쉬워진다",
+        "topDishKo": "어른의 햄버그"
+      },
+      {
+        "tasteKo": "새콤함",
+        "tasteJp": "すっぱい",
+        "effectKo": "상점에 좋은 물건이 나오기 쉬워진다",
+        "topDishKo": "쥬시 수프"
+      },
+      {
+        "tasteKo": "떫은맛",
+        "tasteJp": "しぶい",
+        "effectKo": "칠색조·루기아 출현 UP, 무지개/은빛 깃털 발견 UP",
+        "topDishKo": "버섯 햄버그"
+      },
+      {
+        "tasteKo": "보통",
+        "tasteJp": "ふつう",
+        "effectKo": "포켓몬과 친해지기 쉬워진다",
+        "topDishKo": "알록달록 햄버그"
+      }
+    ]
+  }
 }

@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import CollectionToggleButton from '@/components/collection-toggle-button';
 import { getRecordById, humanRecords } from '@/lib/data';
@@ -96,7 +95,7 @@ export default async function RecordDetailPage({
               <article key={`${record.id}-${reward.category}-${reward.name}`} className="rounded-2xl border border-border bg-card p-4">
                 <div className="flex h-[120px] items-center justify-center rounded-2xl bg-muted/30">
                   {reward.imagePath ? (
-                    <Image src={reward.imagePath} alt={reward.name} width={96} height={96} className="object-contain" />
+                    <Image src={reward.imagePath} alt={reward.name} width={96} height={96} className="object-contain" unoptimized={reward.imagePath.startsWith('http')} />
                   ) : (
                     <span className="text-xs text-muted-foreground">이미지 없음</span>
                   )}

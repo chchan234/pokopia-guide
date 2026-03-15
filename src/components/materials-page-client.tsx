@@ -81,7 +81,7 @@ export default function MaterialsPageClient({ materials }: MaterialsPageClientPr
             type="text"
             value={search}
             onChange={(event) => setSearch(event.target.value)}
-            placeholder="재료 이름 검색 (예: 밀, 구리 주괴, 포케메탈)"
+            placeholder="재료 이름 검색 (예: 밀, 구리 주괴, 포켓메탈)"
             className="h-12 w-full rounded-2xl border border-border bg-background px-4 pr-10 text-[16px] text-foreground placeholder:text-muted-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20"
           />
           {search && (
@@ -139,7 +139,7 @@ export default function MaterialsPageClient({ materials }: MaterialsPageClientPr
                       <div className="flex items-center gap-3 rounded-2xl border border-border bg-background px-4 py-3 transition-colors hover:border-pk-green">
                         {usage.imagePath && (
                           <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-muted/40">
-                            <Image src={usage.imagePath} alt="" aria-hidden width={32} height={32} className="max-h-8 w-auto object-contain" />
+                            <Image src={usage.imagePath} alt="" aria-hidden width={32} height={32} className="max-h-8 w-auto object-contain" unoptimized={usage.imagePath.startsWith('http')} />
                           </div>
                         )}
                         <div className="min-w-0 flex-1">
@@ -183,7 +183,7 @@ export default function MaterialsPageClient({ materials }: MaterialsPageClientPr
         <section className="rounded-3xl border border-border bg-card p-5">
           <h2 className="text-base font-bold text-foreground">자주 찾는 재료</h2>
           <div className="mt-3 flex flex-wrap gap-2">
-            {['콩', '잎사귀', '밀', '맛있는물', '감자', '해초', '토마토', '포케메탈', '구리 주괴', '금 주괴', '돌', '얼음'].map((mat) => {
+            {['콩', '잎사귀', '밀', '맛있는물', '감자', '해초', '토마토', '포켓메탈', '구리 주괴', '금 주괴', '돌', '얼음'].map((mat) => {
               const exists = materials.some((m) => m.material.toLowerCase() === mat.toLowerCase());
               if (!exists) return null;
               return (

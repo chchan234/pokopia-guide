@@ -5,6 +5,7 @@ import hashlib
 import json
 import os
 import re
+from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Iterable
@@ -49,6 +50,10 @@ MATERIAL_MAP_FILE = DATA_DIR / 'pokopia_habitat_material_editorial_map_ko.json'
 MATERIAL_MANUAL_MAP_FILE = DATA_DIR / 'pokopia_habitat_material_manual_map_ko.csv'
 GUIDE_TRANSLATION_MAP_FILE = DATA_DIR / 'pokopia_guide_translation_map_ko.csv'
 EXTRA_TERM_MAP_FILE = DATA_DIR / 'pokopia_extra_content_manual_map_ko.csv'
+FAVORITE_TAG_KO_FILE = DATA_DIR / 'pokopia_gamewith_favorite_tags_ko.csv'
+FAVORITE_TAG_MASTER_FILE = DATA_DIR / 'gamewith_favorite_tags_master.csv'
+FAVORITE_TAG_POKEMON_FILE = DATA_DIR / 'gamewith_pokemon_favorite_tags.csv'
+FAVORITE_TAG_ITEM_FILE = DATA_DIR / 'gamewith_item_favorite_tags.csv'
 HUMAN_RECORDS_FILE = DATA_DIR / 'pokopia_human_records_master_ko_editorial.csv'
 
 DREAM_SOURCE_URL = 'https://gamewith.jp/pocoapokemon/547183'
@@ -128,6 +133,28 @@ def load_guide_term_map() -> dict[str, str]:
 
 
 GUIDE_TERM_KO = load_guide_term_map()
+
+
+def load_favorite_tag_translation_map() -> dict[str, dict[str, str]]:
+    if not FAVORITE_TAG_KO_FILE.exists():
+        return {}
+
+    mapping: dict[str, dict[str, str]] = {}
+    with FAVORITE_TAG_KO_FILE.open(encoding='utf-8') as file:
+        for row in csv.DictReader(file):
+            tag_id = (row.get('tag_id') or '').strip()
+            name_ko = (row.get('tag_label_ko') or '').strip()
+            if not tag_id or not name_ko:
+                continue
+
+            mapping[tag_id] = {
+                'nameKo': name_ko,
+                'translationStatus': (row.get('translation_status') or 'manual').strip() or 'manual',
+            }
+    return mapping
+
+
+FAVORITE_TAG_TRANSLATIONS = load_favorite_tag_translation_map()
 
 
 def load_official_item_name_map() -> dict[str, str]:
@@ -891,6 +918,7 @@ ITEM_NAME_ALIASES = {
     'てるてるポワルン（晴れ）': 'てるてるポワルン',
     'パーティプレート': 'パーティープレート',
     'やねがわらのレシピセット': 'やねがわらレシピセット',
+    'ゲーミングヘッド': 'ゲーミングベッド',
 }
 
 RECIPE_IMAGE_ALIASES = {
@@ -936,6 +964,69 @@ class GamewithItemRecord:
 
 def load_site_data() -> dict:
     return json.loads(SITE_DATA_FILE.read_text(encoding='utf-8'))
+
+
+def build_favorite_tag_payload(site_data: dict) -> tuple[list[dict], dict[str, list[dict]], dict[str, set[str]], dict[str, set[str]]]:
+    if not FAVORITE_TAG_MASTER_FILE.exists():
+        return [], {}, {}, {}
+
+    tag_master: dict[str, dict] = {}
+    with FAVORITE_TAG_MASTER_FILE.open(encoding='utf-8') as file:
+        for row in csv.DictReader(file):
+            tag_id = (row.get('tag_id') or '').strip()
+            name_jp = (row.get('tag_label_jp') or '').strip()
+            if not tag_id or not name_jp:
+                continue
+
+            translation = FAVORITE_TAG_TRANSLATIONS.get(tag_id, {})
+            tag_master[tag_id] = {
+                'id': tag_id,
+                'nameJp': name_jp,
+                'nameKo': translation.get('nameKo', name_jp),
+                'translationStatus': translation.get('translationStatus', 'untranslated'),
+                'pokemonCount': int((row.get('pokemon_count') or '0').strip() or 0),
+                'itemCount': int((row.get('item_count') or '0').strip() or 0),
+            }
+
+    pokemon_slugs_by_name_jp: dict[str, set[str]] = defaultdict(set)
+    for entry in site_data.get('pokemon', []):
+        name_jp = (entry.get('nameJp') or '').strip()
+        slug = (entry.get('slug') or '').strip()
+        if name_jp and slug:
+            pokemon_slugs_by_name_jp[name_jp].add(slug)
+
+    pokemon_tag_ids_by_slug: dict[str, set[str]] = defaultdict(set)
+    if FAVORITE_TAG_POKEMON_FILE.exists():
+        with FAVORITE_TAG_POKEMON_FILE.open(encoding='utf-8') as file:
+            for row in csv.DictReader(file):
+                name_jp = (row.get('pokemon_name_jp') or '').strip()
+                tag_id = (row.get('tag_id') or '').strip()
+                if not name_jp or tag_id not in tag_master:
+                    continue
+
+                for slug in pokemon_slugs_by_name_jp.get(name_jp, ()):
+                    pokemon_tag_ids_by_slug[slug].add(tag_id)
+
+    item_tag_ids_by_name_jp: dict[str, set[str]] = defaultdict(set)
+    item_tag_ids_by_normalized_name: dict[str, set[str]] = defaultdict(set)
+    if FAVORITE_TAG_ITEM_FILE.exists():
+        with FAVORITE_TAG_ITEM_FILE.open(encoding='utf-8') as file:
+            for row in csv.DictReader(file):
+                name_jp = (row.get('item_name_jp') or '').strip()
+                tag_id = (row.get('tag_id') or '').strip()
+                if not name_jp or tag_id not in tag_master:
+                    continue
+
+                item_tag_ids_by_name_jp[name_jp].add(tag_id)
+                item_tag_ids_by_normalized_name[normalize_lookup_key(name_jp)].add(tag_id)
+
+    favorite_tags = sorted(tag_master.values(), key=lambda entry: int(entry['id'].removeprefix('tag')))
+    pokemon_favorite_tags_by_slug = {
+        slug: [tag_master[tag_id] for tag_id in sorted(tag_ids, key=lambda value: int(value.removeprefix('tag')))]
+        for slug, tag_ids in pokemon_tag_ids_by_slug.items()
+    }
+
+    return favorite_tags, pokemon_favorite_tags_by_slug, item_tag_ids_by_name_jp, item_tag_ids_by_normalized_name
 
 
 def load_emote_obtain_map() -> dict[str, str]:
@@ -1132,6 +1223,25 @@ def lookup_gamewith_record(name_jp: str, records: dict[str, GamewithItemRecord])
             return record
 
     return None
+
+
+def lookup_favorite_tag_ids(
+    name_jp: str,
+    item_tag_ids_by_name_jp: dict[str, set[str]],
+    item_tag_ids_by_normalized_name: dict[str, set[str]],
+) -> list[str]:
+    found: set[str] = set()
+
+    for candidate in lookup_candidates(name_jp):
+        found.update(item_tag_ids_by_name_jp.get(candidate, set()))
+
+    if found:
+        return sorted(found, key=lambda value: int(value.removeprefix('tag')))
+
+    for candidate in lookup_candidates(name_jp):
+        found.update(item_tag_ids_by_normalized_name.get(normalize_lookup_key(candidate), set()))
+
+    return sorted(found, key=lambda value: int(value.removeprefix('tag')))
 
 
 def load_gamewith_recipe_reference_images(records: dict[str, GamewithItemRecord]) -> dict[str, ImageEntry]:
@@ -2378,6 +2488,9 @@ def parse_all_items(
     label_ko: dict[str, str],
     item_images: dict[str, ImageEntry],
     item_records: dict[str, GamewithItemRecord],
+    favorite_tag_master: dict[str, dict],
+    item_tag_ids_by_name_jp: dict[str, set[str]],
+    item_tag_ids_by_normalized_name: dict[str, set[str]],
 ) -> list[dict]:
     if not GAME8_ITEM_PAGE.exists():
         return []
@@ -2396,6 +2509,7 @@ def parse_all_items(
             continue
 
         record = lookup_gamewith_record(name_jp, item_records)
+        favorite_tag_ids = lookup_favorite_tag_ids(name_jp, item_tag_ids_by_name_jp, item_tag_ids_by_normalized_name)
         category_jp = category_cell.get_text(' ', strip=True) or (record.category_jp if record else '') or 'その他'
         use_jp = use_cell.get_text(' ', strip=True)
         usage_targets_jp = [link.get_text(' ', strip=True) for link in use_cell.select('a.a-link') if link.get_text(' ', strip=True)]
@@ -2422,6 +2536,11 @@ def parse_all_items(
                 'useKo': translate_place_text(replace_all(use_jp, ITEM_USE_LABEL_KO), pokemon_ko, material_map, label_ko),
                 'usageTargetsJp': usage_targets_jp,
                 'usageTargetsKo': [translate_name_text(target, pokemon_ko, material_map, label_ko) for target in usage_targets_jp],
+                'favoriteTagIds': favorite_tag_ids,
+                'favoriteTagsJp': [favorite_tag_master[tag_id]['nameJp'] for tag_id in favorite_tag_ids if tag_id in favorite_tag_master],
+                'favoriteTagsKo': [favorite_tag_master[tag_id]['nameKo'] for tag_id in favorite_tag_ids if tag_id in favorite_tag_master],
+                'craftMaterialsJp': [],
+                'craftMaterialsKo': [],
                 'sourceUrl': absolute_source_url(item_link.get('href') if item_link else None, GAME8_ITEM_SOURCE_URL),
             }
         )
@@ -2535,6 +2654,7 @@ def parse_ancient_groups(item_images: dict[str, ImageEntry]) -> list[dict]:
 
 
 def build_items_payload(
+    site_data: dict,
     label_ko: dict[str, str],
     pokemon_ko: dict[str, str],
     material_map: dict[str, str],
@@ -2543,7 +2663,18 @@ def build_items_payload(
     item_records = load_gamewith_item_records(GAMEWITH_ITEMDATA_PAGES)
     recipe_reference_images = load_gamewith_recipe_reference_images(item_records)
     emote_obtain_map = load_emote_obtain_map()
-    all_items = parse_all_items(pokemon_ko, material_map, label_ko, image_groups['item'], item_records)
+    favorite_tags, pokemon_favorite_tags_by_slug, item_tag_ids_by_name_jp, item_tag_ids_by_normalized_name = build_favorite_tag_payload(site_data)
+    favorite_tag_master = {entry['id']: entry for entry in favorite_tags}
+    all_items = parse_all_items(
+        pokemon_ko,
+        material_map,
+        label_ko,
+        image_groups['item'],
+        item_records,
+        favorite_tag_master,
+        item_tag_ids_by_name_jp,
+        item_tag_ids_by_normalized_name,
+    )
     resolved_item_images = dict(image_groups['item'])
     resolved_item_images.update(recipe_reference_images)
     for record in item_records.values():
@@ -2584,6 +2715,7 @@ def build_items_payload(
         ],
         'summary': {
             'itemCount': len(all_items),
+            'favoriteTagCount': len(favorite_tags),
             'recipeCount': len(shop_recipes) + len(other_recipes),
             'shopRecipeCount': len(shop_recipes),
             'otherRecipeCount': len(other_recipes),
@@ -2600,6 +2732,8 @@ def build_items_payload(
                 '아이템명은 인게임 확인 재료명과 확보한 한국어 표기를 우선 반영했다',
             ],
         },
+        'favoriteTags': favorite_tags,
+        'pokemonFavoriteTagsBySlug': pokemon_favorite_tags_by_slug,
         'allItems': all_items,
         'recipes': {
             'shop': shop_recipes,
@@ -2638,7 +2772,7 @@ def main() -> None:
         ],
     }
     cooking_payload = parse_cooking(label_ko, pokemon_ko, image_groups['item'])
-    items_payload = build_items_payload(label_ko, pokemon_ko, material_map, image_groups)
+    items_payload = build_items_payload(site_data, label_ko, pokemon_ko, material_map, image_groups)
 
     write_json(OUTPUT_DIR / 'dream-data.json', dream_payload)
     write_json(OUTPUT_DIR / 'cooking-data.json', cooking_payload)

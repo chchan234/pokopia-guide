@@ -40,7 +40,7 @@ export default function PokemonCard({ pokemon: entry }: { pokemon: Pokemon }) {
 
         <div className="mb-3 flex justify-center rounded-2xl bg-gradient-to-b from-white to-pk-green-light/25 py-3">
           {entry.imagePath ? (
-            <Image src={entry.imagePath} alt={entry.name} width={84} height={84} className="object-contain" />
+            <Image src={entry.imagePath} alt={entry.name} width={84} height={84} className="object-contain" unoptimized={entry.imagePath.startsWith('http')} />
           ) : (
             <div className="flex h-[84px] w-[84px] items-center justify-center rounded-full bg-muted text-[11px] text-muted-foreground">
               이미지 없음

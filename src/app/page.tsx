@@ -20,16 +20,14 @@ export default function HomePage() {
           <h2 className="text-lg font-extrabold text-foreground">바로 찾기</h2>
         </div>
 
-        <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
+        <div className="flex flex-wrap gap-2">
           {quickLinks.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="rounded-3xl border border-border bg-card p-5 transition-colors hover:border-pk-green hover:bg-pk-green-light/30"
+              className="inline-flex items-center gap-1.5 rounded-full border border-border bg-card px-4 py-2 text-sm font-semibold text-foreground transition-colors hover:border-pk-green hover:bg-pk-green-light/30"
             >
-              <div className="text-[11px] font-semibold text-muted-foreground">{item.groupLabel}</div>
-              <div className="mt-2 text-lg font-bold text-foreground">{item.label}</div>
-              {item.description ? <p className="mt-1 text-sm text-muted-foreground">{item.description}</p> : null}
+              <span>{item.label}</span>
             </Link>
           ))}
         </div>

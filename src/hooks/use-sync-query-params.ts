@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useMemo } from 'react';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { buildUpdatedSearchParams, type QueryParamValue } from '@/lib/url-state';
 
@@ -12,20 +12,16 @@ export function useSyncQueryParams(updates: Record<string, QueryParamValue>) {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const prevRef = useRef<Record<string, QueryParamValue>>(updates);
-
-  // updates 객체의 얕은 비교로 실제 변경 시에만 참조를 갱신
-  const keys = Object.keys(updates);
-  const prevKeys = Object.keys(prevRef.current);
-  const changed =
-    keys.length !== prevKeys.length ||
-    keys.some((key) => updates[key] !== prevRef.current[key]);
-
-  if (changed) {
-    prevRef.current = updates;
-  }
-
-  const stableUpdates = prevRef.current;
+  const updateSignature = useMemo(() => {
+    const entries = Object.keys(updates)
+      .sort()
+      .map((key) => [key, updates[key]]);
+    return JSON.stringify(entries);
+  }, [updates]);
+  const stableUpdates = useMemo(
+    () => Object.fromEntries(JSON.parse(updateSignature) as Array<[string, QueryParamValue]>) as Record<string, QueryParamValue>,
+    [updateSignature]
+  );
 
   useEffect(() => {
     const current = searchParams.toString();

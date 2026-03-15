@@ -295,23 +295,36 @@ export interface RecipeEntry {
   sourceJp: string;
   sourceKo: string;
   price: number | null;
+  materialsJp?: string[];
+  materialsKo?: string[];
+  category?: string | null;
+  subCategory?: string | null;
   sourceUrl: string;
+}
+
+export interface FavoriteTag {
+  id: string;
+  nameJp: string;
+  nameKo: string;
+  translationStatus: string;
+  pokemonCount: number;
+  itemCount: number;
 }
 
 export interface AllItemEntry {
   id: string;
   nameJp: string;
-  nameKo: string | null;
+  nameKo: string;
   imagePath: string | null;
   categoryJp: string;
-  categoryKo: string | null;
-  useJp: string;
-  useKo: string;
-  usageTargetsJp: string[];
-  usageTargetsKo: string[];
-  craftMaterialsJp: string[];
-  craftMaterialsKo: string[];
-  sourceUrl: string;
+  categoryKo: string;
+  descriptionJp: string | null;
+  descriptionKo: string | null;
+  craftMaterialsJp: { nameJp: string; nameKo: string; count: number }[];
+  habitatsJp: { nameJp: string; nameKo: string; count: number }[];
+  sourceUrl: string | null;
+  gamewithId: string;
+  gamewithArticleId: string | null;
 }
 
 export interface BuildingEntry {
@@ -348,6 +361,8 @@ export interface ItemDoll {
   noteKo: string;
   imagePath: string | null;
   sourceUrl: string;
+  legendaryPokemonJp?: string | null;
+  legendaryPokemonKo?: string | null;
 }
 
 export interface CDEntry {
@@ -384,14 +399,18 @@ export interface EmoteEntry {
 
 export interface BestshotEntry {
   id: string;
-  number: number;
+  number?: number;
   nameJp: string;
   nameKo: string | null;
   imagePath: string | null;
   conditionJp: string;
   conditionKo: string;
-  rewardJp: string;
-  rewardKo: string;
+  requiredPokemonJp: string | null;
+  requiredPokemonKo: string | null;
+  requiredItemJp: string | null;
+  requiredItemKo: string | null;
+  rewardJp: string | null;
+  rewardKo: string | null;
   sourceUrl: string;
 }
 
@@ -423,6 +442,7 @@ export interface AncientItemGroup {
 
 export interface ItemsDataSummary {
   itemCount: number;
+  favoriteTagCount: number;
   recipeCount: number;
   shopRecipeCount: number;
   otherRecipeCount: number;
@@ -439,6 +459,8 @@ export interface ItemsDataSummary {
 export interface ItemsData {
   sourceUrls: string[];
   summary: ItemsDataSummary;
+  favoriteTags: FavoriteTag[];
+  pokemonFavoriteTagsBySlug: Record<string, FavoriteTag[]>;
   allItems: AllItemEntry[];
   recipes: {
     shop: RecipeEntry[];

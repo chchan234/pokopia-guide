@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
+import MaterialTag from '@/components/material-tag';
 import { useSyncQueryParams } from '@/hooks/use-sync-query-params';
 import ZoomableImage from '@/components/zoomable-image';
 import { displayName } from '@/lib/utils';
@@ -131,9 +132,7 @@ export default function DreamIslandsPageClient({ data }: DreamIslandsPageClientP
                 <div className="text-sm font-semibold text-foreground">주요 획득물</div>
                 <div className="mt-2 flex flex-wrap gap-2">
                   {island.findingsKo.map((item, index) => (
-                    <span key={`${island.id}-finding-${index}`} className="rounded-full border border-border bg-card px-2.5 py-1 text-xs text-foreground">
-                      {item}
-                    </span>
+                    <MaterialTag key={`${island.id}-finding-${index}`} material={item} />
                   ))}
                 </div>
               </div>

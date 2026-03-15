@@ -44,9 +44,9 @@ export default function CollectionPage() {
         bestshots={itemsGuideData.bestshots.map((entry) => ({
           id: entry.id,
           label: entry.nameKo || entry.nameJp,
-          number: entry.number,
+          number: entry.number ?? 0,
           description: entry.conditionKo,
-          reward: entry.rewardKo,
+          reward: entry.rewardKo ?? '',
         }))}
       />
     </Suspense>
