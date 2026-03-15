@@ -419,6 +419,16 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                   </div>
                   <h3 className="mt-3 text-base font-bold text-foreground">{displayName(entry.nameKo, entry.nameJp)}</h3>
                   <p className="mt-2 text-sm text-muted-foreground">입수: {entry.sourceKo}</p>
+                  {entry.materialsJp && entry.materialsJp.length > 0 && (
+                    <div className="mt-2">
+                      <p className="text-xs font-semibold text-foreground">제작 재료</p>
+                      <div className="mt-1 flex flex-wrap gap-1.5">
+                        {entry.materialsJp.map((mat: string, i: number) => (
+                          <span key={`${entry.id}-mat-${i}`} className="rounded-full border border-border bg-card px-2.5 py-1 text-xs text-foreground">{mat}</span>
+                        ))}
+                      </div>
+                    </div>
+                  )}
                 </article>
               ))}
             </div>
@@ -430,12 +440,23 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
             {filteredDolls.map((entry) => (
               <article key={entry.id} className="rounded-3xl border border-border bg-background p-5" style={{ contentVisibility: 'auto' }}>
                 <CardPreview src={entry.imagePath} alt={displayName(entry.nameKo, entry.nameJp)} />
-                <h3 className="text-base font-bold text-foreground">{displayName(entry.nameKo, entry.nameJp)}</h3>
+                <div className="flex flex-wrap items-center gap-2">
+                  {entry.unlockLevel && (
+                    <span className="rounded-full bg-pk-green-light px-2.5 py-1 text-[11px] font-semibold text-pk-green-dark">{entry.unlockLevel}</span>
+                  )}
+                </div>
+                <h3 className="mt-2 text-base font-bold text-foreground">{displayName(entry.nameKo, entry.nameJp)}</h3>
                 <dl className="mt-3 space-y-2 text-sm text-muted-foreground">
                   <div>
                     <dt className="font-semibold text-foreground">연결 꿈섬</dt>
                     <dd className="mt-1">{entry.dreamIslandKo}</dd>
                   </div>
+                  {entry.legendaryPokemonJp && (
+                    <div>
+                      <dt className="font-semibold text-foreground">전설 포켓몬</dt>
+                      <dd className="mt-1">{entry.legendaryPokemonJp}</dd>
+                    </div>
+                  )}
                   <div>
                     <dt className="font-semibold text-foreground">입수 지역</dt>
                     <dd className="mt-1">{entry.mapKo}</dd>

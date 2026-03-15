@@ -295,6 +295,9 @@ export interface RecipeEntry {
   sourceJp: string;
   sourceKo: string;
   price: number | null;
+  materialsJp?: string[];
+  category?: string | null;
+  subCategory?: string | null;
   sourceUrl: string;
 }
 
@@ -357,6 +360,8 @@ export interface ItemDoll {
   noteKo: string;
   imagePath: string | null;
   sourceUrl: string;
+  unlockLevel?: string | null;
+  legendaryPokemonJp?: string | null;
 }
 
 export interface CDEntry {
