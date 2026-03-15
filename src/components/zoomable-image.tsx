@@ -78,6 +78,7 @@ export default function ZoomableImage({
                     width={1200}
                     height={1200}
                     className="mx-auto max-h-[calc(100dvh-7rem)] w-full rounded-xl object-contain"
+                    unoptimized={src.startsWith('http')}
                   />
                 </div>
               </div>
@@ -95,7 +96,7 @@ export default function ZoomableImage({
         className={buttonClassName ?? 'inline-flex cursor-zoom-in items-center justify-center'}
         aria-label={`${alt} 이미지 확대`}
       >
-        <Image src={src} alt={alt} width={width} height={height} className={className} priority={priority} />
+        <Image src={src} alt={alt} width={width} height={height} className={className} priority={priority} unoptimized={src.startsWith('http')} />
       </button>
       {modal}
     </>

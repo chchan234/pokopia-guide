@@ -20,6 +20,7 @@ export default function MaterialTag({ material, imageSrc, className }: MaterialT
           width={22}
           height={22}
           className="h-[22px] w-[22px] flex-shrink-0 object-contain"
+          unoptimized={resolvedImage.startsWith('http')}
         />
       )}
       {material}

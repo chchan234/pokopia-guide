@@ -107,7 +107,7 @@ export default function FashionPageClient({ categories }: FashionPageClientProps
                   </div>
                   <div className="flex h-[132px] items-center justify-center rounded-2xl bg-muted/30">
                     {item.imagePath ? (
-                      <Image src={item.imagePath} alt={item.name} width={112} height={112} className="object-contain" />
+                      <Image src={item.imagePath} alt={item.name} width={112} height={112} className="object-contain" unoptimized={item.imagePath.startsWith('http')} />
                     ) : (
                       <span className="text-xs text-muted-foreground">이미지 준비 중</span>
                     )}

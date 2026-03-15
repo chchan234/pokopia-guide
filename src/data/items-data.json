@@ -35102,7 +35102,7 @@
         "materialsKo": [
           "튼튼한 가지×1",
           "덩굴끈×1",
-          "종이のゴミ×1"
+          "종이 쓰레기×1"
         ]
       },
       {
@@ -35194,7 +35194,7 @@
         "category": "べんり",
         "subCategory": null,
         "materialsKo": [
-          "ヒメリのみ×1",
+          "과사열매×1",
           "튼튼한 가지×1",
           "실조각×1"
         ]
@@ -35321,7 +35321,7 @@
         "subCategory": "かざりつけ",
         "materialsKo": [
           "튼튼한 가지×1",
-          "ひかるキノコ×1"
+          "빛나는 버섯×1"
         ]
       },
       {
@@ -35342,7 +35342,7 @@
         "category": "おくがい",
         "subCategory": "かざりつけ",
         "materialsKo": [
-          "シマシマのつち×1",
+          "줄무늬 흙×1",
           "돌×2",
           "철 주괴×2"
         ]
@@ -35388,7 +35388,7 @@
         "materialsKo": [
           "목재×1",
           "포케메탈×1",
-          "ふしぎなげん×1"
+          "신기한 원석×1"
         ]
       },
       {
@@ -35542,7 +35542,7 @@
         "subCategory": "かざりつけ",
         "materialsKo": [
           "철 주괴×1",
-          "ヨロイのはへん×1"
+          "갑옷 파편×1"
         ]
       },
       {
@@ -35563,7 +35563,7 @@
         "subCategory": "かざりつけ",
         "materialsKo": [
           "철 주괴×1",
-          "ヨロイのはへん×1"
+          "갑옷 파편×1"
         ]
       },
       {
@@ -35967,7 +35967,7 @@
         "materialsKo": [
           "목재×1",
           "포케메탈×1",
-          "ふしぎなげん×1"
+          "신기한 원석×1"
         ]
       },
       {
@@ -36135,8 +36135,8 @@
         "category": "ざっか",
         "subCategory": "かざりつけ",
         "materialsKo": [
-          "ぐにゃぐにゃ점토×1",
-          "はらっぱのはな×1"
+          "말랑말랑 점토×1",
+          "들판의 꽃×1"
         ]
       },
       {
@@ -36394,7 +36394,7 @@
         "category": "ざっか",
         "subCategory": "おもちゃ",
         "materialsKo": [
-          "ぐにゃぐにゃ점토×1",
+          "말랑말랑 점토×1",
           "목재×1"
         ]
       },
@@ -37741,7 +37741,7 @@
         "materialsKo": [
           "목재×2",
           "철 주괴×2",
-          "물감・ももいろ×2"
+          "물감・핑크×2"
         ]
       },
       {
@@ -37779,7 +37779,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "ぐにゃぐにゃ점토×1"
+          "말랑말랑 점토×1"
         ]
       },
       {
@@ -37799,8 +37799,8 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "ぐにゃぐにゃ점토×1",
-          "ロズレイティー×1"
+          "말랑말랑 점토×1",
+          "로즈레이 티×1"
         ]
       },
       {
@@ -37821,7 +37821,7 @@
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
           "실조각×1",
-          "ぐにゃぐにゃ점토×1"
+          "말랑말랑 점토×1"
         ]
       },
       {
@@ -37882,11 +37882,11 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "モモンのみ×1",
-          "カゴのみ×1",
-          "チーゴのみ×1",
-          "ナナシのみ×1",
-          "ラムのみ×1"
+          "복슝열매×1",
+          "유루열매×1",
+          "복분열매×1",
+          "배리열매×1",
+          "리샘열매×1"
         ]
       },
       {
@@ -37906,8 +37906,8 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "ぐにゃぐにゃ점토×1",
-          "はらっぱのはな×1"
+          "말랑말랑 점토×1",
+          "들판의 꽃×1"
         ]
       },
       {
@@ -38128,7 +38128,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "ぐにゃぐにゃ점토×1",
+          "말랑말랑 점토×1",
           "목재×1",
           "유리×1"
         ]
@@ -38226,7 +38226,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "ぐにゃぐにゃ점토×1",
+          "말랑말랑 점토×1",
           "포케메탈×1"
         ]
       },
@@ -38247,7 +38247,7 @@
         "subCategory": "おもちゃ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "ぐにゃぐにゃ점토×1",
+          "말랑말랑 점토×1",
           "포케메탈×1"
         ]
       },
@@ -38637,7 +38637,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "종이のゴミ×1"
+          "종이 쓰레기×1"
         ]
       },
       {
@@ -39327,7 +39327,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "もえないゴミ×1"
+          "불에 안 타는 쓰레기×1"
         ]
       },
       {
@@ -40587,7 +40587,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "ひかるキノコ×1",
+          "빛나는 버섯×1",
           "목재×2"
         ]
       },
@@ -40861,7 +40861,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "うすちゃいわ×1"
+          "연한 갈색 바위×1"
         ]
       },
       {
@@ -40880,7 +40880,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "あかいわ×1"
+          "빨간 바위×1"
         ]
       },
       {
@@ -40899,7 +40899,7 @@
         "subCategory": "どうろ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "ぐにゃぐにゃ점토×2"
+          "말랑말랑 점토×2"
         ]
       },
       {
@@ -40958,7 +40958,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "きいろいいわ×1"
+          "노란 바위×1"
         ]
       },
       {
@@ -41015,7 +41015,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "ザラザラいわ×1"
+          "거친 바위×1"
         ]
       },
       {
@@ -41112,7 +41112,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "しろいいわ×1"
+          "흰 바위×1"
         ]
       }
     ]

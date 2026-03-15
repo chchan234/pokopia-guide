@@ -112,7 +112,7 @@ export default function HomeSearchClient({ entries }: HomeSearchClientProps) {
                       >
                         <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-muted/40">
                           {entry.imagePath ? (
-                            <Image src={entry.imagePath} alt="" aria-hidden width={40} height={40} className="max-h-10 w-auto object-contain" />
+                            <Image src={entry.imagePath} alt="" aria-hidden width={40} height={40} className="max-h-10 w-auto object-contain" unoptimized={entry.imagePath.startsWith('http')} />
                           ) : (
                             <span className="text-[10px] font-semibold text-muted-foreground">{group.label}</span>
                           )}

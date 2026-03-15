@@ -107,6 +107,7 @@ export default function BestshotsPageClient({ bestshots }: BestshotsPageClientPr
                     fill
                     sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
                     className="object-cover"
+                    unoptimized={bs.imagePath.startsWith('http')}
                   />
                 </div>
               )}

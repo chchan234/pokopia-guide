@@ -36,7 +36,7 @@ interface FashionCollectionEntry extends BaseCollectionEntry {
 
 interface BestshotCollectionEntry extends BaseCollectionEntry {
   id: string;
-  number: number;
+  number?: number;
   reward: string;
 }
 

@@ -69,7 +69,7 @@ export default async function PokemonDetailPage({
         <div className="grid gap-6 p-8 md:grid-cols-[220px_minmax(0,1fr)] md:p-10">
           <div className="flex items-center justify-center rounded-[1.75rem] bg-card/70 p-6">
             {entry.imagePath ? (
-              <Image src={entry.imagePath} alt={entry.name} width={180} height={180} className="object-contain" priority />
+              <Image src={entry.imagePath} alt={entry.name} width={180} height={180} className="object-contain" priority unoptimized={entry.imagePath.startsWith('http')} />
             ) : (
               <div className="flex h-[180px] w-[180px] items-center justify-center rounded-full bg-muted text-sm text-muted-foreground">
                 이미지 없음

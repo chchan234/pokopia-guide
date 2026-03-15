@@ -137,7 +137,7 @@ export default async function HabitatDetailPage({
                     <p className="mono text-[11px] text-muted-foreground">#{entry.number}</p>
                     <h3 className="mt-1 text-sm font-bold text-foreground">{entry.name}</h3>
                   </div>
-                  {entry.imagePath ? <Image src={entry.imagePath} alt={entry.name} width={56} height={56} className="object-contain" /> : null}
+                  {entry.imagePath ? <Image src={entry.imagePath} alt={entry.name} width={56} height={56} className="object-contain" unoptimized={entry.imagePath.startsWith('http')} /> : null}
                 </div>
                 <div className="mt-3 flex flex-wrap gap-1.5">
                   {entry.types.map((type) => (

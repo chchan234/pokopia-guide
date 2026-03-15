@@ -139,7 +139,7 @@ export default function MaterialsPageClient({ materials }: MaterialsPageClientPr
                       <div className="flex items-center gap-3 rounded-2xl border border-border bg-background px-4 py-3 transition-colors hover:border-pk-green">
                         {usage.imagePath && (
                           <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-muted/40">
-                            <Image src={usage.imagePath} alt="" aria-hidden width={32} height={32} className="max-h-8 w-auto object-contain" />
+                            <Image src={usage.imagePath} alt="" aria-hidden width={32} height={32} className="max-h-8 w-auto object-contain" unoptimized={usage.imagePath.startsWith('http')} />
                           </div>
                         )}
                         <div className="min-w-0 flex-1">
