@@ -15052,7 +15052,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "ガラス",
@@ -15062,7 +15062,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -15094,12 +15094,12 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [
@@ -15238,7 +15238,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "ガラス",
@@ -15466,12 +15466,12 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "てつ",
@@ -15503,7 +15503,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "わた",
@@ -15513,7 +15513,7 @@
         {
           "nameJp": "きんののべぼう",
           "count": 2,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         }
       ],
       "habitatsJp": [
@@ -15540,12 +15540,12 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "てつ",
@@ -15582,7 +15582,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "わた",
@@ -15592,7 +15592,7 @@
         {
           "nameJp": "きんののべぼう",
           "count": 1,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         }
       ],
       "habitatsJp": [
@@ -15619,7 +15619,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "わた",
@@ -15629,7 +15629,7 @@
         {
           "nameJp": "きんののべぼう",
           "count": 2,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         }
       ],
       "habitatsJp": [],
@@ -15650,12 +15650,12 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "てつ",
@@ -15681,12 +15681,12 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "てつ",
@@ -15712,12 +15712,12 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "てつ",
@@ -15748,7 +15748,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -15769,7 +15769,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -15790,7 +15790,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -15811,12 +15811,12 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "てつ",
@@ -15894,7 +15894,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -15915,17 +15915,17 @@
         {
           "nameJp": "ふしぎなげん",
           "count": 1,
-          "nameKo": "신비한 원석"
+          "nameKo": "수수께끼 현"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [
@@ -15952,17 +15952,17 @@
         {
           "nameJp": "ふしぎなげん",
           "count": 1,
-          "nameKo": "신비한 원석"
+          "nameKo": "수수께끼 현"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [
@@ -16193,7 +16193,7 @@
         {
           "nameJp": "じょうぶなえだ",
           "count": 2,
-          "nameKo": "나뭇가지"
+          "nameKo": "튼튼한 가지"
         }
       ],
       "habitatsJp": [
@@ -16308,7 +16308,7 @@
         {
           "nameJp": "どうののべぼう",
           "count": 10,
-          "nameKo": "구리 막대"
+          "nameKo": "구리 주괴"
         }
       ],
       "habitatsJp": [],
@@ -16339,7 +16339,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 25,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -16370,7 +16370,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 25,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "コンクリート",
@@ -16509,7 +16509,7 @@
         {
           "nameJp": "ざいもく",
           "count": 20,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -17030,7 +17030,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -17057,7 +17057,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "わた",
@@ -17067,7 +17067,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [
@@ -17094,12 +17094,12 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [
@@ -17131,12 +17131,12 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [
@@ -17163,12 +17163,12 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -17363,17 +17363,17 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [
@@ -17473,12 +17473,12 @@
         {
           "nameJp": "レアポケメタル",
           "count": 5,
-          "nameKo": "레어 포켓메탈"
+          "nameKo": "레어 포케메탈"
         },
         {
           "nameJp": "ぎんいろのはね",
           "count": 5,
-          "nameKo": "은빛 깃털"
+          "nameKo": "은빛날개"
         }
       ],
       "habitatsJp": [],
@@ -17644,7 +17644,7 @@
         {
           "nameJp": "デカヌギア",
           "count": 2,
-          "nameKo": "데카누기아"
+          "nameKo": "두드리짱"
         }
       ],
       "habitatsJp": [],
@@ -17670,7 +17670,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [
@@ -17712,7 +17712,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 4,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -17759,7 +17759,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -17780,7 +17780,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -17883,12 +17883,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -17954,12 +17954,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -18079,12 +18079,12 @@
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -18105,7 +18105,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -18126,12 +18126,12 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -18152,7 +18152,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -18220,12 +18220,12 @@
         {
           "nameJp": "チーゴのみ",
           "count": 1,
-          "nameKo": "리체열매"
+          "nameKo": "복분열매"
         },
         {
           "nameJp": "ラムのみ",
           "count": 1,
-          "nameKo": "람열매"
+          "nameKo": "리샘열매"
         }
       ],
       "habitatsJp": [],
@@ -18324,7 +18324,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [
@@ -18351,7 +18351,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -18372,7 +18372,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "ガラス",
@@ -18398,7 +18398,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "わた",
@@ -18430,7 +18430,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [
@@ -18675,12 +18675,12 @@
         {
           "nameJp": "かいがら",
           "count": 1,
-          "nameKo": "조개"
+          "nameKo": "조개껍질"
         },
         {
           "nameJp": "シーグラスのかけら",
           "count": 1,
-          "nameKo": "바다유리 조각"
+          "nameKo": "씨글라스 조각"
         }
       ],
       "habitatsJp": [],
@@ -18748,7 +18748,7 @@
         {
           "nameJp": "おいしいみず",
           "count": 1,
-          "nameKo": "맛있는 물"
+          "nameKo": "맛있는물"
         },
         {
           "nameJp": "かいそう",
@@ -18794,7 +18794,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [
@@ -18862,12 +18862,12 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "じょうぶなえだ",
           "count": 1,
-          "nameKo": "나뭇가지"
+          "nameKo": "튼튼한 가지"
         }
       ],
       "habitatsJp": [
@@ -18976,12 +18976,12 @@
         {
           "nameJp": "じょうぶなえだ",
           "count": 1,
-          "nameKo": "나뭇가지"
+          "nameKo": "튼튼한 가지"
         },
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴"
+          "nameKo": "덩굴끈"
         },
         {
           "nameJp": "かみのゴミ",
@@ -19094,7 +19094,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [
@@ -19121,12 +19121,12 @@
         {
           "nameJp": "どうののべぼう",
           "count": 1,
-          "nameKo": "구리 막대"
+          "nameKo": "구리 주괴"
         },
         {
           "nameJp": "きんののべぼう",
           "count": 1,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         }
       ],
       "habitatsJp": [],
@@ -19147,12 +19147,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -19343,7 +19343,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [
@@ -19400,7 +19400,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -19441,7 +19441,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -19574,7 +19574,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [
@@ -19601,7 +19601,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -19622,7 +19622,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -19643,7 +19643,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -19664,7 +19664,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -19685,7 +19685,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -19721,7 +19721,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -19742,7 +19742,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [
@@ -19774,7 +19774,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -19800,7 +19800,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [
@@ -19842,7 +19842,7 @@
         {
           "nameJp": "じょうぶなえだ",
           "count": 1,
-          "nameKo": "나뭇가지"
+          "nameKo": "튼튼한 가지"
         }
       ],
       "habitatsJp": [
@@ -19889,12 +19889,12 @@
         {
           "nameJp": "モモンのみ",
           "count": 2,
-          "nameKo": "복숭열매"
+          "nameKo": "복슝열매"
         },
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "わた",
@@ -19904,7 +19904,7 @@
         {
           "nameJp": "どうののべぼう",
           "count": 2,
-          "nameKo": "구리 막대"
+          "nameKo": "구리 주괴"
         }
       ],
       "habitatsJp": [
@@ -19936,7 +19936,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -19957,27 +19957,27 @@
         {
           "nameJp": "カゴのみ",
           "count": 1,
-          "nameKo": "파둥열매"
+          "nameKo": "유루열매"
         },
         {
           "nameJp": "チーゴのみ",
           "count": 1,
-          "nameKo": "리체열매"
+          "nameKo": "복분열매"
         },
         {
           "nameJp": "モモンのみ",
           "count": 1,
-          "nameKo": "복숭열매"
+          "nameKo": "복슝열매"
         },
         {
           "nameJp": "ナナシのみ",
           "count": 1,
-          "nameKo": "위비열매"
+          "nameKo": "배리열매"
         },
         {
           "nameJp": "ラムのみ",
           "count": 1,
-          "nameKo": "람열매"
+          "nameKo": "리샘열매"
         }
       ],
       "habitatsJp": [
@@ -20009,7 +20009,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -20030,22 +20030,22 @@
         {
           "nameJp": "カゴのみ",
           "count": 1,
-          "nameKo": "파둥열매"
+          "nameKo": "유루열매"
         },
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "どうののべぼう",
           "count": 1,
-          "nameKo": "구리 막대"
+          "nameKo": "구리 주괴"
         }
       ],
       "habitatsJp": [],
@@ -20066,22 +20066,22 @@
         {
           "nameJp": "ラムのみ",
           "count": 1,
-          "nameKo": "람열매"
+          "nameKo": "리샘열매"
         },
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "どうののべぼう",
           "count": 1,
-          "nameKo": "구리 막대"
+          "nameKo": "구리 주괴"
         }
       ],
       "habitatsJp": [],
@@ -20102,22 +20102,22 @@
         {
           "nameJp": "ヒメリのみ",
           "count": 1,
-          "nameKo": "시몬열매"
+          "nameKo": "과사열매"
         },
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "どうののべぼう",
           "count": 1,
-          "nameKo": "구리 막대"
+          "nameKo": "구리 주괴"
         }
       ],
       "habitatsJp": [
@@ -20144,22 +20144,22 @@
         {
           "nameJp": "ナナシのみ",
           "count": 2,
-          "nameKo": "위비열매"
+          "nameKo": "배리열매"
         },
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "どうののべぼう",
           "count": 2,
-          "nameKo": "구리 막대"
+          "nameKo": "구리 주괴"
         }
       ],
       "habitatsJp": [
@@ -20186,22 +20186,22 @@
         {
           "nameJp": "チーゴのみ",
           "count": 1,
-          "nameKo": "리체열매"
+          "nameKo": "복분열매"
         },
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "どうののべぼう",
           "count": 1,
-          "nameKo": "구리 막대"
+          "nameKo": "구리 주괴"
         }
       ],
       "habitatsJp": [
@@ -20263,7 +20263,7 @@
         {
           "nameJp": "たべごろキノコ",
           "count": 1,
-          "nameKo": "먹음직한 버섯"
+          "nameKo": "먹기 좋은 버섯"
         },
         {
           "nameJp": "なんでも×2",
@@ -20289,12 +20289,12 @@
         {
           "nameJp": "おいしいみず",
           "count": 1,
-          "nameKo": "맛있는 물"
+          "nameKo": "맛있는물"
         },
         {
           "nameJp": "たべごろキノコ",
           "count": 1,
-          "nameKo": "먹음직한 버섯"
+          "nameKo": "먹기 좋은 버섯"
         },
         {
           "nameJp": "なんでも",
@@ -20320,7 +20320,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -20419,7 +20419,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "わた",
@@ -20567,17 +20567,17 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "ガラス",
@@ -20609,7 +20609,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "わた",
@@ -20641,12 +20641,12 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [
@@ -20673,7 +20673,7 @@
         {
           "nameJp": "ざいもく",
           "count": 3,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "わた",
@@ -20705,12 +20705,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "ガラス",
@@ -20742,17 +20742,17 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -21041,7 +21041,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -21067,7 +21067,7 @@
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [],
@@ -21129,7 +21129,7 @@
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [],
@@ -21413,7 +21413,7 @@
         {
           "nameJp": "きんののべぼう",
           "count": 1,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         },
         {
           "nameJp": "ぐにゃぐにゃねんど",
@@ -21556,7 +21556,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -21592,7 +21592,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [
@@ -21624,7 +21624,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "ガラス",
@@ -21656,7 +21656,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -21793,7 +21793,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -21814,7 +21814,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "わた",
@@ -21824,7 +21824,7 @@
         {
           "nameJp": "きんののべぼう",
           "count": 2,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         }
       ],
       "habitatsJp": [
@@ -21851,7 +21851,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "ガラス",
@@ -21883,12 +21883,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "きんののべぼう",
           "count": 1,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         },
         {
           "nameJp": "ガラス",
@@ -21920,12 +21920,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "きんののべぼう",
           "count": 1,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         }
       ],
       "habitatsJp": [
@@ -21952,12 +21952,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "きんののべぼう",
           "count": 1,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         },
         {
           "nameJp": "ガラス",
@@ -22061,7 +22061,7 @@
         {
           "nameJp": "もえないゴミ",
           "count": 1,
-          "nameKo": "타지 않는 쓰레기"
+          "nameKo": "불연성 쓰레기"
         }
       ],
       "habitatsJp": [
@@ -22145,7 +22145,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "いし",
@@ -22264,12 +22264,12 @@
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴"
+          "nameKo": "덩굴끈"
         },
         {
           "nameJp": "てつ",
@@ -22279,7 +22279,7 @@
         {
           "nameJp": "うみべのすな",
           "count": 1,
-          "nameKo": "해안 모래"
+          "nameKo": "해변 모래"
         }
       ],
       "habitatsJp": [
@@ -22316,7 +22316,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [
@@ -22390,7 +22390,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -22452,7 +22452,7 @@
         {
           "nameJp": "きんののべぼう",
           "count": 1,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         }
       ],
       "habitatsJp": [
@@ -22484,7 +22484,7 @@
         {
           "nameJp": "きんののべぼう",
           "count": 2,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         },
         {
           "nameJp": "わた",
@@ -22521,7 +22521,7 @@
         {
           "nameJp": "きんののべぼう",
           "count": 2,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         },
         {
           "nameJp": "わた",
@@ -22563,7 +22563,7 @@
         {
           "nameJp": "きんののべぼう",
           "count": 2,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         }
       ],
       "habitatsJp": [
@@ -22595,7 +22595,7 @@
         {
           "nameJp": "きんののべぼう",
           "count": 1,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         },
         {
           "nameJp": "わた",
@@ -22626,7 +22626,7 @@
         {
           "nameJp": "きんののべぼう",
           "count": 2,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         },
         {
           "nameJp": "ガラス",
@@ -22714,7 +22714,7 @@
         {
           "nameJp": "ザラザラいわ",
           "count": 1,
-          "nameKo": "까칠까칠 바위"
+          "nameKo": "거친 바위"
         }
       ],
       "habitatsJp": [],
@@ -22843,7 +22843,7 @@
         {
           "nameJp": "かいがら",
           "count": 1,
-          "nameKo": "조개"
+          "nameKo": "조개껍질"
         }
       ],
       "habitatsJp": [],
@@ -22864,12 +22864,12 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [
@@ -22916,7 +22916,7 @@
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -22958,12 +22958,12 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -23043,7 +23043,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -23079,7 +23079,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -23269,7 +23269,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -23399,7 +23399,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -23496,12 +23496,12 @@
         {
           "nameJp": "おいしいみず",
           "count": 1,
-          "nameKo": "맛있는 물"
+          "nameKo": "맛있는물"
         },
         {
           "nameJp": "ナナシのみ",
           "count": 1,
-          "nameKo": "위비열매"
+          "nameKo": "배리열매"
         },
         {
           "nameJp": "ハンバーグ(なんでも)",
@@ -23625,7 +23625,7 @@
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [
@@ -23657,7 +23657,7 @@
         {
           "nameJp": "もえないゴミ",
           "count": 1,
-          "nameKo": "타지 않는 쓰레기"
+          "nameKo": "불연성 쓰레기"
         },
         {
           "nameJp": "てつ",
@@ -23739,7 +23739,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "ヒカリいし",
@@ -23786,7 +23786,7 @@
         {
           "nameJp": "かいがら",
           "count": 5,
-          "nameKo": "조개"
+          "nameKo": "조개껍질"
         },
         {
           "nameJp": "いし",
@@ -23796,7 +23796,7 @@
         {
           "nameJp": "うみべのすな",
           "count": 5,
-          "nameKo": "해안 모래"
+          "nameKo": "해변 모래"
         }
       ],
       "habitatsJp": [],
@@ -23817,12 +23817,12 @@
         {
           "nameJp": "うみべのすな",
           "count": 1,
-          "nameKo": "해안 모래"
+          "nameKo": "해변 모래"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -23858,7 +23858,7 @@
         {
           "nameJp": "かいがら",
           "count": 10,
-          "nameKo": "조개"
+          "nameKo": "조개껍질"
         },
         {
           "nameJp": "いし",
@@ -23868,7 +23868,7 @@
         {
           "nameJp": "うみべのすな",
           "count": 10,
-          "nameKo": "해안 모래"
+          "nameKo": "해변 모래"
         }
       ],
       "habitatsJp": [],
@@ -23899,12 +23899,12 @@
         {
           "nameJp": "うみべのすな",
           "count": 20,
-          "nameKo": "해안 모래"
+          "nameKo": "해변 모래"
         },
         {
           "nameJp": "かいがら",
           "count": 20,
-          "nameKo": "조개"
+          "nameKo": "조개껍질"
         }
       ],
       "habitatsJp": [],
@@ -23935,12 +23935,12 @@
         {
           "nameJp": "うみべのすな",
           "count": 25,
-          "nameKo": "해안 모래"
+          "nameKo": "해변 모래"
         },
         {
           "nameJp": "かいがら",
           "count": 25,
-          "nameKo": "조개"
+          "nameKo": "조개껍질"
         }
       ],
       "habitatsJp": [],
@@ -24064,7 +24064,7 @@
         {
           "nameJp": "シーグラスのかけら",
           "count": 1,
-          "nameKo": "바다유리 조각"
+          "nameKo": "씨글라스 조각"
         },
         {
           "nameJp": "てつ",
@@ -24111,7 +24111,7 @@
         {
           "nameJp": "カゴのみ",
           "count": 1,
-          "nameKo": "파둥열매"
+          "nameKo": "유루열매"
         }
       ],
       "habitatsJp": [],
@@ -24246,7 +24246,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "いし",
@@ -24278,7 +24278,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -24376,12 +24376,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -24402,7 +24402,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "ガラス",
@@ -24412,7 +24412,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -24454,7 +24454,7 @@
         {
           "nameJp": "じょうぶなえだ",
           "count": 1,
-          "nameKo": "나뭇가지"
+          "nameKo": "튼튼한 가지"
         },
         {
           "nameJp": "はっぱ",
@@ -24486,7 +24486,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -24528,7 +24528,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -24549,7 +24549,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [
@@ -24632,7 +24632,7 @@
         {
           "nameJp": "じょうぶなえだ",
           "count": 1,
-          "nameKo": "나뭇가지"
+          "nameKo": "튼튼한 가지"
         },
         {
           "nameJp": "いし",
@@ -24824,7 +24824,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "ガラス",
@@ -24990,7 +24990,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -25011,7 +25011,7 @@
         {
           "nameJp": "いとくず",
           "count": 3,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "わた",
@@ -25235,12 +25235,12 @@
         {
           "nameJp": "てつののべぼう",
           "count": 10,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "どうののべぼう",
           "count": 10,
-          "nameKo": "구리 막대"
+          "nameKo": "구리 주괴"
         },
         {
           "nameJp": "いし",
@@ -25407,7 +25407,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -25526,7 +25526,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -25646,7 +25646,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "シマシマのつち",
@@ -25729,7 +25729,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -25795,7 +25795,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -25822,7 +25822,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -25843,7 +25843,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -25912,7 +25912,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -25933,7 +25933,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 4,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -25975,7 +25975,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -25996,7 +25996,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -26068,7 +26068,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -26134,7 +26134,7 @@
         {
           "nameJp": "どうののべぼう",
           "count": 2,
-          "nameKo": "구리 막대"
+          "nameKo": "구리 주괴"
         }
       ],
       "habitatsJp": [],
@@ -26197,7 +26197,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -26291,7 +26291,7 @@
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -26327,12 +26327,12 @@
         {
           "nameJp": "レアポケメタル",
           "count": 5,
-          "nameKo": "레어 포켓메탈"
+          "nameKo": "레어 포케메탈"
         },
         {
           "nameJp": "にじいろのはね",
           "count": 5,
-          "nameKo": "무지갯빛 깃털"
+          "nameKo": "무지갯빛날개"
         }
       ],
       "habitatsJp": [],
@@ -26353,12 +26353,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 5,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "ざいもく",
           "count": 5,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いし",
@@ -26384,12 +26384,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 10,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "ざいもく",
           "count": 10,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いし",
@@ -26420,7 +26420,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 20,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "ガラス",
@@ -26456,7 +26456,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 25,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "ガラス",
@@ -26471,7 +26471,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 25,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -26615,12 +26615,12 @@
         {
           "nameJp": "どうののべぼう",
           "count": 50,
-          "nameKo": "구리 막대"
+          "nameKo": "구리 주괴"
         },
         {
           "nameJp": "きんののべぼう",
           "count": 50,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         },
         {
           "nameJp": "マグマいわ",
@@ -26630,7 +26630,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 10,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -26651,7 +26651,7 @@
         {
           "nameJp": "どうののべぼう",
           "count": 2,
-          "nameKo": "구리 막대"
+          "nameKo": "구리 주괴"
         }
       ],
       "habitatsJp": [],
@@ -27336,7 +27336,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "わた",
@@ -27368,12 +27368,12 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -27394,12 +27394,12 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [
@@ -27436,7 +27436,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "わた",
@@ -27468,12 +27468,12 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -27494,12 +27494,12 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [
@@ -27526,12 +27526,12 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -27552,7 +27552,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "わた",
@@ -27614,7 +27614,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -27656,7 +27656,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -27722,7 +27722,7 @@
         {
           "nameJp": "どうののべぼう",
           "count": 2,
-          "nameKo": "구리 막대"
+          "nameKo": "구리 주괴"
         }
       ],
       "habitatsJp": [],
@@ -27743,7 +27743,7 @@
         {
           "nameJp": "ざいもく",
           "count": 3,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [
@@ -27795,7 +27795,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -27958,7 +27958,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -28052,7 +28052,7 @@
         {
           "nameJp": "じょうぶなえだ",
           "count": 3,
-          "nameKo": "나뭇가지"
+          "nameKo": "튼튼한 가지"
         },
         {
           "nameJp": "はっぱ",
@@ -28078,7 +28078,7 @@
         {
           "nameJp": "ざいもく",
           "count": 15,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "はっぱ",
@@ -28104,7 +28104,7 @@
         {
           "nameJp": "ざいもく",
           "count": 20,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "はっぱ",
@@ -28135,7 +28135,7 @@
         {
           "nameJp": "ざいもく",
           "count": 25,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "はっぱ",
@@ -28150,7 +28150,7 @@
         {
           "nameJp": "つたひも",
           "count": 25,
-          "nameKo": "덩굴"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [],
@@ -28171,12 +28171,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "じょうぶなえだ",
           "count": 1,
-          "nameKo": "나뭇가지"
+          "nameKo": "튼튼한 가지"
         },
         {
           "nameJp": "ヒカリいし",
@@ -28207,12 +28207,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "じょうぶなえだ",
           "count": 1,
-          "nameKo": "나뭇가지"
+          "nameKo": "튼튼한 가지"
         },
         {
           "nameJp": "ヒカリいし",
@@ -28243,12 +28243,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "じょうぶなえだ",
           "count": 1,
-          "nameKo": "나뭇가지"
+          "nameKo": "튼튼한 가지"
         },
         {
           "nameJp": "ヒカリいし",
@@ -28279,12 +28279,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "じょうぶなえだ",
           "count": 1,
-          "nameKo": "나뭇가지"
+          "nameKo": "튼튼한 가지"
         },
         {
           "nameJp": "ヒカリいし",
@@ -28315,12 +28315,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "じょうぶなえだ",
           "count": 1,
-          "nameKo": "나뭇가지"
+          "nameKo": "튼튼한 가지"
         },
         {
           "nameJp": "ヒカリいし",
@@ -28351,12 +28351,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "じょうぶなえだ",
           "count": 1,
-          "nameKo": "나뭇가지"
+          "nameKo": "튼튼한 가지"
         },
         {
           "nameJp": "ヒカリいし",
@@ -28479,7 +28479,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "ガラス",
@@ -28516,12 +28516,12 @@
         {
           "nameJp": "じょうぶなえだ",
           "count": 1,
-          "nameKo": "나뭇가지"
+          "nameKo": "튼튼한 가지"
         },
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [
@@ -28625,7 +28625,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [
@@ -28775,7 +28775,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -28842,7 +28842,7 @@
         {
           "nameJp": "ヒメリのみ",
           "count": 1,
-          "nameKo": "시몬열매"
+          "nameKo": "과사열매"
         }
       ],
       "habitatsJp": [],
@@ -28868,7 +28868,7 @@
         {
           "nameJp": "ヒメリのみ",
           "count": 1,
-          "nameKo": "시몬열매"
+          "nameKo": "과사열매"
         },
         {
           "nameJp": "なんでも",
@@ -28915,7 +28915,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -28999,7 +28999,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 3,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -29056,7 +29056,7 @@
         {
           "nameJp": "おいしいみず",
           "count": 1,
-          "nameKo": "맛있는 물"
+          "nameKo": "맛있는물"
         },
         {
           "nameJp": "なんでも×2",
@@ -29283,12 +29283,12 @@
         {
           "nameJp": "ざいもく",
           "count": 5,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 5,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -29350,7 +29350,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -29396,12 +29396,12 @@
         {
           "nameJp": "クリスタルのカケラ",
           "count": 10,
-          "nameKo": "크리스탈 조각"
+          "nameKo": "크리스털 조각"
         },
         {
           "nameJp": "ポケメタル",
           "count": 10,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -29437,12 +29437,12 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [
@@ -29484,7 +29484,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "てつ",
@@ -29568,7 +29568,7 @@
         {
           "nameJp": "どうののべぼう",
           "count": 2,
-          "nameKo": "구리 막대"
+          "nameKo": "구리 주괴"
         }
       ],
       "habitatsJp": [],
@@ -29594,7 +29594,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -29615,7 +29615,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -29636,7 +29636,7 @@
         {
           "nameJp": "いとくず",
           "count": 4,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "わた",
@@ -29667,7 +29667,7 @@
         {
           "nameJp": "モモンのみ",
           "count": 1,
-          "nameKo": "복숭열매"
+          "nameKo": "복슝열매"
         },
         {
           "nameJp": "なんでも",
@@ -29719,12 +29719,12 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [
@@ -29855,7 +29855,7 @@
         {
           "nameJp": "おいしいみず",
           "count": 1,
-          "nameKo": "맛있는 물"
+          "nameKo": "맛있는물"
         },
         {
           "nameJp": "はっぱなど(他の料理にならないならなんでも)",
@@ -29886,7 +29886,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -30055,7 +30055,7 @@
         {
           "nameJp": "じょうぶなえだ",
           "count": 1,
-          "nameKo": "나뭇가지"
+          "nameKo": "튼튼한 가지"
         },
         {
           "nameJp": "いし",
@@ -30112,12 +30112,12 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [
@@ -30144,7 +30144,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "かみ",
@@ -30300,7 +30300,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -30366,7 +30366,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -30387,7 +30387,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -30408,7 +30408,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -30429,7 +30429,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -30450,7 +30450,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -30537,7 +30537,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "わた",
@@ -30569,12 +30569,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -30595,12 +30595,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -30621,7 +30621,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "わた",
@@ -30653,12 +30653,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [
@@ -30685,7 +30685,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -30706,7 +30706,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -30810,7 +30810,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [
@@ -30936,7 +30936,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "わた",
@@ -30968,7 +30968,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -30995,7 +30995,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [
@@ -31037,12 +31037,12 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "つたひも",
           "count": 2,
-          "nameKo": "덩굴"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [
@@ -31069,7 +31069,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -31141,7 +31141,7 @@
         {
           "nameJp": "つたひも",
           "count": 2,
-          "nameKo": "덩굴"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [],
@@ -31172,7 +31172,7 @@
         {
           "nameJp": "シーグラスのかけら",
           "count": 1,
-          "nameKo": "바다유리 조각"
+          "nameKo": "씨글라스 조각"
         }
       ],
       "habitatsJp": [],
@@ -31208,7 +31208,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "かみ",
@@ -31234,7 +31234,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -31270,12 +31270,12 @@
         {
           "nameJp": "きんののべぼう",
           "count": 1,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         },
         {
           "nameJp": "クリスタルのカケラ",
           "count": 1,
-          "nameKo": "크리스탈 조각"
+          "nameKo": "크리스털 조각"
         }
       ],
       "habitatsJp": [],
@@ -31296,7 +31296,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -31332,17 +31332,17 @@
         {
           "nameJp": "どうののべぼう",
           "count": 50,
-          "nameKo": "구리 막대"
+          "nameKo": "구리 주괴"
         },
         {
           "nameJp": "てつののべぼう",
           "count": 50,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "シーグラスのかけら",
           "count": 50,
-          "nameKo": "바다유리 조각"
+          "nameKo": "씨글라스 조각"
         },
         {
           "nameJp": "レンガ",
@@ -31352,7 +31352,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 10,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -31415,17 +31415,17 @@
         {
           "nameJp": "じょうぶなえだ",
           "count": 1,
-          "nameKo": "나뭇가지"
+          "nameKo": "튼튼한 가지"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "ヒメリのみ",
           "count": 1,
-          "nameKo": "시몬열매"
+          "nameKo": "과사열매"
         }
       ],
       "habitatsJp": [],
@@ -31476,7 +31476,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -31497,7 +31497,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -31518,17 +31518,17 @@
         {
           "nameJp": "てつののべぼう",
           "count": 10,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "ポケメタル",
           "count": 3,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "デカヌギア",
           "count": 3,
-          "nameKo": "데카누기아"
+          "nameKo": "두드리짱"
         }
       ],
       "habitatsJp": [],
@@ -31564,7 +31564,7 @@
         {
           "nameJp": "いとくず",
           "count": 3,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -31585,7 +31585,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "てつ",
@@ -31688,7 +31688,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -31777,7 +31777,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -31828,12 +31828,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "わた",
@@ -31892,12 +31892,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -31924,7 +31924,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "ガラス",
@@ -31956,12 +31956,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -31982,7 +31982,7 @@
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "わた",
@@ -32023,7 +32023,7 @@
         {
           "nameJp": "おいしいみず",
           "count": 1,
-          "nameKo": "맛있는 물"
+          "nameKo": "맛있는물"
         },
         {
           "nameJp": "マメ",
@@ -32111,12 +32111,12 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [
@@ -32183,7 +32183,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         },
         {
           "nameJp": "ヒカリいし",
@@ -32215,7 +32215,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [
@@ -32366,12 +32366,12 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "きんののべぼう",
           "count": 1,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         }
       ],
       "habitatsJp": [],
@@ -32392,12 +32392,12 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "きんののべぼう",
           "count": 1,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         }
       ],
       "habitatsJp": [],
@@ -32418,12 +32418,12 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "きんののべぼう",
           "count": 1,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         }
       ],
       "habitatsJp": [],
@@ -32449,7 +32449,7 @@
         {
           "nameJp": "じょうぶなえだ",
           "count": 3,
-          "nameKo": "나뭇가지"
+          "nameKo": "튼튼한 가지"
         }
       ],
       "habitatsJp": [
@@ -32491,7 +32491,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "ガラス",
@@ -32553,12 +32553,12 @@
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴"
+          "nameKo": "덩굴끈"
         },
         {
           "nameJp": "シーグラスのかけら",
           "count": 1,
-          "nameKo": "바다유리 조각"
+          "nameKo": "씨글라스 조각"
         }
       ],
       "habitatsJp": [
@@ -32585,7 +32585,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "わた",
@@ -32595,7 +32595,7 @@
         {
           "nameJp": "つたひも",
           "count": 2,
-          "nameKo": "덩굴"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [
@@ -32622,17 +32622,17 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "つたひも",
           "count": 2,
-          "nameKo": "덩굴"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [
@@ -32659,17 +32659,17 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "つたひも",
           "count": 2,
-          "nameKo": "덩굴"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [
@@ -32696,7 +32696,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "わた",
@@ -32706,7 +32706,7 @@
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [],
@@ -32727,7 +32727,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "わた",
@@ -32737,7 +32737,7 @@
         {
           "nameJp": "つたひも",
           "count": 2,
-          "nameKo": "덩굴"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [],
@@ -32758,7 +32758,7 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "わた",
@@ -32768,7 +32768,7 @@
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [],
@@ -32789,7 +32789,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 5,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "コンクリート",
@@ -32799,7 +32799,7 @@
         {
           "nameJp": "デカヌギア",
           "count": 1,
-          "nameKo": "데카누기아"
+          "nameKo": "두드리짱"
         }
       ],
       "habitatsJp": [],
@@ -32892,12 +32892,12 @@
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴"
+          "nameKo": "덩굴끈"
         },
         {
           "nameJp": "じょうぶなえだ",
           "count": 1,
-          "nameKo": "나뭇가지"
+          "nameKo": "튼튼한 가지"
         }
       ],
       "habitatsJp": [],
@@ -32948,7 +32948,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -32969,7 +32969,7 @@
         {
           "nameJp": "きんののべぼう",
           "count": 1,
-          "nameKo": "금 막대"
+          "nameKo": "금 주괴"
         },
         {
           "nameJp": "わた",
@@ -33234,7 +33234,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": "포켓메탈"
+          "nameKo": "포케메탈"
         }
       ],
       "habitatsJp": [],
@@ -33282,7 +33282,7 @@
         {
           "nameJp": "いとくず",
           "count": 3,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         },
         {
           "nameJp": "わた",
@@ -33308,7 +33308,7 @@
         {
           "nameJp": "つたひも",
           "count": 2,
-          "nameKo": "덩굴"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [],
@@ -33329,7 +33329,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": "철 막대"
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [],
@@ -33416,7 +33416,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -33437,7 +33437,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -33458,7 +33458,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -33479,7 +33479,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -33500,7 +33500,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -33521,7 +33521,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -33547,7 +33547,7 @@
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": "실뭉치"
+          "nameKo": "실오라기"
         }
       ],
       "habitatsJp": [],
@@ -33568,7 +33568,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -33589,7 +33589,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -33610,7 +33610,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -33631,7 +33631,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": "목재"
+          "nameKo": "재목"
         }
       ],
       "habitatsJp": [],
@@ -33736,7 +33736,7 @@
         {
           "nameJp": "ざいもく",
           "count": 15,
-          "nameKo": "목재"
+          "nameKo": "재목"
         },
         {
           "nameJp": "いし",
@@ -33767,7 +33767,7 @@
         {
           "nameJp": "シーグラスのかけら",
           "count": 5,
-          "nameKo": "바다유리 조각"
+          "nameKo": "씨글라스 조각"
         }
       ],
       "habitatsJp": [],
@@ -33877,7 +33877,7 @@
         "category": "べんり",
         "subCategory": null,
         "materialsKo": [
-          "목재×2"
+          "재목×2"
         ]
       },
       {
@@ -33907,7 +33907,7 @@
         "category": "たてもの",
         "subCategory": null,
         "materialsKo": [
-          "실조각×2"
+          "실오라기×2"
         ]
       },
       {
@@ -34046,7 +34046,7 @@
         "subCategory": "きゅうけい",
         "materialsKo": [
           "철 주괴×1",
-          "목재×1"
+          "재목×1"
         ]
       },
       {
@@ -34281,7 +34281,7 @@
         "category": "家具",
         "subCategory": "きゅうけい",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "솜×1"
         ]
       },
@@ -34509,7 +34509,7 @@
         "category": "ざっか",
         "subCategory": "かざりつけ",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "포케메탈×1"
         ]
       },
@@ -34540,7 +34540,7 @@
         "category": "ざっか",
         "subCategory": "かざりつけ",
         "materialsKo": [
-          "실조각×2"
+          "실오라기×2"
         ]
       },
       {
@@ -34803,7 +34803,7 @@
         "category": "おくがい",
         "subCategory": "おもちゃ",
         "materialsKo": [
-          "빛의돌×2",
+          "빛의 돌×2",
           "철 주괴×2"
         ]
       },
@@ -34952,7 +34952,7 @@
       {
         "id": "other-entry-ca441b0a95",
         "nameJp": "たきび",
-        "nameKo": "모닥불",
+        "nameKo": "모닥불 레시피",
         "imagePath": "https://img.game8.jp/12365733/5bb2a6c6ff0bfcd83acf5c9dd56aa24b.webp/original",
         "sourceType": "other",
         "sourceJp": "ストーリーでクラフト台解放時に入手",
@@ -34973,7 +34973,7 @@
       {
         "id": "other-entry-ba9975efd5",
         "nameJp": "まるたのテーブル",
-        "nameKo": "통나무 테이블",
+        "nameKo": "통나무 테이블 레시피",
         "imagePath": "https://img.game8.jp/12365548/65521d21dd6ed4fa34d25a2742cc8a77.webp/original",
         "sourceType": "other",
         "sourceJp": "ストーリーでクラフト台解放時に入手",
@@ -34992,7 +34992,7 @@
       {
         "id": "other-entry-891d8a107a",
         "nameJp": "まるたのイス",
-        "nameKo": "통나무 의자",
+        "nameKo": "통나무 의자 레시피",
         "imagePath": "https://img.game8.jp/12365542/73a5fa92ebc44f35657e4668ec2d1ff3.webp/original",
         "sourceType": "other",
         "sourceJp": "ストーリーでクラフト台解放時に入手",
@@ -35011,7 +35011,7 @@
       {
         "id": "other-entry-3b1240f927",
         "nameJp": "木のさく",
-        "nameKo": "나무 울타리",
+        "nameKo": "나무 울타리 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_10.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「木のけんざいレシピセット」を購入(パサパサこうやLv3)",
@@ -35022,7 +35022,7 @@
       {
         "id": "other-entry-2b676ff509",
         "nameJp": "ほしくさのベッド",
-        "nameKo": "건초 침대",
+        "nameKo": "건초 침대 레시피",
         "imagePath": "https://img.game8.jp/12365643/55ccddf0fb9eae7fbeb47fb2f7d584e7.webp/original",
         "sourceType": "other",
         "sourceJp": "ストーリーで フシギダネ のおねがい「ベッドを使ってもらおう」で入手",
@@ -35041,7 +35041,7 @@
       {
         "id": "other-entry-e5d323d6d3",
         "nameJp": "サンドバッグ",
-        "nameKo": "샌드백",
+        "nameKo": "샌드백 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_13.png",
         "sourceType": "other",
         "sourceJp": "ショップ でレシピを購入(日替わり)",
@@ -35059,14 +35059,14 @@
         "materialsKo": [
           "해변 모래×1",
           "덩굴끈×1",
-          "실조각×1",
+          "실오라기×1",
           "철×1"
         ]
       },
       {
         "id": "other-entry-c2f583147e",
         "nameJp": "木のかいだん",
-        "nameKo": "나무 계단",
+        "nameKo": "나무 계단 레시피",
         "imagePath": "https://img.game8.jp/12365795/5b61d41a376a32ea1ef0ebb390a9e152.webp/original",
         "sourceType": "other",
         "sourceJp": "ストーリーで ヤドン と会話したときにもらう",
@@ -35079,13 +35079,13 @@
         "category": "べんり",
         "subCategory": "どうろ",
         "materialsKo": [
-          "목재×2"
+          "재목×2"
         ]
       },
       {
         "id": "other-entry-de5340bcd3",
         "nameJp": "かざぐるま",
-        "nameKo": "바람개비",
+        "nameKo": "바람개비 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_19.png",
         "sourceType": "other",
         "sourceJp": "かみのゴミ を入手する",
@@ -35121,13 +35121,13 @@
         "category": "家具",
         "subCategory": null,
         "materialsKo": [
-          "목재×1"
+          "재목×1"
         ]
       },
       {
         "id": "other-entry-79b6f68de2",
         "nameJp": "おおきなかがみ",
-        "nameKo": "큰 거울",
+        "nameKo": "큰 거울 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_26.png",
         "sourceType": "other",
         "sourceJp": "ショップ で400コインで購入(日替わり)",
@@ -35138,7 +35138,7 @@
       {
         "id": "other-entry-1dd1394a50",
         "nameJp": "さんばし",
-        "nameKo": "잔교",
+        "nameKo": "잔교 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_28.png",
         "sourceType": "other",
         "sourceJp": "パサパサこうやの街 で入手",
@@ -35149,7 +35149,7 @@
       {
         "id": "other-entry-e541024b21",
         "nameJp": "ボロい木ばこ",
-        "nameKo": "낡은 나무 상자",
+        "nameKo": "낡은 나무 상자 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_29.png",
         "sourceType": "other",
         "sourceJp": "水の中のキラキラから入手",
@@ -35162,13 +35162,13 @@
         "category": "おくがい",
         "subCategory": "かざりつけ",
         "materialsKo": [
-          "목재×1"
+          "재목×1"
         ]
       },
       {
         "id": "other-entry-fd06e491f8",
         "nameJp": "おおきな木のドア",
-        "nameKo": "큰 나무 문",
+        "nameKo": "큰 나무 문 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_32.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「こうやのいえづくりレシピセット」を購入(パサパサこうやLv3)",
@@ -35179,7 +35179,7 @@
       {
         "id": "other-entry-824db8db31",
         "nameJp": "メタモンのはた",
-        "nameKo": "메타몽 깃발",
+        "nameKo": "메타몽 깃발 레시피",
         "imagePath": "https://img.game8.jp/12365767/d22e1eb59400376616019ec15853c392.webp/original",
         "sourceType": "other",
         "sourceJp": "ストーリーではたを自宅に設置後に解放",
@@ -35196,13 +35196,13 @@
         "materialsKo": [
           "과사열매×1",
           "튼튼한 가지×1",
-          "실조각×1"
+          "실오라기×1"
         ]
       },
       {
         "id": "other-entry-5ca001e88c",
         "nameJp": "バスケット",
-        "nameKo": "바스켓",
+        "nameKo": "바스켓 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_50.png",
         "sourceType": "other",
         "sourceJp": "つたひも 入手時に解放",
@@ -35223,7 +35223,7 @@
       {
         "id": "other-entry-51e0d77eb4",
         "nameJp": "てつのかいだん",
-        "nameKo": "철 계단",
+        "nameKo": "철 계단 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_57.png",
         "sourceType": "other",
         "sourceJp": "ごつごつやまの街環境レベル5で ショップ 解放",
@@ -35234,7 +35234,7 @@
       {
         "id": "other-entry-d1690facf8",
         "nameJp": "木のみち",
-        "nameKo": "나무 길",
+        "nameKo": "나무 길 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_64.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「木のけんざいレシピセット」を購入(パサパサこうやLv3)",
@@ -35245,7 +35245,7 @@
       {
         "id": "other-entry-bc2d98fd44",
         "nameJp": "ようこうろ",
-        "nameKo": "용광로",
+        "nameKo": "용광로 레시피",
         "imagePath": "https://img.game8.jp/12365773/9ba76b41d4ee9a55baa6cc0547f1c6ea.webp/original",
         "sourceType": "other",
         "sourceJp": "ようこうろ で てつののべぼう を作成",
@@ -35266,7 +35266,7 @@
       {
         "id": "other-entry-6f06abd6fd",
         "nameJp": "にぐるま",
-        "nameKo": "짐수레",
+        "nameKo": "짐수레 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_105.png",
         "sourceType": "other",
         "sourceJp": "ポケモン図鑑70匹登録時の報酬",
@@ -35279,13 +35279,13 @@
         "category": "おくがい",
         "subCategory": null,
         "materialsKo": [
-          "목재×3"
+          "재목×3"
         ]
       },
       {
         "id": "other-entry-9c6ceac0af",
         "nameJp": "メニューボード",
-        "nameKo": "메뉴 보드",
+        "nameKo": "메뉴 보드 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_118.png",
         "sourceType": "other",
         "sourceJp": "ポケモン図鑑130匹登録時の報酬",
@@ -35300,13 +35300,13 @@
         "subCategory": "かざりつけ",
         "materialsKo": [
           "철×1",
-          "목재×1"
+          "재목×1"
         ]
       },
       {
         "id": "other-entry-85db720696",
         "nameJp": "キノコのランプ",
-        "nameKo": "버섯 램프",
+        "nameKo": "버섯 램프 레시피",
         "imagePath": "https://img.game8.jp/12365785/1c92f0f2efd1db689828865d1e079505.webp/original",
         "sourceType": "other",
         "sourceJp": "ひかるキノコ を入手",
@@ -35327,7 +35327,7 @@
       {
         "id": "other-entry-afb0879816",
         "nameJp": "ておしぐるま",
-        "nameKo": "손수레",
+        "nameKo": "손수레 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_131.png",
         "sourceType": "other",
         "sourceJp": "ポケモン図鑑200匹登録時の報酬",
@@ -35350,7 +35350,7 @@
       {
         "id": "other-entry-8f00f608a7",
         "nameJp": "やまほりどうぐ",
-        "nameKo": "땅파기 도구",
+        "nameKo": "땅파기 도구 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_132.png",
         "sourceType": "other",
         "sourceJp": "ポケモン図鑑220匹登録時の報酬",
@@ -35364,14 +35364,14 @@
         "category": "おくがい",
         "subCategory": "おもちゃ",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "철 주괴×1"
         ]
       },
       {
         "id": "other-entry-fe4a6d0f30",
         "nameJp": "イカしたエレキベース",
-        "nameKo": "멋진 일렉베이스",
+        "nameKo": "멋진 일렉베이스 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_140.png",
         "sourceType": "other",
         "sourceJp": "ふしぎなげん 入手時にひらめく",
@@ -35386,15 +35386,15 @@
         "category": "ざっか",
         "subCategory": "おもちゃ",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "포케메탈×1",
-          "신기한 원석×1"
+          "수수께끼 현×1"
         ]
       },
       {
         "id": "other-entry-707b8930cd",
         "nameJp": "コンクリートミキサー",
-        "nameKo": "콘크리트 믹서",
+        "nameKo": "콘크리트 믹서 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_220.png",
         "sourceType": "other",
         "sourceJp": "ローブシン に話しかけて入手",
@@ -35413,7 +35413,7 @@
       {
         "id": "other-entry-1bfe904289",
         "nameJp": "どかん",
-        "nameKo": "토관",
+        "nameKo": "토관 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_222.png",
         "sourceType": "other",
         "sourceJp": "コンクリート を入手するとひらめく",
@@ -35432,7 +35432,7 @@
       {
         "id": "other-entry-5418801d85",
         "nameJp": "ほんだな",
-        "nameKo": "책장",
+        "nameKo": "책장 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_266.png",
         "sourceType": "other",
         "sourceJp": "ショップ でレシピを購入(日替わり)",
@@ -35446,7 +35446,7 @@
         "category": "ざっか",
         "subCategory": "かざりつけ",
         "materialsKo": [
-          "목재×2",
+          "재목×2",
           "종이×2"
         ]
       },
@@ -35486,7 +35486,7 @@
       {
         "id": "other-entry-4451aaef07",
         "nameJp": "だいりせき",
-        "nameKo": "대리석",
+        "nameKo": "대리석 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_276.png",
         "sourceType": "other",
         "sourceJp": "せっかいせきを入手",
@@ -35497,7 +35497,7 @@
       {
         "id": "other-entry-09cedfaf2f",
         "nameJp": "タイルカーペット",
-        "nameKo": "타일 카펫",
+        "nameKo": "타일 카펫 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_284.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「うきしまのいえづくりレシピセット」を購入",
@@ -35508,7 +35508,7 @@
       {
         "id": "other-entry-ef19ba9921",
         "nameJp": "オフィスのデスク",
-        "nameKo": "오피스 데스크",
+        "nameKo": "오피스 데스크 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_289.png",
         "sourceType": "other",
         "sourceJp": "キラキラうきしまの街 で入手",
@@ -35527,7 +35527,7 @@
       {
         "id": "other-entry-b0b11ea169",
         "nameJp": "イワイノヨロイ",
-        "nameKo": "축복받은갑옷",
+        "nameKo": "축복받은갑옷 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_299.png",
         "sourceType": "other",
         "sourceJp": "ヨロイのはへん 入手時にひらめく",
@@ -35548,7 +35548,7 @@
       {
         "id": "other-entry-f3fe9626f5",
         "nameJp": "ノロイノヨロイ",
-        "nameKo": "저주받은갑옷",
+        "nameKo": "저주받은갑옷 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_300.png",
         "sourceType": "other",
         "sourceJp": "ヨロイのはへん 入手時にひらめく",
@@ -35569,7 +35569,7 @@
       {
         "id": "other-entry-164251356d",
         "nameJp": "みずおけ",
-        "nameKo": "물통",
+        "nameKo": "물통 레시피",
         "imagePath": "https://img.game8.jp/12365743/159bdb83fb845ba220410aa20f6aa21c.webp/original",
         "sourceType": "other",
         "sourceJp": "パサパサこうやの街 で入手",
@@ -35584,13 +35584,13 @@
         "subCategory": "かざりつけ",
         "materialsKo": [
           "덩굴끈×2",
-          "목재×2"
+          "재목×2"
         ]
       },
       {
         "id": "other-entry-4cff51b6dc",
         "nameJp": "ふみいし",
-        "nameKo": "디딤돌",
+        "nameKo": "디딤돌 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_147.png",
         "sourceType": "other",
         "sourceJp": "ゴツゴツやまの街 環境レベル2で ショップ 解放",
@@ -35601,7 +35601,7 @@
       {
         "id": "other-entry-2b033e8698",
         "nameJp": "木のゆか",
-        "nameKo": "나무 바닥",
+        "nameKo": "나무 바닥 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_412.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「こうやのいえづくり」を購入(パサパサこうやLv3)",
@@ -35612,7 +35612,7 @@
       {
         "id": "other-entry-7ebd289fd5",
         "nameJp": "かがりび",
-        "nameKo": "화톳불",
+        "nameKo": "화톳불 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_344.png",
         "sourceType": "other",
         "sourceJp": "ショップ で購入(日替わり)",
@@ -35655,7 +35655,7 @@
       {
         "id": "other-entry-38eb0e8053",
         "nameJp": "リース",
-        "nameKo": "리스",
+        "nameKo": "리스 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_366.png",
         "sourceType": "other",
         "sourceJp": "ポケモン図鑑65匹登録時の報酬",
@@ -35678,7 +35678,7 @@
       {
         "id": "other-entry-9c4d7a180a",
         "nameJp": "うちあげづつ",
-        "nameKo": "발사통",
+        "nameKo": "발사통 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_617.png",
         "sourceType": "other",
         "sourceJp": "ゴツゴツやまの街 のストーリークリア後",
@@ -35694,7 +35694,7 @@
         "subCategory": "おもちゃ",
         "materialsKo": [
           "덩굴끈×1",
-          "목재×1",
+          "재목×1",
           "철 주괴×1"
         ]
       },
@@ -35712,7 +35712,7 @@
       {
         "id": "other-entry-cb74636ca8",
         "nameJp": "オフィスのキャビネット",
-        "nameKo": "오피스 캐비닛",
+        "nameKo": "오피스 캐비닛 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_415.png",
         "sourceType": "other",
         "sourceJp": "キラキラうきしまの街 で入手",
@@ -35744,13 +35744,13 @@
         "category": "たてもの",
         "subCategory": null,
         "materialsKo": [
-          "목재×2"
+          "재목×2"
         ]
       },
       {
         "id": "other-entry-0501b9c7c2",
         "nameJp": "木のさくのトビラ",
-        "nameKo": "나무 울타리 문",
+        "nameKo": "나무 울타리 문 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_381.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「木のけんざいレシピセット」を購入(パサパサこうやLv3)",
@@ -35761,7 +35761,7 @@
       {
         "id": "other-entry-cecc477bb5",
         "nameJp": "木のカベ",
-        "nameKo": "나무 벽",
+        "nameKo": "나무 벽 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_382.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「こうやのいえづくりレシピセット」を購入(パサパサこうやLv3)",
@@ -35772,7 +35772,7 @@
       {
         "id": "other-entry-d77d5a498a",
         "nameJp": "いしのゆか",
-        "nameKo": "돌 바닥",
+        "nameKo": "돌 바닥 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_383.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「やまのいえづくりレシピセット」を購入",
@@ -35810,7 +35810,7 @@
       {
         "id": "other-entry-3ae842987a",
         "nameJp": "メタルなさくのトビラ",
-        "nameKo": "메탈 울타리 문",
+        "nameKo": "메탈 울타리 문 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_385.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「やまのいえづくりレシピセット」を購入",
@@ -35876,7 +35876,7 @@
       {
         "id": "other-entry-95947f2764",
         "nameJp": "ミラーボール",
-        "nameKo": "미러볼",
+        "nameKo": "미러볼 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_391.png",
         "sourceType": "other",
         "sourceJp": "ショップ で購入(日替わり)",
@@ -35890,14 +35890,14 @@
         "category": "べんり",
         "subCategory": "かざりつけ",
         "materialsKo": [
-          "크리스탈 조각×1",
+          "크리스털 조각×1",
           "금 주괴×1"
         ]
       },
       {
         "id": "other-entry-94eba9f77b",
         "nameJp": "おうぎやね",
-        "nameKo": "부채 지붕",
+        "nameKo": "부채 지붕 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_392.png",
         "sourceType": "other",
         "sourceJp": "ショップ で購入(日替わり)",
@@ -35916,7 +35916,7 @@
       {
         "id": "other-entry-9e2d53b678",
         "nameJp": "いしのだんろ",
-        "nameKo": "돌 벽난로",
+        "nameKo": "돌 벽난로 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_394.png",
         "sourceType": "other",
         "sourceJp": "ポケモン図鑑120匹登録時の報酬",
@@ -35939,7 +35939,7 @@
       {
         "id": "other-entry-212f0e6201",
         "nameJp": "さんばしのいた",
-        "nameKo": "부두 판자",
+        "nameKo": "부두 판자 레시피",
         "imagePath": "https://img.game8.jp/12365803/f22e5322c477b54ed9d4ab0aa652a0c6.webp/original",
         "sourceType": "other",
         "sourceJp": "パサパサこうやの街 で入手",
@@ -35950,7 +35950,7 @@
       {
         "id": "other-entry-444aa2a87a",
         "nameJp": "イカしたエレキギター",
-        "nameKo": "멋진 일렉기타",
+        "nameKo": "멋진 일렉기타 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_404.png",
         "sourceType": "other",
         "sourceJp": "ふしぎなげん 入手時にひらめく",
@@ -35965,9 +35965,9 @@
         "category": "ざっか",
         "subCategory": "おもちゃ",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "포케메탈×1",
-          "신기한 원석×1"
+          "수수께끼 현×1"
         ]
       },
       {
@@ -35992,7 +35992,7 @@
       {
         "id": "other-entry-7bf3584d42",
         "nameJp": "ナチュラルなテーブル",
-        "nameKo": "내추럴 테이블",
+        "nameKo": "내추럴 테이블 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_411.png",
         "sourceType": "other",
         "sourceJp": "ドンヨリうみべの街 で入手",
@@ -36006,14 +36006,14 @@
         "category": "家具",
         "subCategory": null,
         "materialsKo": [
-          "실조각×2",
-          "목재×1"
+          "실오라기×2",
+          "재목×1"
         ]
       },
       {
         "id": "other-entry-5fd5a7761e",
         "nameJp": "がくぶち",
-        "nameKo": "액자",
+        "nameKo": "액자 레시피",
         "imagePath": "https://img.game8.jp/12365769/b91fcc7087ba59fef5ea5907f510c4d8.webp/original",
         "sourceType": "other",
         "sourceJp": "ちいさなおとしもの 初回鑑定時",
@@ -36026,13 +36026,13 @@
         "category": "べんり",
         "subCategory": "かざりつけ",
         "materialsKo": [
-          "목재×1"
+          "재목×1"
         ]
       },
       {
         "id": "other-entry-25a80bb5db",
         "nameJp": "ツルツルのひよけ",
-        "nameKo": "매끈한 차양",
+        "nameKo": "매끈한 차양 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_423.png",
         "sourceType": "other",
         "sourceJp": "いとくず を初めて入手したとき",
@@ -36045,13 +36045,13 @@
         "category": "たてもの",
         "subCategory": null,
         "materialsKo": [
-          "실조각×2"
+          "실오라기×2"
         ]
       },
       {
         "id": "other-entry-4513a578b6",
         "nameJp": "ナチュラルなだい",
-        "nameKo": "내추럴 받침대",
+        "nameKo": "내추럴 받침대 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_435.png",
         "sourceType": "other",
         "sourceJp": "ショップ で購入(日替わり)",
@@ -36062,7 +36062,7 @@
       {
         "id": "other-entry-eb0aa52dc2",
         "nameJp": "スポットライト",
-        "nameKo": "스포트라이트",
+        "nameKo": "스포트라이트 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_445.png",
         "sourceType": "other",
         "sourceJp": "ドンヨリうみべの街 で拾う",
@@ -36077,13 +36077,13 @@
         "subCategory": "かざりつけ",
         "materialsKo": [
           "철×1",
-          "시글라스 조각×1"
+          "씨글라스 조각×1"
         ]
       },
       {
         "id": "other-entry-12b5cb7f5b",
         "nameJp": "めざましどけい",
-        "nameKo": "알람시계",
+        "nameKo": "알람시계 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_446.png",
         "sourceType": "other",
         "sourceJp": "ドンヨリうみべの街 で拾う",
@@ -36102,7 +36102,7 @@
       {
         "id": "other-entry-167eacdf6e",
         "nameJp": "パーティープレート",
-        "nameKo": "파티 플레이트",
+        "nameKo": "파티 플레이트 레시피",
         "imagePath": "https://img.game8.jp/12365660/365d9b3a7430b137283d6f7c903c6626.webp/original",
         "sourceType": "other",
         "sourceJp": "ゴツゴツやまの街 のストーリー中に入手",
@@ -36121,7 +36121,7 @@
       {
         "id": "other-entry-4f75288cc1",
         "nameJp": "いちりんざし",
-        "nameKo": "한 송이 꽃병",
+        "nameKo": "한 송이 꽃병 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_453.png",
         "sourceType": "other",
         "sourceJp": "ぐにゃぐにゃねんど を入手した際に入手",
@@ -36135,14 +36135,14 @@
         "category": "ざっか",
         "subCategory": "かざりつけ",
         "materialsKo": [
-          "말랑말랑 점토×1",
-          "들판의 꽃×1"
+          "흐물흐물 점토×1",
+          "들판 꽃×1"
         ]
       },
       {
         "id": "other-entry-762ddf716b",
         "nameJp": "シャワー",
-        "nameKo": "샤워기",
+        "nameKo": "샤워기 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_456.png",
         "sourceType": "other",
         "sourceJp": "ドンヨリうみべの街 のストーリー中に入手",
@@ -36161,7 +36161,7 @@
       {
         "id": "other-entry-7af61474fc",
         "nameJp": "すいしょうだま",
-        "nameKo": "수정 구슬",
+        "nameKo": "수정 구슬 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_457.png",
         "sourceType": "other",
         "sourceJp": "ニョロボン のおねがいごとを2回クリアで入手",
@@ -36175,14 +36175,14 @@
         "category": "ざっか",
         "subCategory": "おもちゃ",
         "materialsKo": [
-          "실조각×1",
+          "실오라기×1",
           "유리×3"
         ]
       },
       {
         "id": "other-entry-3df21367e6",
         "nameJp": "ゆぐち",
-        "nameKo": "온천 입구",
+        "nameKo": "온천 입구 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_458.png",
         "sourceType": "other",
         "sourceJp": "ポケモン図鑑90匹登録時の報酬",
@@ -36195,13 +36195,13 @@
         "category": "おくがい",
         "subCategory": null,
         "materialsKo": [
-          "목재×1"
+          "재목×1"
         ]
       },
       {
         "id": "other-entry-d91c61b3d3",
         "nameJp": "ラッキーのうえ木",
-        "nameKo": "럭키 화분",
+        "nameKo": "럭키 화분 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_460.png",
         "sourceType": "other",
         "sourceJp": "ショップ で購入(日替わり)",
@@ -36222,7 +36222,7 @@
       {
         "id": "other-entry-e5b810a76f",
         "nameJp": "そうさばん",
-        "nameKo": "조작판",
+        "nameKo": "조작판 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_464.png",
         "sourceType": "other",
         "sourceJp": "水のキラキラからランダムで入手",
@@ -36233,7 +36233,7 @@
       {
         "id": "other-entry-51942748e5",
         "nameJp": "アンティークドレッサー",
-        "nameKo": "앤티크 화장대",
+        "nameKo": "앤티크 화장대 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_474.png",
         "sourceType": "other",
         "sourceJp": "まっさらな街 環境レベル7で ショップ 解放",
@@ -36249,8 +36249,8 @@
         "category": "家具",
         "subCategory": null,
         "materialsKo": [
-          "목재×2",
-          "실조각×1",
+          "재목×2",
+          "실오라기×1",
           "철×2",
           "유리×1"
         ]
@@ -36258,7 +36258,7 @@
       {
         "id": "other-entry-ae30812171",
         "nameJp": "パンチングマシーン",
-        "nameKo": "펀칭 머신",
+        "nameKo": "펀칭 머신 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_485.png",
         "sourceType": "other",
         "sourceJp": "ショップ で購入(日替わり)",
@@ -36277,7 +36277,7 @@
       {
         "id": "other-entry-fbcdb7ccf9",
         "nameJp": "まないた",
-        "nameKo": "도마",
+        "nameKo": "도마 레시피",
         "imagePath": "https://img.game8.jp/12365770/293471ecdc783c7aceac081eacdf9037.webp/original",
         "sourceType": "other",
         "sourceJp": "ゴツゴツやまの街 のストーリー中に入手",
@@ -36290,13 +36290,13 @@
         "category": "べんり",
         "subCategory": null,
         "materialsKo": [
-          "목재×2"
+          "재목×2"
         ]
       },
       {
         "id": "other-entry-89d23b3923",
         "nameJp": "パンがま",
-        "nameKo": "빵 가마",
+        "nameKo": "빵 가마 레시피",
         "imagePath": "https://img.game8.jp/12365774/46c050ee0967e1006b54e7d9e459c7c9.webp/original",
         "sourceType": "other",
         "sourceJp": "ゴツゴツやまの街 のストーリーで入手",
@@ -36319,7 +36319,7 @@
       {
         "id": "other-entry-1b0d1f8f34",
         "nameJp": "コンロ",
-        "nameKo": "가스레인지",
+        "nameKo": "가스레인지 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_503.png",
         "sourceType": "other",
         "sourceJp": "水面のキラキラから入手",
@@ -36338,7 +36338,7 @@
       {
         "id": "other-entry-5cef64dab9",
         "nameJp": "フードカウンター",
-        "nameKo": "푸드 카운터",
+        "nameKo": "푸드 카운터 레시피",
         "imagePath": "https://img.game8.jp/12365543/69130fb260159cf19a9ffa51f1a6173f.webp/original",
         "sourceType": "other",
         "sourceJp": "水面のキラキラから入手",
@@ -36352,14 +36352,14 @@
         "category": "家具",
         "subCategory": null,
         "materialsKo": [
-          "실조각×2",
-          "목재×2"
+          "실오라기×2",
+          "재목×2"
         ]
       },
       {
         "id": "other-entry-e8e55372bd",
         "nameJp": "タブレット",
-        "nameKo": "태블릿",
+        "nameKo": "태블릿 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_507.png",
         "sourceType": "other",
         "sourceJp": "水面のキラキラから入手",
@@ -36380,7 +36380,7 @@
       {
         "id": "other-entry-f09f900f0e",
         "nameJp": "えんぴついれ",
-        "nameKo": "연필꽂이",
+        "nameKo": "연필꽂이 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_522.png",
         "sourceType": "other",
         "sourceJp": "ポケモン図鑑150匹登録時の報酬",
@@ -36394,14 +36394,14 @@
         "category": "ざっか",
         "subCategory": "おもちゃ",
         "materialsKo": [
-          "말랑말랑 점토×1",
-          "목재×1"
+          "흐물흐물 점토×1",
+          "재목×1"
         ]
       },
       {
         "id": "other-entry-2d88af9b09",
         "nameJp": "ろんぶん",
-        "nameKo": "논문",
+        "nameKo": "논문 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_529.png",
         "sourceType": "other",
         "sourceJp": "水面のキラキラから入手",
@@ -36420,7 +36420,7 @@
       {
         "id": "other-entry-154d81b12b",
         "nameJp": "おそうじセット",
-        "nameKo": "청소 세트",
+        "nameKo": "청소 세트 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_594.png",
         "sourceType": "other",
         "sourceJp": "ショップ で購入(日替わり)",
@@ -36439,7 +36439,7 @@
       {
         "id": "other-entry-d83669c0c7",
         "nameJp": "ポールさんかくコーン",
-        "nameKo": "폴 삼각 콘",
+        "nameKo": "폴 삼각 콘 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_599.png",
         "sourceType": "other",
         "sourceJp": "ショップ で購入(日替わり)",
@@ -36450,7 +36450,7 @@
       {
         "id": "other-entry-3381c99e9d",
         "nameJp": "ポケセンのカウンター",
-        "nameKo": "포켓몬센터 카운터",
+        "nameKo": "포켓몬센터 카운터 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_600.png",
         "sourceType": "other",
         "sourceJp": "ショップ で購入(日替わり)",
@@ -36461,7 +36461,7 @@
       {
         "id": "other-entry-abf029e0f6",
         "nameJp": "おしゃれなてつのカベ",
-        "nameKo": "세련된 철 벽",
+        "nameKo": "세련된 철 벽 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_687.png",
         "sourceType": "other",
         "sourceJp": "ショップ で購入(日替わり)",
@@ -36480,7 +36480,7 @@
       {
         "id": "other-entry-6641d348db",
         "nameJp": "モダンなカーペット",
-        "nameKo": "모던 카펫",
+        "nameKo": "모던 카펫 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_609.png",
         "sourceType": "other",
         "sourceJp": "ショップ で購入(日替わり)",
@@ -36524,7 +36524,7 @@
       {
         "id": "other-entry-10c5277e0e",
         "nameJp": "スプリンクラー",
-        "nameKo": "스프링클러",
+        "nameKo": "스프링클러 레시피",
         "imagePath": "https://img.game8.jp/12365784/2e1c571b69ca2f04633863cb26d25b76.webp/original",
         "sourceType": "other",
         "sourceJp": "ショップ で購入(日替わり)",
@@ -36543,7 +36543,7 @@
       {
         "id": "other-entry-2b4a033333",
         "nameJp": "うちっぱなしのカベ",
-        "nameKo": "노출 콘크리트 벽",
+        "nameKo": "노출 콘크리트 벽 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_617.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「うきしまのいえづくりレシピセット」を購入( キラキラうきしまの街 Lv3)",
@@ -36562,7 +36562,7 @@
       {
         "id": "other-entry-c779a18139",
         "nameJp": "じどうドア",
-        "nameKo": "자동문",
+        "nameKo": "자동문 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_618.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「うきしまのいえづくりレシピセット」を購入( キラキラうきしまの街 Lv3)",
@@ -36627,7 +36627,7 @@
       {
         "id": "other-entry-7d385e4355",
         "nameJp": "アンティークソファ",
-        "nameKo": "앤티크 소파",
+        "nameKo": "앤티크 소파 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_645.png",
         "sourceType": "other",
         "sourceJp": "まっさらな街 環境レベル6で ショップ 解放",
@@ -36642,7 +36642,7 @@
         "category": "家具",
         "subCategory": "きゅうけい",
         "materialsKo": [
-          "목재×2",
+          "재목×2",
           "솜×1",
           "금 주괴×2"
         ]
@@ -36665,8 +36665,8 @@
         "category": "家具",
         "subCategory": null,
         "materialsKo": [
-          "목재×2",
-          "실조각×1",
+          "재목×2",
+          "실오라기×1",
           "철×1"
         ]
       },
@@ -36695,7 +36695,7 @@
       {
         "id": "other-entry-78f266d3ec",
         "nameJp": "アンティークシャンデリア",
-        "nameKo": "앤티크 샹들리에",
+        "nameKo": "앤티크 샹들리에 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_781.png",
         "sourceType": "other",
         "sourceJp": "まっさらな街 環境レベル7で ショップ 解放",
@@ -36711,8 +36711,8 @@
         "category": "べんり",
         "subCategory": "かざりつけ",
         "materialsKo": [
-          "목재×2",
-          "실조각×1",
+          "재목×2",
+          "실오라기×1",
           "철×2",
           "유리×1"
         ]
@@ -36802,7 +36802,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "종이×1"
         ]
       },
@@ -36842,8 +36842,8 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×1",
-          "목재×1"
+          "실오라기×1",
+          "재목×1"
         ]
       },
       {
@@ -36863,8 +36863,8 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×1",
-          "목재×2"
+          "실오라기×1",
+          "재목×2"
         ]
       },
       {
@@ -36965,7 +36965,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1"
+          "재목×1"
         ]
       },
       {
@@ -36985,7 +36985,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "철 주괴×1"
         ]
       },
@@ -37025,7 +37025,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "금 주괴×1"
         ]
       },
@@ -37047,7 +37047,7 @@
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
           "돌×1",
-          "목재×1"
+          "재목×1"
         ]
       },
       {
@@ -37085,7 +37085,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2"
+          "재목×2"
         ]
       },
       {
@@ -37105,7 +37105,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "철 주괴×2"
         ]
       },
@@ -37126,8 +37126,8 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×2",
-          "목재×2"
+          "실오라기×2",
+          "재목×2"
         ]
       },
       {
@@ -37206,7 +37206,7 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×1",
+          "실오라기×1",
           "솜×1"
         ]
       },
@@ -37227,8 +37227,8 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×1",
-          "목재×1"
+          "실오라기×1",
+          "재목×1"
         ]
       },
       {
@@ -37248,8 +37248,8 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×1",
-          "목재×1"
+          "실오라기×1",
+          "재목×1"
         ]
       },
       {
@@ -37287,7 +37287,7 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1"
+          "재목×1"
         ]
       },
       {
@@ -37366,7 +37366,7 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×1",
+          "실오라기×1",
           "솜×1"
         ]
       },
@@ -37387,8 +37387,8 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×1",
-          "목재×1"
+          "실오라기×1",
+          "재목×1"
         ]
       },
       {
@@ -37408,7 +37408,7 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "솜×1"
         ]
       },
@@ -37429,7 +37429,7 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×1",
+          "실오라기×1",
           "솜×1"
         ]
       },
@@ -37469,7 +37469,7 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×1",
+          "실오라기×1",
           "철 주괴×1"
         ]
       },
@@ -37510,7 +37510,7 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2"
+          "재목×2"
         ]
       },
       {
@@ -37549,7 +37549,7 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2",
+          "재목×2",
           "솜×2"
         ]
       },
@@ -37570,7 +37570,7 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "철 주괴×2"
         ]
       },
@@ -37593,7 +37593,7 @@
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
           "작은 통나무×2",
-          "실조각×2",
+          "실오라기×2",
           "솜×2"
         ]
       },
@@ -37614,7 +37614,7 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "솜×1"
         ]
       },
@@ -37654,8 +37654,8 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×2",
-          "목재×2"
+          "실오라기×2",
+          "재목×2"
         ]
       },
       {
@@ -37676,7 +37676,7 @@
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
           "잎사귀×2",
-          "목재×2"
+          "재목×2"
         ]
       },
       {
@@ -37696,7 +37696,7 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2",
+          "재목×2",
           "솜×2"
         ]
       },
@@ -37717,7 +37717,7 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2",
+          "재목×2",
           "솜×2"
         ]
       },
@@ -37739,9 +37739,9 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2",
+          "재목×2",
           "철 주괴×2",
-          "물감・핑크×2"
+          "물감·분홍×2"
         ]
       },
       {
@@ -37760,7 +37760,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1"
+          "재목×1"
         ]
       },
       {
@@ -37779,7 +37779,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "말랑말랑 점토×1"
+          "흐물흐물 점토×1"
         ]
       },
       {
@@ -37799,7 +37799,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "말랑말랑 점토×1",
+          "흐물흐물 점토×1",
           "로즈레이 티×1"
         ]
       },
@@ -37820,8 +37820,8 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×1",
-          "말랑말랑 점토×1"
+          "실오라기×1",
+          "흐물흐물 점토×1"
         ]
       },
       {
@@ -37906,8 +37906,8 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "말랑말랑 점토×1",
-          "들판의 꽃×1"
+          "흐물흐물 점토×1",
+          "들판 꽃×1"
         ]
       },
       {
@@ -38022,7 +38022,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "종이×1"
         ]
       },
@@ -38043,7 +38043,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "종이×1"
         ]
       },
@@ -38064,7 +38064,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×4",
+          "재목×4",
           "종이×1"
         ]
       },
@@ -38085,7 +38085,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2",
+          "재목×2",
           "종이×2"
         ]
       },
@@ -38106,7 +38106,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "종이×1"
         ]
       },
@@ -38128,8 +38128,8 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "말랑말랑 점토×1",
-          "목재×1",
+          "흐물흐물 점토×1",
+          "재목×1",
           "유리×1"
         ]
       },
@@ -38226,7 +38226,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "말랑말랑 점토×1",
+          "흐물흐물 점토×1",
           "포케메탈×1"
         ]
       },
@@ -38247,7 +38247,7 @@
         "subCategory": "おもちゃ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "말랑말랑 점토×1",
+          "흐물흐물 점토×1",
           "포케메탈×1"
         ]
       },
@@ -38268,7 +38268,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×1",
+          "실오라기×1",
           "철 주괴×1"
         ]
       },
@@ -38370,7 +38370,7 @@
         "subCategory": "おもちゃ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1"
+          "재목×1"
         ]
       },
       {
@@ -38390,7 +38390,7 @@
         "subCategory": "おもちゃ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×1",
+          "실오라기×1",
           "솜×1"
         ]
       },
@@ -38577,7 +38577,7 @@
         "subCategory": "おもちゃ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "철 주괴×1",
           "포케메탈×1",
           "유리×1"
@@ -38678,7 +38678,7 @@
         "subCategory": "おもちゃ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "철 주괴×1"
         ]
       },
@@ -38699,7 +38699,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "종이×1"
         ]
       },
@@ -38720,7 +38720,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "유리×1"
         ]
       },
@@ -38742,7 +38742,7 @@
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
           "잎사귀×1",
-          "목재×1"
+          "재목×1"
         ]
       },
       {
@@ -38761,7 +38761,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×1"
+          "실오라기×1"
         ]
       },
       {
@@ -38822,7 +38822,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "철 주괴×1",
           "포케메탈×1"
         ]
@@ -38867,7 +38867,7 @@
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
           "돌×1",
-          "목재×1",
+          "재목×1",
           "철 주괴×1"
         ]
       },
@@ -38887,7 +38887,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×8"
+          "재목×8"
         ]
       },
       {
@@ -38908,7 +38908,7 @@
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
           "해변 모래×1",
-          "목재×1"
+          "재목×1"
         ]
       },
       {
@@ -39032,7 +39032,7 @@
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
           "잎사귀×1",
-          "목재×2"
+          "재목×2"
         ]
       },
       {
@@ -39109,7 +39109,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "종이×1"
         ]
       },
@@ -39150,7 +39150,7 @@
         "subCategory": "おもちゃ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2"
+          "재목×2"
         ]
       },
       {
@@ -39189,8 +39189,8 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×2",
-          "목재×2"
+          "실오라기×2",
+          "재목×2"
         ]
       },
       {
@@ -39209,7 +39209,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1"
+          "재목×1"
         ]
       },
       {
@@ -39228,7 +39228,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1"
+          "재목×1"
         ]
       },
       {
@@ -39267,7 +39267,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "포케메탈×2"
         ]
       },
@@ -39287,7 +39287,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1"
+          "재목×1"
         ]
       },
       {
@@ -39307,7 +39307,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "철 주괴×1"
         ]
       },
@@ -39327,7 +39327,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "불에 안 타는 쓰레기×1"
+          "불연성 쓰레기×1"
         ]
       },
       {
@@ -39602,7 +39602,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "철 주괴×1"
         ]
       },
@@ -39644,7 +39644,7 @@
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
           "유리×8",
-          "따라큐 기어×2",
+          "두드리짱×2",
           "콘크리트×8"
         ]
       },
@@ -39667,7 +39667,7 @@
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
           "철 주괴×5",
-          "따라큐 기어×1",
+          "두드리짱×1",
           "콘크리트×5"
         ]
       },
@@ -39769,7 +39769,7 @@
         "materialsKo": [
           "돌×1",
           "철×1",
-          "시글라스 조각×1"
+          "씨글라스 조각×1"
         ]
       },
       {
@@ -39789,7 +39789,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "크리스탈 조각×1",
+          "크리스털 조각×1",
           "철 주괴×2"
         ]
       },
@@ -39832,7 +39832,7 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "철 주괴×1",
           "포케메탈×1"
         ]
@@ -39913,8 +39913,8 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "조개껍데기×1",
-          "시글라스 조각×1"
+          "조개껍질×1",
+          "씨글라스 조각×1"
         ]
       },
       {
@@ -39958,7 +39958,7 @@
         "materialsKo": [
           "덩굴끈×1",
           "철×1",
-          "시글라스 조각×1"
+          "씨글라스 조각×1"
         ]
       },
       {
@@ -39979,7 +39979,7 @@
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
           "철×2",
-          "시글라스 조각×2"
+          "씨글라스 조각×2"
         ]
       },
       {
@@ -40018,7 +40018,7 @@
         "subCategory": "おもちゃ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "빛의돌×1",
+          "빛의 돌×1",
           "포케메탈×1"
         ]
       },
@@ -40039,7 +40039,7 @@
         "subCategory": "おもちゃ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "빛의돌×1",
+          "빛의 돌×1",
           "포케메탈×1"
         ]
       },
@@ -40060,7 +40060,7 @@
         "subCategory": "おもちゃ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "빛의돌×1",
+          "빛의 돌×1",
           "포케메탈×1"
         ]
       },
@@ -40081,7 +40081,7 @@
         "subCategory": "おもちゃ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "빛의돌×1",
+          "빛의 돌×1",
           "포케메탈×1"
         ]
       },
@@ -40102,7 +40102,7 @@
         "subCategory": "おもちゃ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "빛의돌×1",
+          "빛의 돌×1",
           "포케메탈×1"
         ]
       },
@@ -40123,7 +40123,7 @@
         "subCategory": "おもちゃ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "빛의돌×1",
+          "빛의 돌×1",
           "포케메탈×1"
         ]
       },
@@ -40144,7 +40144,7 @@
         "subCategory": "おもちゃ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "빛의돌×1",
+          "빛의 돌×1",
           "포케메탈×1"
         ]
       },
@@ -40240,7 +40240,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2"
+          "재목×2"
         ]
       },
       {
@@ -40259,7 +40259,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2"
+          "재목×2"
         ]
       },
       {
@@ -40320,7 +40320,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×1"
+          "실오라기×1"
         ]
       },
       {
@@ -40339,7 +40339,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×1"
+          "실오라기×1"
         ]
       },
       {
@@ -40358,7 +40358,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×2"
+          "실오라기×2"
         ]
       },
       {
@@ -40377,7 +40377,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×2"
+          "실오라기×2"
         ]
       },
       {
@@ -40396,7 +40396,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×2"
+          "실오라기×2"
         ]
       },
       {
@@ -40415,7 +40415,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×2"
+          "실오라기×2"
         ]
       },
       {
@@ -40434,7 +40434,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2"
+          "재목×2"
         ]
       },
       {
@@ -40472,7 +40472,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2"
+          "재목×2"
         ]
       },
       {
@@ -40510,7 +40510,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2"
+          "재목×2"
         ]
       },
       {
@@ -40529,7 +40529,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2"
+          "재목×2"
         ]
       },
       {
@@ -40548,7 +40548,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2"
+          "재목×2"
         ]
       },
       {
@@ -40588,7 +40588,7 @@
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
           "빛나는 버섯×1",
-          "목재×2"
+          "재목×2"
         ]
       },
       {
@@ -40609,8 +40609,8 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2",
-          "실조각×1",
+          "재목×2",
+          "실오라기×1",
           "철×2"
         ]
       },
@@ -40632,7 +40632,7 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2",
+          "재목×2",
           "솜×2",
           "금 주괴×2"
         ]
@@ -40655,7 +40655,7 @@
         "subCategory": "きゅうけい",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
+          "재목×1",
           "솜×1",
           "금 주괴×1"
         ]
@@ -40678,8 +40678,8 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2",
-          "실조각×1",
+          "재목×2",
+          "실오라기×1",
           "철×1"
         ]
       },
@@ -40702,8 +40702,8 @@
         "subCategory": "かざりつけ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2",
-          "실조각×1",
+          "재목×2",
+          "실오라기×1",
           "철×1",
           "유리×1"
         ]
@@ -40726,7 +40726,7 @@
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
           "철 주괴×2",
-          "목재×1"
+          "재목×1"
         ]
       },
       {
@@ -40747,7 +40747,7 @@
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
           "철 주괴×2",
-          "목재×1"
+          "재목×1"
         ]
       },
       {
@@ -40766,7 +40766,7 @@
         "subCategory": "かべ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2"
+          "재목×2"
         ]
       },
       {
@@ -40785,7 +40785,7 @@
         "subCategory": "かべ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2"
+          "재목×2"
         ]
       },
       {
@@ -40804,7 +40804,7 @@
         "subCategory": "かべ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×2"
+          "재목×2"
         ]
       },
       {
@@ -40861,7 +40861,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "연한 갈색 바위×1"
+          "연갈색 바위×1"
         ]
       },
       {
@@ -40899,7 +40899,7 @@
         "subCategory": "どうろ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "말랑말랑 점토×2"
+          "흐물흐물 점토×2"
         ]
       },
       {
@@ -40918,7 +40918,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×2"
+          "실오라기×2"
         ]
       },
       {
@@ -40938,8 +40938,8 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "목재×1",
-          "실조각×1"
+          "재목×1",
+          "실오라기×1"
         ]
       },
       {
@@ -40977,7 +40977,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×2"
+          "실오라기×2"
         ]
       },
       {
@@ -40996,7 +40996,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "실조각×2"
+          "실오라기×2"
         ]
       },
       {
@@ -41053,7 +41053,7 @@
         "subCategory": "かべ",
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "조개껍데기×1"
+          "조개껍질×1"
         ]
       },
       {
@@ -41074,7 +41074,7 @@
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
           "잎사귀×1",
-          "실조각×1"
+          "실오라기×1"
         ]
       },
       {
@@ -41112,7 +41112,7 @@
         "subCategory": null,
         "sourceUrl": "https://game8.jp/pocoapokemon/767405",
         "materialsKo": [
-          "흰 바위×1"
+          "하얀 바위×1"
         ]
       }
     ]
@@ -41284,7 +41284,7 @@
       "requiredMaterialsKo": [
         "잎사귀 ×20",
         "작은 통나무 ×20",
-        "목재 ×20"
+        "재목 ×20"
       ]
     },
     {
@@ -41313,7 +41313,7 @@
         "うみべのすな ×5"
       ],
       "requiredMaterialsKo": [
-        "조개껍데기 ×5",
+        "조개껍질 ×5",
         "돌 ×5",
         "해변 모래 ×5"
       ]
@@ -41346,7 +41346,7 @@
         "うみべのすな ×10"
       ],
       "requiredMaterialsKo": [
-        "조개껍데기 ×10",
+        "조개껍질 ×10",
         "돌 ×10",
         "해변 모래 ×10"
       ]
@@ -41385,7 +41385,7 @@
         "돌 ×20",
         "벽돌 ×20",
         "해변 모래 ×20",
-        "조개껍데기 ×20"
+        "조개껍질 ×20"
       ]
     },
     {
@@ -41424,7 +41424,7 @@
         "돌 ×25",
         "벽돌 ×25",
         "해변 모래 ×25",
-        "조개껍데기 ×25"
+        "조개껍질 ×25"
       ]
     },
     {
@@ -41489,7 +41489,7 @@
       ],
       "requiredMaterialsKo": [
         "포케메탈 ×5",
-        "목재 ×5",
+        "재목 ×5",
         "돌 ×5"
       ]
     },
@@ -41523,7 +41523,7 @@
       ],
       "requiredMaterialsKo": [
         "포케메탈 ×10",
-        "목재 ×10",
+        "재목 ×10",
         "돌 ×10",
         "유리 ×10"
       ]
@@ -41697,7 +41697,7 @@
         "はっぱ ×15"
       ],
       "requiredMaterialsKo": [
-        "목재 ×15",
+        "재목 ×15",
         "잎사귀 ×15"
       ]
     },
@@ -41731,7 +41731,7 @@
         "いし ×20"
       ],
       "requiredMaterialsKo": [
-        "목재 ×20",
+        "재목 ×20",
         "잎사귀 ×20",
         "돌 ×20"
       ]
@@ -41769,7 +41769,7 @@
         "つたひも ×25"
       ],
       "requiredMaterialsKo": [
-        "목재 ×25",
+        "재목 ×25",
         "잎사귀 ×25",
         "돌 ×25",
         "덩굴끈 ×25"
@@ -41800,8 +41800,8 @@
         "いとくず ×5"
       ],
       "requiredMaterialsKo": [
-        "목재 ×5",
-        "실조각 ×5"
+        "재목 ×5",
+        "실오라기 ×5"
       ]
     },
     {
@@ -41837,7 +41837,7 @@
       "requiredMaterialsKo": [
         "돌 ×50",
         "얼음 ×50",
-        "크리스탈 조각 ×10",
+        "크리스털 조각 ×10",
         "포케메탈 ×10"
       ]
     },
@@ -41877,7 +41877,7 @@
       "requiredMaterialsKo": [
         "구리 주괴 ×50",
         "철 주괴 ×50",
-        "시글라스 조각 ×50",
+        "씨글라스 조각 ×50",
         "벽돌 ×50",
         "포케메탈 ×10"
       ]
@@ -41907,7 +41907,7 @@
         "いし ×5"
       ],
       "requiredMaterialsKo": [
-        "목재 ×15",
+        "재목 ×15",
         "돌 ×5"
       ]
     },
@@ -41937,7 +41937,7 @@
       ],
       "requiredMaterialsKo": [
         "철 ×15",
-        "시글라스 조각 ×5"
+        "씨글라스 조각 ×5"
       ]
     }
   ],
@@ -43451,7 +43451,7 @@
         {
           "number": 5,
           "nameJp": "いねむりベッド",
-          "nameKo": "선잠 침대",
+          "nameKo": "낮잠 침대",
           "imagePath": "https://img.game8.jp/12370544/111ac630f0b4084de92a073fd7d3a3aa.webp/original"
         },
         {
@@ -43463,7 +43463,7 @@
         {
           "number": 7,
           "nameJp": "ツボかびん",
-          "nameKo": "항아리 화병",
+          "nameKo": "항아리 꽃병",
           "imagePath": "https://img.game8.jp/12366753/b7c8b76c9b3659a7f4ca4d6280b329e3.webp/original"
         },
         {
@@ -43511,7 +43511,7 @@
         {
           "number": 15,
           "nameJp": "びっくりばこ",
-          "nameKo": "깜짝상자",
+          "nameKo": "깜짝 상자",
           "imagePath": "https://img.game8.jp/12369949/63e0aca7af01c520e29e58861d61f309.webp/original"
         },
         {
@@ -43607,7 +43607,7 @@
         {
           "number": 31,
           "nameJp": "かおだしパネル",
-          "nameKo": "얼굴내밀기 패널",
+          "nameKo": "얼굴 패널",
           "imagePath": "https://img.game8.jp/12365710/9066c2a848a892283da3aebbd1395ced.webp/original"
         },
         {
@@ -43947,147 +43947,147 @@
         },
         {
           "nameJp": "たてのカセキ",
-          "nameKo": "방패의화석",
+          "nameKo": "방패 화석",
           "imagePath": "https://img.game8.jp/12365814/7bea1f4cebaf890c61c3aa6562841ff0.webp/original",
           "mapJp": "パサパサこうやの街",
           "mapKo": "메마른 황야 마을"
         },
         {
           "nameJp": "アゴのカセキ",
-          "nameKo": "턱화석",
+          "nameKo": "턱 화석",
           "imagePath": "https://img.game8.jp/12370824/a179b31a141d0d6f1591078509ca949c.webp/original",
           "mapJp": "ゴツゴツやまの街",
           "mapKo": "울퉁불퉁 산마을"
         },
         {
           "nameJp": "ヒレのカセキ",
-          "nameKo": "지느러미화석",
+          "nameKo": "지느러미 화석",
           "imagePath": "https://img.game8.jp/12371064/39497a31192527753df9aa14cc1758dd.webp/original",
           "mapJp": "ドンヨリうみべの街",
           "mapKo": "우중충한 해변 마을"
         },
         {
           "nameJp": "ツバサのカセキ・あたま",
-          "nameKo": "날개 화석 · 머리",
+          "nameKo": "날개의 화석(머리)",
           "imagePath": "https://img.game8.jp/12366754/dcac9e867dc43130f964c3f062534760.webp/original",
           "mapJp": "ゴツゴツやまの街",
           "mapKo": "울퉁불퉁 산마을"
         },
         {
           "nameJp": "ツバサのカセキ・うよく",
-          "nameKo": "날개 화석 · 오른쪽 날개",
+          "nameKo": "날개의 화석(오른쪽 날개)",
           "imagePath": "https://img.game8.jp/12370823/afdcb9dd63524243de75d729c53c8081.webp/original",
           "mapJp": "ゴツゴツやまの街",
           "mapKo": "울퉁불퉁 산마을"
         },
         {
           "nameJp": "ツバサのカセキ・さよく",
-          "nameKo": "날개 화석 · 왼쪽 날개",
+          "nameKo": "날개의 화석(왼쪽 날개)",
           "imagePath": "https://img.game8.jp/12368663/b2089b2cedace45b55ef6584ae614a75.webp/original",
           "mapJp": "ゴツゴツやまの街",
           "mapKo": "울퉁불퉁 산마을"
         },
         {
           "nameJp": "ツバサのカセキ・どう",
-          "nameKo": "날개 화석 · 구리",
+          "nameKo": "날개의 화석(몸통)",
           "imagePath": "https://img.game8.jp/12367711/6ffd6d93927a054b37f78d5144a8de0e.webp/original",
           "mapJp": "ゴツゴツやまの街",
           "mapKo": "울퉁불퉁 산마을"
         },
         {
           "nameJp": "ツバサのカセキ・しっぽ",
-          "nameKo": "날개 화석 · 꼬리",
+          "nameKo": "날개의 화석(꼬리)",
           "imagePath": "https://img.game8.jp/12369943/c1f8d78af94157d54e46cfdffd9898e0.webp/original",
           "mapJp": "ゴツゴツやまの街",
           "mapKo": "울퉁불퉁 산마을"
         },
         {
           "nameJp": "ずつきのカセキ・あたま",
-          "nameKo": "박치기 화석 · 머리",
+          "nameKo": "박치기 화석(머리)",
           "imagePath": "https://img.game8.jp/12369947/364dd50f1b917d429f1adb21d1eb2f0e.webp/original",
           "mapJp": "キラキラうきしまの街",
           "mapKo": "반짝반짝 부유섬 마을"
         },
         {
           "nameJp": "ずつきのカセキ・どう",
-          "nameKo": "박치기 화석 · 구리",
+          "nameKo": "박치기 화석(몸통)",
           "imagePath": "https://img.game8.jp/12370545/8e2e28d2b65d73ee6f8269f152deadac.webp/original",
           "mapJp": "キラキラうきしまの街",
           "mapKo": "반짝반짝 부유섬 마을"
         },
         {
           "nameJp": "ずつきのカセキ・しっぽ",
-          "nameKo": "박치기 화석 · 꼬리",
+          "nameKo": "박치기 화석(꼬리)",
           "imagePath": "https://img.game8.jp/12368259/1a8ddc9387679ee733975e4664c37ea9.webp/original",
           "mapJp": "キラキラうきしまの街",
           "mapKo": "반짝반짝 부유섬 마을"
         },
         {
           "nameJp": "シールドのカセキ・あたま",
-          "nameKo": "실드 화석 · 머리",
+          "nameKo": "실드 화석(머리)",
           "imagePath": "https://img.game8.jp/12366600/929f84fd991341b78d33d30efa5b0655.webp/original",
           "mapJp": "パサパサこうやの街",
           "mapKo": "메마른 황야 마을"
         },
         {
           "nameJp": "シールドのカセキ・どう",
-          "nameKo": "실드 화석 · 구리",
+          "nameKo": "실드 화석(몸통)",
           "imagePath": "https://img.game8.jp/12365810/94fc90976b9af4374c34f620c7bdec61.webp/original",
           "mapJp": "パサパサこうやの街",
           "mapKo": "메마른 황야 마을"
         },
         {
           "nameJp": "シールドのカセキ・しっぽ",
-          "nameKo": "실드 화석 · 꼬리",
+          "nameKo": "실드 화석(꼬리)",
           "imagePath": "https://img.game8.jp/12365813/dbefda1907a2c4a490c5dd72857f14c8.webp/original",
           "mapJp": "パサパサこうやの街",
           "mapKo": "메마른 황야 마을"
         },
         {
           "nameJp": "ぼうくんのカセキ・あたま",
-          "nameKo": "폭군 화석 · 머리",
+          "nameKo": "폭군 화석(머리)",
           "imagePath": "https://img.game8.jp/12370469/a5b4a0d180110e81a52e8d0a5d16f7fd.webp/original",
           "mapJp": "ゴツゴツやまの街",
           "mapKo": "울퉁불퉁 산마을"
         },
         {
           "nameJp": "ぼうくんのカセキ・どう",
-          "nameKo": "폭군 화석 · 구리",
+          "nameKo": "폭군 화석(몸통)",
           "imagePath": "https://img.game8.jp/12368665/c2b65c94273dcb7f4e0c8eadb22e349e.webp/original",
           "mapJp": "ゴツゴツやまの街",
           "mapKo": "울퉁불퉁 산마을"
         },
         {
           "nameJp": "ぼうくんのカセキ・あし",
-          "nameKo": "폭군 화석 · 다리",
+          "nameKo": "폭군 화석(다리)",
           "imagePath": "https://img.game8.jp/12369809/da9e697d5b593767510f7ed384fcea34.webp/original",
           "mapJp": "ゴツゴツやまの街",
           "mapKo": "울퉁불퉁 산마을"
         },
         {
           "nameJp": "ぼうくんのカセキ・しっぽ",
-          "nameKo": "폭군 화석 · 꼬리",
+          "nameKo": "폭군 화석(꼬리)",
           "imagePath": "https://img.game8.jp/12370147/b9bc57cc21710d0817bcbc349020cca4.webp/original",
           "mapJp": "ゴツゴツやまの街",
           "mapKo": "울퉁불퉁 산마을"
         },
         {
           "nameJp": "ツンドラのカセキ・あたま",
-          "nameKo": "툰드라 화석 · 머리",
+          "nameKo": "툰드라 화석(머리)",
           "imagePath": "https://img.game8.jp/12365812/ecf5d4932075236fe81ac65b3cdf6335.webp/original",
           "mapJp": "ドンヨリうみべの街",
           "mapKo": "우중충한 해변 마을"
         },
         {
           "nameJp": "ツンドラのカセキ・どう",
-          "nameKo": "툰드라 화석 · 구리",
+          "nameKo": "툰드라 화석(몸통)",
           "imagePath": "https://img.game8.jp/12368708/f49d6d55300b2e6bd5c9e1d57f7130b8.webp/original",
           "mapJp": "ドンヨリうみべの街",
           "mapKo": "우중충한 해변 마을"
         },
         {
           "nameJp": "ツンドラのカセキ・しっぽ",
-          "nameKo": "툰드라 화석 · 꼬리",
+          "nameKo": "툰드라 화석(꼬리)",
           "imagePath": "https://img.game8.jp/12365811/bfe2ab1a35594839a668dfab3c9f0376.webp/original",
           "mapJp": "ドンヨリうみべの街",
           "mapKo": "우중충한 해변 마을"
