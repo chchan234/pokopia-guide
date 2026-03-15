@@ -41393,7 +41393,14 @@
         "과사열매 + 다른 1종은 자연 생성",
         "열매는 1시간에 1개씩 자라며 한 나무에 최대 3개까지 열린다"
       ],
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/548099"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/548099",
+      "requiredSkill": null,
+      "requiredSkillKo": null,
+      "usesKo": [
+        "물감 제작",
+        "요리 재료",
+        "PP 회복"
+      ]
     },
     {
       "id": "entry-42dc8f9f68",
@@ -41406,7 +41413,14 @@
         "자연 생성 1종은 유저마다 다르다",
         "거래 특기가 있으면 교환으로 다른 열매를 보충할 수 있다"
       ],
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/548099"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/548099",
+      "requiredSkill": null,
+      "requiredSkillKo": null,
+      "usesKo": [
+        "물감 제작",
+        "요리 재료",
+        "PP 회복"
+      ]
     },
     {
       "id": "entry-0b279afbfe",
@@ -41419,7 +41433,14 @@
         "자연 생성 1종은 유저마다 다르다",
         "거래 특기가 있으면 교환으로 다른 열매를 보충할 수 있다"
       ],
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/548099"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/548099",
+      "requiredSkill": "いあいぎり（強化版）",
+      "requiredSkillKo": "풀베기 (강화판)",
+      "usesKo": [
+        "물감 제작",
+        "요리 재료",
+        "PP 회복"
+      ]
     },
     {
       "id": "entry-03beaed4ba",
@@ -41432,7 +41453,14 @@
         "자연 생성 1종은 유저마다 다르다",
         "거래 특기가 있으면 교환으로 다른 열매를 보충할 수 있다"
       ],
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/548099"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/548099",
+      "requiredSkill": null,
+      "requiredSkillKo": null,
+      "usesKo": [
+        "물감 제작",
+        "요리 재료",
+        "PP 회복"
+      ]
     },
     {
       "id": "entry-93d1268986",
@@ -41445,7 +41473,14 @@
         "자연 생성 1종은 유저마다 다르다",
         "거래 특기가 있으면 교환으로 다른 열매를 보충할 수 있다"
       ],
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/548099"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/548099",
+      "requiredSkill": null,
+      "requiredSkillKo": null,
+      "usesKo": [
+        "물감 제작",
+        "요리 재료",
+        "PP 회복"
+      ]
     },
     {
       "id": "entry-840f8afc33",
@@ -41458,7 +41493,14 @@
         "자연 생성 1종은 유저마다 다르다",
         "거래 특기가 있으면 교환으로 다른 열매를 보충할 수 있다"
       ],
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/548099"
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/548099",
+      "requiredSkill": null,
+      "requiredSkillKo": null,
+      "usesKo": [
+        "물감 제작",
+        "요리 재료",
+        "PP 회복"
+      ]
     }
   ],
   "emotes": [
