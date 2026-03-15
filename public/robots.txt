@@ -1,0 +1,31 @@
+# 주요 검색엔진 허용
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# SNS 미리보기 봇 허용
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: kakaotalk-scrap
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+# 나머지 봇 차단
+User-agent: *
+Disallow: /
+
+Sitemap: https://pokopia.pokowi.ki/sitemap.xml
