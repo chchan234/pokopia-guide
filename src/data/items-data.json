@@ -17473,7 +17473,7 @@
         {
           "nameJp": "レアポケメタル",
           "count": 5,
-          "nameKo": "레어 포케메탈"
+          "nameKo": "레어 포켓메탈"
         },
         {
           "nameJp": "ぎんいろのはね",
@@ -18661,12 +18661,12 @@
       "sourceUrl": "https://game8.jp/pocoapokemon/768398",
       "gamewithId": "369",
       "gamewithArticleId": "548864",
-      "descriptionKo": "모래사장에 떨어져 있는 그냥 조개껍데기. 집을 짓는 재료가 되기도 한다."
+      "descriptionKo": "모래사장에 떨어져 있는 그냥 조개. 집을 짓는 재료가 되기도 한다."
     },
     {
       "id": "gw-537",
       "nameJp": "かいがらランプ",
-      "nameKo": "조개껍질 램프",
+      "nameKo": "조개 램프",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_537.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -18687,7 +18687,7 @@
       "sourceUrl": null,
       "gamewithId": "537",
       "gamewithArticleId": null,
-      "descriptionKo": "얼핏 보면 그냥 조개껍데기지만 벽에 걸고 전기를 흘리면 은은하게 빛난다."
+      "descriptionKo": "얼핏 보면 그냥 조개지만 벽에 걸고 전기를 흘리면 은은하게 빛난다."
     },
     {
       "id": "gw-669",
@@ -26327,7 +26327,7 @@
         {
           "nameJp": "レアポケメタル",
           "count": 5,
-          "nameKo": "레어 포케메탈"
+          "nameKo": "레어 포켓메탈"
         },
         {
           "nameJp": "にじいろのはね",
@@ -30337,12 +30337,12 @@
       "sourceUrl": "https://game8.jp/pocoapokemon/768267",
       "gamewithId": "78",
       "gamewithArticleId": "547936",
-      "descriptionKo": "포케메탈 조각을 용광로에서 가공. 다양한 아이템의 재료가 돼."
+      "descriptionKo": "포켓메탈 조각을 용광로에서 가공. 다양한 아이템의 재료가 돼."
     },
     {
       "id": "gw-559",
       "nameJp": "ポケメタルのかけら",
-      "nameKo": "포케메탈 조각",
+      "nameKo": "포켓메탈 조각",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_559.png",
       "categoryJp": "材料",
       "categoryKo": "재료",
@@ -30352,7 +30352,7 @@
       "sourceUrl": "https://game8.jp/pocoapokemon/768301",
       "gamewithId": "559",
       "gamewithArticleId": "547937",
-      "descriptionKo": "포케메탈 광석에서 얻는 금속. 화려하고 반짝반짝해."
+      "descriptionKo": "포켓메탈 광석에서 얻는 금속. 화려하고 반짝반짝해."
     },
     {
       "id": "gw-600",
@@ -32909,7 +32909,7 @@
     {
       "id": "gw-366",
       "nameJp": "レアポケメタル",
-      "nameKo": "레어 포케메탈",
+      "nameKo": "레어 포켓메탈",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_366.png",
       "categoryJp": "材料",
       "categoryKo": "재료",
@@ -32919,12 +32919,12 @@
       "sourceUrl": "https://game8.jp/pocoapokemon/768326",
       "gamewithId": "366",
       "gamewithArticleId": "547777",
-      "descriptionKo": "레어 포케메탈 조각을 용광로로 가공한 거야. 귀한 아이템의 재료가 돼."
+      "descriptionKo": "레어 포켓메탈 조각을 용광로로 가공한 거야. 귀한 아이템의 재료가 돼."
     },
     {
       "id": "gw-370",
       "nameJp": "レアポケメタルのかけら",
-      "nameKo": "레어 포케메탈 조각",
+      "nameKo": "레어 포켓메탈 조각",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_370.png",
       "categoryJp": "材料",
       "categoryKo": "재료",
@@ -32934,7 +32934,7 @@
       "sourceUrl": "https://game8.jp/pocoapokemon/768303",
       "gamewithId": "370",
       "gamewithArticleId": "547946",
-      "descriptionKo": "포케메탈 광석에서 가끔 나와. 희귀하니까 얻으면 럭키야."
+      "descriptionKo": "포켓메탈 광석에서 가끔 나와. 희귀하니까 얻으면 럭키야."
     },
     {
       "id": "gw-598",
@@ -36036,7 +36036,7 @@
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_423.png",
         "sourceType": "other",
         "sourceJp": "いとくず を初めて入手したとき",
-        "sourceKo": "실오라기를 처음 획득했을 때",
+        "sourceKo": "실뭉치를 처음 획득했을 때",
         "price": null,
         "sourceUrl": "https://gamewith.jp/pocoapokemon/545849",
         "materialsJp": [
@@ -39899,7 +39899,7 @@
       {
         "id": "craft-4f989af155",
         "nameJp": "かいがらランプのレシピ",
-        "nameKo": "조개껍질 램프 레시피",
+        "nameKo": "조개 램프 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
