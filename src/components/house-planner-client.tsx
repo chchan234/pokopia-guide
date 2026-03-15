@@ -414,7 +414,7 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
                         {plan.leftovers.map((entry) => (
                           <article key={`${plan.environment}-${entry.pokemon.slug}`} className="rounded-2xl border border-border bg-background p-4">
                             <div className="mono text-[11px] text-muted-foreground">#{entry.pokemon.number}</div>
-                            <Link href={`/pokemon/${entry.pokemon.slug}`} className="mt-1 block text-sm font-bold text-foreground hover:text-pk-green-dark">
+                            <Link prefetch={false} href={`/pokemon/${entry.pokemon.slug}`} className="mt-1 block text-sm font-bold text-foreground hover:text-pk-green-dark">
                               {entry.pokemon.name}
                             </Link>
                             <p className="mt-2 text-[11px] text-muted-foreground">{entry.reason}</p>
@@ -435,7 +435,7 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
             <section className="rounded-3xl border border-border bg-card p-8 text-center">
               <h2 className="text-base font-bold text-foreground">아직 배치할 포켓몬이 없습니다.</h2>
               <p className="mt-2 text-sm text-muted-foreground">
-                <Link href="/collection" className="font-semibold text-pk-green-dark underline underline-offset-4">
+                <Link prefetch={false} href="/collection" className="font-semibold text-pk-green-dark underline underline-offset-4">
                   내 수집
                 </Link>
                 에서 포켓몬을 먼저 체크해 주세요.

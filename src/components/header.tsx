@@ -33,7 +33,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-background/90 backdrop-blur-md">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between gap-4 px-5 md:px-6">
-        <Link href="/" className="flex items-center gap-2" onClick={() => setMobileOpen(false)}>
+        <Link prefetch={false} href="/" className="flex items-center gap-2" onClick={() => setMobileOpen(false)}>
           <Image src="/logo.svg" alt="" aria-hidden width={22} height={22} className="h-[22px] w-[22px]" />
           <span className="text-[15px] font-extrabold tracking-tight text-pk-brown-dark">pokowiki</span>
         </Link>
@@ -48,7 +48,7 @@ export default function Header() {
             return (
               <div key={group.key} className="group relative">
                 <Link
-                  href={group.href}
+                  prefetch={false} href={group.href}
                   className={`inline-flex shrink-0 items-center gap-1 rounded-full px-3 py-1.5 text-[13px] font-semibold transition-colors ${
                     isActive
                       ? 'bg-pk-green text-white'

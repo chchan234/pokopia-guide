@@ -129,7 +129,7 @@ export default async function PokemonDetailPage({
         <InfoRow label="주 지역">{entry.primaryMap}</InfoRow>
         <InfoRow label="주 서식지">
           {entry.primaryHabitatId ? (
-            <Link href={`/habitats/${entry.primaryHabitatId}`} className="font-semibold text-pk-green-dark hover:text-pk-green">
+            <Link prefetch={false} href={`/habitats/${entry.primaryHabitatId}`} className="font-semibold text-pk-green-dark hover:text-pk-green">
               {entry.primaryHabitatNumber ? `No.${entry.primaryHabitatNumber} ` : entry.primaryHabitatIsEvent ? '이벤트 서식지 ' : ''}
               {entry.primaryHabitat}
             </Link>
