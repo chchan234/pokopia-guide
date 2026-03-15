@@ -27,7 +27,6 @@ export default function HomePage() {
               href={item.href}
               className="inline-flex items-center gap-1.5 rounded-full border border-border bg-card px-4 py-2 text-sm font-semibold text-foreground transition-colors hover:border-pk-green hover:bg-pk-green-light/30"
             >
-              <span className="text-[11px] font-medium text-muted-foreground">{item.groupLabel}</span>
               <span>{item.label}</span>
             </Link>
           ))}
