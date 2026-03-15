@@ -36237,7 +36237,7 @@
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_474.png",
         "sourceType": "other",
         "sourceJp": "まっさらな街 環境レベル7で ショップ 解放",
-        "sourceKo": "빈 마을 환경 레벨 7에서 상점 해금",
+        "sourceKo": "백지마을 환경 레벨 7에서 상점 해금",
         "price": null,
         "sourceUrl": "https://gamewith.jp/pocoapokemon/545849",
         "materialsJp": [
@@ -36631,7 +36631,7 @@
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_645.png",
         "sourceType": "other",
         "sourceJp": "まっさらな街 環境レベル6で ショップ 解放",
-        "sourceKo": "빈 마을 환경 레벨 6에서 상점 해금",
+        "sourceKo": "백지마을 환경 레벨 6에서 상점 해금",
         "price": null,
         "sourceUrl": "https://gamewith.jp/pocoapokemon/545849",
         "materialsJp": [
@@ -36654,7 +36654,7 @@
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_646.png",
         "sourceType": "other",
         "sourceJp": "まっさらな街 環境レベル6で ショップ 解放",
-        "sourceKo": "빈 마을 환경 레벨 6에서 상점 해금",
+        "sourceKo": "백지마을 환경 레벨 6에서 상점 해금",
         "price": null,
         "sourceUrl": "https://gamewith.jp/pocoapokemon/545849",
         "materialsJp": [
@@ -36688,7 +36688,7 @@
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_771.png",
         "sourceType": "other",
         "sourceJp": "まっさらな街 環境レベル8で ショップ 解放",
-        "sourceKo": "빈 마을 환경 레벨 8에서 상점 해금",
+        "sourceKo": "백지마을 환경 레벨 8에서 상점 해금",
         "price": null,
         "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
       },
@@ -36699,7 +36699,7 @@
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_781.png",
         "sourceType": "other",
         "sourceJp": "まっさらな街 環境レベル7で ショップ 解放",
-        "sourceKo": "빈 마을 환경 레벨 7에서 상점 해금",
+        "sourceKo": "백지마을 환경 레벨 7에서 상점 해금",
         "price": null,
         "sourceUrl": "https://gamewith.jp/pocoapokemon/545849",
         "materialsJp": [
@@ -36724,7 +36724,7 @@
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_790.png",
         "sourceType": "other",
         "sourceJp": "まっさらな街 環境レベル7で ショップ 解放",
-        "sourceKo": "빈 마을 환경 레벨 7에서 상점 해금",
+        "sourceKo": "백지마을 환경 레벨 7에서 상점 해금",
         "price": null,
         "sourceUrl": "https://gamewith.jp/pocoapokemon/545849"
       },
@@ -41617,7 +41617,7 @@
       "useJp": "ファイヤーと友達になれる",
       "useKo": "파이어와 친구가 될 수 있다",
       "recipeJp": "まっさらな街の北部で拾う",
-      "recipeKo": "빈 마을 북부에서 줍기",
+      "recipeKo": "백지마을 북부에서 줍기",
       "requiredSpecialtiesJp": [
         "もやす",
         "そらをとぶ",
@@ -41817,7 +41817,7 @@
       "useJp": "フリーザーと友達になれる",
       "useKo": "프리져와 친구가 될 수 있다",
       "recipeJp": "まっさらな街の東部で拾う",
-      "recipeKo": "빈 마을 동부에서 줍기",
+      "recipeKo": "백지마을 동부에서 줍기",
       "requiredSpecialtiesJp": [
         "うるおす",
         "けんちく",
@@ -41854,7 +41854,7 @@
       "useJp": "サンダーと友達になれる",
       "useKo": "썬더와 친구가 될 수 있다",
       "recipeJp": "まっさらな街の南部で拾う",
-      "recipeKo": "빈 마을 남부에서 줍기",
+      "recipeKo": "백지마을 남부에서 줍기",
       "requiredSpecialtiesJp": [
         "けんちく",
         "はつでん",
