@@ -21563,7 +21563,7 @@
       "sourceUrl": null,
       "gamewithId": "220",
       "gamewithArticleId": "547573",
-      "descriptionKo": "물과 석회석을 콘크리트로. '부수기'가 특기인 포켓몬에게 도움을 받아 보자."
+      "descriptionKo": "물과 석회석을 콘크리트로. '분쇄'가 특기인 포켓몬에게 도움을 받아 보자."
     },
     {
       "id": "gw-221",
@@ -41167,7 +41167,7 @@
       ],
       "requiredSpecialtiesKo": [
         "건축",
-        "부수기"
+        "분쇄"
       ],
       "requiredMaterialsJp": [
         "いし ×10",
@@ -41202,7 +41202,7 @@
       "requiredSpecialtiesKo": [
         "건축",
         "점화",
-        "부수기"
+        "분쇄"
       ],
       "requiredMaterialsJp": [
         "いし ×25",
@@ -41237,9 +41237,9 @@
       ],
       "requiredSpecialtiesKo": [
         "건축",
-        "북돋우기",
+        "분위기 메이킹",
         "점화",
-        "부수기"
+        "분쇄"
       ],
       "requiredMaterialsJp": [
         "いし ×25",
@@ -41338,7 +41338,7 @@
       ],
       "requiredSpecialtiesKo": [
         "건축",
-        "적시기"
+        "급수"
       ],
       "requiredMaterialsJp": [
         "かいがら ×10",
@@ -41372,7 +41372,7 @@
       ],
       "requiredSpecialtiesKo": [
         "건축",
-        "적시기",
+        "급수",
         "발전"
       ],
       "requiredMaterialsJp": [
@@ -41410,7 +41410,7 @@
       ],
       "requiredSpecialtiesKo": [
         "건축",
-        "적시기",
+        "급수",
         "발전",
         "리사이클"
       ],
@@ -41589,7 +41589,7 @@
         "건축",
         "분류",
         "공중날기",
-        "텔레포트"
+        "순간이동"
       ],
       "requiredMaterialsJp": [
         "ポケメタル ×25",
@@ -41690,7 +41690,7 @@
       ],
       "requiredSpecialtiesKo": [
         "건축",
-        "나무베기"
+        "절삭"
       ],
       "requiredMaterialsJp": [
         "ざいもく ×15",
@@ -41722,7 +41722,7 @@
       ],
       "requiredSpecialtiesKo": [
         "건축",
-        "나무베기",
+        "절삭",
         "공중날기"
       ],
       "requiredMaterialsJp": [
@@ -41759,7 +41759,7 @@
       "requiredSpecialtiesKo": [
         "건축",
         "재배",
-        "나무베기",
+        "절삭",
         "공중날기"
       ],
       "requiredMaterialsJp": [
@@ -41824,7 +41824,7 @@
         "そらをとぶ"
       ],
       "requiredSpecialtiesKo": [
-        "적시기",
+        "급수",
         "건축",
         "공중날기"
       ],
@@ -41864,7 +41864,7 @@
       "requiredSpecialtiesKo": [
         "건축",
         "발전",
-        "부수기",
+        "분쇄",
         "공중날기"
       ],
       "requiredMaterialsJp": [
