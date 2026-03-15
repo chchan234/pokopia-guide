@@ -131,7 +131,7 @@ export default async function HabitatDetailPage({
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {primaryPokemon.map((entry) => (
             <HabitatPokemonCard key={entry.slug} slug={entry.slug}>
-              <Link href={withFromParam(`/pokemon/${entry.slug}`, currentPath)} className="block rounded-3xl border border-border bg-card p-4 hover:border-pk-green">
+              <Link prefetch={false} href={withFromParam(`/pokemon/${entry.slug}`, currentPath)} className="block rounded-3xl border border-border bg-card p-4 hover:border-pk-green">
                 <div className="flex items-start justify-between gap-3">
                   <div>
                     <p className="mono text-[11px] text-muted-foreground">#{entry.number}</p>
@@ -159,7 +159,7 @@ export default async function HabitatDetailPage({
             {secondaryPokemon.map((entry) => (
               <HabitatPokemonCard key={entry.slug} slug={entry.slug}>
                 <Link
-                  href={withFromParam(`/pokemon/${entry.slug}`, currentPath)}
+                  prefetch={false} href={withFromParam(`/pokemon/${entry.slug}`, currentPath)}
                   className="block rounded-full border border-border bg-card px-3 py-1.5 text-xs font-semibold text-foreground hover:border-pk-green hover:text-pk-green-dark"
                 >
                   #{entry.number} {entry.name}

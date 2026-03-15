@@ -184,10 +184,10 @@ export default function DreamIslandsPageClient({ data }: DreamIslandsPageClientP
           </div>
           <div className="rounded-2xl bg-background px-4 py-3 text-sm text-muted-foreground">{data.notesKo.join(' / ')}</div>
           <div className="flex flex-wrap gap-3 pt-1">
-            <Link href="/records" className="rounded-full border border-border px-4 py-2 text-sm font-semibold hover:border-pk-green hover:text-pk-green-dark">
+            <Link prefetch={false} href="/records" className="rounded-full border border-border px-4 py-2 text-sm font-semibold hover:border-pk-green hover:text-pk-green-dark">
               기록 보기
             </Link>
-            <Link href="/fashion" className="rounded-full border border-border px-4 py-2 text-sm font-semibold hover:border-pk-green hover:text-pk-green-dark">
+            <Link prefetch={false} href="/fashion" className="rounded-full border border-border px-4 py-2 text-sm font-semibold hover:border-pk-green hover:text-pk-green-dark">
               의상 보기
             </Link>
           </div>

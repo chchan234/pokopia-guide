@@ -14,5 +14,5 @@ export default function PreserveSearchLink({ href, ...props }: PreserveSearchLin
   const searchParams = useSearchParams();
   const currentLocation = searchParams.toString() ? `${pathname}?${searchParams.toString()}` : pathname;
 
-  return <Link href={withFromParam(href, currentLocation)} {...props} />;
+  return <Link prefetch={false} href={withFromParam(href, currentLocation)} {...props} />;
 }
