@@ -35930,17 +35930,503 @@
   },
   "buildings": [
     {
-      "id": "entry-351a4f4fd2",
+      "id": "building-6a553b2aee",
+      "nameJp": "いしのおへやキット",
+      "nameKo": "돌 방 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_11.png",
+      "capacity": "2匹",
+      "buildTime": "15分",
+      "useJp": "メタモンやポケモンのすみかになる",
+      "useKo": "메타몽이나 포켓몬의 서식지가 된다",
+      "recipeJp": "ショップで購入(ゴツゴツやまの街Lv2)",
+      "recipeKo": "상점에서 구매(울퉁불퉁 산 마을 Lv2)",
+      "requiredSpecialtiesJp": [
+        "けんちく"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축"
+      ],
+      "requiredMaterialsJp": [
+        "いし ×5",
+        "かざんばい ×10"
+      ],
+      "requiredMaterialsKo": [
+        "돌 ×5",
+        "화산재 ×10"
+      ]
+    },
+    {
+      "id": "building-e0fe60a7a0",
+      "nameJp": "いしのこやキット",
+      "nameKo": "돌 오두막 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_12.png",
+      "capacity": "4匹",
+      "buildTime": "1時間",
+      "useJp": "メタモンやポケモンのすみかになる",
+      "useKo": "메타몽이나 포켓몬의 서식지가 된다",
+      "recipeJp": "ショップで購入(ゴツゴツやまの街Lv3)",
+      "recipeKo": "상점에서 구매(울퉁불퉁 산 마을 Lv3)",
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "つぶす"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "부수기"
+      ],
+      "requiredMaterialsJp": [
+        "いし ×10",
+        "かざんばい ×20",
+        "どうののべぼう ×10"
+      ],
+      "requiredMaterialsKo": [
+        "돌 ×10",
+        "화산재 ×20",
+        "구리 주괴 ×10"
+      ]
+    },
+    {
+      "id": "building-14579fd52f",
+      "nameJp": "いしのいえキット",
+      "nameKo": "돌 집 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_13.png",
+      "capacity": "6匹",
+      "buildTime": "2時間",
+      "useJp": "メタモンやポケモンのすみかになる",
+      "useKo": "메타몽이나 포켓몬의 서식지가 된다",
+      "recipeJp": "ショップで購入(ゴツゴツやまの街Lv4)",
+      "recipeKo": "상점에서 구매(울퉁불퉁 산 마을 Lv4)",
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "もやす",
+        "つぶす"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "점화",
+        "부수기"
+      ],
+      "requiredMaterialsJp": [
+        "いし ×25",
+        "レンガ ×25",
+        "てつののべぼう ×25"
+      ],
+      "requiredMaterialsKo": [
+        "돌 ×25",
+        "벽돌 ×25",
+        "철 주괴 ×25"
+      ]
+    },
+    {
+      "id": "building-f2707623c6",
+      "nameJp": "いしのりっぱなキット",
+      "nameKo": "돌 훌륭한 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_14.png",
+      "capacity": "8匹",
+      "buildTime": "翌日",
+      "useJp": "メタモンやポケモンのすみかになる",
+      "useKo": "메타몽이나 포켓몬의 서식지가 된다",
+      "recipeJp": "ショップで購入(ゴツゴツやまの街Lv5)",
+      "recipeKo": "상점에서 구매(울퉁불퉁 산 마을 Lv5)",
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "もりあげる",
+        "もやす",
+        "つぶす"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "북돋우기",
+        "점화",
+        "부수기"
+      ],
+      "requiredMaterialsJp": [
+        "いし ×25",
+        "レンガ ×25",
+        "てつののべぼう ×25",
+        "コンクリート ×25"
+      ],
+      "requiredMaterialsKo": [
+        "돌 ×25",
+        "벽돌 ×25",
+        "철 주괴 ×25",
+        "콘크리트 ×25"
+      ]
+    },
+    {
+      "id": "building-a1fd688605",
+      "nameJp": "いやしのこうえんキット",
+      "nameKo": "치유의 공원 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_24.png",
+      "capacity": "7匹",
+      "buildTime": "翌日",
+      "useJp": "生息地「ラッキー休けい所」に必要なアイテムが出現する",
+      "useKo": "서식지 「럭키 휴게소」에 필요한 아이템이 출현한다",
+      "recipeJp": "ショップで購入(パサパサこうやの街Lv8)",
+      "recipeKo": "상점에서 구매(메마른 황야 마을 Lv8)",
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "しわける"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "분류"
+      ],
+      "requiredMaterialsJp": [
+        "はっぱ ×20",
+        "ちいさなまるた ×20",
+        "ざいもく ×20"
+      ],
+      "requiredMaterialsKo": [
+        "잎사귀 ×20",
+        "작은 통나무 ×20",
+        "목재 ×20"
+      ]
+    },
+    {
+      "id": "building-d99d776ad9",
+      "nameJp": "すなのおへやキット",
+      "nameKo": "모래 방 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_19.png",
+      "capacity": "2匹",
+      "buildTime": "15分",
+      "useJp": "メタモンやポケモンのすみかになる",
+      "useKo": "메타몽이나 포켓몬의 서식지가 된다",
+      "recipeJp": "ショップで購入(ドンヨリうみべの街Lv2)",
+      "recipeKo": "상점에서 구매(우중충한 해변 마을 Lv2)",
+      "requiredSpecialtiesJp": [
+        "けんちく"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축"
+      ],
+      "requiredMaterialsJp": [
+        "かいがら ×5",
+        "いし ×5",
+        "うみべのすな ×5"
+      ],
+      "requiredMaterialsKo": [
+        "조개껍데기 ×5",
+        "돌 ×5",
+        "해변 모래 ×5"
+      ]
+    },
+    {
+      "id": "building-9340145cd8",
+      "nameJp": "すなのこやキット",
+      "nameKo": "모래 오두막 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_20.png",
+      "capacity": "4匹",
+      "buildTime": "1時間",
+      "useJp": "メタモンやポケモンのすみかになる",
+      "useKo": "메타몽이나 포켓몬의 서식지가 된다",
+      "recipeJp": "ショップで購入(ドンヨリうみべの街Lv3)",
+      "recipeKo": "상점에서 구매(우중충한 해변 마을 Lv3)",
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "うるおす"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "적시기"
+      ],
+      "requiredMaterialsJp": [
+        "かいがら ×10",
+        "いし ×10",
+        "うみべのすな ×10"
+      ],
+      "requiredMaterialsKo": [
+        "조개껍데기 ×10",
+        "돌 ×10",
+        "해변 모래 ×10"
+      ]
+    },
+    {
+      "id": "building-ab17515516",
+      "nameJp": "すなのいえキット",
+      "nameKo": "모래 집 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_21.png",
+      "capacity": "6匹",
+      "buildTime": "2時間",
+      "useJp": "メタモンやポケモンのすみかになる",
+      "useKo": "메타몽이나 포켓몬의 서식지가 된다",
+      "recipeJp": "ショップで購入(ドンヨリうみべの街Lv4)",
+      "recipeKo": "상점에서 구매(우중충한 해변 마을 Lv4)",
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "うるおす",
+        "はつでん"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "적시기",
+        "발전"
+      ],
+      "requiredMaterialsJp": [
+        "いし ×20",
+        "レンガ ×20",
+        "うみべのすな ×20",
+        "かいがら ×20"
+      ],
+      "requiredMaterialsKo": [
+        "돌 ×20",
+        "벽돌 ×20",
+        "해변 모래 ×20",
+        "조개껍데기 ×20"
+      ]
+    },
+    {
+      "id": "building-f0f07770c5",
+      "nameJp": "すなのりっぱなキット",
+      "nameKo": "모래 훌륭한 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_22.png",
+      "capacity": "8匹",
+      "buildTime": "翌日",
+      "useJp": "メタモンやポケモンのすみかになる",
+      "useKo": "메타몽이나 포켓몬의 서식지가 된다",
+      "recipeJp": "ショップで購入(ドンヨリうみべの街Lv5)",
+      "recipeKo": "상점에서 구매(우중충한 해변 마을 Lv5)",
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "うるおす",
+        "はつでん",
+        "リサイクル"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "적시기",
+        "발전",
+        "리사이클"
+      ],
+      "requiredMaterialsJp": [
+        "いし ×25",
+        "レンガ ×25",
+        "うみべのすな ×25",
+        "かいがら ×25"
+      ],
+      "requiredMaterialsKo": [
+        "돌 ×25",
+        "벽돌 ×25",
+        "해변 모래 ×25",
+        "조개껍데기 ×25"
+      ]
+    },
+    {
+      "id": "building-7e3fc536df",
+      "nameJp": "ちいさなオフィスキット",
+      "nameKo": "작은 오피스 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_34.png",
+      "capacity": "7匹",
+      "buildTime": "翌日",
+      "useJp": "メタモンやポケモンのすみかになる",
+      "useKo": "메타몽이나 포켓몬의 서식지가 된다",
+      "recipeJp": "ショップで購入(キラキラうきしまの街Lv8)",
+      "recipeKo": "상점에서 구매(반짝반짝 떠있는 섬 마을 Lv8)",
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "そらをとぶ"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "공중날기"
+      ],
+      "requiredMaterialsJp": [
+        "てつののべぼう ×10",
+        "コンクリート ×10",
+        "ガラス ×10",
+        "ポケメタル ×5"
+      ],
+      "requiredMaterialsKo": [
+        "철 주괴 ×10",
+        "콘크리트 ×10",
+        "유리 ×10",
+        "포케메탈 ×5"
+      ]
+    },
+    {
+      "id": "building-968462f26b",
+      "nameJp": "とかいのおへやキット",
+      "nameKo": "도시 방 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_15.png",
+      "capacity": "2匹",
+      "buildTime": "15分",
+      "useJp": "メタモンやポケモンのすみかになる",
+      "useKo": "메타몽이나 포켓몬의 서식지가 된다",
+      "recipeJp": "ショップで購入(キラキラうきしまの街Lv2)",
+      "recipeKo": "상점에서 구매(반짝반짝 떠있는 섬 마을 Lv2)",
+      "requiredSpecialtiesJp": [
+        "けんちく"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축"
+      ],
+      "requiredMaterialsJp": [
+        "ポケメタル ×5",
+        "ざいもく ×5",
+        "いし ×5"
+      ],
+      "requiredMaterialsKo": [
+        "포케메탈 ×5",
+        "목재 ×5",
+        "돌 ×5"
+      ]
+    },
+    {
+      "id": "building-d59c42536b",
+      "nameJp": "とかいのこやキット",
+      "nameKo": "도시 오두막 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_16.png",
+      "capacity": "4匹",
+      "buildTime": "1時間",
+      "useJp": "メタモンやポケモンのすみかになる",
+      "useKo": "메타몽이나 포켓몬의 서식지가 된다",
+      "recipeJp": "ショップで購入(キラキラうきしまの街Lv3)",
+      "recipeKo": "상점에서 구매(반짝반짝 떠있는 섬 마을 Lv3)",
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "しわける"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "분류"
+      ],
+      "requiredMaterialsJp": [
+        "ポケメタル ×10",
+        "ざいもく ×10",
+        "いし ×10",
+        "ガラス ×10"
+      ],
+      "requiredMaterialsKo": [
+        "포케메탈 ×10",
+        "목재 ×10",
+        "돌 ×10",
+        "유리 ×10"
+      ]
+    },
+    {
+      "id": "building-2ece31600e",
+      "nameJp": "とかいのいえキット",
+      "nameKo": "도시 집 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_17.png",
+      "capacity": "6匹",
+      "buildTime": "2時間",
+      "useJp": "メタモンやポケモンのすみかになる",
+      "useKo": "메타몽이나 포켓몬의 서식지가 된다",
+      "recipeJp": "ショップで購入(キラキラうきしまの街Lv4)",
+      "recipeKo": "상점에서 구매(반짝반짝 떠있는 섬 마을 Lv4)",
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "しわける",
+        "そらをとぶ"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "분류",
+        "공중날기"
+      ],
+      "requiredMaterialsJp": [
+        "ポケメタル ×20",
+        "ガラス ×20",
+        "レンガ ×20",
+        "コンクリート ×20"
+      ],
+      "requiredMaterialsKo": [
+        "포케메탈 ×20",
+        "유리 ×20",
+        "벽돌 ×20",
+        "콘크리트 ×20"
+      ]
+    },
+    {
+      "id": "building-1ccfbdeaa8",
+      "nameJp": "とかいのりっぱなキット",
+      "nameKo": "도시 훌륭한 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_18.png",
+      "capacity": "8匹",
+      "buildTime": "翌日",
+      "useJp": "メタモンやポケモンのすみかになる",
+      "useKo": "메타몽이나 포켓몬의 서식지가 된다",
+      "recipeJp": "ショップで購入(キラキラうきしまの街Lv5)",
+      "recipeKo": "상점에서 구매(반짝반짝 떠있는 섬 마을 Lv5)",
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "しわける",
+        "そらをとぶ",
+        "テレポート"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "분류",
+        "공중날기",
+        "텔레포트"
+      ],
+      "requiredMaterialsJp": [
+        "ポケメタル ×25",
+        "ガラス ×25",
+        "コンクリート ×25",
+        "てつののべぼう ×25"
+      ],
+      "requiredMaterialsKo": [
+        "포케메탈 ×25",
+        "유리 ×25",
+        "콘크리트 ×25",
+        "철 주괴 ×25"
+      ]
+    },
+    {
+      "id": "building-351a4f4fd2",
       "nameJp": "ともしびのさいだんキット",
-      "nameKo": "등불 제단 키트",
+      "nameKo": "불꽃 제단 키트",
       "typeJp": "建物",
       "typeKo": "건물",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_3.png",
       "capacity": "15匹",
-      "buildTime": "24時間",
-      "useJp": "ファイヤー の生息地を作れる",
-      "useKo": "파이어 서식지를 만들 수 있다",
+      "buildTime": "翌日",
+      "useJp": "ファイヤーと友達になれる",
+      "useKo": "파이어와 친구가 될 수 있다",
       "recipeJp": "まっさらな街の北部で拾う",
       "recipeKo": "빈 마을 북부에서 줍기",
       "requiredSpecialtiesJp": [
@@ -35967,19 +36453,19 @@
       ]
     },
     {
-      "id": "entry-3dacdc6154",
+      "id": "building-3dacdc6154",
       "nameJp": "はっぱのおへやキット",
       "nameKo": "잎사귀 방 키트",
-      "typeJp": "家",
-      "typeKo": "집",
+      "typeJp": "建物",
+      "typeKo": "건물",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_1.png",
       "capacity": "2匹",
       "buildTime": "15分",
-      "useJp": "メタモン やポケモンのすみかになる",
-      "useKo": "메타몽과 포켓몬의 거처가 된다",
-      "recipeJp": "ショップで購入(パサパサ荒野の環境レベル2)",
-      "recipeKo": "상점 구매(메마른 황야 환경 레벨 2)",
+      "useJp": "メタモンやポケモンのすみかになる",
+      "useKo": "메타몽이나 포켓몬의 서식지가 된다",
+      "recipeJp": "ショップで購入(パサパサこうやの街Lv2)",
+      "recipeKo": "상점에서 구매(메마른 황야 마을 Lv2)",
       "requiredSpecialtiesJp": [
         "けんちく"
       ],
@@ -35996,59 +36482,151 @@
       ]
     },
     {
-      "id": "entry-fb8e9b2038",
-      "nameJp": "はっぱのりっぱなキット",
-      "nameKo": "잎사귀 큰집 키트",
-      "typeJp": "キット",
-      "typeKo": "키트",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
-      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_318.png",
-      "descriptionJp": "みんなで暮らせる特大の家が目標だ。ポケモンたちと一緒に「けんちく」しよう。",
-      "descriptionKo": "모두 함께 살 수 있는 특대형 집이 목표다. 포켓몬과 함께 건축하자.",
-      "useJp": null,
-      "useKo": null,
-      "recipeJp": null,
-      "recipeKo": null,
-      "requiredSpecialtiesJp": [],
-      "requiredSpecialtiesKo": [],
-      "requiredMaterialsJp": [],
-      "requiredMaterialsKo": [],
-      "capacity": null,
-      "buildTime": null
-    },
-    {
-      "id": "entry-97160a25d0",
-      "nameJp": "風力はつでんキット",
-      "nameKo": "풍력발전 키트",
-      "typeJp": "キット",
-      "typeKo": "키트",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
-      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_113.png",
-      "descriptionJp": "風の力でいつでも「はつでん」できる。ポケモンたちと一緒に「けんちく」しよう。",
-      "descriptionKo": "바람의 힘으로 언제든 발전할 수 있다. 포켓몬과 함께 건축하자.",
-      "useJp": null,
-      "useKo": null,
-      "recipeJp": null,
-      "recipeKo": null,
-      "requiredSpecialtiesJp": [],
-      "requiredSpecialtiesKo": [],
-      "requiredMaterialsJp": [],
-      "requiredMaterialsKo": [],
-      "capacity": null,
-      "buildTime": null
-    },
-    {
-      "id": "entry-a4a53948b1",
-      "nameJp": "ふたごのひむろキット",
-      "nameKo": "쌍둥이 빙실 키트",
+      "id": "building-f05c576774",
+      "nameJp": "はっぱのこやキット",
+      "nameKo": "잎사귀 오두막 키트",
       "typeJp": "建物",
       "typeKo": "건물",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
-      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_2.png",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_8.png",
+      "capacity": "4匹",
+      "buildTime": "1時間",
+      "useJp": "メタモンやポケモンのすみかになる",
+      "useKo": "메타몽이나 포켓몬의 서식지가 된다",
+      "recipeJp": "ショップで購入(パサパサこうやの街Lv3)",
+      "recipeKo": "상점에서 구매(메마른 황야 마을 Lv3)",
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "きをきる"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "나무베기"
+      ],
+      "requiredMaterialsJp": [
+        "ざいもく ×15",
+        "はっぱ ×15"
+      ],
+      "requiredMaterialsKo": [
+        "목재 ×15",
+        "잎사귀 ×15"
+      ]
+    },
+    {
+      "id": "building-f96011dd54",
+      "nameJp": "はっぱのいえキット",
+      "nameKo": "잎사귀 집 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_9.png",
+      "capacity": "4匹",
+      "buildTime": "2時間",
+      "useJp": "メタモンやポケモンのすみかになる",
+      "useKo": "메타몽이나 포켓몬의 서식지가 된다",
+      "recipeJp": "ショップで購入(パサパサこうやの街Lv4)",
+      "recipeKo": "상점에서 구매(메마른 황야 마을 Lv4)",
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "きをきる",
+        "そらをとぶ"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "나무베기",
+        "공중날기"
+      ],
+      "requiredMaterialsJp": [
+        "ざいもく ×20",
+        "はっぱ ×20",
+        "いし ×20"
+      ],
+      "requiredMaterialsKo": [
+        "목재 ×20",
+        "잎사귀 ×20",
+        "돌 ×20"
+      ]
+    },
+    {
+      "id": "building-fb8e9b2038",
+      "nameJp": "はっぱのりっぱなキット",
+      "nameKo": "잎사귀 훌륭한 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_10.png",
+      "capacity": "8匹",
+      "buildTime": "翌日",
+      "useJp": "メタモンやポケモンのすみかになる",
+      "useKo": "메타몽이나 포켓몬의 서식지가 된다",
+      "recipeJp": "ショップで購入(パサパサこうやの街Lv5)",
+      "recipeKo": "상점에서 구매(메마른 황야 마을 Lv5)",
+      "requiredSpecialtiesJp": [
+        "けんちく",
+        "さいばい",
+        "きをきる",
+        "そらをとぶ"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축",
+        "재배",
+        "나무베기",
+        "공중날기"
+      ],
+      "requiredMaterialsJp": [
+        "ざいもく ×25",
+        "はっぱ ×25",
+        "いし ×25",
+        "つたひも ×25"
+      ],
+      "requiredMaterialsKo": [
+        "목재 ×25",
+        "잎사귀 ×25",
+        "돌 ×25",
+        "덩굴끈 ×25"
+      ]
+    },
+    {
+      "id": "building-97160a25d0",
+      "nameJp": "風力はつでんキット",
+      "nameKo": "풍력 발전 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_7.png",
+      "capacity": "2匹",
+      "buildTime": "15分",
+      "useJp": "設置すると発電する",
+      "useKo": "설치하면 발전한다",
+      "recipeJp": "ショップで購入(要：うすチュウのおねがいごとをクリア)",
+      "recipeKo": "상점에서 구매(조건：우스추우의 부탁 클리어)",
+      "requiredSpecialtiesJp": [
+        "けんちく"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축"
+      ],
+      "requiredMaterialsJp": [
+        "ざいもく ×5",
+        "いとくず ×5"
+      ],
+      "requiredMaterialsKo": [
+        "목재 ×5",
+        "실조각 ×5"
+      ]
+    },
+    {
+      "id": "building-a4a53948b1",
+      "nameJp": "ふたごのひむろキット",
+      "nameKo": "쌍둥이 얼음창고 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_5.png",
       "capacity": "15匹",
-      "buildTime": "24時間",
-      "useJp": "フリーザー の生息地を作れる",
-      "useKo": "프리져 서식지를 만들 수 있다",
+      "buildTime": "翌日",
+      "useJp": "フリーザーと友達になれる",
+      "useKo": "프리져와 친구가 될 수 있다",
       "recipeJp": "まっさらな街の東部で拾う",
       "recipeKo": "빈 마을 동부에서 줍기",
       "requiredSpecialtiesJp": [
@@ -36057,7 +36635,7 @@
         "そらをとぶ"
       ],
       "requiredSpecialtiesKo": [
-        "급수",
+        "적시기",
         "건축",
         "공중날기"
       ],
@@ -36070,22 +36648,22 @@
       "requiredMaterialsKo": [
         "돌 ×50",
         "얼음 ×50",
-        "크리스털 조각 ×10",
+        "크리스탈 조각 ×10",
         "포케메탈 ×10"
       ]
     },
     {
-      "id": "entry-51fdf07043",
+      "id": "building-51fdf07043",
       "nameJp": "むじんはつでんしょキット",
       "nameKo": "무인 발전소 키트",
       "typeJp": "建物",
       "typeKo": "건물",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
-      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_4.png",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_6.png",
       "capacity": "15匹",
-      "buildTime": "24時間",
-      "useJp": "サンダー の生息地を作れる",
-      "useKo": "썬더 서식지를 만들 수 있다",
+      "buildTime": "翌日",
+      "useJp": "サンダーと友達になれる",
+      "useKo": "썬더와 친구가 될 수 있다",
       "recipeJp": "まっさらな街の南部で拾う",
       "recipeKo": "빈 마을 남부에서 줍기",
       "requiredSpecialtiesJp": [
@@ -36097,7 +36675,7 @@
       "requiredSpecialtiesKo": [
         "건축",
         "발전",
-        "분쇄",
+        "부수기",
         "공중날기"
       ],
       "requiredMaterialsJp": [
@@ -36110,94 +36688,68 @@
       "requiredMaterialsKo": [
         "구리 주괴 ×50",
         "철 주괴 ×50",
-        "씨글라스 조각 ×50",
+        "시글라스 조각 ×50",
         "벽돌 ×50",
         "포케메탈 ×10"
       ]
     },
     {
-      "id": "entry-c73cb24535",
-      "nameJp": "あみものキット",
-      "nameKo": "뜨개질 키트",
-      "typeJp": "ざっか",
-      "typeKo": "키트",
-      "sourceUrl": "https://game8.jp/pocoapokemon/768522",
-      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_120.png",
-      "descriptionJp": "生息地 毛糸で編み物",
-      "descriptionKo": "서식지 털실 뜨개질",
-      "useJp": "生息地 毛糸で編み物",
-      "useKo": "서식지 털실 뜨개질",
-      "recipeJp": null,
-      "recipeKo": null,
-      "requiredSpecialtiesJp": [],
-      "requiredSpecialtiesKo": [],
-      "requiredMaterialsJp": [],
-      "requiredMaterialsKo": [],
-      "capacity": null,
-      "buildTime": null
+      "id": "building-0225fdbbff",
+      "nameJp": "水力はつでんキット",
+      "nameKo": "수력 발전 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_25.png",
+      "capacity": "2匹",
+      "buildTime": "15分",
+      "useJp": "水場に作成すると発電できる",
+      "useKo": "물가에 만들면 발전할 수 있다",
+      "recipeJp": "ショップで購入(要：ポッチャマのおねがいごとをクリア)",
+      "recipeKo": "상점에서 구매(조건：포챠마의 부탁 클리어)",
+      "requiredSpecialtiesJp": [
+        "けんちく"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축"
+      ],
+      "requiredMaterialsJp": [
+        "ざいもく ×15",
+        "いし ×5"
+      ],
+      "requiredMaterialsKo": [
+        "목재 ×15",
+        "돌 ×5"
+      ]
     },
     {
-      "id": "entry-264f92ca7e",
-      "nameJp": "風力はつでんマシン",
-      "nameKo": "풍력발전 머신",
-      "typeJp": "その他",
-      "typeKo": "설비",
-      "sourceUrl": "https://game8.jp/pocoapokemon/768493",
-      "imagePath": "https://img.game8.jp/12387757/cb6649cef33d31930eed384e8a755e68.webp/original",
-      "descriptionJp": "生息地 風の花畑",
-      "descriptionKo": "서식지 바람의 꽃밭",
-      "useJp": "生息地 風の花畑",
-      "useKo": "서식지 바람의 꽃밭",
-      "recipeJp": null,
-      "recipeKo": null,
-      "requiredSpecialtiesJp": [],
-      "requiredSpecialtiesKo": [],
-      "requiredMaterialsJp": [],
-      "requiredMaterialsKo": [],
-      "capacity": null,
-      "buildTime": null
-    },
-    {
-      "id": "entry-ecdb170741",
-      "nameJp": "水力はつでんマシン",
-      "nameKo": "수력발전 머신",
-      "typeJp": "その他",
-      "typeKo": "설비",
-      "sourceUrl": "https://game8.jp/pocoapokemon/768488",
-      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_486.png",
-      "descriptionJp": "生息地 水力はつでん所",
-      "descriptionKo": "서식지 수력 발전소",
-      "useJp": "生息地 水力はつでん所",
-      "useKo": "서식지 수력 발전소",
-      "recipeJp": null,
-      "recipeKo": null,
-      "requiredSpecialtiesJp": [],
-      "requiredSpecialtiesKo": [],
-      "requiredMaterialsJp": [],
-      "requiredMaterialsKo": [],
-      "capacity": null,
-      "buildTime": null
-    },
-    {
-      "id": "entry-92afcf4392",
-      "nameJp": "火力はつでんマシン",
-      "nameKo": "화력발전 머신",
-      "typeJp": "その他",
-      "typeKo": "설비",
-      "sourceUrl": "https://game8.jp/pocoapokemon/768475",
-      "imagePath": "https://img.game8.jp/12375198/8327c5fe0cc40e53a6a97d67e4570662.webp/original",
-      "descriptionJp": "生息地 火力はつでん所 工事現場のはつでん所",
-      "descriptionKo": "서식지 화력 발전소 공사현장 발전소",
-      "useJp": "生息地 火力はつでん所 工事現場のはつでん所",
-      "useKo": "서식지 화력 발전소 공사현장 발전소",
-      "recipeJp": null,
-      "recipeKo": null,
-      "requiredSpecialtiesJp": [],
-      "requiredSpecialtiesKo": [],
-      "requiredMaterialsJp": [],
-      "requiredMaterialsKo": [],
-      "capacity": null,
-      "buildTime": null
+      "id": "building-1d4929542a",
+      "nameJp": "火力はつでんキット",
+      "nameKo": "화력 발전 키트",
+      "typeJp": "建物",
+      "typeKo": "건물",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_26.png",
+      "capacity": "2匹",
+      "buildTime": "15分",
+      "useJp": "燃料を入れると発電できる",
+      "useKo": "연료를 넣으면 발전할 수 있다",
+      "recipeJp": "ショップで購入(要：アチャモのおねがいごとをクリア)",
+      "recipeKo": "상점에서 구매(조건：아차모의 부탁 클리어)",
+      "requiredSpecialtiesJp": [
+        "けんちく"
+      ],
+      "requiredSpecialtiesKo": [
+        "건축"
+      ],
+      "requiredMaterialsJp": [
+        "てつ ×15",
+        "シーグラスのかけら ×5"
+      ],
+      "requiredMaterialsKo": [
+        "철 ×15",
+        "시글라스 조각 ×5"
+      ]
     }
   ],
   "dolls": [
@@ -36807,199 +37359,799 @@
   ],
   "emotes": [
     {
-      "id": "entry-e7c3341c78",
+      "id": "emote-e7c3341c78",
       "nameJp": "ヤッター！",
-      "nameKo": "해냈다!",
-      "imagePath": "/images/emote_emote/001_item_001.png",
+      "nameKo": "야호!",
+      "imagePath": "https://img.gamewith.jp/img/612a7eab274d1eada0a59b36b7b9ed51.png",
       "obtainJp": "最初から所持",
       "obtainKo": "처음부터 소지",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
     },
     {
-      "id": "entry-ad1b435025",
+      "id": "emote-ad1b435025",
       "nameJp": "メソメソ…",
-      "nameKo": "훌쩍훌쩍...",
-      "imagePath": "/images/emote_emote/002_item_002.png",
+      "nameKo": "훌쩍훌쩍…",
+      "imagePath": "https://img.gamewith.jp/img/fef4c18243620d44eda83d5c18faf92d.png",
       "obtainJp": "最初から所持",
       "obtainKo": "처음부터 소지",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
     },
     {
-      "id": "entry-0dd507f7e4",
+      "id": "emote-0dd507f7e4",
       "nameJp": "エー！？",
-      "nameKo": "에에!?",
-      "imagePath": "/images/emote_emote/003_item_003.png",
+      "nameKo": "에엣!?",
+      "imagePath": "https://img.gamewith.jp/img/12bfdb9ed2734f2f7e5910ebeb341de7.png",
       "obtainJp": "最初から所持",
       "obtainKo": "처음부터 소지",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
     },
     {
-      "id": "entry-770d8829bd",
+      "id": "emote-770d8829bd",
       "nameJp": "こっちこっち！",
-      "nameKo": "여기 여기!",
-      "imagePath": "/images/emote_emote/004_item_004.png",
+      "nameKo": "이쪽이쪽!",
+      "imagePath": "https://img.gamewith.jp/img/8c3216e5e10f20652ed05614fe0d0e49.png",
       "obtainJp": "最初から所持",
       "obtainKo": "처음부터 소지",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
     },
     {
-      "id": "entry-fd034f815f",
+      "id": "emote-fd034f815f",
       "nameJp": "よろしく！",
       "nameKo": "잘 부탁해!",
-      "imagePath": "/images/emote_emote/005_item_005.png",
+      "imagePath": "https://img.gamewith.jp/img/546160c47aa4d0bfdffe11e8ba5fdb0f.png",
       "obtainJp": "最初から所持",
       "obtainKo": "처음부터 소지",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
     },
     {
-      "id": "entry-65b11804d7",
+      "id": "emote-65b11804d7",
       "nameJp": "ウトウト…",
-      "nameKo": "꾸벅꾸벅...",
-      "imagePath": "/images/emote_emote/006_item_006.png",
+      "nameKo": "꾸벅꾸벅…",
+      "imagePath": "https://img.gamewith.jp/img/5c5cdbb5f41fccab2ff1ec3967f604c7.png",
       "obtainJp": "最初から所持",
       "obtainKo": "처음부터 소지",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
     },
     {
-      "id": "entry-1e9c8851dd",
+      "id": "emote-1e9c8851dd",
       "nameJp": "ここ！",
       "nameKo": "여기!",
-      "imagePath": "/images/emote_emote/007_item_007.png",
-      "obtainJp": "パサパサこうやの街 · マップ東側の高台",
-      "obtainKo": "메마른 황야 마을 · 맵 동쪽 고지대",
+      "imagePath": "https://img.gamewith.jp/img/94efeac491df3e4caa0a5517d6b3dadb.png",
+      "obtainJp": "パサパサこうやの街東側の高台付近",
+      "obtainKo": "메마른 황야 마을 동쪽 고지대 부근",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
     },
     {
-      "id": "entry-460bbd6ff0",
+      "id": "emote-460bbd6ff0",
       "nameJp": "やあ！",
       "nameKo": "안녕!",
-      "imagePath": "/images/emote_emote/008_item_008.png",
-      "obtainJp": "パサパサこうやの街 · ポケモンセンター北側にあるベンチ横",
-      "obtainKo": "메마른 황야 마을 · 포켓몬센터 북쪽에 있는 벤치 옆",
+      "imagePath": "https://img.gamewith.jp/img/6828fc65b2846465375b92f1d6a57140.png",
+      "obtainJp": "パサパサこうやの街ポケモンセンターから北側のベンチ隣",
+      "obtainKo": "메마른 황야 마을 포켓몬 센터 북쪽 벤치 옆",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
     },
     {
-      "id": "entry-428ea96665",
+      "id": "emote-428ea96665",
       "nameJp": "にこにこ",
       "nameKo": "방긋방긋",
-      "imagePath": "/images/emote_emote/009_item_009.png",
-      "obtainJp": "ゴツゴツやまの街 · 東側にあるゲートの近く",
-      "obtainKo": "울퉁불퉁 산마을 · 동쪽에 있는 게이트 근처",
+      "imagePath": "https://img.gamewith.jp/img/bc622fc08d388e10380e8392f2fe06f3.png",
+      "obtainJp": "ゴツゴツ山の街東側にあるゲート付近",
+      "obtainKo": "울퉁불퉁 산 마을 동쪽 게이트 부근",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
     },
     {
-      "id": "entry-167cb3dd8c",
-      "nameJp": "ばいばい！",
-      "nameKo": "잘 가!",
-      "imagePath": "https://img.game8.jp/12364989/be04f703a2074cd8323eed78debc25b1.webp/original",
-      "obtainJp": "ドンヨリうみべの街 · ポケモンセンター北側の海沿い",
-      "obtainKo": "우중충한 해변 마을 · 포켓몬센터 북쪽 해안가",
-      "sourceUrl": "https://game8.jp/pocoapokemon/767794"
-    },
-    {
-      "id": "entry-30d4061149",
-      "nameJp": "パチパチ！",
-      "nameKo": "짝짝!",
-      "imagePath": "https://img.game8.jp/12378964/7c2e0c262fa5500973bf11914b2d7ab8.webp/original",
-      "obtainJp": "ゆめしま · マップ中央の洞窟の中",
-      "obtainKo": "꿈섬 · 맵 중앙의 동굴 안",
-      "sourceUrl": "https://game8.jp/pocoapokemon/767794"
-    },
-    {
-      "id": "entry-65172103fc",
+      "id": "emote-65172103fc",
       "nameJp": "いやいや",
       "nameKo": "싫어싫어",
-      "imagePath": "https://img.game8.jp/12376817/631741ea1211dea9ef301456b751be0c.webp/original",
-      "obtainJp": "ゆめしま · マップ中央の洞窟の中",
-      "obtainKo": "꿈섬 · 맵 중앙의 동굴 안",
-      "sourceUrl": "https://game8.jp/pocoapokemon/767794"
-    },
-    {
-      "id": "entry-4d86ed88b9",
-      "nameJp": "うーん",
-      "nameKo": "음...",
-      "imagePath": "https://img.game8.jp/12374812/fbc0bafc187b5ae1707acda5dc00700b.webp/original",
-      "obtainJp": "ゆめしま · マップ中央の洞窟の中",
-      "obtainKo": "꿈섬 · 맵 중앙의 동굴 안",
-      "sourceUrl": "https://game8.jp/pocoapokemon/767794"
+      "imagePath": "https://img.gamewith.jp/img/30fa383052991b2f2f80e88921945814.png",
+      "obtainJp": "ゆめしまで入手（ランダム）",
+      "obtainKo": "꿈섬에서 입수 (랜덤)",
+      "sourceUrl": "https://gamewith.jp/pocoapokemon/547532"
     }
   ],
   "bestshots": [
     {
-      "id": "entry-d945440925",
-      "nameJp": "たき火でぽかぽか",
-      "nameKo": "모닥불로 포근포근",
-      "imagePath": "/images/bestshot_bestshot/001_item_001.png",
-      "conditionJp": "ポケモン 1匹目：自由 アイテム たきび 報酬 フォトフレーム「ほのおのうず」 詳細 夜にする",
-      "conditionKo": "모닥불 주변에서 자고 있는 포켓몬을 촬영",
+      "id": "bestshot-c4ca4238a0",
+      "number": 1,
+      "nameJp": "たき火でポカポカ",
+      "nameKo": "모닥불로 따끈따끈",
+      "imagePath": null,
+      "conditionJp": "夜にする",
+      "conditionKo": "밤으로 설정하기",
+      "requiredPokemonJp": "自由",
+      "requiredPokemonKo": "자유",
+      "requiredItemJp": "たきび",
+      "requiredItemKo": "모닥불",
       "rewardJp": "フォトフレーム「ほのおのうず」",
-      "rewardKo": "포토프레임 불꽃소용돌이",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545339"
-    },
-    {
-      "id": "entry-9ba3133bb6",
-      "nameJp": "かぜおこしで回せ",
-      "nameKo": "바람일으키기로 돌려라",
-      "imagePath": "/images/bestshot_bestshot/002_item_002.png",
-      "conditionJp": "ポケモン 1匹目： ポッポ アイテム かざぐるま",
-      "conditionKo": "바람개비 근처에 있는 구구를 촬영",
-      "rewardJp": "なし",
-      "rewardKo": "없음",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545339"
-    },
-    {
-      "id": "entry-2a3d6cc79e",
-      "nameJp": "うなるマッハのこぶし",
-      "nameKo": "울리는 마하의 주먹",
-      "imagePath": "/images/bestshot_bestshot/003_item_003.png",
-      "conditionJp": "ポケモン 1匹目： エビワラー アイテム サンドバッグ 報酬 フォトフレーム「しょうげきは」",
-      "conditionKo": "샌드백으로 연습하는 홍수몬을 촬영",
-      "rewardJp": "フォトフレーム「しょうげきは」",
-      "rewardKo": "포토프레임 충격파",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545339"
-    },
-    {
-      "id": "entry-aac7ab7c8d",
-      "nameJp": "大きなねどこで仲良くグッスリ",
-      "nameKo": "큰 잠자리에서 사이좋게 쿨쿨",
-      "imagePath": "/images/bestshot_bestshot/004_item_004.png",
-      "conditionJp": "ポケモン 1匹目：自由 2匹目：自由 アイテム 木のベッド 詳細 夜にする",
-      "conditionKo": "나무 침대에서 함께 자는 포켓몬 2마리를 촬영",
-      "rewardJp": "なし",
-      "rewardKo": "없음",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545339"
-    },
-    {
-      "id": "entry-5c65c9af62",
-      "nameJp": "水浴びサイコー！",
-      "nameKo": "물놀이 최고!",
-      "imagePath": "/images/bestshot_bestshot/005_item_005.png",
-      "conditionJp": "ポケモン 1匹目：自由 アイテム シャワー 報酬 フォトフレーム「バブル」",
-      "conditionKo": "샤워 중인 포켓몬을 촬영",
-      "rewardJp": "フォトフレーム「バブル」",
-      "rewardKo": "포토프레임 버블",
-      "sourceUrl": "https://gamewith.jp/pocoapokemon/545339"
-    },
-    {
-      "id": "entry-4a9eb6ace3",
-      "nameJp": "ゴミのごちそう見ーつけた？",
-      "nameKo": "쓰레기 만찬 찾았니?",
-      "imagePath": "https://img.game8.jp/12370512/b27e3c8f160bc6ba30f43c61cfa8b5d0.webp/original",
-      "conditionJp": "ポケモン 1匹目： ヤブクロン アイテム ゴミばこ",
-      "conditionKo": "포켓몬: 1마리째: 깨봉이 / 아이템: 쓰레기통",
-      "rewardJp": "なし",
-      "rewardKo": "없음",
+      "rewardKo": "포토프레임 「불꽃소용돌이」",
       "sourceUrl": "https://game8.jp/pocoapokemon/767514"
     },
     {
-      "id": "entry-6899791cf3",
+      "id": "bestshot-c81e728d9d",
+      "number": 2,
+      "nameJp": "かぜおこしで回せ",
+      "nameKo": "회오리바람으로 돌려라",
+      "imagePath": null,
+      "conditionJp": "風を起こせるポケモン（ポッポ）をかざぐるまの近くに配置する",
+      "conditionKo": "바람을 일으킬 수 있는 포켓몬(구구)을 바람개비 근처에 배치하기",
+      "requiredPokemonJp": "ポッポ",
+      "requiredPokemonKo": "구구",
+      "requiredItemJp": "かざぐるま",
+      "requiredItemKo": "바람개비",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-eccbc87e4b",
+      "number": 3,
+      "nameJp": "うなるマッハのこぶし",
+      "nameKo": "으르렁대는 최강의 주먹",
+      "imagePath": null,
+      "conditionJp": "エビワラーをサンドバッグの近くに配置する",
+      "conditionKo": "시라소몬을 샌드백 근처에 배치하기",
+      "requiredPokemonJp": "エビワラー",
+      "requiredPokemonKo": "시라소몬",
+      "requiredItemJp": "サンドバッグ",
+      "requiredItemKo": "샌드백",
+      "rewardJp": "フォトフレーム「しょうげきは」",
+      "rewardKo": "포토프레임 「충격파」",
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-a87ff679a2",
+      "number": 4,
+      "nameJp": "大きなねどこで仲良くグッスリ",
+      "nameKo": "큰 침대에서 사이좋게 꿀잠",
+      "imagePath": null,
+      "conditionJp": "夜にする。ポケモン2匹を木のベッドの近くに配置する",
+      "conditionKo": "밤으로 설정하기. 포켓몬 2마리를 나무 침대 근처에 배치하기",
+      "requiredPokemonJp": "自由×2",
+      "requiredPokemonKo": "자유×2",
+      "requiredItemJp": "木のベッド",
+      "requiredItemKo": "나무 침대",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-e4da3b7fbb",
+      "number": 5,
+      "nameJp": "お墓のタマシイとこんにちは",
+      "nameKo": "묘석의 영혼과 안녕",
+      "imagePath": null,
+      "conditionJp": "夜にする。フワンテをはかいしの近くに配置する",
+      "conditionKo": "밤으로 설정하기. 흔들풍손을 묘석 근처에 배치하기",
+      "requiredPokemonJp": "フワンテ",
+      "requiredPokemonKo": "흔들풍손",
+      "requiredItemJp": "はかいし",
+      "requiredItemKo": "묘석",
+      "rewardJp": "フォトフレーム「ミステリアス」",
+      "rewardKo": "포토프레임 「미스터리어스」",
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-1679091c5a",
+      "number": 6,
+      "nameJp": "明かりに引き寄せられて",
+      "nameKo": "불빛에 이끌려",
+      "imagePath": null,
+      "conditionJp": "夜にする。モルフォンをキノコのがいとうの近くに配置する",
+      "conditionKo": "밤으로 설정하기. 나비왕을 버섯 가로등 근처에 배치하기",
+      "requiredPokemonJp": "モルフォン",
+      "requiredPokemonKo": "나비왕",
+      "requiredItemJp": "キノコのがいとう",
+      "requiredItemKo": "버섯 가로등",
+      "rewardJp": "フォトフレーム「ネオン」",
+      "rewardKo": "포토프레임 「네온」",
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-8f14e45fce",
+      "number": 7,
+      "nameJp": "ゆらゆら踊るよお花ダンス",
+      "nameKo": "살랑살랑 춤추는 꽃 댄스",
+      "imagePath": null,
+      "conditionJp": "キレイハナをはらっぱのはなの近くに配置する",
+      "conditionKo": "아르코를 들판의 꽃 근처에 배치하기",
+      "requiredPokemonJp": "キレイハナ",
+      "requiredPokemonKo": "아르코",
+      "requiredItemJp": "はらっぱのはな",
+      "requiredItemKo": "들판의 꽃",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-c9f0f895fb",
+      "number": 8,
+      "nameJp": "砂あそびに夢中",
+      "nameKo": "모래놀이에 빠지다",
+      "imagePath": null,
+      "conditionJp": "自由なポケモンをすなばの近くに配置する",
+      "conditionKo": "자유로운 포켓몬을 모래놀이터 근처에 배치하기",
+      "requiredPokemonJp": "自由",
+      "requiredPokemonKo": "자유",
+      "requiredItemJp": "すなば",
+      "requiredItemKo": "모래놀이터",
+      "rewardJp": "フォトフレーム「すなけむり」",
+      "rewardKo": "포토프레임 「모래바람」",
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-45c48cce2e",
+      "number": 9,
+      "nameJp": "ゴミのごちそう見ーつけた？",
+      "nameKo": "쓰레기 진수성찬 발견?",
+      "imagePath": null,
+      "conditionJp": "ヤブクロンをゴミばこの近くに配置する",
+      "conditionKo": "깨봉이를 쓰레기통 근처에 배치하기",
+      "requiredPokemonJp": "ヤブクロン",
+      "requiredPokemonKo": "깨봉이",
+      "requiredItemJp": "ゴミばこ",
+      "requiredItemKo": "쓰레기통",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-d3d9446802",
+      "number": 10,
+      "nameJp": "水浴びサイコー！",
+      "nameKo": "물놀이 최고!",
+      "imagePath": null,
+      "conditionJp": "自由なポケモンをシャワーの近くに配置する",
+      "conditionKo": "자유로운 포켓몬을 샤워기 근처에 배치하기",
+      "requiredPokemonJp": "自由",
+      "requiredPokemonKo": "자유",
+      "requiredItemJp": "シャワー",
+      "requiredItemKo": "샤워기",
+      "rewardJp": "フォトフレーム「バブル」",
+      "rewardKo": "포토프레임 「버블」",
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-6512bd43d9",
+      "number": 11,
+      "nameJp": "エスパー流つみき術",
+      "nameKo": "에스퍼식 블록 쌓기",
+      "imagePath": null,
+      "conditionJp": "エスパータイプのポケモン（ヤドン等）をつみきの近くに配置する",
+      "conditionKo": "에스퍼 타입 포켓몬(야돈 등)을 블록 근처에 배치하기",
+      "requiredPokemonJp": "ヤドン",
+      "requiredPokemonKo": "야돈",
+      "requiredItemJp": "つみき",
+      "requiredItemKo": "블록",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-c20ad4d76f",
+      "number": 12,
+      "nameJp": "毛糸玉をピョーン",
+      "nameKo": "털실 공을 튕겨라",
+      "imagePath": null,
+      "conditionJp": "ニャースをあみものキットの近くに配置する",
+      "conditionKo": "나옹을 뜨개질 키트 근처에 배치하기",
+      "requiredPokemonJp": "ニャース",
+      "requiredPokemonKo": "나옹",
+      "requiredItemJp": "あみものキット",
+      "requiredItemKo": "뜨개질 키트",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-c51ce410c1",
+      "number": 13,
+      "nameJp": "涼風そよ吹く",
+      "nameKo": "시원한 바람이 솔솔",
+      "imagePath": null,
+      "conditionJp": "自由なポケモンをせんぷうきの近くに配置する",
+      "conditionKo": "자유로운 포켓몬을 선풍기 근처에 배치하기",
+      "requiredPokemonJp": "自由",
+      "requiredPokemonKo": "자유",
+      "requiredItemJp": "せんぷうき",
+      "requiredItemKo": "선풍기",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-aab3238922",
+      "number": 14,
+      "nameJp": "頭痛に効くもの入ってる？",
+      "nameKo": "두통에 뭔가 들어있나?",
+      "imagePath": null,
+      "conditionJp": "コダックをきゅうきゅうばこの近くに配置する",
+      "conditionKo": "고라파덕을 구급상자 근처에 배치하기",
+      "requiredPokemonJp": "コダック",
+      "requiredPokemonKo": "고라파덕",
+      "requiredItemJp": "きゅうきゅうばこ",
+      "requiredItemKo": "구급상자",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-9bf31c7ff0",
+      "number": 15,
+      "nameJp": "ほれぼれしちゃうマッスル",
+      "nameKo": "반해버리는 머슬",
+      "imagePath": null,
+      "conditionJp": "カイリキーをおおきなかがみの近くに配置する",
+      "conditionKo": "괴력몬을 큰 거울 근처에 배치하기",
+      "requiredPokemonJp": "カイリキー",
+      "requiredPokemonKo": "괴력몬",
+      "requiredItemJp": "おおきなかがみ",
+      "requiredItemKo": "큰 거울",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-c74d97b01e",
+      "number": 16,
+      "nameJp": "ちょっとはねやすめ",
+      "nameKo": "잠깐 날개 쉬기",
+      "imagePath": null,
+      "conditionJp": "夜にする。フクスローをとまり木の近くに配置する",
+      "conditionKo": "밤으로 설정하기. 부우부를 횃대 근처에 배치하기",
+      "requiredPokemonJp": "フクスロー",
+      "requiredPokemonKo": "부우부",
+      "requiredItemJp": "とまり木",
+      "requiredItemKo": "횃대",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-70efdf2ec9",
+      "number": 17,
+      "nameJp": "ごくらくごくらく",
+      "nameKo": "극락극락",
+      "imagePath": null,
+      "conditionJp": "ほのお・じめん・いわタイプ以外のポケモン（フクスロー等）をおんせんの近くに配置する",
+      "conditionKo": "불꽃·땅·바위 타입 이외의 포켓몬(부우부 등)을 온천 근처에 배치하기",
+      "requiredPokemonJp": "フクスロー",
+      "requiredPokemonKo": "부우부",
+      "requiredItemJp": "おんせん",
+      "requiredItemKo": "온천",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-6f4922f455",
+      "number": 18,
+      "nameJp": "ヒンヤリ涼み中",
+      "nameKo": "시원하게 더위 식히는 중",
+      "imagePath": null,
+      "conditionJp": "こおりタイプのポケモン（グレイシア）をつめたいいわの近くに配置する",
+      "conditionKo": "얼음 타입 포켓몬(글레이시아)을 차가운 바위 근처에 배치하기",
+      "requiredPokemonJp": "グレイシア",
+      "requiredPokemonKo": "글레이시아",
+      "requiredItemJp": "つめたいいわ",
+      "requiredItemKo": "차가운 바위",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-1f0e3dad99",
+      "number": 19,
+      "nameJp": "おどろうキャンプファイヤー！",
+      "nameKo": "캠프파이어로 신나게 춤춰!",
+      "imagePath": null,
+      "conditionJp": "「もりあげる」が得意なポケモン（プリン等）をキャンプファイヤーの近くに配置する",
+      "conditionKo": "「분위기 띄우기」가 특기인 포켓몬(푸린 등)을 캠프파이어 근처에 배치하기",
+      "requiredPokemonJp": "プリン",
+      "requiredPokemonKo": "푸린",
+      "requiredItemJp": "キャンプファイヤー",
+      "requiredItemKo": "캠프파이어",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-98f1370821",
+      "number": 20,
+      "nameJp": "えがくぞキャンバス",
+      "nameKo": "캔버스에 그려보자",
+      "imagePath": null,
+      "conditionJp": "ドーブルをキャンバス・まっさらの近くに配置する",
+      "conditionKo": "루브도를 빈 캔버스 근처에 배치하기",
+      "requiredPokemonJp": "ドーブル",
+      "requiredPokemonKo": "루브도",
+      "requiredItemJp": "キャンバス・まっさら",
+      "requiredItemKo": "빈 캔버스",
+      "rewardJp": "フォトフレーム「えのぐ」",
+      "rewardKo": "포토프레임 「물감」",
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-3c59dc048e",
+      "number": 21,
+      "nameJp": "占いならおまかせ",
+      "nameKo": "점술이라면 맡겨줘",
+      "imagePath": null,
+      "conditionJp": "エスパータイプのポケモン（ケーシィ等）をすいしょうだまの近くに配置する",
+      "conditionKo": "에스퍼 타입 포켓몬(케이시 등)을 수정구슬 근처에 배치하기",
+      "requiredPokemonJp": "ケーシィ",
+      "requiredPokemonKo": "케이시",
+      "requiredItemJp": "すいしょうだま",
+      "requiredItemKo": "수정구슬",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-b6d767d2f8",
+      "number": 22,
+      "nameJp": "コケむした岩でおやすみ",
+      "nameKo": "이끼 낀 바위에서 잘자",
+      "imagePath": null,
+      "conditionJp": "夜にする。生息地「コケまみれの岩」を作成し、ヨーギラスをこけいわの近くに配置する",
+      "conditionKo": "밤으로 설정하기. 서식지 「이끼 뒤덮인 바위」를 만들고, 요가람을 이끼 바위 근처에 배치하기",
+      "requiredPokemonJp": "ヨーギラス",
+      "requiredPokemonKo": "요가람",
+      "requiredItemJp": "コケ、こけいわ",
+      "requiredItemKo": "이끼, 이끼 바위",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-37693cfc74",
+      "number": 23,
+      "nameJp": "叩けば直るんじゃ・・・アレ？",
+      "nameKo": "두드리면 고쳐지겠지…어?",
+      "imagePath": null,
+      "conditionJp": "街の環境レベル5にする。モジャンボがポケセン周辺にいる状態でコンピューターの近くに配置する",
+      "conditionKo": "마을 환경 레벨 5로 만들기. 다탱구가 포켓몬센터 주변에 있는 상태로 컴퓨터 근처에 배치하기",
+      "requiredPokemonJp": "モジャンボ",
+      "requiredPokemonKo": "다탱구",
+      "requiredItemJp": "コンピューター",
+      "requiredItemKo": "컴퓨터",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-1ff1de7740",
+      "number": 24,
+      "nameJp": "開けてビックリ！",
+      "nameKo": "열어서 깜짝!",
+      "imagePath": null,
+      "conditionJp": "自由なポケモンをびっくりばこの近くに配置する",
+      "conditionKo": "자유로운 포켓몬을 깜짝상자 근처에 배치하기",
+      "requiredPokemonJp": "自由",
+      "requiredPokemonKo": "자유",
+      "requiredItemJp": "びっくりばこ",
+      "requiredItemKo": "깜짝상자",
+      "rewardJp": "フォトフレーム「たちいりきんし」",
+      "rewardKo": "포토프레임 「출입금지」",
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-8e296a067a",
+      "number": 25,
+      "nameJp": "コインには目がないんです",
+      "nameKo": "코인이라면 사족을 못 써",
+      "imagePath": null,
+      "conditionJp": "コレクレーをムンナちょきんばこの近くに配置する",
+      "conditionKo": "모아머를 문냐 저금통 근처에 배치하기",
+      "requiredPokemonJp": "コレクレー",
+      "requiredPokemonKo": "모아머",
+      "requiredItemJp": "ムンナちょきんばこ",
+      "requiredItemKo": "문냐 저금통",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-4e732ced34",
+      "number": 26,
+      "nameJp": "時計の中の自分にアイサツ",
+      "nameKo": "시계 속 자신에게 인사",
+      "imagePath": null,
+      "conditionJp": "モクローをモクローどけいの近くに配置する",
+      "conditionKo": "나무아리아를 나무아리아 시계 근처에 배치하기",
+      "requiredPokemonJp": "モクロー",
+      "requiredPokemonKo": "나무아리아",
+      "requiredItemJp": "モクローどけい",
+      "requiredItemKo": "나무아리아 시계",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-02e74f10e0",
+      "number": 27,
+      "nameJp": "プシュッ！とニオイ勝負",
+      "nameKo": "쉬익! 냄새 대결",
+      "imagePath": null,
+      "conditionJp": "ドガースをあやしいディフューザーの近くに配置する",
+      "conditionKo": "독콕을 수상한 디퓨저 근처에 배치하기",
+      "requiredPokemonJp": "ドガース",
+      "requiredPokemonKo": "독콕",
+      "requiredItemJp": "あやしいディフューザー",
+      "requiredItemKo": "수상한 디퓨저",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-33e75ff09d",
+      "number": 28,
+      "nameJp": "格闘家たちの集い",
+      "nameKo": "격투가들의 모임",
+      "imagePath": null,
+      "conditionJp": "エビワラーとサワムラーを近くに配置する",
+      "conditionKo": "시라소몬과 발키리를 근처에 배치하기",
+      "requiredPokemonJp": "エビワラー、サワムラー",
+      "requiredPokemonKo": "시라소몬, 발키리",
+      "requiredItemJp": null,
+      "requiredItemKo": null,
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-6ea9ab1baa",
+      "number": 29,
+      "nameJp": "うすほっぺと肉球のハーモニー",
+      "nameKo": "연분홍 볼과 발바닥의 하모니",
+      "imagePath": null,
+      "conditionJp": "ピカチュウ（うすいろ）とパモを近くに配置する",
+      "conditionKo": "피카츄(연분홍)와 파모를 근처에 배치하기",
+      "requiredPokemonJp": "ピカチュウ（うすいろ）、パモ",
+      "requiredPokemonKo": "피카츄(연분홍), 파모",
+      "requiredItemJp": null,
+      "requiredItemKo": null,
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-34173cb38f",
+      "number": 30,
+      "nameJp": "うきしまの職人たち",
+      "nameKo": "부유섬의 장인들",
+      "imagePath": null,
+      "conditionJp": "デカヌチャンとローブシンを近くに配置する",
+      "conditionKo": "따라큐와 노보청을 근처에 배치하기",
+      "requiredPokemonJp": "デカヌチャン、ローブシン",
+      "requiredPokemonKo": "따라큐, 노보청",
+      "requiredItemJp": null,
+      "requiredItemKo": null,
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-c16a5320fa",
+      "number": 31,
+      "nameJp": "ツノから飛び出しうらめしや",
+      "nameKo": "뿔에서 튀어나온 원한",
+      "imagePath": null,
+      "conditionJp": "ドラパルトと自由なポケモンを会話させるように配置する",
+      "conditionKo": "드라파르트와 자유로운 포켓몬을 대화하도록 배치하기",
+      "requiredPokemonJp": "ドラパルト、自由",
+      "requiredPokemonKo": "드라파르트, 자유",
+      "requiredItemJp": null,
+      "requiredItemKo": null,
+      "rewardJp": "フォトフレーム「りゅうせいぐん」",
+      "rewardKo": "포토프레임 「유성군」",
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-6364d3f0f4",
+      "number": 32,
+      "nameJp": "エスパーお兄さんとお姉さん",
+      "nameKo": "에스퍼 오빠와 언니",
+      "imagePath": null,
+      "conditionJp": "サーナイトとエルレイドを近くに配置する",
+      "conditionKo": "가디안과 엘레이드를 근처에 배치하기",
+      "requiredPokemonJp": "サーナイト、エルレイド",
+      "requiredPokemonKo": "가디안, 엘레이드",
+      "requiredItemJp": null,
+      "requiredItemKo": null,
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-182be0c5cd",
+      "number": 33,
+      "nameJp": "イーブイのおともだち",
+      "nameKo": "이브이의 친구들",
+      "imagePath": null,
+      "conditionJp": "イーブイの進化先2匹（エーフィとニンフィア等）を近くに配置する",
+      "conditionKo": "이브이 진화형 2마리(에브이와 님피아 등)를 근처에 배치하기",
+      "requiredPokemonJp": "エーフィ、ニンフィア",
+      "requiredPokemonKo": "에브이, 님피아",
+      "requiredItemJp": null,
+      "requiredItemKo": null,
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-e369853df7",
+      "number": 34,
+      "nameJp": "人気者とそっくりさん",
+      "nameKo": "인기쟁이와 똑같이 생긴 애",
+      "imagePath": null,
+      "conditionJp": "ピカチュウとミミッキュを近くに配置する",
+      "conditionKo": "피카츄와 미미큐를 근처에 배치하기",
+      "requiredPokemonJp": "ピカチュウ、ミミッキュ",
+      "requiredPokemonKo": "피카츄, 미미큐",
+      "requiredItemJp": null,
+      "requiredItemKo": null,
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-1c383cd30b",
+      "number": 35,
+      "nameJp": "遺伝子が通じ合うふたり",
+      "nameKo": "유전자로 이어진 두 포켓몬",
+      "imagePath": null,
+      "conditionJp": "ミュウとミュウツーを近くに配置する",
+      "conditionKo": "뮤와 뮤츠를 근처에 배치하기",
+      "requiredPokemonJp": "ミュウ、ミュウツー",
+      "requiredPokemonKo": "뮤, 뮤츠",
+      "requiredItemJp": null,
+      "requiredItemKo": null,
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-19ca14e7ea",
+      "number": 36,
+      "nameJp": "甘い香りで出会う2匹",
+      "nameKo": "달콤한 향기로 만나는 두 포켓몬",
+      "imagePath": null,
+      "conditionJp": "バルビートとイルミーゼを近くに配置する",
+      "conditionKo": "볼비트와 네오비트를 근처에 배치하기",
+      "requiredPokemonJp": "バルビート、イルミーゼ",
+      "requiredPokemonKo": "볼비트, 네오비트",
+      "requiredItemJp": null,
+      "requiredItemKo": null,
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-a5bfc9e079",
+      "number": 37,
+      "nameJp": "ツノ自慢のライバルたち",
+      "nameKo": "뿔 자랑 라이벌들",
+      "imagePath": null,
+      "conditionJp": "ヘラクロスとカイロスを近くに配置する",
+      "conditionKo": "헤라크로스와 쁘사이저를 근처에 배치하기",
+      "requiredPokemonJp": "ヘラクロス、カイロス",
+      "requiredPokemonKo": "헤라크로스, 쁘사이저",
+      "requiredItemJp": null,
+      "requiredItemKo": null,
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-a5771bce93",
+      "number": 38,
+      "nameJp": "プラスマイナス応援団！",
+      "nameKo": "플러스 마이너스 응원단!",
+      "imagePath": null,
+      "conditionJp": "プラスルとマイナンを近くに配置する",
+      "conditionKo": "플러슬과 마이농을 근처에 배치하기",
+      "requiredPokemonJp": "プラスル、マイナン",
+      "requiredPokemonKo": "플러슬, 마이농",
+      "requiredItemJp": null,
+      "requiredItemKo": null,
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-d67d8ab4f4",
+      "number": 39,
+      "nameJp": "異なるヨロイを身にまとって",
+      "nameKo": "다른 갑옷을 두른 둘",
+      "imagePath": null,
+      "conditionJp": "グレンアルマとソウブレイズを近くに配置する",
+      "conditionKo": "쪽쪽마로와 혼검사를 근처에 배치하기",
+      "requiredPokemonJp": "グレンアルマ、ソウブレイズ",
+      "requiredPokemonKo": "쪽쪽마로, 혼검사",
+      "requiredItemJp": null,
+      "requiredItemKo": null,
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-d645920e39",
+      "number": 40,
+      "nameJp": "よってらっしゃい見てらっしゃい",
+      "nameKo": "어서 오세요 구경하세요",
+      "imagePath": null,
+      "conditionJp": "生息地「レジでお会計」を作成する。「とりひき」得意なポケモンをつくえ×2とレジの近くに配置する",
+      "conditionKo": "서식지 「계산대에서 계산」을 만들기. 「거래」 특기 포켓몬을 책상×2와 계산대 근처에 배치하기",
+      "requiredPokemonJp": "「とりひき」得意、自由",
+      "requiredPokemonKo": "「거래」 특기, 자유",
+      "requiredItemJp": "つくえ×2、レジ",
+      "requiredItemKo": "책상×2, 계산대",
+      "rewardJp": null,
+      "rewardKo": null,
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-3416a75f4c",
+      "number": 41,
+      "nameJp": "眠りに誘う歌声",
+      "nameKo": "잠으로 이끄는 노랫소리",
+      "imagePath": null,
+      "conditionJp": "ロトムとプリンを近くに配置する、またはCDプレーヤーを使用する",
+      "conditionKo": "로토무와 푸린을 근처에 배치하거나 CD 플레이어를 사용하기",
+      "requiredPokemonJp": "ロトム、プリン",
+      "requiredPokemonKo": "로토무, 푸린",
+      "requiredItemJp": null,
+      "requiredItemKo": null,
+      "rewardJp": "フォトフレーム「バルーン」",
+      "rewardKo": "포토프레임 「풍선」",
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-a1d0c6e83f",
+      "number": 42,
+      "nameJp": "シェフだけどいただきます！",
+      "nameKo": "셰프인데 잘 먹겠습니다!",
+      "imagePath": null,
+      "conditionJp": "ヨクバリスをプレーンパンや木のおさら等の料理アイテムの近くに配置する",
+      "conditionKo": "욕심꾸러기다람쥐를 플레인빵이나 나무 접시 등 요리 아이템 근처에 배치하기",
+      "requiredPokemonJp": "ヨクバリス",
+      "requiredPokemonKo": "욕심꾸러기다람쥐",
+      "requiredItemJp": "プレーンパン、木のおさら",
+      "requiredItemKo": "플레인빵, 나무 접시",
+      "rewardJp": "フォトフレーム「クッキング」",
+      "rewardKo": "포토프레임 「쿠킹」",
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-17e62166fc",
+      "number": 43,
       "nameJp": "頭のお花が満開",
-      "nameKo": "머리 위 꽃이 만개",
-      "imagePath": "https://img.game8.jp/12369691/c1236e9c34a1929fe6c728a599fcd287.webp/original",
-      "conditionJp": "ポケモン 1匹目： カビゴン（こけむし） アイテム なし 報酬 フォトフレーム「ドドーン！」 詳細 ドンヨリうみべでカビゴンを起こした後",
-      "conditionKo": "포켓몬: 1마리째: 잠만보 / 아이템: 없음 / 추가 조건: 우중충한 해변에서 잠만보를 깨운 뒤",
+      "nameKo": "머리 위 꽃이 만발",
+      "imagePath": null,
+      "conditionJp": "ドンヨリうみべでカビゴンを起こした後に撮影する",
+      "conditionKo": "우울한 해변에서 잠만보를 깨운 후 촬영하기",
+      "requiredPokemonJp": "カビゴン（こけむし）",
+      "requiredPokemonKo": "잠만보(이끼 무성)",
+      "requiredItemJp": null,
+      "requiredItemKo": null,
       "rewardJp": "フォトフレーム「ドドーン！」",
-      "rewardKo": "포토프레임 두둥!",
+      "rewardKo": "포토프레임 「쿵!」",
+      "sourceUrl": "https://game8.jp/pocoapokemon/767514"
+    },
+    {
+      "id": "bestshot-f7177163c8",
+      "number": 44,
+      "nameJp": "フロアを沸かすDJ",
+      "nameKo": "플로어를 달구는 DJ",
+      "imagePath": null,
+      "conditionJp": "ロトムで音楽を流した状態でルンパッパを近くに配置する",
+      "conditionKo": "로토무로 음악을 틀고 있는 상태에서 연꽃몬을 근처에 배치하기",
+      "requiredPokemonJp": "ロトム、ルンパッパ",
+      "requiredPokemonKo": "로토무, 연꽃몬",
+      "requiredItemJp": null,
+      "requiredItemKo": null,
+      "rewardJp": null,
+      "rewardKo": null,
       "sourceUrl": "https://game8.jp/pocoapokemon/767514"
     }
   ],

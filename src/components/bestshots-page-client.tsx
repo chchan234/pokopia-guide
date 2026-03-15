@@ -38,7 +38,7 @@ export default function BestshotsPageClient({ bestshots }: BestshotsPageClientPr
       return (
         (bs.nameKo ?? bs.nameJp).toLowerCase().includes(query) ||
         bs.conditionKo.toLowerCase().includes(query) ||
-        bs.rewardKo.toLowerCase().includes(query) ||
+        (bs.rewardKo ?? '').toLowerCase().includes(query) ||
         String(bs.number).includes(query)
       );
     });

@@ -399,8 +399,12 @@ export interface BestshotEntry {
   imagePath: string | null;
   conditionJp: string;
   conditionKo: string;
-  rewardJp: string;
-  rewardKo: string;
+  requiredPokemonJp: string | null;
+  requiredPokemonKo: string | null;
+  requiredItemJp: string | null;
+  requiredItemKo: string | null;
+  rewardJp: string | null;
+  rewardKo: string | null;
   sourceUrl: string;
 }
 
