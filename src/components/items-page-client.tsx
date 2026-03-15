@@ -310,9 +310,11 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                   {entry.categoryKo && (
                     <span className="rounded-full bg-pk-green-light px-2.5 py-1 text-[11px] font-semibold text-pk-green-dark">{entry.categoryKo}</span>
                   )}
+                  <span className="rounded-full bg-muted px-2.5 py-1 text-[11px] font-semibold text-muted-foreground">제작 가능</span>
                 </div>
                 <h3 className="mt-3 text-base font-bold text-foreground">{displayName(entry.nameKo, entry.nameJp)}</h3>
-                <div className="mt-3 space-y-2 text-sm">
+                <div className="mt-3 space-y-2 text-sm text-muted-foreground">
+                  {(entry.descriptionKo || entry.descriptionJp) && <p>{entry.descriptionKo || entry.descriptionJp}</p>}
                   <div>
                     <p className="font-semibold text-foreground">제작 재료</p>
                     <div className="mt-1 flex flex-wrap gap-1.5">
@@ -321,7 +323,6 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                       ))}
                     </div>
                   </div>
-                  {(entry.descriptionKo || entry.descriptionJp) && <p className="text-muted-foreground">{entry.descriptionKo || entry.descriptionJp}</p>}
                 </div>
               </article>
             ))}
