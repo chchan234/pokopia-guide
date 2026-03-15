@@ -33782,7 +33782,7 @@
       {
         "id": "shop-entry-d5461c4a7b",
         "nameJp": "クラフトだいのレシピ",
-        "nameKo": "제작대 레시피",
+        "nameKo": "크래프트 대 레시피",
         "imagePath": "https://img.game8.jp/12365768/ebffd009666108fde42a855a1cffc941.webp/original",
         "sourceType": "shop",
         "sourceJp": "パサパサこうやの街(レベル2)",
@@ -33793,7 +33793,10 @@
           "いし×2"
         ],
         "category": "べんり",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "돌×2"
+        ]
       },
       {
         "id": "shop-entry-e2203d26d7",
@@ -33809,12 +33812,15 @@
           "いし×2"
         ],
         "category": "ブロック",
-        "subCategory": "どうろ"
+        "subCategory": "どうろ",
+        "materialsKo": [
+          "돌×2"
+        ]
       },
       {
         "id": "shop-entry-10b2fe6f81",
         "nameJp": "つみあげわらのレシピ",
-        "nameKo": "쌓은 건초 레시피",
+        "nameKo": "짚더미 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_336.png",
         "sourceType": "shop",
         "sourceJp": "パサパサこうやの街(レベル3)",
@@ -33858,7 +33864,7 @@
       {
         "id": "shop-entry-41cf01305e",
         "nameJp": "みんなのボックスのレシピ",
-        "nameKo": "모두의 박스 레시피",
+        "nameKo": "모두의 상자 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_327.png",
         "sourceType": "shop",
         "sourceJp": "パサパサこうやの街(レベル4)",
@@ -33869,7 +33875,10 @@
           "ざいもく×2"
         ],
         "category": "べんり",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "목재×2"
+        ]
       },
       {
         "id": "shop-entry-35928e8ad0",
@@ -33896,7 +33905,10 @@
           "いとくず×2"
         ],
         "category": "たてもの",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "실조각×2"
+        ]
       },
       {
         "id": "shop-entry-e7e922ba2c",
@@ -33923,7 +33935,10 @@
           "ガラス×1"
         ],
         "category": "家具",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "유리×1"
+        ]
       },
       {
         "id": "shop-entry-48dab59535",
@@ -33972,7 +33987,7 @@
       {
         "id": "shop-entry-a1834578b9",
         "nameJp": "ガーデンチェアのレシピ",
-        "nameKo": "가든 체어 레시피",
+        "nameKo": "가든 의자 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_395.png",
         "sourceType": "shop",
         "sourceJp": "パサパサこうやの街(レベル7)",
@@ -34016,7 +34031,7 @@
       {
         "id": "shop-entry-dfda5b59c7",
         "nameJp": "インダストリアルなチェアのレシピ",
-        "nameKo": "인더스트리얼 체어 레시피",
+        "nameKo": "인터스트리얼 의자 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_662.png",
         "sourceType": "shop",
         "sourceJp": "ゴツゴツやまの街(レベル6)",
@@ -34028,7 +34043,11 @@
           "ざいもく×1"
         ],
         "category": "家具",
-        "subCategory": "きゅうけい"
+        "subCategory": "きゅうけい",
+        "materialsKo": [
+          "철 주괴×1",
+          "목재×1"
+        ]
       },
       {
         "id": "shop-entry-12ed1b4b3e",
@@ -34066,7 +34085,10 @@
           "いし×2"
         ],
         "category": "ブロック",
-        "subCategory": "ゆか"
+        "subCategory": "ゆか",
+        "materialsKo": [
+          "돌×2"
+        ]
       },
       {
         "id": "shop-entry-7643252bf5",
@@ -34082,7 +34104,7 @@
       {
         "id": "shop-entry-bc7f2f0173",
         "nameJp": "だいりせきのゆか・ダークのレシピ",
-        "nameKo": "대리석 바닥 · 다크 레시피",
+        "nameKo": "대리석 바닥·다크 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_623.png",
         "sourceType": "shop",
         "sourceJp": "ゴツゴツやまの街(レベル4)",
@@ -34093,7 +34115,7 @@
       {
         "id": "shop-entry-464b9a5fea",
         "nameJp": "てつのタイルのレシピ",
-        "nameKo": "철 타일 레시피",
+        "nameKo": "철제 타일 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_270.png",
         "sourceType": "shop",
         "sourceJp": "ゴツゴツやまの街(レベル4)",
@@ -34137,7 +34159,10 @@
           "いし×2"
         ],
         "category": "ブロック",
-        "subCategory": "ゆか"
+        "subCategory": "ゆか",
+        "materialsKo": [
+          "돌×2"
+        ]
       },
       {
         "id": "shop-entry-8e40d4bbd8",
@@ -34166,12 +34191,17 @@
           "ガラス×1"
         ],
         "category": "ざっか",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "철 주괴×1",
+          "포케메탈×1",
+          "유리×1"
+        ]
       },
       {
         "id": "shop-entry-579e5c405f",
         "nameJp": "コンクリートのふたのレシピ",
-        "nameKo": "콘크리트 뚜껑 레시피",
+        "nameKo": "콘크리트 덮개 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_613.png",
         "sourceType": "shop",
         "sourceJp": "キラキラうきしまの街(レベル4)",
@@ -34249,7 +34279,11 @@
           "わた×1"
         ],
         "category": "家具",
-        "subCategory": "きゅうけい"
+        "subCategory": "きゅうけい",
+        "materialsKo": [
+          "목재×1",
+          "솜×1"
+        ]
       },
       {
         "id": "shop-entry-681b7a777b",
@@ -34331,7 +34365,7 @@
       {
         "id": "shop-entry-a0e14a351a",
         "nameJp": "モダンなドアのレシピ",
-        "nameKo": "모던 문 레시피",
+        "nameKo": "모던한 문 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_288.png",
         "sourceType": "shop",
         "sourceJp": "ドンヨリうみべの街(レベル5)",
@@ -34343,12 +34377,16 @@
           "ガラス×1"
         ],
         "category": "たてもの",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "철 주괴×2",
+          "유리×1"
+        ]
       },
       {
         "id": "shop-entry-f81b1fd422",
         "nameJp": "あげさげまどのレシピ",
-        "nameKo": "여닫이 창문 레시피",
+        "nameKo": "여닫이 창 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_287.png",
         "sourceType": "shop",
         "sourceJp": "ドンヨリうみべの街(レベル5)",
@@ -34360,7 +34398,11 @@
           "ガラス×1"
         ],
         "category": "たてもの",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "포케메탈×1",
+          "유리×1"
+        ]
       },
       {
         "id": "shop-entry-71f051f521",
@@ -34465,7 +34507,11 @@
           "ポケメタル×1"
         ],
         "category": "ざっか",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "목재×1",
+          "포케메탈×1"
+        ]
       },
       {
         "id": "shop-entry-6c3f076284",
@@ -34492,7 +34538,10 @@
           "いとくず×2"
         ],
         "category": "ざっか",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "실조각×2"
+        ]
       },
       {
         "id": "shop-entry-1de59bdc20",
@@ -34530,7 +34579,10 @@
           "てつ×1"
         ],
         "category": "べんり",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "철×1"
+        ]
       },
       {
         "id": "shop-entry-4736274965",
@@ -34569,7 +34621,11 @@
           "ガラス×1"
         ],
         "category": "たてもの",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "철 주괴×2",
+          "유리×1"
+        ]
       },
       {
         "id": "shop-entry-b6d7616ca9",
@@ -34585,7 +34641,7 @@
       {
         "id": "shop-entry-bb96433fe3",
         "nameJp": "ガラスまどのレシピ",
-        "nameKo": "유리 창문 레시피",
+        "nameKo": "유리창 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_287.png",
         "sourceType": "shop",
         "sourceJp": "キラキラうきしまの街(レベル5)",
@@ -34662,7 +34718,10 @@
           "コンクリート×2"
         ],
         "category": "ブロック",
-        "subCategory": "どうろ"
+        "subCategory": "どうろ",
+        "materialsKo": [
+          "콘크리트×2"
+        ]
       },
       {
         "id": "shop-entry-0b00dc7b6a",
@@ -34722,7 +34781,10 @@
           "コンクリート×2"
         ],
         "category": "ブロック",
-        "subCategory": "かべ"
+        "subCategory": "かべ",
+        "materialsKo": [
+          "콘크리트×2"
+        ]
       },
       {
         "id": "shop-entry-ff91259316",
@@ -34739,7 +34801,11 @@
           "てつののべぼう×2"
         ],
         "category": "おくがい",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "빛의돌×2",
+          "철 주괴×2"
+        ]
       },
       {
         "id": "shop-entry-97a105ca9e",
@@ -34766,7 +34832,7 @@
       {
         "id": "shop-entry-9ddcf1f40a",
         "nameJp": "てつのドアのレシピ",
-        "nameKo": "철 문 레시피",
+        "nameKo": "철문 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_676.png",
         "sourceType": "shop",
         "sourceJp": "ゴツゴツやまの街(レベル5)",
@@ -34777,7 +34843,10 @@
           "てつののべぼう×4"
         ],
         "category": "たてもの",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "철 주괴×4"
+        ]
       },
       {
         "id": "shop-entry-1719b5f490",
@@ -34848,7 +34917,7 @@
       {
         "id": "shop-entry-1bf9e4862e",
         "nameJp": "きのみなカベかざりのレシピ",
-        "nameKo": "열매 벽장식 레시피",
+        "nameKo": "나무열매 벽 장식 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_414.png",
         "sourceType": "shop",
         "sourceJp": "パサパサこうやの街(レベル10)",
@@ -34859,7 +34928,7 @@
       {
         "id": "shop-entry-3de31236a1",
         "nameJp": "きのみなつりさげランプのレシピ",
-        "nameKo": "열매 매달린 램프 레시피",
+        "nameKo": "나무열매 걸이 램프 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_412.png",
         "sourceType": "shop",
         "sourceJp": "パサパサこうやの街(レベル10)",
@@ -34870,7 +34939,7 @@
       {
         "id": "shop-entry-4b55be08da",
         "nameJp": "みずたまもようのレシピ",
-        "nameKo": "물방울무늬 레시피",
+        "nameKo": "물방울 무늬 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_826.png",
         "sourceType": "shop",
         "sourceJp": "パサパサこうやの街(レベル10)",
@@ -34895,7 +34964,11 @@
           "いし×1"
         ],
         "category": "おくがい",
-        "subCategory": "きゅうけい"
+        "subCategory": "きゅうけい",
+        "materialsKo": [
+          "튼튼한 가지×1",
+          "돌×1"
+        ]
       },
       {
         "id": "other-entry-ba9975efd5",
@@ -34911,7 +34984,10 @@
           "ちいさなまるた×1"
         ],
         "category": "家具",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "작은 통나무×1"
+        ]
       },
       {
         "id": "other-entry-891d8a107a",
@@ -34927,7 +35003,10 @@
           "ちいさなまるた×1"
         ],
         "category": "家具",
-        "subCategory": "きゅうけい"
+        "subCategory": "きゅうけい",
+        "materialsKo": [
+          "작은 통나무×1"
+        ]
       },
       {
         "id": "other-entry-3b1240f927",
@@ -34954,7 +35033,10 @@
           "はっぱ×2"
         ],
         "category": "家具",
-        "subCategory": "きゅうけい"
+        "subCategory": "きゅうけい",
+        "materialsKo": [
+          "잎사귀×2"
+        ]
       },
       {
         "id": "other-entry-e5d323d6d3",
@@ -34973,7 +35055,13 @@
           "てつ×1"
         ],
         "category": "おくがい",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "해변 모래×1",
+          "덩굴끈×1",
+          "실조각×1",
+          "철×1"
+        ]
       },
       {
         "id": "other-entry-c2f583147e",
@@ -34989,7 +35077,10 @@
           "ざいもく×2"
         ],
         "category": "べんり",
-        "subCategory": "どうろ"
+        "subCategory": "どうろ",
+        "materialsKo": [
+          "목재×2"
+        ]
       },
       {
         "id": "other-entry-de5340bcd3",
@@ -35007,12 +35098,17 @@
           "かみのゴミ×1"
         ],
         "category": "ざっか",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "튼튼한 가지×1",
+          "덩굴끈×1",
+          "종이のゴミ×1"
+        ]
       },
       {
         "id": "other-entry-9e0eab5612",
         "nameJp": "しゅうのうボックス",
-        "nameKo": "수납 박스",
+        "nameKo": "수납 상자 레시피",
         "imagePath": "https://img.game8.jp/12365537/0d57798f580b07da44f8d866685055be.webp/original",
         "sourceType": "other",
         "sourceJp": "ポケモン図鑑7匹登録時の報酬",
@@ -35023,7 +35119,10 @@
           "ざいもく×1"
         ],
         "category": "家具",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "목재×1"
+        ]
       },
       {
         "id": "other-entry-79b6f68de2",
@@ -35061,7 +35160,10 @@
           "ざいもく×1"
         ],
         "category": "おくがい",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "목재×1"
+        ]
       },
       {
         "id": "other-entry-fd06e491f8",
@@ -35090,7 +35192,12 @@
           "いとくず×1"
         ],
         "category": "べんり",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "ヒメリのみ×1",
+          "튼튼한 가지×1",
+          "실조각×1"
+        ]
       },
       {
         "id": "other-entry-5ca001e88c",
@@ -35107,7 +35214,11 @@
           "つたひも×1"
         ],
         "category": "ざっか",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "튼튼한 가지×1",
+          "덩굴끈×1"
+        ]
       },
       {
         "id": "other-entry-51e0d77eb4",
@@ -35146,7 +35257,11 @@
           "てつ×4"
         ],
         "category": "べんり",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "돌×4",
+          "철×4"
+        ]
       },
       {
         "id": "other-entry-6f06abd6fd",
@@ -35162,7 +35277,10 @@
           "ざいもく×3"
         ],
         "category": "おくがい",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "목재×3"
+        ]
       },
       {
         "id": "other-entry-9c6ceac0af",
@@ -35179,7 +35297,11 @@
           "ざいもく×1"
         ],
         "category": "おくがい",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "철×1",
+          "목재×1"
+        ]
       },
       {
         "id": "other-entry-85db720696",
@@ -35196,7 +35318,11 @@
           "ひかるキノコ×1"
         ],
         "category": "べんり",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "튼튼한 가지×1",
+          "ひかるキノコ×1"
+        ]
       },
       {
         "id": "other-entry-afb0879816",
@@ -35214,7 +35340,12 @@
           "てつののべぼう×2"
         ],
         "category": "おくがい",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "シマシマのつち×1",
+          "돌×2",
+          "철 주괴×2"
+        ]
       },
       {
         "id": "other-entry-8f00f608a7",
@@ -35231,7 +35362,11 @@
           "てつののべぼう×1"
         ],
         "category": "おくがい",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "목재×1",
+          "철 주괴×1"
+        ]
       },
       {
         "id": "other-entry-fe4a6d0f30",
@@ -35249,7 +35384,12 @@
           "ふしぎなげん×1"
         ],
         "category": "ざっか",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "목재×1",
+          "포케메탈×1",
+          "ふしぎなげん×1"
+        ]
       },
       {
         "id": "other-entry-707b8930cd",
@@ -35265,7 +35405,10 @@
           "てつののべぼう×2"
         ],
         "category": "べんり",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "철 주괴×2"
+        ]
       },
       {
         "id": "other-entry-1bfe904289",
@@ -35281,7 +35424,10 @@
           "コンクリート×2"
         ],
         "category": "おくがい",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "콘크리트×2"
+        ]
       },
       {
         "id": "other-entry-5418801d85",
@@ -35298,12 +35444,16 @@
           "かみ×2"
         ],
         "category": "ざっか",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "목재×2",
+          "종이×2"
+        ]
       },
       {
         "id": "other-entry-2e060c92ad",
         "nameJp": "ごうかなはしら・した",
-        "nameKo": "화려한 기둥 · 아래",
+        "nameKo": "화려한 기둥·아래 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_267.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「ごうかなはしらレシピセット」を購入(日替わり)",
@@ -35314,7 +35464,7 @@
       {
         "id": "other-entry-d0ac76029d",
         "nameJp": "ごうかなはしら・まんなか",
-        "nameKo": "화려한 기둥 · 중간",
+        "nameKo": "화려한 기둥·가운데 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_268.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「ごうかなはしらレシピセット」を購入(日替わり)",
@@ -35325,7 +35475,7 @@
       {
         "id": "other-entry-1a6fecb284",
         "nameJp": "ごうかなはしら・うえ",
-        "nameKo": "화려한 기둥 · 위",
+        "nameKo": "화려한 기둥·위 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_269.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「ごうかなはしらレシピセット」を購入(日替わり)",
@@ -35369,7 +35519,10 @@
           "ポケメタル×2"
         ],
         "category": "家具",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "포케메탈×2"
+        ]
       },
       {
         "id": "other-entry-b0b11ea169",
@@ -35386,7 +35539,11 @@
           "ヨロイのはへん×1"
         ],
         "category": "ざっか",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "철 주괴×1",
+          "ヨロイのはへん×1"
+        ]
       },
       {
         "id": "other-entry-f3fe9626f5",
@@ -35403,7 +35560,11 @@
           "ヨロイのはへん×1"
         ],
         "category": "ざっか",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "철 주괴×1",
+          "ヨロイのはへん×1"
+        ]
       },
       {
         "id": "other-entry-164251356d",
@@ -35420,7 +35581,11 @@
           "ざいもく×2"
         ],
         "category": "おくがい",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "덩굴끈×2",
+          "목재×2"
+        ]
       },
       {
         "id": "other-entry-4cff51b6dc",
@@ -35459,12 +35624,16 @@
           "てつののべぼう×1"
         ],
         "category": "おくがい",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "튼튼한 가지×1",
+          "철 주괴×1"
+        ]
       },
       {
         "id": "other-entry-8471564cd3",
         "nameJp": "うみなりのスズ",
-        "nameKo": "해명의방울",
+        "nameKo": "바다소리 방울 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_355.png",
         "sourceType": "other",
         "sourceJp": "ファイヤー 、 サンダー 、 フリーザー を友達にすると解放",
@@ -35475,7 +35644,7 @@
       {
         "id": "other-entry-ad2648793a",
         "nameJp": "とうめいなスズ",
-        "nameKo": "크리스탈방울",
+        "nameKo": "투명한 방울 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_372.png",
         "sourceType": "other",
         "sourceJp": "ライコウ 、 エンテイ 、 スイクン を友達にすると解放",
@@ -35499,7 +35668,12 @@
           "つたひも×1"
         ],
         "category": "ざっか",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "튼튼한 가지×1",
+          "잎사귀×1",
+          "덩굴끈×1"
+        ]
       },
       {
         "id": "other-entry-9c4d7a180a",
@@ -35517,12 +35691,17 @@
           "てつののべぼう×1"
         ],
         "category": "おくがい",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "덩굴끈×1",
+          "목재×1",
+          "철 주괴×1"
+        ]
       },
       {
         "id": "other-entry-e668f58c8e",
         "nameJp": "はなびだま",
-        "nameKo": "불꽃구슬",
+        "nameKo": "폭죽 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_589.png",
         "sourceType": "other",
         "sourceJp": "ゴツゴツやまの街 のストーリークリア後",
@@ -35544,12 +35723,15 @@
           "ポケメタル×1"
         ],
         "category": "家具",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "other-entry-40d3f21427",
         "nameJp": "木のついたて",
-        "nameKo": "나무 칸막이",
+        "nameKo": "나무 병풍 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_381.png",
         "sourceType": "other",
         "sourceJp": "ポケモン図鑑75匹登録時の報酬",
@@ -35560,7 +35742,10 @@
           "ざいもく×2"
         ],
         "category": "たてもの",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "목재×2"
+        ]
       },
       {
         "id": "other-entry-0501b9c7c2",
@@ -35598,12 +35783,15 @@
           "いし×2"
         ],
         "category": "ブロック",
-        "subCategory": "ゆか"
+        "subCategory": "ゆか",
+        "materialsKo": [
+          "돌×2"
+        ]
       },
       {
         "id": "other-entry-97285d0cfe",
         "nameJp": "いしづみのカベ",
-        "nameKo": "돌담 벽",
+        "nameKo": "돌쌓기 벽 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_384.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「やまのいえづくりレシピセット」を購入",
@@ -35614,7 +35802,10 @@
           "いし×2"
         ],
         "category": "ブロック",
-        "subCategory": "かべ"
+        "subCategory": "かべ",
+        "materialsKo": [
+          "돌×2"
+        ]
       },
       {
         "id": "other-entry-3ae842987a",
@@ -35630,7 +35821,7 @@
       {
         "id": "other-entry-e310b4b2ae",
         "nameJp": "ななめのやねがわら",
-        "nameKo": "대각선 지붕 기와",
+        "nameKo": "비스듬한 기와 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_386.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「やねがわらレシピセット」を購入",
@@ -35641,7 +35832,7 @@
       {
         "id": "other-entry-881ab5e7bd",
         "nameJp": "でっぱりのやねがわら",
-        "nameKo": "돌출 지붕 기와",
+        "nameKo": "돌출 기와 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_387.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「やねがわらレシピセット」を購入",
@@ -35652,7 +35843,7 @@
       {
         "id": "other-entry-aaaf97bce8",
         "nameJp": "ひっこみのやねがわら",
-        "nameKo": "오목한 지붕 기와",
+        "nameKo": "오목 기와 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_388.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「やねがわらレシピセット」を購入",
@@ -35663,7 +35854,7 @@
       {
         "id": "other-entry-ee3d5447de",
         "nameJp": "たいらなやねがわら",
-        "nameKo": "평평한 지붕 기와",
+        "nameKo": "평평한 기와 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_389.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「やねがわらレシピセット」を購入",
@@ -35674,7 +35865,7 @@
       {
         "id": "other-entry-14f32e821b",
         "nameJp": "やねがわらのかざり",
-        "nameKo": "지붕 기와 장식",
+        "nameKo": "기와 장식 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_390.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「やねがわらレシピセット」を購入",
@@ -35697,7 +35888,11 @@
           "きんののべぼう×1"
         ],
         "category": "べんり",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "크리스탈 조각×1",
+          "금 주괴×1"
+        ]
       },
       {
         "id": "other-entry-94eba9f77b",
@@ -35713,7 +35908,10 @@
           "ポケメタル×4"
         ],
         "category": "たてもの",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "포케메탈×4"
+        ]
       },
       {
         "id": "other-entry-9e2d53b678",
@@ -35731,7 +35929,12 @@
           "レンガ×2"
         ],
         "category": "ざっか",
-        "subCategory": "きゅうけい"
+        "subCategory": "きゅうけい",
+        "materialsKo": [
+          "튼튼한 가지×2",
+          "돌×2",
+          "벽돌×2"
+        ]
       },
       {
         "id": "other-entry-212f0e6201",
@@ -35760,12 +35963,17 @@
           "ふしぎなげん×1"
         ],
         "category": "ざっか",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "목재×1",
+          "포케메탈×1",
+          "ふしぎなげん×1"
+        ]
       },
       {
         "id": "other-entry-f2bd7bba4a",
         "nameJp": "ビッグしゅうのうボックス",
-        "nameKo": "빅 수납 박스",
+        "nameKo": "큰 수납 상자 레시피",
         "imagePath": "https://img.game8.jp/12365546/fc3b96d470cef7382b98c6ea92f6e3a2.webp/original",
         "sourceType": "other",
         "sourceJp": "ポケモン図鑑30匹登録時の報酬",
@@ -35776,7 +35984,10 @@
           "ポケメタル×3"
         ],
         "category": "家具",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "포케메탈×3"
+        ]
       },
       {
         "id": "other-entry-7bf3584d42",
@@ -35793,7 +36004,11 @@
           "ざいもく×1"
         ],
         "category": "家具",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "실조각×2",
+          "목재×1"
+        ]
       },
       {
         "id": "other-entry-5fd5a7761e",
@@ -35809,7 +36024,10 @@
           "ざいもく×1"
         ],
         "category": "べんり",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "목재×1"
+        ]
       },
       {
         "id": "other-entry-25a80bb5db",
@@ -35825,7 +36043,10 @@
           "いとくず×2"
         ],
         "category": "たてもの",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "실조각×2"
+        ]
       },
       {
         "id": "other-entry-4513a578b6",
@@ -35853,7 +36074,11 @@
           "シーグラスのかけら×1"
         ],
         "category": "べんり",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "철×1",
+          "시글라스 조각×1"
+        ]
       },
       {
         "id": "other-entry-12b5cb7f5b",
@@ -35869,7 +36094,10 @@
           "てつ×1"
         ],
         "category": "ざっか",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "철×1"
+        ]
       },
       {
         "id": "other-entry-167eacdf6e",
@@ -35885,7 +36113,10 @@
           "てつののべぼう×1"
         ],
         "category": "ざっか",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "철 주괴×1"
+        ]
       },
       {
         "id": "other-entry-4f75288cc1",
@@ -35902,7 +36133,11 @@
           "はらっぱのはな×1"
         ],
         "category": "ざっか",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "ぐにゃぐにゃ점토×1",
+          "はらっぱのはな×1"
+        ]
       },
       {
         "id": "other-entry-762ddf716b",
@@ -35918,7 +36153,10 @@
           "てつ×2"
         ],
         "category": "ざっか",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "철×2"
+        ]
       },
       {
         "id": "other-entry-7af61474fc",
@@ -35935,7 +36173,11 @@
           "ガラス×3"
         ],
         "category": "ざっか",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "실조각×1",
+          "유리×3"
+        ]
       },
       {
         "id": "other-entry-3df21367e6",
@@ -35951,7 +36193,10 @@
           "ざいもく×1"
         ],
         "category": "おくがい",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "목재×1"
+        ]
       },
       {
         "id": "other-entry-d91c61b3d3",
@@ -35968,7 +36213,11 @@
           "はっぱ×3"
         ],
         "category": "おくがい",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "튼튼한 가지×3",
+          "잎사귀×3"
+        ]
       },
       {
         "id": "other-entry-e5b810a76f",
@@ -35998,7 +36247,13 @@
           "ガラス×1"
         ],
         "category": "家具",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "목재×2",
+          "실조각×1",
+          "철×2",
+          "유리×1"
+        ]
       },
       {
         "id": "other-entry-ae30812171",
@@ -36014,7 +36269,10 @@
           "ポケメタル×1"
         ],
         "category": "ざっか",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "other-entry-fbcdb7ccf9",
@@ -36030,7 +36288,10 @@
           "ざいもく×2"
         ],
         "category": "べんり",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "목재×2"
+        ]
       },
       {
         "id": "other-entry-89d23b3923",
@@ -36048,7 +36309,12 @@
           "ちいさなまるた×2"
         ],
         "category": "べんり",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "화산재×4",
+          "돌×2",
+          "작은 통나무×2"
+        ]
       },
       {
         "id": "other-entry-1b0d1f8f34",
@@ -36064,7 +36330,10 @@
           "ポケメタル×1"
         ],
         "category": "ざっか",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "other-entry-5cef64dab9",
@@ -36081,7 +36350,11 @@
           "ざいもく×2"
         ],
         "category": "家具",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "실조각×2",
+          "목재×2"
+        ]
       },
       {
         "id": "other-entry-e8e55372bd",
@@ -36098,7 +36371,11 @@
           "ガラス×1"
         ],
         "category": "ざっか",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "포케메탈×1",
+          "유리×1"
+        ]
       },
       {
         "id": "other-entry-f09f900f0e",
@@ -36115,7 +36392,11 @@
           "ざいもく×1"
         ],
         "category": "ざっか",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "ぐにゃぐにゃ점토×1",
+          "목재×1"
+        ]
       },
       {
         "id": "other-entry-2d88af9b09",
@@ -36131,7 +36412,10 @@
           "かみ×1"
         ],
         "category": "ざっか",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "종이×1"
+        ]
       },
       {
         "id": "other-entry-154d81b12b",
@@ -36147,7 +36431,10 @@
           "ポケメタル×1"
         ],
         "category": "ざっか",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "other-entry-d83669c0c7",
@@ -36185,7 +36472,10 @@
           "てつののべぼう×2"
         ],
         "category": "ブロック",
-        "subCategory": "かべ"
+        "subCategory": "かべ",
+        "materialsKo": [
+          "철 주괴×2"
+        ]
       },
       {
         "id": "other-entry-6641d348db",
@@ -36201,7 +36491,7 @@
       {
         "id": "other-entry-c0c4eac8ac",
         "nameJp": "木のふち・まっすぐ",
-        "nameKo": "나무 테두리 · 직선",
+        "nameKo": "나무 테두리·직선 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_486.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「木のふちのレシピセット」を購入",
@@ -36212,7 +36502,7 @@
       {
         "id": "other-entry-5b74db39f1",
         "nameJp": "木のふち・ミニ",
-        "nameKo": "나무 테두리 · 미니",
+        "nameKo": "나무 테두리·미니 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_382.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「木のふちのレシピセット」を購入",
@@ -36223,7 +36513,7 @@
       {
         "id": "other-entry-5043ced32d",
         "nameJp": "木のふち・かど",
-        "nameKo": "나무 테두리 · 모서리",
+        "nameKo": "나무 테두리·모서리 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_382.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「木のふちのレシピセット」を購入",
@@ -36245,7 +36535,10 @@
           "てつ×1"
         ],
         "category": "たてもの",
-        "subCategory": "おもちゃ"
+        "subCategory": "おもちゃ",
+        "materialsKo": [
+          "철×1"
+        ]
       },
       {
         "id": "other-entry-2b4a033333",
@@ -36261,7 +36554,10 @@
           "コンクリート×2"
         ],
         "category": "ブロック",
-        "subCategory": "かべ"
+        "subCategory": "かべ",
+        "materialsKo": [
+          "콘크리트×2"
+        ]
       },
       {
         "id": "other-entry-c779a18139",
@@ -36278,12 +36574,16 @@
           "てつののべぼう×1"
         ],
         "category": "たてもの",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "유리×1",
+          "철 주괴×1"
+        ]
       },
       {
         "id": "other-entry-0b5b106922",
         "nameJp": "コイキングのやねがわら",
-        "nameKo": "잉어킹 지붕 기와",
+        "nameKo": "잉어킹 기와 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_619.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「やねがわらレシピセット」を購入( パサパサこうやの街 Lv5)",
@@ -36294,7 +36594,7 @@
       {
         "id": "other-entry-faeeabc7d5",
         "nameJp": "コンクリのふち・まっすぐ",
-        "nameKo": "콘크리트 테두리 · 직선",
+        "nameKo": "콘크리트 테두리·직선 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_620.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「コンクリのふちのレシピセット」を購入",
@@ -36305,7 +36605,7 @@
       {
         "id": "other-entry-6b3fa90b90",
         "nameJp": "コンクリのふち・ミニ",
-        "nameKo": "콘크리트 테두리 · 미니",
+        "nameKo": "콘크리트 테두리·미니 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_621.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「コンクリのふちのレシピセット」を購入",
@@ -36316,7 +36616,7 @@
       {
         "id": "other-entry-f0be4edfcc",
         "nameJp": "コンクリのふち・かど",
-        "nameKo": "콘크리트 테두리 · 모서리",
+        "nameKo": "콘크리트 테두리·모서리 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_622.png",
         "sourceType": "other",
         "sourceJp": "ショップ で「コンクリのふちのレシピセット」を購入",
@@ -36340,12 +36640,17 @@
           "きんののべぼう×2"
         ],
         "category": "家具",
-        "subCategory": "きゅうけい"
+        "subCategory": "きゅうけい",
+        "materialsKo": [
+          "목재×2",
+          "솜×1",
+          "금 주괴×2"
+        ]
       },
       {
         "id": "other-entry-b4d98191e7",
         "nameJp": "アンティークチェスト",
-        "nameKo": "앤티크 체스트",
+        "nameKo": "앤티크 서랍장 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_646.png",
         "sourceType": "other",
         "sourceJp": "まっさらな街 環境レベル6で ショップ 解放",
@@ -36358,12 +36663,17 @@
           "てつ×1"
         ],
         "category": "家具",
-        "subCategory": null
+        "subCategory": null,
+        "materialsKo": [
+          "목재×2",
+          "실조각×1",
+          "철×1"
+        ]
       },
       {
         "id": "other-entry-00e7118d83",
         "nameJp": "てつのドア",
-        "nameKo": "철 문",
+        "nameKo": "철문 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_676.png",
         "sourceType": "other",
         "sourceJp": "ごつごつやまの街環境レベル5で ショップ 解放",
@@ -36374,7 +36684,7 @@
       {
         "id": "other-entry-e1d26f92be",
         "nameJp": "ひびわれすないわ",
-        "nameKo": "금 간 모래바위",
+        "nameKo": "금간 모래 바위 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_771.png",
         "sourceType": "other",
         "sourceJp": "まっさらな街 環境レベル8で ショップ 解放",
@@ -36399,12 +36709,18 @@
           "ガラス×1"
         ],
         "category": "べんり",
-        "subCategory": "かざりつけ"
+        "subCategory": "かざりつけ",
+        "materialsKo": [
+          "목재×2",
+          "실조각×1",
+          "철×2",
+          "유리×1"
+        ]
       },
       {
         "id": "other-entry-b9e6b32db1",
         "nameJp": "木のカベ・ライト",
-        "nameKo": "나무 벽 · 라이트",
+        "nameKo": "나무 벽·라이트 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_790.png",
         "sourceType": "other",
         "sourceJp": "まっさらな街 環境レベル7で ショップ 解放",
@@ -36426,12 +36742,15 @@
         ],
         "category": "家具",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×2"
+        ]
       },
       {
         "id": "craft-855d03ff4f",
         "nameJp": "ワイヤーのレシピ",
-        "nameKo": null,
+        "nameKo": "와이어 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36442,12 +36761,15 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×2"
+        ]
       },
       {
         "id": "craft-4af976b856",
         "nameJp": "シンプルしかくタイルのレシピ",
-        "nameKo": null,
+        "nameKo": "심플 사각 타일 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36458,7 +36780,10 @@
         ],
         "category": "ブロック",
         "subCategory": "どうろ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "돌×2"
+        ]
       },
       {
         "id": "craft-66ba631342",
@@ -36475,7 +36800,11 @@
         ],
         "category": null,
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "종이×1"
+        ]
       },
       {
         "id": "craft-979223413b",
@@ -36491,12 +36820,15 @@
         ],
         "category": "家具",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×2"
+        ]
       },
       {
         "id": "craft-d418cddb0a",
         "nameJp": "ナチュラルなチェストのレシピ",
-        "nameKo": null,
+        "nameKo": "내추럴 서랍장 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36508,12 +36840,16 @@
         ],
         "category": "家具",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×1",
+          "목재×1"
+        ]
       },
       {
         "id": "craft-f807697b05",
         "nameJp": "ナチュラルなクローゼットのレシピ",
-        "nameKo": null,
+        "nameKo": "내추럴 수납장 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36525,12 +36861,16 @@
         ],
         "category": "家具",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×1",
+          "목재×2"
+        ]
       },
       {
         "id": "craft-f71a0e8461",
         "nameJp": "オフィスのロッカーのレシピ",
-        "nameKo": null,
+        "nameKo": "오피스 로커 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36541,12 +36881,15 @@
         ],
         "category": "家具",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×2"
+        ]
       },
       {
         "id": "craft-5e684cc4c8",
         "nameJp": "オフィスのたなのレシピ",
-        "nameKo": null,
+        "nameKo": "오피스 선반 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36558,12 +36901,16 @@
         ],
         "category": "家具",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×2",
+          "유리×2"
+        ]
       },
       {
         "id": "craft-7be3fc0b8d",
         "nameJp": "ほしくさのテーブルのレシピ",
-        "nameKo": null,
+        "nameKo": "건초 테이블 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36575,12 +36922,16 @@
         ],
         "category": "家具",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "돌×1",
+          "잎사귀×1"
+        ]
       },
       {
         "id": "craft-91dd40e688",
         "nameJp": "サイドテーブルのレシピ",
-        "nameKo": null,
+        "nameKo": "사이드 테이블 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36592,12 +36943,16 @@
         ],
         "category": "家具",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "돌×1",
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-075530a652",
         "nameJp": "木のテーブルのレシピ",
-        "nameKo": null,
+        "nameKo": "나무 테이블 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36608,12 +36963,15 @@
         ],
         "category": "家具",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1"
+        ]
       },
       {
         "id": "craft-ac4308100f",
         "nameJp": "カベつけテーブルのレシピ",
-        "nameKo": null,
+        "nameKo": "벽걸이 테이블 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36625,12 +36983,16 @@
         ],
         "category": "家具",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-3394054f1a",
         "nameJp": "キッチンテーブルのレシピ",
-        "nameKo": null,
+        "nameKo": "키친 테이블 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36641,12 +37003,15 @@
         ],
         "category": "家具",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-9336416060",
         "nameJp": "ワゴンのレシピ",
-        "nameKo": null,
+        "nameKo": "왜건 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36658,12 +37023,16 @@
         ],
         "category": "家具",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "금 주괴×1"
+        ]
       },
       {
         "id": "craft-0c5e7a8413",
         "nameJp": "てんじだいのレシピ",
-        "nameKo": null,
+        "nameKo": "전시대 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36675,12 +37044,16 @@
         ],
         "category": "家具",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "돌×1",
+          "목재×1"
+        ]
       },
       {
         "id": "craft-20caf3aa05",
         "nameJp": "てつのテーブルのレシピ",
-        "nameKo": null,
+        "nameKo": "철제 테이블 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36691,7 +37064,10 @@
         ],
         "category": "家具",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×2"
+        ]
       },
       {
         "id": "craft-a77429c0c0",
@@ -36707,7 +37083,10 @@
         ],
         "category": "家具",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2"
+        ]
       },
       {
         "id": "craft-e26fb92da5",
@@ -36724,12 +37103,16 @@
         ],
         "category": "家具",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "철 주괴×2"
+        ]
       },
       {
         "id": "craft-c9b44744b4",
         "nameJp": "シックなテーブルのレシピ",
-        "nameKo": null,
+        "nameKo": "시크한 테이블 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36741,12 +37124,16 @@
         ],
         "category": "家具",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×2",
+          "목재×2"
+        ]
       },
       {
         "id": "craft-cdb5ca94eb",
         "nameJp": "いしのテーブルのレシピ",
-        "nameKo": null,
+        "nameKo": "돌 테이블 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36757,12 +37144,15 @@
         ],
         "category": "家具",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "돌×3"
+        ]
       },
       {
         "id": "craft-e10a0fd3cb",
         "nameJp": "オフィスのテーブルのレシピ",
-        "nameKo": null,
+        "nameKo": "오피스 테이블 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36774,12 +37164,16 @@
         ],
         "category": "家具",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×2",
+          "유리×2"
+        ]
       },
       {
         "id": "craft-dc3ff0ba56",
         "nameJp": "ほしくさのこしかけのレシピ",
-        "nameKo": null,
+        "nameKo": "건초 걸상 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36790,12 +37184,15 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "잎사귀×1"
+        ]
       },
       {
         "id": "craft-6ac7d93972",
         "nameJp": "シンプルなクッションのレシピ",
-        "nameKo": null,
+        "nameKo": "심플한 쿠션 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36807,12 +37204,16 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×1",
+          "솜×1"
+        ]
       },
       {
         "id": "craft-f3b637b3ca",
         "nameJp": "ナチュラルなこしかけのレシピ",
-        "nameKo": null,
+        "nameKo": "내추럴 걸상 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36824,12 +37225,16 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×1",
+          "목재×1"
+        ]
       },
       {
         "id": "craft-dc416470a6",
         "nameJp": "オシャレなこしかけのレシピ",
-        "nameKo": null,
+        "nameKo": "세련된 걸상 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36841,12 +37246,16 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×1",
+          "목재×1"
+        ]
       },
       {
         "id": "craft-bb7fa99b23",
         "nameJp": "ふろばのイスのレシピ",
-        "nameKo": null,
+        "nameKo": "목욕탕 의자 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36857,7 +37266,10 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-903382b98a",
@@ -36873,12 +37285,15 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1"
+        ]
       },
       {
         "id": "craft-9b124371e9",
         "nameJp": "てつのイスのレシピ",
-        "nameKo": null,
+        "nameKo": "철제 의자 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36889,12 +37304,15 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-2df2cfeadb",
         "nameJp": "パブリックベンチのレシピ",
-        "nameKo": null,
+        "nameKo": "퍼블릭 벤치 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36905,7 +37323,10 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-e6b3a86ea2",
@@ -36922,12 +37343,16 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1",
+          "솜×1"
+        ]
       },
       {
         "id": "craft-37110d9b87",
         "nameJp": "ボックスソファのレシピ",
-        "nameKo": null,
+        "nameKo": "박스 소파 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36939,12 +37364,16 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×1",
+          "솜×1"
+        ]
       },
       {
         "id": "craft-70bb5405dd",
         "nameJp": "ナチュラルなイスのレシピ",
-        "nameKo": null,
+        "nameKo": "내추럴 의자 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36956,12 +37385,16 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×1",
+          "목재×1"
+        ]
       },
       {
         "id": "craft-dd47319d83",
         "nameJp": "シックなイスのレシピ",
-        "nameKo": null,
+        "nameKo": "시크한 의자 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -36973,7 +37406,11 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "솜×1"
+        ]
       },
       {
         "id": "craft-a6d428e026",
@@ -36990,12 +37427,16 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×1",
+          "솜×1"
+        ]
       },
       {
         "id": "craft-ceb7f308f0",
         "nameJp": "かんきゃくのイスのレシピ",
-        "nameKo": null,
+        "nameKo": "관객 의자 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37006,12 +37447,15 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-c4ab7b0536",
         "nameJp": "パイプイスのレシピ",
-        "nameKo": null,
+        "nameKo": "파이프 의자 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37023,12 +37467,16 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×1",
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-059127042c",
         "nameJp": "オフィスのイスのレシピ",
-        "nameKo": null,
+        "nameKo": "오피스 의자 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37040,12 +37488,16 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1",
+          "솜×1"
+        ]
       },
       {
         "id": "craft-f5600c4807",
         "nameJp": "木のながイスのレシピ",
-        "nameKo": null,
+        "nameKo": "나무 긴 의자 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37056,12 +37508,15 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2"
+        ]
       },
       {
         "id": "craft-4b0ee38636",
         "nameJp": "いしのながイスのレシピ",
-        "nameKo": null,
+        "nameKo": "돌 긴 의자 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37072,12 +37527,15 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "돌×2"
+        ]
       },
       {
         "id": "craft-5bfce0643f",
         "nameJp": "シックなソファのレシピ",
-        "nameKo": null,
+        "nameKo": "시크한 소파 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37089,7 +37547,11 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2",
+          "솜×2"
+        ]
       },
       {
         "id": "craft-a8f4eff61c",
@@ -37106,12 +37568,16 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "철 주괴×2"
+        ]
       },
       {
         "id": "craft-58924e904d",
         "nameJp": "まるたのベッドのレシピ",
-        "nameKo": null,
+        "nameKo": "통나무 침대 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37124,12 +37590,17 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "작은 통나무×2",
+          "실조각×2",
+          "솜×2"
+        ]
       },
       {
         "id": "craft-f5509a4dd9",
         "nameJp": "ナチュラルなミニベッドのレシピ",
-        "nameKo": null,
+        "nameKo": "내추럴 미니 침대 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37141,12 +37612,16 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "솜×1"
+        ]
       },
       {
         "id": "craft-1ee3f7059f",
         "nameJp": "サマーベッドのレシピ",
-        "nameKo": null,
+        "nameKo": "서머 침대 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37157,12 +37632,15 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×2"
+        ]
       },
       {
         "id": "craft-01fb4e0a63",
         "nameJp": "ビーチチェアのレシピ",
-        "nameKo": null,
+        "nameKo": "비치 의자 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37174,12 +37652,16 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×2",
+          "목재×2"
+        ]
       },
       {
         "id": "craft-dc4b6dce83",
         "nameJp": "木のベッドのレシピ",
-        "nameKo": null,
+        "nameKo": "나무 침대 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37191,12 +37673,16 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "잎사귀×2",
+          "목재×2"
+        ]
       },
       {
         "id": "craft-25957c1115",
         "nameJp": "ナチュラルなベッドのレシピ",
-        "nameKo": null,
+        "nameKo": "내추럴 침대 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37208,12 +37694,16 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2",
+          "솜×2"
+        ]
       },
       {
         "id": "craft-c604b14676",
         "nameJp": "きゃくしつのベッドのレシピ",
-        "nameKo": null,
+        "nameKo": "객실 침대 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37225,12 +37715,16 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2",
+          "솜×2"
+        ]
       },
       {
         "id": "craft-369e131edb",
         "nameJp": "インダストリアルなベッドのレシピ",
-        "nameKo": null,
+        "nameKo": "인터스트리얼 침대 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37243,12 +37737,17 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2",
+          "철 주괴×2",
+          "물감・ももいろ×2"
+        ]
       },
       {
         "id": "craft-404a4ec9fd",
         "nameJp": "木のおさらのレシピ",
-        "nameKo": null,
+        "nameKo": "나무 접시 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37259,12 +37758,15 @@
         ],
         "category": "ざっか",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1"
+        ]
       },
       {
         "id": "craft-9f8d414fe2",
         "nameJp": "マグカップのレシピ",
-        "nameKo": null,
+        "nameKo": "머그컵 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37275,12 +37777,15 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "ぐにゃぐにゃ점토×1"
+        ]
       },
       {
         "id": "craft-b02220fc5c",
         "nameJp": "ティーセットのレシピ",
-        "nameKo": null,
+        "nameKo": "티 세트 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37292,12 +37797,16 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "ぐにゃぐにゃ점토×1",
+          "ロズレイティー×1"
+        ]
       },
       {
         "id": "craft-470e18314f",
         "nameJp": "テーブルウェアのレシピ",
-        "nameKo": null,
+        "nameKo": "테이블웨어 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37309,12 +37818,16 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×1",
+          "ぐにゃぐにゃ점토×1"
+        ]
       },
       {
         "id": "craft-b2c22a98a2",
         "nameJp": "パーティーカップのレシピ",
-        "nameKo": null,
+        "nameKo": "파티 컵 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37325,12 +37838,15 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "종이×1"
+        ]
       },
       {
         "id": "craft-17a89ce604",
         "nameJp": "ピザのレシピ",
-        "nameKo": null,
+        "nameKo": "피자 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37341,7 +37857,10 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-3594e6cfb5",
@@ -37361,12 +37880,19 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "モモンのみ×1",
+          "カゴのみ×1",
+          "チーゴのみ×1",
+          "ナナシのみ×1",
+          "ラムのみ×1"
+        ]
       },
       {
         "id": "craft-2fa1bc54d0",
         "nameJp": "ごうかなはなのレシピ",
-        "nameKo": null,
+        "nameKo": "호화로운 꽃 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37378,12 +37904,16 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "ぐにゃぐにゃ점토×1",
+          "はらっぱのはな×1"
+        ]
       },
       {
         "id": "craft-8526b4be1b",
         "nameJp": "ちいさいゴミばこのレシピ",
-        "nameKo": null,
+        "nameKo": "작은 쓰레기통 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37394,7 +37924,10 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-3d1d56eefe",
@@ -37410,7 +37943,10 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-cc8e1c491e",
@@ -37426,7 +37962,10 @@
         ],
         "category": "ざっか",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "종이×1"
+        ]
       },
       {
         "id": "craft-ee1163b7f6",
@@ -37442,7 +37981,10 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "종이×1"
+        ]
       },
       {
         "id": "craft-cf7bd38771",
@@ -37458,7 +38000,10 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "종이×1"
+        ]
       },
       {
         "id": "craft-61d567a862",
@@ -37475,7 +38020,11 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "종이×1"
+        ]
       },
       {
         "id": "craft-b0654ac4ba",
@@ -37492,7 +38041,11 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "종이×1"
+        ]
       },
       {
         "id": "craft-7ba12f8870",
@@ -37509,12 +38062,16 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×4",
+          "종이×1"
+        ]
       },
       {
         "id": "craft-0211732c7f",
         "nameJp": "ざっしだなのレシピ",
-        "nameKo": null,
+        "nameKo": "잡지 꽂이 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37526,12 +38083,16 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2",
+          "종이×2"
+        ]
       },
       {
         "id": "craft-99a978d411",
         "nameJp": "ミニほんだなのレシピ",
-        "nameKo": null,
+        "nameKo": "미니 책장 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37543,7 +38104,11 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "종이×1"
+        ]
       },
       {
         "id": "craft-eb83c837f3",
@@ -37561,12 +38126,17 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "ぐにゃぐにゃ점토×1",
+          "목재×1",
+          "유리×1"
+        ]
       },
       {
         "id": "craft-564c3281ab",
         "nameJp": "シンクのレシピ",
-        "nameKo": null,
+        "nameKo": "싱크대 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37577,12 +38147,15 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-3715a02fc2",
         "nameJp": "でんしレンジのレシピ",
-        "nameKo": null,
+        "nameKo": "전자레인지 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37593,12 +38166,15 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-fd07a89a13",
         "nameJp": "せんぷうきのレシピ",
-        "nameKo": null,
+        "nameKo": "선풍기 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37609,7 +38185,10 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-ed244896bc",
@@ -37625,12 +38204,15 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-e12c23aa02",
         "nameJp": "トイレのレシピ",
-        "nameKo": null,
+        "nameKo": "변기 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37642,12 +38224,16 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "ぐにゃぐにゃ점토×1",
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-d2f7f16834",
         "nameJp": "せんめんだいのレシピ",
-        "nameKo": null,
+        "nameKo": "세면대 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37659,12 +38245,16 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "ぐにゃぐにゃ점토×1",
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-9a2825bf37",
         "nameJp": "カベかけタオルのレシピ",
-        "nameKo": null,
+        "nameKo": "벽걸이 타월 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37676,12 +38266,16 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×1",
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-9d6f5612df",
         "nameJp": "バスタブのレシピ",
-        "nameKo": null,
+        "nameKo": "욕조 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37692,7 +38286,10 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×2"
+        ]
       },
       {
         "id": "craft-c4a7e310a4",
@@ -37709,12 +38306,16 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1",
+          "유리×1"
+        ]
       },
       {
         "id": "craft-fd7fcaf96c",
         "nameJp": "テレビのレシピ",
-        "nameKo": null,
+        "nameKo": "TV 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37726,7 +38327,11 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×2",
+          "유리×2"
+        ]
       },
       {
         "id": "craft-f1d86e28a4",
@@ -37743,12 +38348,16 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×2",
+          "유리×2"
+        ]
       },
       {
         "id": "craft-2b823ae378",
         "nameJp": "つみきのレシピ",
-        "nameKo": null,
+        "nameKo": "쌓기 블록 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37759,12 +38368,15 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1"
+        ]
       },
       {
         "id": "craft-c73cb24535",
         "nameJp": "あみものキットのレシピ",
-        "nameKo": null,
+        "nameKo": "뜨개질 키트 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37776,12 +38388,16 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×1",
+          "솜×1"
+        ]
       },
       {
         "id": "craft-8aa91180d4",
         "nameJp": "かしつきのレシピ",
-        "nameKo": null,
+        "nameKo": "가습기 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37793,12 +38409,16 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1",
+          "유리×1"
+        ]
       },
       {
         "id": "craft-eb9d967c23",
         "nameJp": "きゅうきゅうばこのレシピ",
-        "nameKo": null,
+        "nameKo": "구급상자 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37809,12 +38429,15 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-53d53c97bf",
         "nameJp": "けんびきょうのレシピ",
-        "nameKo": null,
+        "nameKo": "현미경 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37826,12 +38449,16 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1",
+          "유리×1"
+        ]
       },
       {
         "id": "craft-87b91051c0",
         "nameJp": "じっけんセットのレシピ",
-        "nameKo": null,
+        "nameKo": "실험 세트 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37843,12 +38470,16 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1",
+          "유리×1"
+        ]
       },
       {
         "id": "craft-66b04aa11a",
         "nameJp": "からまりコードのレシピ",
-        "nameKo": null,
+        "nameKo": "엉킨 코드 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37860,7 +38491,11 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "구리 주괴×1",
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-ec55fa525c",
@@ -37876,12 +38511,15 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-369e3ebc7e",
         "nameJp": "スタンドマイクのレシピ",
-        "nameKo": null,
+        "nameKo": "스탠드 마이크 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37893,12 +38531,16 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×1",
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-ed5c9cc316",
         "nameJp": "おおだいこのレシピ",
-        "nameKo": null,
+        "nameKo": "큰북 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37910,12 +38552,16 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×1",
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-30de8e01ed",
         "nameJp": "オーディオミキサーのレシピ",
-        "nameKo": null,
+        "nameKo": "오디오 믹서 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37929,12 +38575,18 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "철 주괴×1",
+          "포케메탈×1",
+          "유리×1"
+        ]
       },
       {
         "id": "craft-51ccd52f43",
         "nameJp": "ふうせんのレシピ",
-        "nameKo": null,
+        "nameKo": "풍선 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37945,12 +38597,15 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×2"
+        ]
       },
       {
         "id": "craft-c0222cd8f7",
         "nameJp": "きゃたつのレシピ",
-        "nameKo": null,
+        "nameKo": "사다리 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37961,12 +38616,15 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-e5d9a56faf",
         "nameJp": "だんボールのはこのレシピ",
-        "nameKo": null,
+        "nameKo": "골판지 상자 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37977,12 +38635,15 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "종이のゴミ×1"
+        ]
       },
       {
         "id": "craft-20fc2d09ee",
         "nameJp": "ホワイトボードのレシピ",
-        "nameKo": null,
+        "nameKo": "화이트보드 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -37994,12 +38655,16 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×1",
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-99f20892a7",
         "nameJp": "ふねのハンドルのレシピ",
-        "nameKo": null,
+        "nameKo": "배의 핸들 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38011,7 +38676,11 @@
         ],
         "category": "ざっか",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-c2843859b1",
@@ -38028,12 +38697,16 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "종이×1"
+        ]
       },
       {
         "id": "craft-5d3f97fd77",
         "nameJp": "かざりだな・いれもののレシピ",
-        "nameKo": null,
+        "nameKo": "장식 선반·용기 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38045,7 +38718,11 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "유리×1"
+        ]
       },
       {
         "id": "craft-2ae562d539",
@@ -38062,7 +38739,11 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "잎사귀×1",
+          "목재×1"
+        ]
       },
       {
         "id": "craft-78e16bb7b9",
@@ -38078,12 +38759,15 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×1"
+        ]
       },
       {
         "id": "craft-160ad5125b",
         "nameJp": "くさのカベかざりのレシピ",
-        "nameKo": null,
+        "nameKo": "풀 벽 장식 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38095,12 +38779,16 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "잎사귀×1",
+          "덩굴끈×1"
+        ]
       },
       {
         "id": "craft-7cd9c2194a",
         "nameJp": "かけじくのレシピ",
-        "nameKo": null,
+        "nameKo": "족자 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38111,7 +38799,10 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "종이×2"
+        ]
       },
       {
         "id": "craft-46f319fbf5",
@@ -38129,12 +38820,17 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "철 주괴×1",
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-e7c8a15436",
         "nameJp": "ほそながキャンドルのレシピ",
-        "nameKo": null,
+        "nameKo": "길쭉한 캔들 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38146,7 +38842,11 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "튼튼한 가지×1",
+          "돌×1"
+        ]
       },
       {
         "id": "craft-acaf733f3a",
@@ -38164,12 +38864,17 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "돌×1",
+          "목재×1",
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-1b484ad6f1",
         "nameJp": "キャンプファイヤーのレシピ",
-        "nameKo": null,
+        "nameKo": "캠프파이어 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38180,12 +38885,15 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×8"
+        ]
       },
       {
         "id": "craft-e7500adea3",
         "nameJp": "すなばのレシピ",
-        "nameKo": null,
+        "nameKo": "모래밭 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38197,7 +38905,11 @@
         ],
         "category": "おくがい",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "해변 모래×1",
+          "목재×1"
+        ]
       },
       {
         "id": "craft-3bc3ac2d44",
@@ -38213,12 +38925,15 @@
         ],
         "category": "おくがい",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-210b85ceeb",
         "nameJp": "すべりだいのレシピ",
-        "nameKo": null,
+        "nameKo": "미끄럼틀 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38229,12 +38944,15 @@
         ],
         "category": "おくがい",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×5"
+        ]
       },
       {
         "id": "craft-3c7b5703ce",
         "nameJp": "じどうはんばいきのレシピ",
-        "nameKo": null,
+        "nameKo": "자동판매기 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38247,12 +38965,17 @@
         ],
         "category": "おくがい",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "구리 주괴×2",
+          "포케메탈×2",
+          "유리×2"
+        ]
       },
       {
         "id": "craft-9989e6e615",
         "nameJp": "プランターのレシピ",
-        "nameKo": null,
+        "nameKo": "플랜터 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38264,12 +38987,16 @@
         ],
         "category": "おくがい",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "돌×1",
+          "벽돌×1"
+        ]
       },
       {
         "id": "craft-f9a208ee01",
         "nameJp": "とまり木のレシピ",
-        "nameKo": null,
+        "nameKo": "횃대 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38281,12 +39008,16 @@
         ],
         "category": "おくがい",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "잎사귀×1",
+          "작은 통나무×2"
+        ]
       },
       {
         "id": "craft-2ed78d3e4c",
         "nameJp": "木のすばこのレシピ",
-        "nameKo": null,
+        "nameKo": "나무 새집 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38298,12 +39029,16 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "잎사귀×1",
+          "목재×2"
+        ]
       },
       {
         "id": "craft-d0814b6acc",
         "nameJp": "ゆうびんばこのレシピ",
-        "nameKo": null,
+        "nameKo": "우체통 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38314,7 +39049,10 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-f493bff72b",
@@ -38330,12 +39068,15 @@
         ],
         "category": "おくがい",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-7a2ccaed8e",
         "nameJp": "はかいしのレシピ",
-        "nameKo": null,
+        "nameKo": "묘비 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38346,12 +39087,15 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "돌×2"
+        ]
       },
       {
         "id": "craft-28f61faa42",
         "nameJp": "キャンバス・まっさらのレシピ",
-        "nameKo": null,
+        "nameKo": "캔버스·무지 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38363,12 +39107,16 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "종이×1"
+        ]
       },
       {
         "id": "craft-8d28b4d782",
         "nameJp": "かねのレシピ",
-        "nameKo": null,
+        "nameKo": "종 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38380,12 +39128,16 @@
         ],
         "category": "おくがい",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "구리 주괴×1",
+          "금 주괴×1"
+        ]
       },
       {
         "id": "craft-8b4dd062ad",
         "nameJp": "カヌーのレシピ",
-        "nameKo": null,
+        "nameKo": "카누 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38396,12 +39148,15 @@
         ],
         "category": "おくがい",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2"
+        ]
       },
       {
         "id": "craft-615c4784db",
         "nameJp": "ビニールボートのレシピ",
-        "nameKo": null,
+        "nameKo": "비닐 보트 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38412,12 +39167,15 @@
         ],
         "category": "おくがい",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×2"
+        ]
       },
       {
         "id": "craft-f5ae143d67",
         "nameJp": "ビーチパラソルのレシピ",
-        "nameKo": null,
+        "nameKo": "비치 파라솔 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38429,12 +39187,16 @@
         ],
         "category": "おくがい",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×2",
+          "목재×2"
+        ]
       },
       {
         "id": "craft-f022a5d748",
         "nameJp": "やじるしかんばんのレシピ",
-        "nameKo": null,
+        "nameKo": "화살표 간판 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38445,12 +39207,15 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1"
+        ]
       },
       {
         "id": "craft-4635901174",
         "nameJp": "かんばんのレシピ",
-        "nameKo": null,
+        "nameKo": "간판 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38461,7 +39226,10 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1"
+        ]
       },
       {
         "id": "craft-84e5c1a83d",
@@ -38477,7 +39245,10 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-c95cbe634e",
@@ -38494,12 +39265,16 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "포케메탈×2"
+        ]
       },
       {
         "id": "craft-b42bd23ff4",
         "nameJp": "木ばこのレシピ",
-        "nameKo": null,
+        "nameKo": "나무 상자 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38510,12 +39285,15 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1"
+        ]
       },
       {
         "id": "craft-2188362851",
         "nameJp": "たるのレシピ",
-        "nameKo": null,
+        "nameKo": "통 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38527,12 +39305,16 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-768fdd9d23",
         "nameJp": "ゴミぶくろのレシピ",
-        "nameKo": null,
+        "nameKo": "쓰레기봉투 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38543,12 +39325,15 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "もえないゴミ×1"
+        ]
       },
       {
         "id": "craft-0317948486",
         "nameJp": "ゴミばこのレシピ",
-        "nameKo": null,
+        "nameKo": "쓰레기통 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38559,12 +39344,15 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철×1"
+        ]
       },
       {
         "id": "craft-004661163f",
         "nameJp": "あきカンいれのレシピ",
-        "nameKo": null,
+        "nameKo": "빈 깡통통 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38575,7 +39363,10 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "구리 주괴×1"
+        ]
       },
       {
         "id": "craft-478b30c7c3",
@@ -38591,12 +39382,15 @@
         ],
         "category": "おくがい",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-2780ebc73f",
         "nameJp": "マンホールのレシピ",
-        "nameKo": null,
+        "nameKo": "맨홀 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38607,12 +39401,15 @@
         ],
         "category": "おくがい",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-05b3cba565",
         "nameJp": "しょうかせんのレシピ",
-        "nameKo": null,
+        "nameKo": "소화전 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38623,12 +39420,15 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-de78c93fa6",
         "nameJp": "ドラムかんのレシピ",
-        "nameKo": null,
+        "nameKo": "드럼통 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38639,7 +39439,10 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철×1"
+        ]
       },
       {
         "id": "craft-0400eae2d2",
@@ -38655,12 +39458,15 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×2"
+        ]
       },
       {
         "id": "craft-413c47c45e",
         "nameJp": "こんもりてつパイプのレシピ",
-        "nameKo": null,
+        "nameKo": "철 파이프 더미 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38671,12 +39477,15 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×2"
+        ]
       },
       {
         "id": "craft-1d9c97b413",
         "nameJp": "おおきなかんきせんのレシピ",
-        "nameKo": null,
+        "nameKo": "대형 환풍기 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38688,12 +39497,16 @@
         ],
         "category": "おくがい",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×2",
+          "포케메탈×2"
+        ]
       },
       {
         "id": "craft-09f26a58fb",
         "nameJp": "フライパンのレシピ",
-        "nameKo": null,
+        "nameKo": "프라이팬 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38704,7 +39517,10 @@
         ],
         "category": "べんり",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "구리 주괴×2"
+        ]
       },
       {
         "id": "craft-1d328167c2",
@@ -38722,12 +39538,17 @@
         ],
         "category": "べんり",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×1",
+          "포케메탈×1",
+          "유리×1"
+        ]
       },
       {
         "id": "craft-07e0f35a75",
         "nameJp": "なべのレシピ",
-        "nameKo": null,
+        "nameKo": "냄비 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38738,12 +39559,15 @@
         ],
         "category": "べんり",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "구리 주괴×2"
+        ]
       },
       {
         "id": "craft-1c22f2bef1",
         "nameJp": "せんろのレシピ",
-        "nameKo": null,
+        "nameKo": "선로 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38755,12 +39579,16 @@
         ],
         "category": "べんり",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "돌×1",
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-0a28304974",
         "nameJp": "しゃだんきのレシピ",
-        "nameKo": null,
+        "nameKo": "차단기 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38772,12 +39600,16 @@
         ],
         "category": "べんり",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-9ded968206",
         "nameJp": "トロッコのレシピ",
-        "nameKo": null,
+        "nameKo": "트로코 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38788,12 +39620,15 @@
         ],
         "category": "べんり",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "구리 주괴×2"
+        ]
       },
       {
         "id": "craft-95803889a2",
         "nameJp": "エレベーターのりばのレシピ",
-        "nameKo": null,
+        "nameKo": "엘리베이터 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38806,12 +39641,17 @@
         ],
         "category": "べんり",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "유리×8",
+          "따라큐 기어×2",
+          "콘크리트×8"
+        ]
       },
       {
         "id": "craft-96d0acabbf",
         "nameJp": "リフトのりばのレシピ",
-        "nameKo": null,
+        "nameKo": "리프트 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38824,12 +39664,17 @@
         ],
         "category": "べんり",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×5",
+          "따라큐 기어×1",
+          "콘크리트×5"
+        ]
       },
       {
         "id": "craft-bb4927bca6",
         "nameJp": "ミニすいもんのレシピ",
-        "nameKo": null,
+        "nameKo": "미니 수문 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38840,12 +39685,15 @@
         ],
         "category": "べんり",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철×1"
+        ]
       },
       {
         "id": "craft-78361ebe53",
         "nameJp": "でんちゅうのレシピ",
-        "nameKo": null,
+        "nameKo": "전봇대 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38857,7 +39705,11 @@
         ],
         "category": "べんり",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "돌×2",
+          "철×2"
+        ]
       },
       {
         "id": "craft-71df79cab1",
@@ -38873,7 +39725,10 @@
         ],
         "category": "べんり",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-a25e1aba75",
@@ -38889,7 +39744,10 @@
         ],
         "category": "べんり",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-93e6412672",
@@ -38907,7 +39765,12 @@
         ],
         "category": "べんり",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "돌×1",
+          "철×1",
+          "시글라스 조각×1"
+        ]
       },
       {
         "id": "craft-a4404964cd",
@@ -38924,7 +39787,11 @@
         ],
         "category": "べんり",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "크리스탈 조각×1",
+          "철 주괴×2"
+        ]
       },
       {
         "id": "craft-de4524078a",
@@ -38941,12 +39808,16 @@
         ],
         "category": "べんり",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×2",
+          "유리×1"
+        ]
       },
       {
         "id": "craft-da45b268c3",
         "nameJp": "デスクライトのレシピ",
-        "nameKo": null,
+        "nameKo": "데스크 라이트 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38959,7 +39830,12 @@
         ],
         "category": "べんり",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "철 주괴×1",
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-5d415a2f3e",
@@ -38976,12 +39852,16 @@
         ],
         "category": "べんり",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1",
+          "유리×1"
+        ]
       },
       {
         "id": "craft-2bbd857896",
         "nameJp": "わくせいのもけいのレシピ",
-        "nameKo": null,
+        "nameKo": "행성 모형 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -38992,12 +39872,15 @@
         ],
         "category": "べんり",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-2e126298b1",
         "nameJp": "ウォールライトのレシピ",
-        "nameKo": null,
+        "nameKo": "벽 조명 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39008,12 +39891,15 @@
         ],
         "category": "べんり",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-4f989af155",
         "nameJp": "かいがらランプのレシピ",
-        "nameKo": null,
+        "nameKo": "조개껍질 램프 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39025,12 +39911,16 @@
         ],
         "category": "べんり",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "조개껍데기×1",
+          "시글라스 조각×1"
+        ]
       },
       {
         "id": "craft-3d23ab4511",
         "nameJp": "けいこうとうのレシピ",
-        "nameKo": null,
+        "nameKo": "형광등 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39042,12 +39932,16 @@
         ],
         "category": "べんり",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×1",
+          "유리×1"
+        ]
       },
       {
         "id": "craft-5305252d97",
         "nameJp": "リゾートなライトのレシピ",
-        "nameKo": null,
+        "nameKo": "리조트 라이트 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39060,7 +39954,12 @@
         ],
         "category": "べんり",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "덩굴끈×1",
+          "철×1",
+          "시글라스 조각×1"
+        ]
       },
       {
         "id": "craft-03500b3779",
@@ -39077,7 +39976,11 @@
         ],
         "category": "べんり",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철×2",
+          "시글라스 조각×2"
+        ]
       },
       {
         "id": "craft-289a5e27b9",
@@ -39093,12 +39996,15 @@
         ],
         "category": "べんり",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "유리×1"
+        ]
       },
       {
         "id": "craft-60aa3eb3eb",
         "nameJp": "おんぷマット・ドのレシピ",
-        "nameKo": null,
+        "nameKo": "음표 매트·도 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39110,12 +40016,16 @@
         ],
         "category": "べんり",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "빛의돌×1",
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-71828466a7",
         "nameJp": "おんぷマット・レのレシピ",
-        "nameKo": null,
+        "nameKo": "음표 매트·레 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39127,12 +40037,16 @@
         ],
         "category": "べんり",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "빛의돌×1",
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-4e25de012a",
         "nameJp": "おんぷマット・ミのレシピ",
-        "nameKo": null,
+        "nameKo": "음표 매트·미 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39144,12 +40058,16 @@
         ],
         "category": "べんり",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "빛의돌×1",
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-e3cc6af687",
         "nameJp": "おんぷマット・ファのレシピ",
-        "nameKo": null,
+        "nameKo": "음표 매트·파 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39161,12 +40079,16 @@
         ],
         "category": "べんり",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "빛의돌×1",
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-e22153cc9c",
         "nameJp": "おんぷマット・ソのレシピ",
-        "nameKo": null,
+        "nameKo": "음표 매트·솔 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39178,12 +40100,16 @@
         ],
         "category": "べんり",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "빛의돌×1",
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-f613964c6d",
         "nameJp": "おんぷマット・ラのレシピ",
-        "nameKo": null,
+        "nameKo": "음표 매트·라 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39195,12 +40121,16 @@
         ],
         "category": "べんり",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "빛의돌×1",
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-4e47c54554",
         "nameJp": "おんぷマット・シのレシピ",
-        "nameKo": null,
+        "nameKo": "음표 매트·시 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39212,12 +40142,16 @@
         ],
         "category": "べんり",
         "subCategory": "おもちゃ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "빛의돌×1",
+          "포케메탈×1"
+        ]
       },
       {
         "id": "craft-43e7467e0a",
         "nameJp": "いしのかいだんのレシピ",
-        "nameKo": null,
+        "nameKo": "돌 계단 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39228,7 +40162,10 @@
         ],
         "category": "べんり",
         "subCategory": "どうろ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "돌×2"
+        ]
       },
       {
         "id": "craft-1bdf622c55",
@@ -39244,7 +40181,10 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×2"
+        ]
       },
       {
         "id": "craft-334265a75e",
@@ -39260,7 +40200,10 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "덩굴끈×2"
+        ]
       },
       {
         "id": "craft-7180875a2d",
@@ -39276,12 +40219,15 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×1"
+        ]
       },
       {
         "id": "craft-8058cb47d1",
         "nameJp": "木のクロスドアのレシピ",
-        "nameKo": null,
+        "nameKo": "나무 교차문 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39292,12 +40238,15 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2"
+        ]
       },
       {
         "id": "craft-a7576d23df",
         "nameJp": "ふねのドアのレシピ",
-        "nameKo": null,
+        "nameKo": "배 문 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39308,12 +40257,15 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2"
+        ]
       },
       {
         "id": "craft-8c2ce0902c",
         "nameJp": "スタイリッシュなドアのレシピ",
-        "nameKo": null,
+        "nameKo": "스타일리시한 문 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39325,7 +40277,11 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×1",
+          "유리×2"
+        ]
       },
       {
         "id": "craft-6c843a8b2b",
@@ -39342,12 +40298,16 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×2",
+          "유리×1"
+        ]
       },
       {
         "id": "craft-e3a605f081",
         "nameJp": "シンプルカーテン・ひだりのレシピ",
-        "nameKo": null,
+        "nameKo": "심플 커튼·왼쪽 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39358,12 +40318,15 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×1"
+        ]
       },
       {
         "id": "craft-3a631be89f",
         "nameJp": "シンプルカーテン・みぎのレシピ",
-        "nameKo": null,
+        "nameKo": "심플 커튼·오른쪽 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39374,12 +40337,15 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×1"
+        ]
       },
       {
         "id": "craft-733709c8f8",
         "nameJp": "ななめのテントやねのレシピ",
-        "nameKo": null,
+        "nameKo": "비스듬한 텐트 지붕 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39390,12 +40356,15 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×2"
+        ]
       },
       {
         "id": "craft-88b0e60971",
         "nameJp": "でっぱりのテントやねのレシピ",
-        "nameKo": null,
+        "nameKo": "돌출 텐트 지붕 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39406,12 +40375,15 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×2"
+        ]
       },
       {
         "id": "craft-8ecf077666",
         "nameJp": "ひっこみのテントやねのレシピ",
-        "nameKo": null,
+        "nameKo": "오목 텐트 지붕 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39422,12 +40394,15 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×2"
+        ]
       },
       {
         "id": "craft-96aa68ce18",
         "nameJp": "たいらなテントやねのレシピ",
-        "nameKo": null,
+        "nameKo": "평평한 텐트 지붕 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39438,12 +40413,15 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×2"
+        ]
       },
       {
         "id": "craft-0cfb7b67ff",
         "nameJp": "木のかこいのレシピ",
-        "nameKo": null,
+        "nameKo": "나무 울타리 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39454,7 +40432,10 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2"
+        ]
       },
       {
         "id": "craft-4820a9dc25",
@@ -39470,12 +40451,15 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×2"
+        ]
       },
       {
         "id": "craft-5c20955079",
         "nameJp": "木のてすりのレシピ",
-        "nameKo": null,
+        "nameKo": "나무 난간 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39486,7 +40470,10 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2"
+        ]
       },
       {
         "id": "craft-7ca62cb2d8",
@@ -39502,12 +40489,15 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철×2"
+        ]
       },
       {
         "id": "craft-e80006b7e8",
         "nameJp": "木のしきり・まっすぐのレシピ",
-        "nameKo": null,
+        "nameKo": "나무 칸막이·직선 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39518,7 +40508,10 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2"
+        ]
       },
       {
         "id": "craft-8a789a2914",
@@ -39534,12 +40527,15 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2"
+        ]
       },
       {
         "id": "craft-53d0d71085",
         "nameJp": "木のすきましきりのレシピ",
-        "nameKo": null,
+        "nameKo": "나무 틈새 칸막이 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39550,7 +40546,10 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2"
+        ]
       },
       {
         "id": "craft-9241850a60",
@@ -39566,12 +40565,15 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철×2"
+        ]
       },
       {
         "id": "craft-274e1ab4f1",
         "nameJp": "キノコのがいとうのレシピ",
-        "nameKo": null,
+        "nameKo": "버섯 가로등 레시피",
         "imagePath": null,
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39583,12 +40585,16 @@
         ],
         "category": "たてもの",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "ひかるキノコ×1",
+          "목재×2"
+        ]
       },
       {
         "id": "craft-bf279a70c7",
         "nameJp": "アンティーククローゼットのレシピ",
-        "nameKo": null,
+        "nameKo": "앤티크 수납장 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_472.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39601,12 +40607,17 @@
         ],
         "category": "家具",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2",
+          "실조각×1",
+          "철×2"
+        ]
       },
       {
         "id": "craft-3a66ac43d8",
         "nameJp": "アンティークベッドのレシピ",
-        "nameKo": null,
+        "nameKo": "앤티크 침대 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_473.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39619,12 +40630,17 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2",
+          "솜×2",
+          "금 주괴×2"
+        ]
       },
       {
         "id": "craft-cbf4a317fd",
         "nameJp": "アンティークチェアのレシピ",
-        "nameKo": null,
+        "nameKo": "앤티크 의자 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_475.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39637,12 +40653,17 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "솜×1",
+          "금 주괴×1"
+        ]
       },
       {
         "id": "craft-a700674890",
         "nameJp": "アンティークテーブルのレシピ",
-        "nameKo": null,
+        "nameKo": "앤티크 테이블 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_733.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39655,12 +40676,17 @@
         ],
         "category": "家具",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2",
+          "실조각×1",
+          "철×1"
+        ]
       },
       {
         "id": "craft-c540ca07e3",
         "nameJp": "アンティークどけいのレシピ",
-        "nameKo": null,
+        "nameKo": "앤티크 시계 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_754.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39674,12 +40700,18 @@
         ],
         "category": "ざっか",
         "subCategory": "かざりつけ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2",
+          "실조각×1",
+          "철×1",
+          "유리×1"
+        ]
       },
       {
         "id": "craft-bd1ab12b1f",
         "nameJp": "インダストリアルなデスクのレシピ",
-        "nameKo": null,
+        "nameKo": "인터스트리얼 데스크 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_519.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39691,12 +40723,16 @@
         ],
         "category": "家具",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×2",
+          "목재×1"
+        ]
       },
       {
         "id": "craft-a2487fe39e",
         "nameJp": "インダストリアルなベンチのレシピ",
-        "nameKo": null,
+        "nameKo": "인터스트리얼 벤치 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_859.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39708,12 +40744,16 @@
         ],
         "category": "家具",
         "subCategory": "きゅうけい",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "철 주괴×2",
+          "목재×1"
+        ]
       },
       {
         "id": "craft-b2abcafbd2",
         "nameJp": "アンティークなカベ・うえのレシピ",
-        "nameKo": null,
+        "nameKo": "앤티크 벽·위 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_778.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39724,12 +40764,15 @@
         ],
         "category": "ブロック",
         "subCategory": "かべ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2"
+        ]
       },
       {
         "id": "craft-d25f9b1e76",
         "nameJp": "アンティークなカベ・なかのレシピ",
-        "nameKo": null,
+        "nameKo": "앤티크 벽·가운데 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_779.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39740,12 +40783,15 @@
         ],
         "category": "ブロック",
         "subCategory": "かべ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2"
+        ]
       },
       {
         "id": "craft-afb057f28b",
         "nameJp": "アンティークなカベ・したのレシピ",
-        "nameKo": null,
+        "nameKo": "앤티크 벽·아래 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_780.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39756,12 +40802,15 @@
         ],
         "category": "ブロック",
         "subCategory": "かべ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×2"
+        ]
       },
       {
         "id": "craft-49de407a0d",
         "nameJp": "いしラインのゆかのレシピ",
-        "nameKo": null,
+        "nameKo": "돌 라인 바닥 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_424.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39772,12 +40821,15 @@
         ],
         "category": "ブロック",
         "subCategory": "ゆか",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "돌×2"
+        ]
       },
       {
         "id": "craft-76bbfb9a48",
         "nameJp": "いしのタイルのレシピ",
-        "nameKo": null,
+        "nameKo": "돌 타일 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_428.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39788,12 +40840,15 @@
         ],
         "category": "ブロック",
         "subCategory": "どうろ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "돌×2"
+        ]
       },
       {
         "id": "craft-3d94935bfe",
         "nameJp": "うすちゃのけずれたいわのレシピ",
-        "nameKo": null,
+        "nameKo": "연갈색 깎인 바위 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_759.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39804,12 +40859,15 @@
         ],
         "category": "ブロック",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "うすちゃいわ×1"
+        ]
       },
       {
         "id": "craft-3429e3f5ba",
         "nameJp": "あかいけずれたいわのレシピ",
-        "nameKo": null,
+        "nameKo": "빨간 깎인 바위 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_760.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39820,12 +40878,15 @@
         ],
         "category": "ブロック",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "あかいわ×1"
+        ]
       },
       {
         "id": "craft-88a71ec562",
         "nameJp": "おしゃれタイルのレシピ",
-        "nameKo": null,
+        "nameKo": "세련된 타일 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_426.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39836,12 +40897,15 @@
         ],
         "category": "ブロック",
         "subCategory": "どうろ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "ぐにゃぐにゃ점토×2"
+        ]
       },
       {
         "id": "craft-2911ee6eb8",
         "nameJp": "おしゃれボールもようのレシピ",
-        "nameKo": null,
+        "nameKo": "세련된 볼 무늬 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_851.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39852,12 +40916,15 @@
         ],
         "category": "ブロック",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×2"
+        ]
       },
       {
         "id": "craft-f23a475d59",
         "nameJp": "おしゃれかいだんのレシピ",
-        "nameKo": null,
+        "nameKo": "세련된 계단 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_687.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39869,12 +40936,16 @@
         ],
         "category": "たてもの",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "목재×1",
+          "실조각×1"
+        ]
       },
       {
         "id": "craft-d0d03a14fe",
         "nameJp": "きいろいけずれたいわのレシピ",
-        "nameKo": null,
+        "nameKo": "노란 깎인 바위 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_761.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39885,12 +40956,15 @@
         ],
         "category": "ブロック",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "きいろいいわ×1"
+        ]
       },
       {
         "id": "craft-3acdf57944",
         "nameJp": "きのみのもようのレシピ",
-        "nameKo": null,
+        "nameKo": "나무열매 무늬 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_731.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39901,12 +40975,15 @@
         ],
         "category": "ブロック",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×2"
+        ]
       },
       {
         "id": "craft-957cc11082",
         "nameJp": "ギンガムチェックのレシピ",
-        "nameKo": null,
+        "nameKo": "깅엄 체크 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_839.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39917,12 +40994,15 @@
         ],
         "category": "ブロック",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "실조각×2"
+        ]
       },
       {
         "id": "craft-b669ec6e08",
         "nameJp": "ザラザラのけずれたいわのレシピ",
-        "nameKo": null,
+        "nameKo": "거친 깎인 바위 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_758.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39933,12 +41013,15 @@
         ],
         "category": "ブロック",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "ザラザラいわ×1"
+        ]
       },
       {
         "id": "craft-6a812fe8f6",
         "nameJp": "しかくタイルのレシピ",
-        "nameKo": null,
+        "nameKo": "사각 타일 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_429.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39949,12 +41032,15 @@
         ],
         "category": "ブロック",
         "subCategory": "どうろ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "돌×2"
+        ]
       },
       {
         "id": "craft-1f177e2277",
         "nameJp": "しっくいのカベのレシピ",
-        "nameKo": null,
+        "nameKo": "회반죽 벽 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_341.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39965,12 +41051,15 @@
         ],
         "category": "ブロック",
         "subCategory": "かべ",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "조개껍데기×1"
+        ]
       },
       {
         "id": "craft-a1754ee5d5",
         "nameJp": "しばふのゆかのレシピ",
-        "nameKo": null,
+        "nameKo": "잔디 바닥 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_562.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39982,12 +41071,16 @@
         ],
         "category": "ブロック",
         "subCategory": "ゆか",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "잎사귀×1",
+          "실조각×1"
+        ]
       },
       {
         "id": "craft-9114e0d4b9",
         "nameJp": "ショップのゆかのレシピ",
-        "nameKo": null,
+        "nameKo": "상점 바닥 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_732.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -39998,12 +41091,15 @@
         ],
         "category": "ブロック",
         "subCategory": "ゆか",
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "포케메탈×2"
+        ]
       },
       {
         "id": "craft-e206c71dcf",
         "nameJp": "しろいけずれたいわのレシピ",
-        "nameKo": null,
+        "nameKo": "하얀 깎인 바위 레시피",
         "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_766.png",
         "sourceType": "other",
         "sourceJp": "クラフト制作",
@@ -40014,7 +41110,10 @@
         ],
         "category": "ブロック",
         "subCategory": null,
-        "sourceUrl": "https://game8.jp/pocoapokemon/767405"
+        "sourceUrl": "https://game8.jp/pocoapokemon/767405",
+        "materialsKo": [
+          "しろいいわ×1"
+        ]
       }
     ]
   },
@@ -40119,7 +41218,7 @@
     {
       "id": "building-f2707623c6",
       "nameJp": "いしのりっぱなキット",
-      "nameKo": "돌 훌륭한 키트",
+      "nameKo": "돌 고급 키트",
       "typeJp": "建物",
       "typeKo": "건물",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
@@ -40158,7 +41257,7 @@
     {
       "id": "building-a1fd688605",
       "nameJp": "いやしのこうえんキット",
-      "nameKo": "치유의 공원 키트",
+      "nameKo": "힐링 공원 키트",
       "typeJp": "建物",
       "typeKo": "건물",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
@@ -40292,7 +41391,7 @@
     {
       "id": "building-f0f07770c5",
       "nameJp": "すなのりっぱなキット",
-      "nameKo": "모래 훌륭한 키트",
+      "nameKo": "모래 고급 키트",
       "typeJp": "建物",
       "typeKo": "건물",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
@@ -40469,7 +41568,7 @@
     {
       "id": "building-1ccfbdeaa8",
       "nameJp": "とかいのりっぱなキット",
-      "nameKo": "도시 훌륭한 키트",
+      "nameKo": "도시 고급 키트",
       "typeJp": "建物",
       "typeKo": "건물",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
@@ -40508,7 +41607,7 @@
     {
       "id": "building-351a4f4fd2",
       "nameJp": "ともしびのさいだんキット",
-      "nameKo": "불꽃 제단 키트",
+      "nameKo": "불빛의 제단 키트",
       "typeJp": "建物",
       "typeKo": "건물",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
@@ -40640,7 +41739,7 @@
     {
       "id": "building-fb8e9b2038",
       "nameJp": "はっぱのりっぱなキット",
-      "nameKo": "잎사귀 훌륭한 키트",
+      "nameKo": "잎사귀 고급 키트",
       "typeJp": "建物",
       "typeKo": "건물",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
@@ -40679,7 +41778,7 @@
     {
       "id": "building-97160a25d0",
       "nameJp": "風力はつでんキット",
-      "nameKo": "풍력 발전 키트",
+      "nameKo": "풍력발전 키트",
       "typeJp": "建物",
       "typeKo": "건물",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
@@ -40708,11 +41807,11 @@
     {
       "id": "building-a4a53948b1",
       "nameJp": "ふたごのひむろキット",
-      "nameKo": "쌍둥이 얼음창고 키트",
+      "nameKo": "쌍둥이 빙실 키트",
       "typeJp": "建物",
       "typeKo": "건물",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
-      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_5.png",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_2.png",
       "capacity": "15匹",
       "buildTime": "翌日",
       "useJp": "フリーザーと友達になれる",
@@ -40745,11 +41844,11 @@
     {
       "id": "building-51fdf07043",
       "nameJp": "むじんはつでんしょキット",
-      "nameKo": "무인 발전소 키트",
+      "nameKo": "무인발전소 키트",
       "typeJp": "建物",
       "typeKo": "건물",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
-      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_6.png",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_4.png",
       "capacity": "15匹",
       "buildTime": "翌日",
       "useJp": "サンダーと友達になれる",
@@ -40786,11 +41885,11 @@
     {
       "id": "building-0225fdbbff",
       "nameJp": "水力はつでんキット",
-      "nameKo": "수력 발전 키트",
+      "nameKo": "수력발전 키트",
       "typeJp": "建物",
       "typeKo": "건물",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
-      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_25.png",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_5.png",
       "capacity": "2匹",
       "buildTime": "15分",
       "useJp": "水場に作成すると発電できる",
@@ -40815,11 +41914,11 @@
     {
       "id": "building-1d4929542a",
       "nameJp": "火力はつでんキット",
-      "nameKo": "화력 발전 키트",
+      "nameKo": "화력발전 키트",
       "typeJp": "建物",
       "typeKo": "건물",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/545874",
-      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_26.png",
+      "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_6.png",
       "capacity": "2匹",
       "buildTime": "15分",
       "useJp": "燃料を入れると発電できる",
@@ -40855,8 +41954,8 @@
       "noteKo": "우중충한 해변 마을 다우징으로도 획득 가능",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_54.png",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547269",
-      "unlockLevel": "Lv2",
-      "legendaryPokemonJp": "スイクン"
+      "legendaryPokemonJp": "スイクン",
+      "legendaryPokemonKo": "스이쿤"
     },
     {
       "id": "entry-4c628f5868",
@@ -40870,8 +41969,8 @@
       "noteKo": "우중충한 해변 마을 다우징으로도 획득 가능",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_206.png",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547269",
-      "unlockLevel": "Lv5",
-      "legendaryPokemonJp": "ライコウ"
+      "legendaryPokemonJp": "ライコウ",
+      "legendaryPokemonKo": "라이코"
     },
     {
       "id": "entry-5ccac80d54",
@@ -40885,8 +41984,8 @@
       "noteKo": "다우징으로 획득",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_367.png",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547269",
-      "unlockLevel": "Lv6",
-      "legendaryPokemonJp": "ミュウツー"
+      "legendaryPokemonJp": "ミュウツー",
+      "legendaryPokemonKo": "뮤츠"
     },
     {
       "id": "entry-27ebafab3c",
@@ -40900,7 +41999,6 @@
       "noteKo": "울퉁불퉁 산마을 다우징으로 획득",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_162.png",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547269",
-      "unlockLevel": "Lv3",
       "legendaryPokemonJp": null
     },
     {
@@ -40915,8 +42013,8 @@
       "noteKo": "울퉁불퉁 산마을 다우징으로 획득",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_216.png",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547269",
-      "unlockLevel": "Lv4",
-      "legendaryPokemonJp": "エンテイ"
+      "legendaryPokemonJp": "エンテイ",
+      "legendaryPokemonKo": "엔테이"
     },
     {
       "id": "entry-4dc8692835",
@@ -40930,8 +42028,8 @@
       "noteKo": "",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_164.png",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547269",
-      "unlockLevel": "Lv7",
-      "legendaryPokemonJp": "ランダム"
+      "legendaryPokemonJp": "ランダム",
+      "legendaryPokemonKo": "ランダム"
     },
     {
       "id": "entry-11ef43f5a2",
@@ -40945,8 +42043,8 @@
       "noteKo": "",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_163.png",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547269",
-      "unlockLevel": "Lv8",
-      "legendaryPokemonJp": "ランダム"
+      "legendaryPokemonJp": "ランダム",
+      "legendaryPokemonKo": "ランダム"
     }
   ],
   "cds": [
@@ -40954,7 +42052,7 @@
       "id": "entry-e46c81aed7",
       "nameJp": "オープニング",
       "nameKo": "오프닝",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -40964,7 +42062,7 @@
       "id": "entry-c80fef66b8",
       "nameJp": "マサラタウンのテーマ",
       "nameKo": "태초마을의 테마",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -40974,7 +42072,7 @@
       "id": "entry-fe2743cd54",
       "nameJp": "オーキド研究所",
       "nameKo": "오박사 연구소",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -40984,7 +42082,7 @@
       "id": "entry-08907f1477",
       "nameJp": "トキワへの道",
       "nameKo": "상록시티로 가는 길",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -40994,7 +42092,7 @@
       "id": "entry-9c820e7484",
       "nameJp": "ニビシティのテーマ",
       "nameKo": "회색시티의 테마",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41004,7 +42102,7 @@
       "id": "entry-919cdd2faa",
       "nameJp": "ポケモンセンター",
       "nameKo": "포켓몬센터",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41014,7 +42112,7 @@
       "id": "entry-12e622285f",
       "nameJp": "おつきみ山のどうくつ",
       "nameKo": "달맞이산 동굴",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41024,7 +42122,7 @@
       "id": "entry-4bc0462475",
       "nameJp": "ハナダへの道",
       "nameKo": "블루시티로 가는 길",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41034,7 +42132,7 @@
       "id": "entry-d0ce85bb19",
       "nameJp": "セキチクシティのテーマ",
       "nameKo": "연분홍시티의 테마",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41044,7 +42142,7 @@
       "id": "entry-3ba38c33af",
       "nameJp": "ポケモンジム",
       "nameKo": "포켓몬체육관",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41054,7 +42152,7 @@
       "id": "entry-a4c962ae32",
       "nameJp": "マサキのもとへ",
       "nameKo": "마사키에게",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41064,7 +42162,7 @@
       "id": "entry-d118c0d7f7",
       "nameJp": "クチバシティのテーマ",
       "nameKo": "갈색시티의 테마",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41074,7 +42172,7 @@
       "id": "entry-9dcf5a4521",
       "nameJp": "サントアンヌ号",
       "nameKo": "산토안느호",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41084,7 +42182,7 @@
       "id": "entry-1f025a7519",
       "nameJp": "ロケット団アジト",
       "nameKo": "로켓단 아지트",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41094,7 +42192,7 @@
       "id": "entry-5ff28200ec",
       "nameJp": "シルフカンパニー",
       "nameKo": "실프주식회사",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41104,7 +42202,7 @@
       "id": "vs",
       "nameJp": "戦い（VSジムリーダー）",
       "nameKo": "전투! 체육관 관장",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41114,7 +42212,7 @@
       "id": "entry-80fa75596f",
       "nameJp": "つながりのどうくつ",
       "nameKo": "이어진 동굴",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41124,7 +42222,7 @@
       "id": "entry-4787a9d9c9",
       "nameJp": "エンジュシティ",
       "nameKo": "인주시티",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41134,7 +42232,7 @@
       "id": "entry-671308c311",
       "nameJp": "スズのとう",
       "nameKo": "방울탑",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41144,7 +42242,7 @@
       "id": "entry-97c61df6a4",
       "nameJp": "ヒマワキシティ",
       "nameKo": "검방울시티",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41154,7 +42252,7 @@
       "id": "entry-64cdc08ce4",
       "nameJp": "ルネシティ",
       "nameKo": "루네시티",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41164,7 +42262,7 @@
       "id": "209",
       "nameJp": "209ばんどうろ（昼）",
       "nameKo": "209번도로(낮)",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41174,7 +42272,7 @@
       "id": "entry-a9d9ef55f1",
       "nameJp": "テンガンざん",
       "nameKo": "천관산",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41184,7 +42282,7 @@
       "id": "entry-ad2d980920",
       "nameJp": "ゲームコーナー",
       "nameKo": "게임코너",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41194,7 +42292,7 @@
       "id": "entry-78f240e760",
       "nameJp": "ホドモエシティ",
       "nameKo": "물풍경시티",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41204,7 +42302,7 @@
       "id": "10",
       "nameJp": "10番道路",
       "nameKo": "10번도로",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41214,7 +42312,7 @@
       "id": "entry-f8b57db461",
       "nameJp": "グッズでドレスアップ！",
       "nameKo": "굿즈로 드레스업!",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41224,7 +42322,7 @@
       "id": "entry-29fa5cf325",
       "nameJp": "エイセツシティ",
       "nameKo": "이설시티",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41234,7 +42332,7 @@
       "id": "entry-c3333995cd",
       "nameJp": "ブティック",
       "nameKo": "부티크",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41244,7 +42342,7 @@
       "id": "entry-3f303192c8",
       "nameJp": "スーパートレーニング！",
       "nameKo": "슈퍼트레이닝!",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41254,7 +42352,7 @@
       "id": "entry-c077f36588",
       "nameJp": "コンテストライブ！",
       "nameKo": "콘테스트 라이브!",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41264,7 +42362,7 @@
       "id": "entry-9bff713e70",
       "nameJp": "ハウオリシティ（昼）",
       "nameKo": "하우올리시티(낮)",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41274,7 +42372,7 @@
       "id": "entry-b28ac6901c",
       "nameJp": "エーテルパラダイス",
       "nameKo": "에테르파라다이스",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41284,7 +42382,7 @@
       "id": "entry-af8943e0d9",
       "nameJp": "ウルトラビルディング",
       "nameKo": "울트라빌딩",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41294,7 +42392,7 @@
       "id": "entry-baaffc6c34",
       "nameJp": "ワイルドエリア・北",
       "nameKo": "와일드 에리어 · 북부",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41304,7 +42402,7 @@
       "id": "entry-d1b362f4d6",
       "nameJp": "シュートシティ",
       "nameKo": "슛시티",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41314,7 +42412,7 @@
       "id": "entry-3932ddfd09",
       "nameJp": "ローズタワー",
       "nameKo": "로즈타워",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41324,7 +42422,7 @@
       "id": "1",
       "nameJp": "戦闘！ジムリーダー・1",
       "nameKo": "전투! 체육관 관장 · 1",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41334,7 +42432,7 @@
       "id": "entry-3eaa5071df",
       "nameJp": "コトブキムラ",
       "nameKo": "축복마을",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41344,7 +42442,7 @@
       "id": "entry-4c36b574e5",
       "nameJp": "南エリア",
       "nameKo": "남부 에리어",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41354,7 +42452,7 @@
       "id": "entry-aad4f70177",
       "nameJp": "アカデミー",
       "nameKo": "아카데미",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41364,7 +42462,7 @@
       "id": "entry-3ec9675a99",
       "nameJp": "エリアゼロ",
       "nameKo": "에리어제로",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41374,7 +42472,7 @@
       "id": "2",
       "nameJp": "戦闘！ジムリーダー・2",
       "nameKo": "전투! 체육관 관장 · 2",
-      "imagePath": "https://img.game8.jp/12367726/379a71eb57ca314804c0acb10391390e.webp/original",
+      "imagePath": null,
       "obtainJp": "光る地面を掘ってランダム入手",
       "obtainKo": "빛나는 땅을 파서 랜덤 획득",
       "useKo": "CD 플레이어에 넣어 마을 BGM으로 재생",
@@ -41601,7 +42699,7 @@
       "number": 1,
       "nameJp": "たき火でポカポカ",
       "nameKo": "모닥불로 따끈따끈",
-      "imagePath": null,
+      "imagePath": "/images/bestshot_bestshot/001_item_001.png",
       "conditionJp": "夜にする",
       "conditionKo": "밤으로 설정하기",
       "requiredPokemonJp": "自由",
@@ -41617,7 +42715,7 @@
       "number": 2,
       "nameJp": "かぜおこしで回せ",
       "nameKo": "회오리바람으로 돌려라",
-      "imagePath": null,
+      "imagePath": "/images/bestshot_bestshot/002_item_002.png",
       "conditionJp": "風を起こせるポケモン（ポッポ）をかざぐるまの近くに配置する",
       "conditionKo": "바람을 일으킬 수 있는 포켓몬(구구)을 바람개비 근처에 배치하기",
       "requiredPokemonJp": "ポッポ",
@@ -41633,7 +42731,7 @@
       "number": 3,
       "nameJp": "うなるマッハのこぶし",
       "nameKo": "으르렁대는 최강의 주먹",
-      "imagePath": null,
+      "imagePath": "/images/bestshot_bestshot/003_item_003.png",
       "conditionJp": "エビワラーをサンドバッグの近くに配置する",
       "conditionKo": "시라소몬을 샌드백 근처에 배치하기",
       "requiredPokemonJp": "エビワラー",
@@ -41649,7 +42747,7 @@
       "number": 4,
       "nameJp": "大きなねどこで仲良くグッスリ",
       "nameKo": "큰 침대에서 사이좋게 꿀잠",
-      "imagePath": null,
+      "imagePath": "/images/bestshot_bestshot/004_item_004.png",
       "conditionJp": "夜にする。ポケモン2匹を木のベッドの近くに配置する",
       "conditionKo": "밤으로 설정하기. 포켓몬 2마리를 나무 침대 근처에 배치하기",
       "requiredPokemonJp": "自由×2",
@@ -41729,7 +42827,7 @@
       "number": 9,
       "nameJp": "ゴミのごちそう見ーつけた？",
       "nameKo": "쓰레기 진수성찬 발견?",
-      "imagePath": null,
+      "imagePath": "https://img.game8.jp/12370512/b27e3c8f160bc6ba30f43c61cfa8b5d0.webp/original",
       "conditionJp": "ヤブクロンをゴミばこの近くに配置する",
       "conditionKo": "깨봉이를 쓰레기통 근처에 배치하기",
       "requiredPokemonJp": "ヤブクロン",
@@ -41745,7 +42843,7 @@
       "number": 10,
       "nameJp": "水浴びサイコー！",
       "nameKo": "물놀이 최고!",
-      "imagePath": null,
+      "imagePath": "/images/bestshot_bestshot/005_item_005.png",
       "conditionJp": "自由なポケモンをシャワーの近くに配置する",
       "conditionKo": "자유로운 포켓몬을 샤워기 근처에 배치하기",
       "requiredPokemonJp": "自由",
@@ -42273,7 +43371,7 @@
       "number": 43,
       "nameJp": "頭のお花が満開",
       "nameKo": "머리 위 꽃이 만발",
-      "imagePath": null,
+      "imagePath": "https://img.game8.jp/12369691/c1236e9c34a1929fe6c728a599fcd287.webp/original",
       "conditionJp": "ドンヨリうみべでカビゴンを起こした後に撮影する",
       "conditionKo": "우울한 해변에서 잠만보를 깨운 후 촬영하기",
       "requiredPokemonJp": "カビゴン（こけむし）",
