@@ -151,6 +151,7 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
         entry.nameJp,
         entry.categoryKo,
         entry.categoryJp,
+        entry.descriptionKo,
         entry.descriptionJp,
         ...entry.craftMaterialsJp.map((m) => m.nameKo),
         ...entry.craftMaterialsJp.map((m) => m.nameJp),
@@ -283,7 +284,7 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                 </div>
                 <h3 className="mt-3 text-base font-bold text-foreground">{displayName(entry.nameKo, entry.nameJp)}</h3>
                 <div className="mt-3 space-y-2 text-sm text-muted-foreground">
-                  {entry.descriptionJp && <p>{entry.descriptionJp}</p>}
+                  {(entry.descriptionKo || entry.descriptionJp) && <p>{entry.descriptionKo || entry.descriptionJp}</p>}
                   {entry.craftMaterialsJp.length > 0 && (
                     <div>
                       <p className="font-semibold text-foreground">제작 재료</p>
@@ -324,7 +325,7 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                       ))}
                     </div>
                   </div>
-                  {entry.descriptionJp && <p className="text-muted-foreground">{entry.descriptionJp}</p>}
+                  {(entry.descriptionKo || entry.descriptionJp) && <p className="text-muted-foreground">{entry.descriptionKo || entry.descriptionJp}</p>}
                 </div>
               </article>
             ))}
