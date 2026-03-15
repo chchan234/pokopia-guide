@@ -42028,8 +42028,8 @@
       "noteKo": "",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_164.png",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547269",
-      "legendaryPokemonJp": "ランダム",
-      "legendaryPokemonKo": "랜덤"
+      "legendaryPokemonJp": null,
+      "legendaryPokemonKo": null
     },
     {
       "id": "entry-11ef43f5a2",
@@ -42043,8 +42043,8 @@
       "noteKo": "",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_163.png",
       "sourceUrl": "https://gamewith.jp/pocoapokemon/547269",
-      "legendaryPokemonJp": "ランダム",
-      "legendaryPokemonKo": "랜덤"
+      "legendaryPokemonJp": null,
+      "legendaryPokemonKo": null
     }
   ],
   "cds": [
