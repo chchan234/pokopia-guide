@@ -1,4 +1,4 @@
-export const MAX_EXACT_ENV_SIZE = 48;
+export const MAX_EXACT_ENV_SIZE = 200;
 export const EXACT_TIMEOUT_MS = 3000;
 
 export interface PlannerPokemon {
@@ -470,7 +470,7 @@ function buildEnvironmentPlan(
   } else {
     const greedy = greedySolve(teams);
     selectedTeams = localSearchOptimize(greedy, teams, workingEntries);
-    note = `이 환경은 보유 포켓몬이 ${maxExactEnvSize}마리를 넘어 근사 계산(그리디 + 로컬 서치)으로 처리했습니다.`;
+    note = `이 환경은 보유 포켓몬 수가 많아 근사 계산(그리디 + 로컬 서치)으로 처리했습니다.`;
   }
 
   let usedMask = BIGINT_ZERO;

@@ -75,8 +75,29 @@ export default function CollectionPageClient({ pokemon, habitats, records, fashi
   const [activeTab, setActiveTab] = useState<CollectionTab>(isCollectionTab(queryTab) ? queryTab : 'pokemon');
   const [ownershipFilter, setOwnershipFilter] = useState<OwnershipFilter>(isOwnershipFilter(queryOwned) ? queryOwned : 'all');
   const [search, setSearch] = useState(querySearch);
-  const { hydrated, pokemonOwnedSet, habitatOwnedSet, recordOwnedSet, fashionOwnedSet, bestshotOwnedSet, togglePokemon, toggleHabitat, toggleRecord, toggleFashion, toggleBestshot } =
-    useCollection();
+  const {
+    hydrated,
+    pokemonOwnedSet,
+    habitatOwnedSet,
+    recordOwnedSet,
+    fashionOwnedSet,
+    bestshotOwnedSet,
+    togglePokemon,
+    toggleHabitat,
+    toggleRecord,
+    toggleFashion,
+    toggleBestshot,
+    setAllPokemon,
+    clearAllPokemon,
+    setAllHabitats,
+    clearAllHabitats,
+    setAllRecords,
+    clearAllRecords,
+    setAllFashion,
+    clearAllFashion,
+    setAllBestshots,
+    clearAllBestshots,
+  } = useCollection();
 
   useEffect(() => {
     setSearch(querySearch);
@@ -248,6 +269,76 @@ export default function CollectionPageClient({ pokemon, habitats, records, fashi
     toggleBestshot(id as string);
   }
 
+  // 현재 탭의 모든 항목이 보유 중인지 확인
+  const isAllOwned = useMemo(() => {
+    if (activeTab === 'pokemon') {
+      return pokemon.length > 0 && pokemon.every((entry) => pokemonOwnedSet.has(entry.id));
+    }
+
+    if (activeTab === 'habitats') {
+      return habitats.length > 0 && habitats.every((entry) => habitatOwnedSet.has(entry.id));
+    }
+
+    if (activeTab === 'records') {
+      return records.length > 0 && records.every((entry) => recordOwnedSet.has(entry.id));
+    }
+
+    if (activeTab === 'fashion') {
+      return fashion.length > 0 && fashion.every((entry) => fashionOwnedSet.has(entry.id));
+    }
+
+    return bestshots.length > 0 && bestshots.every((entry) => bestshotOwnedSet.has(entry.id));
+  }, [activeTab, pokemon, pokemonOwnedSet, habitats, habitatOwnedSet, records, recordOwnedSet, fashion, fashionOwnedSet, bestshots, bestshotOwnedSet]);
+
+  // 현재 탭 전체 보유/해제 토글
+  function handleToggleAll() {
+    if (activeTab === 'pokemon') {
+      if (isAllOwned) {
+        clearAllPokemon();
+      } else {
+        setAllPokemon(pokemon.map((entry) => entry.id));
+      }
+
+      return;
+    }
+
+    if (activeTab === 'habitats') {
+      if (isAllOwned) {
+        clearAllHabitats();
+      } else {
+        setAllHabitats(habitats.map((entry) => entry.id));
+      }
+
+      return;
+    }
+
+    if (activeTab === 'records') {
+      if (isAllOwned) {
+        clearAllRecords();
+      } else {
+        setAllRecords(records.map((entry) => entry.id));
+      }
+
+      return;
+    }
+
+    if (activeTab === 'fashion') {
+      if (isAllOwned) {
+        clearAllFashion();
+      } else {
+        setAllFashion(fashion.map((entry) => entry.id));
+      }
+
+      return;
+    }
+
+    if (isAllOwned) {
+      clearAllBestshots();
+    } else {
+      setAllBestshots(bestshots.map((entry) => entry.id));
+    }
+  }
+
   return (
     <div className="space-y-8">
       <div>
@@ -311,6 +402,17 @@ export default function CollectionPageClient({ pokemon, habitats, records, fashi
                 {filter.label}
               </button>
             ))}
+            <button
+              type="button"
+              onClick={handleToggleAll}
+              className={`rounded-full px-3 py-2 text-xs font-semibold transition-colors ${
+                isAllOwned
+                  ? 'border border-pk-green bg-pk-green-light/40 text-pk-green-dark hover:bg-pk-green-light/60'
+                  : 'border border-pk-green bg-pk-green text-white hover:bg-pk-green-dark'
+              }`}
+            >
+              {isAllOwned ? '전체 해제' : '전체 보유'}
+            </button>
           </div>
         </div>
 

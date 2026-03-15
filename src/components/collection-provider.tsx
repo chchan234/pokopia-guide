@@ -23,6 +23,16 @@ interface CollectionContextValue {
   toggleRecord: (id: number) => void;
   toggleFashion: (id: string) => void;
   toggleBestshot: (id: string) => void;
+  setAllPokemon: (slugs: string[]) => void;
+  clearAllPokemon: () => void;
+  setAllHabitats: (ids: string[]) => void;
+  clearAllHabitats: () => void;
+  setAllRecords: (ids: number[]) => void;
+  clearAllRecords: () => void;
+  setAllFashion: (ids: string[]) => void;
+  clearAllFashion: () => void;
+  setAllBestshots: (ids: string[]) => void;
+  clearAllBestshots: () => void;
 }
 
 const CollectionContext = createContext<CollectionContextValue | null>(null);
@@ -176,6 +186,47 @@ export function CollectionProvider({ children }: { children: ReactNode }) {
     }));
   }, []);
 
+  // 카테고리별 일괄 설정/해제
+  const setAllPokemon = useCallback((slugs: string[]) => {
+    updateStoredState((current) => ({ ...current, pokemon: slugs }));
+  }, []);
+
+  const clearAllPokemon = useCallback(() => {
+    updateStoredState((current) => ({ ...current, pokemon: [] }));
+  }, []);
+
+  const setAllHabitats = useCallback((ids: string[]) => {
+    updateStoredState((current) => ({ ...current, habitats: ids }));
+  }, []);
+
+  const clearAllHabitats = useCallback(() => {
+    updateStoredState((current) => ({ ...current, habitats: [] }));
+  }, []);
+
+  const setAllRecords = useCallback((ids: number[]) => {
+    updateStoredState((current) => ({ ...current, records: ids }));
+  }, []);
+
+  const clearAllRecords = useCallback(() => {
+    updateStoredState((current) => ({ ...current, records: [] }));
+  }, []);
+
+  const setAllFashion = useCallback((ids: string[]) => {
+    updateStoredState((current) => ({ ...current, fashion: ids }));
+  }, []);
+
+  const clearAllFashion = useCallback(() => {
+    updateStoredState((current) => ({ ...current, fashion: [] }));
+  }, []);
+
+  const setAllBestshots = useCallback((ids: string[]) => {
+    updateStoredState((current) => ({ ...current, bestshots: ids }));
+  }, []);
+
+  const clearAllBestshots = useCallback(() => {
+    updateStoredState((current) => ({ ...current, bestshots: [] }));
+  }, []);
+
   const value = useMemo<CollectionContextValue>(
     () => ({
       hydrated,
@@ -190,8 +241,36 @@ export function CollectionProvider({ children }: { children: ReactNode }) {
       toggleRecord,
       toggleFashion,
       toggleBestshot,
+      setAllPokemon,
+      clearAllPokemon,
+      setAllHabitats,
+      clearAllHabitats,
+      setAllRecords,
+      clearAllRecords,
+      setAllFashion,
+      clearAllFashion,
+      setAllBestshots,
+      clearAllBestshots,
     }),
-    [hydrated, state, toggleBestshot, toggleFashion, toggleHabitat, togglePokemon, toggleRecord]
+    [
+      hydrated,
+      state,
+      toggleBestshot,
+      toggleFashion,
+      toggleHabitat,
+      togglePokemon,
+      toggleRecord,
+      setAllPokemon,
+      clearAllPokemon,
+      setAllHabitats,
+      clearAllHabitats,
+      setAllRecords,
+      clearAllRecords,
+      setAllFashion,
+      clearAllFashion,
+      setAllBestshots,
+      clearAllBestshots,
+    ]
   );
 
   return <CollectionContext.Provider value={value}>{children}</CollectionContext.Provider>;
