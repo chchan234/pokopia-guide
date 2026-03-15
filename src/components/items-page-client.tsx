@@ -290,9 +290,7 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                       <p className="font-semibold text-foreground">제작 재료</p>
                       <div className="mt-1 flex flex-wrap gap-1.5">
                         {entry.craftMaterialsJp.map((mat, i) => (
-                          <span key={`${entry.id}-craft-${i}`} className="rounded-full border border-border bg-card px-2.5 py-1 text-xs text-foreground">
-                            {mat.nameKo || mat.nameJp} ×{mat.count}
-                          </span>
+                          <MaterialTag key={`${entry.id}-craft-${i}`} material={`${mat.nameKo || mat.nameJp} ×${mat.count}`} />
                         ))}
                       </div>
                     </div>
@@ -319,9 +317,7 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                     <p className="font-semibold text-foreground">제작 재료</p>
                     <div className="mt-1 flex flex-wrap gap-1.5">
                       {entry.craftMaterialsJp.map((mat, i) => (
-                        <span key={`${entry.id}-craft-${i}`} className="rounded-full border border-border bg-card px-2.5 py-1 text-xs text-foreground">
-                          {mat.nameKo || mat.nameJp} ×{mat.count}
-                        </span>
+                        <MaterialTag key={`${entry.id}-craft-${i}`} material={`${mat.nameKo || mat.nameJp} ×${mat.count}`} />
                       ))}
                     </div>
                   </div>
