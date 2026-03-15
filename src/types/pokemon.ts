@@ -315,7 +315,7 @@ export interface AllItemEntry {
   categoryJp: string;
   categoryKo: string;
   descriptionJp: string | null;
-  craftMaterialsJp: { nameJp: string; count: number }[];
+  craftMaterialsJp: { nameJp: string; nameKo: string; count: number }[];
   habitatsJp: { nameJp: string; count: number }[];
   sourceUrl: string | null;
   gamewithId: string;

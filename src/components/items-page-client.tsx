@@ -152,6 +152,7 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
         entry.categoryKo,
         entry.categoryJp,
         entry.descriptionJp,
+        ...entry.craftMaterialsJp.map((m) => m.nameKo),
         ...entry.craftMaterialsJp.map((m) => m.nameJp),
       ])
     );
@@ -163,7 +164,7 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
     return data.allItems
       .filter((entry: AllItemEntry) => entry.craftMaterialsJp.length > 0)
       .filter((entry: AllItemEntry) =>
-        matchesQuery(query, [entry.nameKo, entry.nameJp, entry.categoryKo, entry.categoryJp, ...entry.craftMaterialsJp.map((m) => m.nameJp)])
+        matchesQuery(query, [entry.nameKo, entry.nameJp, entry.categoryKo, entry.categoryJp, ...entry.craftMaterialsJp.map((m) => m.nameKo)])
       );
   }, [data.allItems, search]);
 
@@ -289,7 +290,7 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                       <div className="mt-1 flex flex-wrap gap-1.5">
                         {entry.craftMaterialsJp.map((mat, i) => (
                           <span key={`${entry.id}-craft-${i}`} className="rounded-full border border-border bg-card px-2.5 py-1 text-xs text-foreground">
-                            {mat.nameJp} ×{mat.count}
+                            {mat.nameKo || mat.nameJp} ×{mat.count}
                           </span>
                         ))}
                       </div>
@@ -318,7 +319,7 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                     <div className="mt-1 flex flex-wrap gap-1.5">
                       {entry.craftMaterialsJp.map((mat, i) => (
                         <span key={`${entry.id}-craft-${i}`} className="rounded-full border border-border bg-card px-2.5 py-1 text-xs text-foreground">
-                          {mat.nameJp} ×{mat.count}
+                          {mat.nameKo || mat.nameJp} ×{mat.count}
                         </span>
                       ))}
                     </div>
