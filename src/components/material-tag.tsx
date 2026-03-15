@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { getMaterialImage } from '@/lib/material-images';
+import { getItemImageFromMap } from '@/lib/item-image-map';
 
 interface MaterialTagProps {
   material: string;
@@ -8,7 +8,7 @@ interface MaterialTagProps {
 }
 
 export default function MaterialTag({ material, imageSrc, className }: MaterialTagProps) {
-  const resolvedImage = imageSrc ?? getMaterialImage(material);
+  const resolvedImage = imageSrc ?? getItemImageFromMap(material);
 
   return (
     <span className={`inline-flex items-center gap-1.5 rounded-full border border-border bg-[#e8eaf0] px-2.5 py-1 text-xs text-foreground ${className ?? ''}`}>

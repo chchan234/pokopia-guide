@@ -1727,7 +1727,7 @@
       "favoriteItemsNote": null,
       "favoriteItemVariants": [],
       "extraMaterials": [
-        "덩굴 끈"
+        "덩굴끈"
       ],
       "slotVariantNames": [],
       "primaryHabitat": "럭키 휴게소",
@@ -2431,7 +2431,7 @@
       "favoriteItemsNote": null,
       "favoriteItemVariants": [],
       "extraMaterials": [
-        "덩굴 끈"
+        "덩굴끈"
       ],
       "slotVariantNames": [],
       "primaryHabitat": "나무그늘 풀숲",
@@ -2534,7 +2534,7 @@
       "favoriteItemsNote": null,
       "favoriteItemVariants": [],
       "extraMaterials": [
-        "덩굴 끈"
+        "덩굴끈"
       ],
       "slotVariantNames": [],
       "primaryHabitat": "불빛과 향기의 유혹",
@@ -5996,7 +5996,7 @@
       "favoriteItemsNote": null,
       "favoriteItemVariants": [],
       "extraMaterials": [
-        "나뭇가지"
+        "튼튼한 나뭇가지"
       ],
       "slotVariantNames": [],
       "primaryHabitat": "쾌청 스팟",
@@ -6190,7 +6190,7 @@
       "favoriteItemsNote": null,
       "favoriteItemVariants": [],
       "extraMaterials": [
-        "달콤한 꿀"
+        "달콤한꿀"
       ],
       "slotVariantNames": [],
       "primaryHabitat": "예쁜 꽃밭",
@@ -7950,7 +7950,7 @@
       "favoriteItemsNote": null,
       "favoriteItemVariants": [],
       "extraMaterials": [
-        "통나무"
+        "작은 통나무"
       ],
       "slotVariantNames": [],
       "primaryHabitat": "나무꾼 작업장",
@@ -13013,7 +13013,7 @@
       "favoriteItemsNote": null,
       "favoriteItemVariants": [],
       "extraMaterials": [
-        "점토"
+        "흐물흐물 점토"
       ],
       "slotVariantNames": [],
       "primaryHabitat": "늪지 풀숲",
@@ -26298,7 +26298,7 @@
       "favoriteItemsNote": null,
       "favoriteItemVariants": [],
       "extraMaterials": [
-        "점토"
+        "흐물흐물 점토"
       ],
       "slotVariantNames": [],
       "primaryHabitat": "분홍 풀숲",
@@ -27462,7 +27462,7 @@
       "favoriteItemsNote": null,
       "favoriteItemVariants": [],
       "extraMaterials": [
-        "덩굴 끈"
+        "덩굴끈"
       ],
       "slotVariantNames": [],
       "primaryHabitat": "나무그늘 폭신폭신 꽃밭",
@@ -27561,7 +27561,7 @@
       "favoriteItemsNote": null,
       "favoriteItemVariants": [],
       "extraMaterials": [
-        "덩굴 끈"
+        "덩굴끈"
       ],
       "slotVariantNames": [],
       "primaryHabitat": "나무그늘 폭신폭신 꽃밭",
@@ -32753,7 +32753,7 @@
       ],
       "requirementsKo": [
         "초록 풀 ×4",
-        "큰돌 ×1"
+        "큰 돌 ×1"
       ],
       "pokemonCount": 3,
       "primaryPokemonCount": 2,
@@ -32977,7 +32977,7 @@
         "はらっぱのはな×4"
       ],
       "requirementsKo": [
-        "들판의 꽃 ×4"
+        "들판 꽃 ×4"
       ],
       "pokemonCount": 6,
       "primaryPokemonCount": 6,
@@ -33037,7 +33037,7 @@
         "きのみの木（なんでも）×1"
       ],
       "requirementsKo": [
-        "들판의 꽃 ×4",
+        "들판 꽃 ×4",
         "나무열매 나무(아무거나) ×1"
       ],
       "pokemonCount": 3,
@@ -33080,7 +33080,7 @@
         "みず×2"
       ],
       "requirementsKo": [
-        "들판의 꽃 ×4",
+        "들판 꽃 ×4",
         "물 ×2"
       ],
       "pokemonCount": 2,
@@ -33116,7 +33116,7 @@
         "はらっぱのはな×8"
       ],
       "requirementsKo": [
-        "들판의 꽃 ×8"
+        "들판 꽃 ×8"
       ],
       "pokemonCount": 3,
       "primaryPokemonCount": 3,
@@ -33157,7 +33157,7 @@
         "高いところ×1"
       ],
       "requirementsKo": [
-        "들판의 꽃 ×4",
+        "들판 꽃 ×4",
         "높은곳 ×1"
       ],
       "pokemonCount": 2,
@@ -33194,7 +33194,7 @@
       ],
       "requirementsKo": [
         "묘비 ×1",
-        "들판의 꽃 ×4"
+        "들판 꽃 ×4"
       ],
       "pokemonCount": 2,
       "primaryPokemonCount": 2,
@@ -33229,7 +33229,7 @@
         "いけがき（なんでも）×4"
       ],
       "requirementsKo": [
-        "들판의 꽃 ×4",
+        "들판 꽃 ×4",
         "수풀(아무거나) ×4"
       ],
       "pokemonCount": 2,
@@ -34366,7 +34366,7 @@
         "ガーデンチェア ×1"
       ],
       "requirementsKo": [
-        "들판의 꽃 ×4",
+        "들판 꽃 ×4",
         "가든 테이블 ×1",
         "가든 라이트 ×1",
         "가든 체어 ×1"
@@ -34746,7 +34746,7 @@
         "うみべのはな×4"
       ],
       "requirementsKo": [
-        "해변의 꽃 ×4"
+        "해변 꽃 ×4"
       ],
       "pokemonCount": 3,
       "primaryPokemonCount": 3,
@@ -34787,7 +34787,7 @@
         "おおきなヤシの木×1"
       ],
       "requirementsKo": [
-        "해변의 꽃 ×4",
+        "해변 꽃 ×4",
         "큰 야자나무 ×1"
       ],
       "pokemonCount": 3,
@@ -34829,7 +34829,7 @@
         "風力はつでんマシン ×1"
       ],
       "requirementsKo": [
-        "해변의 꽃 ×1",
+        "해변 꽃 ×1",
         "풍력발전 머신 ×1"
       ],
       "pokemonCount": 2,
@@ -36387,7 +36387,7 @@
       ],
       "requirementsKo": [
         "빨간 풀 ×4",
-        "큰돌 ×1",
+        "큰 돌 ×1",
         "세모난 나무 ×1"
       ],
       "pokemonCount": 2,
@@ -36536,7 +36536,7 @@
         "いわばのはな×4"
       ],
       "requirementsKo": [
-        "바위 지대의 꽃 ×4"
+        "바위 지대 꽃 ×4"
       ],
       "pokemonCount": 5,
       "primaryPokemonCount": 1,
@@ -36589,7 +36589,7 @@
         "さんかくの木×1"
       ],
       "requirementsKo": [
-        "바위 지대의 꽃 ×4",
+        "바위 지대 꽃 ×4",
         "세모난 나무 ×1"
       ],
       "pokemonCount": 3,
@@ -36631,7 +36631,7 @@
         "みず×2"
       ],
       "requirementsKo": [
-        "바위 지대의 꽃 ×4",
+        "바위 지대 꽃 ×4",
         "물 ×2"
       ],
       "pokemonCount": 3,
@@ -36676,7 +36676,7 @@
       ],
       "requirementsKo": [
         "버섯 램프 ×2",
-        "바위 지대의 꽃 ×4",
+        "바위 지대 꽃 ×4",
         "그루터기(아무거나) ×1"
       ],
       "pokemonCount": 4,
@@ -39203,7 +39203,7 @@
       ],
       "requirementsKo": [
         "테이블 ×2",
-        "큰돌 ×1",
+        "큰 돌 ×1",
         "큰나무(아무거나) ×1",
         "계산대 ×1"
       ],
@@ -40385,8 +40385,8 @@
         "のどかなはな×1"
       ],
       "requirementsKo": [
-        "꽃무늬 쿠션 ×1",
-        "꽃무늬 식기 세트 ×1",
+        "꽃 쿠션 ×1",
+        "꽃 식기 세트 ×1",
         "도시락 ×1",
         "평온한 꽃 ×1"
       ],
@@ -40419,7 +40419,7 @@
       ],
       "requirementsKo": [
         "도시락 ×1",
-        "꽃무늬 배낭 ×1",
+        "꽃 배낭 ×1",
         "통통코 물통 ×1"
       ],
       "pokemonCount": 1,
