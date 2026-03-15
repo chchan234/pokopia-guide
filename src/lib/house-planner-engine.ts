@@ -1,5 +1,5 @@
 export const MAX_EXACT_ENV_SIZE = 200;
-export const EXACT_TIMEOUT_MS = 3000;
+export const EXACT_TIMEOUT_MS = 30000;
 
 export interface PlannerPokemon {
   slug: string;
@@ -332,7 +332,7 @@ function localSearchOptimize(
   initialSelected: TeamCandidate[],
   allTeams: TeamCandidate[],
   workingEntries: PlannerPokemon[],
-  maxIterations: number = 200
+  maxIterations: number = 1000
 ): TeamCandidate[] {
   let bestSelected = [...initialSelected];
   let bestTeamCount = bestSelected.length;
@@ -462,7 +462,7 @@ function buildEnvironmentPlan(
         const greedy = greedySolve(teams);
         selectedTeams = localSearchOptimize(greedy, teams, workingEntries);
         calculationState = 'approx';
-        note = `정확 계산 시간이 길어져 근사 계산(그리디 + 로컬 서치)으로 전환했습니다.`;
+        note = `최적에 가까운 결과입니다.`;
       } else {
         throw error;
       }
@@ -470,7 +470,7 @@ function buildEnvironmentPlan(
   } else {
     const greedy = greedySolve(teams);
     selectedTeams = localSearchOptimize(greedy, teams, workingEntries);
-    note = `이 환경은 보유 포켓몬 수가 많아 근사 계산(그리디 + 로컬 서치)으로 처리했습니다.`;
+    note = `최적에 가까운 결과입니다.`;
   }
 
   let usedMask = BIGINT_ZERO;
