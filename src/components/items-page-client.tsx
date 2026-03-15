@@ -421,7 +421,7 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                       <p className="text-xs font-semibold text-foreground">제작 재료</p>
                       <div className="mt-1 flex flex-wrap gap-1.5">
                         {(entry.materialsKo || entry.materialsJp).map((mat: string, i: number) => (
-                          <span key={`${entry.id}-mat-${i}`} className="rounded-full border border-border bg-card px-2.5 py-1 text-xs text-foreground">{mat}</span>
+                          <MaterialTag key={`${entry.id}-mat-${i}`} material={mat} />
                         ))}
                       </div>
                     </div>
