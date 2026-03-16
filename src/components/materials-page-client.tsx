@@ -158,7 +158,7 @@ export default function MaterialsPageClient({ materials }: MaterialsPageClientPr
 
                     if (usage.href) {
                       return (
-                        <Link key={`${item.material}-${usage.category}-${index}`} href={usage.href}>
+                        <Link prefetch={false} key={`${item.material}-${usage.category}-${index}`} href={usage.href}>
                           {content}
                         </Link>
                       );
