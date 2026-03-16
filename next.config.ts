@@ -7,29 +7,10 @@ const normalizedBasePath =
     : '';
 
 const sharedConfig: NextConfig = {
+  output: 'export',
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'img.gamewith.jp',
-      },
-      {
-        protocol: 'https',
-        hostname: 'img.game8.jp',
-      },
-    ],
+    unoptimized: true,
   },
-  headers: async () => [
-    {
-      source: '/:path*',
-      headers: [
-        {
-          key: 'Cache-Control',
-          value: 'public, s-maxage=3600, stale-while-revalidate=86400',
-        },
-      ],
-    },
-  ],
 };
 
 const nextConfig: NextConfig = normalizedBasePath
