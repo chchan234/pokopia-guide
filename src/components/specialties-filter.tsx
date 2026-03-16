@@ -112,6 +112,7 @@ export default function SpecialtiesFilter({ groups }: { groups: SpecialtyGroupWi
               <div className="flex flex-wrap gap-2">
                 {specialty.visiblePokemon.map((entry) => (
                   <Link
+                    prefetch={false}
                     key={entry.slug}
                     href={`/pokemon/${entry.slug}`}
                     className="rounded-full border border-border px-3 py-1.5 text-sm font-semibold text-foreground hover:border-pk-green hover:text-pk-green-dark sm:text-xs"

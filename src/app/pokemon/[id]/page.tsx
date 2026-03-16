@@ -106,6 +106,7 @@ export default async function PokemonDetailPage({
               <div className="flex flex-wrap gap-2">
                 {entry.specialties.map((specialty) => (
                   <Link
+                    prefetch={false}
                     key={specialty.nameJp}
                     href="/specialties"
                     className="rounded-full bg-pk-green-light px-3 py-1 text-xs font-bold text-pk-green-dark"
