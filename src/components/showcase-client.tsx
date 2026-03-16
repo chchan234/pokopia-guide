@@ -33,24 +33,26 @@ export default function ShowcaseClient({ islands }: ShowcaseClientProps) {
       {islands.length === 0 ? (
         <div className="py-16 text-center text-sm text-muted-foreground">아직 등록된 섬이 없습니다.</div>
       ) : (
-        <div className="columns-2 gap-3 sm:columns-3 xl:columns-4">
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-4">
           {islands.map((island) => (
             <button
               key={island.id}
               type="button"
               onClick={() => setSelected(island)}
-              className="mb-3 block w-full overflow-hidden rounded-2xl border border-border bg-card transition-colors hover:border-pk-green"
+              className="overflow-hidden rounded-2xl border border-border bg-card transition-colors hover:border-pk-green"
             >
-              <Image
-                src={island.imagePath}
-                alt={island.title}
-                width={400}
-                height={300}
-                className="w-full object-cover"
-                unoptimized
-              />
+              <div className="relative aspect-video w-full bg-muted">
+                <Image
+                  src={island.imagePath}
+                  alt={island.title}
+                  fill
+                  sizes="(max-width: 640px) 50vw, (max-width: 1280px) 33vw, 25vw"
+                  className="object-cover"
+                  unoptimized
+                />
+              </div>
               <div className="px-3 py-2 text-left">
-                <p className="text-sm font-semibold text-foreground">{island.title}</p>
+                <p className="text-sm font-semibold text-foreground line-clamp-1">{island.title}</p>
                 <p className="mt-0.5 text-[11px] text-muted-foreground">{island.author}</p>
               </div>
             </button>
