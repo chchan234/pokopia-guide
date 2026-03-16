@@ -40,6 +40,7 @@ interface StoredPlan {
 }
 
 const STORAGE_KEY = 'pokopia-guide:house-planner:v1';
+const PLACED_KEY = 'pokopia-guide:house-planner:placed';
 
 function createPlannerWorker() {
   try {
@@ -83,6 +84,24 @@ function saveStoredPlan(ownedSlugs: string[], snapshot: PlanSnapshot): void {
   }
 }
 
+function loadPlacedKeys(): Set<string> {
+  try {
+    const raw = localStorage.getItem(PLACED_KEY);
+    if (!raw) return new Set();
+    return new Set(JSON.parse(raw) as string[]);
+  } catch {
+    return new Set();
+  }
+}
+
+function savePlacedKeys(keys: Set<string>): void {
+  try {
+    localStorage.setItem(PLACED_KEY, JSON.stringify([...keys]));
+  } catch {
+    // 저장 실패 시 무시
+  }
+}
+
 export default function HousePlannerClient({ pokemon }: HousePlannerClientProps) {
   const searchParams = useSearchParams();
   const querySearch = searchParams.get('q') ?? '';
@@ -92,6 +111,7 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
   // 계산이 한 번이라도 완료된 적 있는지 여부 (빈 상태 vs 계산된 결과 구분)
   const [hasResult, setHasResult] = useState(false);
   const [isCalculating, setIsCalculating] = useState(false);
+  const [placedKeys, setPlacedKeys] = useState<Set<string>>(new Set());
   const workerRef = useRef<Worker | null>(null);
   const latestRequestIdRef = useRef(0);
 
@@ -111,6 +131,8 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
   // 페이지 진입 시 localStorage에서 이전 결과 복원
   useEffect(() => {
     if (!hydrated) return;
+
+    setPlacedKeys(loadPlacedKeys());
 
     const stored = loadStoredPlan();
     if (!stored) return;
@@ -195,6 +217,19 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
       workerRef.current?.terminate();
       workerRef.current = null;
     };
+  }, []);
+
+  const togglePlaced = useCallback((houseKey: string) => {
+    setPlacedKeys((prev) => {
+      const next = new Set(prev);
+      if (next.has(houseKey)) {
+        next.delete(houseKey);
+      } else {
+        next.add(houseKey);
+      }
+      savePlacedKeys(next);
+      return next;
+    });
   }, []);
 
   const { plans, missingDataPokemon, totalHouseCount, totalLeftoverCount, totalEligibleCount } = snapshot;
@@ -329,9 +364,9 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
                     </div>
                   </div>
 
-                  {plan.houses.length > 0 ? (
+                  {plan.houses.filter((h) => !placedKeys.has(h.key)).length > 0 ? (
                     <div className="space-y-4">
-                      {plan.houses.map((house, index) => (
+                      {plan.houses.filter((h) => !placedKeys.has(h.key)).map((house, index) => (
                         <article key={house.key} className="rounded-3xl border border-border bg-card p-5">
                           <div className="flex flex-wrap items-start justify-between gap-4">
                             <div>
@@ -348,11 +383,19 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
                                 4마리 공통 {house.exactFour.length}개 · 3마리 공통 {house.exactThree.length}개 · 2마리 공통 {house.exactTwo.length}개
                               </p>
                             </div>
+                            <button
+                              type="button"
+                              onClick={() => togglePlaced(house.key)}
+                              className="shrink-0 rounded-full bg-pk-green px-4 py-2 text-xs font-bold text-white hover:bg-pk-green-dark transition-colors"
+                            >
+                              배치완료
+                            </button>
                           </div>
 
                           <div className="mt-4 grid gap-3 md:grid-cols-2 xl:grid-cols-4">
                             {house.members.map((member) => (
                               <Link
+                                prefetch={false}
                                 key={member.slug}
                                 href={`/pokemon/${member.slug}`}
                                 className="rounded-2xl border border-border bg-background p-4 hover:border-pk-green"
@@ -447,6 +490,50 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
               <p className="mt-2 text-sm text-muted-foreground">포켓몬 체크 조합이 바뀌었을 때도 버튼을 다시 눌러 재계산할 수 있습니다.</p>
             </section>
           )}
+
+          {/* 배치 완료된 집 섹션 */}
+          {(() => {
+            const allPlacedHouses = filteredPlans.flatMap((plan) =>
+              plan.houses.filter((h) => placedKeys.has(h.key)).map((house) => ({ house, environment: plan.environment }))
+            );
+            if (allPlacedHouses.length === 0) return null;
+            return (
+              <section className="space-y-4">
+                <div className="flex items-center justify-between">
+                  <h2 className="text-lg font-bold text-foreground">배치 완료된 집 ({allPlacedHouses.length})</h2>
+                  <button
+                    type="button"
+                    onClick={() => { setPlacedKeys(new Set()); savePlacedKeys(new Set()); }}
+                    className="rounded-full border border-border px-3 py-1.5 text-xs font-semibold text-muted-foreground hover:border-pk-green hover:text-pk-green-dark transition-colors"
+                  >
+                    전체 초기화
+                  </button>
+                </div>
+                <div className="space-y-3">
+                  {allPlacedHouses.map(({ house, environment }) => (
+                    <article key={house.key} className="rounded-3xl border border-pk-green/30 bg-pk-green-light/30 p-4">
+                      <div className="flex flex-wrap items-center justify-between gap-3">
+                        <div className="min-w-0">
+                          <div className="flex flex-wrap items-center gap-2">
+                            <span className="rounded-full bg-pk-green px-2.5 py-0.5 text-[11px] font-bold text-white">완료</span>
+                            <span className="text-xs font-semibold text-muted-foreground">{environment}</span>
+                          </div>
+                          <p className="mt-1 text-sm font-bold text-foreground">{house.members.map((m) => m.name).join(' · ')}</p>
+                        </div>
+                        <button
+                          type="button"
+                          onClick={() => togglePlaced(house.key)}
+                          className="shrink-0 rounded-full border border-border bg-card px-3 py-1.5 text-xs font-semibold text-muted-foreground hover:border-red-300 hover:text-red-500 transition-colors"
+                        >
+                          취소
+                        </button>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              </section>
+            );
+          })()}
 
           {filteredMissingDataPokemon.length > 0 && (
             <section className="rounded-3xl border border-border bg-card p-5">
