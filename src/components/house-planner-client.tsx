@@ -114,7 +114,6 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
   const [placedKeys, setPlacedKeys] = useState<Set<string>>(new Set());
   const workerRef = useRef<Worker | null>(null);
   const latestRequestIdRef = useRef(0);
-  const nextUnplacedRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     setSearch(querySearch);
@@ -227,10 +226,6 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
         next.delete(houseKey);
       } else {
         next.add(houseKey);
-        // 배치완료 후 다음 미배치 집으로 스크롤
-        requestAnimationFrame(() => {
-          nextUnplacedRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        });
       }
       savePlacedKeys(next);
       return next;
@@ -371,15 +366,8 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
 
                   {plan.houses.filter((h) => !placedKeys.has(h.key)).length > 0 ? (
                     <div className="space-y-4">
-                      {plan.houses.filter((h) => !placedKeys.has(h.key)).map((house, index, arr) => {
-                        // 다음 미배치 집의 ref 설정 (스크롤용)
-                        const isFirstUnplaced = index === 0;
-                        return (
-                        <article
-                          key={house.key}
-                          ref={isFirstUnplaced ? (el) => { nextUnplacedRef.current = el; } : undefined}
-                          className="rounded-3xl border border-border bg-card p-5"
-                        >
+                      {plan.houses.filter((h) => !placedKeys.has(h.key)).map((house, index) => (
+                        <article key={house.key} className="rounded-3xl border border-border bg-card p-5">
                           <div className="flex flex-wrap items-start justify-between gap-4">
                             <div>
                               <div className="flex flex-wrap items-center gap-2">
@@ -451,8 +439,7 @@ export default function HousePlannerClient({ pokemon }: HousePlannerClientProps)
                             </div>
                           </div>
                         </article>
-                        );
-                      })}
+                      ))}
                     </div>
                   ) : (
                     <div className="rounded-3xl border border-border bg-card p-6 text-sm text-muted-foreground">
