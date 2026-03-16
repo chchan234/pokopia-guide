@@ -14,6 +14,19 @@ export const metadata: Metadata = {
   title: 'pokowiki',
   description:
     '포켓몬 포코피아 도감, 서식지, 인간의 기록, 의상·헤어, 꿈섬, 요리, 아이템을 정리한 한국어 위키.',
+  openGraph: {
+    title: 'pokowiki - 포코피아 한국어 위키',
+    description: '포켓몬 포코피아 도감, 서식지, 아이템, 요리, 집 추천을 한눈에.',
+    url: 'https://pokowiki.coldcow.dev',
+    siteName: 'pokowiki',
+    locale: 'ko_KR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'pokowiki - 포코피아 한국어 위키',
+    description: '포켓몬 포코피아 도감, 서식지, 아이템, 요리, 집 추천을 한눈에.',
+  },
 };
 
 export default function RootLayout({
