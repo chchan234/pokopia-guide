@@ -55,7 +55,7 @@ export const navigationGroups: NavigationGroup[] = [
     children: [
       { href: '/collection', label: '내 수집', description: '보유 체크와 진행률' },
       { href: '/house-planner', label: '집 추천', description: '환경별 4마리 배치' },
-      { href: '/showcase', label: '섬 갤러리', description: '유저들의 멋진 섬 꾸미기' },
+      { href: '/showcase', label: '섬꾸', description: '유저들의 멋진 섬 꾸미기' },
     ],
   },
 ];

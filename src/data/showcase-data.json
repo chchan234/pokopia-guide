@@ -322,26 +322,6 @@
     },
     {
       "id": "33",
-      "title": "클라우드 섬 배포",
-      "description": "클라우드 섬 공개! 레시피 가져가기 가능.",
-      "author": "@sakicoc",
-      "authorName": "沙貴@TNサキ",
-      "tweetText": "クラウド島　クラウドじま\n\nレシピは持ち帰り可能です。\nイワイノヨロイ、ノロイノヨロイ展示中です！\n写真撮れば3Dプリンターで複製可能です！\n欲しい方どうぞ！",
-      "sourceUrl": "https://x.com/sakicoc/status/2031568351789723983",
-      "imagePath": "https://pbs.twimg.com/media/HDGUpYTawAAwJ3U.jpg:large"
-    },
-    {
-      "id": "34",
-      "title": "클라우드 섬 내부",
-      "description": "클라우드 섬 내부 건축과 인테리어.",
-      "author": "@sakicoc",
-      "authorName": "沙貴@TNサキ",
-      "tweetText": "クラウド島　クラウドじま\n\nレシピは持ち帰り可能です。\nイワイノヨロイ、ノロイノヨロイ展示中です！",
-      "sourceUrl": "https://x.com/sakicoc/status/2031568351789723983",
-      "imagePath": "https://pbs.twimg.com/media/HDGUpYaaMAE3wI8.jpg:large"
-    },
-    {
-      "id": "35",
       "title": "파사파사 마을 ①",
       "description": "일주일간 개척한 파사파사 마을의 모습.",
       "author": "@ALTYE3",
@@ -351,7 +331,7 @@
       "imagePath": "https://pbs.twimg.com/media/HDSz-z6bUAA-03l.jpg:large"
     },
     {
-      "id": "36",
+      "id": "34",
       "title": "파사파사 마을 ②",
       "description": "다른 각도에서 본 마을 전경.",
       "author": "@ALTYE3",
@@ -361,7 +341,7 @@
       "imagePath": "https://pbs.twimg.com/media/HDS0AhqaEAA3n-Y.jpg:large"
     },
     {
-      "id": "37",
+      "id": "35",
       "title": "식물 동아리 하우스 ①",
       "description": "식물을 좋아하는 동아리의 집! 메타몽이 집주인.",
       "author": "@auauau_game",
@@ -371,7 +351,7 @@
       "imagePath": "https://pbs.twimg.com/media/HDYNo1HaMAQ_4AW.jpg:large"
     },
     {
-      "id": "38",
+      "id": "36",
       "title": "식물 동아리 하우스 ②",
       "description": "포케센 뒤쪽도 정리하고 싶은 마음.",
       "author": "@auauau_game",
@@ -381,7 +361,7 @@
       "imagePath": "https://pbs.twimg.com/media/HDYNoz9aMAIxPhG.jpg:large"
     },
     {
-      "id": "39",
+      "id": "37",
       "title": "덩쿨몬의 집 ①",
       "description": "파사파사 마을 포케센 옆에 만든 덩쿨몬의 집.",
       "author": "@hanare_game",
@@ -391,7 +371,7 @@
       "imagePath": "https://pbs.twimg.com/media/HDTDmcKbwAEYK2D.jpg:large"
     },
     {
-      "id": "40",
+      "id": "38",
       "title": "덩쿨몬의 집 ②",
       "description": "내부에서 바라본 덩쿨몬의 아늑한 공간.",
       "author": "@hanare_game",
@@ -401,17 +381,7 @@
       "imagePath": "https://pbs.twimg.com/media/HDTDmWkaQAEIpPW.jpg:large"
     },
     {
-      "id": "41",
-      "title": "포케센 중앙 배치",
-      "description": "클라우드 섬에 중앙 북향 포케센을 설치 완료!",
-      "author": "@csodafactory",
-      "authorName": "くりぃむそぉだ",
-      "tweetText": "ぽこポケ　クラウド島、ようやく中央北向きポケセンひけたぁ",
-      "sourceUrl": "https://x.com/csodafactory/status/2031471035825181152",
-      "imagePath": "https://pbs.twimg.com/media/HDE8JAQaMAAE1-N.jpg:large"
-    },
-    {
-      "id": "42",
+      "id": "39",
       "title": "짐 필드 만들기",
       "description": "공식 EIKO시티의 짐 필드를 참고해서 만든 배틀 필드.",
       "author": "@game_ERUDA",
@@ -421,7 +391,7 @@
       "imagePath": "https://pbs.twimg.com/media/HDOUKyQbQAUIPrg.jpg:large"
     },
     {
-      "id": "43",
+      "id": "40",
       "title": "파사파사 비포&애프터",
       "description": "지형을 최대한 살려서 건축!",
       "author": "@kirinTO44da",
@@ -431,7 +401,7 @@
       "imagePath": "https://pbs.twimg.com/media/HDMs3mNbAAALYVQ.jpg:large"
     },
     {
-      "id": "44",
+      "id": "41",
       "title": "우미베 마을 재건 ①",
       "description": "화력 발전소 앞 수몰 지역이 좋아지고 있어요.",
       "author": "@Yuminim_VTuber",
@@ -441,7 +411,7 @@
       "imagePath": "https://pbs.twimg.com/media/HDcSsLJasAAp0pO.jpg:large"
     },
     {
-      "id": "45",
+      "id": "42",
       "title": "우미베 마을 재건 ②",
       "description": "수몰 지역 주변의 복구된 풍경.",
       "author": "@Yuminim_VTuber",
@@ -451,7 +421,7 @@
       "imagePath": "https://pbs.twimg.com/media/HDcSsLJbQAAmkYa.jpg:large"
     },
     {
-      "id": "46",
+      "id": "43",
       "title": "코르크보드 인테리어",
       "description": "코르크보드를 활용한 따뜻한 인테리어 공간.",
       "author": "@kazane_cocoa",
@@ -461,7 +431,7 @@
       "imagePath": "https://pbs.twimg.com/media/HDcSaDabEAAORwd.jpg:large"
     },
     {
-      "id": "47",
+      "id": "44",
       "title": "초보자의 첫 마을 ①",
       "description": "아직 초보지만 키트로 귀엽게 꾸미는 중!",
       "author": "@ama_i24",
@@ -471,7 +441,7 @@
       "imagePath": "https://pbs.twimg.com/media/HDaQU3eaMAElBfw.jpg:large"
     },
     {
-      "id": "48",
+      "id": "45",
       "title": "초보자의 첫 마을 ②",
       "description": "환경 레벨을 올리기 위한 포켓몬 서식지 조성.",
       "author": "@ama_i24",
@@ -481,7 +451,7 @@
       "imagePath": "https://pbs.twimg.com/media/HDaQU3dbMAAhd_j.jpg:large"
     },
     {
-      "id": "49",
+      "id": "46",
       "title": "시티 개발 계획",
       "description": "체계적인 도로와 구역 배치의 도시 개발 계획.",
       "author": "@spare_lenn",
@@ -491,7 +461,7 @@
       "imagePath": "https://pbs.twimg.com/media/HDcTc1sagAAqBuO.jpg:large"
     },
     {
-      "id": "50",
+      "id": "47",
       "title": "소상가리 화실 리빙",
       "description": "소상가리(작은 다다미방)가 있는 일본식 리빙룸.",
       "author": "@mori_kiki_selva",
@@ -501,7 +471,7 @@
       "imagePath": "https://pbs.twimg.com/media/HDcSJnqawAAvai0.jpg:large"
     },
     {
-      "id": "51",
+      "id": "48",
       "title": "특수 유리 전시 공간",
       "description": "자신의 마을에 특수 유리 스페이스를 만들어 전시!",
       "author": "@Mel_shota",
@@ -511,17 +481,7 @@
       "imagePath": "https://pbs.twimg.com/media/HDaBg6ZbQAAyt65.jpg:large"
     },
     {
-      "id": "52",
-      "title": "EIKO시티 공식 섬",
-      "description": "카노 에이코 씨의 공식 마을 'EIKO시티'가 공개!",
-      "author": "@Pokemon_cojp",
-      "authorName": "ポケモン公式",
-      "tweetText": "『ぽこ あ ポケモン』CMに登場中の、狩野英孝さんの街「EIKOシティ」に行けるようになったよ。\n狩野さんのゲーム部屋もあるみたい……!?\n「バーチャルモード」で、8月12日（水）まで見学できるよ！",
-      "sourceUrl": "https://x.com/Pokemon_cojp/status/2032018765139873913",
-      "imagePath": "https://pbs.twimg.com/media/HDJru6MXYAAR5oX.jpg:large"
-    },
-    {
-      "id": "53",
+      "id": "49",
       "title": "도블 선생님과 카누찬",
       "description": "도블 선생님과 카누찬이 함께 사는 가까운 집.",
       "author": "@rnrn_xxX",
@@ -531,14 +491,144 @@
       "imagePath": "https://pbs.twimg.com/media/HDcTiYkaMAATF2f.jpg:large"
     },
     {
+      "id": "50",
+      "title": "창고 정리의 시작",
+      "description": "최초의 섬에서 창고 정리하고 싶었을 뿐인데... 어느새 이렇게!",
+      "author": "@__ririmero",
+      "authorName": "リリィ 🦀🐇",
+      "tweetText": "最初の島で倉庫整理したかっただけなのに…💭💭",
+      "sourceUrl": "https://x.com/__ririmero/status/2030135471100284939",
+      "imagePath": "https://pbs.twimg.com/media/HCx9cuzbQAA9tTi.jpg:large"
+    },
+    {
+      "id": "51",
+      "title": "창고 정리의 시작 ②",
+      "description": "구름 사이로 보이는 아름다운 섬 전경.",
+      "author": "@__ririmero",
+      "authorName": "リリィ 🦀🐇",
+      "tweetText": "最初の島で倉庫整理したかっただけなのに…💭💭",
+      "sourceUrl": "https://x.com/__ririmero/status/2030135471100284939",
+      "imagePath": "https://pbs.twimg.com/media/HCx9cu0aUAAND_V.jpg:large"
+    },
+    {
+      "id": "52",
+      "title": "나의 밭과 과수원",
+      "description": "나의 마을 밭과 과수원. 정성스럽게 가꾼 농장 풍경.",
+      "author": "@327_haru",
+      "authorName": "はる🍀",
+      "tweetText": "私の街の畑と果樹園🍎",
+      "sourceUrl": "https://x.com/327_haru/status/2032698312466510195",
+      "imagePath": "https://pbs.twimg.com/media/HDWYVo8aMAMKim1.jpg:large"
+    },
+    {
+      "id": "53",
+      "title": "나의 밭과 과수원 ②",
+      "description": "과수원 내부에서 본 풍경.",
+      "author": "@327_haru",
+      "authorName": "はる🍀",
+      "tweetText": "私の街の畑と果樹園🍎",
+      "sourceUrl": "https://x.com/327_haru/status/2032698312466510195",
+      "imagePath": "https://pbs.twimg.com/media/HDWYVo-bMAAbTUw.jpg:large"
+    },
+    {
       "id": "54",
-      "title": "파사파사 황야 환경 Max",
-      "description": "파사파사 황야의 환경 레벨을 Max까지 올린 모습!",
-      "author": "@___hijiririri",
-      "authorName": "聖（ひじり）",
-      "tweetText": "視聴者さんにアドバイスもらうまで、ゲートを通れることも、別の街があることも知らず、パサパサ荒野の環境レベルMaxまで上げていたメタモンはこちらです",
-      "sourceUrl": "https://x.com/___hijiririri/status/2033114810267975853",
-      "imagePath": "https://pbs.twimg.com/media/HDcTJM9boAAQlW_.jpg:large"
+      "title": "정리된 지하 창고",
+      "description": "수납BOX를 전부 꺼내고 만든 정리된 창고. 분류 방법이 궁금하시면 트리를!",
+      "author": "@toiro833",
+      "authorName": "といろ",
+      "tweetText": "この手のゲームで誰もが通る、地獄の荷物整理タイム。\n一旦収納BOXの中身を全てぶちまけ、倉庫を作りました。\n仕分け内容気になる方がいれば、ツリーをどうぞ！",
+      "sourceUrl": "https://x.com/toiro833/status/2030512679799144917",
+      "imagePath": "https://pbs.twimg.com/media/HC3Udr0agAAtv-R.jpg:large"
+    },
+    {
+      "id": "55",
+      "title": "마켓 거리 건축 중",
+      "description": "키트로 만든 프렌들리숍과 수제 가게로 마켓 거리 건축 중! 즐겁다!",
+      "author": "@PanseRose",
+      "authorName": "Panse",
+      "tweetText": "ぽこあポケモン、キットで作れるフレンドリーショップと手作りのお店でマーケット街建築中✨\n楽しすぎます(´ω`)🎶",
+      "sourceUrl": "https://x.com/PanseRose/status/2032011099932147993",
+      "imagePath": "https://pbs.twimg.com/media/HDMnUwFbAAAaw_m.jpg:large"
+    },
+    {
+      "id": "56",
+      "title": "마켓 거리 건축 중 ②",
+      "description": "마켓 거리 내부 모습.",
+      "author": "@PanseRose",
+      "authorName": "Panse",
+      "tweetText": "ぽこあポケモン、キットで作れるフレンドリーショップと手作りのお店でマーケット街建築中✨",
+      "sourceUrl": "https://x.com/PanseRose/status/2032011099932147993",
+      "imagePath": "https://pbs.twimg.com/media/HDMnUvSbQAQkYWM.jpg:large"
+    },
+    {
+      "id": "57",
+      "title": "풀타입 컨셉 카페",
+      "description": "풀타입 컨셉 카페를 만들었습니다! 엄청 오샤레하게 완성.",
+      "author": "@Vtu_fab",
+      "authorName": "ファブ",
+      "tweetText": "草タイプのコンセプトカフェ作りました！\nめちゃくちゃオシャレにできた",
+      "sourceUrl": "https://x.com/Vtu_fab/status/2031738884670022119",
+      "imagePath": "https://pbs.twimg.com/media/HDIvvuYasAAetQl.jpg:large"
+    },
+    {
+      "id": "58",
+      "title": "풀타입 컨셉 카페 ②",
+      "description": "카페 내부 인테리어.",
+      "author": "@Vtu_fab",
+      "authorName": "ファブ",
+      "tweetText": "草タイプのコンセプトカフェ作りました！\nめちゃくちゃオシャレにできた",
+      "sourceUrl": "https://x.com/Vtu_fab/status/2031738884670022119",
+      "imagePath": "https://pbs.twimg.com/media/HDIvvuNakAANdDB.jpg:large"
+    },
+    {
+      "id": "59",
+      "title": "버섯 가게 건축",
+      "description": "자택 뒤에 키트 없이 버섯 가게를 만들었어요! 옆에서는 버섯 주스도 판매 중.",
+      "author": "@Ria_Poke_ev",
+      "authorName": "リア",
+      "tweetText": "自宅裏に、今度こそキット不使用できのみ屋さん作ったよ！\n隣ではきのみジュースを販売\nえのぐの使用量半端なかった😂",
+      "sourceUrl": "https://x.com/Ria_Poke_ev/status/2033224266888741047",
+      "imagePath": "https://pbs.twimg.com/media/HDd2sWaa0AAoeoe.jpg:large"
+    },
+    {
+      "id": "60",
+      "title": "건축 스킬 하우스",
+      "description": "건축 스킬이 뛰어난 아이들의 집! 밤이지만 밝아지면 어떤 느낌일지 기대됩니다.",
+      "author": "@noko1111game",
+      "authorName": "ノコ@ポケモン写真勢",
+      "tweetText": "完成したものがこちらになります🌱\nこれは建築スキルの子達のおうち🫶\n今夜だけど、明るくなった時にどんな感じになるのか楽しみでもありますね✨",
+      "sourceUrl": "https://x.com/noko1111game/status/2033174116669562922",
+      "imagePath": "https://pbs.twimg.com/media/HDdJFLaa0AAa-kA.jpg:large"
+    },
+    {
+      "id": "61",
+      "title": "넓은 집 건축",
+      "description": "마이크라에서 건축 경험이 있지만 포코포케 건축도 새로운 매력이 있네!",
+      "author": "@DBDPS418",
+      "authorName": "🐱 Yuuki 🐱",
+      "tweetText": "広めの家を建てたよ\nマイクラで結構建設やったけど\nぽこポケの建築も新鮮味があっていいね",
+      "sourceUrl": "https://x.com/DBDPS418/status/2032523921522819372",
+      "imagePath": "https://pbs.twimg.com/media/HDT5u8YaMAE8mJS.jpg:large"
+    },
+    {
+      "id": "62",
+      "title": "넓은 집 건축 ②",
+      "description": "내부 인테리어. 넓은 공간 활용.",
+      "author": "@DBDPS418",
+      "authorName": "🐱 Yuuki 🐱",
+      "tweetText": "広めの家を建てたよ\nマイクラで結構建設やったけど\nぽこポケの建築も新鮮味があっていいね",
+      "sourceUrl": "https://x.com/DBDPS418/status/2032523921522819372",
+      "imagePath": "https://pbs.twimg.com/media/HDT5u8YaMAAt32s.jpg:large"
+    },
+    {
+      "id": "63",
+      "title": "첫 키트 없이 집 짓기",
+      "description": "처음으로 건축 키트 없이 집을 만들어봤다! 블록 쌓아서 만드는 게 조금 고생했지만 재밌어!",
+      "author": "@Re_connect_k_",
+      "authorName": "ヒロ",
+      "tweetText": "初めて建築キット無いしで家作ってみた！\n中はとりあえず簡易的な感じやけど､少し生活感出てきた😊\nブロック積み上げて家作るのちょっと苦労した🤣",
+      "sourceUrl": "https://x.com/Re_connect_k_/status/2032435953508503764",
+      "imagePath": "https://pbs.twimg.com/media/HDSprVaaYAAcnLa.jpg:large"
     }
   ]
 }
