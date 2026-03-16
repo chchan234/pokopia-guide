@@ -24,9 +24,9 @@ export default function ShowcaseClient({ islands }: ShowcaseClientProps) {
   return (
     <div className="space-y-8">
       <div>
-        <h1 className="text-2xl font-extrabold text-foreground">섬 꾸미기 갤러리</h1>
+        <h1 className="text-2xl font-extrabold text-foreground">섬꾸</h1>
         <p className="mt-2 text-sm text-muted-foreground">
-          유저들의 멋진 섬 꾸미기 모음입니다. 이미지를 클릭하면 크게 볼 수 있습니다.
+          이미지를 클릭하면 크게 볼 수 있습니다.
         </p>
       </div>
 
