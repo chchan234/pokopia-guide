@@ -22944,7 +22944,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "開け閉めできるフタがついている。家のマドにピッタリ。",
-      "descriptionKo": "",
+      "descriptionKo": "여닫을 수 있는 뚜껑이 달린 창문. 집 창문에 딱이다.",
       "obtainMethodJp": "パサパサこうやの街環境レベル5でショップ解放",
       "craftMaterialsJp": [
         {
@@ -23126,7 +23126,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとうみべのはなが咲くタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 해변 꽃이 피는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "ショップで購入(ドンヨリうみべの街Lv2)",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -23143,7 +23143,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するといわばのはなが咲くタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 바위 지대 꽃이 피는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "ショップで購入(ゴツゴツやまの街Lv2)",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -26967,7 +26967,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "生息地\n台の上に食べものを置いてこけカビゴンへのお供えものにしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "서식지. 대 위에 음식을 놓아 이끼 잠만보에게 공물을 바치자.",
       "obtainMethodJp": "クラウド島のPCの「ショップ」から購入こけカビゴンのお願い事クリア後に入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -27605,7 +27605,7 @@
       "categoryJp": "キット：オブジェ",
       "categoryKo": "키트:오브제",
       "descriptionJp": "ピッピやピクシーの生息地になる",
-      "descriptionKo": "",
+      "descriptionKo": "삐삐나 픽시의 서식지가 된다.",
       "obtainMethodJp": "ショップで購入(ゴツゴツやまの街Lv3)",
       "craftMaterialsJp": [
         {
@@ -28366,7 +28366,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "生息地\nこまかな文字がびっしり。何が書いてあるんだろう。",
-      "descriptionKo": "",
+      "descriptionKo": "서식지. 빼곡하게 적힌 글자들. 무슨 내용일까.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -30534,7 +30534,7 @@
       "categoryJp": "おくがい",
       "categoryKo": "야외",
       "descriptionJp": "街の情報が書かれたけいじばん。どこの街の情報かはわからない。",
-      "descriptionKo": "",
+      "descriptionKo": "마을 정보가 적힌 게시판. 어느 마을 정보인지는 모른다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -34767,7 +34767,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "ショップで購入(ゴツゴツやまの街Lv3)",
       "craftMaterialsJp": [
         {
@@ -34800,7 +34800,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "ショップで購入(ゴツゴツやまの街Lv4)",
       "craftMaterialsJp": [
         {
@@ -34833,7 +34833,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "ショップで購入(ゴツゴツやまの街Lv5)",
       "craftMaterialsJp": [
         {
@@ -34871,7 +34871,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "ショップで購入(キラキラうきしまの街Lv2)",
       "craftMaterialsJp": [
         {
@@ -34904,7 +34904,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "ショップで購入(キラキラうきしまの街Lv3)",
       "craftMaterialsJp": [
         {
@@ -34942,7 +34942,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "ショップで購入(キラキラうきしまの街Lv4)",
       "craftMaterialsJp": [
         {
@@ -34980,7 +34980,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "ショップで購入(キラキラうきしまの街Lv5)",
       "craftMaterialsJp": [
         {
@@ -35080,7 +35080,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "ショップで購入(ドンヨリうみべの街Lv3)",
       "craftMaterialsJp": [
         {
@@ -35113,7 +35113,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "ショップで購入(ドンヨリうみべの街Lv4)",
       "craftMaterialsJp": [
         {
@@ -35151,7 +35151,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "ショップで購入(ドンヨリうみべの街Lv5)",
       "craftMaterialsJp": [
         {
@@ -35800,7 +35800,7 @@
       "categoryJp": "食べもの",
       "categoryKo": "음식",
       "descriptionJp": "シェフバリスからもらったふしぎなアメ。食べるととてもたくさんPPを回復する。",
-      "descriptionKo": "",
+      "descriptionKo": "셰프 바리스에게 받은 이상한 사탕. 먹으면 PP를 아주 많이 회복한다.",
       "obtainMethodJp": "シェフバリスから話しかけれた際にもらう",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -35913,7 +35913,7 @@
       "categoryJp": "おくがい",
       "categoryKo": "야외",
       "descriptionJp": "しめった手ざわりのふしぎな岩。置くと広い範囲がうるおう。",
-      "descriptionKo": "",
+      "descriptionKo": "축축한 촉감의 신비한 바위. 놓으면 넓은 범위가 촉촉해진다.",
       "obtainMethodJp": "コレクレーとの交換でランダム入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -36032,7 +36032,7 @@
       "categoryJp": "キット：建物",
       "categoryKo": "키트:건물",
       "descriptionJp": "生息地「ラッキー休けい所」に必要なアイテムが出現する",
-      "descriptionKo": "",
+      "descriptionKo": "서식지 \"럭키 휴게소\"에 필요한 아이템이 출현한다.",
       "obtainMethodJp": "ショップで購入(パサパサこうやの街Lv8)",
       "craftMaterialsJp": [
         {
@@ -36501,7 +36501,7 @@
       "categoryJp": "食べもの",
       "categoryKo": "음식",
       "descriptionJp": "シェフバリスからもらった傷んだきのみ。食べると少しPPを回復する。",
-      "descriptionKo": "",
+      "descriptionKo": "셰프 바리스에게 받은 상한 열매. 먹으면 PP를 조금 회복한다.",
       "obtainMethodJp": "シェフバリスから話しかけれた際にもらう",
       "craftMaterialsJp": [],
       "habitatsJp": [
@@ -36520,7 +36520,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "ダウジングマシンがパワーアップ。特別な場所を探知できる。",
-      "descriptionKo": "",
+      "descriptionKo": "다우징 머신이 파워업. 특별한 장소를 탐지할 수 있다.",
       "obtainMethodJp": "ポケモン図鑑完成の報酬",
       "craftMaterialsJp": [
         {
@@ -36550,7 +36550,7 @@
       "categoryJp": "べんり",
       "categoryKo": "편의",
       "descriptionJp": "カードや図鑑を認証するためのキカイ。カベにとりつけよう。",
-      "descriptionKo": "",
+      "descriptionKo": "카드나 도감을 인증하는 기계. 벽에 달자.",
       "obtainMethodJp": "ポケモン図鑑完成後にキラキラうきしまの街北西の隠し部屋で入手",
       "craftMaterialsJp": [
         {
@@ -36575,7 +36575,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "真ん中にはドーンとモンスターボール。秘密基地の入り口みたいな雰囲気。",
-      "descriptionKo": "",
+      "descriptionKo": "한가운데 몬스터볼이 쾅. 비밀기지 입구 같은 분위기.",
       "obtainMethodJp": "ポケモン図鑑完成後にキラキラうきしまの街北西の隠し部屋で入手",
       "craftMaterialsJp": [
         {
@@ -36600,7 +36600,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "業務用の大きなプリンター。オフィスなどに置くのにぴったり。",
-      "descriptionKo": "",
+      "descriptionKo": "업무용 큰 프린터. 오피스 등에 놓기 딱이다.",
       "obtainMethodJp": "ポケモン図鑑完成後にキラキラうきしまの街北西の隠し部屋で入手",
       "craftMaterialsJp": [
         {
@@ -36625,7 +36625,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "ポケモン図鑑を完成させた者に贈られる賞状。みんなにジマンしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "포켓몬 도감을 완성한 자에게 주는 표창장. 모두에게 자랑하자.",
       "obtainMethodJp": "ポケモン図鑑完成後にキラキラうきしまの街北西の特別な場所でプリンターを調べると入手",
       "craftMaterialsJp": [],
       "habitatsJp": [
@@ -36644,7 +36644,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "自由自在にアレンジできそうな柱。四つ組み合わせると大きな柱になる。",
-      "descriptionKo": "",
+      "descriptionKo": "자유자재로 배치할 수 있는 기둥. 네 개를 합치면 큰 기둥이 된다.",
       "obtainMethodJp": "ポケモン図鑑290匹登録時の報酬",
       "craftMaterialsJp": [
         {
@@ -36669,7 +36669,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "水でたっぷり入ったおしゃれな柱。ぼんやり光っていて暗やみでもキレイ。",
-      "descriptionKo": "",
+      "descriptionKo": "물이 가득 찬 세련된 기둥. 은은하게 빛나 어둠 속에서도 예쁘다.",
       "obtainMethodJp": "ポケモン図鑑280匹登録時の報酬",
       "craftMaterialsJp": [
         {
@@ -36721,7 +36721,7 @@
       "categoryJp": "おくがい",
       "categoryKo": "야외",
       "descriptionJp": "どうくつなどのゴツゴツした岩にもピッタリ合うそぼくな明かり。",
-      "descriptionKo": "",
+      "descriptionKo": "동굴 등 울퉁불퉁한 바위에도 딱 맞는 소박한 조명.",
       "obtainMethodJp": "ポケモン図鑑160匹登録時の報酬",
       "craftMaterialsJp": [
         {
@@ -36757,7 +36757,7 @@
       "categoryJp": "おくがい",
       "categoryKo": "야외",
       "descriptionJp": "風を受けてクルクル回るかざり。とりポケモンが柱に止まっているみたい。",
-      "descriptionKo": "",
+      "descriptionKo": "바람을 받아 빙글빙글 도는 장식. 새 포켓몬이 기둥에 앉아있는 것 같다.",
       "obtainMethodJp": "ポケモン図鑑180匹登録時の報酬",
       "craftMaterialsJp": [
         {
@@ -36783,7 +36783,7 @@
       "categoryJp": "おくがい",
       "categoryKo": "야외",
       "descriptionJp": "工事道具をドラム缶の中に保管。倉庫や工事現場にぴったり。",
-      "descriptionKo": "",
+      "descriptionKo": "공사 도구를 드럼통에 보관. 창고나 공사 현장에 딱이다.",
       "obtainMethodJp": "ポケモン図鑑210匹登録時の報酬",
       "craftMaterialsJp": [
         {
@@ -36809,7 +36809,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "お皿にコップ、ティーセットまでたくさん入った食器棚。",
-      "descriptionKo": "",
+      "descriptionKo": "접시, 컵, 티세트까지 잔뜩 들어간 식기 선반.",
       "obtainMethodJp": "ポケモン図鑑250匹登録時の報酬",
       "craftMaterialsJp": [
         {
@@ -36845,7 +36845,7 @@
       "categoryJp": "べんり",
       "categoryKo": "편의",
       "descriptionJp": "はつでんマシンにつないで使おう。電柱と同じように遠くまで電気を送れる。",
-      "descriptionKo": "",
+      "descriptionKo": "발전 머신에 연결해 사용하자. 전봇대처럼 멀리까지 전기를 보낼 수 있다.",
       "obtainMethodJp": "ポリゴンのおねがいごとをかなえて入手",
       "craftMaterialsJp": [
         {
@@ -36870,7 +36870,7 @@
       "categoryJp": "べんり",
       "categoryKo": "편의",
       "descriptionJp": "はつでんマシンにつないで使おう。近くにスイッチを置けばオンオフ切り替えられる。",
-      "descriptionKo": "",
+      "descriptionKo": "발전 머신에 연결해 사용하자. 근처에 스위치를 놓으면 온오프를 전환할 수 있다.",
       "obtainMethodJp": "ポリゴンのおねがいごとをかなえて入手",
       "craftMaterialsJp": [
         {
@@ -36915,7 +36915,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "個性あふれる絵柄のポスター。カベに飾ってセンスをアピールしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "개성 넘치는 그림의 포스터. 벽에 장식해서 센스를 뽐내보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -36942,7 +36942,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "個性あふれる絵柄のポスター。カベに飾ってセンスをアピールしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "개성 넘치는 그림의 포스터. 벽에 장식해서 센스를 뽐내보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -36968,7 +36968,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "個性あふれる絵柄のポスター。カベに飾ってセンスをアピールしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "개성 넘치는 그림의 포스터. 벽에 장식해서 센스를 뽐내보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -36994,7 +36994,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "個性あふれる絵柄のポスター。カベに飾ってセンスをアピールしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "개성 넘치는 그림의 포스터. 벽에 장식해서 센스를 뽐내보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37020,7 +37020,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "個性あふれる絵柄のポスター。カベに飾ってセンスをアピールしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "개성 넘치는 그림의 포스터. 벽에 장식해서 센스를 뽐내보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37046,7 +37046,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "個性あふれる絵柄のポスター。カベに飾ってセンスをアピールしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "개성 넘치는 그림의 포스터. 벽에 장식해서 센스를 뽐내보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37073,7 +37073,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "個性あふれる絵柄のポスター。カベに飾ってセンスをアピールしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "개성 넘치는 그림의 포스터. 벽에 장식해서 센스를 뽐내보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37100,7 +37100,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "個性あふれる絵柄のポスター。カベに飾ってセンスをアピールしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "개성 넘치는 그림의 포스터. 벽에 장식해서 센스를 뽐내보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37126,7 +37126,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "個性あふれる絵柄のポスター。カベに飾ってセンスをアピールしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "개성 넘치는 그림의 포스터. 벽에 장식해서 센스를 뽐내보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37153,7 +37153,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "個性あふれる絵柄のポスター。カベに飾ってセンスをアピールしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "개성 넘치는 그림의 포스터. 벽에 장식해서 센스를 뽐내보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37179,7 +37179,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "個性あふれる絵柄のポスター。カベに飾ってセンスをアピールしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "개성 넘치는 그림의 포스터. 벽에 장식해서 센스를 뽐내보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37205,7 +37205,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "個性あふれる絵柄のポスター。カベに飾ってセンスをアピールしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "개성 넘치는 그림의 포스터. 벽에 장식해서 센스를 뽐내보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37231,7 +37231,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "個性あふれる絵柄のポスター。カベに飾ってセンスをアピールしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "개성 넘치는 그림의 포스터. 벽에 장식해서 센스를 뽐내보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37257,7 +37257,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "個性あふれる絵柄のポスター。カベに飾ってセンスをアピールしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "개성 넘치는 그림의 포스터. 벽에 장식해서 센스를 뽐내보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37283,7 +37283,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "個性あふれる絵柄のポスター。カベに飾ってセンスをアピールしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "개성 넘치는 그림의 포스터. 벽에 장식해서 센스를 뽐내보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37309,7 +37309,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "個性あふれる絵柄のポスター。カベに飾ってセンスをアピールしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "개성 넘치는 그림의 포스터. 벽에 장식해서 센스를 뽐내보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37335,7 +37335,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "個性あふれる絵柄のポスター。カベに飾ってセンスをアピールしよう。",
-      "descriptionKo": "",
+      "descriptionKo": "개성 넘치는 그림의 포스터. 벽에 장식해서 센스를 뽐내보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37361,7 +37361,7 @@
       "categoryJp": "おくがい",
       "categoryKo": "야외",
       "descriptionJp": "鉢には色とりどりの花たち。カベにかざって華やかな空間を作ろう。",
-      "descriptionKo": "",
+      "descriptionKo": "화분에는 알록달록한 꽃들. 벽에 장식해 화려한 공간을 만들자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37392,7 +37392,7 @@
       "categoryJp": "家具",
       "categoryKo": "가구",
       "descriptionJp": "鉄をカチカチにかためて作ったイス。重いポケモンが座っても大丈夫。",
-      "descriptionKo": "",
+      "descriptionKo": "철을 단단하게 굳혀 만든 의자. 무거운 포켓몬이 앉아도 괜찮다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37423,7 +37423,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "シャンプーとタオルにおもちゃ。楽しいおふろ時間を過ごそう。",
-      "descriptionKo": "",
+      "descriptionKo": "샴푸와 수건에 장난감. 즐거운 목욕 시간을 보내자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37450,7 +37450,7 @@
       "categoryJp": "家具",
       "categoryKo": "가구",
       "descriptionJp": "小さいけどたくさん収納できる。カベにかけて使おう。",
-      "descriptionKo": "",
+      "descriptionKo": "작지만 많이 수납할 수 있다. 벽에 걸어서 사용하자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37476,7 +37476,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "どんな重さにも耐えられるワイヤー。天井から家具を吊り下げるのにピッタリ。",
-      "descriptionKo": "",
+      "descriptionKo": "어떤 무게도 버틸 수 있는 와이어야. 천장에서 가구를 매달기에 딱이야.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37502,7 +37502,7 @@
       "categoryJp": "べんり",
       "categoryKo": "편의",
       "descriptionJp": "並べてカベにつるして電気を流せばあたりがにぎやかなフンイキに。",
-      "descriptionKo": "",
+      "descriptionKo": "나란히 벽에 걸고 전기를 흘리면 주변이 화려한 분위기로.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37535,7 +37535,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "タテにつなげるとどこまでも伸びる。上の台には小さなモノが置けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "세로로 연결하면 끝없이 늘어난다. 위 받침대에 작은 물건을 놓을 수 있을 것 같다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37561,7 +37561,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "並べて囲いにしても出入口にワンポイントで置いてもいい感じ。",
-      "descriptionKo": "",
+      "descriptionKo": "나란히 놓아 울타리로 써도, 출입구에 포인트로 놓아도 좋은 느낌.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37589,7 +37589,7 @@
       "categoryJp": "べんり",
       "categoryKo": "편의",
       "descriptionJp": "電気を流すとまぶしく発光。台の上に置いてもいい感じ。",
-      "descriptionKo": "",
+      "descriptionKo": "전기를 흘리면 눈부시게 빛난다. 받침대 위에 놓아도 좋은 느낌.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37623,7 +37623,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "デパートのカベにかかっていそうな布。タテにつなげてビローンと長くできる。",
-      "descriptionKo": "",
+      "descriptionKo": "백화점 벽에 걸려 있을 법한 천. 세로로 연결해 길게 늘릴 수 있다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37650,7 +37650,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "ハードカバーのクラシカルな本。中にはたぶん難しい内容が書いてある。",
-      "descriptionKo": "",
+      "descriptionKo": "하드커버 클래식 책. 안에는 아마 어려운 내용이 적혀 있다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37676,7 +37676,7 @@
       "categoryJp": "家具",
       "categoryKo": "가구",
       "descriptionJp": "鉄で出来たカチコチの台。上に重いモノを置いても問題なし。",
-      "descriptionKo": "",
+      "descriptionKo": "철로 만든 딱딱한 받침대. 위에 무거운 걸 놓아도 문제없다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37702,7 +37702,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "最新型のエアコン。一回押すと冷風モード ニ回押すと温風モードになる。",
-      "descriptionKo": "",
+      "descriptionKo": "최신형 에어컨. 한 번 누르면 냉풍, 두 번 누르면 온풍 모드.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37729,7 +37729,7 @@
       "categoryJp": "家具",
       "categoryKo": "가구",
       "descriptionJp": "お気に入りのものを板の上に置いて飾ろう。",
-      "descriptionKo": "",
+      "descriptionKo": "마음에 드는 것을 선반 위에 놓아 장식하자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37763,7 +37763,7 @@
       "categoryJp": "家具",
       "categoryKo": "가구",
       "descriptionJp": "重厚感のある高級なイス。座ると偉い人になったキブン。",
-      "descriptionKo": "",
+      "descriptionKo": "묵직한 고급 의자. 앉으면 높은 사람이 된 기분.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37820,7 +37820,7 @@
       "categoryJp": "おくがい",
       "categoryKo": "야외",
       "descriptionJp": "バスの停留所にありそうな看板。街中や道路でも目印にもなりそう。",
-      "descriptionKo": "",
+      "descriptionKo": "버스 정류장에 있을 법한 간판. 거리나 도로에서 표지판이 될 수 있다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37879,7 +37879,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "お偉いさんが使っていそうな高級感あふれるボールペン。",
-      "descriptionKo": "",
+      "descriptionKo": "높은 분이 쓸 것 같은 고급스러운 볼펜.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37932,7 +37932,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "さつえいした写真を中に入れてカベに飾っちゃおう。",
-      "descriptionKo": "",
+      "descriptionKo": "촬영한 사진을 넣어 벽에 장식하자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37963,7 +37963,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "演説会場や収録スタジオなどにありそうなマイク。机の上に置いてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "연설 회장이나 녹음 스튜디오에 있을 법한 마이크. 책상 위에 놓아보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -37990,7 +37990,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "いろいろ大事そうなことがメモしてあって書くスペースがない。",
-      "descriptionKo": "",
+      "descriptionKo": "중요한 것들이 잔뜩 메모되어 있어 쓸 공간이 없다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -38016,7 +38016,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "ムダのないデザインのドア。色合いやまどの形がとてもスマート。",
-      "descriptionKo": "",
+      "descriptionKo": "군더더기 없는 디자인의 문. 색감과 창문 모양이 매우 스마트하다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -38047,7 +38047,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "封がされたシンプルな手紙。貼られた切手はモンスターボール柄。",
-      "descriptionKo": "",
+      "descriptionKo": "봉인된 심플한 편지. 붙어있는 우표는 몬스터볼 무늬.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -38073,7 +38073,7 @@
       "categoryJp": "家具",
       "categoryKo": "가구",
       "descriptionJp": "待合室や休憩スペースなどにぴったりなフカフカクッションのイス。",
-      "descriptionKo": "",
+      "descriptionKo": "대기실이나 휴게 공간에 딱인 폭신폭신 쿠션 의자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -38130,7 +38130,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "電気を流すと青く光るモニター。さつえいした写真を写そう。",
-      "descriptionKo": "",
+      "descriptionKo": "전기를 흘리면 파랗게 빛나는 모니터. 촬영한 사진을 비추자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -38163,7 +38163,7 @@
       "categoryJp": "べんり",
       "categoryKo": "편의",
       "descriptionJp": "ハンバーグを作るための料理道具。たき火やコンロの上に置こう。",
-      "descriptionKo": "",
+      "descriptionKo": "햄버그스테이크를 만들기 위한 요리 도구. 모닥불이나 가스레인지 위에 올려놓자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -38225,7 +38225,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "使い勝手の良さそうなカレンダー。シンプルだからどんなカベにも合いそう。",
-      "descriptionKo": "",
+      "descriptionKo": "쓰기 좋아 보이는 달력. 심플해서 어떤 벽에도 어울릴 것 같다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -38364,7 +38364,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "1本だとただの細い柱だけどズラッと並べると立派なかこいの出来上がり。",
-      "descriptionKo": "",
+      "descriptionKo": "1개면 그냥 가는 기둥이지만 쭉 늘어놓으면 멋진 울타리 완성.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -38474,7 +38474,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "天井につけられる滑車。飾りやヒモをぶらさげるのにピッタリ。",
-      "descriptionKo": "",
+      "descriptionKo": "천장에 달 수 있는 도르래. 장식이나 끈을 매달기에 딱이다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -38558,7 +38558,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "持ち運びに便利な端末。硬いケースに入っているから落としても安心。",
-      "descriptionKo": "",
+      "descriptionKo": "휴대하기 편리한 단말기. 단단한 케이스에 들어있어 떨어뜨려도 안심.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -38589,7 +38589,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "積み上げるといい感じにつながる金網。フェンスを作るのにピッタリ。",
-      "descriptionKo": "",
+      "descriptionKo": "쌓으면 자연스럽게 이어지는 철망. 울타리 만들기에 딱이다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -38707,7 +38707,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "1つだとただのでっぱりだけど2つ繋げればキレイなアーチになる。",
-      "descriptionKo": "",
+      "descriptionKo": "1개면 그냥 돌출이지만 2개를 연결하면 예쁜 아치가 된다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -38734,7 +38734,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "スイッチをつけると羽がクルクルまわる。空気を入れ替えたいときに便利。",
-      "descriptionKo": "",
+      "descriptionKo": "스위치를 켜면 날개가 빙글빙글 돈다. 환기할 때 편리.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -38772,7 +38772,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "分厚いハードカバーの本。中には細かい文字がビッシリ。",
-      "descriptionKo": "",
+      "descriptionKo": "두꺼운 하드커버 책. 안에는 빼곡히 적힌 글자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -38830,7 +38830,7 @@
       "categoryJp": "べんり",
       "categoryKo": "편의",
       "descriptionJp": "景観を邪魔しないシンプルなライト。天井やカベに埋め込むこともできる。",
-      "descriptionKo": "",
+      "descriptionKo": "경관을 방해하지 않는 심플한 라이트. 천장이나 벽에 매립할 수도 있다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -38887,7 +38887,7 @@
       "categoryJp": "べんり",
       "categoryKo": "편의",
       "descriptionJp": "電気を流すとふたつの明かりがピカピカ。あたりを明るく照らす。",
-      "descriptionKo": "",
+      "descriptionKo": "전기를 흘리면 두 개의 불이 반짝반짝. 주변을 밝게 비춘다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -38919,7 +38919,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "植物のツルを編みこんで出来たマット。人形などを上に置いてもいい感じ。",
-      "descriptionKo": "",
+      "descriptionKo": "식물 덩굴을 엮어 만든 매트. 인형 등을 올려놓아도 좋은 느낌.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -38955,7 +38955,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "さつえいした写真を中に入れてカベに飾っちゃおう。",
-      "descriptionKo": "",
+      "descriptionKo": "촬영한 사진을 넣어 벽에 장식하자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -39037,7 +39037,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "屋根を作るとき使ってみよう。はしっこにきれいに収まりそう。",
-      "descriptionKo": "",
+      "descriptionKo": "지붕을 만들 때 사용해보자. 가장자리에 딱 맞게 들어갈 것 같음.",
       "obtainMethodJp": "ゴツゴツやまの街環境レベル5でショップ解放",
       "craftMaterialsJp": [
         {
@@ -39062,7 +39062,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "屋根の形を工夫したいときカドに置くといい感じ。",
-      "descriptionKo": "",
+      "descriptionKo": "지붕 모양을 바꾸고 싶을 때 모서리에 놓으면 좋은 느낌이야.",
       "obtainMethodJp": "ゴツゴツやまの街環境レベル5でショップ解放",
       "craftMaterialsJp": [
         {
@@ -39087,7 +39087,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "屋根をちょっとたいらにするとスタイリッシュでいい感じ。",
-      "descriptionKo": "",
+      "descriptionKo": "지붕을 살짝 평평하게 하면 스타일리시하고 좋은 느낌.",
       "obtainMethodJp": "ゴツゴツやまの街環境レベル5でショップ解放",
       "craftMaterialsJp": [
         {
@@ -39190,7 +39190,7 @@
       "categoryJp": "キット：建物",
       "categoryKo": "키트:건물",
       "descriptionJp": "ライブステージができる",
-      "descriptionKo": "",
+      "descriptionKo": "라이브 스테이지가 생긴다.",
       "obtainMethodJp": "ショップで購入(ゴツゴツやまの街Lv8)",
       "craftMaterialsJp": [
         {
@@ -39230,7 +39230,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "ショップで購入(キラキラうきしまの街Lv8)",
       "craftMaterialsJp": [
         {
@@ -39270,7 +39270,7 @@
       "categoryJp": "キット：建物",
       "categoryKo": "키트:건물",
       "descriptionJp": "とりひきの場所ができる",
-      "descriptionKo": "",
+      "descriptionKo": "거래할 수 있는 장소가 생긴다.",
       "obtainMethodJp": "ショップで購入(ドンヨリうみべの街Lv8)",
       "craftMaterialsJp": [
         {
@@ -39310,7 +39310,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとジャガイモができるタネ。畑に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 감자가 되는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "ショップで購入(キラキラうきしまの街Lv3)",
       "craftMaterialsJp": [],
       "habitatsJp": [
@@ -39329,7 +39329,7 @@
       "categoryJp": "キット：建物",
       "categoryKo": "키트:건물",
       "descriptionJp": "とりひきの場所ができる",
-      "descriptionKo": "",
+      "descriptionKo": "거래할 수 있는 장소가 생긴다.",
       "obtainMethodJp": "ショップで購入(キラキラうきしまの街Lv3)",
       "craftMaterialsJp": [
         {
@@ -39364,7 +39364,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "ショップで購入(要：マクノシタのおねがいごとを受ける)",
       "craftMaterialsJp": [
         {
@@ -39429,7 +39429,7 @@
       "categoryJp": "キット：オブジェ",
       "categoryKo": "키트:오브제",
       "descriptionJp": "ピカチュウ像のふんすいができる",
-      "descriptionKo": "",
+      "descriptionKo": "피카츄 석상 분수가 생긴다.",
       "obtainMethodJp": "ショップで購入(ドンヨリうみべの街Lv4)",
       "craftMaterialsJp": [
         {
@@ -39469,7 +39469,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "ひらべったくて板みたいな葉の植木。実はサボテンの仲間。",
-      "descriptionKo": "",
+      "descriptionKo": "납작하고 판자 같은 잎의 화분나무. 사실 선인장 친구.",
       "obtainMethodJp": "キラキラうきしまのビルの4階で入手ショップから日替わりで入手",
       "craftMaterialsJp": [],
       "habitatsJp": [
@@ -39489,7 +39489,7 @@
       "categoryJp": "キット：建物",
       "categoryKo": "키트:건물",
       "descriptionJp": "ポケモンセンターの見た目を変えられる",
-      "descriptionKo": "",
+      "descriptionKo": "포켓몬센터의 외관을 바꿀 수 있다.",
       "obtainMethodJp": "ショップで購入(パサパサこうやの街Lv10)",
       "craftMaterialsJp": [
         {
@@ -39627,7 +39627,7 @@
       "categoryJp": "キット：建物",
       "categoryKo": "키트:건물",
       "descriptionJp": "ポケモンセンターの見た目を変えられる",
-      "descriptionKo": "",
+      "descriptionKo": "포켓몬센터의 외관을 바꿀 수 있다.",
       "obtainMethodJp": "ショップで購入(要：ドンヨリうみべのポケセン建て直し、環境レベル10)",
       "craftMaterialsJp": [
         {
@@ -39665,7 +39665,7 @@
       "categoryJp": "キット：建物",
       "categoryKo": "키트:건물",
       "descriptionJp": "ポケモンセンターの見た目を変えられる",
-      "descriptionKo": "",
+      "descriptionKo": "포켓몬센터의 외관을 바꿀 수 있다.",
       "obtainMethodJp": "ショップで購入(ゴツゴツやまの街Lv10)",
       "craftMaterialsJp": [
         {
@@ -39703,7 +39703,7 @@
       "categoryJp": "キット：建物",
       "categoryKo": "키트:건물",
       "descriptionJp": "ポケモンセンターの見た目を変えられる",
-      "descriptionKo": "",
+      "descriptionKo": "포켓몬센터의 외관을 바꿀 수 있다.",
       "obtainMethodJp": "ショップで購入(キラキラうきしまの街Lv10)",
       "craftMaterialsJp": [
         {
@@ -39741,7 +39741,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "ショップで購入(要：デカヌチャンのおねがいごとを受ける)",
       "craftMaterialsJp": [
         {
@@ -39774,7 +39774,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "ショップで購入(キラキラうきしまの街Lv4)",
       "craftMaterialsJp": [
         {
@@ -39807,7 +39807,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "大理石でできたシンプルなはしら。博物館の柱などにもちょうどよさそう。",
-      "descriptionKo": "",
+      "descriptionKo": "대리석으로 만든 심플한 기둥. 박물관 기둥 등에도 딱 맞을 것 같다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -39830,7 +39830,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "大理石でできたシンプルなはしら。博物館の柱などにもちょうどよさそう。",
-      "descriptionKo": "",
+      "descriptionKo": "대리석으로 만든 심플한 기둥. 박물관 기둥 등에도 딱 맞을 것 같다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -39853,7 +39853,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "大理石でできたシンプルなはしら。博物館の柱などにもちょうどよさそう。",
-      "descriptionKo": "",
+      "descriptionKo": "대리석으로 만든 심플한 기둥. 박물관 기둥 등에도 딱 맞을 것 같다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -39876,7 +39876,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "水面のキラキラから入手",
       "craftMaterialsJp": [
         {
@@ -39914,7 +39914,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "ショップで購入(ゴツゴツやまの街Lv4)",
       "craftMaterialsJp": [
         {
@@ -39952,7 +39952,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "ショップで購入(まっさらな街Lv4)",
       "craftMaterialsJp": [
         {
@@ -39985,7 +39985,7 @@
       "categoryJp": "キット：建物",
       "categoryKo": "키트:건물",
       "descriptionJp": "タッツーふんすいの広場ができる",
-      "descriptionKo": "",
+      "descriptionKo": "쏘드라 분수 광장이 생긴다.",
       "obtainMethodJp": "ショップで購入(まっさらな街Lv4)",
       "craftMaterialsJp": [
         {
@@ -40018,7 +40018,7 @@
       "categoryJp": "家具",
       "categoryKo": "가구",
       "descriptionJp": "机に向かっているだけでもなんだか頭がよくなりそう。",
-      "descriptionKo": "",
+      "descriptionKo": "책상 앞에 앉아만 있어도 왠지 머리가 좋아질 것 같다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -40041,7 +40041,7 @@
       "categoryJp": "家具",
       "categoryKo": "가구",
       "descriptionJp": "ちょっと欠けてるけど意外とじょうぶ。ポケモンが上に立ってもたぶん壊れない。",
-      "descriptionKo": "",
+      "descriptionKo": "좀 깨져 있지만 의외로 튼튼. 포켓몬이 올라서도 아마 안 부서진다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -40064,7 +40064,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "お気に入りの写真を1枚選んでコルクボードに飾っちゃおう。",
-      "descriptionKo": "",
+      "descriptionKo": "마음에 드는 사진 1장을 골라 코르크보드에 장식하자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -40092,7 +40092,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "カラフルな本が置かれた飾り棚。カベのにぎやかしにぴったり。",
-      "descriptionKo": "",
+      "descriptionKo": "알록달록한 책이 놓인 장식 선반. 벽을 꾸미기에 딱이다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -40120,7 +40120,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "ツルがビローンと垂れている飾り棚。カベのにぎやかしにぴったり。",
-      "descriptionKo": "",
+      "descriptionKo": "덩굴이 늘어진 장식 선반. 벽을 꾸미기에 딱이다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -40148,7 +40148,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "パーティーの飾りつけにもってこい。いっぱい置いてムードを高めちゃおう。",
-      "descriptionKo": "",
+      "descriptionKo": "파티 장식에 딱. 많이 놓아 분위기를 올리자.",
       "obtainMethodJp": "ゴツゴツやまの街環境レベル3でショップ解放",
       "craftMaterialsJp": [
         {
@@ -40171,7 +40171,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "開け閉めできるフタ付きの窓。地面に置くと地下へのトビラになる。",
-      "descriptionKo": "",
+      "descriptionKo": "여닫을 수 있는 뚜껑 달린 창문. 바닥에 놓으면 지하로의 문이 된다.",
       "obtainMethodJp": "パサパサこうやの街環境レベル5でショップ解放",
       "craftMaterialsJp": [
         {
@@ -40194,7 +40194,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "ガラスに色を塗ったオシャレな窓。どことなくレトロなフンイキもある。",
-      "descriptionKo": "",
+      "descriptionKo": "유리에 색을 칠한 세련된 창문. 어딘가 레트로한 분위기도 있다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -40227,7 +40227,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "ガラスに色を塗ったオシャレな窓。どことなくレトロなフンイキもある。",
-      "descriptionKo": "",
+      "descriptionKo": "유리에 색을 칠한 세련된 창문. 어딘가 레트로한 분위기도 있다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -40260,7 +40260,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "ガラスに色を塗ったオシャレな窓。どことなくレトロなフンイキもある。",
-      "descriptionKo": "",
+      "descriptionKo": "유리에 색을 칠한 세련된 창문. 어딘가 레트로한 분위기도 있다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -40293,7 +40293,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "レンガの屋根のひっこんだところ。カドにピッタリ収まりそう。",
-      "descriptionKo": "",
+      "descriptionKo": "벽돌 지붕의 오목한 부분. 모서리에 딱 맞을 것 같다.",
       "obtainMethodJp": "ドンヨリうみべの街環境レベル5でショップ解放",
       "craftMaterialsJp": [
         {
@@ -40316,7 +40316,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "屋根の上に置いてみよう。並べてもワンポイントで使ってもステキ。",
-      "descriptionKo": "",
+      "descriptionKo": "지붕 위에 놓아보자. 나란히 놓아도 포인트로 써도 멋지다.",
       "obtainMethodJp": "ドンヨリうみべの街環境レベル5でショップ解放",
       "craftMaterialsJp": [
         {
@@ -40339,7 +40339,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "他のカベといっしょに並べるとちょっとしたアクセントになりそう。",
-      "descriptionKo": "",
+      "descriptionKo": "다른 벽과 함께 늘어놓으면 약간의 악센트가 될 것 같다.",
       "obtainMethodJp": "ゴツゴツやまの街環境レベル4でショップ解放",
       "craftMaterialsJp": [
         {
@@ -40362,7 +40362,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "岩や土カベなどに取り付けよう。角に置けばキレイに囲いが作れる。",
-      "descriptionKo": "",
+      "descriptionKo": "바위나 흙벽 등에 설치하자. 모서리에 놓으면 깔끔한 울타리를 만들 수 있다.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -40385,7 +40385,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "屋根を支えるためにそえる木。屋根のでっぱりとカベの間にはめよう。",
-      "descriptionKo": "",
+      "descriptionKo": "지붕을 지탱하기 위해 대는 나무. 지붕 돌출부와 벽 사이에 끼우자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -40408,7 +40408,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "いろんな種類の鉄パイプをつなげてなが〜いパイプを作ってみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "여러 종류의 철 파이프를 연결해서 기~다란 파이프를 만들어보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -40431,7 +40431,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "いろんな種類の鉄パイプをつなげてなが〜いパイプを作ってみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "여러 종류의 철 파이프를 연결해서 기~다란 파이프를 만들어보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -40454,7 +40454,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "いろんな種類の鉄パイプをつなげてなが〜いパイプを作ってみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "여러 종류의 철 파이프를 연결해서 기~다란 파이프를 만들어보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -40477,7 +40477,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "いろんな種類の鉄パイプをつなげてなが〜いパイプを作ってみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "여러 종류의 철 파이프를 연결해서 기~다란 파이프를 만들어보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -40500,7 +40500,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "いろんな種類の鉄パイプをつなげてなが〜いパイプを作ってみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "여러 종류의 철 파이프를 연결해서 기~다란 파이프를 만들어보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -40523,7 +40523,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "いろんな種類の鉄パイプをつなげてなが〜いパイプを作ってみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "여러 종류의 철 파이프를 연결해서 기~다란 파이프를 만들어보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -40546,7 +40546,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "いろんな種類の鉄パイプをつなげてなが〜いパイプを作ってみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "여러 종류의 철 파이프를 연결해서 기~다란 파이프를 만들어보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -40569,7 +40569,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "いろんな種類の鉄パイプをつなげてなが〜いパイプを作ってみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "여러 종류의 철 파이프를 연결해서 기~다란 파이프를 만들어보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41279,7 +41279,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41302,7 +41302,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41325,7 +41325,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41348,7 +41348,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41371,7 +41371,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41394,7 +41394,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41417,7 +41417,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41440,7 +41440,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41463,7 +41463,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41486,7 +41486,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41509,7 +41509,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41532,7 +41532,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41555,7 +41555,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41578,7 +41578,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41601,7 +41601,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41624,7 +41624,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41647,7 +41647,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41670,7 +41670,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41693,7 +41693,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41716,7 +41716,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41739,7 +41739,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41762,7 +41762,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41785,7 +41785,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41808,7 +41808,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41831,7 +41831,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41854,7 +41854,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41877,7 +41877,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41900,7 +41900,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41923,7 +41923,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41946,7 +41946,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41969,7 +41969,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -41992,7 +41992,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42015,7 +42015,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42038,7 +42038,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42061,7 +42061,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42084,7 +42084,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42107,7 +42107,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42130,7 +42130,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42153,7 +42153,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42176,7 +42176,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42199,7 +42199,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42222,7 +42222,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42245,7 +42245,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42268,7 +42268,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42291,7 +42291,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42314,7 +42314,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42337,7 +42337,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42360,7 +42360,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42383,7 +42383,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42406,7 +42406,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42429,7 +42429,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42452,7 +42452,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42475,7 +42475,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42498,7 +42498,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42521,7 +42521,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42544,7 +42544,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42567,7 +42567,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42590,7 +42590,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42613,7 +42613,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42636,7 +42636,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42659,7 +42659,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42682,7 +42682,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "大きな家で使えるカベ紙。部屋のカベや床天上に貼れる。",
-      "descriptionKo": "",
+      "descriptionKo": "큰 집에서 쓸 수 있는 벽지. 방의 벽이나 바닥, 천장에 붙일 수 있다.",
       "obtainMethodJp": "水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -42705,7 +42705,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "水面のキラキラから入手",
       "craftMaterialsJp": [
         {
@@ -42743,7 +42743,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "水面のキラキラから入手",
       "craftMaterialsJp": [
         {
@@ -42781,7 +42781,7 @@
       "categoryJp": "キット：家",
       "categoryKo": "키트:집",
       "descriptionJp": "メタモンやポケモンのすみかになる",
-      "descriptionKo": "",
+      "descriptionKo": "귀여운 회벽 집이 생길 것 같아. 포켓몬들과 함께 「건축」해보자.",
       "obtainMethodJp": "水面のキラキラから入手",
       "craftMaterialsJp": [
         {
@@ -42814,7 +42814,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "いろんな種類の鉄パイプをつなげてなが〜いパイプを作ってみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "여러 종류의 철 파이프를 연결해서 기~다란 파이프를 만들어보자.",
       "obtainMethodJp": "ショップで購入(日替わりランダム)水面のキラキラから稀に入手",
       "craftMaterialsJp": [
         {
@@ -43160,7 +43160,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "黄ばんだ紙に細かい文字がビッシリ。カラフルな図形も描かれている。",
-      "descriptionKo": "",
+      "descriptionKo": "누렇게 변한 종이에 빼곡한 글자. 알록달록한 도형도 그려져 있다.",
       "obtainMethodJp": "",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43177,7 +43177,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "大事そうなことがメモしてあるがちょっと汚れてしまっている。",
-      "descriptionKo": "",
+      "descriptionKo": "중요한 것이 메모되어 있지만 좀 더러워져 버렸다.",
       "obtainMethodJp": "",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43194,7 +43194,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "カバーの汚れたクラシカルな本。中にはたぶん難しい内容が書いてある。",
-      "descriptionKo": "",
+      "descriptionKo": "커버가 더러워진 클래식 책. 안에는 아마 어려운 내용이 적혀 있다.",
       "obtainMethodJp": "",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43211,7 +43211,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "シミや汚れの目立つ新聞。古びた紙の匂いがしてきそう。",
-      "descriptionKo": "",
+      "descriptionKo": "얼룩과 때가 눈에 띄는 신문. 낡은 종이 냄새가 날 것 같다.",
       "obtainMethodJp": "",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43228,7 +43228,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "みなとまちに咲いているかわいい花。ポケモンにあげると喜んでくれるかも。",
-      "descriptionKo": "",
+      "descriptionKo": "항구 마을에 피어 있는 귀여운 꽃. 포켓몬에게 주면 기뻐할지도.",
       "obtainMethodJp": "「たがやす」か「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43245,7 +43245,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "けんらんごうかに咲きほこる花。クキにはトゲがあるので注意。",
-      "descriptionKo": "",
+      "descriptionKo": "화려하게 핀 꽃. 줄기에 가시가 있으니 주의.",
       "obtainMethodJp": "「たがやす」か「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43262,7 +43262,7 @@
       "categoryJp": "食べもの",
       "categoryKo": "음식",
       "descriptionJp": "パーティーに必要な料理。ポケモンたちといっしょに食べよう。",
-      "descriptionKo": "",
+      "descriptionKo": "파티에 필요한 요리. 포켓몬들과 함께 먹자.",
       "obtainMethodJp": "パーティー料理で入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43279,7 +43279,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "パーティー料理にもってこいの特大なべ。シェフとみんなでレッツクッキング。",
-      "descriptionKo": "",
+      "descriptionKo": "파티 요리에 딱인 특대 냄비. 셰프와 모두 함께 레츠 쿠킹.",
       "obtainMethodJp": "ショップで購入(ゴツゴツやまの街のストーリーでパーティーなべをもらった後)",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43296,7 +43296,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "プカプカ水に浮く浮き草は葉っぱより大きな花がふわりと咲く。",
-      "descriptionKo": "",
+      "descriptionKo": "물 위에 둥둥 떠다니는 개구리밥은 잎보다 큰 꽃이 살포시 핀다.",
       "obtainMethodJp": "「たがやす」か「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43313,7 +43313,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "葉がもっさり生えている植木。並べるとつながってかきねにもなる。",
-      "descriptionKo": "",
+      "descriptionKo": "잎이 무성하게 자란 화분나무. 나란히 놓으면 이어져 울타리도 된다.",
       "obtainMethodJp": "「たがやす」か「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43330,7 +43330,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "砂浜に打ち上げられた木。インテリアとして家に飾ってもよさそう。",
-      "descriptionKo": "",
+      "descriptionKo": "모래사장에 밀려온 나무. 인테리어로 집에 장식해도 좋을 것 같다.",
       "obtainMethodJp": "「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43347,7 +43347,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "どうくつの中でひときわ輝く宝石。砕いて加工すると何かが出来るかも。",
-      "descriptionKo": "",
+      "descriptionKo": "동굴 안에서 유독 빛나는 보석. 부수고 가공하면 뭔가 만들 수 있을지도.",
       "obtainMethodJp": "「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43364,7 +43364,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "天井の水が冷えて氷になったもの。置くとあたりがひんやりする。",
-      "descriptionKo": "",
+      "descriptionKo": "천장의 물이 식어 얼음이 된 것. 놓으면 주변이 서늘해진다.",
       "obtainMethodJp": "「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43398,7 +43398,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "画面が割れてしまっている端末。電源をつけても電話はつながらない。",
-      "descriptionKo": "",
+      "descriptionKo": "화면이 깨져버린 단말기. 전원을 켜도 전화는 안 된다.",
       "obtainMethodJp": "",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43449,7 +43449,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "持ち運びに便利な端末。硬いケースに入っているけど画面は割れている。",
-      "descriptionKo": "",
+      "descriptionKo": "휴대하기 편리한 단말기. 단단한 케이스지만 화면이 깨져 있다.",
       "obtainMethodJp": "",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43585,7 +43585,7 @@
       "categoryJp": "食べもの",
       "categoryKo": "음식",
       "descriptionJp": "シェフバリスからもらったアメ。食べるとたくさんPPを回復する。",
-      "descriptionKo": "",
+      "descriptionKo": "셰프 바리스에게 받은 사탕. 먹으면 PP를 많이 회복한다.",
       "obtainMethodJp": "シェフバリスから話しかけられた際に入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43602,7 +43602,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとヒメリの木になるタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 과사 나무가 되는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "ヒメリの木を「いあいぎり」で切って入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43619,7 +43619,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとカゴの木になるタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 유루 나무가 되는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "カゴの木を「いあいぎり」で切って入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43636,7 +43636,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとチーゴの木になるタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 복분 나무가 되는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "チーゴの木を「いあいぎり」で切って入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43653,7 +43653,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとナナシの木になるタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 배리 나무가 되는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "ナナシの木を「いあいぎり」で切って入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43670,7 +43670,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとモモンの木になるタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 복슝 나무가 되는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "モモンの木を「いあいぎり」で切って入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43687,7 +43687,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとラムの木になるタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 리샘 나무가 되는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "ラムの木を「いあいぎり」で切って入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43704,7 +43704,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとヤシの木になるタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 야자나무가 되는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "ヤシの木を「いあいぎり」で切って入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43721,7 +43721,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとさんかくの木になるタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 삼각 나무가 되는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "さんかくの木を「いあいぎり」で切って入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43738,7 +43738,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとはらっぱのはなが咲くタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 들판 꽃이 피는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "はらっぱのはなを「いあいぎり」で切って入手ショップで購入(初期解放)",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43755,7 +43755,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとうきしまのはなが咲くタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 부유섬의 꽃이 피는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "うきしまのはなを「いあいぎり」で切って入手ショップで購入(キラキラうきしまの街Lv2)",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43772,7 +43772,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとうつくしいはなが咲くタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 아름다운 꽃이 피는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "うつくしいはなを「いあいぎり」で切って入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43789,7 +43789,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとキュートなはなが咲くタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 큐트한 꽃이 피는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "キュートなはなを「いあいぎり」で切って入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43806,7 +43806,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとエレガントなはなが咲くタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 엘레강스한 꽃이 피는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "エレガントなはなを「いあいぎり」で切って入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43823,7 +43823,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとたくましいはなが咲くタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 튼튼한 꽃이 피는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "たくましいはなを「いあいぎり」で切って入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43840,7 +43840,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとかわいいいけがきになるタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 귀여운 생울타리가 되는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "かわいいいけがきを「いあいぎり」で切って入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43857,7 +43857,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとげんきないけがきになるタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 활기찬 생울타리가 되는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "げんきないけがきを「いあいぎり」で切って入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43874,7 +43874,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとしっとりいけがきになるタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 촉촉한 생울타리가 되는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "しっとりいけがきを「いあいぎり」で切って入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43891,7 +43891,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとしゃれたいけがきになるタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 세련된 수풀가 되는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "しゃれたいけがきを「いあいぎり」で切って入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43908,7 +43908,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとしかくいうえ木になるタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 네모 화분나무가 되는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "しかくいうえ木を「いあいぎり」で切って入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43925,7 +43925,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとトマトができるタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 토마토가 되는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "水の中のキラキラから入手ショップで購入(ドンヨリうみべの街Lv3)",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43942,7 +43942,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "成長するとこむぎができるタネ。地面に植えてみよう。",
-      "descriptionKo": "",
+      "descriptionKo": "자라면 밀가 되는 씨앗. 땅에 심어보자.",
       "obtainMethodJp": "水の中のキラキラから入手ショップで購入(ゴツゴツやまの街Lv3)",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43959,7 +43959,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "まばらに生えたちいさな草。どんなに踏まれてもへっちゃら。",
-      "descriptionKo": "",
+      "descriptionKo": "드문드문 자란 작은 풀. 아무리 밟혀도 끄떡없다.",
       "obtainMethodJp": "「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43976,7 +43976,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "まばらに生えたちいさな草。どんなに踏まれてもへっちゃら。",
-      "descriptionKo": "",
+      "descriptionKo": "드문드문 자란 작은 풀. 아무리 밟혀도 끄떡없다.",
       "obtainMethodJp": "「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -43993,7 +43993,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "まばらに生えたちいさな草。どんなに踏まれてもへっちゃら。",
-      "descriptionKo": "",
+      "descriptionKo": "드문드문 자란 작은 풀. 아무리 밟혀도 끄떡없다.",
       "obtainMethodJp": "「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44010,7 +44010,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "まばらに生えたちいさな草。どんなに踏まれてもへっちゃら。",
-      "descriptionKo": "",
+      "descriptionKo": "드문드문 자란 작은 풀. 아무리 밟혀도 끄떡없다.",
       "obtainMethodJp": "「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44027,7 +44027,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "植物の生えない岩やレンガにも力強く絡みつくツタ。",
-      "descriptionKo": "",
+      "descriptionKo": "식물이 자라지 않는 바위나 벽돌에도 힘차게 감기는 덩굴.",
       "obtainMethodJp": "「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44044,7 +44044,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "ザラザラの火山灰やデコボコの黒い岩の上にも生える変わった植物。",
-      "descriptionKo": "",
+      "descriptionKo": "거친 화산재나 울퉁불퉁한 검은 바위 위에도 자라는 특이한 식물.",
       "obtainMethodJp": "「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44061,7 +44061,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "ヒメリのみがなる木。実が落ちても時間が経つとまたできる。",
-      "descriptionKo": "",
+      "descriptionKo": "과사열매가 열리는 나무. 열매가 떨어져도 시간이 지나면 다시 열린다.",
       "obtainMethodJp": "「たがやす」か「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44078,7 +44078,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "ゴツゴツな山でも優雅にたたずむ花。堂々と咲く姿に心が引き締まりそう。",
-      "descriptionKo": "",
+      "descriptionKo": "울퉁불퉁한 산에서도 우아하게 서 있는 꽃. 당당히 피는 모습에 마음이 다잡힌다.",
       "obtainMethodJp": "「たがやす」か「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44095,7 +44095,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "空に向かって力強く咲いている。見ていると元気をもらえそう。",
-      "descriptionKo": "",
+      "descriptionKo": "하늘을 향해 힘차게 피어 있다. 보고 있으면 기운을 받을 것 같다.",
       "obtainMethodJp": "「たがやす」か「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44112,7 +44112,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "ヒメリの木を切ると残るきりかぶ。座るのにちょうどよさそう。",
-      "descriptionKo": "",
+      "descriptionKo": "과사 나무를 베면 남는 그루터기. 앉기에 딱 좋을 것 같다.",
       "obtainMethodJp": "「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44129,7 +44129,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "きりかぶに座りながら海をながめてリラックス。",
-      "descriptionKo": "",
+      "descriptionKo": "그루터기에 앉아 바다를 바라보며 릴랙스.",
       "obtainMethodJp": "「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44146,7 +44146,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "さんかくの木を切って残ったきりかぶだけど形はまんまる。",
-      "descriptionKo": "",
+      "descriptionKo": "삼각 나무를 베고 남은 그루터기지만 모양은 동그랗다.",
       "obtainMethodJp": "「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44163,7 +44163,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "カベや岩にはりついた巣。からまるとうまく動けなくなる。",
-      "descriptionKo": "",
+      "descriptionKo": "벽이나 바위에 붙은 둥지. 걸리면 잘 움직일 수 없게 된다.",
       "obtainMethodJp": "「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44180,7 +44180,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "アツアツいわに水をかけて冷やしたもの。マグマの近くに置くとまたアツアツに。",
-      "descriptionKo": "",
+      "descriptionKo": "이글이글 바위에 물을 끼얹어 식힌 것. 마그마 근처에 놓으면 다시 이글이글.",
       "obtainMethodJp": "「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44197,7 +44197,7 @@
       "categoryJp": "自然",
       "categoryKo": "자연",
       "descriptionJp": "しょうにゅう洞の天井にぶら下がってる。じつは溶けた石灰石が固まったモノ。",
-      "descriptionKo": "",
+      "descriptionKo": "종유동 천장에 매달려 있다. 사실 녹은 석회석이 굳은 것.",
       "obtainMethodJp": "「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44214,7 +44214,7 @@
       "categoryJp": "キット：オブジェ",
       "categoryKo": "키트:오브제",
       "descriptionJp": "うすチュウの「はっこう」に必要",
-      "descriptionKo": "",
+      "descriptionKo": "우스추우의 \"발광\"에 필요.",
       "obtainMethodJp": "ショップで購入(要：大事なおねがいごと「街を明るくしよう」クリア)",
       "craftMaterialsJp": [
         {
@@ -44242,7 +44242,7 @@
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
       "descriptionJp": "大きくてツルツルな葉っぱの植木。実はおいもの仲間。",
-      "descriptionKo": "",
+      "descriptionKo": "크고 반들반들한 잎의 화분나무. 사실 고구마 친구.",
       "obtainMethodJp": "ポケモンセンターの3Dプリンターで複製ショップで購入",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44276,7 +44276,7 @@
       "categoryJp": "おくがい",
       "categoryKo": "야외",
       "descriptionJp": "加工できないボロボロの布。切ると糸くずが手に入る。",
-      "descriptionKo": "",
+      "descriptionKo": "가공할 수 없는 너덜너덜한 천. 자르면 실뭉치를 얻는다.",
       "obtainMethodJp": "「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44293,7 +44293,7 @@
       "categoryJp": "べんり",
       "categoryKo": "편의",
       "descriptionJp": "電気を流すと流れ星みたいにキラキラ。辺りは一気に神秘的なフンイキに。",
-      "descriptionKo": "",
+      "descriptionKo": "전기를 흘리면 유성 같이 반짝반짝. 주변이 단번에 신비로운 분위기로 변함.",
       "obtainMethodJp": "おおきなおとしものをかんてい",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44310,7 +44310,7 @@
       "categoryJp": "たてもの",
       "categoryKo": "건물",
       "descriptionJp": "めずらしい形のアーチポール。模様がナゾノクサに見えてくるかも。",
-      "descriptionKo": "",
+      "descriptionKo": "신기한 모양의 아치폴. 무늬가 뚜벅쵸처럼 보일지도.",
       "obtainMethodJp": "アーチポールを設置したときに確率で変化",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44378,7 +44378,7 @@
       "categoryJp": "大切なもの",
       "categoryKo": "소중한 것",
       "descriptionJp": "難しい課題を乗りこえた証。あおいろの輝きをはなっている。",
-      "descriptionKo": "",
+      "descriptionKo": "어려운 과제를 이겨낸 증표. 파란색 빛을 내고 있다.",
       "obtainMethodJp": "入団チャレンジ第2弾をクリアで入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44395,7 +44395,7 @@
       "categoryJp": "大切なもの",
       "categoryKo": "소중한 것",
       "descriptionJp": "かなり難しい課題を乗りこえた証。だいだいいろの輝きをはなっている。",
-      "descriptionKo": "",
+      "descriptionKo": "꽤 어려운 과제를 이겨낸 증표. 주황색 빛을 내고 있다.",
       "obtainMethodJp": "入団チャレンジ第3弾をクリアで入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44412,7 +44412,7 @@
       "categoryJp": "大切なもの",
       "categoryKo": "소중한 것",
       "descriptionJp": "かなり難しい課題を乗りこえた証。にじいろの輝きをはなっている。",
-      "descriptionKo": "",
+      "descriptionKo": "꽤 어려운 과제를 이겨낸 증표. 무지개색 빛을 내고 있다.",
       "obtainMethodJp": "入団チャレンジ第4弾をクリアで入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44429,7 +44429,7 @@
       "categoryJp": "大切なもの",
       "categoryKo": "소중한 것",
       "descriptionJp": "かなり難しい課題を乗りこえた証。ももいろの輝きをはなっている。",
-      "descriptionKo": "",
+      "descriptionKo": "꽤 어려운 과제를 이겨낸 증표. 분홍색 빛을 내고 있다.",
       "obtainMethodJp": "入団チャレンジ第5弾をクリアで入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44446,7 +44446,7 @@
       "categoryJp": "大切なもの",
       "categoryKo": "소중한 것",
       "descriptionJp": "とても難しい課題を乗りこえた証。きんいろの輝きをはなっている。",
-      "descriptionKo": "",
+      "descriptionKo": "매우 어려운 과제를 이겨낸 증표. 금색 빛을 내고 있다.",
       "obtainMethodJp": "入団チャレンジ第6弾をクリアで入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44463,7 +44463,7 @@
       "categoryJp": "大切なもの",
       "categoryKo": "소중한 것",
       "descriptionJp": "とても難しい課題を乗りこえた証。あかいろの輝きをはなっている。",
-      "descriptionKo": "",
+      "descriptionKo": "매우 어려운 과제를 이겨낸 증표. 빨간색 빛을 내고 있다.",
       "obtainMethodJp": "入団チャレンジ第7弾をクリアで入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44480,7 +44480,7 @@
       "categoryJp": "大切なもの",
       "categoryKo": "소중한 것",
       "descriptionJp": "とても難しい課題を乗りこえた証。みどりいろの輝きをはなっている。",
-      "descriptionKo": "",
+      "descriptionKo": "매우 어려운 과제를 이겨낸 증표. 초록색 빛을 내고 있다.",
       "obtainMethodJp": "入団チャレンジ第8弾をクリアで入手",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44497,7 +44497,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.1。プレーヤーがあればワクワクする曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.1. 플레이어가 있으면 설레는 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44514,7 +44514,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.2。プレーヤーがあればのどかな街の曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.2. 플레이어가 있으면 평화로운 마을 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44531,7 +44531,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.3。プレーヤーがあればアカデミックな曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.3. 플레이어가 있으면 학구적인 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44548,7 +44548,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.4。プレーヤーがあればうきうきする曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.4. 플레이어가 있으면 즐거운 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44565,7 +44565,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.5。プレーヤーがあればイキイキとした街の曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.5. 플레이어가 있으면 활기찬 마을 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44582,7 +44582,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.6。プレーヤーがあればこころやすらぐ曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.6. 플레이어가 있으면 마음이 편안해지는 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44599,7 +44599,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.7。プレーヤーがあればしんぴてきな曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.7. 플레이어가 있으면 신비로운 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44616,7 +44616,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.8。プレーヤーがあれば軽快な曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.8. 플레이어가 있으면 경쾌한 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44633,7 +44633,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.9。プレーヤーがあればさわやかな街の曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.9. 플레이어가 있으면 상쾌한 마을 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44650,7 +44650,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.10。プレーヤーがあれば力強い曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.10. 플레이어가 있으면 힘찬 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44667,7 +44667,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.11。プレーヤーがあればいさましい曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.11. 플레이어가 있으면 용맹한 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44684,7 +44684,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.12。プレーヤーがあれば元気いっぱいな街の曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.12. 플레이어가 있으면 활기 넘치는 마을 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44701,7 +44701,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.13。プレーヤーがあればごうかな曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.13. 플레이어가 있으면 호화로운 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44718,7 +44718,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.14。プレーヤーがあればおそろしい曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.14. 플레이어가 있으면 무시무시한 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44735,7 +44735,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.15。プレーヤーがあればあやしげな曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.15. 플레이어가 있으면 수상한 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44752,7 +44752,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.16。プレーヤーがあればドキドキする曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.16. 플레이어가 있으면 두근두근하는 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44769,7 +44769,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.17。プレーヤーがあればフシギな曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.17. 플레이어가 있으면 신기한 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44786,7 +44786,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.18。プレーヤーがあればゆうがな曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.18. 플레이어가 있으면 우아한 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44803,7 +44803,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.19。プレーヤーがあればりんとした曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.19. 플레이어가 있으면 의연한 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44820,7 +44820,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.20。プレーヤーがあれば落ち着いた曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.20. 플레이어가 있으면 차분한 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44837,7 +44837,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.21。プレーヤーがあればげんそうてきな曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.21. 플레이어가 있으면 환상적인 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44854,7 +44854,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.22。プレーヤーがあればノスタルジックな曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.22. 플레이어가 있으면 향수를 불러일으키는 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44871,7 +44871,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.23。プレーヤーがあればしんせいな曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.23. 플레이어가 있으면 신성한 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44888,7 +44888,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.24。プレーヤーがあればアゲアゲな曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.24. 플레이어가 있으면 신나는 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44905,7 +44905,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.25。プレーヤーがあればオリエンタルな曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.25. 플레이어가 있으면 동양적인 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44922,7 +44922,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.26。プレーヤーがあればどこかはりつめた曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.26. 플레이어가 있으면 어딘가 긴장감 있는 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44939,7 +44939,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.27。プレーヤーがあればポップでかわいい曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.27. 플레이어가 있으면 팝하고 귀여운 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44956,7 +44956,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.28。プレーヤーがあればものがなしい曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.28. 플레이어가 있으면 쓸쓸한 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44973,7 +44973,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.29。プレーヤーがあればオシャレでカッコいい曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.29. 플레이어가 있으면 세련되고 멋진 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -44990,7 +44990,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.30。プレーヤーがあればエネルギッシュな曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.30. 플레이어가 있으면 에너지 넘치는 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -45007,7 +45007,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.31。プレーヤーがあれば楽しげな曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.31. 플레이어가 있으면 즐거운 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -45024,7 +45024,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.32。プレーヤーがあればトロピカルな曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.32. 플레이어가 있으면 트로피컬한 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -45041,7 +45041,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.33。プレーヤーがあればミステリアスな曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.33. 플레이어가 있으면 미스터리한 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -45058,7 +45058,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.34。プレーヤーがあればノイズのまじった曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.34. 플레이어가 있으면 노이즈가 섞인 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -45075,7 +45075,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.35。プレーヤーがあればダイナミックな曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.35. 플레이어가 있으면 다이나믹한 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -45092,7 +45092,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.36。プレーヤーがあればワクワクする街の曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.36. 플레이어가 있으면 설레는 마을 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -45109,7 +45109,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.37。プレーヤーがあればスピーディな曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.37. 플레이어가 있으면 스피디한 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -45126,7 +45126,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.38。プレーヤーがあれば力がみなぎる曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.38. 플레이어가 있으면 힘이 솟는 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -45143,7 +45143,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.39。プレーヤーがあれば懐かしくも暖かい曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.39. 플레이어가 있으면 그립고 따뜻한 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -45160,7 +45160,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.40。プレーヤーがあれば壮大な曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.40. 플레이어가 있으면 웅장한 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -45177,7 +45177,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.41。プレーヤーがあれば立派な曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.41. 플레이어가 있으면 훌륭한 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -45194,7 +45194,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.42。プレーヤーがあればとくべつな感じの曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.42. 플레이어가 있으면 특별한 느낌의 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -45211,7 +45211,7 @@
       "categoryJp": "その他",
       "categoryKo": "기타",
       "descriptionJp": "音楽のCD No.43。プレーヤーがあれば勇気がわいてくる曲が聴けそう。",
-      "descriptionKo": "",
+      "descriptionKo": "음악 CD No.43. 플레이어가 있으면 용기가 솟는 곡을 들을 수 있을 것 같다.",
       "obtainMethodJp": "ダウジングマシンで光る地面を見つけて掘る",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -45228,7 +45228,7 @@
       "categoryJp": "おくがい",
       "categoryKo": "야외",
       "descriptionJp": "特別な方法で手に入れたもの。そのまま置くことができる。",
-      "descriptionKo": "",
+      "descriptionKo": "특별한 방법으로 얻은 것. 그대로 놓을 수 있다.",
       "obtainMethodJp": "「でんじふゆう」で回収",
       "craftMaterialsJp": [],
       "habitatsJp": [],
