@@ -15073,7 +15073,7 @@
     {
       "id": "gw-3",
       "nameJp": "はっぱ",
-      "nameKo": "잎사귀",
+      "nameKo": "나뭇잎",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_3.png",
       "categoryJp": "材料",
       "categoryKo": "재료",
@@ -15318,7 +15318,7 @@
     {
       "id": "gw-12",
       "nameJp": "クラフトだい",
-      "nameKo": "크래프트 대",
+      "nameKo": "크래프트 받침대",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_12.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -15391,7 +15391,7 @@
     {
       "id": "gw-14",
       "nameJp": "あまいミツ",
-      "nameKo": "달콤한꿀",
+      "nameKo": "달콤한 꿀",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_14.png",
       "categoryJp": "材料",
       "categoryKo": "재료",
@@ -15406,7 +15406,7 @@
     {
       "id": "gw-15",
       "nameJp": "はらっぱのはな",
-      "nameKo": "들판 꽃",
+      "nameKo": "들판의 꽃",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_15.png",
       "categoryJp": "自然",
       "categoryKo": "자연",
@@ -15462,7 +15462,7 @@
     {
       "id": "gw-16",
       "nameJp": "ヒメリのみ",
-      "nameKo": "과사열매",
+      "nameKo": "리샘열매",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_16.png",
       "categoryJp": "食べもの",
       "categoryKo": "음식",
@@ -15565,7 +15565,7 @@
     {
       "id": "gw-21",
       "nameJp": "しゅうのうボックス",
-      "nameKo": "수납 상자",
+      "nameKo": "수납 박스",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_21.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -15586,7 +15586,7 @@
     {
       "id": "gw-22",
       "nameJp": "つみき",
-      "nameKo": "쌓기 블록",
+      "nameKo": "블록쌓기",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_22.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -15628,7 +15628,7 @@
     {
       "id": "gw-24",
       "nameJp": "はっぱのおへやキット",
-      "nameKo": "잎사귀 방 키트",
+      "nameKo": "나뭇잎 방 키트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_1.png",
       "categoryJp": "キット",
       "categoryKo": "키트",
@@ -15649,7 +15649,7 @@
       "sourceUrl": null,
       "gamewithId": "24",
       "gamewithArticleId": "547229",
-      "descriptionKo": null
+      "descriptionKo": "상점 또는 이벤트로 입수"
     },
     {
       "id": "gw-25",
@@ -15716,7 +15716,7 @@
     {
       "id": "gw-28",
       "nameJp": "さんばし",
-      "nameKo": "잔교",
+      "nameKo": "부두",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_28.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -15796,7 +15796,7 @@
     {
       "id": "gw-31",
       "nameJp": "にじいろのはね",
-      "nameKo": "무지갯빛깃털",
+      "nameKo": "무지개빛 깃털",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_31.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -15978,7 +15978,7 @@
     {
       "id": "gw-40",
       "nameJp": "木のしきり・まっすぐ",
-      "nameKo": "나무 칸막이·직선",
+      "nameKo": "나무 파티션·직선",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_40.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -15999,7 +15999,7 @@
     {
       "id": "gw-41",
       "nameJp": "さらさらいわ",
-      "nameKo": "보송보송바위",
+      "nameKo": "매끄러운 바위",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_41.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -16072,7 +16072,7 @@
     {
       "id": "gw-44",
       "nameJp": "ほそながキャンドル",
-      "nameKo": "길쭉한 캔들",
+      "nameKo": "가느다란 양초",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_44.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -16201,7 +16201,7 @@
     {
       "id": "gw-48",
       "nameJp": "つたひも",
-      "nameKo": "덩굴끈",
+      "nameKo": "덩굴줄",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_48.png",
       "categoryJp": "材料",
       "categoryKo": "재료",
@@ -16248,7 +16248,7 @@
     {
       "id": "gw-50",
       "nameJp": "バスケット",
-      "nameKo": "바스켓",
+      "nameKo": "바구니",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_50.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -16280,7 +16280,7 @@
     {
       "id": "gw-51",
       "nameJp": "ながれぼしランプ・きいろ",
-      "nameKo": "별똥별 램프·노란색",
+      "nameKo": "별똥별 램프·노랑",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_51.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -16361,7 +16361,7 @@
     {
       "id": "gw-56",
       "nameJp": "ポイントアップ",
-      "nameKo": "포인트 업",
+      "nameKo": "포인트업",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_56.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -16423,7 +16423,7 @@
     {
       "id": "gw-59",
       "nameJp": "サブバッグ",
-      "nameKo": "보조 가방",
+      "nameKo": "서브 가방",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_59.png",
       "categoryJp": "大切なもの",
       "categoryKo": "소중한 것",
@@ -16459,7 +16459,7 @@
     {
       "id": "gw-61",
       "nameJp": "てつパイプ・よこ",
-      "nameKo": "철 파이프·가로",
+      "nameKo": "철파이프·가로",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_61.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -16474,7 +16474,7 @@
     {
       "id": "gw-62",
       "nameJp": "てつパイプ・したカーブ",
-      "nameKo": "철 파이프·아래 커브",
+      "nameKo": "철파이프·아래곡선",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_62.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -16531,7 +16531,7 @@
     {
       "id": "gw-65",
       "nameJp": "ネジネジうえ木",
-      "nameKo": "꼬불꼬불 나무",
+      "nameKo": "꼬불꼬불 화분나무",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_65.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -16546,7 +16546,7 @@
     {
       "id": "gw-66",
       "nameJp": "ガーデンベンチ",
-      "nameKo": "가든 벤치",
+      "nameKo": "정원 벤치",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_66.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -16604,7 +16604,7 @@
     {
       "id": "gw-68",
       "nameJp": "ダウジングマシン",
-      "nameKo": "다우징 머신",
+      "nameKo": "다우징머신",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_68.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -16730,7 +16730,7 @@
     {
       "id": "gw-73",
       "nameJp": "かくばりたな",
-      "nameKo": "모서리 선반",
+      "nameKo": "사각 선반",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_73.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -16745,7 +16745,7 @@
     {
       "id": "gw-74",
       "nameJp": "シールドのカセキ・しっぽ",
-      "nameKo": "실드 화석(꼬리)",
+      "nameKo": "실드화석·꼬리",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_74.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -16781,7 +16781,7 @@
     {
       "id": "gw-76",
       "nameJp": "こうかくレンズ",
-      "nameKo": "광각렌즈",
+      "nameKo": "광각 렌즈",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_76.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -16837,7 +16837,7 @@
     {
       "id": "gw-79",
       "nameJp": "たてのカセキ",
-      "nameKo": "방패 화석",
+      "nameKo": "방패의화석",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_79.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -16858,7 +16858,7 @@
     {
       "id": "gw-80",
       "nameJp": "ハートのウロコ",
-      "nameKo": "하트비늘",
+      "nameKo": "하트 비늘",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_80.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -16905,7 +16905,7 @@
     {
       "id": "gw-82",
       "nameJp": "あかいいと",
-      "nameKo": "빨간실",
+      "nameKo": "빨간 실",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_82.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -16935,7 +16935,7 @@
     {
       "id": "gw-84",
       "nameJp": "シールドのカセキ・どう",
-      "nameKo": "실드 화석(몸통)",
+      "nameKo": "실드화석·몸통",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_84.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -16988,7 +16988,7 @@
     {
       "id": "gw-86",
       "nameJp": "ながれぼしランプ・みどり",
-      "nameKo": "별똥별 램프·초록색",
+      "nameKo": "별똥별 램프·초록",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_86.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -17003,7 +17003,7 @@
     {
       "id": "gw-87",
       "nameJp": "もんトビラ",
-      "nameKo": "대문",
+      "nameKo": "문 여닫이",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_87.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -17018,7 +17018,7 @@
     {
       "id": "gw-88",
       "nameJp": "りゅうのキバ",
-      "nameKo": "용의이빨",
+      "nameKo": "용의 이빨",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_88.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -17033,7 +17033,7 @@
     {
       "id": "gw-89",
       "nameJp": "たべごろキノコ",
-      "nameKo": "먹기 좋은 버섯",
+      "nameKo": "먹음직한 버섯",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_89.png",
       "categoryJp": "食べもの",
       "categoryKo": "음식",
@@ -17048,7 +17048,7 @@
     {
       "id": "gw-90",
       "nameJp": "たべのこし",
-      "nameKo": "먹다남은음식",
+      "nameKo": "먹다남은 음식",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_90.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -17140,7 +17140,7 @@
     {
       "id": "gw-95",
       "nameJp": "メタルコート",
-      "nameKo": "금속코트",
+      "nameKo": "메탈코트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_95.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -17155,7 +17155,7 @@
     {
       "id": "gw-96",
       "nameJp": "かたいいし",
-      "nameKo": "딱딱한돌",
+      "nameKo": "단단한 돌",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_96.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -17259,7 +17259,7 @@
     {
       "id": "gw-105",
       "nameJp": "にぐるま",
-      "nameKo": "짐수레",
+      "nameKo": "수레",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_105.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -17394,7 +17394,7 @@
     {
       "id": "gw-111",
       "nameJp": "うみべのはな",
-      "nameKo": "해변 꽃",
+      "nameKo": "해변의 꽃",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_111.png",
       "categoryJp": "自然",
       "categoryKo": "자연",
@@ -17461,7 +17461,7 @@
     {
       "id": "gw-113",
       "nameJp": "風力はつでんキット",
-      "nameKo": "풍력발전 키트",
+      "nameKo": "풍력 발전 키트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_7.png",
       "categoryJp": "キット",
       "categoryKo": "키트",
@@ -17482,12 +17482,12 @@
       "sourceUrl": null,
       "gamewithId": "113",
       "gamewithArticleId": "547832",
-      "descriptionKo": null
+      "descriptionKo": "상점 또는 이벤트로 입수"
     },
     {
       "id": "gw-114",
       "nameJp": "ビーチチェア",
-      "nameKo": "비치 의자",
+      "nameKo": "비치 체어",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_114.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -17703,7 +17703,7 @@
     {
       "id": "gw-120",
       "nameJp": "あみものキット",
-      "nameKo": "뜨개질 키트",
+      "nameKo": "뜨개질 세트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_120.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -17796,7 +17796,7 @@
     {
       "id": "gw-123",
       "nameJp": "いわばのはな",
-      "nameKo": "바위 지대 꽃",
+      "nameKo": "바위틈의 꽃",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_123.png",
       "categoryJp": "自然",
       "categoryKo": "자연",
@@ -17869,7 +17869,7 @@
     {
       "id": "gw-125",
       "nameJp": "うきくさ",
-      "nameKo": "개구리밥",
+      "nameKo": "부평초",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_125.png",
       "categoryJp": "自然",
       "categoryKo": "자연",
@@ -17952,7 +17952,7 @@
     {
       "id": "gw-129",
       "nameJp": "アツアツいわ",
-      "nameKo": "이글이글 바위",
+      "nameKo": "뜨거운 바위",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_129.png",
       "categoryJp": "自然",
       "categoryKo": "자연",
@@ -18020,7 +18020,7 @@
     {
       "id": "gw-132",
       "nameJp": "やまほりどうぐ",
-      "nameKo": "땅파기 도구",
+      "nameKo": "채굴 도구",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_132.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -18172,7 +18172,7 @@
     {
       "id": "gw-136",
       "nameJp": "おいしいみず",
-      "nameKo": "맛있는물",
+      "nameKo": "맛있는 물",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_136.png",
       "categoryJp": "食べもの",
       "categoryKo": "음식",
@@ -18260,7 +18260,7 @@
     {
       "id": "gw-139",
       "nameJp": "ステージだい",
-      "nameKo": "스테이지 받침대",
+      "nameKo": "스테이지 받침",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_139.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -18307,7 +18307,7 @@
     {
       "id": "gw-140",
       "nameJp": "イカしたエレキベース",
-      "nameKo": "멋진 일렉베이스",
+      "nameKo": "멋진 일렉 베이스",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_140.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -18380,7 +18380,7 @@
     {
       "id": "gw-142",
       "nameJp": "ぼうくんのカセキ・あたま",
-      "nameKo": "폭군 화석(머리)",
+      "nameKo": "폭군의 화석·머리",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_142.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -18401,7 +18401,7 @@
     {
       "id": "gw-143",
       "nameJp": "ぼうくんのカセキ・どう",
-      "nameKo": "폭군 화석(몸통)",
+      "nameKo": "폭군의 화석·몸통",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_143.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -18422,7 +18422,7 @@
     {
       "id": "gw-144",
       "nameJp": "ぼうくんのカセキ・あし",
-      "nameKo": "폭군 화석(다리)",
+      "nameKo": "폭군의 화석·다리",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_144.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -18443,7 +18443,7 @@
     {
       "id": "gw-145",
       "nameJp": "ぼうくんのカセキ・しっぽ",
-      "nameKo": "폭군 화석(꼬리)",
+      "nameKo": "폭군의 화석·꼬리",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_145.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -18548,7 +18548,7 @@
     {
       "id": "gw-150",
       "nameJp": "チョコクッキー",
-      "nameKo": "초코 쿠키",
+      "nameKo": "초코쿠키",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_150.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -18632,7 +18632,7 @@
     {
       "id": "gw-154",
       "nameJp": "こうこうのしっぽ",
-      "nameKo": "느림보꼬리",
+      "nameKo": "뒤처지 꼬리",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_154.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -18647,7 +18647,7 @@
     {
       "id": "gw-155",
       "nameJp": "ながれぼしランプ・だいだい",
-      "nameKo": "별똥별 램프·주황색",
+      "nameKo": "별똥별 램프·주황",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_155.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -18683,7 +18683,7 @@
     {
       "id": "gw-157",
       "nameJp": "じゃくてんほけん",
-      "nameKo": "약점보험",
+      "nameKo": "약점 보험",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_157.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -18719,7 +18719,7 @@
     {
       "id": "gw-159",
       "nameJp": "くろおび",
-      "nameKo": "검은띠",
+      "nameKo": "검은 띠",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_159.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -18734,7 +18734,7 @@
     {
       "id": "gw-160",
       "nameJp": "グレーなバッジ",
-      "nameKo": "회색 뱃지",
+      "nameKo": "회색 배지",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_160.png",
       "categoryJp": "大切なもの",
       "categoryKo": "소중한 것",
@@ -18749,7 +18749,7 @@
     {
       "id": "gw-161",
       "nameJp": "シールドのカセキ・あたま",
-      "nameKo": "실드 화석(머리)",
+      "nameKo": "실드화석·머리",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_161.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -18770,7 +18770,7 @@
     {
       "id": "gw-162",
       "nameJp": "ピッピにんぎょう",
-      "nameKo": "삐삐인형",
+      "nameKo": "삐삐 인형",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_162.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -18800,7 +18800,7 @@
     {
       "id": "gw-164",
       "nameJp": "みがわりにんぎょう",
-      "nameKo": "대타 인형",
+      "nameKo": "대타출동 인형",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_164.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -18830,7 +18830,7 @@
     {
       "id": "gw-166",
       "nameJp": "ぴょんぴょんバスタブ",
-      "nameKo": "깡충깡충 욕조",
+      "nameKo": "통통 욕조",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_166.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -18845,7 +18845,7 @@
     {
       "id": "gw-167",
       "nameJp": "ツンドラのカセキ・しっぽ",
-      "nameKo": "툰드라 화석(꼬리)",
+      "nameKo": "툰드라의 화석·꼬리",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_167.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -18887,7 +18887,7 @@
     {
       "id": "gw-169",
       "nameJp": "ツンドラのカセキ・あたま",
-      "nameKo": "툰드라 화석(머리)",
+      "nameKo": "툰드라의 화석·머리",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_169.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -18923,7 +18923,7 @@
     {
       "id": "gw-171",
       "nameJp": "てつのテーブル",
-      "nameKo": "철제 테이블",
+      "nameKo": "철 테이블",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_171.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -18960,7 +18960,7 @@
       "sourceUrl": null,
       "gamewithId": "172",
       "gamewithArticleId": "548274",
-      "descriptionKo": null
+      "descriptionKo": "백지마을의 동굴에서 입수"
     },
     {
       "id": "gw-173",
@@ -19047,7 +19047,7 @@
     {
       "id": "gw-177",
       "nameJp": "かおだしパネル",
-      "nameKo": "얼굴 패널",
+      "nameKo": "얼굴 내미는 패널",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_177.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -19083,7 +19083,7 @@
     {
       "id": "gw-179",
       "nameJp": "ながれぼしランプ・あおいろ",
-      "nameKo": "별똥별 램프·파란색",
+      "nameKo": "별똥별 램프·파랑",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_179.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -19098,7 +19098,7 @@
     {
       "id": "gw-180",
       "nameJp": "ながれぼしランプ・むらさき",
-      "nameKo": "별똥별 램프·보라색",
+      "nameKo": "별똥별 램프·보라",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_180.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -19113,7 +19113,7 @@
     {
       "id": "gw-181",
       "nameJp": "くっつきバリ",
-      "nameKo": "끈적끈적바늘",
+      "nameKo": "들러붙는 가시",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_181.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19128,7 +19128,7 @@
     {
       "id": "gw-182",
       "nameJp": "きちょうなほね",
-      "nameKo": "귀중한 뼈",
+      "nameKo": "귀중한뼈",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_182.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19143,7 +19143,7 @@
     {
       "id": "gw-183",
       "nameJp": "むしよけスプレー",
-      "nameKo": "벌레회피스프레이",
+      "nameKo": "벌레회피 스프레이",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_183.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -19158,7 +19158,7 @@
     {
       "id": "gw-184",
       "nameJp": "いねむりベッド",
-      "nameKo": "낮잠 침대",
+      "nameKo": "졸음 침대",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_184.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -19194,7 +19194,7 @@
     {
       "id": "gw-186",
       "nameJp": "あやしいキャンドル",
-      "nameKo": "수상한 캔들",
+      "nameKo": "수상한 양초",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_186.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -19215,7 +19215,7 @@
     {
       "id": "gw-187",
       "nameJp": "するどいくちばし",
-      "nameKo": "예리한부리",
+      "nameKo": "날카로운 부리",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_187.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19290,7 +19290,7 @@
     {
       "id": "gw-192",
       "nameJp": "いのちのたま",
-      "nameKo": "생명의구슬",
+      "nameKo": "생명의 구슬",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_192.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19305,7 +19305,7 @@
     {
       "id": "gw-193",
       "nameJp": "くろいてっきゅう",
-      "nameKo": "검은철구",
+      "nameKo": "검은 철구",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_193.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19320,7 +19320,7 @@
     {
       "id": "gw-194",
       "nameJp": "グランドコート",
-      "nameKo": "그라운드코트",
+      "nameKo": "그랜드코트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_194.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19335,7 +19335,7 @@
     {
       "id": "gw-195",
       "nameJp": "ねらいのまと",
-      "nameKo": "겨냥표적",
+      "nameKo": "표적의 과녁",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_195.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19390,12 +19390,12 @@
       "sourceUrl": null,
       "gamewithId": "198",
       "gamewithArticleId": "548417",
-      "descriptionKo": null
+      "descriptionKo": "울퉁불퉁 산지 마을의 광산에서 입수 / 화산의 꿈섬에서 입수"
     },
     {
       "id": "gw-199",
       "nameJp": "ようせいのハネ",
-      "nameKo": "요정의깃털",
+      "nameKo": "요정의 날개",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_199.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19440,7 +19440,7 @@
     {
       "id": "gw-202",
       "nameJp": "ジムマークぞう",
-      "nameKo": "짐마크 석상",
+      "nameKo": "체육관마크 상",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_202.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -19455,7 +19455,7 @@
     {
       "id": "gw-203",
       "nameJp": "ぎんいろのはね",
-      "nameKo": "은빛깃털",
+      "nameKo": "은빛날개",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_203.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19526,7 +19526,7 @@
     {
       "id": "gw-207",
       "nameJp": "ほのおのブビィぞう",
-      "nameKo": "불꽃 마그비 석상",
+      "nameKo": "마그비 불꽃상",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_207.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19556,7 +19556,7 @@
     {
       "id": "gw-209",
       "nameJp": "のろいのおふだ",
-      "nameKo": "저주의부적",
+      "nameKo": "저주의 부적",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_209.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19586,7 +19586,7 @@
     {
       "id": "gw-211",
       "nameJp": "ビビリだま",
-      "nameKo": "주눅구슬",
+      "nameKo": "쫄보구슬",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_211.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19601,7 +19601,7 @@
     {
       "id": "gw-212",
       "nameJp": "シルクのスカーフ",
-      "nameKo": "실크스카프",
+      "nameKo": "실크 스카프",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_212.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19616,7 +19616,7 @@
     {
       "id": "gw-213",
       "nameJp": "ツンドラのカセキ・どう",
-      "nameKo": "툰드라 화석(몸통)",
+      "nameKo": "툰드라의 화석·몸통",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_213.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19652,7 +19652,7 @@
     {
       "id": "gw-215",
       "nameJp": "ぐにゃぐにゃねんど",
-      "nameKo": "흐물흐물 점토",
+      "nameKo": "말랑말랑 점토",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_215.png",
       "categoryJp": "材料",
       "categoryKo": "재료",
@@ -19785,7 +19785,7 @@
     {
       "id": "gw-222",
       "nameJp": "どかん",
-      "nameKo": "토관",
+      "nameKo": "파이프",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_222.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -19827,7 +19827,7 @@
     {
       "id": "gw-224",
       "nameJp": "ヒカリいし",
-      "nameKo": "광채 돌",
+      "nameKo": "빛의돌",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_224.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -19837,7 +19837,7 @@
       "sourceUrl": null,
       "gamewithId": "224",
       "gamewithArticleId": "548281",
-      "descriptionKo": null
+      "descriptionKo": "울퉁불퉁 산지 마을의 광산에서 입수 / 화산의 꿈섬에서 입수"
     },
     {
       "id": "gw-225",
@@ -19852,12 +19852,12 @@
       "sourceUrl": null,
       "gamewithId": "225",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "울퉁불퉁 산지 마을의 동굴 주변에서 입수 / 반짝반짝 부유섬 마을에서 입수 / 바위산의 꿈섬에서 입수"
     },
     {
       "id": "gw-226",
       "nameJp": "ナゾのせきばんA",
-      "nameKo": "수수께끼 석판 A",
+      "nameKo": "수수께끼 석판A",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_226.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19872,7 +19872,7 @@
     {
       "id": "gw-227",
       "nameJp": "ナゾのせきばんB",
-      "nameKo": "수수께끼 석판 B",
+      "nameKo": "수수께끼 석판B",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_227.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19887,7 +19887,7 @@
     {
       "id": "gw-228",
       "nameJp": "ナゾのせきばんC",
-      "nameKo": "수수께끼 석판 C",
+      "nameKo": "수수께끼 석판C",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_228.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19902,7 +19902,7 @@
     {
       "id": "gw-229",
       "nameJp": "ナゾのせきばんD",
-      "nameKo": "수수께끼 석판 D",
+      "nameKo": "수수께끼 석판D",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_229.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19917,7 +19917,7 @@
     {
       "id": "gw-230",
       "nameJp": "ナゾのせきばんE",
-      "nameKo": "수수께끼 석판 E",
+      "nameKo": "수수께끼 석판E",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_230.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19932,7 +19932,7 @@
     {
       "id": "gw-231",
       "nameJp": "ナゾのせきばんF",
-      "nameKo": "수수께끼 석판 F",
+      "nameKo": "수수께끼 석판F",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_231.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19947,7 +19947,7 @@
     {
       "id": "gw-232",
       "nameJp": "ナゾのせきばんG",
-      "nameKo": "수수께끼 석판 G",
+      "nameKo": "수수께끼 석판G",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_232.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19962,7 +19962,7 @@
     {
       "id": "gw-233",
       "nameJp": "ナゾのせきばんH",
-      "nameKo": "수수께끼 석판 H",
+      "nameKo": "수수께끼 석판H",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_233.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19977,7 +19977,7 @@
     {
       "id": "gw-234",
       "nameJp": "ナゾのせきばんI",
-      "nameKo": "수수께끼 석판 I",
+      "nameKo": "수수께끼 석판I",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_234.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -19992,7 +19992,7 @@
     {
       "id": "gw-235",
       "nameJp": "ナゾのせきばんJ",
-      "nameKo": "수수께끼 석판 J",
+      "nameKo": "수수께끼 석판J",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_235.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -20007,7 +20007,7 @@
     {
       "id": "gw-236",
       "nameJp": "ナゾのせきばんK",
-      "nameKo": "수수께끼 석판 K",
+      "nameKo": "수수께끼 석판K",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_236.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -20022,7 +20022,7 @@
     {
       "id": "gw-237",
       "nameJp": "ナゾのせきばんL",
-      "nameKo": "수수께끼 석판 L",
+      "nameKo": "수수께끼 석판L",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_237.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -20037,7 +20037,7 @@
     {
       "id": "gw-238",
       "nameJp": "ナゾのせきばんM",
-      "nameKo": "수수께끼 석판 M",
+      "nameKo": "수수께끼 석판M",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_238.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -20052,7 +20052,7 @@
     {
       "id": "gw-239",
       "nameJp": "ナゾのせきばんN",
-      "nameKo": "수수께끼 석판 N",
+      "nameKo": "수수께끼 석판N",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_239.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -20067,7 +20067,7 @@
     {
       "id": "gw-240",
       "nameJp": "ナゾのせきばんO",
-      "nameKo": "수수께끼 석판 O",
+      "nameKo": "수수께끼 석판O",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_240.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -20082,7 +20082,7 @@
     {
       "id": "gw-241",
       "nameJp": "ナゾのせきばんP",
-      "nameKo": "수수께끼 석판 P",
+      "nameKo": "수수께끼 석판P",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_241.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -20097,7 +20097,7 @@
     {
       "id": "gw-242",
       "nameJp": "ナゾのせきばんQ",
-      "nameKo": "수수께끼 석판 Q",
+      "nameKo": "수수께끼 석판Q",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_242.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -20112,7 +20112,7 @@
     {
       "id": "gw-243",
       "nameJp": "ナゾのせきばんR",
-      "nameKo": "수수께끼 석판 R",
+      "nameKo": "수수께끼 석판R",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_243.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -20127,7 +20127,7 @@
     {
       "id": "gw-244",
       "nameJp": "ナゾのせきばんS",
-      "nameKo": "수수께끼 석판 S",
+      "nameKo": "수수께끼 석판S",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_244.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -20142,7 +20142,7 @@
     {
       "id": "gw-245",
       "nameJp": "ナゾのせきばんT",
-      "nameKo": "수수께끼 석판 T",
+      "nameKo": "수수께끼 석판T",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_245.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -20157,7 +20157,7 @@
     {
       "id": "gw-246",
       "nameJp": "ナゾのせきばんU",
-      "nameKo": "수수께끼 석판 U",
+      "nameKo": "수수께끼 석판U",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_246.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -20172,7 +20172,7 @@
     {
       "id": "gw-247",
       "nameJp": "ナゾのせきばんV",
-      "nameKo": "수수께끼 석판 V",
+      "nameKo": "수수께끼 석판V",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_247.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -20187,7 +20187,7 @@
     {
       "id": "gw-248",
       "nameJp": "ナゾのせきばんW",
-      "nameKo": "수수께끼 석판 W",
+      "nameKo": "수수께끼 석판W",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_248.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -20202,7 +20202,7 @@
     {
       "id": "gw-249",
       "nameJp": "ナゾのせきばんX",
-      "nameKo": "수수께끼 석판 X",
+      "nameKo": "수수께끼 석판X",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_249.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -20217,7 +20217,7 @@
     {
       "id": "gw-250",
       "nameJp": "ナゾのせきばんY",
-      "nameKo": "수수께끼 석판 Y",
+      "nameKo": "수수께끼 석판Y",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_250.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -20232,7 +20232,7 @@
     {
       "id": "gw-251",
       "nameJp": "ナゾのせきばんZ",
-      "nameKo": "수수께끼 석판 Z",
+      "nameKo": "수수께끼 석판Z",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_251.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -20499,7 +20499,7 @@
     {
       "id": "gw-265",
       "nameJp": "ざっしだな",
-      "nameKo": "잡지 꽂이",
+      "nameKo": "잡지꽂이",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_265.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -20630,7 +20630,7 @@
     {
       "id": "gw-270",
       "nameJp": "てつのタイル",
-      "nameKo": "철제 타일",
+      "nameKo": "철타일",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_270.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -20646,12 +20646,12 @@
       "sourceUrl": null,
       "gamewithId": "270",
       "gamewithArticleId": "548336",
-      "descriptionKo": null
+      "descriptionKo": "울퉁불퉁 산지 마을 북쪽 박물관 터에서 입수"
     },
     {
       "id": "gw-271",
       "nameJp": "いしのはしら・まんなか",
-      "nameKo": "돌 기둥·가운데",
+      "nameKo": "돌기둥·가운데",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_271.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -20661,12 +20661,12 @@
       "sourceUrl": null,
       "gamewithId": "271",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "울퉁불퉁 산지 마을 북쪽 박물관 터에서 입수"
     },
     {
       "id": "gw-272",
       "nameJp": "のっぽなうえ木",
-      "nameKo": "키 큰 화분",
+      "nameKo": "키다리 화분나무",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_272.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -20696,7 +20696,7 @@
     {
       "id": "gw-274",
       "nameJp": "いしのはしら・した",
-      "nameKo": "돌 기둥·아래",
+      "nameKo": "돌기둥·아래",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_274.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -20706,12 +20706,12 @@
       "sourceUrl": null,
       "gamewithId": "274",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "울퉁불퉁 산지 마을 북쪽 박물관 터에서 입수"
     },
     {
       "id": "gw-275",
       "nameJp": "いしのはしら・うえ",
-      "nameKo": "돌 기둥·위",
+      "nameKo": "돌기둥·위",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_275.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -20721,7 +20721,7 @@
       "sourceUrl": null,
       "gamewithId": "275",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "울퉁불퉁 산지 마을 북쪽 박물관 터에서 입수"
     },
     {
       "id": "gw-276",
@@ -20742,12 +20742,12 @@
       "sourceUrl": null,
       "gamewithId": "276",
       "gamewithArticleId": "548337",
-      "descriptionKo": null
+      "descriptionKo": "울퉁불퉁 산지 마을 북쪽 박물관 터에서 입수"
     },
     {
       "id": "gw-277",
       "nameJp": "ガーデンオーナメント",
-      "nameKo": "가든 오너먼트",
+      "nameKo": "정원 장식물",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_277.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -20832,7 +20832,7 @@
       "sourceUrl": null,
       "gamewithId": "283",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "울퉁불퉁 산지 마을 북쪽 박물관 터에서 입수"
     },
     {
       "id": "gw-284",
@@ -20853,7 +20853,7 @@
       "sourceUrl": null,
       "gamewithId": "284",
       "gamewithArticleId": "548338",
-      "descriptionKo": null
+      "descriptionKo": "울퉁불퉁 산지 마을 북쪽 박물관 터에서 입수"
     },
     {
       "id": "gw-285",
@@ -20874,7 +20874,7 @@
       "sourceUrl": null,
       "gamewithId": "285",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "울퉁불퉁 산지 마을 북쪽 박물관 터에서 입수"
     },
     {
       "id": "gw-286",
@@ -20931,7 +20931,7 @@
     {
       "id": "gw-288",
       "nameJp": "スタイリッシュなドア",
-      "nameKo": "스타일리시한 문",
+      "nameKo": "스타일리시 문",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_288.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -20946,7 +20946,7 @@
     {
       "id": "gw-289",
       "nameJp": "オフィスのデスク",
-      "nameKo": "오피스 데스크",
+      "nameKo": "사무실 책상",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_289.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -20973,7 +20973,7 @@
     {
       "id": "gw-290",
       "nameJp": "ほしのすな",
-      "nameKo": "별의모래",
+      "nameKo": "별의 모래",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_290.png",
       "categoryJp": "材料",
       "categoryKo": "재료",
@@ -20988,7 +20988,7 @@
     {
       "id": "gw-291",
       "nameJp": "ほしのかけら",
-      "nameKo": "별의조각",
+      "nameKo": "별의 조각",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_291.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -21009,7 +21009,7 @@
     {
       "id": "gw-292",
       "nameJp": "ながれぼしランプ・あかいろ",
-      "nameKo": "별똥별 램프·빨간색",
+      "nameKo": "별똥별 램프·빨강",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_292.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -21050,7 +21050,7 @@
     {
       "id": "gw-294",
       "nameJp": "きのみなベッド",
-      "nameKo": "나무열매 침대",
+      "nameKo": "열매 침대",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_294.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -21158,7 +21158,7 @@
     {
       "id": "gw-299",
       "nameJp": "イワイノヨロイ",
-      "nameKo": "축복받은갑옷",
+      "nameKo": "축하의 갑옷",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_299.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -21190,7 +21190,7 @@
     {
       "id": "gw-300",
       "nameJp": "ノロイノヨロイ",
-      "nameKo": "저주받은갑옷",
+      "nameKo": "저주의 갑옷",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_300.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -21222,7 +21222,7 @@
     {
       "id": "gw-301",
       "nameJp": "デカヌギア",
-      "nameKo": "두드리기어",
+      "nameKo": "대형 너트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_301.png",
       "categoryJp": "材料",
       "categoryKo": "재료",
@@ -21237,7 +21237,7 @@
     {
       "id": "gw-302",
       "nameJp": "リフトのりば",
-      "nameKo": "리프트",
+      "nameKo": "리프트 승강장",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_302.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -21319,7 +21319,7 @@
     {
       "id": "gw-306",
       "nameJp": "てるてるポワルン",
-      "nameKo": "테루테루 포와룬",
+      "nameKo": "맑음 캐스퐁",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_306.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -21355,7 +21355,7 @@
     {
       "id": "gw-308",
       "nameJp": "とびこえたいや",
-      "nameKo": "뛰어넘기 타이어",
+      "nameKo": "넘을 수 있는 타이어",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_308.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -21505,7 +21505,7 @@
     {
       "id": "gw-316",
       "nameJp": "はっぱのこやキット",
-      "nameKo": "잎사귀 오두막 키트",
+      "nameKo": "나뭇잎 오두막 키트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_8.png",
       "categoryJp": "キット",
       "categoryKo": "키트",
@@ -21526,12 +21526,12 @@
       "sourceUrl": null,
       "gamewithId": "316",
       "gamewithArticleId": "548700",
-      "descriptionKo": null
+      "descriptionKo": "상점 또는 이벤트로 입수"
     },
     {
       "id": "gw-317",
       "nameJp": "はっぱのいえキット",
-      "nameKo": "잎사귀 집 키트",
+      "nameKo": "나뭇잎 집 키트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_9.png",
       "categoryJp": "キット",
       "categoryKo": "키트",
@@ -21557,12 +21557,12 @@
       "sourceUrl": null,
       "gamewithId": "317",
       "gamewithArticleId": "548718",
-      "descriptionKo": null
+      "descriptionKo": "상점 또는 이벤트로 입수"
     },
     {
       "id": "gw-318",
       "nameJp": "はっぱのりっぱなキット",
-      "nameKo": "잎사귀 고급 키트",
+      "nameKo": "나뭇잎 훌륭한 집 키트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_10.png",
       "categoryJp": "キット",
       "categoryKo": "키트",
@@ -21593,7 +21593,7 @@
       "sourceUrl": null,
       "gamewithId": "318",
       "gamewithArticleId": "548726",
-      "descriptionKo": null
+      "descriptionKo": "상점 또는 이벤트로 입수"
     },
     {
       "id": "gw-319",
@@ -21624,7 +21624,7 @@
       "sourceUrl": null,
       "gamewithId": "319",
       "gamewithArticleId": "548810",
-      "descriptionKo": null
+      "descriptionKo": "PC 상점에서 구매(우중충한 해변 마을의 환경 레벨2)"
     },
     {
       "id": "gw-320",
@@ -21650,7 +21650,7 @@
       "sourceUrl": null,
       "gamewithId": "320",
       "gamewithArticleId": "548745",
-      "descriptionKo": null
+      "descriptionKo": "PC 상점에서 구매(울퉁불퉁 산지 마을의 환경 레벨2)"
     },
     {
       "id": "gw-321",
@@ -21748,7 +21748,7 @@
     {
       "id": "gw-326",
       "nameJp": "きのみいりバスケット",
-      "nameKo": "나무열매 바구니",
+      "nameKo": "열매 바구니",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_326.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -21800,7 +21800,7 @@
     {
       "id": "gw-327",
       "nameJp": "みんなのボックス",
-      "nameKo": "모두의 상자",
+      "nameKo": "모두의 박스",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_327.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -21908,8 +21908,8 @@
       "nameJp": "フタつきまど",
       "nameKo": "뚜껑달린창문",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_331.png",
-      "categoryJp": "",
-      "categoryKo": "",
+      "categoryJp": "たてもの",
+      "categoryKo": "건물",
       "descriptionJp": "",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -21955,7 +21955,7 @@
     {
       "id": "gw-333",
       "nameJp": "いえのしきり",
-      "nameKo": "집 칸막이",
+      "nameKo": "집 파티션",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_333.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -21976,7 +21976,7 @@
     {
       "id": "gw-334",
       "nameJp": "ななめの木のゆか",
-      "nameKo": "대각선 나무 바닥",
+      "nameKo": "비스듬한 나무 바닥",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_334.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -21992,7 +21992,7 @@
       "sourceUrl": null,
       "gamewithId": "334",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-335",
@@ -22013,12 +22013,12 @@
       "sourceUrl": null,
       "gamewithId": "335",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-336",
       "nameJp": "つみあげわら",
-      "nameKo": "짚더미",
+      "nameKo": "쌓인 짚",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_336.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -22034,12 +22034,12 @@
       "sourceUrl": null,
       "gamewithId": "336",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-337",
       "nameJp": "クラッカー",
-      "nameKo": "크래커",
+      "nameKo": "크래커(폭죽)",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_337.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -22067,8 +22067,8 @@
       "nameJp": "うみべのはなのタネ",
       "nameKo": "해변 꽃 씨앗",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_338.png",
-      "categoryJp": "",
-      "categoryKo": "",
+      "categoryJp": "自然",
+      "categoryKo": "자연",
       "descriptionJp": "",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -22079,8 +22079,8 @@
       "nameJp": "いわばのはなのタネ",
       "nameKo": "바위밭 꽃 씨앗",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_339.png",
-      "categoryJp": "",
-      "categoryKo": "",
+      "categoryJp": "自然",
+      "categoryKo": "자연",
       "descriptionJp": "",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -22105,7 +22105,7 @@
       "sourceUrl": null,
       "gamewithId": "340",
       "gamewithArticleId": "548339",
-      "descriptionKo": null
+      "descriptionKo": "상점에서 구매(바싹바싹 황야 마을 환경 레벨5)"
     },
     {
       "id": "gw-341",
@@ -22133,8 +22133,8 @@
       "nameJp": "フローリングのゆか",
       "nameKo": "마루 바닥",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_342.png",
-      "categoryJp": "",
-      "categoryKo": "",
+      "categoryJp": "ブロック",
+      "categoryKo": "블록",
       "descriptionJp": "",
       "craftMaterialsJp": [],
       "habitatsJp": [],
@@ -22200,7 +22200,7 @@
     {
       "id": "gw-345",
       "nameJp": "かわいいいけがき",
-      "nameKo": "귀여운 생울타리",
+      "nameKo": "귀여운 산울타리",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_345.png",
       "categoryJp": "自然",
       "categoryKo": "자연",
@@ -22215,7 +22215,7 @@
     {
       "id": "gw-346",
       "nameJp": "ずつきのカセキ・あたま",
-      "nameKo": "박치기 화석(머리)",
+      "nameKo": "박치기화석·머리",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_346.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -22236,7 +22236,7 @@
     {
       "id": "gw-347",
       "nameJp": "ずつきのカセキ・どう",
-      "nameKo": "박치기 화석(몸통)",
+      "nameKo": "박치기화석·몸통",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_347.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -22257,7 +22257,7 @@
     {
       "id": "gw-348",
       "nameJp": "ずつきのカセキ・しっぽ",
-      "nameKo": "박치기 화석(꼬리)",
+      "nameKo": "박치기화석·꼬리",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_348.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -22278,7 +22278,7 @@
     {
       "id": "gw-349",
       "nameJp": "ずがいのカセキ",
-      "nameKo": "두개골 화석",
+      "nameKo": "두개의화석",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_349.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -22299,7 +22299,7 @@
     {
       "id": "gw-350",
       "nameJp": "ツバサのカセキ・あたま",
-      "nameKo": "날개의 화석(머리)",
+      "nameKo": "날개의 화석·머리",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_350.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -22320,7 +22320,7 @@
     {
       "id": "gw-351",
       "nameJp": "ツバサのカセキ・うよく",
-      "nameKo": "날개의 화석(오른쪽 날개)",
+      "nameKo": "날개의 화석·우익",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_351.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -22341,7 +22341,7 @@
     {
       "id": "gw-352",
       "nameJp": "ツバサのカセキ・さよく",
-      "nameKo": "날개의 화석(왼쪽 날개)",
+      "nameKo": "날개의 화석·좌익",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_352.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -22362,7 +22362,7 @@
     {
       "id": "gw-353",
       "nameJp": "ツバサのカセキ・どう",
-      "nameKo": "날개의 화석(몸통)",
+      "nameKo": "날개의 화석·몸통",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_353.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -22383,7 +22383,7 @@
     {
       "id": "gw-354",
       "nameJp": "ツバサのカセキ・しっぽ",
-      "nameKo": "날개의 화석(꼬리)",
+      "nameKo": "날개의 화석·꼬리",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_354.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -22404,7 +22404,7 @@
     {
       "id": "gw-355",
       "nameJp": "うみなりのスズ",
-      "nameKo": "바다소리 방울",
+      "nameKo": "바다울림 방울",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_355.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -22537,7 +22537,7 @@
     {
       "id": "gw-372",
       "nameJp": "とうめいなスズ",
-      "nameKo": "투명한 방울",
+      "nameKo": "투명 방울",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_372.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -22563,7 +22563,7 @@
     {
       "id": "gw-373",
       "nameJp": "でかいきんのたま",
-      "nameKo": "큰금구슬",
+      "nameKo": "큰 금구슬",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_373.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -22609,7 +22609,7 @@
     {
       "id": "gw-375",
       "nameJp": "うちあげづつ",
-      "nameKo": "발사통",
+      "nameKo": "불꽃통",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_375.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -22661,7 +22661,7 @@
     {
       "id": "gw-377",
       "nameJp": "はなびだま",
-      "nameKo": "폭죽",
+      "nameKo": "불꽃놀이 구슬",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_590.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -22697,7 +22697,7 @@
     {
       "id": "gw-379",
       "nameJp": "オフィスのキャビネット",
-      "nameKo": "오피스 캐비닛",
+      "nameKo": "사무실 캐비닛",
       "imagePath": null,
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -22718,7 +22718,7 @@
     {
       "id": "gw-380",
       "nameJp": "木のついたて",
-      "nameKo": "나무 병풍",
+      "nameKo": "나무 칸막이",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_380.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -22739,7 +22739,7 @@
     {
       "id": "gw-381",
       "nameJp": "木のさくのトビラ",
-      "nameKo": "나무 울타리 문",
+      "nameKo": "나무 울타리문",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_381.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -22776,12 +22776,12 @@
       "sourceUrl": null,
       "gamewithId": "382",
       "gamewithArticleId": "548343",
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-383",
       "nameJp": "いしのゆか",
-      "nameKo": "돌 바닥",
+      "nameKo": "돌바닥",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_383.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -22797,12 +22797,12 @@
       "sourceUrl": null,
       "gamewithId": "383",
       "gamewithArticleId": "548344",
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-384",
       "nameJp": "いしづみのカベ",
-      "nameKo": "돌쌓기 벽",
+      "nameKo": "돌쌓은 벽",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_384.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -22818,12 +22818,12 @@
       "sourceUrl": null,
       "gamewithId": "384",
       "gamewithArticleId": "548345",
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-385",
       "nameJp": "メタルなさくのトビラ",
-      "nameKo": "메탈 울타리 문",
+      "nameKo": "메탈 울타리문",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_385.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -22844,7 +22844,7 @@
     {
       "id": "gw-386",
       "nameJp": "ななめのやねがわら",
-      "nameKo": "비스듬한 기와",
+      "nameKo": "비스듬한 지붕기와",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_386.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -22865,7 +22865,7 @@
     {
       "id": "gw-387",
       "nameJp": "でっぱりのやねがわら",
-      "nameKo": "돌출 기와",
+      "nameKo": "돌출 지붕기와",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_387.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -22886,7 +22886,7 @@
     {
       "id": "gw-388",
       "nameJp": "ひっこみのやねがわら",
-      "nameKo": "오목 기와",
+      "nameKo": "들어간 지붕기와",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_388.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -22907,7 +22907,7 @@
     {
       "id": "gw-389",
       "nameJp": "たいらなやねがわら",
-      "nameKo": "평평한 기와",
+      "nameKo": "평평한 지붕기와",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_389.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -22928,7 +22928,7 @@
     {
       "id": "gw-390",
       "nameJp": "やねがわらのかざり",
-      "nameKo": "기와 장식",
+      "nameKo": "지붕기와 장식",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_390.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -22975,7 +22975,7 @@
     {
       "id": "gw-392",
       "nameJp": "おうぎやね",
-      "nameKo": "부채 지붕",
+      "nameKo": "부채꼴 지붕",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_392.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -22996,7 +22996,7 @@
     {
       "id": "gw-393",
       "nameJp": "アゴのカセキ",
-      "nameKo": "턱 화석",
+      "nameKo": "턱의 화석",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_393.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -23054,7 +23054,7 @@
     {
       "id": "gw-395",
       "nameJp": "ガーデンチェア",
-      "nameKo": "가든 의자",
+      "nameKo": "가든 체어",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_395.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -23112,7 +23112,7 @@
     {
       "id": "gw-397",
       "nameJp": "もえないゴミ",
-      "nameKo": "타지 않는 쓰레기",
+      "nameKo": "불연성 쓰레기",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_397.png",
       "categoryJp": "材料",
       "categoryKo": "재료",
@@ -23127,7 +23127,7 @@
     {
       "id": "gw-398",
       "nameJp": "ふわふわマット",
-      "nameKo": "폭신폭신 매트",
+      "nameKo": "푹신 매트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_398.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -23153,7 +23153,7 @@
     {
       "id": "gw-399",
       "nameJp": "ふしぎなげん",
-      "nameKo": "수수께끼 현",
+      "nameKo": "이상한사탕",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_399.png",
       "categoryJp": "材料",
       "categoryKo": "재료",
@@ -23168,7 +23168,7 @@
     {
       "id": "gw-400",
       "nameJp": "木のクロスドア",
-      "nameKo": "나무 교차문",
+      "nameKo": "나무 크로스 문",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_400.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -23225,7 +23225,7 @@
     {
       "id": "gw-403",
       "nameJp": "ピンクのくさ",
-      "nameKo": "분홍 풀",
+      "nameKo": "핑크 풀",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_403.png",
       "categoryJp": "自然",
       "categoryKo": "자연",
@@ -23298,7 +23298,7 @@
     {
       "id": "gw-405",
       "nameJp": "インダストリアルなベッド",
-      "nameKo": "인터스트리얼 침대",
+      "nameKo": "인더스트리얼 침대",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_405.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -23392,12 +23392,12 @@
       "sourceUrl": null,
       "gamewithId": "408",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능"
     },
     {
       "id": "gw-409",
       "nameJp": "ビッグしゅうのうボックス",
-      "nameKo": "큰 수납 상자",
+      "nameKo": "대형 수납 박스",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_409.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -23418,7 +23418,7 @@
     {
       "id": "gw-410",
       "nameJp": "キュートランプ",
-      "nameKo": "깜찍한 램프",
+      "nameKo": "큐트 램프",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_410.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -23502,7 +23502,7 @@
     {
       "id": "gw-412",
       "nameJp": "きのみなつりさげランプ",
-      "nameKo": "나무열매 걸이 램프",
+      "nameKo": "열매 매달이 램프",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_412.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -23570,7 +23570,7 @@
     {
       "id": "gw-414",
       "nameJp": "きのみなカベかざり",
-      "nameKo": "나무열매 벽 장식",
+      "nameKo": "열매 벽장식",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_414.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -23606,7 +23606,7 @@
     {
       "id": "gw-415",
       "nameJp": "オフィスのテーブル",
-      "nameKo": "오피스 테이블",
+      "nameKo": "사무실 테이블",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_415.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -23632,7 +23632,7 @@
     {
       "id": "gw-416",
       "nameJp": "てつのイス",
-      "nameKo": "철제 의자",
+      "nameKo": "철 의자",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_416.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -23659,7 +23659,7 @@
     {
       "id": "gw-417",
       "nameJp": "オフィスのイス",
-      "nameKo": "오피스 의자",
+      "nameKo": "사무실 의자",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_417.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -23712,7 +23712,7 @@
     {
       "id": "gw-419",
       "nameJp": "トロッコ",
-      "nameKo": "트로코",
+      "nameKo": "광산차",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_419.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -23770,7 +23770,7 @@
     {
       "id": "gw-421",
       "nameJp": "じどうはんばいき",
-      "nameKo": "자동판매기",
+      "nameKo": "자판기",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_421.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -23842,7 +23842,7 @@
     {
       "id": "gw-424",
       "nameJp": "いしラインのゆか",
-      "nameKo": "돌 라인 바닥",
+      "nameKo": "돌라인 바닥",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_424.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -23920,7 +23920,7 @@
     {
       "id": "gw-428",
       "nameJp": "いしのタイル",
-      "nameKo": "돌 타일",
+      "nameKo": "돌타일",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_428.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -24046,7 +24046,7 @@
     {
       "id": "gw-433",
       "nameJp": "ナチュラルなクローゼット",
-      "nameKo": "내추럴 수납장",
+      "nameKo": "내추럴 옷장",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_433.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -24188,7 +24188,7 @@
     {
       "id": "gw-438",
       "nameJp": "くさのカベかざり",
-      "nameKo": "풀 벽 장식",
+      "nameKo": "풀 벽장식",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_438.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -24293,7 +24293,7 @@
     {
       "id": "gw-442",
       "nameJp": "うみべのすな",
-      "nameKo": "해안의 모래",
+      "nameKo": "해변 모래",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_442.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -24303,7 +24303,7 @@
       "sourceUrl": null,
       "gamewithId": "442",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "우중충한 해변 마을에서 입수"
     },
     {
       "id": "gw-443",
@@ -24340,7 +24340,7 @@
     {
       "id": "gw-444",
       "nameJp": "テレビ",
-      "nameKo": "TV",
+      "nameKo": "텔레비전",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_444.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -24471,7 +24471,7 @@
     {
       "id": "gw-448",
       "nameJp": "ふろばのイス",
-      "nameKo": "목욕탕 의자",
+      "nameKo": "욕실 의자",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_448.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -24544,7 +24544,7 @@
     {
       "id": "gw-451",
       "nameJp": "パーティープレート",
-      "nameKo": "파티 플레이트",
+      "nameKo": "파티 접시",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_451.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -24597,7 +24597,7 @@
     {
       "id": "gw-453",
       "nameJp": "いちりんざし",
-      "nameKo": "한 송이 꽃병",
+      "nameKo": "한 송이 꽃꽂이",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_453.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -24681,7 +24681,7 @@
     {
       "id": "gw-456",
       "nameJp": "シャワー",
-      "nameKo": "샤워기",
+      "nameKo": "샤워",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_456.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -24713,7 +24713,7 @@
     {
       "id": "gw-457",
       "nameJp": "すいしょうだま",
-      "nameKo": "수정 구슬",
+      "nameKo": "수정구슬",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_457.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -24750,7 +24750,7 @@
     {
       "id": "gw-458",
       "nameJp": "ゆぐち",
-      "nameKo": "온천 입구",
+      "nameKo": "온천 출구",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_458.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -24862,7 +24862,7 @@
     {
       "id": "gw-463",
       "nameJp": "ビニールボート",
-      "nameKo": "비닐 보트",
+      "nameKo": "비닐보트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_463.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -24883,7 +24883,7 @@
     {
       "id": "gw-464",
       "nameJp": "そうさばん",
-      "nameKo": "조작판",
+      "nameKo": "조작반",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_464.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -24972,7 +24972,7 @@
     {
       "id": "gw-467",
       "nameJp": "きのみなイス",
-      "nameKo": "나무열매 의자",
+      "nameKo": "열매 의자",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_467.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -25014,7 +25014,7 @@
     {
       "id": "gw-468",
       "nameJp": "おおきなかんきせん",
-      "nameKo": "대형 환풍기",
+      "nameKo": "큰 환풍기",
       "imagePath": null,
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -25040,7 +25040,7 @@
     {
       "id": "gw-469",
       "nameJp": "きのみなテーブル",
-      "nameKo": "나무열매 테이블",
+      "nameKo": "열매 테이블",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_469.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -25082,7 +25082,7 @@
     {
       "id": "gw-470",
       "nameJp": "きのみなテーブルランプ",
-      "nameKo": "나무열매 테이블 램프",
+      "nameKo": "열매 테이블 램프",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_470.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -25151,7 +25151,7 @@
     {
       "id": "gw-472",
       "nameJp": "アンティーククローゼット",
-      "nameKo": "앤티크 수납장",
+      "nameKo": "앤티크 옷장",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_472.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -25225,7 +25225,7 @@
     {
       "id": "gw-474",
       "nameJp": "アンティークドレッサー",
-      "nameKo": "앤티크 화장대",
+      "nameKo": "앤티크 드레서",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_474.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -25267,7 +25267,7 @@
     {
       "id": "gw-475",
       "nameJp": "アンティークチェア",
-      "nameKo": "앤티크 의자",
+      "nameKo": "앤티크 체어",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_475.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -25496,7 +25496,7 @@
     {
       "id": "gw-485",
       "nameJp": "パンチングマシーン",
-      "nameKo": "펀칭 머신",
+      "nameKo": "펀칭머신",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_485.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -25549,7 +25549,7 @@
     {
       "id": "gw-488",
       "nameJp": "ふねのハンドル",
-      "nameKo": "배의 핸들",
+      "nameKo": "배 핸들",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_488.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -25608,7 +25608,7 @@
     {
       "id": "gw-491",
       "nameJp": "キュートなソファ",
-      "nameKo": "깜찍한 소파",
+      "nameKo": "큐트 소파",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_491.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -25640,7 +25640,7 @@
     {
       "id": "gw-492",
       "nameJp": "キュートなテーブル",
-      "nameKo": "깜찍한 테이블",
+      "nameKo": "큐트 테이블",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_492.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -25687,7 +25687,7 @@
     {
       "id": "gw-494",
       "nameJp": "キュートなベッド",
-      "nameKo": "깜찍한 침대",
+      "nameKo": "큐트 침대",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_494.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -25719,7 +25719,7 @@
     {
       "id": "gw-495",
       "nameJp": "キュートなドレッサー",
-      "nameKo": "깜찍한 화장대",
+      "nameKo": "큐트 드레서",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_495.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -26125,12 +26125,12 @@
       "sourceUrl": null,
       "gamewithId": "508",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "울퉁불퉁 산지 마을에서 입수"
     },
     {
       "id": "gw-509",
       "nameJp": "オフィスのロッカー",
-      "nameKo": "오피스 로커",
+      "nameKo": "사무실 로커",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_509.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -26188,7 +26188,7 @@
     {
       "id": "gw-511",
       "nameJp": "ゴージャスなランプ",
-      "nameKo": "럭셔리 램프",
+      "nameKo": "고저스 램프",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_511.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -26220,7 +26220,7 @@
     {
       "id": "gw-512",
       "nameJp": "ゴージャスなベッド",
-      "nameKo": "럭셔리 침대",
+      "nameKo": "고저스 침대",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_512.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -26257,7 +26257,7 @@
     {
       "id": "gw-513",
       "nameJp": "ゴージャスなソファ",
-      "nameKo": "럭셔리 소파",
+      "nameKo": "고저스 소파",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_513.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -26299,7 +26299,7 @@
     {
       "id": "gw-514",
       "nameJp": "ゴージャスなテーブル",
-      "nameKo": "럭셔리 테이블",
+      "nameKo": "고저스 테이블",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_514.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -26331,7 +26331,7 @@
     {
       "id": "gw-515",
       "nameJp": "てつのベッド",
-      "nameKo": "철제 침대",
+      "nameKo": "철 침대",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_515.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -26399,7 +26399,7 @@
     {
       "id": "gw-518",
       "nameJp": "シンプルなクッション",
-      "nameKo": "심플한 쿠션",
+      "nameKo": "심플 쿠션",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_518.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -26420,7 +26420,7 @@
     {
       "id": "gw-519",
       "nameJp": "インダストリアルなデスク",
-      "nameKo": "인터스트리얼 데스크",
+      "nameKo": "인더스트리얼 데스크",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_519.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -26499,7 +26499,7 @@
     {
       "id": "gw-522",
       "nameJp": "えんぴついれ",
-      "nameKo": "연필꽂이",
+      "nameKo": "연필통",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_522.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -26615,7 +26615,7 @@
     {
       "id": "gw-526",
       "nameJp": "オフィスのたな",
-      "nameKo": "오피스 선반",
+      "nameKo": "사무실 선반",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_526.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -26805,7 +26805,7 @@
     {
       "id": "gw-534",
       "nameJp": "てつのあしば",
-      "nameKo": "철제 비계",
+      "nameKo": "철 발판",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_534.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -26826,7 +26826,7 @@
     {
       "id": "gw-535",
       "nameJp": "こんもりてつパイプ",
-      "nameKo": "철 파이프 더미",
+      "nameKo": "수북한 철 파이프",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_535.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -26926,7 +26926,7 @@
     {
       "id": "gw-539",
       "nameJp": "ローブ",
-      "nameKo": "로프",
+      "nameKo": "로브",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_539.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -26947,7 +26947,7 @@
     {
       "id": "gw-540",
       "nameJp": "ななめのテントやね",
-      "nameKo": "비스듬한 텐트 지붕",
+      "nameKo": "비스듬한 텐트지붕",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_540.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -26968,7 +26968,7 @@
     {
       "id": "gw-541",
       "nameJp": "でっぱりのテントやね",
-      "nameKo": "돌출 텐트 지붕",
+      "nameKo": "돌출 텐트지붕",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_541.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -26989,7 +26989,7 @@
     {
       "id": "gw-542",
       "nameJp": "ひっこみのテントやね",
-      "nameKo": "오목 텐트 지붕",
+      "nameKo": "들어간 텐트지붕",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_542.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -27010,7 +27010,7 @@
     {
       "id": "gw-543",
       "nameJp": "たいらなテントやね",
-      "nameKo": "평평한 텐트 지붕",
+      "nameKo": "평평한 텐트지붕",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_543.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -27052,7 +27052,7 @@
     {
       "id": "gw-545",
       "nameJp": "てつのあしば・いた",
-      "nameKo": "철제 비계판",
+      "nameKo": "철 비계·판",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_545.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -27073,7 +27073,7 @@
     {
       "id": "gw-546",
       "nameJp": "クレベーステーブル",
-      "nameKo": "크레베이스 테이블",
+      "nameKo": "클레베이스 테이블",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_546.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -27088,7 +27088,7 @@
     {
       "id": "gw-547",
       "nameJp": "ぐにゃぐにゃかがみ",
-      "nameKo": "흐물흐물 거울",
+      "nameKo": "울렁울렁 거울",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_547.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -27118,7 +27118,7 @@
     {
       "id": "gw-549",
       "nameJp": "しんぴのしずく",
-      "nameKo": "신비의물방울",
+      "nameKo": "신비의 물방울",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_549.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27133,7 +27133,7 @@
     {
       "id": "gw-550",
       "nameJp": "まがったスプーン",
-      "nameKo": "휘어진스푼",
+      "nameKo": "휘어진 스푼",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_550.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27148,7 +27148,7 @@
     {
       "id": "gw-551",
       "nameJp": "とけないこおり",
-      "nameKo": "녹지않는얼음",
+      "nameKo": "녹지 않는 얼음",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_551.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27163,7 +27163,7 @@
     {
       "id": "gw-552",
       "nameJp": "くろいヘドロ",
-      "nameKo": "검은진흙",
+      "nameKo": "검은 진흙",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_552.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27178,7 +27178,7 @@
     {
       "id": "gw-553",
       "nameJp": "しあわせタマゴ",
-      "nameKo": "행복의알",
+      "nameKo": "행복의 알",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_553.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27193,7 +27193,7 @@
     {
       "id": "gw-554",
       "nameJp": "おおきなねっこ",
-      "nameKo": "큰뿌리",
+      "nameKo": "큰 뿌리",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_554.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27208,7 +27208,7 @@
     {
       "id": "gw-555",
       "nameJp": "のどスプレー",
-      "nameKo": "목스프레이",
+      "nameKo": "목 스프레이",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_555.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27223,7 +27223,7 @@
     {
       "id": "gw-556",
       "nameJp": "ひかりのねんど",
-      "nameKo": "빛의점토",
+      "nameKo": "빛의 점토",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_556.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27238,7 +27238,7 @@
     {
       "id": "gw-557",
       "nameJp": "せんせいのツメ",
-      "nameKo": "선제공격손톱",
+      "nameKo": "선제의 발톱",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_557.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27253,7 +27253,7 @@
     {
       "id": "gw-558",
       "nameJp": "かえんだま",
-      "nameKo": "화염구슬",
+      "nameKo": "화염 구슬",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_558.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27283,7 +27283,7 @@
     {
       "id": "gw-560",
       "nameJp": "エレベーターのりば",
-      "nameKo": "엘리베이터",
+      "nameKo": "엘리베이터 탑승장",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_560.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -27314,7 +27314,7 @@
     {
       "id": "gw-561",
       "nameJp": "木のフカフカはしら",
-      "nameKo": "나무 폭신 기둥",
+      "nameKo": "나무 푹신기둥",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_561.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -27366,7 +27366,7 @@
     {
       "id": "gw-563",
       "nameJp": "いろふうせん・しろ",
-      "nameKo": "색풍선·하양",
+      "nameKo": "풍선·흰색",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_563.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27387,7 +27387,7 @@
     {
       "id": "gw-564",
       "nameJp": "いろふうせん・あか",
-      "nameKo": "색풍선·빨강",
+      "nameKo": "풍선·빨간색",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_564.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27408,7 +27408,7 @@
     {
       "id": "gw-565",
       "nameJp": "いろふうせん・きいろ",
-      "nameKo": "색풍선·노랑",
+      "nameKo": "풍선·노란색",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_565.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27429,7 +27429,7 @@
     {
       "id": "gw-566",
       "nameJp": "いろふうせん・みどり",
-      "nameKo": "색풍선·초록",
+      "nameKo": "풍선·초록색",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_566.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27450,7 +27450,7 @@
     {
       "id": "gw-567",
       "nameJp": "いろふうせん・あかむらさき",
-      "nameKo": "색풍선·자주",
+      "nameKo": "풍선·적보라",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_567.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27476,7 +27476,7 @@
     {
       "id": "gw-568",
       "nameJp": "いろふうせん・ピンク",
-      "nameKo": "색풍선·분홍",
+      "nameKo": "풍선·핑크",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_568.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27497,7 +27497,7 @@
     {
       "id": "gw-569",
       "nameJp": "いろふうせん・オレンジ",
-      "nameKo": "색풍선·주황",
+      "nameKo": "풍선·오렌지",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_569.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27523,7 +27523,7 @@
     {
       "id": "gw-570",
       "nameJp": "いろふうせん・むらさき",
-      "nameKo": "색풍선·보라",
+      "nameKo": "풍선·보라색",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_570.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27549,7 +27549,7 @@
     {
       "id": "gw-571",
       "nameJp": "いろふうせん・ちゃいろ",
-      "nameKo": "색풍선·갈색",
+      "nameKo": "풍선·갈색",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_571.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27575,7 +27575,7 @@
     {
       "id": "gw-572",
       "nameJp": "いろふうせん・カーキ",
-      "nameKo": "색풍선·카키",
+      "nameKo": "풍선·카키",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_572.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27601,7 +27601,7 @@
     {
       "id": "gw-573",
       "nameJp": "いろふうせん・くろ",
-      "nameKo": "색풍선·검정",
+      "nameKo": "풍선·검은색",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_573.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27622,7 +27622,7 @@
     {
       "id": "gw-574",
       "nameJp": "いろふうせん・きみどり",
-      "nameKo": "색풍선·연두",
+      "nameKo": "풍선·연두",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_574.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27648,7 +27648,7 @@
     {
       "id": "gw-575",
       "nameJp": "いろふうせん・ふかむらさき",
-      "nameKo": "색풍선·짙은 보라",
+      "nameKo": "풍선·진보라",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_575.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27674,7 +27674,7 @@
     {
       "id": "gw-576",
       "nameJp": "いろふうせん・こんいろ",
-      "nameKo": "색풍선·남색",
+      "nameKo": "풍선·남색",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_576.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27700,7 +27700,7 @@
     {
       "id": "gw-577",
       "nameJp": "いろふうせん・あお",
-      "nameKo": "색풍선·파랑",
+      "nameKo": "풍선·파란색",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_577.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27721,7 +27721,7 @@
     {
       "id": "gw-578",
       "nameJp": "いろふうせん・みずいろ",
-      "nameKo": "색풍선·하늘색",
+      "nameKo": "풍선·하늘색",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_578.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27742,7 +27742,7 @@
     {
       "id": "gw-579",
       "nameJp": "いろふうせん・はいいろ",
-      "nameKo": "색풍선·회색",
+      "nameKo": "풍선·회색",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_579.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27768,7 +27768,7 @@
     {
       "id": "gw-580",
       "nameJp": "いろふうせん・あおみどり",
-      "nameKo": "색풍선·청록",
+      "nameKo": "풍선·청록",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_580.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27794,7 +27794,7 @@
     {
       "id": "gw-581",
       "nameJp": "えのぐ・しろ",
-      "nameKo": "물감·하양",
+      "nameKo": "물감·흰색",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_581.png",
       "categoryJp": "材料",
       "categoryKo": "재료",
@@ -27809,7 +27809,7 @@
     {
       "id": "gw-582",
       "nameJp": "えのぐ・あか",
-      "nameKo": "물감·빨강",
+      "nameKo": "물감·빨간색",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_582.png",
       "categoryJp": "材料",
       "categoryKo": "재료",
@@ -27824,7 +27824,7 @@
     {
       "id": "gw-583",
       "nameJp": "えのぐ・きいろ",
-      "nameKo": "물감·노랑",
+      "nameKo": "물감·노란색",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_583.png",
       "categoryJp": "材料",
       "categoryKo": "재료",
@@ -27839,7 +27839,7 @@
     {
       "id": "gw-584",
       "nameJp": "えのぐ・みどり",
-      "nameKo": "물감·초록",
+      "nameKo": "물감·초록색",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_584.png",
       "categoryJp": "材料",
       "categoryKo": "재료",
@@ -27854,7 +27854,7 @@
     {
       "id": "gw-585",
       "nameJp": "えのぐ・くろ",
-      "nameKo": "물감·검정",
+      "nameKo": "물감·검은색",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_585.png",
       "categoryJp": "材料",
       "categoryKo": "재료",
@@ -27869,7 +27869,7 @@
     {
       "id": "gw-586",
       "nameJp": "えのぐ・あお",
-      "nameKo": "물감·파랑",
+      "nameKo": "물감·파란색",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_586.png",
       "categoryJp": "材料",
       "categoryKo": "재료",
@@ -27914,7 +27914,7 @@
     {
       "id": "gw-589",
       "nameJp": "はなびだま・しろ",
-      "nameKo": "폭죽·하양",
+      "nameKo": "불꽃놀이·하양",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_589.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27950,7 +27950,7 @@
     {
       "id": "gw-590",
       "nameJp": "はなびだま・あか",
-      "nameKo": "폭죽·빨강",
+      "nameKo": "불꽃놀이·빨강",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_590.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -27986,7 +27986,7 @@
     {
       "id": "gw-591",
       "nameJp": "はなびだま・みどり",
-      "nameKo": "폭죽·초록",
+      "nameKo": "불꽃놀이·초록",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_591.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -28022,7 +28022,7 @@
     {
       "id": "gw-592",
       "nameJp": "はなびだま・きいろ",
-      "nameKo": "폭죽·노랑",
+      "nameKo": "불꽃놀이·노랑",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_592.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -28058,7 +28058,7 @@
     {
       "id": "gw-593",
       "nameJp": "はなびだま・あお",
-      "nameKo": "폭죽·파랑",
+      "nameKo": "불꽃놀이·파랑",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_593.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -28130,7 +28130,7 @@
     {
       "id": "gw-596",
       "nameJp": "ごうかなはな",
-      "nameKo": "호화로운 꽃",
+      "nameKo": "화려한 꽃",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_596.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -28181,7 +28181,7 @@
     {
       "id": "gw-599",
       "nameJp": "ポールさんかくコーン",
-      "nameKo": "폴 삼각 콘",
+      "nameKo": "볼 삼각콘",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_599.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -28208,7 +28208,7 @@
     {
       "id": "gw-600",
       "nameJp": "ポケセンのカウンター",
-      "nameKo": "포켓몬센터 카운터",
+      "nameKo": "포켓센터 카운터",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_600.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -28229,7 +28229,7 @@
     {
       "id": "gw-601",
       "nameJp": "おしゃれなてつのカベ",
-      "nameKo": "세련된 철 벽",
+      "nameKo": "세련된 철벽",
       "imagePath": null,
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -28245,7 +28245,7 @@
       "sourceUrl": null,
       "gamewithId": "601",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-602",
@@ -28266,7 +28266,7 @@
       "sourceUrl": null,
       "gamewithId": "602",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-603",
@@ -28355,7 +28355,7 @@
     {
       "id": "gw-607",
       "nameJp": "カゴのみ",
-      "nameKo": "유루열매",
+      "nameKo": "과사열매",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_607.png",
       "categoryJp": "食べもの",
       "categoryKo": "음식",
@@ -28370,7 +28370,7 @@
     {
       "id": "gw-608",
       "nameJp": "チーゴのみ",
-      "nameKo": "복분열매",
+      "nameKo": "복슝열매",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_608.png",
       "categoryJp": "食べもの",
       "categoryKo": "음식",
@@ -28385,7 +28385,7 @@
     {
       "id": "gw-609",
       "nameJp": "モモンのみ",
-      "nameKo": "복슝열매",
+      "nameKo": "유루열매",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_609.png",
       "categoryJp": "食べもの",
       "categoryKo": "음식",
@@ -28400,7 +28400,7 @@
     {
       "id": "gw-610",
       "nameJp": "ナナシのみ",
-      "nameKo": "배리열매",
+      "nameKo": "복분열매",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_610.png",
       "categoryJp": "食べもの",
       "categoryKo": "음식",
@@ -28415,7 +28415,7 @@
     {
       "id": "gw-611",
       "nameJp": "ラムのみ",
-      "nameKo": "리샘열매",
+      "nameKo": "베리열매",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_611.png",
       "categoryJp": "食べもの",
       "categoryKo": "음식",
@@ -28446,12 +28446,12 @@
       "sourceUrl": null,
       "gamewithId": "612",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-613",
       "nameJp": "コンクリートのふた",
-      "nameKo": "콘크리트 덮개",
+      "nameKo": "콘크리트 뚜껑",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_613.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -28530,7 +28530,7 @@
     {
       "id": "gw-616",
       "nameJp": "ミニはつでんマシン",
-      "nameKo": "미니 발전 머신",
+      "nameKo": "미니 발전기",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_616.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -28567,7 +28567,7 @@
       "sourceUrl": null,
       "gamewithId": "617",
       "gamewithArticleId": "548454",
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-618",
@@ -28598,7 +28598,7 @@
     {
       "id": "gw-619",
       "nameJp": "コイキングのやねがわら",
-      "nameKo": "잉어킹 기와",
+      "nameKo": "잉어킹 지붕기와",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_619.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -28703,7 +28703,7 @@
       "sourceUrl": null,
       "gamewithId": "623",
       "gamewithArticleId": "548460",
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-625",
@@ -28744,7 +28744,7 @@
     {
       "id": "gw-627",
       "nameJp": "のどかなはなのタネ",
-      "nameKo": "평온한 꽃 씨앗",
+      "nameKo": "평화로운 꽃 씨앗",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_627.png",
       "categoryJp": "自然",
       "categoryKo": "자연",
@@ -28759,7 +28759,7 @@
     {
       "id": "gw-628",
       "nameJp": "のどかなはな",
-      "nameKo": "평온한 꽃",
+      "nameKo": "평화로운 꽃",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_628.png",
       "categoryJp": "自然",
       "categoryKo": "자연",
@@ -28904,7 +28904,7 @@
     {
       "id": "gw-635",
       "nameJp": "ボトルジュース",
-      "nameKo": "병주스",
+      "nameKo": "병 주스",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_635.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -28940,7 +28940,7 @@
     {
       "id": "gw-637",
       "nameJp": "はなのカベかざり",
-      "nameKo": "꽃 벽 장식",
+      "nameKo": "꽃 벽장식",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_637.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -28955,7 +28955,7 @@
     {
       "id": "gw-638",
       "nameJp": "ぎんのこな",
-      "nameKo": "은빛가루",
+      "nameKo": "은가루",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_638.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -28970,7 +28970,7 @@
     {
       "id": "gw-639",
       "nameJp": "くろいメガネ",
-      "nameKo": "검은안경",
+      "nameKo": "검은 안경",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_639.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -28985,7 +28985,7 @@
     {
       "id": "gw-640",
       "nameJp": "どくバリ",
-      "nameKo": "독바늘",
+      "nameKo": "독 가시",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_640.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -29000,7 +29000,7 @@
     {
       "id": "gw-641",
       "nameJp": "やわらかいすな",
-      "nameKo": "부드러운모래",
+      "nameKo": "부드러운 모래",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_641.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -29015,7 +29015,7 @@
     {
       "id": "gw-642",
       "nameJp": "いかさまダイス",
-      "nameKo": "속임수주사위",
+      "nameKo": "속임수 주사위",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_642.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -29030,7 +29030,7 @@
     {
       "id": "gw-643",
       "nameJp": "とくせいガード",
-      "nameKo": "특성가드",
+      "nameKo": "특성 가드",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_643.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -29045,7 +29045,7 @@
     {
       "id": "gw-644",
       "nameJp": "フォーカスレンズ",
-      "nameKo": "포커스렌즈",
+      "nameKo": "포커스 렌즈",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_644.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -29137,7 +29137,7 @@
     {
       "id": "gw-648",
       "nameJp": "おおきなほそいしかくラグ",
-      "nameKo": "큰 직사각 러그",
+      "nameKo": "큰 긴 사각 러그",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_648.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -29152,7 +29152,7 @@
     {
       "id": "gw-649",
       "nameJp": "キュートなチェア",
-      "nameKo": "깜찍한 의자",
+      "nameKo": "큐트 의자",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_649.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -29265,7 +29265,7 @@
     {
       "id": "gw-654",
       "nameJp": "ちいさなほそいしかくラグ",
-      "nameKo": "작은 직사각 러그",
+      "nameKo": "작은 긴 사각 러그",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_654.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -29414,7 +29414,7 @@
     {
       "id": "gw-662",
       "nameJp": "インダストリアルなチェア",
-      "nameKo": "인터스트리얼 의자",
+      "nameKo": "인더스트리얼 체어",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_662.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -29526,7 +29526,7 @@
     {
       "id": "gw-667",
       "nameJp": "おおだいこ",
-      "nameKo": "큰북",
+      "nameKo": "큰 북",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_667.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -29600,7 +29600,7 @@
     {
       "id": "gw-670",
       "nameJp": "ゲーミングパソコン",
-      "nameKo": "게이밍 컴퓨터",
+      "nameKo": "게이밍 PC",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_670.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -29669,7 +29669,7 @@
     {
       "id": "gw-672",
       "nameJp": "ゲーミングチェア",
-      "nameKo": "게이밍 의자",
+      "nameKo": "게이밍 체어",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_672.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -29851,7 +29851,7 @@
     {
       "id": "gw-680",
       "nameJp": "サマーベッド",
-      "nameKo": "서머 침대",
+      "nameKo": "여름 침대",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_680.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -29866,7 +29866,7 @@
     {
       "id": "gw-681",
       "nameJp": "アツアツスープパン",
-      "nameKo": "뜨끈뜨끈 수프빵",
+      "nameKo": "뜨끈한 수프빵",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_681.png",
       "categoryJp": "料理",
       "categoryKo": "요리",
@@ -29892,12 +29892,12 @@
       "sourceUrl": "https://game8.jp/pocoapokemon/768646",
       "gamewithId": "681",
       "gamewithArticleId": "548451",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수 반짝반짝 부유섬 마을에서 입수"
     },
     {
       "id": "gw-682",
       "nameJp": "カベつけてすり",
-      "nameKo": "벽 난간",
+      "nameKo": "벽걸이 난간",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_682.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -30028,7 +30028,7 @@
     {
       "id": "gw-690",
       "nameJp": "きのみなケース",
-      "nameKo": "나무열매 케이스",
+      "nameKo": "열매 케이스",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_690.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -30043,7 +30043,7 @@
     {
       "id": "gw-691",
       "nameJp": "きのみなとけい",
-      "nameKo": "나무열매 시계",
+      "nameKo": "열매 시계",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_691.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -30079,7 +30079,7 @@
       "sourceUrl": null,
       "gamewithId": "692",
       "gamewithArticleId": "548723",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-693",
@@ -30105,12 +30105,12 @@
       "sourceUrl": null,
       "gamewithId": "693",
       "gamewithArticleId": "548730",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-694",
       "nameJp": "プレーンハンバーグ",
-      "nameKo": "플레인 햄버그",
+      "nameKo": "플레인 함버그",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_694.png",
       "categoryJp": "料理",
       "categoryKo": "요리",
@@ -30131,7 +30131,7 @@
       "sourceUrl": null,
       "gamewithId": "694",
       "gamewithArticleId": "548729",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-695",
@@ -30157,12 +30157,12 @@
       "sourceUrl": null,
       "gamewithId": "695",
       "gamewithArticleId": "548715",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-696",
       "nameJp": "キャロットパン",
-      "nameKo": "캐럿 빵",
+      "nameKo": "당근 빵",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_696.png",
       "categoryJp": "料理",
       "categoryKo": "요리",
@@ -30188,12 +30188,12 @@
       "sourceUrl": null,
       "gamewithId": "696",
       "gamewithArticleId": "548722",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-697",
       "nameJp": "きのこハンバーグ",
-      "nameKo": "버섯 햄버그",
+      "nameKo": "버섯 함버그",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_697.png",
       "categoryJp": "料理",
       "categoryKo": "요리",
@@ -30219,12 +30219,12 @@
       "sourceUrl": null,
       "gamewithId": "697",
       "gamewithArticleId": "548665",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-698",
       "nameJp": "トマトハンバーグ",
-      "nameKo": "토마토 햄버그",
+      "nameKo": "토마토 함버그",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_698.png",
       "categoryJp": "料理",
       "categoryKo": "요리",
@@ -30250,12 +30250,12 @@
       "sourceUrl": null,
       "gamewithId": "698",
       "gamewithArticleId": "548628",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-699",
       "nameJp": "ジャガイモハンバーグ",
-      "nameKo": "감자 햄버그",
+      "nameKo": "감자 함버그",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_699.png",
       "categoryJp": "料理",
       "categoryKo": "요리",
@@ -30281,12 +30281,12 @@
       "sourceUrl": null,
       "gamewithId": "699",
       "gamewithArticleId": "548521",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-700",
       "nameJp": "ヒメリサラダ",
-      "nameKo": "히메리 샐러드",
+      "nameKo": "리샘열매 샐러드",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_700.png",
       "categoryJp": "料理",
       "categoryKo": "요리",
@@ -30307,7 +30307,7 @@
       "sourceUrl": null,
       "gamewithId": "700",
       "gamewithArticleId": "548716",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-701",
@@ -30333,7 +30333,7 @@
       "sourceUrl": null,
       "gamewithId": "701",
       "gamewithArticleId": "548606",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-702",
@@ -30359,7 +30359,7 @@
       "sourceUrl": null,
       "gamewithId": "702",
       "gamewithArticleId": "548686",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-703",
@@ -30385,12 +30385,12 @@
       "sourceUrl": null,
       "gamewithId": "703",
       "gamewithArticleId": "548688",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-704",
       "nameJp": "キノコスープ",
-      "nameKo": "버섯 수프",
+      "nameKo": "버섯 스프",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_704.png",
       "categoryJp": "料理",
       "categoryKo": "요리",
@@ -30416,12 +30416,12 @@
       "sourceUrl": null,
       "gamewithId": "704",
       "gamewithArticleId": "548689",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-705",
       "nameJp": "ビリビリスープ",
-      "nameKo": "찌릿찌릿 수프",
+      "nameKo": "찌리찌리 스프",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_705.png",
       "categoryJp": "料理",
       "categoryKo": "요리",
@@ -30442,12 +30442,12 @@
       "sourceUrl": null,
       "gamewithId": "705",
       "gamewithArticleId": "548705",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-706",
       "nameJp": "かいそうスープ",
-      "nameKo": "해초 수프",
+      "nameKo": "해초 스프",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_706.png",
       "categoryJp": "料理",
       "categoryKo": "요리",
@@ -30473,12 +30473,12 @@
       "sourceUrl": null,
       "gamewithId": "706",
       "gamewithArticleId": "548710",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-707",
       "nameJp": "プレーンスープ",
-      "nameKo": "플레인 수프",
+      "nameKo": "플레인 스프",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_707.png",
       "categoryJp": "料理",
       "categoryKo": "요리",
@@ -30504,12 +30504,12 @@
       "sourceUrl": null,
       "gamewithId": "707",
       "gamewithArticleId": "548731",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-708",
       "nameJp": "やくぜんスープ",
-      "nameKo": "약선 수프",
+      "nameKo": "약선 스프",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_708.png",
       "categoryJp": "料理",
       "categoryKo": "요리",
@@ -30535,12 +30535,12 @@
       "sourceUrl": null,
       "gamewithId": "708",
       "gamewithArticleId": "548717",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-709",
       "nameJp": "ジューシースープ",
-      "nameKo": "쥬시 수프",
+      "nameKo": "쥬시 스프",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_709.png",
       "categoryJp": "料理",
       "categoryKo": "요리",
@@ -30566,12 +30566,12 @@
       "sourceUrl": null,
       "gamewithId": "709",
       "gamewithArticleId": "548643",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-710",
       "nameJp": "ヒメリパン",
-      "nameKo": "히메리 빵",
+      "nameKo": "리샘열매 빵",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_710.png",
       "categoryJp": "料理",
       "categoryKo": "요리",
@@ -30597,7 +30597,7 @@
       "sourceUrl": null,
       "gamewithId": "710",
       "gamewithArticleId": "548623",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-711",
@@ -30628,12 +30628,12 @@
       "sourceUrl": null,
       "gamewithId": "711",
       "gamewithArticleId": "548616",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-712",
       "nameJp": "ふわふわパン",
-      "nameKo": "폭신폭신 빵",
+      "nameKo": "푹신 빵",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_712.png",
       "categoryJp": "料理",
       "categoryKo": "요리",
@@ -30659,7 +30659,7 @@
       "sourceUrl": null,
       "gamewithId": "712",
       "gamewithArticleId": "548599",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-713",
@@ -30690,7 +30690,7 @@
       "sourceUrl": null,
       "gamewithId": "713",
       "gamewithArticleId": "548587",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-714",
@@ -30721,7 +30721,7 @@
       "sourceUrl": null,
       "gamewithId": "714",
       "gamewithArticleId": "548542",
-      "descriptionKo": null
+      "descriptionKo": "요리에서 입수"
     },
     {
       "id": "gw-715",
@@ -30742,7 +30742,7 @@
       "sourceUrl": null,
       "gamewithId": "715",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-716",
@@ -30805,7 +30805,7 @@
       "sourceUrl": null,
       "gamewithId": "718",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-719",
@@ -30867,7 +30867,7 @@
     {
       "id": "gw-721",
       "nameJp": "デコボコいた",
-      "nameKo": "울퉁불퉁 판자",
+      "nameKo": "울퉁불퉁 판",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_721.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -30888,7 +30888,7 @@
     {
       "id": "gw-722",
       "nameJp": "シンプルなドア",
-      "nameKo": "심플한 문",
+      "nameKo": "심플 문",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_722.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -30914,7 +30914,7 @@
     {
       "id": "gw-723",
       "nameJp": "あきカンいれ",
-      "nameKo": "빈 깡통통",
+      "nameKo": "빈 캔 넣는 곳",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_723.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -30945,7 +30945,7 @@
       "sourceUrl": null,
       "gamewithId": "724",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-725",
@@ -30981,7 +30981,7 @@
     {
       "id": "gw-726",
       "nameJp": "ポケセンのカベ・うえ",
-      "nameKo": "포켓몬센터 벽·위",
+      "nameKo": "포켓센터 벽·위",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_726.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -31002,7 +31002,7 @@
     {
       "id": "gw-727",
       "nameJp": "ポケセンのカベ・まんなか",
-      "nameKo": "포켓몬센터 벽·가운데",
+      "nameKo": "포켓센터 벽·가운데",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_727.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -31023,7 +31023,7 @@
     {
       "id": "gw-728",
       "nameJp": "ポケセンのカベ・した",
-      "nameKo": "포켓몬센터 벽·아래",
+      "nameKo": "포켓센터 벽·아래",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_728.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -31044,7 +31044,7 @@
     {
       "id": "gw-729",
       "nameJp": "ポケセンのカベ・ふち",
-      "nameKo": "포켓몬센터 벽·테두리",
+      "nameKo": "포켓센터 벽·테두리",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_729.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -31065,7 +31065,7 @@
     {
       "id": "gw-730",
       "nameJp": "かざりだな・いれもの",
-      "nameKo": "장식 선반·용기",
+      "nameKo": "장식선반·수납",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_730.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -31080,7 +31080,7 @@
     {
       "id": "gw-731",
       "nameJp": "きのみのもよう",
-      "nameKo": "나무열매 무늬",
+      "nameKo": "열매 무늬",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_731.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -31096,7 +31096,7 @@
       "sourceUrl": null,
       "gamewithId": "731",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-732",
@@ -31117,7 +31117,7 @@
       "sourceUrl": null,
       "gamewithId": "732",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-733",
@@ -31184,12 +31184,12 @@
       "sourceUrl": null,
       "gamewithId": "734",
       "gamewithArticleId": "547476",
-      "descriptionKo": null
+      "descriptionKo": "상점 또는 이벤트로 입수"
     },
     {
       "id": "gw-735",
       "nameJp": "ともしびのさいだんキット",
-      "nameKo": "불빛의 제단 키트",
+      "nameKo": "불꽃의 제단 키트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_3.png",
       "categoryJp": "キット",
       "categoryKo": "키트",
@@ -31220,12 +31220,12 @@
       "sourceUrl": null,
       "gamewithId": "735",
       "gamewithArticleId": "547477",
-      "descriptionKo": null
+      "descriptionKo": "상점 또는 이벤트로 입수"
     },
     {
       "id": "gw-736",
       "nameJp": "むじんはつでんしょキット",
-      "nameKo": "무인발전소 키트",
+      "nameKo": "무인 발전소 키트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_4.png",
       "categoryJp": "キット",
       "categoryKo": "키트",
@@ -31261,12 +31261,12 @@
       "sourceUrl": null,
       "gamewithId": "736",
       "gamewithArticleId": "547478",
-      "descriptionKo": null
+      "descriptionKo": "상점 또는 이벤트로 입수"
     },
     {
       "id": "gw-737",
       "nameJp": "トイレ",
-      "nameKo": "변기",
+      "nameKo": "화장실",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_737.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -31281,7 +31281,7 @@
     {
       "id": "gw-739",
       "nameJp": "パブリックベンチ",
-      "nameKo": "퍼블릭 벤치",
+      "nameKo": "공공 벤치",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_739.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -31326,7 +31326,7 @@
     {
       "id": "gw-742",
       "nameJp": "ポスター・めらめら",
-      "nameKo": "포스터·활활",
+      "nameKo": "포스터·이글이글",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_742.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -31393,7 +31393,7 @@
       "sourceUrl": null,
       "gamewithId": "745",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-746",
@@ -31508,7 +31508,7 @@
     {
       "id": "gw-751",
       "nameJp": "タテヨコの木のゆか(壁紙)",
-      "nameKo": "격자 나무 바닥(벽지)",
+      "nameKo": "세로가로 나무 바닥(벽지)",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_751.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -31607,7 +31607,7 @@
     {
       "id": "gw-755",
       "nameJp": "火力はつでんキット",
-      "nameKo": "화력발전 키트",
+      "nameKo": "화력 발전 키트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_6.png",
       "categoryJp": "キット",
       "categoryKo": "키트",
@@ -31628,12 +31628,12 @@
       "sourceUrl": null,
       "gamewithId": "755",
       "gamewithArticleId": "548630",
-      "descriptionKo": null
+      "descriptionKo": "상점 또는 이벤트로 입수"
     },
     {
       "id": "gw-756",
       "nameJp": "水力はつでんキット",
-      "nameKo": "수력발전 키트",
+      "nameKo": "수력 발전 키트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_5.png",
       "categoryJp": "キット",
       "categoryKo": "키트",
@@ -31654,7 +31654,7 @@
       "sourceUrl": null,
       "gamewithId": "756",
       "gamewithArticleId": "548631",
-      "descriptionKo": null
+      "descriptionKo": "상점 또는 이벤트로 입수"
     },
     {
       "id": "gw-757",
@@ -31690,7 +31690,7 @@
       "sourceUrl": null,
       "gamewithId": "758",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-759",
@@ -31711,12 +31711,12 @@
       "sourceUrl": null,
       "gamewithId": "759",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-760",
       "nameJp": "あかいけずれたいわ",
-      "nameKo": "빨간 깎인 바위",
+      "nameKo": "붉은 깎인 바위",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_760.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -31732,7 +31732,7 @@
       "sourceUrl": null,
       "gamewithId": "760",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-761",
@@ -31753,7 +31753,7 @@
       "sourceUrl": null,
       "gamewithId": "761",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-762",
@@ -31788,7 +31788,7 @@
     {
       "id": "gw-764",
       "nameJp": "あかいわ",
-      "nameKo": "빨간 바위",
+      "nameKo": "붉은 바위",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_764.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -31834,12 +31834,12 @@
       "sourceUrl": null,
       "gamewithId": "766",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-767",
       "nameJp": "しろいいわ",
-      "nameKo": "하얀 바위",
+      "nameKo": "흰 바위",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_767.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -31880,7 +31880,7 @@
     {
       "id": "gw-769",
       "nameJp": "ライトアンティークカベ・なか",
-      "nameKo": "라이트 앤티크 벽·가운데",
+      "nameKo": "라이트 앤티크 벽·중간",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_769.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -31932,7 +31932,7 @@
     {
       "id": "gw-771",
       "nameJp": "ひびわれすないわ",
-      "nameKo": "금간 모래 바위",
+      "nameKo": "금간 모래바위",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_771.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -31953,12 +31953,12 @@
       "sourceUrl": null,
       "gamewithId": "771",
       "gamewithArticleId": null,
-      "descriptionKo": null
+      "descriptionKo": "크래프트로 제작 가능한 건축 블록"
     },
     {
       "id": "gw-772",
       "nameJp": "すないわ",
-      "nameKo": "모래 바위",
+      "nameKo": "모래바위",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_772.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -32015,7 +32015,7 @@
     {
       "id": "gw-775",
       "nameJp": "てつのタイル(壁紙)",
-      "nameKo": "철 타일(벽지)",
+      "nameKo": "철 타일 (벽지)",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_775.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -32036,7 +32036,7 @@
     {
       "id": "gw-776",
       "nameJp": "たてラインのカベ(壁紙)",
-      "nameKo": "세로줄 벽(벽지)",
+      "nameKo": "세로라인 벽(벽지)",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_776.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -32099,7 +32099,7 @@
     {
       "id": "gw-779",
       "nameJp": "アンティークなカベ・なか",
-      "nameKo": "앤티크 벽·가운데",
+      "nameKo": "앤티크 벽·중간",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_779.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -32177,7 +32177,7 @@
     {
       "id": "gw-782",
       "nameJp": "ゆうびんばこ",
-      "nameKo": "우체통",
+      "nameKo": "우편함",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_782.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -32600,7 +32600,7 @@
     {
       "id": "gw-799",
       "nameJp": "しっとりいけがき",
-      "nameKo": "촉촉한 생울타리",
+      "nameKo": "세련된 산울타리",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_799.png",
       "categoryJp": "自然",
       "categoryKo": "자연",
@@ -32913,7 +32913,7 @@
     {
       "id": "gw-814",
       "nameJp": "キャンバス・まっさら",
-      "nameKo": "캔버스·무지",
+      "nameKo": "캔버스",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_814.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -32928,7 +32928,7 @@
     {
       "id": "gw-815",
       "nameJp": "キャンバス・ふうけいが",
-      "nameKo": "캔버스·풍경화",
+      "nameKo": "줄무늬 흙",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_815.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -32943,7 +32943,7 @@
     {
       "id": "gw-816",
       "nameJp": "キャンバス・しょうぞうが",
-      "nameKo": "캔버스·초상화",
+      "nameKo": "푸드 카운터",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_816.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -32958,7 +32958,7 @@
     {
       "id": "gw-817",
       "nameJp": "キャンバス・せいぶつが",
-      "nameKo": "캔버스·정물화",
+      "nameKo": "금 틀니",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_817.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -32973,7 +32973,7 @@
     {
       "id": "gw-818",
       "nameJp": "さんかくのやねレンガ",
-      "nameKo": "삼각 지붕 벽돌",
+      "nameKo": "파티 벽 장식",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_818.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -32988,7 +32988,7 @@
     {
       "id": "gw-819",
       "nameJp": "でっぱりのやねレンガ",
-      "nameKo": "돌출 지붕 벽돌",
+      "nameKo": "은은한 캔들",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_819.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -33003,7 +33003,7 @@
     {
       "id": "gw-820",
       "nameJp": "ウォールライト",
-      "nameKo": "벽 조명",
+      "nameKo": "벽걸이 플라워",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_820.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -33018,7 +33018,7 @@
     {
       "id": "gw-821",
       "nameJp": "ヤドンのラグ",
-      "nameKo": "야돈 러그",
+      "nameKo": "랜턴",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_821.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -33033,7 +33033,7 @@
     {
       "id": "gw-822",
       "nameJp": "リザードンのラグ",
-      "nameKo": "리자몽 러그",
+      "nameKo": "철망 벽",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_822.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -33048,7 +33048,7 @@
     {
       "id": "gw-823",
       "nameJp": "きんのいれば",
-      "nameKo": "금틀니",
+      "nameKo": "돌쌓기 벽",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_823.png",
       "categoryJp": "ざっか",
       "categoryKo": "잡화",
@@ -33063,7 +33063,7 @@
     {
       "id": "gw-824",
       "nameJp": "メタルパウダー",
-      "nameKo": "금속파우더",
+      "nameKo": "철판 바닥",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_824.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -33078,7 +33078,7 @@
     {
       "id": "gw-825",
       "nameJp": "モダンなカベ",
-      "nameKo": "모던 벽",
+      "nameKo": "세련된 바닥돌",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_825.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -33099,7 +33099,7 @@
     {
       "id": "gw-826",
       "nameJp": "みずたまもよう",
-      "nameKo": "물방울 무늬",
+      "nameKo": "초원 잔디",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_826.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -33120,7 +33120,7 @@
     {
       "id": "gw-827",
       "nameJp": "ガーデンフラワー",
-      "nameKo": "가든 플라워",
+      "nameKo": "산악 잔디",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_827.png",
       "categoryJp": "おくがい",
       "categoryKo": "야외",
@@ -33146,7 +33146,7 @@
     {
       "id": "gw-828",
       "nameJp": "ペンキぬりのカベ",
-      "nameKo": "페인트칠 벽",
+      "nameKo": "보통 흙",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_828.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -33167,7 +33167,7 @@
     {
       "id": "gw-829",
       "nameJp": "シンプルなゆか",
-      "nameKo": "심플한 바닥",
+      "nameKo": "검은 바위",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_829.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -33188,7 +33188,7 @@
     {
       "id": "gw-830",
       "nameJp": "メタモンラグ",
-      "nameKo": "메타몽 러그",
+      "nameKo": "동굴 바위",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_830.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -33209,7 +33209,7 @@
     {
       "id": "gw-831",
       "nameJp": "ふつうのつち",
-      "nameKo": "평범한 흙",
+      "nameKo": "이끼 흙",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_831.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -33224,7 +33224,7 @@
     {
       "id": "gw-833",
       "nameJp": "そうげんのしばふ",
-      "nameKo": "초원 잔디",
+      "nameKo": "돌 오두막 키트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_833.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -33239,7 +33239,7 @@
     {
       "id": "gw-834",
       "nameJp": "タテまるた",
-      "nameKo": "세로 통나무",
+      "nameKo": "훌륭한 돌집 키트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_834.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -33254,7 +33254,7 @@
     {
       "id": "gw-835",
       "nameJp": "ヨコまるた",
-      "nameKo": "가로 통나무",
+      "nameKo": "달밤의 댄스상 키트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_835.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -33269,7 +33269,7 @@
     {
       "id": "gw-836",
       "nameJp": "ゴージャスなイス",
-      "nameKo": "럭셔리 의자",
+      "nameKo": "포켓몬센터",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_836.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -33300,7 +33300,7 @@
     {
       "id": "gw-838",
       "nameJp": "モンスターボールマット",
-      "nameKo": "몬스터볼 매트",
+      "nameKo": "게임코너",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_838.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -33326,7 +33326,7 @@
     {
       "id": "gw-839",
       "nameJp": "ギンガムチェック",
-      "nameKo": "깅엄 체크",
+      "nameKo": "부티크",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_839.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -33347,7 +33347,7 @@
     {
       "id": "gw-840",
       "nameJp": "ほしぞらのカベ",
-      "nameKo": "별하늘 벽",
+      "nameKo": "하우올리시티(낮)",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_840.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -33373,7 +33373,7 @@
     {
       "id": "gw-841",
       "nameJp": "ていぼう",
-      "nameKo": "방파제",
+      "nameKo": "파티 냄비",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_841.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -33394,7 +33394,7 @@
     {
       "id": "gw-842",
       "nameJp": "いやしのこうえんキット",
-      "nameKo": "힐링 공원 키트",
+      "nameKo": "볼 현관매트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/building_24.png",
       "categoryJp": "キット",
       "categoryKo": "키트",
@@ -33425,7 +33425,7 @@
     {
       "id": "gw-843",
       "nameJp": "てつのハシゴ",
-      "nameKo": "철 사다리",
+      "nameKo": "몬스터볼 매트",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_843.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -33446,7 +33446,7 @@
     {
       "id": "gw-844",
       "nameJp": "レンガのふち・ミニ",
-      "nameKo": "벽돌 테두리·미니",
+      "nameKo": "리샘 씨앗",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_844.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -33467,7 +33467,7 @@
     {
       "id": "gw-845",
       "nameJp": "レンガのふち・かど",
-      "nameKo": "벽돌 테두리·모서리",
+      "nameKo": "유루 씨앗",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_845.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -33488,7 +33488,7 @@
     {
       "id": "gw-846",
       "nameJp": "フカフカじゅうたん",
-      "nameKo": "폭신폭신 카펫",
+      "nameKo": "베리 씨앗",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_846.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -33509,7 +33509,7 @@
     {
       "id": "gw-847",
       "nameJp": "モダンなドア",
-      "nameKo": "모던한 문",
+      "nameKo": "들판 꽃 씨앗",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_847.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -33535,7 +33535,7 @@
     {
       "id": "gw-848",
       "nameJp": "あげさげまど",
-      "nameKo": "여닫이 창",
+      "nameKo": "바위밭 꽃 씨앗",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_848.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -33561,7 +33561,7 @@
     {
       "id": "gw-849",
       "nameJp": "レンガのカベ",
-      "nameKo": "벽돌 벽",
+      "nameKo": "엘레강스한 꽃 씨앗",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_849.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -33582,7 +33582,7 @@
     {
       "id": "gw-850",
       "nameJp": "ふねのさく",
-      "nameKo": "배 울타리",
+      "nameKo": "귀여운 생울타리 씨앗",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_850.png",
       "categoryJp": "たてもの",
       "categoryKo": "건물",
@@ -33608,7 +33608,7 @@
     {
       "id": "gw-851",
       "nameJp": "おしゃれボールもよう",
-      "nameKo": "세련된 볼 무늬",
+      "nameKo": "촉촉한 생울타리 씨앗",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_851.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -33629,7 +33629,7 @@
     {
       "id": "gw-852",
       "nameJp": "ゴージャスなドレッサー",
-      "nameKo": "럭셔리 화장대",
+      "nameKo": "밀 씨앗",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_852.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -33660,7 +33660,7 @@
     {
       "id": "gw-853",
       "nameJp": "レザーのカベ",
-      "nameKo": "가죽 벽",
+      "nameKo": "고사리",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_853.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -33686,7 +33686,7 @@
     {
       "id": "gw-854",
       "nameJp": "ブロックライト",
-      "nameKo": "블록 라이트",
+      "nameKo": "달밤의 댄스상",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_854.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -33712,7 +33712,7 @@
     {
       "id": "gw-855",
       "nameJp": "ボールのげんかんマット",
-      "nameKo": "볼 현관 매트",
+      "nameKo": "접시에 올린 음식",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_855.png",
       "categoryJp": "その他",
       "categoryKo": "기타",
@@ -33733,7 +33733,7 @@
     {
       "id": "gw-856",
       "nameJp": "てつのカベ",
-      "nameKo": "철 벽",
+      "nameKo": "높은 곳",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_856.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -33754,7 +33754,7 @@
     {
       "id": "gw-857",
       "nameJp": "おしゃれゆかいし",
-      "nameKo": "세련된 바닥돌",
+      "nameKo": "물",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_857.png",
       "categoryJp": "ブロック",
       "categoryKo": "블록",
@@ -33775,7 +33775,7 @@
     {
       "id": "gw-858",
       "nameJp": "センサー",
-      "nameKo": "센서",
+      "nameKo": "온천",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_858.png",
       "categoryJp": "べんり",
       "categoryKo": "편의",
@@ -33801,7 +33801,7 @@
     {
       "id": "gw-859",
       "nameJp": "インダストリアルなベンチ",
-      "nameKo": "인터스트리얼 벤치",
+      "nameKo": "마그마",
       "imagePath": "https://img.gamewith.jp/article_tools/pocoapokemon/gacha/item_859.png",
       "categoryJp": "家具",
       "categoryKo": "가구",
@@ -33850,12 +33850,12 @@
         {
           "nameJp": "ダウジングマシン",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "다우징 머신"
         },
         {
           "nameJp": "ポケメタル",
           "count": 5,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         }
       ],
       "habitatsJp": [
@@ -33875,7 +33875,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         }
       ],
       "habitatsJp": [
@@ -33895,7 +33895,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -33915,7 +33915,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         }
       ],
       "habitatsJp": [
@@ -33949,7 +33949,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         }
       ],
       "habitatsJp": [
@@ -33969,7 +33969,7 @@
         {
           "nameJp": "ガラス",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "유리"
         }
       ],
       "habitatsJp": [
@@ -33990,7 +33990,7 @@
         {
           "nameJp": "どうののべぼう",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "구리 주괴"
         }
       ],
       "habitatsJp": [
@@ -34011,17 +34011,17 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "목재"
         },
         {
           "nameJp": "いし",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "돌"
         },
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -34042,7 +34042,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -34063,7 +34063,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -34084,17 +34084,17 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "목재"
         },
         {
           "nameJp": "ガラス",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "유리"
         },
         {
           "nameJp": "ぐにゃぐにゃねんど",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "흐물흐물 점토"
         }
       ],
       "habitatsJp": [
@@ -34115,7 +34115,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         }
       ],
       "habitatsJp": [
@@ -34135,7 +34135,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         }
       ],
       "habitatsJp": [
@@ -34170,7 +34170,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -34192,7 +34192,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -34213,7 +34213,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -34234,7 +34234,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -34255,7 +34255,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -34276,7 +34276,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -34298,7 +34298,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -34320,7 +34320,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -34341,7 +34341,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -34363,7 +34363,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -34384,7 +34384,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -34405,7 +34405,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -34426,7 +34426,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -34447,7 +34447,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -34468,7 +34468,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -34489,7 +34489,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -34510,7 +34510,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -34531,12 +34531,12 @@
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "목재"
         },
         {
           "nameJp": "はらっぱのはな",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "들판 꽃"
         }
       ],
       "habitatsJp": [
@@ -34557,12 +34557,12 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "목재"
         }
       ],
       "habitatsJp": [
@@ -34583,7 +34583,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         }
       ],
       "habitatsJp": [
@@ -34605,7 +34605,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         }
       ],
       "habitatsJp": [
@@ -34626,7 +34626,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -34647,12 +34647,12 @@
         {
           "nameJp": "シーグラスのかけら",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "바다유리 조각"
         },
         {
           "nameJp": "てつ",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "철"
         }
       ],
       "habitatsJp": [
@@ -34675,7 +34675,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -34696,7 +34696,7 @@
         {
           "nameJp": "てつ",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "철"
         }
       ],
       "habitatsJp": [
@@ -34719,12 +34719,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         },
         {
           "nameJp": "ガラス",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "유리"
         }
       ],
       "habitatsJp": [
@@ -34748,7 +34748,7 @@
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "실뭉치"
         }
       ],
       "habitatsJp": [
@@ -34770,7 +34770,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -34791,7 +34791,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -34812,7 +34812,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         }
       ],
       "habitatsJp": [
@@ -34834,12 +34834,12 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "목재"
         }
       ],
       "habitatsJp": [
@@ -34863,12 +34863,12 @@
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "실뭉치"
         },
         {
           "nameJp": "わた",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "솜"
         }
       ],
       "habitatsJp": [
@@ -34889,7 +34889,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "실뭉치"
         }
       ],
       "habitatsJp": [
@@ -34910,7 +34910,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -34932,12 +34932,12 @@
         {
           "nameJp": "コンクリート",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "콘크리트"
         },
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -34959,7 +34959,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         }
       ],
       "habitatsJp": [
@@ -34981,7 +34981,7 @@
         {
           "nameJp": "わた",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "솜"
         }
       ],
       "habitatsJp": [
@@ -35002,12 +35002,12 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "목재"
         }
       ],
       "habitatsJp": [
@@ -35028,7 +35028,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         }
       ],
       "habitatsJp": [
@@ -35050,7 +35050,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -35071,12 +35071,12 @@
         {
           "nameJp": "ガラス",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "유리"
         },
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         }
       ],
       "habitatsJp": [
@@ -35097,7 +35097,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -35118,12 +35118,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         },
         {
           "nameJp": "わた",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "솜"
         }
       ],
       "habitatsJp": [
@@ -35144,7 +35144,7 @@
         {
           "nameJp": "どうののべぼう",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "구리 주괴"
         }
       ],
       "habitatsJp": [
@@ -35165,12 +35165,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         },
         {
           "nameJp": "ガラス",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "유리"
         }
       ],
       "habitatsJp": [
@@ -35193,17 +35193,17 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         },
         {
           "nameJp": "ガラス",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "유리"
         },
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -35224,7 +35224,7 @@
         {
           "nameJp": "クリスタルのカケラ",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "크리스탈 조각"
         }
       ],
       "habitatsJp": [
@@ -35245,12 +35245,12 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "목재"
         }
       ],
       "habitatsJp": [
@@ -35272,7 +35272,7 @@
         {
           "nameJp": "いし",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "돌"
         }
       ],
       "habitatsJp": [
@@ -35294,7 +35294,7 @@
         {
           "nameJp": "ざいもく",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "목재"
         }
       ],
       "habitatsJp": [
@@ -35317,7 +35317,7 @@
         {
           "nameJp": "いし",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "돌"
         }
       ],
       "habitatsJp": [
@@ -35338,7 +35338,7 @@
         {
           "nameJp": "ポケメタル",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         }
       ],
       "habitatsJp": [
@@ -35359,7 +35359,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -35380,12 +35380,12 @@
         {
           "nameJp": "いし",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "돌"
         },
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "광채 돌"
         }
       ],
       "habitatsJp": [
@@ -35407,7 +35407,7 @@
         {
           "nameJp": "きんののべぼう",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "금 주괴"
         }
       ],
       "habitatsJp": [
@@ -35428,7 +35428,7 @@
         {
           "nameJp": "てつ",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "철"
         }
       ],
       "habitatsJp": [
@@ -35449,7 +35449,7 @@
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "철 주괴"
         }
       ],
       "habitatsJp": [
@@ -35471,7 +35471,7 @@
         {
           "nameJp": "どうののべぼう",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "구리 주괴"
         }
       ],
       "habitatsJp": [
@@ -35492,12 +35492,12 @@
         {
           "nameJp": "わた",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "솜"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "실뭉치"
         }
       ],
       "habitatsJp": [
@@ -35518,12 +35518,12 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         },
         {
           "nameJp": "ガラス",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "유리"
         }
       ],
       "habitatsJp": [
@@ -35544,7 +35544,7 @@
         {
           "nameJp": "てつ",
           "count": 4,
-          "nameKo": ""
+          "nameKo": "철"
         }
       ],
       "habitatsJp": [
@@ -35565,7 +35565,7 @@
         {
           "nameJp": "せっかいせき",
           "count": 4,
-          "nameKo": ""
+          "nameKo": "석회석"
         }
       ],
       "habitatsJp": [
@@ -35587,12 +35587,12 @@
         {
           "nameJp": "はっぱ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "잎사귀"
         },
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "실뭉치"
         }
       ],
       "habitatsJp": [
@@ -35615,12 +35615,12 @@
         {
           "nameJp": "いとくず",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "실뭉치"
         },
         {
           "nameJp": "きんののべぼう",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "금 주괴"
         }
       ],
       "habitatsJp": [
@@ -35642,7 +35642,7 @@
         {
           "nameJp": "いし",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "돌"
         }
       ],
       "habitatsJp": [
@@ -35664,17 +35664,17 @@
         {
           "nameJp": "ポケメタル",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         },
         {
           "nameJp": "てつののべぼう",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "목재"
         }
       ],
       "habitatsJp": [
@@ -35697,7 +35697,7 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         }
       ],
       "habitatsJp": [
@@ -35718,12 +35718,12 @@
         {
           "nameJp": "シーグラスのかけら",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "바다유리 조각"
         },
         {
           "nameJp": "てつ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "철"
         }
       ],
       "habitatsJp": [
@@ -35745,7 +35745,7 @@
         {
           "nameJp": "ガラス",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "유리"
         }
       ],
       "habitatsJp": [
@@ -35768,7 +35768,7 @@
         {
           "nameJp": "てつ",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "철"
         }
       ],
       "habitatsJp": [
@@ -35792,12 +35792,12 @@
         {
           "nameJp": "てつののべぼう",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "ガラス",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "유리"
         }
       ],
       "habitatsJp": [
@@ -35819,17 +35819,17 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "실뭉치"
         },
         {
           "nameJp": "わた",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "솜"
         },
         {
           "nameJp": "つたひも",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [
@@ -35850,12 +35850,12 @@
         {
           "nameJp": "かみ",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "종이"
         },
         {
           "nameJp": "ざいもく",
           "count": 1,
-          "nameKo": ""
+          "nameKo": "목재"
         }
       ],
       "habitatsJp": [
@@ -35877,7 +35877,7 @@
         {
           "nameJp": "レンガ",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "벽돌"
         }
       ],
       "habitatsJp": [
@@ -35897,7 +35897,7 @@
         {
           "nameJp": "レンガ",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "벽돌"
         }
       ],
       "habitatsJp": [
@@ -35917,7 +35917,7 @@
         {
           "nameJp": "いし",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "돌"
         }
       ],
       "habitatsJp": [
@@ -35937,7 +35937,7 @@
         {
           "nameJp": "いし",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "돌"
         }
       ],
       "habitatsJp": [
@@ -35957,7 +35957,7 @@
         {
           "nameJp": "いし",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "돌"
         }
       ],
       "habitatsJp": [
@@ -35977,7 +35977,7 @@
         {
           "nameJp": "レンガ",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "벽돌"
         }
       ],
       "habitatsJp": [
@@ -35998,7 +35998,7 @@
         {
           "nameJp": "レンガ",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "벽돌"
         }
       ],
       "habitatsJp": [
@@ -36019,7 +36019,7 @@
         {
           "nameJp": "レンガ",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "벽돌"
         }
       ],
       "habitatsJp": [
@@ -36040,22 +36040,22 @@
         {
           "nameJp": "てつののべぼう",
           "count": 10,
-          "nameKo": ""
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "ガラス",
           "count": 5,
-          "nameKo": ""
+          "nameKo": "유리"
         },
         {
           "nameJp": "ヒカリいし",
           "count": 10,
-          "nameKo": ""
+          "nameKo": "광채 돌"
         },
         {
           "nameJp": "ポケメタル",
           "count": 5,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         }
       ],
       "habitatsJp": [
@@ -36075,22 +36075,22 @@
         {
           "nameJp": "てつののべぼう",
           "count": 10,
-          "nameKo": ""
+          "nameKo": "철 주괴"
         },
         {
           "nameJp": "コンクリート",
           "count": 10,
-          "nameKo": ""
+          "nameKo": "콘크리트"
         },
         {
           "nameJp": "ガラス",
           "count": 10,
-          "nameKo": ""
+          "nameKo": "유리"
         },
         {
           "nameJp": "ポケメタル",
           "count": 5,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         }
       ],
       "habitatsJp": [
@@ -36110,22 +36110,22 @@
         {
           "nameJp": "ざいもく",
           "count": 10,
-          "nameKo": ""
+          "nameKo": "목재"
         },
         {
           "nameJp": "てつ",
           "count": 10,
-          "nameKo": ""
+          "nameKo": "철"
         },
         {
           "nameJp": "いとくず",
           "count": 10,
-          "nameKo": ""
+          "nameKo": "실뭉치"
         },
         {
           "nameJp": "かいがら",
           "count": 10,
-          "nameKo": ""
+          "nameKo": "조개"
         }
       ],
       "habitatsJp": [
@@ -36159,17 +36159,17 @@
         {
           "nameJp": "コンクリート",
           "count": 10,
-          "nameKo": ""
+          "nameKo": "콘크리트"
         },
         {
           "nameJp": "ガラス",
           "count": 10,
-          "nameKo": ""
+          "nameKo": "유리"
         },
         {
           "nameJp": "ポケメタル",
           "count": 10,
-          "nameKo": ""
+          "nameKo": "포켓메탈"
         }
       ],
       "habitatsJp": [
@@ -36189,22 +36189,22 @@
         {
           "nameJp": "ざいもく",
           "count": 10,
-          "nameKo": ""
+          "nameKo": "목재"
         },
         {
           "nameJp": "レンガ",
           "count": 10,
-          "nameKo": ""
+          "nameKo": "벽돌"
         },
         {
           "nameJp": "いとくず",
           "count": 5,
-          "nameKo": ""
+          "nameKo": "실뭉치"
         },
         {
           "nameJp": "かいがら",
           "count": 5,
-          "nameKo": ""
+          "nameKo": "조개"
         }
       ],
       "habitatsJp": [
@@ -36224,7 +36224,7 @@
         {
           "nameJp": "いとくず",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "실뭉치"
         }
       ],
       "habitatsJp": [
@@ -36244,22 +36244,22 @@
         {
           "nameJp": "レンガ",
           "count": 10,
-          "nameKo": ""
+          "nameKo": "벽돌"
         },
         {
           "nameJp": "シーグラスのかけら",
           "count": 5,
-          "nameKo": ""
+          "nameKo": "바다유리 조각"
         },
         {
           "nameJp": "てつ",
           "count": 5,
-          "nameKo": ""
+          "nameKo": "철"
         },
         {
           "nameJp": "いし",
           "count": 10,
-          "nameKo": ""
+          "nameKo": "돌"
         }
       ],
       "habitatsJp": [
@@ -36294,22 +36294,22 @@
         {
           "nameJp": "ざいもく",
           "count": 20,
-          "nameKo": ""
+          "nameKo": "목재"
         },
         {
           "nameJp": "いし",
           "count": 20,
-          "nameKo": ""
+          "nameKo": "돌"
         },
         {
           "nameJp": "はっぱ",
           "count": 10,
-          "nameKo": ""
+          "nameKo": "잎사귀"
         },
         {
           "nameJp": "つたひも",
           "count": 10,
-          "nameKo": ""
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [
@@ -36329,7 +36329,7 @@
         {
           "nameJp": "いし",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "돌"
         }
       ],
       "habitatsJp": [
@@ -36350,7 +36350,7 @@
         {
           "nameJp": "いし",
           "count": 2,
-          "nameKo": ""
+          "nameKo": "돌"
         }
       ],
       "habitatsJp": [
