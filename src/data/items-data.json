@@ -15380,7 +15380,7 @@
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         },
         {
           "nameJp": "てつ",
@@ -15390,7 +15390,7 @@
         {
           "nameJp": "うみべのすな",
           "count": 1,
-          "nameKo": "해변 모래"
+          "nameKo": "해안의 모래"
         }
       ],
       "habitatsJp": [
@@ -15566,7 +15566,7 @@
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         },
         {
           "nameJp": "かみのゴミ",
@@ -16381,7 +16381,7 @@
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [
@@ -16535,7 +16535,7 @@
         {
           "nameJp": "つたひも",
           "count": 2,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [],
@@ -17813,7 +17813,7 @@
         {
           "nameJp": "もえないゴミ",
           "count": 1,
-          "nameKo": "불연성 쓰레기"
+          "nameKo": "타지 않는 쓰레기"
         }
       ],
       "habitatsJp": [
@@ -18598,7 +18598,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 2,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         }
       ],
       "habitatsJp": [
@@ -21550,7 +21550,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         }
       ],
       "habitatsJp": [],
@@ -21578,7 +21578,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         }
       ],
       "habitatsJp": [],
@@ -21606,7 +21606,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         }
       ],
       "habitatsJp": [],
@@ -21634,7 +21634,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         }
       ],
       "habitatsJp": [],
@@ -22232,7 +22232,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         }
       ],
       "habitatsJp": [],
@@ -22329,7 +22329,7 @@
         {
           "nameJp": "つたひも",
           "count": 2,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [
@@ -22574,7 +22574,7 @@
         {
           "nameJp": "つたひも",
           "count": 25,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [],
@@ -22607,7 +22607,7 @@
         {
           "nameJp": "うみべのすな",
           "count": 5,
-          "nameKo": "해변 모래"
+          "nameKo": "해안의 모래"
         }
       ],
       "habitatsJp": [],
@@ -22802,7 +22802,7 @@
         {
           "nameJp": "ラムのみ",
           "count": 1,
-          "nameKo": "베리열매"
+          "nameKo": "배리열매"
         }
       ],
       "habitatsJp": [
@@ -22864,7 +22864,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         }
       ],
       "habitatsJp": [
@@ -23109,7 +23109,7 @@
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [],
@@ -23536,7 +23536,7 @@
         {
           "nameJp": "ぎんいろのはね",
           "count": 5,
-          "nameKo": "은빛날개"
+          "nameKo": "은빛 깃털"
         }
       ],
       "habitatsJp": [],
@@ -23683,7 +23683,7 @@
         {
           "nameJp": "にじいろのはね",
           "count": 5,
-          "nameKo": "무지개빛 깃털"
+          "nameKo": "무지갯빛 깃털"
         }
       ],
       "habitatsJp": [],
@@ -23728,7 +23728,7 @@
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         },
         {
           "nameJp": "じょうぶなえだ",
@@ -23766,7 +23766,7 @@
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [
@@ -24509,7 +24509,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         }
       ],
       "habitatsJp": [],
@@ -24766,7 +24766,7 @@
         {
           "nameJp": "ラムのみ",
           "count": 1,
-          "nameKo": "베리열매"
+          "nameKo": "배리열매"
         },
         {
           "nameJp": "ポケメタル",
@@ -24946,7 +24946,7 @@
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         },
         {
           "nameJp": "シーグラスのかけら",
@@ -25453,7 +25453,7 @@
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [],
@@ -25533,7 +25533,7 @@
         {
           "nameJp": "うみべのすな",
           "count": 1,
-          "nameKo": "해변 모래"
+          "nameKo": "해안의 모래"
         },
         {
           "nameJp": "ざいもく",
@@ -25729,7 +25729,7 @@
         {
           "nameJp": "もえないゴミ",
           "count": 1,
-          "nameKo": "불연성 쓰레기"
+          "nameKo": "타지 않는 쓰레기"
         },
         {
           "nameJp": "てつ",
@@ -25903,7 +25903,7 @@
         {
           "nameJp": "はらっぱのはな",
           "count": 1,
-          "nameKo": "들판의 꽃"
+          "nameKo": "들판 꽃"
         }
       ],
       "habitatsJp": [
@@ -27063,7 +27063,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         }
       ],
       "habitatsJp": [],
@@ -27169,7 +27169,7 @@
         {
           "nameJp": "つたひも",
           "count": 2,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [
@@ -27208,7 +27208,7 @@
         {
           "nameJp": "つたひも",
           "count": 2,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [
@@ -27247,7 +27247,7 @@
         {
           "nameJp": "つたひも",
           "count": 2,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [
@@ -27281,7 +27281,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         }
       ],
       "habitatsJp": [],
@@ -28565,7 +28565,7 @@
         {
           "nameJp": "つたひも",
           "count": 2,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [],
@@ -29663,7 +29663,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         },
         {
           "nameJp": "えのぐ・しろ",
@@ -29701,7 +29701,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         },
         {
           "nameJp": "えのぐ・あか",
@@ -29739,7 +29739,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         },
         {
           "nameJp": "えのぐ・みどり",
@@ -29777,7 +29777,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         },
         {
           "nameJp": "えのぐ・きいろ",
@@ -29815,7 +29815,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         },
         {
           "nameJp": "えのぐ・あお",
@@ -29894,7 +29894,7 @@
         {
           "nameJp": "はらっぱのはな",
           "count": 1,
-          "nameKo": "들판의 꽃"
+          "nameKo": "들판 꽃"
         }
       ],
       "habitatsJp": [],
@@ -31328,7 +31328,7 @@
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [],
@@ -31361,7 +31361,7 @@
         {
           "nameJp": "つたひも",
           "count": 2,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [],
@@ -31804,7 +31804,7 @@
         {
           "nameJp": "つたひも",
           "count": 1,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [],
@@ -32334,7 +32334,7 @@
         {
           "nameJp": "たべごろキノコ",
           "count": 1,
-          "nameKo": "먹음직한 버섯"
+          "nameKo": "먹기 좋은 버섯"
         },
         {
           "nameJp": "なんでも",
@@ -32545,7 +32545,7 @@
         {
           "nameJp": "たべごろキノコ",
           "count": 1,
-          "nameKo": "먹음직한 버섯"
+          "nameKo": "먹기 좋은 버섯"
         },
         {
           "nameJp": "なんでも",
@@ -32842,7 +32842,7 @@
         {
           "nameJp": "ラムのみ",
           "count": 1,
-          "nameKo": "베리열매"
+          "nameKo": "배리열매"
         }
       ],
       "habitatsJp": [],
@@ -34056,7 +34056,7 @@
         {
           "nameJp": "あかいわ",
           "count": 1,
-          "nameKo": "붉은 바위"
+          "nameKo": "붉은차 동굴바위"
         }
       ],
       "habitatsJp": [],
@@ -34170,7 +34170,7 @@
         {
           "nameJp": "しろいいわ",
           "count": 1,
-          "nameKo": "흰 바위"
+          "nameKo": "새하얀 흙"
         }
       ],
       "habitatsJp": [],
@@ -34294,7 +34294,7 @@
         {
           "nameJp": "すないわ",
           "count": 1,
-          "nameKo": "모래바위"
+          "nameKo": "모래 바위"
         },
         {
           "nameJp": "いし",
@@ -35096,7 +35096,7 @@
         {
           "nameJp": "うみべのすな",
           "count": 10,
-          "nameKo": "해변 모래"
+          "nameKo": "해안의 모래"
         }
       ],
       "habitatsJp": [],
@@ -35129,7 +35129,7 @@
         {
           "nameJp": "うみべのすな",
           "count": 20,
-          "nameKo": "해변 모래"
+          "nameKo": "해안의 모래"
         },
         {
           "nameJp": "かいがら",
@@ -35167,7 +35167,7 @@
         {
           "nameJp": "うみべのすな",
           "count": 25,
-          "nameKo": "해변 모래"
+          "nameKo": "해안의 모래"
         },
         {
           "nameJp": "かいがら",
@@ -35697,7 +35697,7 @@
         {
           "nameJp": "はらっぱのはな",
           "count": 1,
-          "nameKo": "들판의 꽃"
+          "nameKo": "들판 꽃"
         }
       ],
       "habitatsJp": [],
@@ -35992,7 +35992,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 10,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         }
       ],
       "habitatsJp": [],
@@ -36354,7 +36354,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         },
         {
           "nameJp": "ガラス",
@@ -37372,7 +37372,7 @@
         {
           "nameJp": "はらっぱのはな",
           "count": 1,
-          "nameKo": "들판의 꽃"
+          "nameKo": "들판 꽃"
         }
       ],
       "habitatsJp": [
@@ -38401,7 +38401,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         }
       ],
       "habitatsJp": [
@@ -38935,7 +38935,7 @@
         {
           "nameJp": "つたひも",
           "count": 2,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [
@@ -39206,7 +39206,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 10,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         },
         {
           "nameJp": "ポケメタル",
@@ -39510,7 +39510,7 @@
         {
           "nameJp": "つたひも",
           "count": 10,
-          "nameKo": "덩굴줄"
+          "nameKo": "덩굴끈"
         }
       ],
       "habitatsJp": [
@@ -40210,7 +40210,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         }
       ],
       "habitatsJp": [],
@@ -40243,7 +40243,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         }
       ],
       "habitatsJp": [],
@@ -40276,7 +40276,7 @@
         {
           "nameJp": "ヒカリいし",
           "count": 1,
-          "nameKo": "빛의돌"
+          "nameKo": "광채 돌"
         }
       ],
       "habitatsJp": [],
