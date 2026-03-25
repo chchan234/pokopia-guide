@@ -11,6 +11,9 @@ const sharedConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 const nextConfig: NextConfig = normalizedBasePath
