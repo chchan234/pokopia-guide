@@ -28,9 +28,10 @@ export const navigationGroups: NavigationGroup[] = [
     key: 'craft',
     label: '아이템',
     href: '/items',
-    description: '아이템 · 요리',
+    description: '아이템 · 레시피 · 요리',
     children: [
-      { href: '/items', label: '아이템', description: '재료와 제작 관련 데이터' },
+      { href: '/items', label: '아이템', description: '전체 아이템 도감' },
+      { href: '/recipes', label: '레시피', description: '레시피 목록과 보유 체크' },
       { href: '/cooking', label: '요리', description: '요리와 공물 효과' },
       { href: '/materials', label: '재료 검색', description: '재료로 사용처 역검색' },
     ],

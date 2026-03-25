@@ -1,7 +1,8 @@
 'use client';
 
 import type { ReactNode } from 'react';
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import Image from 'next/image';
 import { useSearchParams } from 'next/navigation';
 import { useSyncQueryParams } from '@/hooks/use-sync-query-params';
 import ZoomableImage from '@/components/zoomable-image';
@@ -13,15 +14,12 @@ interface ItemsPageClientProps {
   data: ItemsData;
 }
 
-type ItemsTab = 'allitems' | 'craftable' | 'buildings' | 'recipes' | 'dolls' | 'cds' | 'berries' | 'emotes' | 'collections' | 'ancients';
-
-type RecipeSourceFilter = 'all' | 'shop' | 'other';
+type ItemsTab = 'allitems' | 'craftable' | 'buildings' | 'dolls' | 'cds' | 'berries' | 'emotes' | 'collections' | 'ancients';
 
 const tabLabels: Record<ItemsTab, string> = {
   allitems: '전체 아이템',
   craftable: '제작 아이템',
   buildings: '건축 키트',
-  recipes: '레시피',
   dolls: '인형',
   cds: 'CD',
   berries: '열매',
@@ -31,12 +29,12 @@ const tabLabels: Record<ItemsTab, string> = {
 };
 
 function isItemsTab(value: string | null): value is ItemsTab {
-  return value !== null && ['allitems', 'craftable', 'buildings', 'recipes', 'dolls', 'cds', 'berries', 'emotes', 'collections', 'ancients'].includes(value);
+  return value !== null && ['allitems', 'craftable', 'buildings', 'dolls', 'cds', 'berries', 'emotes', 'collections', 'ancients'].includes(value);
 }
 
-function isRecipeSourceFilter(value: string): value is RecipeSourceFilter {
-  return ['all', 'shop', 'other'].includes(value);
-}
+// 카테고리 필터 칩 목록 (전체 아이템 탭용)
+const CATEGORY_FILTERS = ['전체', '가구', '잡화', '건물', '블록', '편의', '야외', '자연', '키트', '음식', '재료', '기타', '소중한 것'] as const;
+type CategoryFilter = (typeof CATEGORY_FILTERS)[number];
 
 function VisualCard({
   title,
@@ -95,14 +93,149 @@ function CardPreview({ src, alt, size = 'default' }: { src: string | null; alt: 
   );
 }
 
+// 아이템 상세 모달 컴포넌트
+function ItemDetailModal({ entry, onClose }: { entry: AllItemEntry; onClose: () => void }) {
+  const name = displayName(entry.nameKo, entry.nameJp);
+
+  // Escape 키로 닫기
+  useEffect(() => {
+    function handleKeyDown(e: KeyboardEvent) {
+      if (e.key === 'Escape') onClose();
+    }
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, [onClose]);
+
+  // 스크롤 잠금
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, []);
+
+  return (
+    <div
+      className="fixed inset-0 z-[100] flex items-center justify-center p-4"
+      onClick={onClose}
+    >
+      {/* 배경 오버레이 */}
+      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
+
+      {/* 모달 카드 */}
+      <div
+        className="relative z-10 w-full max-w-lg rounded-2xl border border-border bg-card p-6 shadow-xl"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {/* 닫기 버튼 */}
+        <button
+          type="button"
+          onClick={onClose}
+          className="absolute right-4 top-4 flex h-8 w-8 items-center justify-center rounded-full border border-border bg-background text-muted-foreground hover:text-foreground"
+          aria-label="닫기"
+        >
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L13 13M13 1L1 13" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+          </svg>
+        </button>
+
+        {/* 이미지 */}
+        {entry.imagePath && (
+          <div className="mb-4 flex justify-center">
+            <div className="relative h-32 w-32 overflow-hidden rounded-2xl border border-border bg-muted p-2">
+              <Image
+                src={entry.imagePath}
+                alt={name}
+                fill
+                className="object-contain p-1"
+                unoptimized
+              />
+            </div>
+          </div>
+        )}
+
+        {/* 카테고리 배지 + 이름 */}
+        <div className="flex flex-wrap items-center gap-2">
+          {entry.categoryKo && (
+            <span className="rounded-full bg-pk-green-light px-2.5 py-1 text-[11px] font-semibold text-pk-green-dark">
+              {entry.categoryKo}
+            </span>
+          )}
+          {entry.craftMaterialsJp.length > 0 && (
+            <span className="rounded-full bg-muted px-2.5 py-1 text-[11px] font-semibold text-muted-foreground">
+              제작 가능
+            </span>
+          )}
+        </div>
+        <h2 className="mt-2 text-lg font-bold text-foreground">{name}</h2>
+
+        {/* 설명 (한국어만) */}
+        {entry.descriptionKo && (
+          <p className="mt-3 text-sm text-muted-foreground">{entry.descriptionKo}</p>
+        )}
+
+        {/* 제작 재료 */}
+        {entry.craftMaterialsJp.length > 0 && (
+          <div className="mt-4">
+            <p className="text-xs font-semibold text-foreground">제작 재료</p>
+            <div className="mt-1.5 flex flex-wrap gap-1.5">
+              {entry.craftMaterialsJp.map((mat, i) => (
+                <MaterialTag key={`modal-craft-${i}`} material={`${mat.nameKo || ''} ×${mat.count}`} />
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+// 컴팩트 아이템 그리드 카드 (썸네일)
+function CompactItemCard({ entry, onClick }: { entry: AllItemEntry; onClick: () => void }) {
+  const name = displayName(entry.nameKo, entry.nameJp);
+
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className="group flex flex-col overflow-hidden rounded-2xl border border-border bg-background transition-colors hover:border-pk-green hover:bg-pk-green-light/20"
+    >
+      {/* 썸네일 영역 */}
+      <div className="relative aspect-square w-full bg-muted">
+        {entry.imagePath ? (
+          <Image
+            src={entry.imagePath}
+            alt={name}
+            fill
+            className="object-contain p-2"
+            unoptimized
+          />
+        ) : (
+          <div className="flex h-full w-full items-center justify-center">
+            <span className="text-xl text-muted-foreground">?</span>
+          </div>
+        )}
+      </div>
+      {/* 이름 + 카테고리 */}
+      <div className="flex flex-col gap-0.5 p-2">
+        <span className="line-clamp-1 text-xs font-medium text-foreground">{name}</span>
+        {entry.categoryKo && (
+          <span className="line-clamp-1 text-[10px] text-muted-foreground">{entry.categoryKo}</span>
+        )}
+      </div>
+    </button>
+  );
+}
+
 export default function ItemsPageClient({ data }: ItemsPageClientProps) {
   const searchParams = useSearchParams();
   const querySearch = searchParams.get('q') ?? '';
   const queryTab = searchParams.get('tab');
-  const queryRecipeSource = searchParams.get('recipeSource') ?? 'all';
   const [activeTab, setActiveTab] = useState<ItemsTab>(isItemsTab(queryTab) ? queryTab : 'allitems');
   const [search, setSearch] = useState(querySearch);
-  const [recipeSourceFilter, setRecipeSourceFilter] = useState<RecipeSourceFilter>(isRecipeSourceFilter(queryRecipeSource) ? queryRecipeSource : 'all');
+  const [categoryFilter, setCategoryFilter] = useState<CategoryFilter>('전체');
+  const [selectedItem, setSelectedItem] = useState<AllItemEntry | null>(null);
+  const filterRowRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     setSearch(querySearch);
@@ -113,40 +246,30 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
       setActiveTab('allitems');
       return;
     }
-
     setActiveTab(queryTab);
   }, [queryTab]);
-
-  useEffect(() => {
-    if (isRecipeSourceFilter(queryRecipeSource)) {
-      setRecipeSourceFilter(queryRecipeSource);
-      return;
-    }
-
-    setRecipeSourceFilter('all');
-  }, [queryRecipeSource]);
 
   const syncedParams = useMemo(
     () => ({
       q: search,
       tab: activeTab === 'allitems' ? undefined : activeTab,
-      recipeSource: activeTab === 'recipes' && recipeSourceFilter !== 'all' ? recipeSourceFilter : undefined,
     }),
-    [activeTab, recipeSourceFilter, search]
+    [activeTab, search]
   );
 
   useSyncQueryParams(syncedParams);
 
-  const recipeEntries = useMemo(
-    () => [...data.recipes.shop.map((entry) => ({ ...entry, label: '상점' })), ...data.recipes.other.map((entry) => ({ ...entry, label: '기타' }))],
-    [data.recipes.other, data.recipes.shop]
-  );
-
   const filteredAllItems = useMemo(() => {
     const query = search.trim().toLowerCase();
 
-    return data.allItems.filter((entry: AllItemEntry) =>
-      matchesQuery(query, [
+    return data.allItems.filter((entry: AllItemEntry) => {
+      // 카테고리 필터
+      if (categoryFilter !== '전체' && entry.categoryKo !== categoryFilter) {
+        return false;
+      }
+
+      // 검색어 필터
+      return matchesQuery(query, [
         entry.nameKo,
         entry.nameJp,
         entry.categoryKo,
@@ -155,9 +278,9 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
         entry.descriptionJp,
         ...entry.craftMaterialsJp.map((m) => m.nameKo),
         ...entry.craftMaterialsJp.map((m) => m.nameJp),
-      ])
-    );
-  }, [data.allItems, search]);
+      ]);
+    });
+  }, [data.allItems, search, categoryFilter]);
 
   const filteredCraftable = useMemo(() => {
     const query = search.trim().toLowerCase();
@@ -179,18 +302,6 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
       ])
     );
   }, [data.buildings, search]);
-
-  const filteredRecipes = useMemo(() => {
-    const query = search.trim().toLowerCase();
-
-    return recipeEntries.filter((entry) => {
-      if (recipeSourceFilter !== 'all' && entry.sourceType !== recipeSourceFilter) {
-        return false;
-      }
-
-      return matchesQuery(query, [entry.nameJp, entry.sourceJp, entry.sourceKo, entry.label]);
-    });
-  }, [recipeEntries, recipeSourceFilter, search]);
 
   const filteredDolls = useMemo(() => {
     const query = search.trim().toLowerCase();
@@ -238,6 +349,8 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
       .filter((group) => group.items.length > 0);
   }, [data.ancientItemGroups, search]);
 
+  const handleCloseModal = useCallback(() => setSelectedItem(null), []);
+
   return (
     <div className="space-y-8">
       <div>
@@ -256,7 +369,10 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
         <div className="mt-3">
           <select
             value={activeTab}
-            onChange={(event) => setActiveTab(event.target.value as ItemsTab)}
+            onChange={(event) => {
+              setActiveTab(event.target.value as ItemsTab);
+              setCategoryFilter('전체');
+            }}
             className="h-9 rounded-xl border border-border bg-background px-3 text-sm font-semibold text-foreground focus:border-pk-green focus:outline-none focus:ring-2 focus:ring-pk-green/20"
           >
             {(Object.keys(tabLabels) as ItemsTab[]).map((tab) => (
@@ -267,64 +383,55 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
           </select>
         </div>
 
+        {/* 전체 아이템 탭 - 카테고리 필터 칩 */}
         {activeTab === 'allitems' && (
-          <div className="mt-4 grid gap-3 xl:grid-cols-2">
+          <div
+            ref={filterRowRef}
+            className="mt-3 flex gap-2 overflow-x-auto pb-1"
+            style={{ scrollbarWidth: 'none' }}
+          >
+            {CATEGORY_FILTERS.map((cat) => {
+              const active = categoryFilter === cat;
+              return (
+                <button
+                  key={cat}
+                  type="button"
+                  onClick={() => setCategoryFilter(cat)}
+                  className={`shrink-0 rounded-full px-3 py-1.5 text-xs font-semibold transition-colors ${
+                    active
+                      ? 'bg-pk-green text-white'
+                      : 'border border-border text-foreground hover:border-pk-green'
+                  }`}
+                >
+                  {cat}
+                </button>
+              );
+            })}
+          </div>
+        )}
+
+        {/* 전체 아이템 탭 - 컴팩트 4열 그리드 */}
+        {activeTab === 'allitems' && (
+          <div className="mt-4 grid grid-cols-2 gap-2 md:grid-cols-3 xl:grid-cols-4">
             {filteredAllItems.map((entry) => (
-              <article key={entry.id} className="rounded-3xl border border-border bg-background p-5" style={{ contentVisibility: 'auto' }}>
-                <CardPreview src={entry.imagePath} alt={displayName(entry.nameKo, entry.nameJp)} />
-                <div className="flex flex-wrap items-center gap-2">
-                  {entry.categoryKo && (
-                    <span className="rounded-full bg-pk-green-light px-2.5 py-1 text-[11px] font-semibold text-pk-green-dark">{entry.categoryKo}</span>
-                  )}
-                  {entry.craftMaterialsJp.length > 0 && (
-                    <span className="rounded-full bg-muted px-2.5 py-1 text-[11px] font-semibold text-muted-foreground">
-                      제작 가능
-                    </span>
-                  )}
-                </div>
-                <h3 className="mt-3 text-base font-bold text-foreground">{displayName(entry.nameKo, entry.nameJp)}</h3>
-                <div className="mt-3 space-y-2 text-sm text-muted-foreground">
-                  {entry.descriptionKo && <p>{entry.descriptionKo}</p>}
-                  {entry.craftMaterialsJp.length > 0 && (
-                    <div>
-                      <p className="font-semibold text-foreground">제작 재료</p>
-                      <div className="mt-1 flex flex-wrap gap-1.5">
-                        {entry.craftMaterialsJp.map((mat, i) => (
-                          <MaterialTag key={`${entry.id}-craft-${i}`} material={`${mat.nameKo || ''} ×${mat.count}`} />
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                </div>
-              </article>
+              <CompactItemCard
+                key={entry.id}
+                entry={entry}
+                onClick={() => setSelectedItem(entry)}
+              />
             ))}
           </div>
         )}
 
+        {/* 제작 아이템 탭 - 컴팩트 4열 그리드 */}
         {activeTab === 'craftable' && (
-          <div className="mt-4 grid gap-3 xl:grid-cols-2">
+          <div className="mt-4 grid grid-cols-2 gap-2 md:grid-cols-3 xl:grid-cols-4">
             {filteredCraftable.map((entry) => (
-              <article key={entry.id} className="rounded-3xl border border-border bg-background p-5" style={{ contentVisibility: 'auto' }}>
-                <CardPreview src={entry.imagePath} alt={displayName(entry.nameKo, entry.nameJp)} />
-                <div className="flex flex-wrap items-center gap-2">
-                  {entry.categoryKo && (
-                    <span className="rounded-full bg-pk-green-light px-2.5 py-1 text-[11px] font-semibold text-pk-green-dark">{entry.categoryKo}</span>
-                  )}
-                  <span className="rounded-full bg-muted px-2.5 py-1 text-[11px] font-semibold text-muted-foreground">제작 가능</span>
-                </div>
-                <h3 className="mt-3 text-base font-bold text-foreground">{displayName(entry.nameKo, entry.nameJp)}</h3>
-                <div className="mt-3 space-y-2 text-sm text-muted-foreground">
-                  {entry.descriptionKo && <p>{entry.descriptionKo}</p>}
-                  <div>
-                    <p className="font-semibold text-foreground">제작 재료</p>
-                    <div className="mt-1 flex flex-wrap gap-1.5">
-                      {entry.craftMaterialsJp.map((mat, i) => (
-                        <MaterialTag key={`${entry.id}-craft-${i}`} material={`${mat.nameKo || ''} ×${mat.count}`} />
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </article>
+              <CompactItemCard
+                key={entry.id}
+                entry={entry}
+                onClick={() => setSelectedItem(entry)}
+              />
             ))}
           </div>
         )}
@@ -374,61 +481,6 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                 </dl>
               </article>
             ))}
-          </div>
-        )}
-
-        {activeTab === 'recipes' && (
-          <div className="mt-4 space-y-4">
-            <div className="flex flex-wrap gap-2">
-              {[
-                { key: 'all', label: '전체' },
-                { key: 'shop', label: '상점' },
-                { key: 'other', label: '기타' },
-              ].map((filter) => {
-                const active = recipeSourceFilter === filter.key;
-                return (
-                  <button
-                    key={filter.key}
-                    type="button"
-                    onClick={() => setRecipeSourceFilter(filter.key as RecipeSourceFilter)}
-                    className={`rounded-full px-3 py-2 text-xs font-semibold transition-colors ${
-                      active ? 'bg-pk-brown text-white' : 'border border-border bg-background text-foreground hover:border-pk-brown'
-                    }`}
-                  >
-                    {filter.label}
-                  </button>
-                );
-              })}
-            </div>
-            <div className="grid gap-3 xl:grid-cols-2">
-              {filteredRecipes.map((entry) => (
-                <article
-                  key={entry.id}
-                  className="rounded-3xl border border-border bg-background p-5"
-                  style={{ contentVisibility: 'auto' }}
-                >
-                  <CardPreview src={entry.imagePath} alt={displayName(entry.nameKo, entry.nameJp)} />
-                  <div className="flex flex-wrap items-center gap-2">
-                    <span className="rounded-full bg-pk-green-light px-2.5 py-1 text-[11px] font-semibold text-pk-green-dark">{entry.label}</span>
-                    {typeof entry.price === 'number' && (
-                      <span className="rounded-full bg-muted px-2.5 py-1 text-[11px] font-semibold text-muted-foreground">{entry.price} 포코</span>
-                    )}
-                  </div>
-                  <h3 className="mt-3 text-base font-bold text-foreground">{displayName(entry.nameKo, entry.nameJp)}</h3>
-                  <p className="mt-2 text-sm text-muted-foreground">입수: {entry.sourceKo}</p>
-                  {entry.materialsJp && entry.materialsJp.length > 0 && (
-                    <div className="mt-2">
-                      <p className="text-xs font-semibold text-foreground">제작 재료</p>
-                      <div className="mt-1 flex flex-wrap gap-1.5">
-                        {(entry.materialsKo || entry.materialsJp).map((mat: string, i: number) => (
-                          <MaterialTag key={`${entry.id}-mat-${i}`} material={mat} />
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                </article>
-              ))}
-            </div>
           </div>
         )}
 
@@ -547,10 +599,10 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
           </div>
         )}
 
+        {/* 빈 상태 메시지 */}
         {activeTab === 'allitems' && filteredAllItems.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 아이템이 없습니다.</div>}
         {activeTab === 'craftable' && filteredCraftable.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 제작 아이템이 없습니다.</div>}
         {activeTab === 'buildings' && filteredBuildings.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 건축 키트가 없습니다.</div>}
-        {activeTab === 'recipes' && filteredRecipes.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 레시피가 없습니다.</div>}
         {activeTab === 'dolls' && filteredDolls.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 인형이 없습니다.</div>}
         {activeTab === 'cds' && filteredCds.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 CD가 없습니다.</div>}
         {activeTab === 'berries' && filteredBerries.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 열매가 없습니다.</div>}
@@ -558,6 +610,11 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
         {activeTab === 'collections' && filteredCollections.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 컬렉션이 없습니다.</div>}
         {activeTab === 'ancients' && filteredAncients.length === 0 && <div className="py-16 text-center text-sm text-muted-foreground">조건에 맞는 고대의 물건이 없습니다.</div>}
       </section>
+
+      {/* 아이템 상세 모달 */}
+      {selectedItem && (
+        <ItemDetailModal entry={selectedItem} onClose={handleCloseModal} />
+      )}
     </div>
   );
 }

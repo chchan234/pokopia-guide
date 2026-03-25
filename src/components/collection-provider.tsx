@@ -18,11 +18,13 @@ interface CollectionContextValue {
   recordOwnedSet: Set<number>;
   fashionOwnedSet: Set<string>;
   bestshotOwnedSet: Set<string>;
+  recipeOwnedSet: Set<string>;
   togglePokemon: (slug: string) => void;
   toggleHabitat: (id: string) => void;
   toggleRecord: (id: number) => void;
   toggleFashion: (id: string) => void;
   toggleBestshot: (id: string) => void;
+  toggleRecipe: (id: string) => void;
   setAllPokemon: (slugs: string[]) => void;
   clearAllPokemon: () => void;
   setAllHabitats: (ids: string[]) => void;
@@ -33,6 +35,8 @@ interface CollectionContextValue {
   clearAllFashion: () => void;
   setAllBestshots: (ids: string[]) => void;
   clearAllBestshots: () => void;
+  setAllRecipes: (ids: string[]) => void;
+  clearAllRecipes: () => void;
 }
 
 const CollectionContext = createContext<CollectionContextValue | null>(null);
@@ -66,6 +70,7 @@ function parseStoredState(raw: string | null): CollectionState {
       records: Array.isArray(parsed.records) ? parsed.records.filter((entry): entry is number => typeof entry === 'number') : [],
       fashion: Array.isArray(parsed.fashion) ? parsed.fashion.filter((entry): entry is string => typeof entry === 'string') : [],
       bestshots: Array.isArray(parsed.bestshots) ? parsed.bestshots.filter((entry): entry is string => typeof entry === 'string') : [],
+      recipes: Array.isArray(parsed.recipes) ? parsed.recipes.filter((entry): entry is string => typeof entry === 'string') : [],
     };
   } catch {
     return defaultCollectionState;
@@ -227,6 +232,21 @@ export function CollectionProvider({ children }: { children: ReactNode }) {
     updateStoredState((current) => ({ ...current, bestshots: [] }));
   }, []);
 
+  const toggleRecipe = useCallback((id: string) => {
+    updateStoredState((current) => ({
+      ...current,
+      recipes: toggleStringValue(current.recipes, id),
+    }));
+  }, []);
+
+  const setAllRecipes = useCallback((ids: string[]) => {
+    updateStoredState((current) => ({ ...current, recipes: ids }));
+  }, []);
+
+  const clearAllRecipes = useCallback(() => {
+    updateStoredState((current) => ({ ...current, recipes: [] }));
+  }, []);
+
   const value = useMemo<CollectionContextValue>(
     () => ({
       hydrated,
@@ -236,11 +256,13 @@ export function CollectionProvider({ children }: { children: ReactNode }) {
       recordOwnedSet: new Set(state.records),
       fashionOwnedSet: new Set(state.fashion),
       bestshotOwnedSet: new Set(state.bestshots),
+      recipeOwnedSet: new Set(state.recipes),
       togglePokemon,
       toggleHabitat,
       toggleRecord,
       toggleFashion,
       toggleBestshot,
+      toggleRecipe,
       setAllPokemon,
       clearAllPokemon,
       setAllHabitats,
@@ -251,11 +273,14 @@ export function CollectionProvider({ children }: { children: ReactNode }) {
       clearAllFashion,
       setAllBestshots,
       clearAllBestshots,
+      setAllRecipes,
+      clearAllRecipes,
     }),
     [
       hydrated,
       state,
       toggleBestshot,
+      toggleRecipe,
       toggleFashion,
       toggleHabitat,
       togglePokemon,
@@ -270,6 +295,8 @@ export function CollectionProvider({ children }: { children: ReactNode }) {
       clearAllFashion,
       setAllBestshots,
       clearAllBestshots,
+      setAllRecipes,
+      clearAllRecipes,
     ]
   );
 
