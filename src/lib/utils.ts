@@ -1,6 +1,6 @@
-/** 한국어 이름이 있으면 한국어, 없으면 일본어를 반환 */
-export function displayName(nameKo: string | null | undefined, nameJp: string) {
-  return nameKo || nameJp;
+/** 한국어 이름 반환. 없으면 빈 문자열 (일본어 표시 금지) */
+export function displayName(nameKo: string | null | undefined, _nameJp: string) {
+  return nameKo || '';
 }
 
 /** 쿼리 문자열이 비어있으면 true, 아니면 values 중 하나라도 포함하면 true */

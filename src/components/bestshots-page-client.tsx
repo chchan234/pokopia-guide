@@ -103,7 +103,7 @@ export default function BestshotsPageClient({ bestshots }: BestshotsPageClientPr
                 <div className="relative aspect-video w-full bg-muted">
                   <Image
                     src={bs.imagePath}
-                    alt={bs.nameKo || bs.nameJp}
+                    alt={bs.nameKo || ''}
                     fill
                     sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
                     className="object-cover"
@@ -116,7 +116,7 @@ export default function BestshotsPageClient({ bestshots }: BestshotsPageClientPr
                   <div>
                     <div className="flex items-center gap-2">
                       <span className="mono text-xs text-muted-foreground">#{String(bs.number).padStart(2, '0')}</span>
-                      <h3 className="text-sm font-bold text-foreground">{bs.nameKo || bs.nameJp}</h3>
+                      <h3 className="text-sm font-bold text-foreground">{bs.nameKo || ''}</h3>
                     </div>
                     <p className="mt-2 text-xs text-muted-foreground">{bs.conditionKo}</p>
                     {bs.rewardKo !== '없음' && (

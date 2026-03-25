@@ -309,9 +309,9 @@ export const globalSearchEntries: GlobalSearchEntry[] = [
     id: `item-${entry.id}`,
     categoryKey: 'items',
     categoryLabel: '아이템',
-    title: entry.nameKo || entry.nameJp,
-    subtitle: [entry.categoryKo, entry.descriptionKo || entry.descriptionJp].filter(Boolean).join(' · '),
-    href: `/items?tab=allitems&q=${encodeURIComponent(entry.nameKo || entry.nameJp)}`,
+    title: entry.nameKo || '',
+    subtitle: [entry.categoryKo, entry.descriptionKo].filter(Boolean).join(' · '),
+    href: `/items?tab=allitems&q=${encodeURIComponent(entry.nameKo || '')}`,
     imagePath: entry.imagePath,
     searchText: buildSearchText([
       entry.nameKo,

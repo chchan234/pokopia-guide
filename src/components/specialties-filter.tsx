@@ -101,7 +101,7 @@ export default function SpecialtiesFilter({ groups }: { groups: SpecialtyGroupWi
               <div className="flex items-center justify-between gap-4">
                 <div>
                   <h2 className="text-base font-bold text-foreground">{specialty.name}</h2>
-                  <p className="text-sm text-muted-foreground sm:text-xs">{specialty.nameJp}</p>
+                  <p className="text-sm text-muted-foreground sm:text-xs">{specialty.description}</p>
                 </div>
                 <span className="mono text-lg font-bold text-pk-green">
                   {search ? `${specialty.visiblePokemon.length}/${specialty.pokemon.length}` : specialty.pokemon.length}

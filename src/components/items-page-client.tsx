@@ -284,13 +284,13 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                 </div>
                 <h3 className="mt-3 text-base font-bold text-foreground">{displayName(entry.nameKo, entry.nameJp)}</h3>
                 <div className="mt-3 space-y-2 text-sm text-muted-foreground">
-                  {(entry.descriptionKo || entry.descriptionJp) && <p>{entry.descriptionKo || entry.descriptionJp}</p>}
+                  {entry.descriptionKo && <p>{entry.descriptionKo}</p>}
                   {entry.craftMaterialsJp.length > 0 && (
                     <div>
                       <p className="font-semibold text-foreground">제작 재료</p>
                       <div className="mt-1 flex flex-wrap gap-1.5">
                         {entry.craftMaterialsJp.map((mat, i) => (
-                          <MaterialTag key={`${entry.id}-craft-${i}`} material={`${mat.nameKo || mat.nameJp} ×${mat.count}`} />
+                          <MaterialTag key={`${entry.id}-craft-${i}`} material={`${mat.nameKo || ''} ×${mat.count}`} />
                         ))}
                       </div>
                     </div>
@@ -314,12 +314,12 @@ export default function ItemsPageClient({ data }: ItemsPageClientProps) {
                 </div>
                 <h3 className="mt-3 text-base font-bold text-foreground">{displayName(entry.nameKo, entry.nameJp)}</h3>
                 <div className="mt-3 space-y-2 text-sm text-muted-foreground">
-                  {(entry.descriptionKo || entry.descriptionJp) && <p>{entry.descriptionKo || entry.descriptionJp}</p>}
+                  {entry.descriptionKo && <p>{entry.descriptionKo}</p>}
                   <div>
                     <p className="font-semibold text-foreground">제작 재료</p>
                     <div className="mt-1 flex flex-wrap gap-1.5">
                       {entry.craftMaterialsJp.map((mat, i) => (
-                        <MaterialTag key={`${entry.id}-craft-${i}`} material={`${mat.nameKo || mat.nameJp} ×${mat.count}`} />
+                        <MaterialTag key={`${entry.id}-craft-${i}`} material={`${mat.nameKo || ''} ×${mat.count}`} />
                       ))}
                     </div>
                   </div>
